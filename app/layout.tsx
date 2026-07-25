@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "audible credit value",
     "best audiobooks to spend credits on",
     "audible credit optimizer",
-  ],,
+  ],
   openGraph: {
     type: "website",
     locale: SITE_CONFIG.locale,

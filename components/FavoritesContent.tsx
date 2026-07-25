@@ -1,6 +1,6 @@
 ﻿'use client';
 
-import { useMemo, useCallback } from 'react';
+import { useMemo } from 'react';
 import { Heart, Bookmark } from 'lucide-react';
 import type { Book } from '@/lib/types';
 import { BookList } from '@/components/BookList';
@@ -29,7 +29,7 @@ export function FavoritesContent({ books }: FavoritesContentProps) {
         <p className="text-sm text-text-secondary">
           {favoriteBooks.length > 0
             ? ${favoriteBooks.length} saved audiobook. Click the bookmark icon on any book to save or remove it.
-            : 'You haven\'t saved any audiobooks yet. Browse the top books and click the bookmark icon to save your favorites.'}
+            : "You haven't saved any audiobooks yet. Browse the top books and click the bookmark icon to save your favorites."}
         </p>
       </div>
 
