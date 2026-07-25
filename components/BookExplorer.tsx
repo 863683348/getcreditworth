@@ -33,8 +33,8 @@ export function BookExplorer({
   const [narrator, setNarrator] = useState('');
   const [viewMode, setViewMode] = useState<ViewMode>('card');
 
-  // 所有分类（从传入的 books 提取）
-  const allNarrators = useMemo(() => {
+  // 所有讲述者（从传入的 books 提取）
+const allNarrators = useMemo(() => {
     const set = new Set<string>();
     books.forEach((book) => {
       if (book.narrator) {
@@ -95,7 +95,7 @@ export function BookExplorer({
 
       {viewMode === 'card' ? (
         <BookList
-          books={paginatedBooks}
+          books={filteredBooks}
           showRank={showRank}
           emptyMessage={emptyMessage}
         />

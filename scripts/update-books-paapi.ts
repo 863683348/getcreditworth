@@ -65,7 +65,7 @@ async function main(): Promise<void> {
         const idx = booksRaw.findIndex((b) => b.asin === item.ASIN);
         if (idx === -1) continue;
 
-        booksRaw[idx] = mergePaapiData(booksRaw[idx], updateData);
+        booksRaw[idx] = mergePaapiData(booksRaw[idx]!, updateData);
         updated++;
       }
     } catch (err) {

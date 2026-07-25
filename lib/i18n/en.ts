@@ -13,7 +13,7 @@ export const en = {
     favorites: 'Favorites',
     compare: 'Compare',
     toggleMenu: 'Toggle menu',
-    switchToChinese: '鍒囨崲鍒颁腑鏂?,
+    switchToChinese: 'Switch to Chinese',
     switchToEnglish: 'Switch to English',
   },
 
