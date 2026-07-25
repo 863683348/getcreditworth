@@ -6,7 +6,6 @@ import { Menu, X, Trophy, BookOpen, ListChecks, Calculator, FileText } from "luc
 import { NAV_ITEMS, SITE_CONFIG } from "@/lib/config";
 import { useI18n } from "@/lib/i18n";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
-import { buildAudibleTrialUrl } from "@/lib/utils/affiliate";
 
 const ICON_MAP = {
   Trophy,
@@ -43,12 +42,7 @@ export function Header() {
       <div className="container-content flex h-14 sm:h-16 items-center justify-between safe-area-padding">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 flex-shrink-0" onClick={() => setMobileOpen(false)}>
-          <span className="flex h-7 w-7 sm:h-8 sm:w-8 items-center justify-center rounded-lg bg-primary text-white font-mono font-bold text-xs sm:text-sm">
-            GC
-          </span>
-          <span className="font-semibold text-base sm:text-lg text-text-primary hidden xs:inline">
-            {SITE_CONFIG.name}
-          </span>
+          <span class="font-semibold text-base sm:text-lg text-text-primary">GetCreditWorth</span>
         </Link>
 
         {/* Desktop Nav */}
@@ -71,14 +65,6 @@ export function Header() {
 
         {/* Right side */}
         <div className="flex items-center gap-1 sm:gap-2">
-          <a
-            href={buildAudibleTrialUrl()}
-            target="_blank"
-            rel="noopener noreferrer sponsored"
-            className="hidden sm:inline-flex items-center px-2.5 md:px-4 py-1.5 md:py-2 text-xs md:text-sm font-semibold rounded-md border-2 border-primary text-primary bg-bg-base hover:bg-primary hover:text-white transition-colors duration-150 whitespace-nowrap"
-          >
-            {t.header.freeTrial}
-          </a>
           <LanguageSwitcher />
           <button
             className="md:hidden flex items-center justify-center h-10 w-10 rounded-md text-text-primary hover:bg-bg-surface"
@@ -110,15 +96,6 @@ export function Header() {
                 </Link>
               );
             })}
-            <a
-              href={buildAudibleTrialUrl()}
-              target="_blank"
-              rel="noopener noreferrer sponsored"
-              className="flex items-center justify-center mt-2 px-3 py-3 text-sm font-semibold rounded-md border-2 border-primary text-primary bg-bg-base hover:bg-primary hover:text-white transition-colors duration-150 min-h-[44px]"
-              onClick={() => setMobileOpen(false)}
-            >
-              {t.header.freeTrial}
-            </a>
           </div>
         </nav>
       )}

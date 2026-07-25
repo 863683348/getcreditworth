@@ -12,21 +12,7 @@ export function Footer() {
   return (
     <footer className="border-t border-border bg-bg-surface mt-12 sm:mt-16">
       <div className="container-content py-8 sm:py-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-          {/* Brand */}
-          <div className="sm:col-span-2 lg:col-span-1">
-            <div className="flex items-center gap-2 mb-3">
-              <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary text-white font-mono font-bold text-sm">
-                GC
-              </span>
-              <span className="font-semibold text-text-primary">
-                {SITE_CONFIG.name}
-              </span>
-            </div>
-            <p className="text-sm text-text-secondary leading-relaxed">
-              {t.footer.description}
-            </p>
-          </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 sm:gap-8">
 
           {/* Links */}
           <div>
