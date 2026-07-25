@@ -1,6 +1,6 @@
-/**
- * 翻译字典 - 英文
- * 所有界面文案的英文版本
+﻿/**
+ * 缈昏瘧瀛楀吀 - 鑻辨枃
+ * 鎵€鏈夌晫闈㈡枃妗堢殑鑻辨枃鐗堟湰
  */
 export const en = {
   // Header / Nav
@@ -13,7 +13,7 @@ export const en = {
     favorites: 'Favorites',
     compare: 'Compare',
     toggleMenu: 'Toggle menu',
-    switchToChinese: '切换到中文',
+    switchToChinese: '鍒囨崲鍒颁腑鏂?,
     switchToEnglish: 'Switch to English',
   },
 
@@ -35,19 +35,19 @@ export const en = {
   // Inline trial banner (Book detail page)
   trialBanner: {
     title: 'Not an Audible member yet?',
-    subtitle: 'Start a free 30-day trial and get 1 audiobook on us. Cancel anytime — your book is yours to keep.',
+    subtitle: 'Start a free 30-day trial and get 1 audiobook on us. Cancel anytime 鈥?your book is yours to keep.',
     cta: 'Start Free Trial',
-    disclaimer: 'Affiliate link — we may earn a commission at no extra cost to you.',
+    disclaimer: 'Affiliate link 鈥?we may earn a commission at no extra cost to you.',
   },
 
   // Trial recommendation card (Book detail page)
   trialRecommend: {
     title: 'Use your free credit on this book',
-    reason1: 'A 30-day trial gives you 1 credit — worth $14.95 toward any audiobook',
+    reason1: 'A 30-day trial gives you 1 credit 鈥?worth $14.95 toward any audiobook',
     reason2: 'This book is priced above the credit value, so you\'d save money versus paying cash',
     reason3: 'You keep the audiobook forever, even if you cancel before day 30',
-    reason4: 'No commitment — cancel in one click from your Audible dashboard',
-    cta: 'Start Free Trial → Get 1 Book',
+    reason4: 'No commitment 鈥?cancel in one click from your Audible dashboard',
+    cta: 'Start Free Trial 鈫?Get 1 Book',
   },
 
   // Footer
@@ -69,10 +69,10 @@ export const en = {
   // Home page
   home: {
     title: 'Top Audiobooks by Value Score',
-    subtitle: 'Ranked by Value Score — a formula combining listening hours, rating, and price to find the best audiobooks to spend your Audible credits on.',
+    subtitle: 'Ranked by Value Score 鈥?a formula combining listening hours, rating, and price to find the best audiobooks to spend your Audible credits on.',
     howCalculated: 'How is Value Score calculated?',
     formulaLabel: 'The formula:',
-    formula: 'Value Score = (Duration in hours × Star Rating) / Price in USD',
+    formula: 'Value Score = (Duration in hours 脳 Star Rating) / Price in USD',
     bullet1: 'Higher scores mean better value for your credit',
     bullet2: 'Long, highly-rated books at higher prices are the best credit investments',
     bullet3: 'A $35 audiobook with 4.8 stars and 45 hours scores much higher than a $15 short book',
@@ -91,6 +91,15 @@ export const en = {
   },
 
   // Calculator page
+
+  // Pagination
+  pagination: {
+    showing: 'Showing {from}-{to} of {total}',
+    page: 'Page {page}',
+    prev: 'Previous',
+    next: 'Next',
+    perPage: 'Per page',
+  },
   calculatorPage: {
     title: 'Audible Credit Calculator',
     subtitle: 'Enter your credits and subscription plan to see the best audiobooks to spend them on, based on Value Score analysis.',
@@ -120,14 +129,14 @@ export const en = {
     intro: '{name} is a free tool that helps Audible subscribers find the best audiobooks to spend their credits on. Instead of guessing, you get data-driven recommendations based on a transparent Value Score formula.',
     howItWorks: 'How It Works',
     howItWorksDesc: 'Every audiobook is scored using this formula:',
-    howItWorksExplain: 'This formula rewards books that give you more listening time at higher quality. A 45-hour epic rated 4.8 stars at $35 will score far higher than a 6-hour novella at $15 — because your credit is worth the same {value} either way.',
+    howItWorksExplain: 'This formula rewards books that give you more listening time at higher quality. A 45-hour epic rated 4.8 stars at $35 will score far higher than a 6-hour novella at $15 鈥?because your credit is worth the same {value} either way.',
     whatYouGet: 'What You Get',
-    feature1: 'Value Score ranking — every audiobook ranked by true credit value',
-    feature2: 'Credit Calculator — see exactly how much your credits are worth',
-    feature3: 'Curated lists — hand-picked books by genre and goal',
-    feature4: 'Cost per hour — know exactly what each listening hour costs',
+    feature1: 'Value Score ranking 鈥?every audiobook ranked by true credit value',
+    feature2: 'Credit Calculator 鈥?see exactly how much your credits are worth',
+    feature3: 'Curated lists 鈥?hand-picked books by genre and goal',
+    feature4: 'Cost per hour 鈥?know exactly what each listening hour costs',
     affiliateTitle: 'Affiliate Disclosure',
-    affiliateDesc: '{name} is a participant in the Amazon Associates Program. As an Amazon Associate, we earn from qualifying purchases. This does not affect the price you pay, and it helps us keep this tool free. Our recommendations are based on data, not affiliate commissions — we score every book the same way.',
+    affiliateDesc: '{name} is a participant in the Amazon Associates Program. As an Amazon Associate, we earn from qualifying purchases. This does not affect the price you pay, and it helps us keep this tool free. Our recommendations are based on data, not affiliate commissions 鈥?we score every book the same way.',
     dataSources: 'Data Sources',
     dataSourcesDesc: 'Book data (prices, ratings, runtime) is sourced from the Amazon Product Advertising API 5.0 and updated regularly. Value Scores are calculated by our algorithm and may differ from other ranking systems.',
     browseTopBooks: 'Browse Top Books',

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useMemo, useCallback } from 'react';
+import { Pagination } from '@/components/Pagination';
 import type { Book } from '@/lib/types';
 import { BookList } from '@/components/BookList';
 import { BookTable } from '@/components/BookTable';
@@ -8,6 +9,7 @@ import { SearchBar } from '@/components/SearchBar';
 import { FilterBar } from '@/components/FilterBar';
 import { ViewToggle, type ViewMode } from '@/components/ViewToggle';
 import { filterBooks } from '@/lib/data/books';
+import { useEffect } from 'react';
 import { useI18n } from '@/lib/i18n';
 
 interface BookExplorerProps {
@@ -93,7 +95,7 @@ export function BookExplorer({
 
       {viewMode === 'card' ? (
         <BookList
-          books={filteredBooks}
+          books={paginatedBooks}
           showRank={showRank}
           emptyMessage={emptyMessage}
         />
