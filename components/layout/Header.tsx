@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
@@ -13,6 +13,7 @@ const ICON_MAP = {
   ListChecks,
   Calculator,
   FileText,
+  Bookmark,
 } as const;
 
 const NAV_LABELS: Record<string, "topBooks" | "allBooks" | "curatedLists" | "calculator" | "blog" | "favorites"> = {

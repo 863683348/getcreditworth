@@ -12,6 +12,7 @@ export const zh: TranslationKeys = {
     curatedLists: '榜单',
     calculator: '计算器',
     blog: '博客',
+    favorites: '收藏',
     toggleMenu: '切换菜单',
     switchToChinese: '切换到中文',
     switchToEnglish: 'Switch to English',

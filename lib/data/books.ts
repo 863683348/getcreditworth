@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 数据访问层
  * 集中加载静态 JSON 数据 + 计算分数
  * 所有页面通过此模块获取数据，避免重复逻辑
@@ -116,11 +116,6 @@ export function filterBooks(
       }
     }
 
-    // Narrator
-    if (filters.narrator) {
-      const keyword = filters.narrator.toLowerCase();
-      if (!book.narrator || !book.narrator.toLowerCase().includes(keyword)) return false;
-    }
     return true;
   });
 }
