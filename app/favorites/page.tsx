@@ -1,4 +1,4 @@
-﻿import { getAllBooks } from '@/lib/data/books';
+import { getAllBooks } from '@/lib/data/books';
 import { buildCanonicalUrl } from '@/lib/utils/affiliate';
 import { FavoritesContent } from '@/components/FavoritesContent';
 import type { Metadata } from 'next';
