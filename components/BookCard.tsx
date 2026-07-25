@@ -13,6 +13,8 @@ import {
   formatNumber,
 } from "@/lib/utils/format";
 import { useI18n } from "@/lib/i18n";
+import { useFavorites } from "@/lib/hooks/useFavorites";
+import { Heart } from "lucide-react";
 
 interface BookCardProps {
   book: Book;
@@ -64,6 +66,15 @@ export function BookCard({ book, rank, variant = "default" }: BookCardProps) {
               {t.bookCard.by} {book.author}
             </p>
           </div>
+          <button
+            onClick={(e) => { e.preventDefault(); toggleFavorite(book.asin); }}
+            className="flex-shrink-0 p-1.5 rounded-md hover:bg-bg-surface transition-colors"
+            aria-label={isFavorite(book.asin) ? "Remove from favorites" : "Add to favorites"}
+          >
+            <Heart
+              className={`h-4 w-4 ${isFavorite(book.asin) ? "fill-danger text-danger" : "text-text-muted"}`}
+            />
+          </button>
           <ValueScoreBadge score={book.valueScore} size="sm" showLabel={false} />
         </div>
 

@@ -10,20 +10,14 @@ export const metadata: Metadata = {
     default: SITE_CONFIG.title,
     template: `%s | ${SITE_CONFIG.name}`,
   },
-  description:
-    "Find the best audiobooks to spend your Audible credits on. Compare value scores, cost per hour, and credit worth to maximize every credit with data-driven recommendations.",
-  keywords: [
-    "best audiobooks to spend credits on",
-    "audible credit optimizer",
-    "audible books worth credits",
-  ],,
+  description: "Find the best audiobooks to spend your Audible credits on. Data-driven Value Scores and cost-per-hour comparisons.",
+
   alternates: {
     canonical: "/",
   },
   openGraph: {
     title: SITE_CONFIG.title,
-    description:
-      "Data-driven Audible credit value comparison. Find the best audiobooks worth your credits with Value Scores.",
+    description: "Find the best audiobooks to spend your Audible credits on. Data-driven Value Scores and cost-per-hour comparisons.",
   },
 };
 
@@ -32,3 +26,4 @@ export default function HomePage() {
 
   return <HomeContent topBooks={topBooks} />;
 }
+

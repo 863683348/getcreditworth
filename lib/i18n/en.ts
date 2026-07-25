@@ -1,4 +1,4 @@
-/**
+﻿/**
  * 翻译字典 - 英文
  * 所有界面文案的英文版本
  */
@@ -10,6 +10,7 @@ export const en = {
     curatedLists: 'Curated Lists',
     calculator: 'Calculator',
     blog: 'Blog',
+    favorites: 'Favorites',
     toggleMenu: 'Toggle menu',
     switchToChinese: '切换到中文',
     switchToEnglish: 'Switch to English',

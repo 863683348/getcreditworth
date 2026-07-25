@@ -9,17 +9,12 @@ export const revalidate = 3600;
 export const metadata: Metadata = {
   title: "Audible Credit Calculator - Maximize Your Credit Value",
   description:
-    "Use the free Audible credit calculator to see how much your credits are worth. Find the best audiobooks to spend your credits on based on Value Score analysis. Supports monthly, 2-credit, and annual plans.",
-  keywords: [
-    "audible credit calculator",
-    "how much is an audible credit worth",
-    "audible credit value calculator",
-  ],,
+    "Free Audible credit calculator. See how much your credits are worth and which books to spend them on.",
   alternates: { canonical: buildCanonicalUrl("/calculator") },
   openGraph: {
     title: "Audible Credit Calculator",
     description:
-      "Free tool to calculate your Audible credit value and find the best books to spend them on.",
+      "Free Audible credit calculator. See how much your credits are worth and which books to spend them on.",
   },
 };
 
@@ -32,3 +27,4 @@ export default function CalculatorPage() {
     </div>
   );
 }
+

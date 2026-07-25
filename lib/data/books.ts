@@ -1,4 +1,4 @@
-/**
+﻿/**
  * 数据访问层
  * 集中加载静态 JSON 数据 + 计算分数
  * 所有页面通过此模块获取数据，避免重复逻辑
@@ -46,6 +46,20 @@ export function getAllCategories(): string[] {
     book.categories.forEach((c) => categorySet.add(c));
   });
   return Array.from(categorySet).sort();
+}
+
+export function getNarrators(): string[] {
+  const set = new Set<string>();
+  allBooks.forEach((book) => {
+    if (book.narrator) {
+      // Split by comma to get individual narrators
+      book.narrator.split(',').forEach((n) => {
+        const name = n.trim();
+        if (name) set.add(name);
+      });
+    }
+  });
+  return Array.from(set).sort();
 }
 
 export function getCuratedLists(): CuratedList[] {
@@ -102,6 +116,11 @@ export function filterBooks(
       }
     }
 
+    // Narrator
+    if (filters.narrator) {
+      const keyword = filters.narrator.toLowerCase();
+      if (!book.narrator || !book.narrator.toLowerCase().includes(keyword)) return false;
+    }
     return true;
   });
 }

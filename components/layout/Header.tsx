@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import { Menu, X, Trophy, BookOpen, ListChecks, Calculator, FileText } from "lucide-react";
+import { Menu, X, Trophy, BookOpen, ListChecks, Calculator, FileText, Bookmark } from "lucide-react";
 import { NAV_ITEMS, SITE_CONFIG } from "@/lib/config";
 import { useI18n } from "@/lib/i18n";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
@@ -15,7 +15,7 @@ const ICON_MAP = {
   FileText,
 } as const;
 
-const NAV_LABELS: Record<string, "topBooks" | "allBooks" | "curatedLists" | "calculator" | "blog"> = {
+const NAV_LABELS: Record<string, "topBooks" | "allBooks" | "curatedLists" | "calculator" | "blog" | "favorites"> = {
   "/": "topBooks",
   "/books": "allBooks",
   "/curated": "curatedLists",
