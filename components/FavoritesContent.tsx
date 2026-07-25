@@ -15,7 +15,26 @@ export function FavoritesContent({ books }: FavoritesContentProps) {
   const favoriteBooks = books.filter(function(b) {
     return favorites.includes(b.asin);
   });
+
   return (
-    <div></div>
+    <div className='container-content py-6 md:py-8'>
+      <div className='mb-6'>
+        <div className='flex items-center gap-2 mb-2'>
+          <Heart className='h-5 w-5 text-danger' />
+          <h1 className='text-2xl md:text-3xl font-bold text-text-primary'>My Favorites</h1>
+        </div>
+        <p className='text-sm text-text-secondary'>
+          {favoriteBooks.length > 0 ? favoriteBooks.length + ' saved audiobook' + (favoriteBooks.length > 1 ? 's' : '') : 'No saved audiobooks yet. Browse and bookmark your favorites.'}
+        </p>
+      </div>
+      {favoriteBooks.length === 0 ? (
+        <div className='text-center py-16'>
+          <Bookmark className='h-12 w-12 text-text-muted mx-auto mb-4' />
+          <p className='text-text-secondary'>No saved audiobooks yet.</p>
+        </div>
+      ) : (
+        <BookList books={favoriteBooks} showRank={false} />
+      )}
+    </div>
   );
 }

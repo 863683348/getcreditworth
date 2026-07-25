@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 翻译字典 - 英文
  * 所有界面文案的英文版本
  */
@@ -85,6 +85,8 @@ export const en = {
     subtitle: 'Browse all {count} audiobooks. Use filters to find the perfect match for your listening goals.',
     pageTitle: 'All Audiobooks - Browse and Compare Value Scores',
     pageDescription: 'Browse all audiobooks with Value Scores. Filter by duration, rating, and category to find the best books for your Audible credits.',
+    curatedTitle: 'Curated Lists',
+    viewAll: 'View all',
   },
 
   // Calculator page

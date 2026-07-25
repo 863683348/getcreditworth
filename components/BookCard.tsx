@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import Link from "next/link";
 import Image from "next/image";
@@ -24,6 +24,7 @@ interface BookCardProps {
 
 export function BookCard({ book, rank, variant = "default" }: BookCardProps) {
   const { t } = useI18n();
+  const { toggleFavorite, isFavorite } = useFavorites();
   const redirectUrl = buildRedirectUrl(book.asin);
 
   return (
