@@ -42,7 +42,7 @@ export function Header() {
       <div className="container-content flex h-14 sm:h-16 items-center justify-between safe-area-padding">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 flex-shrink-0" onClick={() => setMobileOpen(false)}>
-          <span class="font-semibold text-base sm:text-lg text-text-primary">GetCreditWorth</span>
+          <span className="font-semibold text-base sm:text-lg text-text-primary">GetCreditWorth</span>
         </Link>
 
         {/* Desktop Nav */}
