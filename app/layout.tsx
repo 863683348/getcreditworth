@@ -56,6 +56,10 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  icons: {
+    icon: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   alternates: {
     languages: {
       en: `${baseUrl}/en`,
