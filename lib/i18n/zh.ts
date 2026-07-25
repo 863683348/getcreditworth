@@ -10,7 +10,7 @@ export const zh: TranslationKeys = {
     topBooks: '鎺掕',
     allBooks: '鍏ㄩ儴',
     curatedLists: '姒滃崟',
-    calculator: '璁＄畻鍣?,
+    calculator: '璁＄畻鍣?',
     blog: '鍗氬',
     favorites: '鏀惰棌',
     compare: '瀵规瘮',
@@ -251,3 +251,4 @@ export const zh: TranslationKeys = {
     coverAlt: '{title} 鐨勫皝闈?,
   },
 };
+
