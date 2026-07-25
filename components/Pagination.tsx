@@ -11,7 +11,7 @@
    onPageSizeChange: (size: number) => void;
  }
  
- const PAGE_SIZES = [100, 200, 300, 500];
+ const PAGE_SIZES = [100, 200, 300, 400, 500];
  
  export function Pagination({ current, total, pageSize, onPageChange, onPageSizeChange }: PaginationProps) {
    const { t } = useI18n();

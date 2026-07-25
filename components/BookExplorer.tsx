@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
 import { Pagination } from '@/components/Pagination';
 import type { Book } from '@/lib/types';
 import { BookList } from '@/components/BookList';
@@ -9,7 +9,6 @@ import { SearchBar } from '@/components/SearchBar';
 import { FilterBar } from '@/components/FilterBar';
 import { ViewToggle, type ViewMode } from '@/components/ViewToggle';
 import { filterBooks } from '@/lib/data/books';
-import { useEffect } from 'react';
 import { useI18n } from '@/lib/i18n';
 
 interface BookExplorerProps {
@@ -31,10 +30,15 @@ export function BookExplorer({
   const [minRating, setMinRating] = useState(0);
   const [category, setCategory] = useState('all');
   const [narrator, setNarrator] = useState('');
+  
+  const [currentPage, setCurrentPage] = useState(1);
+  const [pageSize, setPageSize] = useState(200);
   const [viewMode, setViewMode] = useState<ViewMode>('card');
 
-  // 所有讲述者（从传入的 books 提取）
-const allNarrators = useMemo(() => {
+  // 闁圭鍋撻柡鍫濐槼椤斿娼婚幏灞稿亾閸滃啰绀勫ù鐘茬凹缁卞爼宕楅妷褎鐣?books 闁圭粯鍔曡ぐ鍥晬?
+
+  
+  const allNarrators = useMemo(() => {
     const set = new Set<string>();
     books.forEach((book) => {
       if (book.narrator) {
@@ -65,6 +69,17 @@ const allNarrators = useMemo(() => {
     });
   }, [books, keyword, duration, minRating, category, narrator]);
 
+  // Reset page when filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [keyword, duration, minRating, category, narrator]);
+
+  // Paginate filtered books
+  const paginatedBooks = useMemo(() => {
+    const start = (currentPage - 1) * pageSize;
+    return filteredBooks.slice(start, start + pageSize);
+  }, [filteredBooks, currentPage, pageSize]);
+
   const handleSearch = useCallback((kw: string) => setKeyword(kw), []);
 
   return (
@@ -86,7 +101,14 @@ const allNarrators = useMemo(() => {
             resultCount={filteredBooks.length}
           />
           <ViewToggle mode={viewMode} onChange={setViewMode} />
-        </div>
+              <Pagination
+        current={currentPage}
+        total={filteredBooks.length}
+        pageSize={pageSize}
+        onPageChange={setCurrentPage}
+        onPageSizeChange={(size) => { setPageSize(size); setCurrentPage(1); }}
+      />
+    </div>
       </div>
 
       {title && filteredBooks.length > 0 && (
@@ -105,3 +127,4 @@ const allNarrators = useMemo(() => {
     </div>
   );
 }
+

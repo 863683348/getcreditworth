@@ -1,4 +1,4 @@
-﻿import { getBookList } from "@/lib/api/controllers/book.controller";
+import { getBookList } from "@/lib/api/controllers/book.controller";
 import { AllBooksContent } from "@/components/AllBooksContent";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import type { Metadata } from "next";
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 };
 
 export default function AllBooksPage() {
-  const result = getBookList({ pageSize: 200 });
+  const result = getBookList({ pageSize: 500 });
   return <AllBooksContent books={result.books} />;
 }
 

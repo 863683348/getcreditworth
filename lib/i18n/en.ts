@@ -248,6 +248,17 @@ export const en = {
     considerBuyingDesc: 'This book costs {price} which is less than a credit\'s value ({creditValue}). Save your credit for a more expensive book.',
     coverAlt: 'Cover of {title}',
   },
+  // FAQ
+  faq: {
+    q1: "How is the Audible Credit Value Score calculated?",
+    a1: "Value Score = (Duration in hours x Star Rating) / Price in USD. This rewards long, highly-rated books that give you the most listening time per dollar.",
+    q2: "What are the best audiobooks to spend credits on?",
+    a2: "The best audiobooks for your Audible credits are typically longer titles (20+ hours) with high ratings (4.5+ stars) priced above 20 USD.",
+    q3: "How much is an Audible credit worth?",
+    a3: "Each Audible credit is worth approximately 14.95 USD with the Premium Plus plan.",
+    q4: "Is an Audible membership worth it?",
+    a4: "An Audible membership is worth it if you listen to at least one audiobook per month. With credits worth 14.95 each, heavy listeners get exceptional value.",
+  },
 };
 
 export type TranslationKeys = typeof en;

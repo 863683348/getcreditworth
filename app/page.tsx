@@ -1,4 +1,4 @@
-﻿import { getTopBookList } from "@/lib/api/controllers/book.controller";
+import { getAllBooks } from "@/lib/data/books";
 import { HomeContent } from "@/components/HomeContent";
 import { SITE_CONFIG } from "@/lib/config";
 import type { Metadata } from "next";
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  const topBooks = getTopBookList(100);
+  const topBooks = getAllBooks();
 
   return <HomeContent topBooks={topBooks} />;
 }

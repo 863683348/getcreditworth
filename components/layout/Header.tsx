@@ -17,19 +17,21 @@ const ICON_MAP = {
   GitCompare,
 } as const;
 
-const NAV_LABELS: Record<string, "topBooks" | "allBooks" | "curatedLists" | "calculator" | "blog" | "favorites"> = {
+const NAV_LABELS: Record<string, "topBooks" | "allBooks" | "curatedLists" | "calculator" | "blog" | "favorites" | "compare"> = {
   "/": "topBooks",
   "/books": "allBooks",
   "/curated": "curatedLists",
   "/calculator": "calculator",
   "/blog": "blog",
+  "/favorites": "favorites",
+  "/compare": "compare",
 };
 
 export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const { t } = useI18n();
 
-  // 移动菜单打开时锁定 body 滚动
+  // 缁夎濮╅懣婊冨礋閹垫挸绱戦弮鍫曟敚鐎?body 濠婃艾濮?
   useEffect(() => {
     if (mobileOpen) {
       document.body.classList.add("menu-open");
@@ -104,3 +106,4 @@ export function Header() {
     </header>
   );
 }
+

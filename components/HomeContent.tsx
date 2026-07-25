@@ -80,7 +80,7 @@ export function HomeContent({ topBooks }: HomeContentProps) {
           <div className="grid grid-cols-3 gap-2 sm:gap-4 mt-6 pt-6 border-t border-border">
             <div>
               <div className="font-mono font-bold text-lg sm:text-2xl md:text-3xl text-primary">
-                123
+                {topBooks.length}
               </div>
               <div className="text-xs sm:text-sm text-text-muted mt-1">
                 {t.hero.statBooksLabel}
