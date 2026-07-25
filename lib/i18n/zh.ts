@@ -1,264 +1,172 @@
-/**
- * 缈昏瘧瀛楀吀 - 鑻辨枃
- * 鎵€鏈夌晫闈㈡枃妗堢殑鑻辨枃鐗堟湰
+﻿/**
+ * 翻译字典 - 中文
+ * 所有界面文案的中文版本
  */
 export const zh = {
   // Header / Nav
   nav: {
-    topBooks: 'Top Books',
-    allBooks: 'All Books',
-    curatedLists: 'Curated Lists',
-    calculator: 'Calculator',
-    blog: 'Blog',
-    favorites: 'Favorites',
-    compare: 'Compare',
-    toggleMenu: 'Toggle menu',
-    switchToChinese: 'Switch to Chinese',
-    switchToEnglish: 'Switch to English',
+    topBooks: "顶级书籍",
+    allBooks: "全部书籍",
+    curatedLists: "精选榜单",
+    calculator: "计算器",
+    blog: "博客",
+    favorites: "收藏",
+    compare: "对比",
+    toggleMenu: "切换菜单",
+    switchToChinese: "切换到中文",
+    switchToEnglish: "切换到英文",
   },
-
-  // Header CTA
-  header: {
-    freeTrial: 'Free 30-Day Trial',
-  },
-
-  // Hero CTA (Home page)
+  header: { freeTrial: "免费30天试用" },
   hero: {
-    ctaPrimary: 'Start Your Free 30-Day Trial',
-    ctaSecondary: 'Get 1 Free Book',
-    ctaNote: 'Cancel anytime. Keep the audiobook even if you cancel.',
-    statBooksLabel: 'Books Analyzed',
-    statCategoriesLabel: 'Categories',
-    statBountyLabel: 'Earned per Referral',
+    ctaPrimary: "开始您的免费30天试用",
+    ctaSecondary: "免费获得1本书",
+    ctaNote: "随时取消。即使取消，您也可以保留有声书。",
+    statBooksLabel: "已分析书籍",
+    statCategoriesLabel: "分类数量",
+    statBountyLabel: "每推荐佣金",
   },
-
-  // Inline trial banner (Book detail page)
   trialBanner: {
-    title: 'Not an Audible member yet?',
-    subtitle: 'Start a free 30-day trial and get 1 audiobook on us. Cancel anytime 鈥?your book is yours to keep.',
-    cta: 'Start Free Trial',
-    disclaimer: 'Affiliate link 鈥?we may earn a commission at no extra cost to you.',
+    title: "还不是Audible会员？",
+    subtitle: "开始免费30天试用，免费获得1本有声书。随时取消——您的书永久保留。",
+    cta: "开始免费试用",
+    disclaimer: "联盟链接——我们可能获得佣金，您无需额外付费。",
   },
-
-  // Trial recommendation card (Book detail page)
   trialRecommend: {
-    title: 'Use your free credit on this book',
-    reason1: 'A 30-day trial gives you 1 credit 鈥?worth $14.95 toward any audiobook',
-    reason2: 'This book is priced above the credit value, so you\'d save money versus paying cash',
-    reason3: 'You keep the audiobook forever, even if you cancel before day 30',
-    reason4: 'No commitment 鈥?cancel in one click from your Audible dashboard',
-    cta: 'Start Free Trial 鈫?Get 1 Book',
+    title: "用您的免费积分获取这本书",
+    reason1: "30天试用赠送1个积分——价值$14.95，可用于任何有声书",
+    reason2: "这本书定价高于积分价值，使用积分比现金购买更划算",
+    reason3: "即使在第30天前取消，您也可以永久保留这本书",
+    reason4: "无需承诺——从Audible控制面板一键取消",
+    cta: "开始免费试用",
   },
-
-  // Footer
   footer: {
-    description: 'Audible credit value optimizer. Find audiobooks worth your credits with data-driven value scores.',
-    explore: 'Explore',
-    topRated: 'Top Rated Books',
-    allBooks: 'All Books',
-    creditCalculator: 'Credit Calculator',
-    guidesBlog: 'Guides & Blog',
-    disclosure: 'Disclosure',
-    disclosureText: 'As an Amazon Associate, {name} earns from qualifying purchases. Audible is a trademark of Amazon.com, Inc. or its affiliates. This site is not affiliated with or endorsed by Amazon.',
-    about: 'About',
-    howItWorks: 'How It Works',
-    amazon: 'Amazon',
-    allRightsReserved: 'All rights reserved.',
+    description: "Audible积分价值优化器。通过数据驱动的价值评分，找到值得您积分的有声书。",
+    explore: "探索",
+    topRated: "高分书籍",
+    allBooks: "全部书籍",
+    creditCalculator: "积分计算器",
+    guidesBlog: "指南与博客",
+    disclosure: "声明",
+    disclosureText: "作为Amazon Associate，{name}从符合条件的购买中赚取佣金。Audible是Amazon.com, Inc.或其关联公司的商标。本网站与Amazon无关，也未获其认可。",
+    about: "关于",
+    howItWorks: "运作方式",
+    amazon: "Amazon",
+    allRightsReserved: "版权所有。",
   },
-
-  // Home page
   home: {
-    title: 'Top Audiobooks by Value Score',
-    subtitle: 'Ranked by Value Score 鈥?a formula combining listening hours, rating, and price to find the best audiobooks to spend your Audible credits on.',
-    howCalculated: 'How is Value Score calculated?',
-    formulaLabel: 'The formula:',
-    formula: 'Value Score = (Duration in hours 脳 Star Rating) / Price in USD',
-    bullet1: 'Higher scores mean better value for your credit',
-    bullet2: 'Long, highly-rated books at higher prices are the best credit investments',
-    bullet3: 'A $35 audiobook with 4.8 stars and 45 hours scores much higher than a $15 short book',
-    rankedList: 'Ranked #1 to #{limit}',
-    emptyMessage: 'No books match your filters. Try adjusting them.',
+    title: "顶级有声书价值评分排行",
+    subtitle: "按价值评分排名——一个结合收听时长、评分和价格的公式，帮您找到最值得使用Audible积分的有声书。",
+    howCalculated: "价值评分如何计算？",
+    formulaLabel: "公式：",
+    formula: "价值评分 = (收听小时数 × 星级评分) / 价格(美元)",
+    bullet1: "评分越高，积分使用价值越大",
+    bullet2: "时长长、评分高的高价书籍是最佳积分投资",
+    bullet3: "一本$35、4.8星、45小时的有声书，评分远高于$15的短篇书籍",
+    rankedList: "排名 #1 至 #{limit}",
+    emptyMessage: "没有符合筛选条件的书籍。请尝试调整筛选条件。",
   },
-
-  // Books list page
   booksPage: {
-    title: 'All Audiobooks',
-    subtitle: 'Browse all {count} audiobooks. Use filters to find the perfect match for your listening goals.',
-    pageTitle: 'All Audiobooks - Browse and Compare Value Scores',
-    pageDescription: 'Browse all audiobooks with Value Scores. Filter by duration, rating, and category to find the best books for your Audible credits.',
-    curatedTitle: 'Curated Lists',
-    viewAll: 'View all',
+    title: "全部有声书",
+    subtitle: "浏览全部 {count} 本有声书。使用筛选条件找到最适合您收听目标的书籍。",
+    pageTitle: "全部有声书 - 浏览并对比价值评分",
+    pageDescription: "浏览带有价值评分的全部有声书。按时长、评分和分类筛选，找到最适合您Audible积分的有声书。",
+    curatedTitle: "精选榜单",
+    viewAll: "查看全部",
   },
-
-  // Calculator page
-
-  // Pagination
   pagination: {
-    showing: 'Showing {from}-{to} of {total}',
-    page: 'Page {page}',
-    prev: 'Previous',
-    next: 'Next',
-    perPage: 'Per page',
+    showing: "显示 {from}-{to}，共 {total}",
+    page: "第 {page} 页",
+    prev: "上一页",
+    next: "下一页",
+    perPage: "每页显示",
   },
   calculatorPage: {
-    title: 'Audible Credit Calculator',
-    subtitle: 'Enter your credits and subscription plan to see the best audiobooks to spend them on, based on Value Score analysis.',
-    pageTitle: 'Credit Calculator - Maximize Your Audible Credit Value',
-    pageDescription: 'Calculate how much your Audible credits are worth and find the best books to spend them on. Free credit value optimizer tool.',
-    yourSubscription: 'Your Subscription',
-    numberOfCredits: 'Number of Credits',
-    audiblePlan: 'Audible Plan',
-    creditsToSpend: 'Credits to spend:',
-    creditValueEach: 'Credit value (each):',
-    totalCreditValue: 'Total credit value:',
-    recommendedBooks: 'Recommended Books for Your {credits} {credits, plural, one {Credit} other {Credits}}',
-    valueAnalysis: 'Value Analysis',
-    totalBookValue: 'Total Book Value',
-    creditCost: 'Credit Cost',
-    yourSavings: 'Your Savings',
-    savingsPercent: '{value}% savings',
-    noSavings: 'No savings',
-    savingsSummary: 'By spending {credits} {credits, plural, one {credit} other {credits}} on these recommended books, you get {total} worth of audiobooks for {creditCost} in credit value. That\'s a savings of {savings}.',
-    noSavingsSummary: 'Based on current recommendations, your credits may be better spent on more expensive audiobooks. Consider browsing the full list for alternatives.',
-    fullList: 'full list',
+    title: "Audible积分计算器",
+    subtitle: "输入您的积分和订阅计划，查看基于价值评分分析的最佳有声书推荐。",
+    pageTitle: "积分计算器 - 最大化您的Audible积分价值",
+    pageDescription: "计算您的Audible积分价值，找到最适合使用积分的有声书。免费积分价值优化工具。",
+    yourSubscription: "您的订阅",
+    numberOfCredits: "积分数量",
+    audiblePlan: "Audible套餐",
+    creditsToSpend: "待使用积分：",
+    creditValueEach: "每个积分价值：",
+    totalCreditValue: "积分总价值：",
+    recommendedBooks: "为您 {credits} 个积分推荐的书籍",
+    valueAnalysis: "价值分析",
+    totalBookValue: "书籍总价值",
+    creditCost: "积分成本",
+    yourSavings: "您的节省",
+    savingsPercent: "节省 {value}%",
+    noSavings: "无节省",
+    savingsSummary: "将{credits}个积分用于这些推荐书籍，您获得了价值{total}的有声书，仅花费{creditCost}的积分价值。共节省了{savings}。",
+    noSavingsSummary: "基于当前推荐，您的积分可能更适合用于更贵的有声书。请浏览完整列表寻找替代选择。",
+    fullList: "完整列表",
   },
-
-  // About page
   aboutPage: {
-    title: 'About {name}',
-    intro: '{name} is a free tool that helps Audible subscribers find the best audiobooks to spend their credits on. Instead of guessing, you get data-driven recommendations based on a transparent Value Score formula.',
-    howItWorks: 'How It Works',
-    howItWorksDesc: 'Every audiobook is scored using this formula:',
-    howItWorksExplain: 'This formula rewards books that give you more listening time at higher quality. A 45-hour epic rated 4.8 stars at $35 will score far higher than a 6-hour novella at $15 鈥?because your credit is worth the same {value} either way.',
-    whatYouGet: 'What You Get',
-    feature1: 'Value Score ranking 鈥?every audiobook ranked by true credit value',
-    feature2: 'Credit Calculator 鈥?see exactly how much your credits are worth',
-    feature3: 'Curated lists 鈥?hand-picked books by genre and goal',
-    feature4: 'Cost per hour 鈥?know exactly what each listening hour costs',
-    affiliateTitle: 'Affiliate Disclosure',
-    affiliateDesc: '{name} is a participant in the Amazon Associates Program. As an Amazon Associate, we earn from qualifying purchases. This does not affect the price you pay, and it helps us keep this tool free. Our recommendations are based on data, not affiliate commissions 鈥?we score every book the same way.',
-    dataSources: 'Data Sources',
-    dataSourcesDesc: 'Book data (prices, ratings, runtime) is sourced from the Amazon Product Advertising API 5.0 and updated regularly. Value Scores are calculated by our algorithm and may differ from other ranking systems.',
-    browseTopBooks: 'Browse Top Books',
-    tryCalculator: 'Try the Calculator',
+    title: "关于 {name}",
+    intro: "{name}是一款免费工具，帮助Audible订阅者找到最适合使用积分的有声书。您不必再猜测，通过透明的价值评分公式获得数据驱动的推荐。",
+    howItWorks: "如何运作",
+    howItWorksDesc: "每本有声书都使用以下公式评分：",
+    howItWorksExplain: "这个公式奖励那些以更高品质提供更多收听时间的书籍。一本45小时、4.8星、$35的史诗巨著，评分远高于一本6小时、$15的中篇小说。",
+    whatYouGet: "您将获得",
+    feature1: "价值评分排名——每本有声书按真实积分价值排名",
+    feature2: "积分计算器——精确查看您的积分值多少钱",
+    feature3: "精选榜单——按体裁和目标手工挑选的书籍",
+    feature4: "每小时成本——精确了解每小时的收听成本",
+    affiliateTitle: "联盟声明",
+    affiliateDesc: "{name}是Amazon Associates计划的参与者。作为Amazon Associate，我们从符合条件的购买中赚取佣金。",
+    dataSources: "数据来源",
+    dataSourcesDesc: "书籍数据来自Amazon Product Advertising API 5.0，并定期更新。",
+    browseTopBooks: "浏览顶级书籍",
+    tryCalculator: "试试计算器",
   },
-
-  // BookCard / BookList
-  bookCard: {
-    useCredit: 'Use a Credit',
-    details: 'Details',
-    by: 'by',
-    perHour: '/h',
-    coverAlt: 'Cover of {title}',
-  },
-
-  // SearchBar
-  search: {
-    placeholder: 'Search by title, author, or narrator...',
-    ariaLabel: 'Search audiobooks',
-  },
-
-  // FilterBar
+  bookCard: { useCredit: "使用积分", details: "详情", by: "作者", perHour: "/小时", coverAlt: "{title}的封面" },
+  search: { placeholder: "按标题、作者或朗读者搜索...", ariaLabel: "搜索有声书" },
   filter: {
-    allDurations: 'All Durations',
-    allRatings: 'All Ratings',
-    allCategories: 'All Categories',
-    books: 'books',
-    sortBy: 'Sort by',
-    valueScore: 'Value Score',
-    rating: 'Rating',
-    duration: 'Duration',
-    price: 'Price',
-    ascending: 'Ascending',
-    descending: 'Descending',
+    allDurations: "全部时长", allRatings: "全部评分", allCategories: "全部分类", books: "本书",
+    sortBy: "排序方式", valueScore: "价值评分", rating: "评分", duration: "时长", price: "价格",
+    ascending: "升序", descending: "降序",
   },
-
-  // View toggle
-  viewToggle: {
-    card: 'Card View',
-    table: 'Table View',
-    ariaLabel: 'Switch view mode',
-  },
-
-  // BookTable
+  viewToggle: { card: "卡片视图", table: "表格视图", ariaLabel: "切换视图模式" },
   table: {
-    rank: 'Rank',
-    title: 'Title',
-    author: 'Author',
-    duration: 'Duration',
-    rating: 'Rating',
-    reviews: 'Reviews',
-    price: 'Price',
-    valueScore: 'Value Score',
-    costPerHour: 'Cost/Hr',
-    action: 'Action',
-    buy: 'Buy',
+    rank: "排名", title: "标题", author: "作者", duration: "时长", rating: "评分",
+    reviews: "评论数", price: "价格", valueScore: "价值评分", costPerHour: "成本/小时",
+    action: "操作", buy: "购买",
   },
-
-  // Empty state
-  empty: {
-    noResults: 'No books found matching your filters.',
-  },
-
-  // Blog list page
-  blogPage: {
-    title: 'Guides & Tips',
-    subtitle: 'Learn how to maximize your Audible credit value with data-driven guides and recommendations.',
-  },
-
-  // Blog detail page
+  empty: { noResults: "没有找到符合筛选条件的书籍。" },
+  blogPage: { title: "指南与技巧", subtitle: "通过数据驱动的指南和推荐，学习如何最大化您的Audible积分价值。" },
   blogDetail: {
-    allArticles: 'All Articles',
-    readyToFind: 'Ready to find your next audiobook?',
-    browseData: 'Browse our data-driven rankings to maximize your credit value.',
-    viewTopBooks: 'View Top Books',
+    allArticles: "全部文章",
+    readyToFind: "准备好寻找您的下一本有声书了吗？",
+    browseData: "浏览我们数据驱动的排名，最大化您的积分价值。",
+    viewTopBooks: "查看顶级书籍",
   },
-
-  // Curated lists page
   curatedPage: {
-    title: 'Curated Audiobook Lists',
-    subtitle: 'Hand-picked audiobooks for every genre and listening goal. Each book is selected for maximum credit value and listening quality.',
-    booksCount: '{count} books',
-    updated: 'Updated {date}',
+    title: "精选有声书榜单",
+    subtitle: "为每种体裁和收听目标手工挑选的有声书。每本书都经过精选，以求最大化积分价值和收听质量。",
+    booksCount: "{count}本书",
+    updated: "更新于{date}",
   },
-
-  // Curated detail page
-  curatedDetail: {
-    allLists: 'All Curated Lists',
-    updated: 'Updated {date}',
-    booksCount: '{count} books',
-  },
-
-  // Book detail page
+  curatedDetail: { allLists: "全部精选榜单", updated: "更新于{date}", booksCount: "{count}本书" },
   bookDetail: {
-    backToTop: 'Back to Top Books',
-    rating: 'Rating',
-    duration: 'Duration',
-    price: 'Price',
-    creditWorth: 'Credit Worth',
-    reviews: '{count} reviews',
-    useCredit: 'Use a Credit on Audible',
-    narratedBy: 'Narrated by',
-    publisher: 'Publisher',
-    released: 'Released',
-    categories: 'Categories',
-    recommendedCredit: 'Recommended: Use a credit.',
-    considerBuying: 'Consider buying directly.',
-    recommendedDesc: 'This book costs {price} ({percent}% more than a credit\'s {creditValue} value). You save {savings} by using a credit.',
-    considerBuyingDesc: 'This book costs {price} which is less than a credit\'s value ({creditValue}). Save your credit for a more expensive book.',
-    coverAlt: 'Cover of {title}',
+    backToTop: "返回顶级书籍", rating: "评分", duration: "时长", price: "价格",
+    creditWorth: "积分价值", reviews: "{count}条评论", useCredit: "在Audible上使用积分",
+    narratedBy: "朗读者", publisher: "出版商", released: "发布日期", categories: "分类",
+    recommendedCredit: "推荐：使用积分。", considerBuying: "建议：直接购买。",
+    recommendedDesc: "本书价格为{price}（比积分价值{creditValue}高出{percent}%）。使用积分可节省{savings}。",
+    considerBuyingDesc: "本书价格为{price}，低于积分价值（{creditValue}）。建议为更贵的书保留积分。",
+    coverAlt: "{title}的封面",
   },
-  // FAQ
   faq: {
-    q1: "How is the Audible Credit Value Score calculated?",
-    a1: "Value Score = (Duration in hours x Star Rating) / Price in USD. This rewards long, highly-rated books that give you the most listening time per dollar.",
-    q2: "What are the best audiobooks to spend credits on?",
-    a2: "The best audiobooks for your Audible credits are typically longer titles (20+ hours) with high ratings (4.5+ stars) priced above 20 USD.",
-    q3: "How much is an Audible credit worth?",
-    a3: "Each Audible credit is worth approximately 14.95 USD with the Premium Plus plan.",
-    q4: "Is an Audible membership worth it?",
-    a4: "An Audible membership is worth it if you listen to at least one audiobook per month. With credits worth 14.95 each, heavy listeners get exceptional value.",
+    q1: "Audible积分价值评分是如何计算的？",
+    a1: "价值评分=(时长小时数×星级评分)/价格(美元)。这奖励那些以更高质量提供更多收听时间的书籍。",
+    q2: "哪些有声书最值得使用积分购买？",
+    a2: "最值得购买的有声书通常是时长较长（20小时以上）、评分高（4.5星以上）、定价在20美元以上的书籍。",
+    q3: "一个Audible积分值多少钱？",
+    a3: "使用Premium Plus套餐，每个Audible积分约值14.95美元。",
+    q4: "Audible会员值得吗？",
+    a4: "如果您每个月至少听一本有声书，那么Audible会员是值得的。每个积分价值14.95美元。",
   },
 };
 
-
+export type TranslationKeys = typeof zh;

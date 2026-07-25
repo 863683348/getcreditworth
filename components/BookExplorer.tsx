@@ -35,8 +35,6 @@ export function BookExplorer({
   const [pageSize, setPageSize] = useState(200);
   const [viewMode, setViewMode] = useState<ViewMode>('card');
 
-  // 闁圭鍋撻柡鍫濐槼椤斿娼婚幏灞稿亾閸滃啰绀勫ù鐘茬凹缁卞爼宕楅妷褎鐣?books 闁圭粯鍔曡ぐ鍥晬?
-
   
   const allNarrators = useMemo(() => {
     const set = new Set<string>();
@@ -101,15 +99,16 @@ export function BookExplorer({
             resultCount={filteredBooks.length}
           />
           <ViewToggle mode={viewMode} onChange={setViewMode} />
-              <Pagination
+    </div>
+      </div>
+
+      <Pagination
         current={currentPage}
         total={filteredBooks.length}
         pageSize={pageSize}
         onPageChange={setCurrentPage}
         onPageSizeChange={(size) => { setPageSize(size); setCurrentPage(1); }}
       />
-    </div>
-      </div>
 
       {title && filteredBooks.length > 0 && (
         <h2 className="text-xl font-semibold text-text-primary">{title}</h2>
@@ -117,13 +116,21 @@ export function BookExplorer({
 
       {viewMode === 'card' ? (
         <BookList
-          books={filteredBooks}
+          books={paginatedBooks}
           showRank={showRank}
           emptyMessage={emptyMessage}
         />
       ) : (
-        <BookTable books={filteredBooks} showRank={showRank} />
+        <BookTable books={paginatedBooks} showRank={showRank} />
       )}
+
+      <Pagination
+        current={currentPage}
+        total={filteredBooks.length}
+        pageSize={pageSize}
+        onPageChange={setCurrentPage}
+        onPageSizeChange={(size) => { setPageSize(size); setCurrentPage(1); }}
+      />
     </div>
   );
 }

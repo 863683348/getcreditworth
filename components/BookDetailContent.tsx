@@ -1,4 +1,4 @@
-﻿'use client';
+'use client';
 
 import Link from 'next/link';
 import Image from 'next/image';
@@ -60,6 +60,7 @@ export function BookDetailContent({ book }: BookDetailContentProps) {
           href={buildAudibleTrialUrl()}
           target="_blank"
           rel="noopener noreferrer sponsored"
+          title="Start your free 30-day Audible trial"
           className="inline-flex items-center gap-1 px-3 md:px-4 py-1.5 md:py-2 text-xs md:text-sm font-semibold rounded-md bg-primary text-white hover:bg-primary-hover transition-colors duration-150 whitespace-nowrap"
         >
           {t.trialBanner.cta}
@@ -198,6 +199,7 @@ export function BookDetailContent({ book }: BookDetailContentProps) {
                 href={buildAudibleTrialUrl()}
                 target="_blank"
                 rel="noopener noreferrer sponsored"
+                title="Claim your free Audible trial credit"
                 className="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold rounded-md bg-primary text-white hover:bg-primary-hover transition-colors duration-150"
               >
                 {t.trialRecommend.cta}
