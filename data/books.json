@@ -1,0 +1,2449 @@
+[
+  {
+    "asin": "B003ZWFO7E",
+    "title": "The Way of Kings",
+    "author": "Brandon Sanderson",
+    "narrator": "Kate Reading, Michael Kramer",
+    "runtimeMinutes": 2730,
+    "price": 38.99,
+    "currency": "USD",
+    "starRating": 4.8,
+    "reviewCount": 52034,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51hAwcG3oNL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B003ZWFO7E",
+    "categories": [
+      "Fantasy",
+      "Epic Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2010-08-31",
+    "publisher": "Macmillan Audio"
+  },
+  {
+    "asin": "B0077DEH7A",
+    "title": "The Stand",
+    "author": "Stephen King",
+    "narrator": "Grover Gardner",
+    "runtimeMinutes": 2820,
+    "price": 35.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 41200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51k0sI0qzKL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0077DEH7A",
+    "categories": [
+      "Horror",
+      "Apocalyptic",
+      "Fiction"
+    ],
+    "releaseDate": "2012-01-01",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B002UZYX2Y",
+    "title": "The Pillars of the Earth",
+    "author": "Ken Follett",
+    "narrator": "John Lee",
+    "runtimeMinutes": 2424,
+    "price": 32.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 38500,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51dmIEgId2L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002UZYX2Y",
+    "categories": [
+      "Historical Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2009-06-23",
+    "publisher": "Penguin Audio"
+  },
+  {
+    "asin": "B002UZMLXM",
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "narrator": "Nick Podehl",
+    "runtimeMinutes": 1650,
+    "price": 24.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 47800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61Csiq-T2hL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002UZMLXM",
+    "categories": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2011-03-01",
+    "publisher": "Brilliance Audio"
+  },
+  {
+    "asin": "B005UR3VFO",
+    "title": "11/22/63",
+    "author": "Stephen King",
+    "narrator": "Craig Wasson",
+    "runtimeMinutes": 1905,
+    "price": 28.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 32100,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51b3MJwd2YL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B005UR3VFO",
+    "categories": [
+      "Science Fiction",
+      "Time Travel",
+      "Fiction"
+    ],
+    "releaseDate": "2011-11-08",
+    "publisher": "Simon & Schuster Audio"
+  },
+  {
+    "asin": "B002V0QUJC",
+    "title": "The Shadow of the Wind",
+    "author": "Carlos Ruiz Zafón",
+    "narrator": "Jonathan Davis",
+    "runtimeMinutes": 1080,
+    "price": 22.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 18900,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51TEkM+zRKL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V0QUJC",
+    "categories": [
+      "Literary Fiction",
+      "Mystery",
+      "Fiction"
+    ],
+    "releaseDate": "2009-05-01",
+    "publisher": "Penguin Audio"
+  },
+  {
+    "asin": "B0FD4CV4BF",
+    "title": "The Power of Habit",
+    "author": "Charles Duhigg",
+    "narrator": "Mike Chamberlain",
+    "runtimeMinutes": 600,
+    "price": 17.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 28400,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41rjlWslqlL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FD4CV4BF",
+    "categories": [
+      "Self-Help",
+      "Business",
+      "Psychology",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2012-02-28",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B0D6P455PH",
+    "title": "The Hunger Games",
+    "author": "Suzanne Collins",
+    "narrator": "Carolyn McCormick",
+    "runtimeMinutes": 684,
+    "price": 15.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 65200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41oFuJ88q6L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0D6P455PH",
+    "categories": [
+      "Young Adult",
+      "Dystopian",
+      "Fiction"
+    ],
+    "releaseDate": "2010-08-24",
+    "publisher": "Scholastic Audio"
+  },
+  {
+    "asin": "B005V0QI82",
+    "title": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "narrator": "Dylan Baker",
+    "runtimeMinutes": 1500,
+    "price": 23.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 41600,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51S2iJN3DYL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B005V0QI82",
+    "categories": [
+      "Biography",
+      "Business",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2011-10-24",
+    "publisher": "Simon & Schuster Audio"
+  },
+  {
+    "asin": "B0036NDRG2",
+    "title": "The Girl with the Dragon Tattoo",
+    "author": "Stieg Larsson",
+    "narrator": "Simon Vance",
+    "runtimeMinutes": 1020,
+    "price": 21.99,
+    "currency": "USD",
+    "starRating": 4.4,
+    "reviewCount": 38900,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51OWqvPJDFL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0036NDRG2",
+    "categories": [
+      "Mystery",
+      "Thriller",
+      "Fiction"
+    ],
+    "releaseDate": "2010-02-09",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B0085XRNWM",
+    "title": "Gone Girl",
+    "author": "Gillian Flynn",
+    "narrator": "Julia Whelan, Kirby Heyborne",
+    "runtimeMinutes": 1158,
+    "price": 19.99,
+    "currency": "USD",
+    "starRating": 4.3,
+    "reviewCount": 47800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41x6HtLdEhL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0085XRNWM",
+    "categories": [
+      "Thriller",
+      "Mystery",
+      "Fiction"
+    ],
+    "releaseDate": "2012-06-05",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B002UZZ93G",
+    "title": "A Game of Thrones",
+    "author": "George R.R. Martin",
+    "narrator": "Roy Dotrice",
+    "runtimeMinutes": 2028,
+    "price": 31.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 89200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51y1J8oFBqL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002UZZ93G",
+    "categories": [
+      "Fantasy",
+      "Epic Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2011-05-19",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B005TKKCWC",
+    "title": "Thinking, Fast and Slow",
+    "author": "Daniel Kahneman",
+    "narrator": "Patrick Egan",
+    "runtimeMinutes": 1200,
+    "price": 20.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 35600,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41JgsMOR9wL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B005TKKCWC",
+    "categories": [
+      "Psychology",
+      "Business",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2011-10-25",
+    "publisher": "Penguin Audio"
+  },
+  {
+    "asin": "B07DHS7PP5",
+    "title": "Ready Player One",
+    "author": "Ernest Cline",
+    "narrator": "Wil Wheaton",
+    "runtimeMinutes": 900,
+    "price": 18.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 62400,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/31Dp7Y5crzL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07DHS7PP5",
+    "categories": [
+      "Science Fiction",
+      "Cyberpunk",
+      "Fiction"
+    ],
+    "releaseDate": "2011-08-16",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B082BHJMFF",
+    "title": "The Martian",
+    "author": "Andy Weir",
+    "narrator": "R.C. Bray",
+    "runtimeMinutes": 684,
+    "price": 17.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 78300,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/414J3xG+7+L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B082BHJMFF",
+    "categories": [
+      "Science Fiction",
+      "Adventure",
+      "Fiction"
+    ],
+    "releaseDate": "2014-02-18",
+    "publisher": "Podium Publishing"
+  },
+  {
+    "asin": "B0055274U2",
+    "title": "American Gods",
+    "author": "Neil Gaiman",
+    "narrator": "Neil Gaiman, George Guidall",
+    "runtimeMinutes": 1140,
+    "price": 22.99,
+    "currency": "USD",
+    "starRating": 4.4,
+    "reviewCount": 34100,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51LE+fvC0FL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0055274U2",
+    "categories": [
+      "Fantasy",
+      "Mythology",
+      "Fiction"
+    ],
+    "releaseDate": "2011-06-21",
+    "publisher": "HarperAudio"
+  },
+  {
+    "asin": "B002V1CJ8W",
+    "title": "Outlander",
+    "author": "Diana Gabaldon",
+    "narrator": "Davina Porter",
+    "runtimeMinutes": 1920,
+    "price": 29.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 56800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/415mLo-ZW6L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V1CJ8W",
+    "categories": [
+      "Historical Fiction",
+      "Romance",
+      "Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2010-07-13",
+    "publisher": "Recorded Books"
+  },
+  {
+    "asin": "B002UZKYDQ",
+    "title": "The Help",
+    "author": "Kathryn Stockett",
+    "narrator": "Jenna Lamia, Bahni Turpin, Octavia Spencer, Cassandra Campbell",
+    "runtimeMinutes": 1020,
+    "price": 19.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 44100,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/513lJz2uywL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002UZKYDQ",
+    "categories": [
+      "Historical Fiction",
+      "Literary Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2009-12-01",
+    "publisher": "Penguin Audio"
+  },
+  {
+    "asin": "1524779261",
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "narrator": "James Clear",
+    "runtimeMinutes": 312,
+    "price": 14.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 89400,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/513Y5o-DYtL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1524779261",
+    "categories": [
+      "Self-Help",
+      "Business",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2018-10-16",
+    "publisher": "Penguin Audio"
+  },
+  {
+    "asin": "B08G9PRS1K",
+    "title": "Project Hail Mary",
+    "author": "Andy Weir",
+    "narrator": "Ray Porter",
+    "runtimeMinutes": 960,
+    "price": 20.99,
+    "currency": "USD",
+    "starRating": 4.9,
+    "reviewCount": 71200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51POf8gOyLL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B08G9PRS1K",
+    "categories": [
+      "Science Fiction",
+      "Adventure",
+      "Fiction"
+    ],
+    "releaseDate": "2021-05-04",
+    "publisher": "Audible Original"
+  },
+  {
+    "asin": "B00HWF0MHW",
+    "title": "Words of Radiance",
+    "author": "Brandon Sanderson",
+    "narrator": "Kate Reading, Michael Kramer",
+    "runtimeMinutes": 2880,
+    "price": 39.99,
+    "currency": "USD",
+    "starRating": 4.8,
+    "reviewCount": 48100,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51DZfSH5qQL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00HWF0MHW",
+    "categories": [
+      "Fantasy",
+      "Epic Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2014-03-04",
+    "publisher": "Macmillan Audio"
+  },
+  {
+    "asin": "B0B5M28HZK",
+    "title": "Edgedancer",
+    "author": "Brandon Sanderson",
+    "narrator": "Kate Reading",
+    "runtimeMinutes": 660,
+    "price": 16.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 15200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51xoSh3ZbOL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0B5M28HZK",
+    "categories": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2017-10-17",
+    "publisher": "Macmillan Audio"
+  },
+  {
+    "asin": "B0718Z5K4C",
+    "title": "Oathbringer",
+    "author": "Brandon Sanderson",
+    "narrator": "Kate Reading, Michael Kramer",
+    "runtimeMinutes": 3060,
+    "price": 42.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 39800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51+YovOwdoL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0718Z5K4C",
+    "categories": [
+      "Fantasy",
+      "Epic Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2017-11-14",
+    "publisher": "Macmillan Audio"
+  },
+  {
+    "asin": "1250759781",
+    "title": "Rhythm of War",
+    "author": "Brandon Sanderson",
+    "narrator": "Kate Reading, Michael Kramer",
+    "runtimeMinutes": 3360,
+    "price": 44.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 34500,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51+MGwgwVsL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1250759781",
+    "categories": [
+      "Fantasy",
+      "Epic Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2020-11-17",
+    "publisher": "Macmillan Audio"
+  },
+  {
+    "asin": "B002UZKIBO",
+    "title": "A Clash of Kings",
+    "author": "George R.R. Martin",
+    "narrator": "Roy Dotrice",
+    "runtimeMinutes": 2280,
+    "price": 33.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 62100,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61tt727Of0L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002UZKIBO",
+    "categories": [
+      "Fantasy",
+      "Epic Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2011-05-19",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B0036NQ9Z8",
+    "title": "A Storm of Swords",
+    "author": "George R.R. Martin",
+    "narrator": "Roy Dotrice",
+    "runtimeMinutes": 2340,
+    "price": 34.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 71800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51YCCrh6jML._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0036NQ9Z8",
+    "categories": [
+      "Fantasy",
+      "Epic Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2011-05-19",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B006LPIVL8",
+    "title": "A Feast for Crows",
+    "author": "George R.R. Martin",
+    "narrator": "Roy Dotrice",
+    "runtimeMinutes": 1860,
+    "price": 30.99,
+    "currency": "USD",
+    "starRating": 4.4,
+    "reviewCount": 48200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51RZweAZmiL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B006LPIVL8",
+    "categories": [
+      "Fantasy",
+      "Epic Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2012-06-05",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B0057POQJE",
+    "title": "A Dance with Dragons",
+    "author": "George R.R. Martin",
+    "narrator": "Roy Dotrice",
+    "runtimeMinutes": 2640,
+    "price": 38.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 53700,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51ULknUkH9L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0057POQJE",
+    "categories": [
+      "Fantasy",
+      "Epic Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2013-10-29",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B004QISZN6",
+    "title": "The Wise Man's Fear",
+    "author": "Patrick Rothfuss",
+    "narrator": "Nick Podehl",
+    "runtimeMinutes": 2520,
+    "price": 34.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 41900,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51f2XSzLauL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B004QISZN6",
+    "categories": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2011-03-01",
+    "publisher": "Brilliance Audio"
+  },
+  {
+    "asin": "B002V0QCYU",
+    "title": "Mistborn: The Final Empire",
+    "author": "Brandon Sanderson",
+    "narrator": "Michael Kramer",
+    "runtimeMinutes": 1500,
+    "price": 24.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 38900,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61rYqiz8yJL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V0QCYU",
+    "categories": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2010-07-13",
+    "publisher": "Macmillan Audio"
+  },
+  {
+    "asin": "0008487278",
+    "title": "The Fellowship of the Ring",
+    "author": "J.R.R. Tolkien",
+    "narrator": "Rob Inglis",
+    "runtimeMinutes": 1200,
+    "price": 19.99,
+    "currency": "USD",
+    "starRating": 4.8,
+    "reviewCount": 95300,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61irmlqdpWL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0008487278",
+    "categories": [
+      "Fantasy",
+      "Classic",
+      "Fiction"
+    ],
+    "releaseDate": "2012-09-13",
+    "publisher": "Recorded Books"
+  },
+  {
+    "asin": "0008487286",
+    "title": "The Two Towers",
+    "author": "J.R.R. Tolkien",
+    "narrator": "Rob Inglis",
+    "runtimeMinutes": 1020,
+    "price": 18.99,
+    "currency": "USD",
+    "starRating": 4.8,
+    "reviewCount": 87600,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61YMnN7VzmL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0008487286",
+    "categories": [
+      "Fantasy",
+      "Classic",
+      "Fiction"
+    ],
+    "releaseDate": "2012-09-13",
+    "publisher": "Recorded Books"
+  },
+  {
+    "asin": "B002V1A2EA",
+    "title": "The Return of the King",
+    "author": "J.R.R. Tolkien",
+    "narrator": "Rob Inglis",
+    "runtimeMinutes": 1140,
+    "price": 20.99,
+    "currency": "USD",
+    "starRating": 4.9,
+    "reviewCount": 91200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61zqaL0LISL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V1A2EA",
+    "categories": [
+      "Fantasy",
+      "Classic",
+      "Fiction"
+    ],
+    "releaseDate": "2012-09-13",
+    "publisher": "Recorded Books"
+  },
+  {
+    "asin": "0008433844",
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "narrator": "Andy Serkis",
+    "runtimeMinutes": 600,
+    "price": 15.99,
+    "currency": "USD",
+    "starRating": 4.8,
+    "reviewCount": 64500,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51J-2rThQ9L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0008433844",
+    "categories": [
+      "Fantasy",
+      "Classic",
+      "Fiction"
+    ],
+    "releaseDate": "2020-11-05",
+    "publisher": "HarperAudio"
+  },
+  {
+    "asin": "B005HIR9VI",
+    "title": "The Night Circus",
+    "author": "Erin Morgenstern",
+    "narrator": "Jim Dale",
+    "runtimeMinutes": 720,
+    "price": 16.99,
+    "currency": "USD",
+    "starRating": 4.3,
+    "reviewCount": 21400,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51iML7T0PvL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B005HIR9VI",
+    "categories": [
+      "Fantasy",
+      "Romance",
+      "Fiction"
+    ],
+    "releaseDate": "2011-09-13",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B00354ZSS2",
+    "title": "Neverwhere",
+    "author": "Neil Gaiman",
+    "narrator": "Neil Gaiman",
+    "runtimeMinutes": 780,
+    "price": 17.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 19200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41yNdwUu5PL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00354ZSS2",
+    "categories": [
+      "Fantasy",
+      "Urban Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2016-06-07",
+    "publisher": "HarperAudio"
+  },
+  {
+    "asin": "B01LWUJKQ7",
+    "title": "Norse Mythology",
+    "author": "Neil Gaiman",
+    "narrator": "Neil Gaiman",
+    "runtimeMinutes": 390,
+    "price": 13.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 23800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61D9CcNEoVL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01LWUJKQ7",
+    "categories": [
+      "Mythology",
+      "Fantasy",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2017-02-07",
+    "publisher": "HarperAudio"
+  },
+  {
+    "asin": "B00CRKR77U",
+    "title": "The Ocean at the End of the Lane",
+    "author": "Neil Gaiman",
+    "narrator": "Neil Gaiman",
+    "runtimeMinutes": 300,
+    "price": 12.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 15600,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51hHoC1-kXL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00CRKR77U",
+    "categories": [
+      "Fantasy",
+      "Literary Fiction"
+    ],
+    "releaseDate": "2013-06-18",
+    "publisher": "HarperAudio"
+  },
+  {
+    "asin": "B0FXHVK4Y8",
+    "title": "It",
+    "author": "Stephen King",
+    "narrator": "Steven Weber",
+    "runtimeMinutes": 2760,
+    "price": 39.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 48300,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61ogAHYXN0L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FXHVK4Y8",
+    "categories": [
+      "Horror",
+      "Fiction"
+    ],
+    "releaseDate": "2014-12-09",
+    "publisher": "Penguin Audio"
+  },
+  {
+    "asin": "B008OLF29Q",
+    "title": "The Shining",
+    "author": "Stephen King",
+    "narrator": "Campbell Scott",
+    "runtimeMinutes": 720,
+    "price": 16.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 41200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/513x+J9aAHL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B008OLF29Q",
+    "categories": [
+      "Horror",
+      "Fiction"
+    ],
+    "releaseDate": "2012-05-22",
+    "publisher": "Simon & Schuster Audio"
+  },
+  {
+    "asin": "B002V0M190",
+    "title": "Under the Dome",
+    "author": "Stephen King",
+    "narrator": "Esparanza",
+    "runtimeMinutes": 2040,
+    "price": 32.99,
+    "currency": "USD",
+    "starRating": 4.3,
+    "reviewCount": 26800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41031cyN0-L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V0M190",
+    "categories": [
+      "Horror",
+      "Science Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2013-01-08",
+    "publisher": "Simon & Schuster Audio"
+  },
+  {
+    "asin": "B019NNU7XE",
+    "title": "The Dark Tower I: The Gunslinger",
+    "author": "Stephen King",
+    "narrator": "George Guidall",
+    "runtimeMinutes": 480,
+    "price": 14.99,
+    "currency": "USD",
+    "starRating": 4.4,
+    "reviewCount": 28500,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41AoF-lTijL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B019NNU7XE",
+    "categories": [
+      "Fantasy",
+      "Horror",
+      "Western",
+      "Fiction"
+    ],
+    "releaseDate": "2011-05-19",
+    "publisher": "Simon & Schuster Audio"
+  },
+  {
+    "asin": "B0F3432DNS",
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "narrator": "Ray Hagen",
+    "runtimeMinutes": 420,
+    "price": 13.99,
+    "currency": "USD",
+    "starRating": 4.3,
+    "reviewCount": 38400,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/31JG3OPmTlL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F3432DNS",
+    "categories": [
+      "Literary Fiction",
+      "Classic",
+      "Fiction"
+    ],
+    "releaseDate": "2010-01-12",
+    "publisher": "Blackstone Audio"
+  },
+  {
+    "asin": "B00Y1HN2QC",
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "narrator": "Sissy Spacek",
+    "runtimeMinutes": 720,
+    "price": 16.99,
+    "currency": "USD",
+    "starRating": 4.8,
+    "reviewCount": 72100,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Tu-BTfewL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00Y1HN2QC",
+    "categories": [
+      "Literary Fiction",
+      "Classic",
+      "Fiction"
+    ],
+    "releaseDate": "2010-01-12",
+    "publisher": "HarperAudio"
+  },
+  {
+    "asin": "B0H5MFHW41",
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "narrator": "Jake Gyllenhaal",
+    "runtimeMinutes": 300,
+    "price": 12.99,
+    "currency": "USD",
+    "starRating": 4.4,
+    "reviewCount": 34500,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51qIn9m+qyL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H5MFHW41",
+    "categories": [
+      "Literary Fiction",
+      "Classic",
+      "Fiction"
+    ],
+    "releaseDate": "2013-05-07",
+    "publisher": "Audible Original"
+  },
+  {
+    "asin": "B0D63FJ2ZK",
+    "title": "1984",
+    "author": "George Orwell",
+    "narrator": "Simon Prebble",
+    "runtimeMinutes": 660,
+    "price": 15.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 58700,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/514COylmqRL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0D63FJ2ZK",
+    "categories": [
+      "Classic",
+      "Dystopian",
+      "Science Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2010-01-12",
+    "publisher": "Blackstone Audio"
+  },
+  {
+    "asin": "B002V1BVK4",
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "narrator": "Michael York",
+    "runtimeMinutes": 480,
+    "price": 14.99,
+    "currency": "USD",
+    "starRating": 4.4,
+    "reviewCount": 31200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51PpzUbiLeL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V1BVK4",
+    "categories": [
+      "Classic",
+      "Dystopian",
+      "Science Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2011-06-21",
+    "publisher": "Blackstone Audio"
+  },
+  {
+    "asin": "B0F4TCT1GK",
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "narrator": "Tim Robbins",
+    "runtimeMinutes": 300,
+    "price": 12.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 28900,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41RqVZbLa9L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F4TCT1GK",
+    "categories": [
+      "Classic",
+      "Dystopian",
+      "Science Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2010-01-12",
+    "publisher": "Audible Original"
+  },
+  {
+    "asin": "B002V1OF70",
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "narrator": "Scott Brick, Orlagh Cassidy, Ilyana Kadushin, cast",
+    "runtimeMinutes": 1290,
+    "price": 22.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 51800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41rrXYM-wHL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V1OF70",
+    "categories": [
+      "Science Fiction",
+      "Classic",
+      "Fiction"
+    ],
+    "releaseDate": "2011-09-13",
+    "publisher": "Macmillan Audio"
+  },
+  {
+    "asin": "B002V8H660",
+    "title": "Dune Messiah",
+    "author": "Frank Herbert",
+    "narrator": "Scott Brick, Katherine Kellgren, cast",
+    "runtimeMinutes": 600,
+    "price": 15.99,
+    "currency": "USD",
+    "starRating": 4.4,
+    "reviewCount": 19300,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41dcXp9bIoL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V8H660",
+    "categories": [
+      "Science Fiction",
+      "Classic",
+      "Fiction"
+    ],
+    "releaseDate": "2017-09-05",
+    "publisher": "Macmillan Audio"
+  },
+  {
+    "asin": "B002V57VRC",
+    "title": "Children of Dune",
+    "author": "Frank Herbert",
+    "narrator": "Scott Brick, Simon Vance, cast",
+    "runtimeMinutes": 660,
+    "price": 16.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 16800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Vi0xHNn8L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V57VRC",
+    "categories": [
+      "Science Fiction",
+      "Classic",
+      "Fiction"
+    ],
+    "releaseDate": "2017-09-05",
+    "publisher": "Macmillan Audio"
+  },
+  {
+    "asin": "B071Y9TTHC",
+    "title": "Children of Time",
+    "author": "Adrian Tchaikovsky",
+    "narrator": "Mel Hudson",
+    "runtimeMinutes": 900,
+    "price": 18.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 21400,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51tuexbxdIL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B071Y9TTHC",
+    "categories": [
+      "Science Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2016-03-08",
+    "publisher": "Pan Macmillan"
+  },
+  {
+    "asin": "B003D8W5VS",
+    "title": "Foundation",
+    "author": "Isaac Asimov",
+    "narrator": "Scott Brick",
+    "runtimeMinutes": 510,
+    "price": 14.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 34800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61iNtg+iyIL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B003D8W5VS",
+    "categories": [
+      "Science Fiction",
+      "Classic",
+      "Fiction"
+    ],
+    "releaseDate": "2010-06-22",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B0F6FKS98Z",
+    "title": "Leviathan Wakes",
+    "author": "James S.A. Corey",
+    "narrator": "Jefferson Mays",
+    "runtimeMinutes": 1140,
+    "price": 21.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 31700,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51fexTANMLL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F6FKS98Z",
+    "categories": [
+      "Science Fiction",
+      "Space Opera",
+      "Fiction"
+    ],
+    "releaseDate": "2011-06-15",
+    "publisher": "Orbit"
+  },
+  {
+    "asin": "B002V5D34W",
+    "title": "Hyperion",
+    "author": "Dan Simmons",
+    "narrator": "Marc Vietor, Allyson Johnson, Kevin Pariseau, Jay Snyder, cast",
+    "runtimeMinutes": 720,
+    "price": 16.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 24600,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51F+q5aqJML._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V5D34W",
+    "categories": [
+      "Science Fiction",
+      "Space Opera",
+      "Fiction"
+    ],
+    "releaseDate": "2012-05-22",
+    "publisher": "Recorded Books"
+  },
+  {
+    "asin": "B07Q3NN5JK",
+    "title": "The Blade Itself",
+    "author": "Joe Abercrombie",
+    "narrator": "Steven Pacey",
+    "runtimeMinutes": 1380,
+    "price": 23.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 18300,
+    "coverImageUrl": "https://m.media-amazon.com/images/P/B07Q3NN5JK._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07Q3NN5JK",
+    "categories": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2008-03-04",
+    "publisher": "Orbit"
+  },
+  {
+    "asin": "B0036IU752",
+    "title": "The Blade Itself",
+    "author": "Joe Abercrombie",
+    "narrator": "Steven Pacey",
+    "runtimeMinutes": 1380,
+    "price": 23.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 18300,
+    "coverImageUrl": "https://m.media-amazon.com/images/P/B0036IU752._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0036IU752",
+    "categories": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2008-03-04",
+    "publisher": "Orbit"
+  },
+  {
+    "asin": "B0DKVMNQDB",
+    "title": "Best Served Cold",
+    "author": "Joe Abercrombie",
+    "narrator": "Steven Pacey",
+    "runtimeMinutes": 1380,
+    "price": 23.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 16200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51MCn06W4WL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DKVMNQDB",
+    "categories": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2009-06-09",
+    "publisher": "Orbit"
+  },
+  {
+    "asin": "0593163389",
+    "title": "The Lies of Locke Lamora",
+    "author": "Scott Lynch",
+    "narrator": "Michael Page",
+    "runtimeMinutes": 1380,
+    "price": 23.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 22700,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51SUOw0KeOL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0593163389",
+    "categories": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2007-06-27",
+    "publisher": "Orbit"
+  },
+  {
+    "asin": "1549102567",
+    "title": "The Fifth Season",
+    "author": "N.K. Jemisin",
+    "narrator": "Robin Miles",
+    "runtimeMinutes": 900,
+    "price": 18.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 19800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61cBb0Zra4L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1549102567",
+    "categories": [
+      "Fantasy",
+      "Science Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2015-08-04",
+    "publisher": "Hachette Audio"
+  },
+  {
+    "asin": "B01LBGCRPW",
+    "title": "The Obelisk Gate",
+    "author": "N.K. Jemisin",
+    "narrator": "Robin Miles",
+    "runtimeMinutes": 960,
+    "price": 19.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 13400,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/71Ta3JXr5yL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01LBGCRPW",
+    "categories": [
+      "Fantasy",
+      "Science Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2016-08-16",
+    "publisher": "Hachette Audio"
+  },
+  {
+    "asin": "B0F1DQ52N6",
+    "title": "The Stone Sky",
+    "author": "N.K. Jemisin",
+    "narrator": "Robin Miles",
+    "runtimeMinutes": 840,
+    "price": 18.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 12100,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61NTtQuCllL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F1DQ52N6",
+    "categories": [
+      "Fantasy",
+      "Science Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2017-08-15",
+    "publisher": "Hachette Audio"
+  },
+  {
+    "asin": "B002UZMLXM",
+    "title": "The Name of the Wind",
+    "author": "Patrick Rothfuss",
+    "narrator": "Nick Podehl",
+    "runtimeMinutes": 1650,
+    "price": 24.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 47800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61Csiq-T2hL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002UZMLXM",
+    "categories": [
+      "Fantasy",
+      "Fiction"
+    ],
+    "releaseDate": "2009-04-07",
+    "publisher": "Brilliance Audio"
+  },
+  {
+    "asin": "B0D6X4PVBZ",
+    "title": "Circe",
+    "author": "Madeline Miller",
+    "narrator": "Perdita Weeks",
+    "runtimeMinutes": 660,
+    "price": 15.99,
+    "currency": "USD",
+    "starRating": 4.8,
+    "reviewCount": 26800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51PB-IQNi0L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0D6X4PVBZ",
+    "categories": [
+      "Fantasy",
+      "Mythology",
+      "Historical Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2018-04-10",
+    "publisher": "Little, Brown & Company"
+  },
+  {
+    "asin": "B007EZKMP2",
+    "title": "The Song of Achilles",
+    "author": "Madeline Miller",
+    "narrator": "Frazer Douglas",
+    "runtimeMinutes": 600,
+    "price": 14.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 22100,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61DfFK65gwL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B007EZKMP2",
+    "categories": [
+      "Fantasy",
+      "Mythology",
+      "Historical Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2012-03-06",
+    "publisher": "HarperAudio"
+  },
+  {
+    "asin": "B00NYBQKFQ",
+    "title": "The Nightingale",
+    "author": "Kristin Hannah",
+    "narrator": "Polly Stone",
+    "runtimeMinutes": 1020,
+    "price": 19.99,
+    "currency": "USD",
+    "starRating": 4.8,
+    "reviewCount": 58600,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51lJVAGTuNL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00NYBQKFQ",
+    "categories": [
+      "Historical Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2015-02-03",
+    "publisher": "Macmillan Audio"
+  },
+  {
+    "asin": "B00IZGD864",
+    "title": "All the Light We Cannot See",
+    "author": "Anthony Doerr",
+    "narrator": "Zach Appelman",
+    "runtimeMinutes": 660,
+    "price": 15.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 47200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51yYP57jLzL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00IZGD864",
+    "categories": [
+      "Historical Fiction",
+      "Literary Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2014-05-06",
+    "publisher": "Simon & Schuster Audio"
+  },
+  {
+    "asin": "B002V00YSK",
+    "title": "The Book Thief",
+    "author": "Markus Zusak",
+    "narrator": "Allan Corduner",
+    "runtimeMinutes": 900,
+    "price": 18.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 39600,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Rs-tsiwBL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V00YSK",
+    "categories": [
+      "Historical Fiction",
+      "Literary Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2006-09-19",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B002V8H0S4",
+    "title": "The Kite Runner",
+    "author": "Khaled Hosseini",
+    "narrator": "Khaled Hosseini",
+    "runtimeMinutes": 720,
+    "price": 16.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 48900,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51sBgt64NIL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V8H0S4",
+    "categories": [
+      "Historical Fiction",
+      "Literary Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2011-05-03",
+    "publisher": "Penguin Audio"
+  },
+  {
+    "asin": "B002V0RK78",
+    "title": "A Thousand Splendid Suns",
+    "author": "Khaled Hosseini",
+    "narrator": "Atossa Leoni",
+    "runtimeMinutes": 660,
+    "price": 15.99,
+    "currency": "USD",
+    "starRating": 4.8,
+    "reviewCount": 43200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61OcTZgtrbL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V0RK78",
+    "categories": [
+      "Historical Fiction",
+      "Literary Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2010-01-12",
+    "publisher": "Simon & Schuster Audio"
+  },
+  {
+    "asin": "B075F8MBMQ",
+    "title": "Educated",
+    "author": "Tara Westover",
+    "narrator": "Julia Whelan",
+    "runtimeMinutes": 720,
+    "price": 16.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 72800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41goWDE1PUL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B075F8MBMQ",
+    "categories": [
+      "Biography",
+      "Memoir",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2018-02-20",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B0H728M1GQ",
+    "title": "Becoming",
+    "author": "Michelle Obama",
+    "narrator": "Michelle Obama",
+    "runtimeMinutes": 1140,
+    "price": 21.99,
+    "currency": "USD",
+    "starRating": 4.8,
+    "reviewCount": 96800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51yAEeg3vqL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H728M1GQ",
+    "categories": [
+      "Biography",
+      "Memoir",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2018-11-13",
+    "publisher": "Crown Publishing"
+  },
+  {
+    "asin": "B0741G911Q",
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "narrator": "Derek Perkins",
+    "runtimeMinutes": 900,
+    "price": 18.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 53400,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41HWFhtig3L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0741G911Q",
+    "categories": [
+      "History",
+      "Non-Fiction",
+      "Science"
+    ],
+    "releaseDate": "2015-02-10",
+    "publisher": "HarperAudio"
+  },
+  {
+    "asin": "B01N4DCBK6",
+    "title": "Homo Deus: A Brief History of Tomorrow",
+    "author": "Yuval Noah Harari",
+    "narrator": "Derek Perkins",
+    "runtimeMinutes": 840,
+    "price": 17.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 21900,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/412a-nmrw8L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01N4DCBK6",
+    "categories": [
+      "History",
+      "Non-Fiction",
+      "Science"
+    ],
+    "releaseDate": "2017-02-21",
+    "publisher": "HarperAudio"
+  },
+  {
+    "asin": "B07DHS7PP5",
+    "title": "21 Lessons for the 21st Century",
+    "author": "Yuval Noah Harari",
+    "narrator": "Derek Perkins",
+    "runtimeMinutes": 780,
+    "price": 17.99,
+    "currency": "USD",
+    "starRating": 4.4,
+    "reviewCount": 14500,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/31Dp7Y5crzL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07DHS7PP5",
+    "categories": [
+      "History",
+      "Non-Fiction",
+      "Philosophy"
+    ],
+    "releaseDate": "2018-09-04",
+    "publisher": "HarperAudio"
+  },
+  {
+    "asin": "B004G7VN04",
+    "title": "Guns, Germs, and Steel",
+    "author": "Jared Diamond",
+    "narrator": "Doug Ordunio",
+    "runtimeMinutes": 960,
+    "price": 19.99,
+    "currency": "USD",
+    "starRating": 4.4,
+    "reviewCount": 27800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Oi+FcrkKL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B004G7VN04",
+    "categories": [
+      "History",
+      "Non-Fiction",
+      "Science"
+    ],
+    "releaseDate": "2010-01-12",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B002V0KFPW",
+    "title": "A Short History of Nearly Everything",
+    "author": "Bill Bryson",
+    "narrator": "Bill Bryson",
+    "runtimeMinutes": 960,
+    "price": 19.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 41700,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41C6x58eFwL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V0KFPW",
+    "categories": [
+      "Science",
+      "Non-Fiction",
+      "History"
+    ],
+    "releaseDate": "2010-01-12",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B004QDTA9Y",
+    "title": "The Selfish Gene",
+    "author": "Richard Dawkins",
+    "narrator": "Richard Dawkins, Lalla Ward",
+    "runtimeMinutes": 960,
+    "price": 19.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 18600,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51iqpxo43PL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B004QDTA9Y",
+    "categories": [
+      "Science",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2010-01-12",
+    "publisher": "Audible Original"
+  },
+  {
+    "asin": "B01HFL1MWG",
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "narrator": "Michael York",
+    "runtimeMinutes": 300,
+    "price": 12.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 16700,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/513UmJY4jbL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01HFL1MWG",
+    "categories": [
+      "Science",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2012-01-01",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B0035FVJQQ",
+    "title": "The Immortal Life of Henrietta Lacks",
+    "author": "Rebecca Skloot",
+    "narrator": "Cassandra Campbell, Bahni Turpin",
+    "runtimeMinutes": 720,
+    "price": 16.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 21400,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51UD4Yxj6rL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0035FVJQQ",
+    "categories": [
+      "Science",
+      "Biography",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2010-02-02",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B002V5HAL4",
+    "title": "The 7 Habits of Highly Effective People",
+    "author": "Stephen R. Covey",
+    "narrator": "Stephen R. Covey",
+    "runtimeMinutes": 780,
+    "price": 17.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 34600,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51OuvCFwyZL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V5HAL4",
+    "categories": [
+      "Self-Help",
+      "Business",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2010-01-12",
+    "publisher": "FranklinCovey"
+  },
+  {
+    "asin": "9500763729",
+    "title": "How to Win Friends and Influence People",
+    "author": "Dale Carnegie",
+    "narrator": "Andrew MacMillan",
+    "runtimeMinutes": 480,
+    "price": 14.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 48200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51ZtBjSuKQL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/9500763729",
+    "categories": [
+      "Self-Help",
+      "Business",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2010-01-12",
+    "publisher": "Blackstone Audio"
+  },
+  {
+    "asin": "B005QR30H2",
+    "title": "The Four Hour Workweek",
+    "author": "Timothy Ferriss",
+    "narrator": "Timothy Ferriss",
+    "runtimeMinutes": 480,
+    "price": 14.99,
+    "currency": "USD",
+    "starRating": 4.4,
+    "reviewCount": 24300,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41+sITHP29L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B005QR30H2",
+    "categories": [
+      "Self-Help",
+      "Business",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2011-04-07",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "197869167X",
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert T. Kiyosaki",
+    "narrator": "Tim Wheeler",
+    "runtimeMinutes": 336,
+    "price": 12.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 31700,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51NuMV9SJ8L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/197869167X",
+    "categories": [
+      "Self-Help",
+      "Business",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2010-01-12",
+    "publisher": "Brilliance Audio"
+  },
+  {
+    "asin": "B0CNDFJQ7H",
+    "title": "The Total Money Makeover",
+    "author": "Dave Ramsey",
+    "narrator": "Dave Ramsey",
+    "runtimeMinutes": 210,
+    "price": 11.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 28400,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Hhr6ipoYL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CNDFJQ7H",
+    "categories": [
+      "Self-Help",
+      "Business",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2013-01-01",
+    "publisher": "Thomas Nelson"
+  },
+  {
+    "asin": "B005LXV0HI",
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "narrator": "Eric Ries",
+    "runtimeMinutes": 300,
+    "price": 12.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 24800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41jkBZCMt3L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B005LXV0HI",
+    "categories": [
+      "Business",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2011-09-13",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B00M27LBU2",
+    "title": "Zero to One",
+    "author": "Peter Thiel, Blake Masters",
+    "narrator": "Peter Thiel",
+    "runtimeMinutes": 240,
+    "price": 11.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 19800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41UpV7crlHL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00M27LBU2",
+    "categories": [
+      "Business",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2014-09-16",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B003UDDK7O",
+    "title": "Good to Great",
+    "author": "Jim Collins",
+    "narrator": "Jim Collins",
+    "runtimeMinutes": 600,
+    "price": 15.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 15600,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41tCQsn8UGL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B003UDDK7O",
+    "categories": [
+      "Business",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2009-01-01",
+    "publisher": "HarperAudio"
+  },
+  {
+    "asin": "B002V1LGZE",
+    "title": "The E-Myth Revisited",
+    "author": "Michael E. Gerber",
+    "narrator": "Michael E. Gerber",
+    "runtimeMinutes": 480,
+    "price": 14.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 12400,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51oeJ1g3rmL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V1LGZE",
+    "categories": [
+      "Business",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2010-01-01",
+    "publisher": "Brilliance Audio"
+  },
+  {
+    "asin": "B0H8ZLNCLY",
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "narrator": "Jeff Bottoms",
+    "runtimeMinutes": 480,
+    "price": 14.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 17900,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/4189leLwpkL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H8ZLNCLY",
+    "categories": [
+      "Self-Help",
+      "Business",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2016-01-05",
+    "publisher": "Hachette Audio"
+  },
+  {
+    "asin": "B07LGF8TCJ",
+    "title": "Digital Minimalism",
+    "author": "Cal Newport",
+    "narrator": "Will Damron",
+    "runtimeMinutes": 480,
+    "price": 14.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 11300,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51KzXfk6-hL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07LGF8TCJ",
+    "categories": [
+      "Self-Help",
+      "Technology",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2019-02-19",
+    "publisher": "Penguin Audio"
+  },
+  {
+    "asin": "B00IWZ6XGA",
+    "title": "Essentialism",
+    "author": "Greg McKeown",
+    "narrator": "Greg McKeown",
+    "runtimeMinutes": 360,
+    "price": 13.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 14600,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/513RraOM6jL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00IWZ6XGA",
+    "categories": [
+      "Self-Help",
+      "Business",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2014-04-15",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B0F71ZM8YL",
+    "title": "Start With Why",
+    "author": "Simon Sinek",
+    "narrator": "Simon Sinek",
+    "runtimeMinutes": 420,
+    "price": 13.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 21300,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41U8k2KOgFL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F71ZM8YL",
+    "categories": [
+      "Business",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2011-12-27",
+    "publisher": "Penguin Audio"
+  },
+  {
+    "asin": "0593291352",
+    "title": "Leaders Eat Last",
+    "author": "Simon Sinek",
+    "narrator": "Simon Sinek",
+    "runtimeMinutes": 480,
+    "price": 14.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 13900,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/516OBygEerL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0593291352",
+    "categories": [
+      "Business",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2014-01-07",
+    "publisher": "Penguin Audio"
+  },
+  {
+    "asin": "B07DJYBXNC",
+    "title": "Dare to Lead",
+    "author": "Brene Brown",
+    "narrator": "Brene Brown",
+    "runtimeMinutes": 480,
+    "price": 14.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 16700,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41jpUR12hQL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07DJYBXNC",
+    "categories": [
+      "Self-Help",
+      "Business",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2018-10-09",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B00CYKDYBQ",
+    "title": "The Power of Vulnerability",
+    "author": "Brene Brown",
+    "narrator": "Brene Brown",
+    "runtimeMinutes": 180,
+    "price": 10.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 14200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51jK8rnRLrL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00CYKDYBQ",
+    "categories": [
+      "Self-Help",
+      "Psychology",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2013-04-01",
+    "publisher": "Sounds True"
+  },
+  {
+    "asin": "B0CYNPSBNG",
+    "title": "Man's Search for Meaning",
+    "author": "Viktor E. Frankl",
+    "narrator": "Simon Vance",
+    "runtimeMinutes": 280,
+    "price": 11.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 36800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41sXcxx8g0L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CYNPSBNG",
+    "categories": [
+      "Psychology",
+      "Philosophy",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2011-01-01",
+    "publisher": "Blackstone Audio"
+  },
+  {
+    "asin": "B0FHF71C6Z",
+    "title": "Meditations",
+    "author": "Marcus Aurelius",
+    "narrator": "Duncan Steen",
+    "runtimeMinutes": 390,
+    "price": 12.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 18500,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41kHfrjdUCL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FHF71C6Z",
+    "categories": [
+      "Philosophy",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2010-01-01",
+    "publisher": "Audible Original"
+  },
+  {
+    "asin": "B0F9LMYQ7C",
+    "title": "The Daily Stoic",
+    "author": "Ryan Holiday, Stephen Hanselman",
+    "narrator": "Ryan Holiday",
+    "runtimeMinutes": 300,
+    "price": 12.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 13200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41wla2wSRAL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F9LMYQ7C",
+    "categories": [
+      "Philosophy",
+      "Self-Help",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2016-04-07",
+    "publisher": "Penguin Audio"
+  },
+  {
+    "asin": "B07KKMNZCH",
+    "title": "Can't Hurt Me",
+    "author": "David Goggins",
+    "narrator": "David Goggins, Adam Skolnick",
+    "runtimeMinutes": 660,
+    "price": 15.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 56200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51TNypSYkoL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07KKMNZCH",
+    "categories": [
+      "Self-Help",
+      "Biography",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2018-12-04",
+    "publisher": "Lioncrest Press"
+  },
+  {
+    "asin": "B01I28NFEE",
+    "title": "The Subtle Art of Not Giving a F*ck",
+    "author": "Mark Manson",
+    "narrator": "Roger Wayne",
+    "runtimeMinutes": 300,
+    "price": 12.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 47300,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51MT0MbpD7L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01I28NFEE",
+    "categories": [
+      "Self-Help",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2016-09-13",
+    "publisher": "HarperAudio"
+  },
+  {
+    "asin": "0062888447",
+    "title": "Everything Is F*cked: A Book About Hope",
+    "author": "Mark Manson",
+    "narrator": "Mark Manson",
+    "runtimeMinutes": 420,
+    "price": 13.99,
+    "currency": "USD",
+    "starRating": 4.4,
+    "reviewCount": 14100,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41bCM4MVCsL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0062888447",
+    "categories": [
+      "Self-Help",
+      "Philosophy",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2019-05-14",
+    "publisher": "HarperAudio"
+  },
+  {
+    "asin": "B01D3AC5BA",
+    "title": "Grit: The Power of Passion and Perseverance",
+    "author": "Angela Duckworth",
+    "narrator": "Angela Duckworth",
+    "runtimeMinutes": 540,
+    "price": 14.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 16700,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51l+lXgYBqL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01D3AC5BA",
+    "categories": [
+      "Psychology",
+      "Self-Help",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2016-05-03",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "0593150422",
+    "title": "Mindset: The New Psychology of Success",
+    "author": "Carol S. Dweck",
+    "narrator": "Marguerite Gavin",
+    "runtimeMinutes": 480,
+    "price": 14.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 18900,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41ENTiGcWcL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0593150422",
+    "categories": [
+      "Psychology",
+      "Self-Help",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2012-01-01",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B004CNGLYA",
+    "title": "The 4-Hour Body",
+    "author": "Timothy Ferriss",
+    "narrator": "Timothy Ferriss",
+    "runtimeMinutes": 1860,
+    "price": 29.99,
+    "currency": "USD",
+    "starRating": 4.4,
+    "reviewCount": 14300,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51DzQS8OpnL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B004CNGLYA",
+    "categories": [
+      "Self-Help",
+      "Health",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2010-12-14",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B0752ZQR33",
+    "title": "Why We Sleep",
+    "author": "Matthew Walker",
+    "narrator": "Steve West",
+    "runtimeMinutes": 660,
+    "price": 15.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 19800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51-zooqOoeL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0752ZQR33",
+    "categories": [
+      "Health",
+      "Science",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2017-10-03",
+    "publisher": "Simon & Schuster Audio"
+  },
+  {
+    "asin": "0593412702",
+    "title": "The Body Keeps the Score",
+    "author": "Bessel van der Kolk",
+    "narrator": "Sean Pratt",
+    "runtimeMinutes": 780,
+    "price": 17.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 22400,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41ubqX+ZoAL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0593412702",
+    "categories": [
+      "Psychology",
+      "Health",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2015-09-08",
+    "publisher": "Penguin Audio"
+  },
+  {
+    "asin": "B002V8KTYG",
+    "title": "Born to Run",
+    "author": "Christopher McDougall",
+    "narrator": "Fred Sanders",
+    "runtimeMinutes": 660,
+    "price": 15.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 14200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51mSNTKUBML._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V8KTYG",
+    "categories": [
+      "Sports",
+      "Non-Fiction"
+    ],
+    "releaseDate": "2009-05-05",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "8420439258",
+    "title": "The Silent Patient",
+    "author": "Alex Michaelides",
+    "narrator": "Jack Hawkins, Louise Brealey",
+    "runtimeMinutes": 510,
+    "price": 13.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 48300,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41nbn2tr6hL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/8420439258",
+    "categories": [
+      "Thriller",
+      "Mystery",
+      "Fiction"
+    ],
+    "releaseDate": "2019-02-05",
+    "publisher": "Macmillan Audio"
+  },
+  {
+    "asin": "B0773W3MZW",
+    "title": "The Woman in the Window",
+    "author": "A.J. Finn",
+    "narrator": "Ann Marie Lee",
+    "runtimeMinutes": 660,
+    "price": 15.99,
+    "currency": "USD",
+    "starRating": 4.3,
+    "reviewCount": 24600,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/5177BkBe6IL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0773W3MZW",
+    "categories": [
+      "Thriller",
+      "Mystery",
+      "Fiction"
+    ],
+    "releaseDate": "2018-01-02",
+    "publisher": "HarperAudio"
+  },
+  {
+    "asin": "B00K8F589A",
+    "title": "Big Little Lies",
+    "author": "Liane Moriarty",
+    "narrator": "Caroline Lee",
+    "runtimeMinutes": 900,
+    "price": 18.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 31800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51XeHS37PBL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00K8F589A",
+    "categories": [
+      "Mystery",
+      "Literary Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2014-07-29",
+    "publisher": "Penguin Audio"
+  },
+  {
+    "asin": "B008NB9GIU",
+    "title": "The Handmaid's Tale",
+    "author": "Margaret Atwood",
+    "narrator": "Claire Danes",
+    "runtimeMinutes": 660,
+    "price": 15.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 35900,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51WR0HyEu9L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B008NB9GIU",
+    "categories": [
+      "Dystopian",
+      "Science Fiction",
+      "Literary Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2012-04-24",
+    "publisher": "Audible Original"
+  },
+  {
+    "asin": "B07FSNSLZ1",
+    "title": "Where the Crawdads Sing",
+    "author": "Delia Owens",
+    "narrator": "Cassandra Campbell",
+    "runtimeMinutes": 720,
+    "price": 16.99,
+    "currency": "USD",
+    "starRating": 4.8,
+    "reviewCount": 86400,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51MnNmMUHhL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07FSNSLZ1",
+    "categories": [
+      "Literary Fiction",
+      "Mystery",
+      "Fiction"
+    ],
+    "releaseDate": "2018-08-14",
+    "publisher": "Penguin Audio"
+  },
+  {
+    "asin": "0593507533",
+    "title": "Lessons in Chemistry",
+    "author": "Bonnie Garmus",
+    "narrator": "Miriam Rutherford",
+    "runtimeMinutes": 600,
+    "price": 14.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 42900,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41tCNqHzHfL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0593507533",
+    "categories": [
+      "Literary Fiction",
+      "Historical Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2022-04-05",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B072359S7K",
+    "title": "The Seven Husbands of Evelyn Hugo",
+    "author": "Taylor Jenkins Reid",
+    "narrator": "Alma Cuervo, Julia Whelan, Robin Miles",
+    "runtimeMinutes": 720,
+    "price": 16.99,
+    "currency": "USD",
+    "starRating": 4.8,
+    "reviewCount": 68500,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51aJaxiNQ0L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B072359S7K",
+    "categories": [
+      "Historical Fiction",
+      "Literary Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2017-06-13",
+    "publisher": "Simon & Schuster Audio"
+  },
+  {
+    "asin": "1984845306",
+    "title": "Daisy Jones & The Six",
+    "author": "Taylor Jenkins Reid",
+    "narrator": "Full Cast",
+    "runtimeMinutes": 540,
+    "price": 13.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 38200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51eGdX9H7eL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1984845306",
+    "categories": [
+      "Historical Fiction",
+      "Literary Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2019-03-05",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "1984845349",
+    "title": "Malibu Rising",
+    "author": "Taylor Jenkins Reid",
+    "narrator": "Julia Whelan",
+    "runtimeMinutes": 600,
+    "price": 14.99,
+    "currency": "USD",
+    "starRating": 4.4,
+    "reviewCount": 18900,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51AOAZMD37L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1984845349",
+    "categories": [
+      "Literary Fiction",
+      "Historical Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "2021-06-01",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B09SS8STH8",
+    "title": "Carrie Soto Is Back",
+    "author": "Taylor Jenkins Reid",
+    "narrator": "Julia Whelan",
+    "runtimeMinutes": 600,
+    "price": 14.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 16700,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41NlVbDci1L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09SS8STH8",
+    "categories": [
+      "Literary Fiction",
+      "Sports",
+      "Fiction"
+    ],
+    "releaseDate": "2022-08-30",
+    "publisher": "Random House Audio"
+  },
+  {
+    "asin": "B0BVD25SYT",
+    "title": "Fourth Wing",
+    "author": "Rebecca Yarros",
+    "narrator": "Rebecca Soler, Teddy Hamilton",
+    "runtimeMinutes": 720,
+    "price": 16.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 95100,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61DeDp4b3GL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0BVD25SYT",
+    "categories": [
+      "Fantasy",
+      "Romance",
+      "Young Adult",
+      "Fiction"
+    ],
+    "releaseDate": "2023-05-02",
+    "publisher": "Macmillan Audio"
+  },
+  {
+    "asin": "B0C9V5SLQQ",
+    "title": "Iron Flame",
+    "author": "Rebecca Yarros",
+    "narrator": "Rebecca Soler, Teddy Hamilton",
+    "runtimeMinutes": 840,
+    "price": 18.99,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 68200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61ECOUEnoTL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0C9V5SLQQ",
+    "categories": [
+      "Fantasy",
+      "Romance",
+      "Young Adult",
+      "Fiction"
+    ],
+    "releaseDate": "2023-11-07",
+    "publisher": "Macmillan Audio"
+  },
+  {
+    "asin": "B0GRCYHW97",
+    "title": "A Court of Thorns and Roses",
+    "author": "Sarah J. Maas",
+    "narrator": "Jennifer Ikeda",
+    "runtimeMinutes": 780,
+    "price": 17.99,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 72400,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41f1gzVyhPL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GRCYHW97",
+    "categories": [
+      "Fantasy",
+      "Romance",
+      "Young Adult",
+      "Fiction"
+    ],
+    "releaseDate": "2015-05-05",
+    "publisher": "Bloomsbury"
+  },
+  {
+    "asin": "B01DYO4QRQ",
+    "title": "A Court of Mist and Fury",
+    "author": "Sarah J. Maas",
+    "narrator": "Jennifer Ikeda",
+    "runtimeMinutes": 960,
+    "price": 19.99,
+    "currency": "USD",
+    "starRating": 4.8,
+    "reviewCount": 85600,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51J8T7o92gL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01DYO4QRQ",
+    "categories": [
+      "Fantasy",
+      "Romance",
+      "Young Adult",
+      "Fiction"
+    ],
+    "releaseDate": "2016-05-03",
+    "publisher": "Bloomsbury"
+  },
+  {
+    "asin": "B09CHBJYZC",
+    "title": "Throne of Glass",
+    "author": "Sarah J. Maas",
+    "narrator": "Elizabeth Evans",
+    "runtimeMinutes": 720,
+    "price": 16.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 38900,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41rONy0q1OL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09CHBJYZC",
+    "categories": [
+      "Fantasy",
+      "Young Adult",
+      "Fiction"
+    ],
+    "releaseDate": "2012-08-07",
+    "publisher": "Bloomsbury"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  { "name": "Fantasy", "slug": "fantasy" },
+  { "name": "Science Fiction", "slug": "science-fiction" },
+  { "name": "Historical Fiction", "slug": "historical-fiction" },
+  { "name": "Mystery", "slug": "mystery" },
+  { "name": "Thriller", "slug": "thriller" },
+  { "name": "Biography", "slug": "biography" },
+  { "name": "Business", "slug": "business" },
+  { "name": "Self-Help", "slug": "self-help" },
+  { "name": "Psychology", "slug": "psychology" },
+  { "name": "Young Adult", "slug": "young-adult" },
+  { "name": "Horror", "slug": "horror" },
+  { "name": "Romance", "slug": "romance" }
+]

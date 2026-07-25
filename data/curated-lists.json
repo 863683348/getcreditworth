@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "best-epic-fantasy-for-credits",
+    "title": "Best Epic Fantasy to Spend Credits On",
+    "description": "Long, immersive fantasy series that maximize your credit value. These 45+ hour epics give you the best cost-per-hour ratio.",
+    "category": "Fantasy",
+    "bookAsins": [
+      "B0036IU702",
+      "B004EV8Z9Q",
+      "B0050O3VFC",
+      "B007OWKZJ6",
+      "B003MXMYDO"
+    ],
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "slug": "top-science-fiction-audiobooks",
+    "title": "Top Science Fiction Audiobooks",
+    "description": "Mind-bending sci-fi narratives with outstanding narration. From Mars survival to virtual reality adventures.",
+    "category": "Science Fiction",
+    "bookAsins": [
+      "B0050EN8E6",
+      "B017Q3V8I2",
+      "B005H5ICRU",
+      "B004G5ZUQ8"
+    ],
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "slug": "non-fiction-for-self-improvement",
+    "title": "Non-Fiction for Self-Improvement",
+    "description": "Transformative non-fiction picks. Build habits, understand decision-making, and learn from great lives.",
+    "category": "Non-Fiction",
+    "bookAsins": [
+      "B005FLOGJ2",
+      "B006K1L6MM",
+      "B0051OFIB8",
+      "B005OCJRAO"
+    ],
+    "updatedAt": "2026-07-25"
+  },
+  {
+    "slug": "thrillers-and-mysteries",
+    "title": "Gripping Thrillers & Mysteries",
+    "description": "Page-turning thrillers that will keep you listening through your commute. Perfect for credit spending.",
+    "category": "Mystery",
+    "bookAsins": [
+      "B005LAYCRW",
+      "B003L7U0OY",
+      "B002V0V5RU"
+    ],
+    "updatedAt": "2026-07-25"
+  }
+]
