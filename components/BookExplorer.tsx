@@ -28,9 +28,23 @@ export function BookExplorer({
   const [duration, setDuration] = useState('all');
   const [minRating, setMinRating] = useState(0);
   const [category, setCategory] = useState('all');
+  const [narrator, setNarrator] = useState('');
   const [viewMode, setViewMode] = useState<ViewMode>('card');
 
   // 所有分类（从传入的 books 提取）
+  const allNarrators = useMemo(() => {
+    const set = new Set<string>();
+    books.forEach((book) => {
+      if (book.narrator) {
+        book.narrator.split(',').forEach((n) => {
+          const name = n.trim();
+          if (name) set.add(name);
+        });
+      }
+    });
+    return Array.from(set).sort();
+  }, [books]);
+
   const allCategories = useMemo(() => {
     const set = new Set<string>();
     books.forEach((book) => {
@@ -45,8 +59,9 @@ export function BookExplorer({
       durationRange: duration,
       minRating,
       category,
+      narrator,
     });
-  }, [books, keyword, duration, minRating, category]);
+  }, [books, keyword, duration, minRating, category, narrator]);
 
   const handleSearch = useCallback((kw: string) => setKeyword(kw), []);
 
@@ -60,9 +75,12 @@ export function BookExplorer({
             minRating={minRating}
             category={category}
             categories={allCategories}
+            narrator={narrator}
+            narrators={allNarrators}
             onDurationChange={setDuration}
             onRatingChange={setMinRating}
             onCategoryChange={setCategory}
+            onNarratorChange={setNarrator}
             resultCount={filteredBooks.length}
           />
           <ViewToggle mode={viewMode} onChange={setViewMode} />

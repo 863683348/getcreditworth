@@ -84,6 +84,7 @@ export function filterBooks(
     durationRange?: string;
     minRating?: number;
     category?: string;
+    narrator?: string;
   }
 ): Book[] {
   return books.filter((book) => {
@@ -114,6 +115,11 @@ export function filterBooks(
       if (!book.categories.some((c) => c.toLowerCase() === filters.category!.toLowerCase())) {
         return false;
       }
+    }
+
+    // Narrator filter
+    if (filters.narrator) {
+      if (!book.narrator || !book.narrator.toLowerCase().includes(filters.narrator.toLowerCase())) return false;
     }
 
     return true;

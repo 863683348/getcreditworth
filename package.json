@@ -1,40 +1,42 @@
 {
-  "name": "getcreditworth",
-  "version": "0.1.0",
-  "private": true,
-  "description": "Audible credit value optimizer - find the best audiobooks to spend your credits on",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "type-check": "tsc --noEmit",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "fetch-books": "tsx scripts/fetch-books.ts"
-  },
-  "dependencies": {
-    "next": "14.2.5",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "lucide-react": "0.408.0",
-    "@mdx-js/loader": "3.0.1",
-    "@mdx-js/react": "3.0.1",
-    "@next/mdx": "14.2.5",
-    "@types/mdx": "2.0.13"
-  },
-  "devDependencies": {
-    "typescript": "5.5.3",
-    "@types/node": "20.14.10",
-    "@types/react": "18.3.3",
-    "@types/react-dom": "18.3.0",
-    "tailwindcss": "3.4.6",
-    "postcss": "8.4.39",
-    "autoprefixer": "10.4.19",
-    "eslint": "8.57.0",
-    "eslint-config-next": "14.2.5",
-    "vitest": "2.0.3",
-    "@vitejs/plugin-react": "4.3.1",
-    "tsx": "4.16.2"
-  }
+    "name":  "getcreditworth",
+    "version":  "0.1.0",
+    "private":  true,
+    "description":  "Audible credit value optimizer - find the best audiobooks to spend your credits on",
+    "scripts":  {
+                    "dev":  "next dev",
+                    "build":  "next build",
+                    "start":  "next start",
+                    "lint":  "next lint",
+                    "type-check":  "tsc --noEmit",
+                    "test":  "vitest run",
+                    "test:watch":  "vitest",
+                    "fetch-books":  "tsx scripts/fetch-books.ts",
+                    "update-prices":  "tsx scripts/update-books-paapi.ts",
+                    "update-all":  "tsx scripts/update-books-paapi.ts"
+                },
+    "dependencies":  {
+                         "next":  "14.2.5",
+                         "react":  "18.3.1",
+                         "react-dom":  "18.3.1",
+                         "lucide-react":  "0.408.0",
+                         "@mdx-js/loader":  "3.0.1",
+                         "@mdx-js/react":  "3.0.1",
+                         "@next/mdx":  "14.2.5",
+                         "@types/mdx":  "2.0.13"
+                     },
+    "devDependencies":  {
+                            "typescript":  "5.5.3",
+                            "@types/node":  "20.14.10",
+                            "@types/react":  "18.3.3",
+                            "@types/react-dom":  "18.3.0",
+                            "tailwindcss":  "3.4.6",
+                            "postcss":  "8.4.39",
+                            "autoprefixer":  "10.4.19",
+                            "eslint":  "8.57.0",
+                            "eslint-config-next":  "14.2.5",
+                            "vitest":  "2.0.3",
+                            "@vitejs/plugin-react":  "4.3.1",
+                            "tsx":  "4.16.2"
+                        }
 }

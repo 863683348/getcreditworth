@@ -13,6 +13,9 @@ interface FilterBarProps {
   onRatingChange: (value: number) => void;
   onCategoryChange: (value: string) => void;
   resultCount: number;
+  narrator: string;
+  narrators: string[];
+  onNarratorChange: (value: string) => void;
 }
 
 const SELECT_BASE =
@@ -27,6 +30,9 @@ export function FilterBar({
   onRatingChange,
   onCategoryChange,
   resultCount,
+  narrator,
+  narrators,
+  onNarratorChange,
 }: FilterBarProps) {
   const { t } = useI18n();
 
@@ -102,6 +108,21 @@ export function FilterBar({
           </select>
         </div>
       </div>
+
+        {/* Narrator */}
+        <div className="relative">
+          <select
+            value={narrator}
+            onChange={(e) => onNarratorChange(e.target.value)}
+            className={SELECT_BASE}
+            aria-label="Narrator"
+          >
+            <option value="">All Narrators</option>
+            {narrators.map((n) => (
+              <option key={n} value={n}>{n}</option>
+            ))}
+          </select>
+        </div>
 
       {/* Result count */}
       <div className="text-xs text-text-muted whitespace-nowrap">

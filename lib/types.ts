@@ -39,6 +39,7 @@ export interface CuratedList {
   title: string;
   description: string;
   category: string;
+  narrator?: string;
   narrator?: string; // narrator name filter
   bookAsins: string[]; // 引用 Book.asin
   updatedAt: string;
