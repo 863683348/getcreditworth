@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 站点全局配置
  * 集中管理，避免硬编码散落各处
  */
@@ -22,6 +22,7 @@ export const NAV_ITEMS = [
   { label: 'Calculator', href: '/calculator', icon: 'Calculator' as const },
   { label: 'Blog', href: '/blog', icon: 'FileText' as const },
   { label: 'Favorites', href: '/favorites', icon: 'Bookmark' as const },
+  { label: 'Compare', href: '/compare', icon: 'GitCompare' as const },
 ] as const;
 
 export const FILTER_OPTIONS = {

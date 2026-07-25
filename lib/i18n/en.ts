@@ -11,6 +11,7 @@ export const en = {
     calculator: 'Calculator',
     blog: 'Blog',
     favorites: 'Favorites',
+    compare: 'Compare',
     toggleMenu: 'Toggle menu',
     switchToChinese: '切换到中文',
     switchToEnglish: 'Switch to English',

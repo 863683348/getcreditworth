@@ -13,6 +13,7 @@ export const zh: TranslationKeys = {
     calculator: '计算器',
     blog: '博客',
     favorites: '收藏',
+    compare: '对比',
     toggleMenu: '切换菜单',
     switchToChinese: '切换到中文',
     switchToEnglish: 'Switch to English',
@@ -87,6 +88,8 @@ export const zh: TranslationKeys = {
     subtitle: '浏览全部 {count} 本有声书。使用筛选器找到适合你收听目标的书籍。',
     pageTitle: '全部有声书 - 浏览和比较价值评分',
     pageDescription: '浏览所有有声书的价值评分。按时长、评分和分类筛选，找到最适合 Audible 积分的书籍。',
+    curatedTitle: '精选榜单',
+    viewAll: '查看全部',
   },
 
   // Calculator page
