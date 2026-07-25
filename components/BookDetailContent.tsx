@@ -1,4 +1,4 @@
-'use client';
+﻿'use client';
 
 import Link from 'next/link';
 import Image from 'next/image';
@@ -82,7 +82,7 @@ export function BookDetailContent({ book }: BookDetailContentProps) {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Cover */}
         <div className="md:col-span-1">
-          <div className="aspect-ratio-book-cover relative w-full max-w-xs mx-auto md:mx-0 overflow-hidden rounded-lg bg-bg-surface border border-border">
+          <div className="aspect-ratio-book-cover relative w-full max-w-xs mx-auto md:mx-0 overflow-hidden rounded-lg bg-bg-surface border border-border" style={{ aspectRatio: "3/5" }}>
             <Image
               src={book.coverImageUrl}
               alt={t.bookDetail.coverAlt.replace('{title}', book.title)}

@@ -38,7 +38,7 @@ export function BookCard({ book, rank, variant = "default" }: BookCardProps) {
       {/* Cover */}
       <div className="flex-shrink-0 w-14 sm:w-16 md:w-20">
         <Link href={`/books/${book.asin}`} className="block">
-          <div className="aspect-ratio-book-cover relative overflow-hidden rounded-md bg-bg-surface">
+          <div className="aspect-ratio-book-cover relative overflow-hidden rounded-md bg-bg-surface" style={{ aspectRatio: "3/5" }}>
             <Image
               src={book.coverImageUrl}
               alt={t.bookCard.coverAlt.replace("{title}", book.title)}
