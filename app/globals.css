@@ -238,3 +238,123 @@
     scroll-behavior: auto !important;
   }
 }
+
+/* ========== 移动端安全区（刘海屏/折叠屏）========== */
+@supports (padding-top: env(safe-area-inset-top)) {
+  .safe-area-padding {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+
+  .safe-area-padding-top {
+    padding-top: env(safe-area-inset-top);
+  }
+
+  .safe-area-padding-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  header.sticky {
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+  }
+}
+
+/* 折叠屏 viewport 段支持 */
+@supports (overflow: clip) {
+  @media (spanning: single-fold-vertical) {
+    .container-content {
+      padding-left: env(fold-left, 16px);
+      padding-right: env(fold-right, 16px);
+    }
+  }
+}
+
+/* ========== 触摸优化 ========== */
+/* 所有可交互元素最小触摸目标 */
+button,
+a,
+input,
+select,
+textarea,
+label {
+  /* 全局最小触摸目标（不改变实际尺寸，仅保留触控区域） */
+}
+
+/* 专为小屏触摸设计的按钮膨胀区 */
+@media (pointer: coarse) {
+  .btn,
+  button:not(.btn-clean),
+  a:not(.btn-clean) {
+    min-height: 44px;
+  }
+
+  select,
+  input[type="text"],
+  input[type="search"] {
+    min-height: 44px;
+  }
+}
+
+/* 平移滚动优化 */
+.overflow-x-auto {
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+/* 禁止移动端选中（在非文本组件上） */
+.no-select {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+}
+
+/* 移动端菜单禁止页面滚动 */
+body.menu-open {
+  overflow: hidden;
+}
+
+/* ========== 折叠屏专用适配 ========== */
+@media (max-width: 344px) {
+  .container-content {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .card {
+    padding: 12px !important;
+  }
+
+  .btn {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 13px;
+  }
+}
+
+/* 平板竖屏（iPad mini / iPad Air portrait） */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container-content {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+/* 平板横屏 / 小桌面 */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .container-content {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+
+/* ========== 减少动画（可访问性） ========== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

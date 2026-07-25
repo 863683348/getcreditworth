@@ -1,9 +1,17 @@
-import type { Metadata } from 'next';
-import './globals.css';
-import { Header } from '@/components/layout/Header';
-import { Footer } from '@/components/layout/Footer';
-import { I18nProvider } from '@/lib/i18n';
-import { SITE_CONFIG } from '@/lib/config';
+﻿import type { Metadata, Viewport } from "next";
+import "./globals.css";
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
+import { I18nProvider } from "@/lib/i18n";
+import { SITE_CONFIG } from "@/lib/config";
+
+const baseUrl = SITE_CONFIG.url;
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#0F766E",
+};
 
 export const metadata: Metadata = {
   title: {
@@ -11,9 +19,21 @@ export const metadata: Metadata = {
     template: `%s | ${SITE_CONFIG.name}`,
   },
   description: SITE_CONFIG.description,
-  metadataBase: new URL(SITE_CONFIG.url),
+  metadataBase: new URL(baseUrl),
+  keywords: [
+    "audible credit value",
+    "best audiobooks to spend credits on",
+    "audible credit optimizer",
+    "audiobook cost per hour",
+    "best value audiobooks audible",
+    "audible credit calculator",
+    "audiobook value score",
+    "audible books worth credits",
+    "best audible credits to use",
+    "audible membership worth it",
+  ],
   openGraph: {
-    type: 'website',
+    type: "website",
     locale: SITE_CONFIG.locale,
     url: SITE_CONFIG.url,
     title: SITE_CONFIG.title,
@@ -21,7 +41,7 @@ export const metadata: Metadata = {
     siteName: SITE_CONFIG.name,
   },
   twitter: {
-    card: 'summary_large_image',
+    card: "summary_large_image",
     title: SITE_CONFIG.title,
     description: SITE_CONFIG.description,
     creator: SITE_CONFIG.twitter,
@@ -32,8 +52,14 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
+  alternates: {
+    languages: {
+      en: `${baseUrl}/en`,
+      zh: `${baseUrl}/zh`,
     },
   },
 };

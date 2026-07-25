@@ -1,12 +1,9 @@
-import type { Book } from '@/lib/types';
+﻿import type { Book } from "@/lib/types";
 
 interface JsonLdProps {
   data: Record<string, unknown>;
 }
 
-/**
- * 注入 JSON-LD 结构化数据
- */
 export function JsonLd({ data }: JsonLdProps) {
   return (
     <script
@@ -16,32 +13,29 @@ export function JsonLd({ data }: JsonLdProps) {
   );
 }
 
-/**
- * 书籍详情页 Schema
- */
 export function BookJsonLd({ book }: { book: Book }) {
   const schema = {
-    '@context': 'https://schema.org',
-    '@type': 'Book',
+    "@context": "https://schema.org",
+    "@type": "Book",
     name: book.title,
     author: {
-      '@type': 'Person',
+      "@type": "Person",
       name: book.author,
     },
-    bookFormat: 'https://schema.org/AudiobookFormat',
+    bookFormat: "https://schema.org/AudiobookFormat",
     ...(book.narrator && {
       readBy: {
-        '@type': 'Person',
+        "@type": "Person",
         name: book.narrator,
       },
     }),
     aggregateRating: {
-      '@type': 'AggregateRating',
+      "@type": "AggregateRating",
       ratingValue: book.starRating.toString(),
       reviewCount: book.reviewCount.toString(),
     },
     offers: {
-      '@type': 'Offer',
+      "@type": "Offer",
       price: book.price.toString(),
       priceCurrency: book.currency,
     },
@@ -52,21 +46,24 @@ export function BookJsonLd({ book }: { book: Book }) {
   return <JsonLd data={schema} />;
 }
 
-/**
- * 列表页 ItemList Schema
- */
-export function ItemListJsonLd({ books, name }: { books: Book[]; name: string }) {
+export function ItemListJsonLd({
+  books,
+  name,
+}: {
+  books: Book[];
+  name: string;
+}) {
   const schema = {
-    '@context': 'https://schema.org',
-    '@type': 'ItemList',
+    "@context": "https://schema.org",
+    "@type": "ItemList",
     name,
     itemListElement: books.slice(0, 50).map((book, index) => ({
-      '@type': 'ListItem',
+      "@type": "ListItem",
       position: index + 1,
       item: {
-        '@type': 'Book',
+        "@type": "Book",
         name: book.title,
-        author: { '@type': 'Person', name: book.author },
+        author: { "@type": "Person", name: book.author },
         url: `/books/${book.asin}`,
       },
     })),
@@ -74,23 +71,72 @@ export function ItemListJsonLd({ books, name }: { books: Book[]; name: string })
   return <JsonLd data={schema} />;
 }
 
-/**
- * 网站搜索框 Schema（首页用）
- */
 export function WebsiteJsonLd() {
   const schema = {
-    '@context': 'https://schema.org',
-    '@type': 'WebSite',
-    name: 'GetCreditWorth',
-    url: 'https://getcreditworth.com',
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "GetCreditWorth",
+    url: "https://getcreditworth.com",
     potentialAction: {
-      '@type': 'SearchAction',
+      "@type": "SearchAction",
       target: {
-        '@type': 'EntryPoint',
-        urlTemplate: 'https://getcreditworth.com/books?q={search_term_string}',
+        "@type": "EntryPoint",
+        urlTemplate:
+          "https://getcreditworth.com/books?q={search_term_string}",
       },
-      'query-input': 'required name=search_term_string',
+      "query-input": "required name=search_term_string",
     },
+  };
+  return <JsonLd data={schema} />;
+}
+
+export function OrganizationJsonLd() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    name: "GetCreditWorth",
+    url: "https://getcreditworth.com",
+    description:
+      "Audible credit value optimizer — find the best audiobooks to spend your credits on with data-driven value scores.",
+    foundingDate: "2024",
+  };
+  return <JsonLd data={schema} />;
+}
+
+export function BreadcrumbListJsonLd({
+  items,
+}: {
+  items: { name: string; url: string }[];
+}) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: `https://getcreditworth.com${item.url}`,
+    })),
+  };
+  return <JsonLd data={schema} />;
+}
+
+export function FaqPageJsonLd({
+  questions,
+}: {
+  questions: { question: string; answer: string }[];
+}) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: questions.map((q) => ({
+      "@type": "Question",
+      name: q.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: q.answer,
+      },
+    })),
   };
   return <JsonLd data={schema} />;
 }

@@ -1,15 +1,28 @@
-import { getAllCuratedLists } from '@/lib/api/controllers/curated.controller';
-import { buildCanonicalUrl } from '@/lib/utils/affiliate';
-import { CuratedListContent } from '@/components/CuratedListContent';
-import type { Metadata } from 'next';
+﻿import { getAllCuratedLists } from "@/lib/api/controllers/curated.controller";
+import { buildCanonicalUrl } from "@/lib/utils/affiliate";
+import { CuratedListContent } from "@/components/CuratedListContent";
+import type { Metadata } from "next";
 
 export const revalidate = 604800;
 
 export const metadata: Metadata = {
-  title: 'Curated Audiobook Lists - Hand-Picked Recommendations',
+  title: "Curated Audiobook Lists - Best Books for Your Credits",
   description:
-    'Browse curated lists of the best audiobooks for your Audible credits. Hand-picked recommendations by genre and listening goal.',
-  alternates: { canonical: buildCanonicalUrl('/curated') },
+    "Hand-picked audiobook lists by genre and listening goal. Each book is selected for maximum credit value. Find the best sci-fi, fantasy, non-fiction, and thriller audiobooks worth your Audible credits.",
+  keywords: [
+    "best audiobooks by genre",
+    "curated audible books list",
+    "best fantasy audiobooks for credits",
+    "best non-fiction audible books",
+    "top rated sci-fi audiobooks",
+    "best thriller audiobooks audible",
+  ],
+  alternates: { canonical: buildCanonicalUrl("/curated") },
+  openGraph: {
+    title: "Curated Audiobook Lists",
+    description:
+      "Hand-picked audiobook lists for maximum credit value. Find the best books for your Audible credits by genre.",
+  },
 };
 
 export default function CuratedListsPage() {
