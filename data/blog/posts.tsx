@@ -1,4 +1,4 @@
-/**
+﻿/**
  * 博客文章数据层
  * 从 page.tsx 抽离，独立模块化管理
  */
@@ -455,6 +455,241 @@ const POSTS: Record<string, BlogPostData> = {
             top-ranked books
           </Link>{' '}
           to start maximizing your value today.
+        </p>
+      </>
+    ),
+  },
+  'is-audible-worth-it-2026': {
+    slug: 'is-audible-worth-it-2026',
+    title: 'Is Audible Worth It in 2026? An Honest Review',
+    description:
+      'Thinking about an Audible subscription? We break down the costs, benefits, and credit value to help you decide.',
+    date: '2026-07-25',
+    readTime: '7 min read',
+    category: 'Analysis',
+    content: (
+      <>
+        <p>
+          With subscription costs rising, you might wonder if Audible is still worth it in 2026.
+          The short answer: it depends on how you use it. A single credit costs .95, but most
+          popular audiobooks retail for -. You are saving 25-60% off retail by using credits.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Break-Even Analysis</h2>
+        <p>
+          If you listen to one audiobook per month, Audible is almost certainly worth it. Use
+          credits on the most expensive books and buy Plus Catalog titles for the rest. Our
+          <Link href="/calculator" className="text-primary underline"> Credit Calculator</Link>
+          can help you optimize.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When Audible Is Not Worth It</h2>
+        <ul className="space-y-2">
+          <li>If you listen to fewer than one book every 2-3 months</li>
+          <li>If you only listen to short books under </li>
+          <li>If you will not remember to use credits before they expire</li>
+        </ul>
+        <p className="mt-6">
+          For most listeners, Audible is worth it — especially if you use our
+          <Link href="/" className="text-primary underline"> Value Score rankings</Link>
+          to maximize every credit.
+        </p>
+      </>
+    ),
+  },
+  'audible-return-policy-guide': {
+    slug: 'audible-return-policy-guide',
+    title: 'Audible Return Policy: Can You Return Audiobooks?',
+    description:
+      'Complete guide to Audible returns. Learn how the 365-day return window works and best practices.',
+    date: '2026-07-25',
+    readTime: '5 min read',
+    category: 'Guide',
+    content: (
+      <>
+        <p>
+          Audible allows you to return audiobooks within 365 days of purchase. This is remarkably
+          generous — most digital retailers offer just 7-30 days.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Return</h2>
+        <p>
+          Go to your purchase history, find the book, and select "Return." The credit or refund
+          is processed immediately in most cases.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Return Limits</h2>
+        <p>
+          While Audible does not publish a strict limit, excessive returns can lead to
+          restrictions. A good rule: do not return more than 20% of your purchases.
+        </p>
+        <p className="mt-6">
+          Use the generous return policy to try books risk-free. Check our
+          <Link href="/" className="text-primary underline"> Value Score rankings</Link>
+          to find books you will love.
+        </p>
+      </>
+    ),
+  },
+  'best-fantasy-audiobooks-for-credits': {
+    slug: 'best-fantasy-audiobooks-for-credits',
+    title: 'Best Fantasy Audiobooks to Spend Audible Credits On',
+    description:
+      'Epic fantasy audiobooks that maximize your credit value. 30+ hour sagas with incredible cost-per-hour ratios.',
+    date: '2026-07-25',
+    readTime: '8 min read',
+    category: 'Recommendations',
+    content: (
+      <>
+        <p>
+          Fantasy is the best genre for credit value. Epic series routinely clock 30-60 hours
+          with high ratings and premium pricing.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Stormlight Archive</h2>
+        <p>
+          Each book is 45-60 hours, rated 4.6-4.8 stars. Narrators Kate Reading and Michael
+          Kramer deliver outstanding performances. You save + per credit.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Wheel of Time</h2>
+        <p>
+          Fourteen books averaging 30-40 hours each. The longest completed fantasy series ever.
+          Massive savings if you use credits for the whole series.
+        </p>
+        <p className="mt-6">
+          Browse our
+          <Link href="/curated/best-epic-fantasy-for-credits" className="text-primary underline"> curated fantasy list</Link>
+          for more recommendations.
+        </p>
+      </>
+    ),
+  },
+  'best-sci-fi-audiobooks-for-credits': {
+    slug: 'best-sci-fi-audiobooks-for-credits',
+    title: 'Top Sci-Fi Audiobooks Worth Your Audible Credits',
+    description:
+      'Best science fiction audiobooks ranked by credit value. From space operas to hard sci-fi.',
+    date: '2026-07-25',
+    readTime: '7 min read',
+    category: 'Recommendations',
+    content: (
+      <>
+        <p>
+          Science fiction offers excellent value-for-credit. Long running series with outstanding
+          narration deliver great cost-per-hour ratios.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Project Hail Mary</h2>
+        <p>
+          The highest-rated sci-fi audiobook at 4.9 stars. Ray Porter narration is universally
+          praised. One of the best single-book sci-fi experiences available.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Expanse Series</h2>
+        <p>
+          Nine books averaging 20 hours each. Jefferson Mays narration brings characters to
+          life. 180+ hours of content — phenomenal value for 9 credits.
+        </p>
+        <p className="mt-6">
+          See our
+          <Link href="/curated/top-science-fiction-audiobooks" className="text-primary underline"> curated sci-fi list</Link>.
+        </p>
+      </>
+    ),
+  },
+  'audible-gift-audiobooks-guide': {
+    slug: 'audible-gift-audiobooks-guide',
+    title: 'How to Gift Audible Audiobooks: A Complete Guide',
+    description:
+      'Learn how to gift Audible audiobooks. Send a specific title or give an Audible membership.',
+    date: '2026-07-25',
+    readTime: '5 min read',
+    category: 'Guide',
+    content: (
+      <>
+        <p>
+          Audible audiobooks make excellent gifts. You can gift a specific title or give a
+          membership so they can choose their own books.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Gifting a Specific Audiobook</h2>
+        <p>
+          Go to the book page, click "Give as a Gift," and enter the recipient email. They
+          receive instructions to claim their book.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Tips for Great Audiobook Gifts</h2>
+        <ul className="space-y-2">
+          <li><strong>Consider their interests:</strong> Fantasy fans love Stormlight Archive.</li>
+          <li><strong>Check narration quality:</strong> A great narrator makes the difference.</li>
+          <li><strong>Use Value Scores:</strong> Our rankings help find the best gift books.</li>
+        </ul>
+        <p className="mt-6">
+          Browse our
+          <Link href="/" className="text-primary underline"> top-rated audiobooks</Link>
+          to find the perfect gift.
+        </p>
+      </>
+    ),
+  },
+  'audible-plus-catalog-vs-credits': {
+    slug: 'audible-plus-catalog-vs-credits',
+    title: 'Audible Plus Catalog vs Credits: What to Use When',
+    description:
+      'When to use the Plus Catalog vs spend credits. Maximize your membership value with this guide.',
+    date: '2026-07-25',
+    readTime: '6 min read',
+    category: 'Guide',
+    content: (
+      <>
+        <p>
+          Premium Plus members have two ways to listen: the Plus Catalog and credit purchases.
+          Knowing which to use when is key to maximizing value.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When to Use Credits</h2>
+        <ul className="space-y-2">
+          <li><strong>Premium audiobooks:</strong> New releases are rarely in the Plus Catalog.</li>
+          <li><strong>High value books:</strong> Books above .95 save you money with credits.</li>
+          <li><strong>Keep-forever titles:</strong> Credit purchases are yours to keep forever.</li>
+        </ul>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When to Use the Plus Catalog</h2>
+        <ul className="space-y-2">
+          <li><strong>Short books under 8 hours</strong> &mdash; better value listening free.</li>
+          <li><strong>Unknown authors</strong> &mdash; try before committing a credit.</li>
+          <li><strong>Classic and older books</strong> &mdash; many are available for free.</li>
+        </ul>
+        <p className="mt-6">
+          Use our
+          <Link href="/" className="text-primary underline"> Value Score rankings</Link>
+          to find the best books for credit purchases.
+        </p>
+      </>
+    ),
+  },
+  'best-nonfiction-audiobooks-for-credits': {
+    slug: 'best-nonfiction-audiobooks-for-credits',
+    title: 'Best Non-Fiction Audiobooks Worth Your Credits',
+    description:
+      'Maximize credit value with non-fiction audiobooks. Biographies and business books ranked by Value Score.',
+    date: '2026-07-25',
+    readTime: '7 min read',
+    category: 'Recommendations',
+    content: (
+      <>
+        <p>
+          Non-fiction audiobooks can be excellent credit value. Long biographies and comprehensive
+          business books deliver great cost-per-hour.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Steve Jobs by Walter Isaacson</h2>
+        <p>
+          At 25 hours, this biography is excellent credit value. Essential for entrepreneurs
+          and anyone interested in innovation.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Thinking, Fast and Slow</h2>
+        <p>
+          A Nobel Prize winner work on behavioral economics. At 20 hours, substantial listening
+          time with top-tier content.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Credit Value Tip</h2>
+        <p>
+          Focus your credits on long biographies (20+ hours). For short self-help books under ,
+          buy directly and save credits for longer reads.
+        </p>
+        <p className="mt-6">
+          Browse our
+          <Link href="/" className="text-primary underline"> full Value Score rankings</Link>
+          to compare non-fiction audiobooks.
         </p>
       </>
     ),

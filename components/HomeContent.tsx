@@ -71,9 +71,7 @@ export function HomeContent({ topBooks }: HomeContentProps) {
             rel="noopener noreferrer sponsored"
             className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 text-xs sm:text-sm md:text-base font-semibold rounded-md bg-primary text-white hover:bg-primary-hover transition-colors duration-150 shadow-sm"
           >
-            <span className="font-mono">\u2192</span>
             {t.hero.ctaPrimary}
-            <span className="font-mono">\u2192</span>
             {t.hero.ctaSecondary}
           </a>
           <p className="text-xs text-text-muted mt-3">
