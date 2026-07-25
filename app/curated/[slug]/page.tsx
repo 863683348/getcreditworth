@@ -28,7 +28,6 @@ export function generateMetadata({ params }: PageProps): Metadata {
       list.title,
       "curated audiobooks",
       "best audible books for credits",
-      `${list.category} audiobooks`,
     ],
     alternates: { canonical: buildCanonicalUrl(`/curated/${list.slug}`) },
     openGraph: {

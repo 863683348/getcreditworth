@@ -7,12 +7,10 @@ export const metadata: Metadata = {
   description:
     "Learn how GetCreditWorth helps you maximize your Audible credit value with data-driven recommendations. Transparent Value Score formula, free credit calculator, and curated audiobook lists.",
   keywords: [
-    "about getcreditworth",
     "audible credit optimizer tool",
     "audible value score formula",
     "free audible credit calculator",
-    "data driven audiobook recommendations",
-  ],
+  ],,
   alternates: { canonical: buildCanonicalUrl("/about") },
   openGraph: {
     title: "About GetCreditWorth",

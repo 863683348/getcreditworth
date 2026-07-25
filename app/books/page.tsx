@@ -10,12 +10,10 @@ export const metadata: Metadata = {
   description:
     "Browse all audiobooks ranked by Value Score. Filter by duration (short to epic), rating (4.0+ to 4.7+), and category. Find the best audiobooks to spend your Audible credits on with cost-per-hour comparison.",
   keywords: [
-    "audible books list",
     "best audiobooks to spend credits",
     "audible value score rankings",
     "audiobook cost per hour comparison",
-    "best value audible books by category",
-  ],
+  ],,
   alternates: { canonical: buildCanonicalUrl("/books") },
   openGraph: {
     title: "All Audiobooks - Compare Audible Credit Value Scores",

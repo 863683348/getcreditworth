@@ -14,9 +14,7 @@ export const metadata: Metadata = {
     "audible credit calculator",
     "how much is an audible credit worth",
     "audible credit value calculator",
-    "calculate audible credit value",
-    "best audible plan calculator",
-  ],
+  ],,
   alternates: { canonical: buildCanonicalUrl("/calculator") },
   openGraph: {
     title: "Audible Credit Calculator",

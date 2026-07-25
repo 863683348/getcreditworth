@@ -32,8 +32,6 @@ export function generateMetadata({ params }: PageProps): Metadata {
       `${book.title} audible`,
       `${book.title} audiobook value`,
       `${book.author} audiobook credit worth`,
-      `is ${book.title} worth an audible credit`,
-      `audible ${book.title} price ${formatPrice(book.price)}`,
     ],
     alternates: { canonical: buildCanonicalUrl(`/books/${book.asin}`) },
     openGraph: {

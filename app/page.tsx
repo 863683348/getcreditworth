@@ -15,11 +15,8 @@ export const metadata: Metadata = {
   keywords: [
     "best audiobooks to spend credits on",
     "audible credit optimizer",
-    "best value audiobooks audible",
-    "audible credit value calculator",
-    "top audible books by value",
     "audible books worth credits",
-  ],
+  ],,
   alternates: {
     canonical: "/",
   },

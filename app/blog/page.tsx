@@ -12,10 +12,8 @@ export const metadata: Metadata = {
   keywords: [
     "audible credit guide",
     "how to maximize audible credits",
-    "audible membership tips",
     "best audible books guide",
-    "audiobook credit value tips",
-  ],
+  ],,
   alternates: { canonical: buildCanonicalUrl("/blog") },
   openGraph: {
     title: "Audible Credit Guides & Tips",

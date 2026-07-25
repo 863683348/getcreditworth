@@ -24,7 +24,6 @@ export function generateMetadata({ params }: PageProps): Metadata {
       post.title,
       "audible credit guide",
       "best audiobooks for credits",
-      "audible membership tips",
     ],
     alternates: { canonical: buildCanonicalUrl(`/blog/${post.slug}`) },
     openGraph: {
