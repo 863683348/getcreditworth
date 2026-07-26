@@ -12,6 +12,7 @@ export const en = {
     blog: 'Blog',
     favorites: 'Favorites',
     compare: 'Compare',
+    dataset: 'Dataset',
     toggleMenu: 'Toggle menu',
     switchToChinese: 'Switch to Chinese',
     switchToEnglish: 'Switch to English',
@@ -247,6 +248,10 @@ export const en = {
     recommendedDesc: 'This book costs {price} ({percent}% more than a credit\'s {creditValue} value). You save {savings} by using a credit.',
     considerBuyingDesc: 'This book costs {price} which is less than a credit\'s value ({creditValue}). Save your credit for a more expensive book.',
     coverAlt: 'Cover of {title}',
+    lowValueTitle: 'Low credit value — buy directly instead',
+    lowValueDesc: 'Value Score {vs} is below 2. This book is short relative to its price, so spending a credit here wastes {waste} of credit value. Buy it directly on Amazon and save your credit for a longer book.',
+    lowValueAction: 'Buy on Amazon directly',
+    lowValueAlt: 'Browse high-value books instead',
   },
   // FAQ
   faq: {

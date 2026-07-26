@@ -12,6 +12,7 @@ export const zh = {
     blog: "博客",
     favorites: "收藏",
     compare: "对比",
+    dataset: "数据集",
     toggleMenu: "切换菜单",
     switchToChinese: "切换到中文",
     switchToEnglish: "切换到英文",
@@ -156,6 +157,10 @@ export const zh = {
     recommendedDesc: "本书价格为{price}（比积分价值{creditValue}高出{percent}%）。使用积分可节省{savings}。",
     considerBuyingDesc: "本书价格为{price}，低于积分价值（{creditValue}）。建议为更贵的书保留积分。",
     coverAlt: "{title}的封面",
+    lowValueTitle: "积分价值低——建议直接购买",
+    lowValueDesc: "价值评分{vs}低于2。这本书时长相对较短，使用积分会浪费{waste}的积分价值。建议在亚马逊直接购买，把积分留给更长的书。",
+    lowValueAction: "在亚马逊直接购买",
+    lowValueAlt: "浏览高价值书籍",
   },
   faq: {
     q1: "Audible积分价值评分是如何计算的？",

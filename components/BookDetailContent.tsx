@@ -14,6 +14,7 @@ import {
   Calendar,
   Gift,
   Check,
+  AlertTriangle,
 } from 'lucide-react';
 import { ValueScoreBadge } from '@/components/ValueScoreBadge';
 import { isCreditWorth } from '@/lib/calc/value-score';
@@ -164,6 +165,42 @@ export function BookDetailContent({ book }: BookDetailContentProps) {
               )}
             </p>
           </div>
+
+          {/* Low Value Score warning — guide to buy directly on Amazon */}
+          {book.valueScore < 2 && (
+            <div className="p-4 rounded-lg border border-warning/40 bg-warning/10 mb-6">
+              <div className="flex items-start gap-2 mb-3">
+                <AlertTriangle className="h-5 w-5 text-warning flex-shrink-0 mt-0.5" />
+                <div>
+                  <h3 className="text-sm font-semibold text-text-primary mb-1">
+                    {t.bookDetail.lowValueTitle}
+                  </h3>
+                  <p className="text-sm text-text-secondary">
+                    {t.bookDetail.lowValueDesc
+                      .replace('{vs}', book.valueScore.toFixed(1))
+                      .replace('{waste}', formatPrice(AUDIBLE_CREDIT_VALUE - book.price))}
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-wrap gap-3">
+                <a
+                  href={redirectUrl}
+                  target="_blank"
+                  rel="noopener noreferrer sponsored"
+                  className="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold rounded-md bg-text-primary text-white hover:opacity-90 transition-opacity"
+                >
+                  {t.bookDetail.lowValueAction}
+                  <ExternalLink className="h-4 w-4" />
+                </a>
+                <Link
+                  href="/curated/best-long-audiobooks-for-credits"
+                  className="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold rounded-md border border-border-secondary text-text-secondary hover:bg-bg-secondary transition-colors"
+                >
+                  {t.bookDetail.lowValueAlt}
+                </Link>
+              </div>
+            </div>
+          )}
 
           {/* CTA */}
           <div className="flex flex-wrap gap-3 mb-6">

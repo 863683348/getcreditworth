@@ -50,11 +50,17 @@ export function BookExplorer({
   }, [books]);
 
   const allCategories = useMemo(() => {
-    const set = new Set<string>();
+    const counts = new Map<string, number>();
     books.forEach((book) => {
-      book.categories.forEach((c) => set.add(c));
+      book.categories.forEach((c) => {
+        counts.set(c, (counts.get(c) ?? 0) + 1);
+      });
     });
-    return Array.from(set).sort();
+    // Only show categories with 4+ books — hide endangered categories to avoid thin filter pages
+    return Array.from(counts.entries())
+      .filter(([, count]) => count >= 4)
+      .map(([cat]) => cat)
+      .sort();
   }, [books]);
 
   const filteredBooks = useMemo(() => {
@@ -77,6 +83,9 @@ export function BookExplorer({
     const start = (currentPage - 1) * pageSize;
     return filteredBooks.slice(start, start + pageSize);
   }, [filteredBooks, currentPage, pageSize]);
+
+  // Global starting rank for the current page (1-based, continuous across pages)
+  const startRank = (currentPage - 1) * pageSize + 1;
 
   const handleSearch = useCallback((kw: string) => setKeyword(kw), []);
 
@@ -118,10 +127,15 @@ export function BookExplorer({
         <BookList
           books={paginatedBooks}
           showRank={showRank}
+          startRank={startRank}
           emptyMessage={emptyMessage}
         />
       ) : (
-        <BookTable books={paginatedBooks} showRank={showRank} />
+        <BookTable
+          books={paginatedBooks}
+          showRank={showRank}
+          startRank={startRank}
+        />
       )}
 
       <Pagination

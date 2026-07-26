@@ -11,9 +11,10 @@ import { useI18n } from '@/lib/i18n';
 interface BookTableProps {
   books: Book[];
   showRank?: boolean;
+  startRank?: number;
 }
 
-export function BookTable({ books, showRank = true }: BookTableProps) {
+export function BookTable({ books, showRank = true, startRank = 1 }: BookTableProps) {
   const { t } = useI18n();
 
   if (books.length === 0) {
@@ -68,7 +69,7 @@ export function BookTable({ books, showRank = true }: BookTableProps) {
             >
               {showRank && (
                 <td className="py-2 px-2 sm:px-3 text-text-muted font-mono text-xs">
-                  {index + 1}
+                  {startRank + index}
                 </td>
               )}
               <td className="py-2 px-2 sm:px-3">

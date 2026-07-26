@@ -6,14 +6,43 @@ import type { Metadata } from "next";
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: "All Audiobooks - Browse Value Scores & Credit Worth",
+  title: 'Best Audiobooks for Audible Credits (300+ Ranked by Value)',
   description:
-    "Browse audiobooks ranked by Value Score. Filter by duration, rating, and category.",
+    'The best audiobooks for Audible credits in 2026. Browse 300+ titles ranked by Value Score, cost per hour, and rating. Filter by genre, length, and rating to find the highest-value books and maximize every credit.',
+  keywords: [
+    'best audiobooks for credits',
+    'audiobooks ranked by value',
+    'best audible books to use credit on',
+    'highest value audiobooks',
+    'audible credit worth books',
+    'best books for audible credit 2026',
+    'longest audiobooks audible credit',
+    'top audiobooks credit value',
+    'audiobook value score',
+    'audible credit recommendations',
+  ],
   alternates: { canonical: buildCanonicalUrl("/books") },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   openGraph: {
-    title: "All Audiobooks - Compare Audible Credit Value Scores",
+    title: 'Best Audiobooks for Audible Credits (300+ Ranked by Value)',
     description:
-      "Browse audiobooks ranked by Value Score. Filter by duration, rating, and category.",
+      'Browse 300+ audiobooks ranked by Value Score. Find the best books to spend your Audible credits on and maximize every credit.',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Best Audiobooks for Audible Credits (300+ Ranked by Value)',
+    description:
+      'Browse 300+ audiobooks ranked by Value Score. Filter by length, rating, and genre to find the highest-value books for your Audible credits.',
   },
 };
 

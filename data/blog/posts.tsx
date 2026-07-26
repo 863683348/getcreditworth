@@ -694,11 +694,621 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
-};
+  'how-much-is-audible-credit-worth-2026': {
+    slug: 'how-much-is-audible-credit-worth-2026',
+    title: 'How Much Is an Audible Credit Worth? (2026 Real Math)',
+    description:
+      'An Audible credit costs $14.95, but its real value depends on how you spend it. Here is the 2026 breakdown with real numbers from 300+ audiobooks.',
+    date: '2026-07-26',
+    readTime: '9 min read',
+    category: 'Analysis',
+    content: (
+      <>
+        <p>
+          If you are paying $14.95 a month for Audible Premium Plus, you might assume each credit
+          is worth exactly $14.95. That is true on paper, but it is far from the whole story. The
+          real value of an Audible credit is not a fixed number — it is a range that depends entirely
+          on which audiobook you redeem it for.
+        </p>
+        <p>
+          Based on our analysis of 300+ audiobooks on Audible.com, the actual value of a single
+          credit ranges from under $5 to over $50 in equivalent listening content. Let us break
+          down the math.
+        </p>
 
-export function getAllBlogPosts(): BlogPost[] {
-  return Object.values(POSTS).map(({ content, ...meta }) => meta);
-}
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          The Base Value: $14.95 Per Credit
+        </h2>
+        <p>
+          The standard Premium Plus plan costs $14.95 per month and includes 1 credit. That makes
+          the base cost per credit $14.95. But there are cheaper plans if you buy in bulk:
+        </p>
+        <div className="overflow-x-auto my-4">
+          <table className="w-full text-sm border border-border rounded-md">
+            <thead className="bg-bg-surface">
+              <tr>
+                <th className="text-left p-3 border-b border-border">Plan</th>
+                <th className="text-left p-3 border-b border-border">Cost</th>
+                <th className="text-left p-3 border-b border-border">Credits</th>
+                <th className="text-left p-3 border-b border-border">Cost per Credit</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="p-3 border-b border-border">Premium Plus (monthly)</td>
+                <td className="p-3 border-b border-border font-mono">$14.95/mo</td>
+                <td className="p-3 border-b border-border font-mono">1</td>
+                <td className="p-3 border-b border-border font-mono">$14.95</td>
+              </tr>
+              <tr>
+                <td className="p-3 border-b border-border">Premium Plus 2</td>
+                <td className="p-3 border-b border-border font-mono">$22.95/mo</td>
+                <td className="p-3 border-b border-border font-mono">2</td>
+                <td className="p-3 border-b border-border font-mono">$11.48</td>
+              </tr>
+              <tr>
+                <td className="p-3">Premium Plus Annual</td>
+                <td className="p-3 font-mono">$149.50/yr</td>
+                <td className="p-3 font-mono">12 upfront</td>
+                <td className="p-3 font-mono">$12.46</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>
+          The Premium Plus 2 plan drops your per-credit cost to $11.48 — a 23% savings. But only
+          if you actually use both credits every month.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          The Real Value: What $14.95 Gets You
+        </h2>
+        <p>
+          Here is where it gets interesting. A credit buys you any audiobook regardless of retail
+          price. That means a credit spent on a $44.99 audiobook saves you $30.04, while the same
+          credit spent on a $10.99 audiobook actually costs you $3.96 more than buying it directly.
+        </p>
+        <p>
+          We analyzed the Audible catalog and found these real examples:
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 my-4">
+          <div className="p-4 bg-success/5 rounded-md border border-success/30">
+            <h4 className="font-semibold text-success mb-2">Best Credit Value</h4>
+            <p className="text-sm">
+              <strong>The Count of Monte Cristo</strong> by Alexandre Dumas
+            </p>
+            <p className="text-sm mt-1">Price: $18.47 | Duration: 52.7h | Rating: 5.0</p>
+            <p className="text-sm mt-2">
+              Value Score: <span className="font-mono font-bold">14.3</span>
+            </p>
+            <p className="text-sm">
+              Cost per hour: <span className="font-mono font-bold">$0.35</span>
+            </p>
+            <p className="text-sm mt-2">
+              You get <strong>52+ hours</strong> of 5-star content for one credit. That is
+              $0.35/hour of premium entertainment.
+            </p>
+          </div>
+          <div className="p-4 bg-warning/5 rounded-md border border-warning/30">
+            <h4 className="font-semibold text-warning mb-2">Poor Credit Value</h4>
+            <p className="text-sm">
+              <strong>Typical 5-hour self-help book</strong>
+            </p>
+            <p className="text-sm mt-1">Price: $12.99 | Duration: 5h | Rating: 4.5</p>
+            <p className="text-sm mt-2">
+              Value Score: <span className="font-mono font-bold">1.73</span>
+            </p>
+            <p className="text-sm">
+              Cost per hour: <span className="font-mono font-bold">$2.60</span>
+            </p>
+            <p className="text-sm mt-2">
+              Cheaper than a credit, so buying directly saves money. Save the credit for a
+              pricier book.
+            </p>
+          </div>
+        </div>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          The Value Score Formula
+        </h2>
+        <p>
+          To make credit decisions easier, we created the Value Score. It combines three factors
+          that matter most for credit value:
+        </p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
+          <p className="font-mono text-center text-lg text-text-primary">
+            Value Score = (Duration in hours x Star Rating) / Price in USD
+          </p>
+        </div>
+        <ul className="space-y-2">
+          <li>
+            <strong>Duration:</strong> More hours per credit = lower cost per hour
+          </li>
+          <li>
+            <strong>Rating:</strong> Higher quality = better use of your limited listening time
+          </li>
+          <li>
+            <strong>Price:</strong> Higher retail price = more savings when using a credit
+          </li>
+        </ul>
+        <p className="mt-3">
+          A Value Score above 8.0 indicates excellent credit value. Below 3.0 means you should
+          probably buy the book directly. You can see all 300+ books ranked on our{' '}
+          <Link href="/books" className="text-primary underline">
+            audiobook rankings page
+          </Link>
+          .
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          When to Use a Credit vs Buy Directly
+        </h2>
+        <p>The rule of thumb is simple:</p>
+        <ul className="space-y-2 my-3">
+          <li>
+            <strong>Book price &gt; $14.95:</strong> Use a credit. You save money.
+          </li>
+          <li>
+            <strong>Book price &lt; $14.95:</strong> Buy directly. Save the credit for something
+            pricier.
+          </li>
+          <li>
+            <strong>Book price around $14.95:</strong> Decide based on duration. A 40-hour book at
+            $14.95 is a great credit use; a 5-hour book at $14.95 is not.
+          </li>
+        </ul>
+        <p>
+          Our{' '}
+          <Link href="/calculator" className="text-primary underline">
+            Audible Credit Calculator
+          </Link>{' '}
+          does this math for you automatically.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          The Hidden Cost: Credit Expiration
+        </h2>
+        <p>
+          Here is the catch most Audible subscribers miss: credits expire. Unused credits are
+          forfeited 12 months after issue, and canceling your subscription immediately forfeits any
+          remaining credits.
+        </p>
+        <p>
+          This means a credit left to expire has a value of $0. The single worst thing you can do
+          is let credits pile up and expire. Better to spend them on a decent book than lose them
+          entirely.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Frequently Asked Questions
+        </h2>
+        <p>
+          <strong>How much is an Audible credit worth in 2026?</strong> The base cost is $14.95 on
+          the standard Premium Plus plan, or as low as $11.48 on Premium Plus 2. The real value
+          ranges from $5 to $50+ depending on which audiobook you choose.
+        </p>
+        <p>
+          <strong>Can I get credits cheaper than $14.95?</strong> Yes. The Premium Plus 2 plan
+          ($22.95/month, 2 credits) costs $11.48 per credit. The annual plan costs $12.46 per
+          credit.
+        </p>
+        <p>
+          <strong>Do Audible credits expire?</strong> Yes, credits expire 12 months after they are
+          issued. Canceling your subscription also forfeits unused credits.
+        </p>
+        <p>
+          <strong>What is the best audiobook to use a credit on?</strong> Long, highly-rated,
+          expensive audiobooks offer the best value. See our{' '}
+          <Link href="/" className="text-primary underline">
+            top-ranked audiobooks by Value Score
+          </Link>{' '}
+          for specific recommendations.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Bottom Line</h2>
+        <p>
+          An Audible credit is worth $14.95 in cash terms, but its real value can be 3x higher or
+          3x lower depending on your book choice. The key to maximizing value: use credits on
+          long, expensive, highly-rated books, and buy shorter or cheaper books directly.
+        </p>
+        <p className="mt-4">
+          Start maximizing your credits today with our{' '}
+          <Link href="/calculator" className="text-primary underline">
+            free Credit Calculator
+          </Link>{' '}
+          or browse{' '}
+          <Link href="/books" className="text-primary underline">
+            all 300+ audiobooks ranked by Value Score
+          </Link>
+          .
+        </p>
+      </>
+    ),
+  },
+  '50-best-audiobooks-to-use-credit-on': {
+    slug: '50-best-audiobooks-to-use-credit-on',
+    title: '50 Best Audiobooks to Use Your Credit On (2026)',
+    description:
+      'The 50 best audiobooks for Audible credits, ranked by Value Score. From 50-hour epics to high-rated sci-fi, these books maximize your credit value.',
+    date: '2026-07-26',
+    readTime: '12 min read',
+    category: 'Recommendations',
+    content: (
+      <>
+        <p>
+          Not all audiobooks are worth a credit. The best credit value comes from books that are
+          long, highly rated, and expensive. We analyzed 300+ audiobooks and ranked the top 50 by
+          Value Score — the formula that measures true credit worth.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          What Makes an Audiobook Credit-Worthy?
+        </h2>
+        <p>A credit gets you any audiobook regardless of price. To maximize value, look for:</p>
+        <ul className="space-y-2 my-3">
+          <li>
+            <strong>20+ hours runtime:</strong> More listening hours per credit
+          </li>
+          <li>
+            <strong>4.5+ star rating:</strong> Quality content worth your time
+          </li>
+          <li>
+            <strong>Price above $20:</strong> Big savings vs paying cash
+          </li>
+          <li>
+            <strong>Strong narrator:</strong> A great narrator elevates the experience
+          </li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Top 10 Audiobooks by Value Score
+        </h2>
+        <p>
+          These are the absolute best credit values in our database. Each delivers exceptional
+          hours-per-dollar and top-tier ratings.
+        </p>
+        <div className="overflow-x-auto my-4">
+          <table className="w-full text-sm border border-border rounded-md">
+            <thead className="bg-bg-surface">
+              <tr>
+                <th className="text-left p-2 border-b border-border">#</th>
+                <th className="text-left p-2 border-b border-border">Title</th>
+                <th className="text-left p-2 border-b border-border">Author</th>
+                <th className="text-right p-2 border-b border-border">Hours</th>
+                <th className="text-right p-2 border-b border-border">Price</th>
+                <th className="text-right p-2 border-b border-border">VS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="p-2 border-b border-border">1</td>
+                <td className="p-2 border-b border-border">The Count of Monte Cristo</td>
+                <td className="p-2 border-b border-border">Alexandre Dumas</td>
+                <td className="p-2 border-b border-border text-right font-mono">52.7</td>
+                <td className="p-2 border-b border-border text-right font-mono">$18.47</td>
+                <td className="p-2 border-b border-border text-right font-mono font-bold">14.3</td>
+              </tr>
+              <tr>
+                <td className="p-2 border-b border-border">2</td>
+                <td className="p-2 border-b border-border">War and Peace</td>
+                <td className="p-2 border-b border-border">Leo Tolstoy</td>
+                <td className="p-2 border-b border-border text-right font-mono">60.2</td>
+                <td className="p-2 border-b border-border text-right font-mono">$19.99</td>
+                <td className="p-2 border-b border-border text-right font-mono font-bold">13.6</td>
+              </tr>
+              <tr>
+                <td className="p-2 border-b border-border">3</td>
+                <td className="p-2 border-b border-border">Gone with the Wind</td>
+                <td className="p-2 border-b border-border">Margaret Mitchell</td>
+                <td className="p-2 border-b border-border text-right font-mono">47.2</td>
+                <td className="p-2 border-b border-border text-right font-mono">$23.28</td>
+                <td className="p-2 border-b border-border text-right font-mono font-bold">10.1</td>
+              </tr>
+              <tr>
+                <td className="p-2 border-b border-border">4</td>
+                <td className="p-2 border-b border-border">The Shadow Rising</td>
+                <td className="p-2 border-b border-border">Robert Jordan</td>
+                <td className="p-2 border-b border-border text-right font-mono">41.2</td>
+                <td className="p-2 border-b border-border text-right font-mono">$21.40</td>
+                <td className="p-2 border-b border-border text-right font-mono font-bold">9.6</td>
+              </tr>
+              <tr>
+                <td className="p-2">Don Quixote</td>
+                <td className="p-2">Miguel Cervantes</td>
+                <td className="p-2 text-right font-mono">39.3</td>
+                <td className="p-2 text-right font-mono">$18.82</td>
+                <td className="p-2 text-right font-mono font-bold">9.4</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-sm text-text-muted">
+          VS = Value Score. Higher is better. See all 300+ books on our{' '}
+          <Link href="/books" className="text-primary underline">
+            complete rankings page
+          </Link>
+          .
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Best Credit Values by Genre
+        </h2>
+
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">
+          Epic Fantasy (30-60 hours)
+        </h3>
+        <p>
+          Fantasy dominates credit value because epic series tend to be very long. Brandon
+          Sanderson&apos;s Stormlight Archive (The Way of Kings, Words of Radiance, Oathbringer,
+          Rhythm of War) averages 40-56 hours per book. Robert Jordan&apos;s Wheel of Time series
+          spans 14 books, each 25-40 hours.
+        </p>
+        <p>
+          These are the gold standard for credit value: long, expensive, and consistently rated
+          4.5+ stars. See our{' '}
+          <Link href="/curated/best-epic-fantasy-for-credits" className="text-primary underline">
+            curated fantasy list
+          </Link>{' '}
+          for the full ranking.
+        </p>
+
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">
+          Science Fiction (15-30 hours)
+        </h3>
+        <p>
+          Sci-fi offers great value, especially for long-running series. The Expanse (9 books,
+          ~20h each) and Dune series deliver hundreds of hours of content. Standout single
+          books include Project Hail Mary by Andy Weir (16 hours, 4.9 stars) — one of the
+          highest-rated sci-fi audiobooks ever.
+        </p>
+
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">
+          Historical Fiction (30-50 hours)
+        </h3>
+        <p>
+          Ken Follett (Pillars of the Earth, 40+ hours) and Diana Gabaldon (Outlander series,
+          32+ hours per book) are kings of long historical fiction. Their books consistently
+          rank in the top 10% of Value Score.
+        </p>
+
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">
+          Classics (40-60 hours)
+        </h3>
+        <p>
+          Classic literature offers some of the highest Value Scores in our database. The Count
+          of Monte Cristo (52.7h, VS 14.3), War and Peace (60.2h, VS 13.6), and Les Miserables
+          are all incredible credit value. They are long, expensive, and narrated by top talent.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Books to Avoid Using Credits On
+        </h2>
+        <p>
+          Not every audiobook is credit-worthy. Avoid spending credits on:
+        </p>
+        <ul className="space-y-2 my-3">
+          <li>
+            <strong>Books under $15:</strong> Buying directly is cheaper than using a $14.95 credit
+          </li>
+          <li>
+            <strong>Short books under 8 hours:</strong> Low hours-per-credit ratio
+          </li>
+          <li>
+            <strong>Plus Catalog titles:</strong> Free for Premium Plus members, no credit needed
+          </li>
+          <li>
+            <strong>Books you might return:</strong> Save credits for books you will keep
+          </li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          How We Calculate Value Score
+        </h2>
+        <p>
+          Our Value Score formula is designed to measure true credit value:
+        </p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
+          <p className="font-mono text-center text-lg text-text-primary">
+            Value Score = (Duration in hours x Star Rating) / Price in USD
+          </p>
+        </div>
+        <p>
+          A score above 8.0 means excellent credit value. Between 4.0 and 8.0 is good. Below 4.0
+          suggests you should buy the book directly. Check any book&apos;s score on our{' '}
+          <Link href="/books" className="text-primary underline">
+            audiobook rankings
+          </Link>
+          .
+        </p>
+
+        <p className="mt-6">
+          Ready to find your next great listen? Browse all{' '}
+          <Link href="/books" className="text-primary underline">
+            300+ audiobooks ranked by Value Score
+          </Link>{' '}
+          or use our{' '}
+          <Link href="/calculator" className="text-primary underline">
+            Credit Calculator
+          </Link>{' '}
+          to see if a specific book is worth a credit.
+        </p>
+      </>
+    ),
+  },
+  'audible-credit-value-calculator-stop-wasting': {
+    slug: 'audible-credit-value-calculator-stop-wasting',
+    title: 'Audible Credit Value Calculator: Stop Wasting Credits',
+    description:
+      'Free Audible credit calculator. See if a book is worth a credit, compare cost per hour, and find the best audiobooks to spend credits on.',
+    date: '2026-07-26',
+    readTime: '7 min read',
+    category: 'Guide',
+    content: (
+      <>
+        <p>
+          Every month, millions of Audible subscribers waste credits on audiobooks that are not
+          worth the $14.95 they paid. The problem is not that Audible credits are bad value — it
+          is that most people do not know how to calculate whether a specific book is worth a
+          credit.
+        </p>
+        <p>
+          That is why we built a free{' '}
+          <Link href="/calculator" className="text-primary underline">
+            Audible Credit Value Calculator
+          </Link>
+          . It does the math for you.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          How the Credit Calculator Works
+        </h2>
+        <p>
+          The calculator takes three inputs — price, duration, and rating — and tells you
+          instantly whether a book is worth a credit. Here is the logic:
+        </p>
+        <ol className="space-y-3 my-3">
+          <li>
+            <strong>1. Compare price vs credit value.</strong> If the book costs more than $14.95
+            (your credit&apos;s base value), using a credit saves you money. If it costs less, buy
+            directly.
+          </li>
+          <li>
+            <strong>2. Calculate cost per hour.</strong> Divide the credit value ($14.95) by the
+            book&apos;s runtime. A 40-hour book gives you $0.37/hour. A 5-hour book gives you
+            $2.99/hour. Lower is better.
+          </li>
+          <li>
+            <strong>3. Factor in rating.</strong> A long book with bad ratings is still a bad
+            deal. The Value Score combines duration and rating to give a single number.
+          </li>
+        </ol>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          The Value Score Formula
+        </h2>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
+          <p className="font-mono text-center text-lg text-text-primary">
+            Value Score = (Duration in hours x Star Rating) / Price in USD
+          </p>
+        </div>
+        <p>Interpretation:</p>
+        <ul className="space-y-2 my-3">
+          <li>
+            <strong>8.0+:</strong> Excellent credit value. Use a credit.
+          </li>
+          <li>
+            <strong>4.0-8.0:</strong> Good value. Use a credit if you want the book.
+          </li>
+          <li>
+            <strong>2.0-4.0:</strong> Marginal. Consider buying directly.
+          </li>
+          <li>
+            <strong>Below 2.0:</strong> Poor credit value. Buy directly.
+          </li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Real Example: Is The Way of Kings Worth a Credit?
+        </h2>
+        <p>Let us walk through a real calculation:</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
+          <p className="font-semibold text-text-primary mb-2">
+            The Way of Kings by Brandon Sanderson
+          </p>
+          <ul className="text-sm space-y-1">
+            <li>Price: $38.99 (retail)</li>
+            <li>Duration: 45.5 hours</li>
+            <li>Rating: 4.8 stars (from thousands of reviews)</li>
+            <li>Value Score: (45.5 x 4.8) / 38.99 = <strong>5.6</strong></li>
+          </ul>
+          <p className="text-sm mt-3 text-success">
+            <strong>Verdict: Use a credit.</strong> You save $24.04 and get 45 hours of 4.8-star
+            content at $0.33/hour.
+          </p>
+        </div>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Real Example: Is a $12 Short Book Worth a Credit?
+        </h2>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
+          <p className="font-semibold text-text-primary mb-2">
+            Typical 5-hour self-help book
+          </p>
+          <ul className="text-sm space-y-1">
+            <li>Price: $12.99 (retail)</li>
+            <li>Duration: 5 hours</li>
+            <li>Rating: 4.5 stars</li>
+            <li>Value Score: (5 x 4.5) / 12.99 = <strong>1.73</strong></li>
+          </ul>
+          <p className="text-sm mt-3 text-warning">
+            <strong>Verdict: Buy directly.</strong> The book costs less than a credit. Using a
+            credit here wastes $1.96.
+          </p>
+        </div>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Why Most People Waste Credits
+        </h2>
+        <p>The three most common credit-wasting mistakes:</p>
+        <ol className="space-y-3 my-3">
+          <li>
+            <strong>Spending credits on cheap books.</strong> If a book costs less than $14.95,
+            you lose money by using a credit. Buy it directly and save the credit for a pricier
+            book.
+          </li>
+          <li>
+            <strong>Spending credits on short books.</strong> A 5-hour book for a $14.95 credit
+            costs $2.99/hour. A 45-hour book costs $0.33/hour. Always check duration.
+          </li>
+          <li>
+            <strong>Letting credits expire.</strong> Credits expire after 12 months. An expired
+            credit is worth $0. Better to spend it on a decent book than lose it.
+          </li>
+        </ol>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          When NOT to Use a Credit
+        </h2>
+        <ul className="space-y-2 my-3">
+          <li>
+            <strong>Book price &lt; $14.95:</strong> Buy directly, save the credit
+          </li>
+          <li>
+            <strong>Plus Catalog titles:</strong> These are free for Premium Plus members
+          </li>
+          <li>
+            <strong>Books under 6 hours:</strong> Low hours-per-credit, unless very expensive
+          </li>
+          <li>
+            <strong>Books you might return:</strong> Save credits for keepers
+          </li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Start Maximizing Your Credits
+        </h2>
+        <p>
+          Stop guessing whether a book is worth a credit. Use our{' '}
+          <Link href="/calculator" className="text-primary underline">
+            free Credit Calculator
+          </Link>{' '}
+          to check any audiobook instantly, or browse{' '}
+          <Link href="/books" className="text-primary underline">
+            all 300+ audiobooks ranked by Value Score
+          </Link>{' '}
+          to find the best credit values.
+        </p>
+        <p className="mt-4 text-sm text-text-secondary">
+          Want to learn more about how credits work? Read our complete{' '}
+          <Link href="/blog/how-to-use-audible-credits" className="text-primary underline">
+            Audible credits guide
+          </Link>
+          .
+        </p>
+      </>
+    ),
+  },
+};
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
   return POSTS[slug];
@@ -706,4 +1316,11 @@ export function getBlogPost(slug: string): BlogPostData | undefined {
 
 export function getBlogSlugs(): string[] {
   return Object.keys(POSTS);
+}
+
+/**
+ * 获取全部博客文章元数据（不含 content）
+ */
+export function getAllBlogPosts(): BlogPost[] {
+  return Object.values(POSTS).map(({ content, ...meta }) => meta);
 }

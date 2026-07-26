@@ -1,5 +1,6 @@
 ﻿"use client";
 
+import Link from "next/link";
 import { Trophy, Info, TrendingUp, BookOpen, ArrowRight } from "lucide-react";
 import type { Book } from "@/lib/types";
 import { BookExplorer } from "@/components/BookExplorer";
@@ -149,6 +150,52 @@ export function HomeContent({ topBooks }: HomeContentProps) {
           title=""
           emptyMessage={t.home.emptyMessage}
         />
+
+        {/* Inline internal links section — SEO 内链 + 用户导流 */}
+        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <Link
+            href="/calculator"
+            className="block p-4 rounded-lg border border-border bg-bg-surface hover:border-primary-200 transition-colors"
+          >
+            <div className="flex items-center gap-2 mb-1">
+              <BookOpen className="h-4 w-4 text-primary" />
+              <span className="text-sm font-semibold text-text-primary">
+                Credit Calculator
+              </span>
+            </div>
+            <p className="text-xs text-text-secondary">
+              Check if any audiobook is worth a credit before you spend it.
+            </p>
+          </Link>
+          <Link
+            href="/blog/how-much-is-audible-credit-worth-2026"
+            className="block p-4 rounded-lg border border-border bg-bg-surface hover:border-primary-200 transition-colors"
+          >
+            <div className="flex items-center gap-2 mb-1">
+              <Info className="h-4 w-4 text-primary" />
+              <span className="text-sm font-semibold text-text-primary">
+                How Much Is a Credit Worth?
+              </span>
+            </div>
+            <p className="text-xs text-text-secondary">
+              The 2026 breakdown with real numbers from 300+ audiobooks.
+            </p>
+          </Link>
+          <Link
+            href="/blog/50-best-audiobooks-to-use-credit-on"
+            className="block p-4 rounded-lg border border-border bg-bg-surface hover:border-primary-200 transition-colors"
+          >
+            <div className="flex items-center gap-2 mb-1">
+              <Trophy className="h-4 w-4 text-primary" />
+              <span className="text-sm font-semibold text-text-primary">
+                50 Best Audiobooks for Credits
+              </span>
+            </div>
+            <p className="text-xs text-text-secondary">
+              Top credit values ranked by Value Score, duration, and rating.
+            </p>
+          </Link>
+        </div>
       </div>
     </>
   );

@@ -7,12 +7,14 @@ import { useI18n } from '@/lib/i18n';
 interface BookListProps {
   books: Book[];
   showRank?: boolean;
+  startRank?: number;
   emptyMessage?: string;
 }
 
 export function BookList({
   books,
   showRank = true,
+  startRank = 1,
   emptyMessage,
 }: BookListProps) {
   const { t } = useI18n();
@@ -33,7 +35,7 @@ export function BookList({
         <BookCard
           key={book.asin}
           book={book}
-          rank={showRank ? index + 1 : undefined}
+          rank={showRank ? startRank + index : undefined}
         />
       ))}
     </div>
