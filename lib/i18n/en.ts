@@ -12,6 +12,7 @@ export const en = {
     blog: 'Blog',
     favorites: 'Favorites',
     compare: 'Compare',
+    dataset: 'Dataset',
     toggleMenu: 'Toggle menu',
     switchToChinese: 'Switch to Chinese',
     switchToEnglish: 'Switch to English',

@@ -23,6 +23,7 @@ export const NAV_ITEMS = [
   { label: 'Blog', href: '/blog', icon: 'FileText' as const },
   { label: 'Favorites', href: '/favorites', icon: 'Bookmark' as const },
   { label: 'Compare', href: '/compare', icon: 'GitCompare' as const },
+  { label: 'Dataset', href: '/dataset', icon: 'Database' as const },
 ] as const;
 
 export const FILTER_OPTIONS = {
