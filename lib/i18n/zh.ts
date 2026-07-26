@@ -12,7 +12,6 @@ export const zh = {
     blog: "博客",
     favorites: "收藏",
     compare: "对比",
-    dataset: "数据集",
     toggleMenu: "切换菜单",
     switchToChinese: "切换到中文",
     switchToEnglish: "切换到英文",
