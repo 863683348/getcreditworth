@@ -145,6 +145,36 @@ export function FaqPageJsonLd({
   return <JsonLd data={schema} />;
 }
 
+export function AboutPageJsonLd() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "https://getcreditworth.com/about",
+        url: "https://getcreditworth.com/about",
+        name: "About GetCreditWorth - Audible Credit Value Optimizer",
+        description:
+          "Free tool to maximize your Audible credits. Transparent Value Score formula, credit calculator, and curated book lists.",
+        breadcrumb: {
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://getcreditworth.com" },
+            { "@type": "ListItem", position: 2, name: "About", item: "https://getcreditworth.com/about" },
+          ],
+        },
+        mainEntity: {
+          "@type": "Person",
+          name: "GetCreditWorth Team",
+          url: "https://getcreditworth.com/about",
+          knowsAbout: ["Audible", "audiobooks", "credit optimization", "value scoring"],
+        },
+      },
+    ],
+  };
+  return <JsonLd data={schema} />;
+}
+
 export function ArticleJsonLd({
   title,
   description,

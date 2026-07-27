@@ -11,7 +11,7 @@
       "B0036NAYIQ",
       "B00HWF0MHW"
     ],
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-27"
   },
   {
     "slug": "top-science-fiction-audiobooks",
@@ -24,7 +24,7 @@
       "B002UUKWCY",
       "B002V1OF70"
     ],
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-27"
   },
   {
     "slug": "non-fiction-for-self-improvement",
@@ -37,7 +37,7 @@
       "B0BK9R53FT",
       "B06XV1PVF5"
     ],
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-27"
   },
   {
     "slug": "thrillers-and-mysteries",
@@ -52,7 +52,7 @@
       "B0773W3MZW",
       "8420439258"
     ],
-    "updatedAt": "2026-07-25"
+    "updatedAt": "2026-07-27"
   },
   {
     "slug": "best-long-audiobooks-for-credits",
@@ -88,6 +88,81 @@
       "B002V0M190",
       "B006LPIVL8"
     ],
-    "updatedAt": "2026-07-26"
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "slug": "best-history-audiobooks",
+    "title": "Best History Audiobooks for Your Credits",
+    "description": "Fascinating history audiobooks that combine entertainment with education. From ancient civilizations to modern science, these titles offer exceptional depth per credit.",
+    "category": "History",
+    "bookAsins": [
+      "B0FBCXZ6YK",
+      "0593415833",
+      "B0BK9R53FT",
+      "B06XV1PVF5",
+      "B002V0KFPW",
+      "B0741G911Q"
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "slug": "best-biography-memoir-audiobooks",
+    "title": "Best Biography and Memoir Audiobooks",
+    "description": "Extraordinary lives told through exceptional narration. These biographies and memoirs transform credits into lasting inspiration.",
+    "category": "Biography",
+    "bookAsins": [
+      "B005V0QI82",
+      "B0BX4SCV1V",
+      "1250774039",
+      "B0H728M1GQ",
+      "B075F8MBMQ",
+      "B0035FVJQQ"
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "slug": "best-business-audiobooks",
+    "title": "Best Business Audiobooks Worth a Credit",
+    "description": "Top business, leadership, and finance audiobooks that turn your credit into a career investment. Each title offers actionable insights and frameworks.",
+    "category": "Business",
+    "bookAsins": [
+      "B00WYDJ2YQ",
+      "B005V0QI82",
+      "B0BX4SCV1V",
+      "B005TKKCWC",
+      "B07KRNNLFF",
+      "B00V95QQXA"
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "slug": "best-classic-literature",
+    "title": "Classic Literature: Best Credit Value on Audible",
+    "description": "Timeless classics that offer the highest credit value on Audible. With runtimes of 30-60+ hours and 4.5+ star ratings, these are the books that make every credit count.",
+    "category": "Classic",
+    "bookAsins": [
+      "B005GFQ5WQ",
+      "B095TS6LLR",
+      "0241429536",
+      "B0H9SWDSCV",
+      "B0038GOF7C",
+      "B0DTB4QJMW"
+    ],
+    "updatedAt": "2026-07-27"
+  },
+  {
+    "slug": "best-self-help-audiobooks",
+    "title": "Best Self-Help Audiobooks for Your Credits",
+    "description": "Transform your habits, mindset, and life with these top-rated self-help audiobooks. The ROI per credit is unmatched — knowledge that changes how you think and act.",
+    "category": "Self-Help",
+    "bookAsins": [
+      "B00WYDJ2YQ",
+      "B004CNGLYA",
+      "B005TKKCWC",
+      "B01ELP3JV6",
+      "B0D9YZYYZZ",
+      "B00V95QQXA"
+    ],
+    "updatedAt": "2026-07-27"
   }
 ]

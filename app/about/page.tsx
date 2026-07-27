@@ -1,5 +1,6 @@
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import { AboutContent } from "@/components/AboutContent";
+import { AboutPageJsonLd } from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -22,5 +23,10 @@ export const metadata: Metadata = {
 };
 
 export default function AboutPage() {
-  return <AboutContent />;
+  return (
+    <>
+      <AboutContent />
+      <AboutPageJsonLd />
+    </>
+  );
 }

@@ -4,6 +4,7 @@ import { BookExplorer } from "@/components/BookExplorer";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import { ItemListJsonLd, BreadcrumbListJsonLd } from "@/components/seo/JsonLd";
+import { getCategoryDescription } from "@/data/category-descriptions";
 import type { Metadata } from "next";
 
 const CATEGORY_NAMES: Record<string, string> = {
@@ -63,6 +64,11 @@ export default function CategoryPage({ params }: PageProps) {
   const books = getBooksByCategoryList(name);
   if (books.length === 0) notFound();
 
+  const catDesc = getCategoryDescription(params.slug);
+  const avgScore = (books.reduce((s, b) => s + b.valueScore, 0) / books.length).toFixed(1);
+  const avgRating = (books.reduce((s, b) => s + b.starRating, 0) / books.length).toFixed(1);
+  const avgHours = (books.reduce((s, b) => s + b.runtimeHours, 0) / books.length).toFixed(1);
+
   return (
     <div className="container-content py-6 md:py-8">
       <Breadcrumb
@@ -75,8 +81,32 @@ export default function CategoryPage({ params }: PageProps) {
         Best {name} Audiobooks for Your Audible Credits
       </h1>
       <p className="text-text-secondary mb-6">
-        Browse {books.length} {name.toLowerCase()} audiobooks ranked by Value Score. Filter by duration, rating, and more.
+        Browse {books.length} {name.toLowerCase()} audiobooks ranked by Value Score.
+        {catDesc && ` Average: ${avgRating}★ rating, ${avgHours}h runtime, Value Score ${avgScore}.`}
       </p>
+
+      {catDesc && (
+        <div className="mb-8 p-5 rounded-lg bg-bg-surface border border-border">
+          <h2 className="text-lg font-semibold text-text-primary mb-3">{catDesc.heading}</h2>
+          {catDesc.paragraphs.map((p, i) => (
+            <p key={i} className="text-sm text-text-secondary mb-3 leading-relaxed">{p}</p>
+          ))}
+          {catDesc.tips && catDesc.tips.length > 0 && (
+            <div className="mt-4 p-4 rounded-md bg-primary-50 border border-primary-200">
+              <p className="text-xs font-semibold text-primary mb-2 uppercase tracking-wide">Pro Tips</p>
+              <ul className="space-y-1.5">
+                {catDesc.tips.map((tip, i) => (
+                  <li key={i} className="text-sm text-text-primary flex items-start gap-2">
+                    <span className="text-primary mt-0.5">•</span>
+                    <span>{tip}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+        </div>
+      )}
+
       <BookExplorer books={books} showRank={true} />
       <ItemListJsonLd books={books} name={name + " Audiobooks"} />
       <BreadcrumbListJsonLd
