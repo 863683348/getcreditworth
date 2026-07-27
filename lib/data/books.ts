@@ -10,8 +10,14 @@ import categoriesRaw from '@/data/categories.json';
 import type { Book, BookRawData, CuratedList } from '@/lib/types';
 import { calculateAllScores } from '@/lib/calc/value-score';
 
+// 过滤占位符书籍：PENDING_*/FINAL_* 为数据管道未处理完成的标记，
+// 不应出现在站点或 sitemap 中（防止定时任务或脏数据污染线上）
+const VALID_BOOKS = (booksRaw as BookRawData[]).filter(
+  (b) => !b.asin.startsWith('PENDING_') && !b.asin.startsWith('FINAL_')
+);
+
 // 计算分数后的全量数据（模块级缓存）
-const allBooks: Book[] = calculateAllScores(booksRaw as BookRawData[]);
+const allBooks: Book[] = calculateAllScores(VALID_BOOKS);
 
 export function getAllBooks(): Book[] {
   return allBooks;
