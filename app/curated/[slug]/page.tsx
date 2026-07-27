@@ -1,9 +1,10 @@
-﻿import { notFound } from "next/navigation";
+import { notFound } from "next/navigation";
 import {
   getAllCuratedLists,
   getCuratedListDetail,
   getCuratedListMeta,
 } from "@/lib/api/controllers/curated.controller";
+import { ItemListJsonLd, BreadcrumbListJsonLd } from "@/components/seo/JsonLd";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import { CuratedDetailContent } from "@/components/CuratedDetailContent";
 import type { Metadata } from "next";
@@ -21,15 +22,21 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: PageProps): Metadata {
   const list = getCuratedListMeta(params.slug);
   if (!list) return { title: "List Not Found" };
+  const categoryKeywords: Record<string, string[]> = {
+    "best-epic-fantasy-for-credits": ["best fantasy audiobooks", "epic fantasy audible", "fantasy books worth audible credits"],
+    "top-science-fiction-audiobooks": ["best sci fi audiobooks", "science fiction audible", "sci fi books worth credits"],
+    "non-fiction-for-self-improvement": ["best self improvement audiobooks", "nonfiction audible books", "personal development audiobooks credits"],
+    "thrillers-and-mysteries": ["best thriller audiobooks", "mystery audiobooks audible", "suspense audiobooks worth credits"],
+  };
   return {
-    title: `${list.title} - Curated Audiobooks for Your Credits`,
+    title: list.title + " - Curated Audiobooks for Your Credits",
     description: list.description,
-    keywords: [
+    keywords: categoryKeywords[list.slug] ?? [
       list.title,
       "curated audiobooks",
       "best audible books for credits",
     ],
-    alternates: { canonical: buildCanonicalUrl(`/curated/${list.slug}`) },
+    alternates: { canonical: buildCanonicalUrl("/curated/" + list.slug) },
     openGraph: {
       title: list.title,
       description: list.description,
@@ -40,5 +47,17 @@ export function generateMetadata({ params }: PageProps): Metadata {
 export default function CuratedListPage({ params }: PageProps) {
   const detail = getCuratedListDetail(params.slug);
   if (!detail) notFound();
-  return <CuratedDetailContent list={detail} books={detail.books} />;
+  return (
+    <>
+      <CuratedDetailContent list={detail} books={detail.books} />
+      <ItemListJsonLd books={detail.books} name={detail.title} />
+      <BreadcrumbListJsonLd
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Curated Lists", url: "/curated" },
+          { name: detail.title, url: "/curated/" + detail.slug },
+        ]}
+      />
+    </>
+  );
 }

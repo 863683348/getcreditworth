@@ -140,3 +140,34 @@ export function FaqPageJsonLd({
   };
   return <JsonLd data={schema} />;
 }
+
+export function ArticleJsonLd({
+  title,
+  description,
+  url,
+  publishedDate,
+}: {
+  title: string;
+  description: string;
+  url: string;
+  publishedDate: string;
+}) {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: title,
+    description,
+    url,
+    datePublished: publishedDate,
+    publisher: {
+      "@type": "Organization",
+      name: "GetCreditWorth",
+      url: "https://getcreditworth.com",
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": url,
+    },
+  };
+  return <JsonLd data={schema} />;
+}

@@ -1,4 +1,4 @@
-﻿/**
+/**
  * 博客文章数据层
  * 从 page.tsx 抽离，独立模块化管理
  */
@@ -9,6 +9,7 @@ export interface BlogPost {
   slug: string;
   title: string;
   description: string;
+  keywords: string[];
   date: string;
   readTime: string;
   category: string;
@@ -24,6 +25,7 @@ const POSTS: Record<string, BlogPostData> = {
     title: 'How to Use Audible Credits: A Complete Guide for 2026',
     description:
       'Everything you need to know about Audible credits — how they work, when they expire, and how to maximize their value.',
+    keywords: ['how to use audible credits', 'audible credits explained', 'audible credit guide 2026'],
     date: '2026-07-25',
     readTime: '8 min read',
     category: 'Guide',
@@ -171,6 +173,7 @@ const POSTS: Record<string, BlogPostData> = {
     title: 'Best Audiobooks to Spend Audible Credits On',
     description:
       'Top audiobook recommendations ranked by Value Score. Find the highest-value books for your credits.',
+    keywords: ['best audiobooks for credits', 'best audible books to use credit on', 'top audiobooks worth credits'],
     date: '2026-07-25',
     readTime: '10 min read',
     category: 'Recommendations',
@@ -291,6 +294,7 @@ const POSTS: Record<string, BlogPostData> = {
     title: 'How Much Is an Audible Credit Actually Worth?',
     description:
       'Audible credits cost $14.95 each, but their true value depends on how you spend them. Here\'s how to calculate it.',
+    keywords: ['how much is an audible credit worth', 'audible credit value', 'audible credit worth 2026'],
     date: '2026-07-25',
     readTime: '6 min read',
     category: 'Analysis',
@@ -464,6 +468,7 @@ const POSTS: Record<string, BlogPostData> = {
     title: 'Is Audible Worth It in 2026? An Honest Review',
     description:
       'Thinking about an Audible subscription? We break down the costs, benefits, and credit value to help you decide.',
+    keywords: ['is audible worth it', 'audible membership review', 'audible premium plus worth it'],
     date: '2026-07-25',
     readTime: '7 min read',
     category: 'Analysis',
@@ -500,6 +505,7 @@ const POSTS: Record<string, BlogPostData> = {
     title: 'Audible Return Policy: Can You Return Audiobooks?',
     description:
       'Complete guide to Audible returns. Learn how the 365-day return window works and best practices.',
+    keywords: ['audible return policy', 'can you return audiobooks on audible', 'audible refund policy'],
     date: '2026-07-25',
     readTime: '5 min read',
     category: 'Guide',
@@ -532,6 +538,7 @@ const POSTS: Record<string, BlogPostData> = {
     title: 'Best Fantasy Audiobooks to Spend Audible Credits On',
     description:
       'Epic fantasy audiobooks that maximize your credit value. 30+ hour sagas with incredible cost-per-hour ratios.',
+    keywords: ['best fantasy audiobooks', 'fantasy audible books worth credits', 'epic fantasy audiobooks audible'],
     date: '2026-07-25',
     readTime: '8 min read',
     category: 'Recommendations',
@@ -564,6 +571,7 @@ const POSTS: Record<string, BlogPostData> = {
     title: 'Top Sci-Fi Audiobooks Worth Your Audible Credits',
     description:
       'Best science fiction audiobooks ranked by credit value. From space operas to hard sci-fi.',
+    keywords: ['best sci-fi audiobooks', 'science fiction audible books', 'sci fi audiobooks worth credits'],
     date: '2026-07-25',
     readTime: '7 min read',
     category: 'Recommendations',
@@ -595,6 +603,7 @@ const POSTS: Record<string, BlogPostData> = {
     title: 'How to Gift Audible Audiobooks: A Complete Guide',
     description:
       'Learn how to gift Audible audiobooks. Send a specific title or give an Audible membership.',
+    keywords: ['gift audible audiobooks', 'how to gift audible books', 'send audible book as gift'],
     date: '2026-07-25',
     readTime: '5 min read',
     category: 'Guide',
@@ -628,6 +637,7 @@ const POSTS: Record<string, BlogPostData> = {
     title: 'Audible Plus Catalog vs Credits: What to Use When',
     description:
       'When to use the Plus Catalog vs spend credits. Maximize your membership value with this guide.',
+    keywords: ['audible plus catalog vs credits', 'audible plus vs premium plus', 'what is audible plus catalog'],
     date: '2026-07-25',
     readTime: '6 min read',
     category: 'Guide',
@@ -662,6 +672,7 @@ const POSTS: Record<string, BlogPostData> = {
     title: 'Best Non-Fiction Audiobooks Worth Your Credits',
     description:
       'Maximize credit value with non-fiction audiobooks. Biographies and business books ranked by Value Score.',
+    keywords: ['best nonfiction audiobooks', 'non fiction audible books worth credits', 'self improvement audiobooks'],
     date: '2026-07-25',
     readTime: '7 min read',
     category: 'Recommendations',
@@ -699,6 +710,7 @@ const POSTS: Record<string, BlogPostData> = {
     title: 'How Much Is an Audible Credit Worth? (2026 Real Math)',
     description:
       'An Audible credit costs $14.95, but its real value depends on how you spend it. Here is the 2026 breakdown with real numbers from 300+ audiobooks.',
+    keywords: ['how much is an audible credit worth', 'audible credit cost 2026', 'audible credit actual value'],
     date: '2026-07-26',
     readTime: '9 min read',
     category: 'Analysis',
@@ -930,6 +942,7 @@ const POSTS: Record<string, BlogPostData> = {
     title: '50 Best Audiobooks to Use Your Credit On (2026)',
     description:
       'The 50 best audiobooks for Audible credits, ranked by Value Score. From 50-hour epics to high-rated sci-fi, these books maximize your credit value.',
+    keywords: ['best audible books to use credit on', 'top audible books for credits', '50 best audiobooks audible'],
     date: '2026-07-26',
     readTime: '12 min read',
     category: 'Recommendations',
@@ -1140,6 +1153,7 @@ const POSTS: Record<string, BlogPostData> = {
     title: 'Audible Credit Value Calculator: Stop Wasting Credits',
     description:
       'Free Audible credit calculator. See if a book is worth a credit, compare cost per hour, and find the best audiobooks to spend credits on.',
+    keywords: ['audible credit value calculator', 'audible credit calculator tool', 'stop wasting audible credits'],
     date: '2026-07-26',
     readTime: '7 min read',
     category: 'Guide',

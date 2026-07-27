@@ -1,0 +1,70 @@
+﻿name: Daily Data Update
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+    inputs:
+      skip_revalidate:
+        description: "Skip ISR revalidation call"
+        required: false
+        default: false
+        type: boolean
+
+env:
+  NODE_VERSION: "20"
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Merge new seed books
+        run: node scripts/build-merged-books.mjs
+
+      - name: Fetch book data from Audible API (PENDING books)
+        run: node scripts/fetch-books-batch.mjs
+        timeout-minutes: 10
+
+      - name: Update prices/ratings via PA-API (when configured)
+        run: npx tsx scripts/update-books-paapi.ts
+        timeout-minutes: 15
+        continue-on-error: true
+        env:
+          AMAZON_PAAPI_ACCESS_KEY: ${{ secrets.AMAZON_PAAPI_ACCESS_KEY }}
+          AMAZON_PAAPI_SECRET_KEY: ${{ secrets.AMAZON_PAAPI_SECRET_KEY }}
+          AMAZON_PAAPI_PARTNER_TAG: ${{ secrets.AMAZON_PAAPI_PARTNER_TAG }}
+
+      - name: Commit data updates
+        run: |
+          git config user.name "getcreditworth-bot"
+          git config user.email "bot@getcreditworth.com"
+          git add data/books.json data/books-merged.json
+          if git diff --cached --quiet; then
+            echo "No data changes to commit"
+          else
+            git commit -m "chore: daily data update $(date +'%Y-%m-%d')"
+            git push
+            echo "Data updated and pushed"
+          fi
+
+      - name: Trigger ISR revalidation
+        if: ${{ !inputs.skip_revalidate }}
+        run: |
+          curl -s -X POST "${{ vars.SITE_URL || 'https://getcreditworth.com' }}/api/revalidate" \
+            -H "Content-Type: application/json" \
+            -d '{"secret":"${{ secrets.REVALIDATE_SECRET }}"}'
+        continue-on-error: true
