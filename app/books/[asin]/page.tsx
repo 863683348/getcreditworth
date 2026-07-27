@@ -95,21 +95,30 @@ export default function BookDetailPage({ params }: PageProps) {
   const worthUsingCredit = savingsVsCredit > 0;
   const canonicalUrl = buildCanonicalUrl(`/books/${book.asin}`);
 
-  // FAQ structured data for rich snippets
-  const faqQuestions = [
+  // FAQ structured data for rich snippets — 差异化每本书的 FAQ
+  const faqQuestions: { question: string; answer: string }[] = [
     {
       question: `Is ${book.title} worth an Audible credit?`,
-      answer: `${book.title} has a Value Score of ${book.valueScore.toFixed(1)}, costs ${formatPrice(book.price)}, and runs ${book.runtimeHours.toFixed(1)} hours. ${worthUsingCredit ? `Using a credit saves you ${formatPrice(savingsVsCredit)} compared to buying directly. This book is a good credit value.` : `The book costs less than a credit (${formatPrice(AUDIBLE_CREDIT_VALUE)}), so buying directly may be better value.`} See the full analysis on this page.`,
+      answer: `${book.title} has a Value Score of ${book.valueScore.toFixed(1)}, costs ${formatPrice(book.price)}, and runs ${book.runtimeHours.toFixed(1)} hours. ${worthUsingCredit ? `Using a credit saves you ${formatPrice(savingsVsCredit)} compared to buying directly. This book offers solid credit value.` : `The book costs less than a credit (${formatPrice(AUDIBLE_CREDIT_VALUE)}), so buying directly may be better value.`} See the full analysis on this page.`,
     },
     {
-      question: `How long is ${book.title} on Audible?`,
-      answer: `${book.title} by ${book.author} runs for ${book.runtimeHours.toFixed(1)} hours (${book.runtimeMinutes} minutes) on Audible. At a cost per hour of ${formatPrice(book.costPerHour)} when using a credit, it offers ${book.runtimeHours.toFixed(1)} hours of listening time.`,
+      question: `Who narrates ${book.title} on Audible?`,
+      answer: `${book.title} by ${book.author} is narrated by ${book.narrator || 'an Audible narrator'}${book.narrator ? ', bringing the story to life with professional voice performance' : ''}. The audiobook runs ${book.runtimeHours.toFixed(1)} hours (${book.runtimeMinutes} minutes) total.`,
     },
     {
-      question: `What is the Value Score of ${book.title}?`,
-      answer: `${book.title} has a Value Score of ${book.valueScore.toFixed(1)}, calculated as (Duration ${book.runtimeHours.toFixed(1)}h x Rating ${book.starRating.toFixed(1)}) / Price ${formatPrice(book.price)}. A score above 8.0 indicates excellent credit value.`,
+      question: `What genre is ${book.title}?`,
+      answer: `${book.title} falls under ${book.categories.slice(0, 3).join(', ')} on Audible. Written by ${book.author}, it has a ${book.starRating.toFixed(1)}-star rating from ${book.reviewCount.toLocaleString()} reviews and a Value Score of ${book.valueScore.toFixed(1)}.`,
+    },
+    {
+      question: `How does ${book.title} compare to other audiobooks on credit value?`,
+      answer: `${book.title} has a cost per hour of ${formatPrice(book.costPerHour)} when using an Audible credit. With a Value Score of ${book.valueScore.toFixed(1)} (${book.valueScore >= 8 ? 'excellent' : book.valueScore >= 5 ? 'good' : 'moderate'}), it ranks among ${book.categories[0] || 'popular'} audiobooks. ${book.description ? book.description.split('. ').slice(0, 1).join('. ') + '.' : ''}`,
     },
   ];
+
+  // Remove narrator question if no narrator data
+  if (!book.narrator) {
+    faqQuestions.splice(1, 1);
+  }
 
   return (
     <>

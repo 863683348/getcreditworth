@@ -1399,6 +1399,278 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+
+  'how-to-cancel-audible-subscription': {
+    slug: 'how-to-cancel-audible-subscription',
+    title: 'How to Cancel Audible Subscription: A Step-by-Step Guide (2026)',
+    description: 'Learn how to cancel your Audible subscription properly. Get your full refund, return books, and avoid fees with our complete guide.',
+    keywords: ['how to cancel audible subscription', 'cancel audible subscription steps', 'audible cancellation guide 2026'],
+    date: '2026-07-27',
+    readTime: '8 min read',
+    category: 'Guide',
+    content: (
+      <>
+        <p>Canceling your Audible subscription seems straightforward, but there are important steps to take to protect your credits and ensure you get a full refund if you've purchased books you want to return. This guide walks you through the entire process.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Cancellation Process</h2>
+        <ol className="space-y-3 list-decimal list-inside">
+          <li>Go to <strong>Account Details</strong> on the Audible website.</li>
+          <li>Click <strong>Your Membership</strong> &rarr; <strong>Cancel Membership</strong>.</li>
+          <li>Select a reason for canceling from the dropdown (optional).</li>
+          <li>Follow the prompts to confirm cancellation.</li>
+          <li>You'll receive a confirmation email within 24 hours.</li>
+        </ol>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Before You Cancel: Return Your Books</h2>
+        <p>Here's the critical step most people miss: <strong>return any audiobooks you want to get a refund for before canceling</strong>. Audible allows returns within 365 days of purchase. If you cancel first, you lose the ability to return books for credit.</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
+          <p className="font-semibold text-text-primary mb-2">Smart Cancellation Strategy:</p>
+          <ul className="space-y-1 text-sm">
+            <li>1. Return all audiobooks you don't want</li>
+            <li>2. Use any remaining credits on books you want to keep</li>
+            <li>3. Cancel your subscription</li>
+            <li>4. Keep the books you purchased with credits (yours to keep forever)</li>
+          </ul>
+        </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What Happens to Your Credits?</h2>
+        <p>If you have unused credits when you cancel them, <strong>you will lose them</strong>. Credits expire 12 months after issue, and canceling your membership immediately forfeits any remaining credits. Spend them on books you want before canceling.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Frequently Asked Questions</h2>
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">Can I cancel and keep my audiobooks?</h3>
+        <p>Yes. Any audiobook you purchase with a credit or cash is yours to keep forever, even after you cancel your membership. You can listen anytime, anywhere.</p>
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">What happens to my credits if I cancel?</h3>
+        <p>Unused credits are forfeited when you cancel. Always spend them before closing your account. If you have credits from a free trial, those also expire upon cancellation.</p>
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">How do I return audiobooks for a refund?</h3>
+        <p>Go to Account Details &rarr; Purchase History &rarr; Select the book &rarr; Click Return. You can return within 365 days of purchase for either a credit or cash refund.</p>
+        <p className="mt-6 text-text-secondary">Need more help? Check our <a href="/blog/audible-return-policy-guide" className="text-primary underline">complete return policy guide</a> for details on the 365-day return window.</p>
+      </>
+    ),
+  },
+
+  'premium-plus-vs-standard-credits': {
+    slug: 'premium-plus-vs-standard-credits',
+    title: 'Premium Plus vs Standard: Audible Credits Explained',
+    description: 'Understand the difference between Audible Premium Plus and Premium plans. Which one gives you better credit value?',
+    keywords: ['premium plus vs standard audible', 'audible premium plus credits', 'what is audible premium plus'],
+    date: '2026-07-27',
+    readTime: '6 min read',
+    category: 'Comparison',
+    content: (
+      <>
+        <p>Audible offers two subscription plans: Premium (1 credit/month, $7.95) and Premium Plus (1 credit/month, $14.95). Both include credits, but the key differences lie in catalog access and benefits.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Plan Comparison</h2>
+        <div className="overflow-x-auto my-4">
+          <table className="w-full text-sm border border-border rounded-md">
+            <thead className="bg-bg-surface">
+              <tr>
+                <th className="p-2 border-b">Feature</th>
+                <th className="p-2 border-b">Premium</th>
+                <th className="p-2 border-b">Premium Plus</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td className="p-2 border-b">Monthly Cost</td><td className="p-2 border-b">$7.95</td><td className="p-2 border-b">$14.95</td></tr>
+              <tr><td className="p-2 border-b">Credits/Month</td><td className="p-2 border-b">1</td><td className="p-2 border-b">1</td></tr>
+              <tr><td className="p-2 border-b">Plus Catalog</td><td className="p-2 border-b">✓ Access</td><td className="p-2 border-b">✓ Access</td></tr>
+              <tr><td className="p-2 border-b">Monthly Discount</td><td className="p-2 border-b">30% off</td><td className="p-2 border-b">35% off</td></tr>
+              <tr><td className="p-2 border-b">Credit Price</td><td className="p-2 border-b">$7.95</td><td className="p-2 border-b">$14.95</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Key Differences</h2>
+        <p><strong>Premium Plus</strong> gives you better discounts on credit purchases (35% vs 30%) and the ability to buy more credits at discounted rates. If you spend more than $20/month on audiobooks, Premium Plus pays for itself.</p>
+        <p><strong>Premium</strong> is better for casual listeners who only need one credit per year and want to save on the monthly fee.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Which Plan Should You Choose?</h2>
+        <ul className="space-y-2">
+          <li>If you listen to 2+ audiobooks/month: Premium Plus</li>
+          <li>If you listen to 1 audiobook/month: Either works (Premium saves $7/month)</li>
+          <li>If you want maximum discounts: Premium Plus</li>
+        </ul>
+      </>
+    ),
+  },
+
+  'audible-return-refund-policy': {
+    slug: 'audible-return-refund-policy',
+    title: 'Audible Return and Refund Policy: Complete Guide',
+    description: 'Learn Audible&apos;s 365-day return policy. How to return audiobooks, get credits back, and understand your rights.',
+    keywords: ['audible return policy', 'audible refund process', 'how to return audible audiobooks'],
+    date: '2026-07-27',
+    readTime: '7 min read',
+    category: 'Guide',
+    content: (
+      <>
+        <p>Audible offers one of the most generous return policies in digital media: you can return audiobooks within 365 days of purchase. This is far longer than most retailers (7-30 days) and gives you peace of mind when spending credits.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Return an Audiobook</h2>
+        <ol className="space-y-2 list-decimal list-inside">
+          <li>Go to <strong>Account Details</strong> &rarr; <strong>Purchase History</strong></li>
+          <li>Find the audiobook you want to return</li>
+          <li>Click <strong>&ldquo;Return&rdquo;</strong> next to the title</li>
+          <li>Select a reason (optional)</li>
+          <li>Confirm - credit or refund is processed</li>
+        </ol>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Credit Returns vs Cash Refunds</h2>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
+          <p><strong>Credit purchase:</strong> Credit restored instantly</p>
+          <p><strong>Cash purchase:</strong> Refund to card in 5-7 business days</p>
+          <p><strong>Plus Catalog:</strong> No return possible (already free)</p>
+        </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Best Practices</h2>
+        <ul className="space-y-1">
+          <li>Return within 365 days - that&apos;s your window</li>
+          <li>Don&apos;t overuse returns (excessive returns may trigger account review)</li>
+          <li>Use returns to recover credits for better books</li>
+        </ul>
+      </>
+    ),
+  },
+
+  'audible-cancellation-fees': {
+    slug: 'audible-cancellation-fees',
+    title: 'Does Audible Charge a Cancellation Fee? (2026)',
+    description: 'No cancellation fee for Audible. Learn what happens to your credits, books, and subscription when you cancel.',
+    keywords: ['audible cancellation fee', 'does audible charge to cancel', 'cancel audible subscription without fee'],
+    date: '2026-07-27',
+    readTime: '4 min read',
+    category: 'FAQ',
+    content: (
+      <>
+        <p><strong>No, Audible does not charge a cancellation fee.</strong> You can cancel your Premium or Premium Plus subscription at any time without penalty.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What Happens When You Cancel?</h2>
+        <ul className="space-y-2">
+          <li><strong>Audiobooks you bought:</strong> You keep them forever</li>
+          <li><strong>Unused credits:</strong> They are forfeited (lose them)</li>
+          <li><strong>Plus Catalog access:</strong> Ends immediately</li>
+          <li><strong>Discounts on purchases:</strong> Ends immediately</li>
+        </ul>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
+          <p className="font-semibold text-text-primary mb-2">Key Tip:</p>
+          <p className="text-sm">Spend all unused credits before canceling - they expire immediately upon cancellation.</p>
+        </div>
+      </>
+    ),
+  },
+
+  'how-to-use-audible-credits-more-than-one': {
+    slug: 'how-to-use-audible-credits-more-than-one',
+    title: 'How to Use Multiple Audible Credits at Once',
+    description: 'Learn about Audible credit rollover, stacking, and maximizing your credits with Premium Plus 2 and annual plans.',
+    keywords: ['use multiple audible credits', 'audible credit rollover', 'how to stack audible credits'],
+    date: '2026-07-27',
+    readTime: '5 min read',
+    category: 'Guide',
+    content: (
+      <>
+        <p>Can you use multiple Audible credits at once? The answer depends on your plan and whether you have rolled over credits from previous months.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Credit Rollover Rules</h2>
+        <p><strong>Premium Plus (1 credit/month):</strong> You can roll over up to 6 credits to the next billing cycle. This means you could have 7 credits total (1 new + 6 rolled over).</p>
+        <p><strong>Premium Plus 2 (2 credits/month):</strong> You can roll over credits, but the exact limit isn&apos;t published. Typically you can accumulate several credits.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Using Multiple Credits</h2>
+        <p>Audible allows you to spend multiple credits in a single transaction. When purchasing a book, you can choose to pay with credits instead of cash. If you have multiple credits available, you can use them all at once.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Strategy for Maximum Value</h2>
+        <p>The key to maximizing multiple credits is spending them on expensive, long audiobooks. A single $35+ audiobook uses one credit and saves you ~$20. Using 3 credits on 3 such books saves you ~$60.</p>
+        <p>Tip: Consider the <strong>Premium Plus 2 plan</strong> ($22.95/month for 2 credits) if you regularly use more than one credit per month. The per-credit cost drops from $14.95 to $11.48.</p>
+      </>
+    ),
+  },
+
+  'audible-credits-expiration-policy': {
+    slug: 'audible-credits-expiration-policy',
+    title: 'Audible Credit Expiration: When Do Credits Expire?',
+    description: 'Credits expire 12 months after issuance. Learn how to track your credits and use them before they expire.',
+    keywords: ['audible credits expire', 'when do audible credits expire', 'credit expiration policy audible'],
+    date: '2026-07-27',
+    readTime: '5 min read',
+    category: 'Analysis',
+    content: (
+      <>
+        <p><strong>Audible credits expire 12 months after they are issued.</strong> This applies to both monthly credits and any credits you've rolled over from previous months.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Expiration Rule</h2>
+        <p>If you receive a credit on January 1st, it expires on December 31st of the same year (12 months later). Canceling your membership immediately forfeits all remaining credits.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Check Your Expiration Dates</h2>
+        <p>Go to <strong>Account Details</strong> &rarr; <strong>Your Membership</strong> &rarr; <strong>Premium Plus Credits</strong> to see your current credits and their expiration dates.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Expiration Strategy</h2>
+        <ul className="space-y-2">
+          <li>Set calendar reminders 30 days before expiration</li>
+          <li>Spend credits on books with high Value Scores</li>
+          <li>Don&apos;t let credits pile up - spend them before they expire</li>
+          <li>Before canceling, spend all remaining credits</li>
+        </ul>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
+          <p className="text-sm"><strong>Warning:</strong> An expired credit is worth $0. Better to spend on a decent book than lose it entirely.</p>
+        </div>
+      </>
+    ),
+  },
+
+  'premium-plus-2-plan-review': {
+    slug: 'premium-plus-2-plan-review',
+    title: 'Audible Premium Plus 2 Plan Review: Is It Worth It?',
+    description: 'Premium Plus 2 gives 2 credits/month for $22.95. Calculate if this plan saves you money compared to standard Premium Plus.',
+    keywords: ['premium plus 2 plan', 'audible 2 credits monthly', 'premium plus 2 vs standard'],
+    date: '2026-07-27',
+    readTime: '6 min read',
+    category: 'Analysis',
+    content: (
+      <>
+        <p><strong>Audible Premium Plus 2</strong> costs $22.95/month and includes 2 credits per month ($11.48 per credit). The question is: is it worth the extra $8 compared to standard Premium Plus?</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Math</h2>
+        <div className="overflow-x-auto my-4">
+          <table className="w-full text-sm border border-border rounded-md">
+            <thead className="bg-bg-surface">
+              <tr>
+                <th className="p-2 border-b">Plan</th>
+                <th className="p-2 border-b">Cost</th>
+                <th className="p-2 border-b">Credits</th>
+                <th className="p-2 border-b">Per-Credit Cost</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td className="p-2 border-b">Premium Plus</td><td className="p-2 border-b">$14.95</td><td className="p-2 border-b">1</td><td className="p-2 border-b">$14.95</td></tr>
+              <tr><td className="p-2 border-b">Premium Plus 2</td><td className="p-2 border-b">$22.95</td><td className="p-2 border-b">2</td><td className="p-2 border-b">$11.48</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When Premium Plus 2 Makes Sense</h2>
+        <ul className="space-y-2">
+          <li>You regularly use both credits each month</li>
+          <li>You want to build up a credit reserve (rollover up to 6 credits)</li>
+          <li>You gift audiobooks to friends/family frequently</li>
+          <li>You buy expensive audiobooks ($30+ regularly)</li>
+        </ul>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When to Stick with Standard</h2>
+        <p>If you only use 1 credit per month and can't roll over the second one, Premium Plus 2 wastes $8/month. Standard Premium Plus is the better choice.</p>
+      </>
+    ),
+  },
+
+  'audible-subscription-downgrade-guide': {
+    slug: 'audible-subscription-downgrade-guide',
+    title: 'How to Downgrade Your Audible Subscription',
+    description: 'Learn how to downgrade from Premium Plus to Premium without losing credits or access to benefits you value.',
+    keywords: ['downgrade audible subscription', 'how to downgrade audible', 'preserve credits when downgrading'],
+    date: '2026-07-27',
+    readTime: '7 min read',
+    category: 'Guide',
+    content: (
+      <>
+        <p>Downgrading your Audible subscription is possible and won&apos;t cost you your credits or audiobooks. Here's what to expect and how to do it properly.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What You Lose When Downgrading</h2>
+        <ul className="space-y-1">
+          <li><strong>Premium Plus to Premium:</strong> You lose the extra credit (if on 2-credit plan), 35% discount drops to 30%, and some benefits may change</li>
+          <li><strong>You keep:</strong> All audiobooks purchased, Plus Catalog access continues until the next billing cycle, credits you already have remain valid</li>
+        </ul>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Downgrade Steps</h2>
+        <ol className="space-y-2 list-decimal list-inside">
+          <li>Go to <strong>Account Details</strong> &rarr; <strong>Your Membership</strong></li>
+          <li>Select <strong>Change Plan</strong> or <strong>Downgrade</strong></li>
+          <li>Select your new plan (Premium or Premium Plus 1)</li>
+          <li>Confirm the change - effective at next billing cycle</li>
+        </ol>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Before You Downgrade</h2>
+        <p>If you're on Premium Plus 2 and want to downgrade, first ensure you've used or saved any rolled-over credits. You won't get a second credit in the next billing cycle after downgrading.</p>
+        <p>Your current credits remain valid and can be used until their expiration date (12 months from issue).</p>
+      </>
+    ),
+  },
+
   'audible-credit-value-calculator-stop-wasting': {
     slug: 'audible-credit-value-calculator-stop-wasting',
     title: 'Audible Credit Value Calculator: Stop Wasting Credits',

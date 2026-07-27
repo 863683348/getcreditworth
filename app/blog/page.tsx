@@ -1,6 +1,7 @@
 import { getAllPosts } from "@/lib/api/controllers/blog.controller";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import { BlogListContent } from "@/components/BlogListContent";
+import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 
 export const revalidate = 604800;
@@ -27,6 +28,17 @@ export const metadata: Metadata = {
 
 export default function BlogPage() {
   const posts = getAllPosts();
-  return <BlogListContent posts={posts} />;
+  return (
+    <>
+      <Breadcrumb
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Blog", href: "/blog" },
+          { label: "Audible Guides & Tips" },
+        ]}
+      />
+      <BlogListContent posts={posts} />
+    </>
+  );
 }
 

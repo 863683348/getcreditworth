@@ -19,6 +19,9 @@ export interface BookRawData {
   categories: string[];
   releaseDate?: string; // ISO date
   publisher?: string;
+  /** 独特描述 — 区别化自然语言内容，提升 SEO thin content
+   *  每本书 100-200 词，用于页面正文展示 */
+  description?: string;
 }
 
 /** 鐠侊紕鐣婚崥搴ｆ畱娑旓妇鐫勯弫鐗堝祦閿涘牆鎯?Value Score 缁涘瀵氶弽鍥风礆 */

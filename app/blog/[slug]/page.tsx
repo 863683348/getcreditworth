@@ -3,6 +3,8 @@ import { getPost, getPostSlugs } from "@/lib/api/controllers/blog.controller";
 import { ArticleJsonLd, BreadcrumbListJsonLd } from "@/components/seo/JsonLd";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import { BlogDetailContent } from "@/components/BlogDetailContent";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { RelatedArticles } from "@/components/RelatedArticles";
 import type { Metadata } from "next";
 
 export const revalidate = 604800;
@@ -41,7 +43,15 @@ export default function BlogPostPage({ params }: PageProps) {
   if (!post) notFound();
   return (
     <>
+      <Breadcrumb
+        items={[
+          { label: "Home", href: "/" },
+          { label: "Blog", href: "/blog" },
+          { label: post.title },
+        ]}
+      />
       <BlogDetailContent post={post} />
+      <RelatedArticles post={{ ...post }} />
       <ArticleJsonLd
         title={post.title}
         description={post.description}

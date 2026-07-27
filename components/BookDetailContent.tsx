@@ -166,6 +166,15 @@ export function BookDetailContent({ book, relatedBooks }: BookDetailContentProps
             </p>
           </div>
 
+          {/* 独特描述 — SEO unique content per book */}
+          {book.description && (
+            <div className="mb-6 p-5 rounded-lg bg-bg-surface border border-border">
+              <p className="text-sm text-text-primary leading-relaxed">
+                {book.description}
+              </p>
+            </div>
+          )}
+
           {/* Low Value Score warning — guide to buy directly on Amazon */}
           {book.valueScore < 2 && (
             <div className="p-4 rounded-lg border border-warning/40 bg-warning/10 mb-6">
