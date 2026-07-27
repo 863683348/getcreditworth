@@ -476,8 +476,8 @@ const POSTS: Record<string, BlogPostData> = {
       <>
         <p>
           With subscription costs rising, you might wonder if Audible is still worth it in 2026.
-          The short answer: it depends on how you use it. A single credit costs .95, but most
-          popular audiobooks retail for -. You are saving 25-60% off retail by using credits.
+          The short answer: it depends on how you use it. A single credit costs $14.95, but most
+          popular audiobooks retail for $20-$35. You are saving 25-60% off retail by using credits.
         </p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Break-Even Analysis</h2>
         <p>
@@ -489,7 +489,7 @@ const POSTS: Record<string, BlogPostData> = {
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When Audible Is Not Worth It</h2>
         <ul className="space-y-2">
           <li>If you listen to fewer than one book every 2-3 months</li>
-          <li>If you only listen to short books under </li>
+          <li>If you only listen to short books under $15</li>
           <li>If you will not remember to use credits before they expire</li>
         </ul>
         <p className="mt-6">
@@ -650,7 +650,7 @@ const POSTS: Record<string, BlogPostData> = {
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When to Use Credits</h2>
         <ul className="space-y-2">
           <li><strong>Premium audiobooks:</strong> New releases are rarely in the Plus Catalog.</li>
-          <li><strong>High value books:</strong> Books above .95 save you money with credits.</li>
+          <li><strong>High value books:</strong> Books above $14.95 save you money with credits.</li>
           <li><strong>Keep-forever titles:</strong> Credit purchases are yours to keep forever.</li>
         </ul>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When to Use the Plus Catalog</h2>
@@ -694,7 +694,7 @@ const POSTS: Record<string, BlogPostData> = {
         </p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Credit Value Tip</h2>
         <p>
-          Focus your credits on long biographies (20+ hours). For short self-help books under ,
+          Focus your credits on long biographies (20+ hours). For short self-help books under $15,
           buy directly and save credits for longer reads.
         </p>
         <p className="mt-6">
