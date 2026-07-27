@@ -1,5 +1,5 @@
-﻿import type { MetadataRoute } from "next";
-import { getAllBooks, getCuratedLists } from "@/lib/data/books";
+import type { MetadataRoute } from "next";
+import { getAllBooks, getCuratedLists, getAllCategories } from "@/lib/data/books";
 import { getPostSlugs } from "@/lib/api/controllers/blog.controller";
 import { SITE_CONFIG } from "@/lib/config";
 
@@ -41,5 +41,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.5,
   }));
 
-  return [...staticPages, ...bookPages, ...curatedPages, ...blogPages];
+  const categoryPages: MetadataRoute.Sitemap = getAllCategories().map((name) => ({
+    url: baseUrl + "/category/" + name.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, ""),
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.6,
+  }));
+
+  return [...staticPages, ...bookPages, ...curatedPages, ...blogPages, ...categoryPages];
 }

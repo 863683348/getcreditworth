@@ -72,6 +72,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link rel="preconnect" href="https://m.media-amazon.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="dns-prefetch" href="https://m.media-amazon.com" />
         <link rel="preconnect" href="https://images-na.ssl-images-amazon.com" />
         <link rel="dns-prefetch" href="https://images-na.ssl-images-amazon.com" />
