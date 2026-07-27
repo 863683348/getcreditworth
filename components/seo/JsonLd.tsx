@@ -1,5 +1,9 @@
 ﻿import type { Book } from "@/lib/types";
 
+// Blog author name (pending multi-author support)
+const BLOG_AUTHOR = "GetCreditWorth";
+const BLOG_AUTHOR_URL = "https://getcreditworth.com/about";
+
 interface JsonLdProps {
   data: Record<string, unknown>;
 }
@@ -146,11 +150,13 @@ export function ArticleJsonLd({
   description,
   url,
   publishedDate,
+  image,
 }: {
   title: string;
   description: string;
   url: string;
   publishedDate: string;
+  image?: string;
 }) {
   const schema = {
     "@context": "https://schema.org",
@@ -159,11 +165,17 @@ export function ArticleJsonLd({
     description,
     url,
     datePublished: publishedDate,
+    author: {
+      "@type": "Person",
+      name: BLOG_AUTHOR,
+      url: BLOG_AUTHOR_URL,
+    },
     publisher: {
       "@type": "Organization",
       name: "GetCreditWorth",
       url: "https://getcreditworth.com",
     },
+    ...(image && { image }),
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": url,
