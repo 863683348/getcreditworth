@@ -1,9 +1,10 @@
-﻿import type { Metadata, Viewport } from "next";
+import type { Metadata, Viewport } from "next";
 import { GoogleAnalytics } from "@/components/analytics/GoogleAnalytics";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { I18nProvider } from "@/lib/i18n";
+import { WebsiteJsonLd, OrganizationJsonLd } from "@/components/seo/JsonLd";
 import { SITE_CONFIG } from "@/lib/config";
 
 const baseUrl = SITE_CONFIG.url;
@@ -75,7 +76,9 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
           <Footer />
         </I18nProvider>
-          <GoogleAnalytics />
+          <WebsiteJsonLd />
+      <OrganizationJsonLd />
+      <GoogleAnalytics />
       </body>
     </html>
   );

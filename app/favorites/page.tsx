@@ -1,4 +1,4 @@
-﻿import { getAllBooks } from '@/lib/data/books';
+import { getAllBooks } from '@/lib/data/books';
 import { buildCanonicalUrl } from '@/lib/utils/affiliate';
 import { FavoritesContent } from '@/components/FavoritesContent';
 import type { Metadata } from 'next';
@@ -15,6 +15,11 @@ export const metadata: Metadata = {
     'best audible books to save for later',
   ],
   alternates: { canonical: buildCanonicalUrl('/favorites') },
+  openGraph: {
+    title: "My Favorites - Saved Audiobooks",
+    description:
+      "View your saved audiobooks. Track books you want to spend your Audible credits on.",
+  },
 };
 
 export default function FavoritesPage() {

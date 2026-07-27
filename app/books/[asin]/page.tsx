@@ -1,4 +1,4 @@
-﻿import { notFound } from "next/navigation";
+import { notFound } from "next/navigation";
 import {
   getBookDetail,
   getBookAsins,
@@ -39,6 +39,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
     `${book.title} cost per hour`,
     `audible credit value ${titleLower}`,
     `${book.title} audible review 2026`,
+    ...book.categories.slice(0,3).map(c => `${c.toLowerCase()} audiobooks credits`),
   ];
 
   return {
