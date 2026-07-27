@@ -27,6 +27,7 @@ import {
   formatDate,
 } from '@/lib/utils/format';
 import { AUDIBLE_CREDIT_VALUE } from '@/lib/config';
+import { Breadcrumb } from '@/components/Breadcrumb';
 import { useI18n } from '@/lib/i18n';
 import type { Book } from '@/lib/types';
 
@@ -71,15 +72,13 @@ export function BookDetailContent({ book, relatedBooks }: BookDetailContentProps
       </div>
 
       {/* Breadcrumb */}
-      <nav className="mb-6">
-        <Link
-          href="/"
-          className="flex items-center gap-1 text-sm text-text-secondary hover:text-primary"
-        >
-          <ChevronLeft className="h-4 w-4" />
-          {t.bookDetail.backToTop}
-        </Link>
-      </nav>
+      <Breadcrumb
+        items={[
+          { label: "Home", href: "/" },
+          { label: "All Books", href: "/books" },
+          { label: book.title },
+        ]}
+      />
 
       {/* Main content */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { ChevronLeft, Calendar, Clock, ArrowRight } from 'lucide-react';
 import { formatDate } from '@/lib/utils/format';
+import { Breadcrumb } from '@/components/Breadcrumb';
 import { useI18n } from '@/lib/i18n';
 
 import type { BlogPostData } from '@/data/blog/posts';
