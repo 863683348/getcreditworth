@@ -32,9 +32,10 @@ import type { Book } from '@/lib/types';
 
 interface BookDetailContentProps {
   book: Book;
+  relatedBooks?: Book[];
 }
 
-export function BookDetailContent({ book }: BookDetailContentProps) {
+export function BookDetailContent({ book, relatedBooks }: BookDetailContentProps) {
   const { t } = useI18n();
 
   const redirectUrl = buildRedirectUrl(book.asin);
@@ -267,6 +268,45 @@ export function BookDetailContent({ book }: BookDetailContentProps) {
           </div>
         </div>
       </div>
+
+      {/* Related Books */}
+      {relatedBooks && relatedBooks.length > 0 && (
+        <div className="mt-10 pt-8 border-t border-border">
+          <h2 className="text-xl font-semibold text-text-primary mb-4">
+            Similar Audiobooks Worth Your Credit
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
+            {relatedBooks.map((rb) => (
+              <Link
+                key={rb.asin}
+                href={"/books/" + rb.asin}
+                className="group p-3 rounded-lg bg-bg-surface border border-border hover:border-primary transition-colors"
+              >
+                <div className="aspect-[3/5] relative mb-2 overflow-hidden rounded bg-background">
+                  <Image
+                    src={rb.coverImageUrl}
+                    alt={rb.title}
+                    fill
+                    sizes="(max-width: 768px) 50vw, 20vw"
+                    className="object-cover group-hover:scale-105 transition-transform duration-200"
+                    unoptimized
+                  />
+                </div>
+                <p className="text-xs font-medium text-text-primary line-clamp-2 leading-tight">
+                  {rb.title}
+                </p>
+                <p className="text-xs text-text-muted mt-0.5">
+                  {rb.author.split(",")[0]}
+                </p>
+                <div className="flex items-center gap-1 mt-1">
+                  <ValueScoreBadge score={rb.valueScore} size="sm" />
+                  <span className="text-xs text-text-muted">{rb.runtimeHours.toFixed(0)}h</span>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }

@@ -8,6 +8,8 @@ import { BookJsonLd, BreadcrumbListJsonLd, FaqPageJsonLd } from "@/components/se
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import { formatPrice } from "@/lib/utils/format";
 import { AUDIBLE_CREDIT_VALUE } from "@/lib/config";
+import { getBooksByCategoryList } from "@/lib/api/controllers/book.controller";
+import { getAllBooks } from "@/lib/data/books";
 import type { Metadata } from "next";
 
 export const revalidate = 86400;
@@ -77,6 +79,18 @@ export default function BookDetailPage({ params }: PageProps) {
   const book = getBookDetail(params.asin);
   if (!book) notFound();
 
+  // Related books: same first category, exclude current, top 5 by value score
+  const mainCategory = book.categories[0];
+  const relatedBooks = mainCategory
+    ? getBooksByCategoryList(mainCategory)
+        .filter((b) => b.asin !== book.asin)
+        .sort((a, b) => b.valueScore - a.valueScore)
+        .slice(0, 5)
+    : getAllBooks()
+        .filter((b) => b.asin !== book.asin)
+        .sort((a, b) => b.valueScore - a.valueScore)
+        .slice(0, 5);
+
   const savingsVsCredit = book.price - AUDIBLE_CREDIT_VALUE;
   const worthUsingCredit = savingsVsCredit > 0;
   const canonicalUrl = buildCanonicalUrl(`/books/${book.asin}`);
@@ -99,7 +113,7 @@ export default function BookDetailPage({ params }: PageProps) {
 
   return (
     <>
-      <BookDetailContent book={book} />
+      <BookDetailContent book={book} relatedBooks={relatedBooks} />
       <BookJsonLd book={book} />
       <BreadcrumbListJsonLd
         items={[

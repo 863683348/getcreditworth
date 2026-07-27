@@ -70,6 +70,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://m.media-amazon.com" />
+        <link rel="dns-prefetch" href="https://m.media-amazon.com" />
+        <link rel="preconnect" href="https://images-na.ssl-images-amazon.com" />
+        <link rel="dns-prefetch" href="https://images-na.ssl-images-amazon.com" />
+      </head>
       <body className="min-h-screen flex flex-col">
         <I18nProvider>
           <Header />
