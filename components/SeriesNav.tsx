@@ -9,8 +9,8 @@ interface SeriesNavProps {
   currentTitle: string;
   prevAsin: string | null;
   nextAsin: string | null;
-  prevTitle: string;
-  nextTitle: string;
+  prevTitle: string | null;
+  nextTitle: string | null;
   totalBooks: number;
   currentIndex: number;
 }
@@ -47,7 +47,7 @@ export function SeriesNav({
             className="flex items-center gap-1.5 text-sm text-text-secondary hover:text-primary transition-colors group flex-1 min-w-0"
           >
             <ChevronLeft className="h-4 w-4 flex-shrink-0" />
-            <span className="truncate group-hover:underline">{prevTitle}</span>
+            <span className="truncate group-hover:underline">{prevTitle ?? ""}</span>
           </Link>
         ) : (
           <div />
@@ -57,7 +57,7 @@ export function SeriesNav({
             href={'/books/' + nextAsin}
             className="flex items-center gap-1.5 text-sm text-text-secondary hover:text-primary transition-colors group flex-1 min-w-0 justify-end text-right"
           >
-            <span className="truncate group-hover:underline">{nextTitle}</span>
+            <span className="truncate group-hover:underline">{nextTitle ?? ""}</span>
             <ChevronRight className="h-4 w-4 flex-shrink-0" />
           </Link>
         ) : (
