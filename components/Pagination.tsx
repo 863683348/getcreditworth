@@ -19,7 +19,7 @@
    const from = total === 0 ? 0 : (current - 1) * pageSize + 1;
    const to = Math.min(current * pageSize, total);
  
-   if (total <= 100) return null;
+   if (total <= pageSize) return null;
  
    return (
      <div className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-4 border-t border-border">
