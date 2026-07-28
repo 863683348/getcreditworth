@@ -11,6 +11,7 @@ const ICON_MAP = {
   Trophy,
   BookOpen,
   ListChecks,
+  FolderOpen,
   Calculator,
   FileText,
   Bookmark,
