@@ -71,11 +71,11 @@ export function findBookSeries(bookTitle: string): BookSeriesInfo | undefined {
       const titleMap = buildTitleMap();
       const prevAsin =
         idx > 0
-          ? titleMap.get(series.books[idx - 1].toLowerCase().trim())?.asin || null
+          ? titleMap.get((series.books[idx - 1] ?? "").toLowerCase().trim())?.asin || null
           : null;
       const nextAsin =
           idx < series.books.length - 1
-            ? titleMap.get(series.books[idx + 1].toLowerCase().trim())?.asin || null
+            ? titleMap.get((series.books[idx + 1] ?? "").toLowerCase().trim())?.asin || null
             : null;
 
       return { series, index: idx, prevAsin, nextAsin };
