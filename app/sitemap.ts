@@ -4,7 +4,6 @@ import { getPostSlugs } from "@/lib/api/controllers/blog.controller";
 import { getAllSeries } from "@/lib/data/series";
 import { SITE_CONFIG } from "@/lib/config";
 
-import { SITE_CONFIG } from "@/lib/config";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = SITE_CONFIG.url;
@@ -25,7 +24,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   var allBooks = getAllBooks();
   var bookPages: MetadataRoute.Sitemap = allBooks.map(function(book) {
     // Higher priority for high-value books and series books
-    var priority: 0.5 | 0.6 | 0.7 | 0.8 | 0.9 = 0.8;
+    var priority = 0.8;
     if (book.starRating >= 4.5 && book.reviewCount > 1000 && book.runtimeHours >= 20) {
       priority = 0.9;
     } else if (book.valueScore < 2 || book.runtimeHours < 3) {
