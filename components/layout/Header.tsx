@@ -18,10 +18,12 @@ const ICON_MAP = {
   GitCompare,
 } as const;
 
-const NAV_LABELS: Record<string, "topBooks" | "allBooks" | "curatedLists" | "calculator" | "blog" | "favorites" | "compare" | "categories" | "series"> = {
+const NAV_LABELS: Record<string, "topBooks" | "allBooks" | "curatedLists" | "categories" | "series" | "calculator" | "blog" | "favorites" | "compare"> = {
   "/": "topBooks",
   "/books": "allBooks",
   "/curated": "curatedLists",
+  "/category": "categories",
+  "/series": "series",
   "/calculator": "calculator",
   "/blog": "blog",
   "/favorites": "favorites",
