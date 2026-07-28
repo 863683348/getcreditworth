@@ -136,8 +136,8 @@ export default function BookDetailPage({ params }: PageProps) {
               currentTitle={book.title}
               prevAsin={info.prevAsin}
               nextAsin={info.nextAsin}
-              prevTitle={info.prevAsin && info.index > 0 ? info.series.books[info.index - 1] : ""}
-              nextTitle={info.nextAsin && info.index < info.series.books.length - 1 ? info.series.books[info.index + 1] : ""}
+              prevTitle={info.prevAsin && info.index > 0 ? info.series.books[info.index - 1] ?? "" : ""}
+              nextTitle={info.nextAsin && info.index < info.series.books.length - 1 ? info.series.books[info.index + 1] ?? "" : ""}
               totalBooks={info.series.books.length}
               currentIndex={info.index}
             />
