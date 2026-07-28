@@ -8,6 +8,8 @@ export const zh = {
     topBooks: "顶级书籍",
     allBooks: "全部书籍",
     curatedLists: "精选榜单",
+    categories: "分类",
+    series: "系列",
     calculator: "计算器",
     blog: "博客",
     favorites: "收藏",
@@ -173,5 +175,3 @@ export const zh = {
     a4: "如果您每个月至少听一本有声书，那么Audible会员是值得的。每个积分价值14.95美元。",
   },
 };
-
-export type TranslationKeys = typeof zh;
