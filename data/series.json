@@ -1,0 +1,169 @@
+[
+  {
+    "slug": "wheel-of-time",
+    "name": "The Wheel of Time",
+    "author": "Robert Jordan",
+    "description": "The Wheel of Time is an epic fantasy series that follows Rand al'Thor's journey from a simple shepherd to the Dragon Reborn. With 14 books averaging 30-40 hours each, this is the longest completed fantasy series and phenomenal credit value.",
+    "books": [
+      "The Eye of the World",
+      "The Great Hunt",
+      "The Dragon Reborn",
+      "The Shadow Rising",
+      "The Fires of Heaven",
+      "Lord of Chaos",
+      "A Crown of Swords",
+      "The Path of Daggers",
+      "Winter's Heart",
+      "Crossroads of Twilight",
+      "Knife of Dreams",
+      "The Gathering Storm",
+      "Towers of Midnight",
+      "A Memory of Light"
+    ],
+    "totalHours": 480
+  },
+  {
+    "slug": "stormlight-archive",
+    "name": "The Stormlight Archive",
+    "author": "Brandon Sanderson",
+    "description": "Brandon Sanderson's epic fantasy series set on the storm-ravaged world of Roshar. Each book exceeds 45 hours with outstanding narration by Kate Reading and Michael Kramer.",
+    "books": [
+      "The Way of Kings",
+      "Words of Radiance",
+      "Oathbringer",
+      "Rhythm of War",
+      "Wind and Truth"
+    ],
+    "totalHours": 230
+  },
+  {
+    "slug": "mistborn",
+    "name": "Mistborn",
+    "author": "Brandon Sanderson",
+    "description": "Brandon Sanderson's innovative fantasy series featuring allomancy, a unique magic system where select people can burn metals for supernatural abilities.",
+    "books": [
+      "The Final Empire",
+      "The Well of Ascension",
+      "The Hero of Ages",
+      "The Alloy of Law",
+      "Shadows of Self",
+      "The Bands of Mourning",
+      "The Lost Metal"
+    ],
+    "totalHours": 170
+  },
+  {
+    "slug": "the-expanse",
+    "name": "The Expanse",
+    "author": "James S.A. Corey",
+    "description": "A critically acclaimed science fiction series spanning humanity's colonization of the solar system and beyond. Jefferson Mays' narration is widely considered among the best in audiobook history.",
+    "books": [
+      "Leviathan Wakes",
+      "Caliban's War",
+      "Abaddon's Gate",
+      "Cibola Burn",
+      "Nemesis Games",
+      "Babylon's Ashes",
+      "Persepolis Rising",
+      "Tiamat's Wrath",
+      "Leviathan Falls"
+    ],
+    "totalHours": 200
+  },
+  {
+    "slug": "a-song-of-ice-and-fire",
+    "name": "A Song of Ice and Fire",
+    "author": "George R.R. Martin",
+    "description": "The epic fantasy series that inspired Game of Thrones. Political intrigue, dragons, and unforgettable characters in the war-torn land of Westeros.",
+    "books": [
+      "A Game of Thrones",
+      "A Clash of Kings",
+      "A Storm of Swords",
+      "A Feast for Crows",
+      "A Dance with Dragons"
+    ],
+    "totalHours": 200
+  },
+  {
+    "slug": "dune",
+    "name": "Dune Chronicles",
+    "author": "Frank Herbert",
+    "description": "Frank Herbert's landmark science fiction series set in the distant future amidst a feudal interstellar society, centered on the desert planet Arrakis and the spice melange.",
+    "books": [
+      "Dune",
+      "Dune Messiah",
+      "Children of Dune",
+      "God Emperor of Dune",
+      "Heretics of Dune",
+      "Chapterhouse Dune"
+    ],
+    "totalHours": 130
+  },
+  {
+    "slug": "harry-potter",
+    "name": "Harry Potter",
+    "author": "J.K. Rowling",
+    "description": "The world's most beloved fantasy series follows a young wizard's journey through Hogwarts School of Witchcraft and Wizardry. Stephen Fry's narration is legendary.",
+    "books": [
+      "Harry Potter and the Sorcerer's Stone",
+      "Harry Potter and the Chamber of Secrets",
+      "Harry Potter and the Prisoner of Azkaban",
+      "Harry Potter and the Goblet of Fire",
+      "Harry Potter and the Order of the Phoenix",
+      "Harry Potter and the Half-Blood Prince",
+      "Harry Potter and the Deathly Hallows"
+    ],
+    "totalHours": 120
+  },
+  {
+    "slug": "farseer-trilogy",
+    "name": "Farseer Trilogy",
+    "author": "Robin Hobb",
+    "description": "Robin Hobb's beloved epic fantasy following FitzChivalry Farseer, a royal bastard trained as an assassin in a world of political intrigue and ancient magic.",
+    "books": [
+      "Assassin's Apprentice",
+      "Royal Assassin",
+      "Assassin's Quest"
+    ],
+    "totalHours": 70
+  },
+  {
+    "slug": "murderbot-diaries",
+    "name": "Murderbot Diaries",
+    "author": "Martha Wells",
+    "description": "A Hugo and Nebula award-winning series about a security android that hacks its own governor module and just wants to be left alone to watch soap operas.",
+    "books": [
+      "All Systems Red",
+      "Artificial Condition",
+      "Rogue Protocol",
+      "Exit Strategy",
+      "Network Effect",
+      "Fugitive Telemetry",
+      "System Collapse"
+    ],
+    "totalHours": 45
+  },
+  {
+    "slug": "kingkiller-chronicle",
+    "name": "The Kingkiller Chronicle",
+    "author": "Patrick Rothfuss",
+    "description": "Patrick Rothfuss's beautifully written fantasy series following the legendary Kvothe, from his childhood in a troupe of traveling players to his years at a university of magic.",
+    "books": [
+      "The Name of the Wind",
+      "The Wise Man's Fear"
+    ],
+    "totalHours": 70
+  },
+  {
+    "slug": "the-lord-of-the-rings",
+    "name": "The Lord of the Rings",
+    "author": "J.R.R. Tolkien",
+    "description": "J.R.R. Tolkien's masterwork and the foundation of modern fantasy. An epic journey across Middle-earth to destroy the One Ring.",
+    "books": [
+      "The Fellowship of the Ring",
+      "The Two Towers",
+      "The Return of the King"
+    ],
+    "totalHours": 55
+  }
+]

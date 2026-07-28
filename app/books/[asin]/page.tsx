@@ -9,6 +9,8 @@ import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import { formatPrice } from "@/lib/utils/format";
 import { AUDIBLE_CREDIT_VALUE } from "@/lib/config";
 import { getBooksByCategoryList } from "@/lib/api/controllers/book.controller";
+import { findBookSeries } from "@/lib/data/series";
+import { SeriesNav } from "@/components/SeriesNav";
 import { getAllBooks } from "@/lib/data/books";
 import type { Metadata } from "next";
 
@@ -123,6 +125,25 @@ export default function BookDetailPage({ params }: PageProps) {
   return (
     <>
       <BookDetailContent book={book} relatedBooks={relatedBooks} />
+      {function () {
+        var info = findBookSeries(book.title);
+        if (!info) return null;
+        return (
+          <div className="container-content">
+            <SeriesNav
+              seriesName={info.series.name}
+              seriesSlug={info.series.slug}
+              currentTitle={book.title}
+              prevAsin={info.prevAsin}
+              nextAsin={info.nextAsin}
+              prevTitle={info.prevAsin && info.index > 0 ? info.series.books[info.index - 1] : ""}
+              nextTitle={info.nextAsin && info.index < info.series.books.length - 1 ? info.series.books[info.index + 1] : ""}
+              totalBooks={info.series.books.length}
+              currentIndex={info.index}
+            />
+          </div>
+        );
+      }()}
       <BookJsonLd book={book} />
       <BreadcrumbListJsonLd
         items={[

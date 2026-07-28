@@ -19,6 +19,8 @@ export const NAV_ITEMS = [
   { label: 'Top Books', href: '/', icon: 'Trophy' as const },
   { label: 'All Books', href: '/books', icon: 'BookOpen' as const },
   { label: 'Curated Lists', href: '/curated', icon: 'ListChecks' as const },
+  { label: 'Categories', href: '/category', icon: 'FolderOpen' as const },
+  { label: 'Series', href: '/series', icon: 'BookOpen' as const },
   { label: 'Calculator', href: '/calculator', icon: 'Calculator' as const },
   { label: 'Blog', href: '/blog', icon: 'FileText' as const },
   { label: 'Favorites', href: '/favorites', icon: 'Bookmark' as const },

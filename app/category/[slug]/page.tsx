@@ -1,121 +1,134 @@
 import { notFound } from "next/navigation";
-import { getBooksByCategoryList, getCategories } from "@/lib/api/controllers/book.controller";
-import { BookExplorer } from "@/components/BookExplorer";
-import { Breadcrumb } from "@/components/Breadcrumb";
+import { getAllCategories, filterBooks } from "@/lib/data/books";
+import { getAllBooks } from "@/lib/data/books";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
-import { ItemListJsonLd, BreadcrumbListJsonLd } from "@/components/seo/JsonLd";
-import { getCategoryDescription } from "@/data/category-descriptions";
+import { ValueScoreBadge } from "@/components/ValueScoreBadge";
+import { formatDuration, formatPrice, formatRating } from "@/lib/utils/format";
 import type { Metadata } from "next";
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
 
-const CATEGORY_NAMES: Record<string, string> = {
-  fantasy: "Fantasy",
-  "science-fiction": "Science Fiction",
-  "historical-fiction": "Historical Fiction",
-  mystery: "Mystery",
-  thriller: "Thriller",
-  biography: "Biography",
-  business: "Business",
-  "self-help": "Self-Help",
-  psychology: "Psychology",
-  "young-adult": "Young Adult",
-  horror: "Horror",
-  romance: "Romance",
-};
-
-function slugToName(slug: string): string {
-  if (CATEGORY_NAMES[slug]) return CATEGORY_NAMES[slug];
-  return slug.split("-").map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
-}
+export const revalidate = 86400;
 
 interface PageProps {
   params: { slug: string };
 }
 
+function slugToCategory(slug: string): string | null {
+  const all = getAllCategories();
+  for (const cat of all) {
+    const candidate = cat.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
+    if (candidate === slug) return cat;
+  }
+  return null;
+}
+
 export function generateStaticParams() {
-  return getCategories().map((name) => ({
-    slug: name.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, ""),
-  }));
+  return getAllCategories()
+    .filter(function (c) { return c.length > 0; })
+    .map((c) => ({
+      slug: c.toLowerCase().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, ""),
+    }));
 }
 
 export function generateMetadata({ params }: PageProps): Metadata {
-  const name = slugToName(params.slug);
-  const books = getBooksByCategoryList(name);
-  if (books.length === 0) return { title: "Category Not Found" };
+  const categoryName = slugToCategory(params.slug);
+  if (!categoryName) return { title: "Category Not Found" };
+
+  const title = "Best " + categoryName + " Audiobooks for Audible Credits";
+  const description =
+    "Find the best " +
+    categoryName.toLowerCase() +
+    " audiobooks ranked by Value Score. Compare prices, ratings, and listening hours to maximize your Audible credits.";
 
   return {
-    title: name + " Audiobooks - Best Books for Your Audible Credits",
-    description: "Browse " + books.length + " " + name + " audiobooks ranked by Value Score. Find the best " + name.toLowerCase() + " books to spend your Audible credits on.",
-    keywords: [
-      "best " + name.toLowerCase() + " audiobooks",
-      name.toLowerCase() + " audible books worth credits",
-      "top " + name.toLowerCase() + " audiobooks audible",
-      name.toLowerCase() + " audiobooks credit value",
-    ],
+    title,
+    description,
     alternates: { canonical: buildCanonicalUrl("/category/" + params.slug) },
-    openGraph: {
-      title: name + " Audiobooks - Best Books for Your Credits",
-      description: "Browse " + books.length + " " + name + " audiobooks ranked by Value Score.",
-    },
+    openGraph: { title, description },
   };
 }
 
-export default function CategoryPage({ params }: PageProps) {
-  const name = slugToName(params.slug);
-  const books = getBooksByCategoryList(name);
-  if (books.length === 0) notFound();
+export default function CategoryDetailPage({ params }: PageProps) {
+  const categoryName = slugToCategory(params.slug);
+  if (!categoryName) notFound();
 
-  const catDesc = getCategoryDescription(params.slug);
-  const avgScore = (books.reduce((s, b) => s + b.valueScore, 0) / books.length).toFixed(1);
-  const avgRating = (books.reduce((s, b) => s + b.starRating, 0) / books.length).toFixed(1);
-  const avgHours = (books.reduce((s, b) => s + b.runtimeHours, 0) / books.length).toFixed(1);
+  const allBooks = getAllBooks();
+  const filtered = allBooks
+    .filter(function (b) {
+      return b.categories.some(function (c) {
+        return c.toLowerCase() === categoryName.toLowerCase();
+      });
+    })
+    .sort(function (a, b) { return b.valueScore - a.valueScore; });
 
   return (
     <div className="container-content py-6 md:py-8">
-      <Breadcrumb
-        items={[
-          { label: "All Books", href: "/books" },
-          { label: name },
-        ]}
-      />
+      <Link
+        href="/category"
+        className="inline-flex items-center gap-1 text-sm text-text-secondary hover:text-primary mb-4"
+      >
+        <ArrowLeft className="h-4 w-4" /> All Categories
+      </Link>
+
       <h1 className="text-2xl md:text-3xl font-bold text-text-primary mb-2">
-        Best {name} Audiobooks for Your Audible Credits
+        Best {categoryName} Audiobooks
       </h1>
-      <p className="text-text-secondary mb-6">
-        Browse {books.length} {name.toLowerCase()} audiobooks ranked by Value Score.
-        {catDesc && ` Average: ${avgRating}★ rating, ${avgHours}h runtime, Value Score ${avgScore}.`}
+      <p className="text-sm text-text-secondary mb-6">
+        {filtered.length} audiobooks in {categoryName} ranked by Value Score.
       </p>
 
-      {catDesc && (
-        <div className="mb-8 p-5 rounded-lg bg-bg-surface border border-border">
-          <h2 className="text-lg font-semibold text-text-primary mb-3">{catDesc.heading}</h2>
-          {catDesc.paragraphs.map((p, i) => (
-            <p key={i} className="text-sm text-text-secondary mb-3 leading-relaxed">{p}</p>
-          ))}
-          {catDesc.tips && catDesc.tips.length > 0 && (
-            <div className="mt-4 p-4 rounded-md bg-primary-50 border border-primary-200">
-              <p className="text-xs font-semibold text-primary mb-2 uppercase tracking-wide">Pro Tips</p>
-              <ul className="space-y-1.5">
-                {catDesc.tips.map((tip, i) => (
-                  <li key={i} className="text-sm text-text-primary flex items-start gap-2">
-                    <span className="text-primary mt-0.5">•</span>
-                    <span>{tip}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
-        </div>
-      )}
-
-      <BookExplorer books={books} showRank={true} />
-      <ItemListJsonLd books={books} name={name + " Audiobooks"} />
-      <BreadcrumbListJsonLd
-        items={[
-          { name: "Home", url: "/" },
-          { name: "All Books", url: "/books" },
-          { name: name, url: "/category/" + params.slug },
-        ]}
-      />
+      <div className="overflow-x-auto">
+        <table className="w-full border-collapse text-sm">
+          <thead>
+            <tr className="bg-bg-surface border-b border-border">
+              <th className="p-3 text-left font-semibold text-text-secondary">Rank</th>
+              <th className="p-3 text-left font-semibold text-text-secondary">Title</th>
+              <th className="p-3 text-left font-semibold text-text-secondary hidden sm:table-cell">Author</th>
+              <th className="p-3 text-left font-semibold text-text-secondary hidden sm:table-cell">Duration</th>
+              <th className="p-3 text-left font-semibold text-text-secondary hidden md:table-cell">Price</th>
+              <th className="p-3 text-left font-semibold text-text-secondary">Score</th>
+              <th className="p-3 text-left font-semibold text-text-secondary">Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            {filtered.slice(0, 100).map(function (book, idx) {
+              return (
+                <tr key={book.asin} className="border-b border-border hover:bg-bg-surface/50">
+                  <td className="p-3 text-text-muted font-mono">{idx + 1}</td>
+                  <td className="p-3">
+                    <Link
+                      href={"/books/" + book.asin}
+                      className="font-medium text-text-primary hover:text-primary"
+                    >
+                      {book.title}
+                    </Link>
+                  </td>
+                  <td className="p-3 text-text-secondary hidden sm:table-cell">{book.author}</td>
+                  <td className="p-3 text-text-secondary hidden sm:table-cell">
+                    {formatDuration(book.runtimeMinutes)}
+                  </td>
+                  <td className="p-3 text-text-secondary hidden md:table-cell">
+                    {formatPrice(book.price)}
+                  </td>
+                  <td className="p-3">
+                    <ValueScoreBadge score={book.valueScore} size="sm" />
+                  </td>
+                  <td className="p-3">
+                    <a
+                      href={"/api/redirect/" + book.asin}
+                      rel="nofollow sponsored"
+                      className="inline-block px-3 py-1 bg-primary text-white text-xs rounded-md hover:bg-primary-dark transition-colors"
+                    >
+                      Buy
+                    </a>
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
