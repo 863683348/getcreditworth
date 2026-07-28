@@ -8,6 +8,8 @@ export const en = {
     topBooks: 'Top Books',
     allBooks: 'All Books',
     curatedLists: 'Curated Lists',
+    categories: 'Categories',
+    series: 'Series',
     calculator: 'Calculator',
     blog: 'Blog',
     favorites: 'Favorites',
