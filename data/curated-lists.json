@@ -2,14 +2,22 @@
   {
     "slug": "best-epic-fantasy-for-credits",
     "title": "Best Epic Fantasy to Spend Credits On",
-    "description": "Long immersive fantasy series that maximize your credit value. These epic novels give you the best cost-per-hour ratio.",
+    "description": "Long immersive fantasy series that maximize your credit value. From Sanderson to Tolkien, these are the best epic fantasy audiobooks to spend your credits on.",
     "category": "Fantasy",
     "bookAsins": [
       "B002UZML5K",
       "B0G5T58YV5",
       "B09JT4PH62",
       "B0036NAYIQ",
-      "B00HWF0MHW"
+      "B00HWF0MHW",
+      "B002V0QCYU",
+      "B002UP1LXS",
+      "B002V1OIM2",
+      "B002UZKL7A",
+      "0008433844",
+      "B002UZMLXM",
+      "0008487278",
+      "B002UZZ93G"
     ],
     "updatedAt": "2026-07-27"
   },
@@ -22,7 +30,17 @@
       "1250767547",
       "B005UR3VFO",
       "B002UUKWCY",
-      "B002V1OF70"
+      "B002V1OF70",
+      "B082BHJMFF",
+      "B08G9PRS1K",
+      "B071Y9TTHC",
+      "B0CTRZ4XGN",
+      "B002V5D34W",
+      "B003D8W5VS",
+      "B0F6FKS98Z",
+      "B07DHS7PP5",
+      "B002VA9SWS",
+      "B002V5BE1Q"
     ],
     "updatedAt": "2026-07-27"
   },
@@ -164,5 +182,55 @@
       "B00V95QQXA"
     ],
     "updatedAt": "2026-07-27"
+  },
+  {
+    "slug": "best-romance-audiobooks",
+    "title": "Best Romance Audiobooks for Your Credits",
+    "description": "Steamy, heartwarming, and unforgettable romance audiobooks ranked by credit value. From Colleen Hoover to Emily Henry, find your next love story.",
+    "category": "Romance",
+    "bookAsins": [
+      "B01FYBTGAE",
+      "B07D3B4CSY",
+      "0593346807",
+      "B01GGKQVFU",
+      "B07Q769RZS",
+      "0593457579",
+      "B002V1CJ8W",
+      "B09VQ572P3",
+      "0593214218",
+      "1473565952",
+      "B0BVD25SYT",
+      "B0GL6G4SL4",
+      "B002VAA6ZQ",
+      "1984843338",
+      "B004MNLNX4",
+      "B00ANPX7IE",
+      "B07HMJSJG5",
+      "B09HVWKLNL"
+    ],
+    "updatedAt": "2026-07-29"
+  },
+  {
+    "slug": "best-young-adult-audiobooks",
+    "title": "Best Young Adult Audiobooks Worth Credits",
+    "description": "Top YA audiobooks ranked by credit value. Dystopian adventures, fantasy epics, and coming-of-age stories that deliver hours of listening per credit.",
+    "category": "Young Adult",
+    "bookAsins": [
+      "B0D6P455PH",
+      "B002V0JZOO",
+      "B002V00YSK",
+      "B01NAGD7TV",
+      "B007VEWUWY",
+      "B07DHS7PP5",
+      "B004XMPFLK",
+      "B002V8OCCQ",
+      "B002UUQUB6",
+      "B002V1NG16",
+      "B00A8K96MK",
+      "B002VAA6ZQ",
+      "B075H2X5CQ",
+      "0593209451"
+    ],
+    "updatedAt": "2026-07-29"
   }
 ]
