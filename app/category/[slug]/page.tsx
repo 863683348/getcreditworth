@@ -2,11 +2,10 @@ import { notFound } from "next/navigation";
 import { getAllCategories, filterBooks } from "@/lib/data/books";
 import { getAllBooks } from "@/lib/data/books";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
-import { ValueScoreBadge } from "@/components/ValueScoreBadge";
-import { formatDuration, formatPrice, formatRating } from "@/lib/utils/format";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { PaginatedBookTable } from "@/components/PaginatedBookTable";
 
 export const revalidate = 86400;
 
@@ -78,57 +77,9 @@ export default function CategoryDetailPage({ params }: PageProps) {
         {filtered.length} audiobooks in {categoryName} ranked by Value Score.
       </p>
 
-      <div className="overflow-x-auto">
-        <table className="w-full border-collapse text-sm">
-          <thead>
-            <tr className="bg-bg-surface border-b border-border">
-              <th className="p-3 text-left font-semibold text-text-secondary">Rank</th>
-              <th className="p-3 text-left font-semibold text-text-secondary">Title</th>
-              <th className="p-3 text-left font-semibold text-text-secondary hidden sm:table-cell">Author</th>
-              <th className="p-3 text-left font-semibold text-text-secondary hidden sm:table-cell">Duration</th>
-              <th className="p-3 text-left font-semibold text-text-secondary hidden md:table-cell">Price</th>
-              <th className="p-3 text-left font-semibold text-text-secondary">Score</th>
-              <th className="p-3 text-left font-semibold text-text-secondary">Action</th>
-            </tr>
-          </thead>
-          <tbody>
-            {filtered.slice(0, 100).map(function (book, idx) {
-              return (
-                <tr key={book.asin} className="border-b border-border hover:bg-bg-surface/50">
-                  <td className="p-3 text-text-muted font-mono">{idx + 1}</td>
-                  <td className="p-3">
-                    <Link
-                      href={"/books/" + book.asin}
-                      className="font-medium text-text-primary hover:text-primary"
-                    >
-                      {book.title}
-                    </Link>
-                  </td>
-                  <td className="p-3 text-text-secondary hidden sm:table-cell">{book.author}</td>
-                  <td className="p-3 text-text-secondary hidden sm:table-cell">
-                    {formatDuration(book.runtimeMinutes)}
-                  </td>
-                  <td className="p-3 text-text-secondary hidden md:table-cell">
-                    {formatPrice(book.price)}
-                  </td>
-                  <td className="p-3">
-                    <ValueScoreBadge score={book.valueScore} size="sm" />
-                  </td>
-                  <td className="p-3">
-                    <a
-                      href={"/api/redirect/" + book.asin}
-                      rel="nofollow sponsored"
-                      className="inline-block px-3 py-1 bg-primary text-white text-xs rounded-md hover:bg-primary-dark transition-colors"
-                    >
-                      Buy
-                    </a>
-                  </td>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-      </div>
+      <div className="mb-8">
+  <PaginatedBookTable books={filtered} showAuthor={true} showDuration={true} showPrice={true} />
+</div></div>
     </div>
   );
 }
