@@ -100,7 +100,7 @@ export function PaginatedBookTable({
                       rel="nofollow sponsored"
                       className="inline-block px-3 py-1 bg-primary text-white text-xs rounded-md hover:bg-primary-dark transition-colors"
                     >
-                      Buy
+                      {t.table.buy}
                     </a>
                   </td>
                 </tr>
