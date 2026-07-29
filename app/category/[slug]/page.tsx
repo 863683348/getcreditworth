@@ -78,8 +78,8 @@ export default function CategoryDetailPage({ params }: PageProps) {
       </p>
 
       <div className="mb-8">
-  <PaginatedBookTable books={filtered} showAuthor={true} showDuration={true} showPrice={true} />
-</div></div>
+        <PaginatedBookTable books={filtered} showAuthor={true} showDuration={true} showPrice={true} />
+      </div>
     </div>
   );
 }

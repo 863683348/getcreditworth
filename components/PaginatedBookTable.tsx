@@ -134,7 +134,7 @@ export function PaginatedBookTable({
           </button>
 
           {Array.from({ length: Math.min(totalPages, 5) }, function (_, i) {
-            var p;
+            var p: number;
             if (totalPages <= 5) p = i + 1;
             else if (page <= 3) p = i + 1;
             else if (page >= totalPages - 2) p = totalPages - 4 + i;
