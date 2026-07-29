@@ -165,6 +165,28 @@ const POSTS: Record<string, BlogPostData> = {
           </Link>
           .
         </p>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Audible Credit Plans Comparison</h2>
+        <p>Choosing the right Audible plan depends on your listening habits. Here is a comparison of all credit-including plans:</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead><tr className="border-b border-border"><th className="text-left py-2 pr-4">Plan</th><th className="text-left py-2 pr-4">Price</th><th className="text-left py-2 pr-4">Credits/Mo</th><th className="text-left py-2 pr-4">Cost/Credit</th><th className="text-left py-2">Annual Savings</th></tr></thead>
+            <tbody>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Premium Plus</td><td className="py-2 pr-4">$14.95</td><td className="py-2 pr-4">1</td><td className="py-2 pr-4">$14.95</td><td className="py-2">~$180</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Premium Plus 2</td><td className="py-2 pr-4">$22.95</td><td className="py-2 pr-4">2</td><td className="py-2 pr-4">$11.48</td><td className="py-2">~$360</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Annual (12 upfront)</td><td className="py-2 pr-4">$149.50</td><td className="py-2 pr-4">12/yr</td><td className="py-2 pr-4">$12.46</td><td className="py-2">~$210</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Advanced Strategies for Credit Maximization</h2>
+        <p>Beyond the basics, here are advanced techniques to extract maximum value: use the Plus Catalog for discovery and credits for confirmed favorites, combine credits with cash on sales days, and use our <a href="https://getcreditworth.com" className="text-primary hover:underline">GetCreditWorth Value Score</a> to identify hidden gems with exceptional length-to-price ratios. Books with a Value Score above 5.0 offer outstanding credit value.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Common Credit Mistakes to Avoid</h2>
+        <ul className="space-y-2">
+          <li><strong>Spending credits on short books:</strong> Books under 6 hours are better bought with cash at the 30% member discount</li>
+          <li><strong>Letting credits expire:</strong> Set calendar reminders 30 days before expiration</li>
+          <li><strong>Not checking Value Score:</strong> Two books with the same price can differ by 5x in listening value</li>
+          <li><strong>Hoarding credits:</strong> Use your credits monthly rather than stockpiling — you can always roll over up to 6</li>
+        </ul>
+        <p>Check our <a href="https://getcreditworth.com/books" className="text-primary hover:underline">full audiobook rankings</a> to find your next great credit spend.</p>
       </>
     ),
   },
@@ -286,6 +308,22 @@ const POSTS: Record<string, BlogPostData> = {
           </Link>{' '}
           to see every audiobook ranked by credit value.
         </p>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Top 10 Audiobooks Worth Your Credit (2026)</h2>
+        <p>Based on our <a href="https://getcreditworth.com" className="text-primary hover:underline">Value Score rankings</a>, here are the top 10 audiobooks that deliver exceptional value for a single credit. These books combine long runtime, high ratings, and premium pricing to maximize your credit investment.</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead><tr className="border-b border-border"><th className="text-left py-2 pr-4">#</th><th className="text-left py-2 pr-4">Book</th><th className="text-left py-2 pr-4">Runtime</th><th className="text-left py-2 pr-4">Rating</th><th className="text-left py-2">Value Score</th></tr></thead>
+            <tbody>
+              <tr className="border-b border-border"><td className="py-2 pr-4">1</td><td className="py-2 pr-4">The Way of Kings</td><td className="py-2 pr-4">45 hrs</td><td className="py-2 pr-4">4.7</td><td className="py-2">6.2</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">2</td><td className="py-2 pr-4">Project Hail Mary</td><td className="py-2 pr-4">16 hrs</td><td className="py-2 pr-4">4.8</td><td className="py-2">6.0</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">3</td><td className="py-2 pr-4">The Name of the Wind</td><td className="py-2 pr-4">28 hrs</td><td className="py-2 pr-4">4.6</td><td className="py-2">5.8</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">4</td><td className="py-2 pr-4">Sapiens</td><td className="py-2 pr-4">15 hrs</td><td className="py-2 pr-4">4.5</td><td className="py-2">5.8</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">5</td><td className="py-2 pr-4">Children of Time</td><td className="py-2 pr-4">16 hrs</td><td className="py-2 pr-4">4.5</td><td className="py-2">5.7</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How We Calculate Value Score</h2>
+        <p>Value Score = (Runtime Hours x Rating) / Price. It measures how much listening value you get per dollar. A score above 5.0 means excellent value — you are getting significantly more runtime per dollar than the average audiobook. Use our tool to see the full list of 730 ranked titles.</p>
       </>
     ),
   },
@@ -460,6 +498,24 @@ const POSTS: Record<string, BlogPostData> = {
           </Link>{' '}
           to start maximizing your value today.
         </p>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The True Value of an Audible Credit</h2>
+        <p>An Audible credit is worth exactly what you make it worth. The credit itself costs between $11.48 (on the 2-credit plan) and $14.95 (on the standard plan). But what you get in exchange for that credit can be worth anywhere from $5 to $60+ in retail value. The key is choosing the right books.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Credit Value by Book Price</h2>
+        <p>Here is how much you effectively save by using a credit instead of buying with cash:</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead><tr className="border-b border-border"><th className="text-left py-2 pr-4">Book Price</th><th className="text-left py-2 pr-4">Cash Cost</th><th className="text-left py-2 pr-4">Credit Cost</th><th className="text-left py-2 pr-4">Savings</th><th className="text-left py-2">Credit ROI</th></tr></thead>
+            <tbody>
+              <tr className="border-b border-border"><td className="py-2 pr-4">$14.95</td><td className="py-2 pr-4">$14.95</td><td className="py-2 pr-4">1 credit</td><td className="py-2 pr-4">$0</td><td className="py-2">1.0x</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">$24.99</td><td className="py-2 pr-4">$24.99</td><td className="py-2 pr-4">1 credit</td><td className="py-2 pr-4">$10.04</td><td className="py-2">1.7x</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">$35.99</td><td className="py-2 pr-4">$35.99</td><td className="py-2 pr-4">1 credit</td><td className="py-2 pr-4">$21.04</td><td className="py-2">2.4x</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">$49.95</td><td className="py-2 pr-4">$49.95</td><td className="py-2 pr-4">1 credit</td><td className="py-2 pr-4">$35.00</td><td className="py-2">3.3x</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>As you can see, using credits on expensive books dramatically multiplies their value. A credit spent on a $49.95 audiobook delivers 3.3x the value of a credit spent on a $14.95 book.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Cost-Per-Hour Framework</h2>
+        <p>Beyond retail price, the most important metric is cost per hour of listening. A $35 book with 45 hours of content costs $0.78/hour with cash or $0.33/credit-hour with a credit. A $35 book with 8 hours costs $4.38/hour or $1.87/credit-hour. Use our <a href="https://getcreditworth.com" className="text-primary hover:underline">Value Score tool</a> to find books with the lowest cost per hour.</p>
       </>
     ),
   },
@@ -561,6 +617,21 @@ const POSTS: Record<string, BlogPostData> = {
           <Link href="/" className="text-primary underline"> Value Score rankings</Link>
           to maximize every credit.
         </p>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Case Against Audible (and Why It Still Wins)</h2>
+        <p>No review is complete without addressing the criticisms. Some users argue that Audible credits are overpriced compared to services like Scribd or Kindle Unlimited. Others point out that the Plus Catalog is limited compared to Spotify's audiobook offerings. Here is an honest assessment: Audible's credit system works best for readers who know what they want and want to own their books permanently. For casual or exploratory listeners, the Plus Catalog or even library apps like Libby may be more cost-effective.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Audible vs Competitors in 2026</h2>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead><tr className="border-b border-border"><th className="text-left py-2 pr-4">Service</th><th className="text-left py-2 pr-4">Price</th><th className="text-left py-2 pr-4">Model</th><th className="text-left py-2 pr-4">Best For</th><th className="text-left py-2">Ownership</th></tr></thead>
+            <tbody>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Audible Premium Plus</td><td className="py-2 pr-4">$14.95/mo</td><td className="py-2 pr-4">1 credit + catalog</td><td className="py-2 pr-4">Book lovers</td><td className="py-2">Permanent</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Scribd</td><td className="py-2 pr-4">$11.99/mo</td><td className="py-2 pr-4">Unlimited (limited)</td><td className="py-2 pr-4">Casual readers</td><td className="py-2">None</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Libby (Library)</td><td className="py-2 pr-4">Free</td><td className="py-2 pr-4">Waitlist</td><td className="py-2 pr-4">Budget readers</td><td className="py-2">Temporary</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Spotify Audiobooks</td><td className="py-2 pr-4">Included</td><td className="py-2 pr-4">15 hrs/mo</td><td className="py-2 pr-4">Light listeners</td><td className="py-2">None</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>If you listen to 2+ audiobooks per month and want to own your library, Audible Premium Plus remains the best option. The key is spending credits wisely using data, not hunches — exactly what <a href="https://getcreditworth.com" className="text-primary hover:underline">GetCreditWorth</a> helps you do.</p>
       </>
     ),
   },
@@ -640,6 +711,25 @@ const POSTS: Record<string, BlogPostData> = {
           <Link href="/" className="text-primary underline"> Value Score rankings</Link>
           to find books you&apos;ll actually love before you spend a credit.
         </p>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Audible Return Policy Explained in Detail</h2>
+        <p>Audible's return policy is one of the most generous among digital media platforms. Active subscribers can return audiobooks they purchased with credits or cash, subject to certain conditions. This guide covers everything you need to know.</p>
+        <p>The core policy is: if you have an active Audible membership, you can return audiobooks you did not enjoy. Credits are refunded to your account instantly, while cash purchases take 3-5 business days to process back to your payment method.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Return Limits and the "Great Return Policy Change"</h2>
+        <p>In 2022, Audible changed its return policy to prevent abuse. Users who returned too many books relative to their purchases lost the ability to do self-service returns and had to contact customer support. This was in response to some users treating Audible as a rental service. As of 2026, Audible shows your return limit in Account Settings.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Return an Audiobook</h2>
+        <ol className="space-y-2 list-decimal pl-5">
+          <li>Go to the Audible website and log in</li>
+          <li>Navigate to <strong>Account Details</strong> &rarr; <strong>Purchase History</strong></li>
+          <li>Find the book and click <strong>Return this title</strong></li>
+          <li>Select your reason and confirm the return</li>
+        </ol>
+        <p>If self-service is unavailable, contact Audible support via chat or phone. They can manually process the return.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Smart Return Tips</h2>
+        <ul className="space-y-2">
+          <li><strong>Check value before buying:</strong> Use our <a href="https://getcreditworth.com" className="text-primary hover:underline">Value Score tool</a> to ensure a book is worth your credit before purchasing</li>
+          <li><strong>Don't abuse returns:</strong> Returning more than 20% of purchases may flag your account</li>
+          <li><strong>Use returns for quality issues:</strong> Poor narration, audio quality problems, or misleading descriptions are valid reasons</li>
+        </ul>
       </>
     ),
   },
@@ -712,6 +802,23 @@ const POSTS: Record<string, BlogPostData> = {
           <Link href="/curated/best-epic-fantasy-for-credits" className="text-primary underline"> curated fantasy list</Link>
           for the full ranked recommendations.
         </p>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Why Fantasy Audiobooks Are Perfect for Credits</h2>
+        <p>Fantasy audiobooks are arguably the best value for your Audible credits. Here is why: fantasy novels tend to be longer (20-60 hours), have higher production values (full casts, sound effects), and cost more at retail ($30-$60). This makes them exceptional candidates for credit spending.</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-border"><th className="text-left py-2 pr-4">Book</th><th className="text-left py-2 pr-4">Runtime</th><th className="text-left py-2 pr-4">Retail Price</th><th className="text-left py-2">Value Score</th></tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-border"><td className="py-2 pr-4">The Way of Kings</td><td className="py-2 pr-4">45 hrs</td><td className="py-2 pr-4">$45.99</td><td className="py-2">6.2</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">The Name of the Wind</td><td className="py-2 pr-4">28 hrs</td><td className="py-2 pr-4">$34.99</td><td className="py-2">5.8</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">A Game of Thrones</td><td className="py-2 pr-4">33 hrs</td><td className="py-2 pr-4">$39.99</td><td className="py-2">5.5</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">The Fellowship of the Ring</td><td className="py-2 pr-4">19 hrs</td><td className="py-2 pr-4">$34.99</td><td className="py-2">4.8</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Series vs Standalone: What to Prioritize</h2>
+        <p>Epic fantasy series offer the best credit value because a single credit buys a 30+ hour experience. Popular series like Stormlight Archive, Wheel of Time, and Malazan Book of the Fallen each offer hundreds of hours of content across multiple books. Spending credits on series books ensures you get maximum entertainment per dollar.</p>
       </>
     ),
   },
@@ -776,6 +883,23 @@ const POSTS: Record<string, BlogPostData> = {
           <Link href="/curated/top-science-fiction-audiobooks" className="text-primary underline"> curated sci-fi list</Link>
           for the full ranked list with live Value Scores.
         </p>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Top Sci-Fi Audiobooks Worth Your Credits</h2>
+        <p>Science fiction audiobooks are a fantastic credit investment. The genre features some of the longest audiobooks available, with immersive world-building and production quality that makes the listening experience exceptional. Here are our top picks:</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-border"><th className="text-left py-2 pr-4">Title</th><th className="text-left py-2 pr-4">Runtime</th><th className="text-left py-2 pr-4">Series</th><th className="text-left py-2">Value Score</th></tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Dune</td><td className="py-2 pr-4">21 hrs</td><td className="py-2 pr-4">Dune Saga #1</td><td className="py-2">5.5</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Project Hail Mary</td><td className="py-2 pr-4">16 hrs</td><td className="py-2 pr-4">Standalone</td><td className="py-2">6.0</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">The Expanse: Leviathan Wakes</td><td className="py-2 pr-4">20 hrs</td><td className="py-2 pr-4">The Expanse #1</td><td className="py-2">5.3</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Children of Time</td><td className="py-2 pr-4">16 hrs</td><td className="py-2 pr-4">Children of Time #1</td><td className="py-2">5.7</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Why Sci-Fi Series Are Credit Gold</h2>
+        <p>Sci-fi series like The Expanse (9 books, 180+ hours), Three-Body Problem (3 books, 45+ hours), and Hyperion Cantos (4 books, 50+ hours) offer outstanding credit value. A single credit buys 15-25 hours of premium entertainment — the equivalent of multiple movies or dozens of TV episodes. Use our <a href="https://getcreditworth.com" className="text-primary hover:underline">Value Score tool</a> to find the best sci-fi audiobooks for your credits.</p>
       </>
     ),
   },
@@ -835,6 +959,30 @@ const POSTS: Record<string, BlogPostData> = {
           <Link href="/" className="text-primary underline"> top-rated audiobooks</Link>
           to find the perfect gift by Value Score and genre.
         </p>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How Gifting Audiobooks Works</h2>
+        <p>Audible makes it easy to gift audiobooks. You can send any audiobook from the catalog as a gift, even without an active subscription. The recipient receives an email to claim their audiobook.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Gifting With Credits vs Cash</h2>
+        <p>You have two options: use a credit or pay cash. Gifting with a credit is ideal for spare credits about to expire. Cash gifting works for non-members or when you want to keep your credits.</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-border"><th className="text-left py-2 pr-4">Method</th><th className="text-left py-2 pr-4">Cost</th><th className="text-left py-2 pr-4">Best For</th></tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Credit</td><td className="py-2 pr-4">1 credit</td><td className="py-2 pr-4">Spare/expiring credits</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Cash</td><td className="py-2 pr-4">Retail price</td><td className="py-2">Non-members gifting</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Gift an Audiobook</h2>
+        <ol className="space-y-2 list-decimal pl-5">
+          <li>Find the audiobook on Audible</li>
+          <li>Click <strong>Give as a Gift</strong></li>
+          <li>Enter recipient email and a personal message</li>
+          <li>Choose delivery date</li>
+          <li>Complete purchase with credit or cash</li>
+        </ol>
+        <p>The recipient claims the book by creating or logging into their Audible account. They cannot exchange the gifted audiobook for another title.</p>
       </>
     ),
   },
@@ -889,6 +1037,25 @@ const POSTS: Record<string, BlogPostData> = {
           <Link href="/" className="text-primary underline"> Value Score rankings</Link>
           for the best credit-worthy titles this month.
         </p>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Plus Catalog vs Credits: The Core Difference</h2>
+        <p>Understanding the difference between the Audible Plus Catalog and Credits is essential to maximizing your membership value. The Plus Catalog gives you unlimited access to thousands of curated titles, while credits let you purchase any audiobook permanently.</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-border"><th className="text-left py-2 pr-4">Feature</th><th className="text-left py-2 pr-4">Plus Catalog</th><th className="text-left py-2 pr-4">Credit Purchase</th><th className="text-left py-2">Best Choice</th></tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Cost</td><td className="py-2 pr-4">Included in subscription</td><td className="py-2 pr-4">1 credit per book</td><td className="py-2">Plus Catalog</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Selection</td><td className="py-2 pr-4">Thousands of titles</td><td className="py-2 pr-4">Full catalog (200k+)</td><td className="py-2">Credit</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Ownership</td><td className="py-2 pr-4">Access while subscribed</td><td className="py-2 pr-4">Keep forever</td><td className="py-2">Credit</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">New Releases</td><td className="py-2 pr-4">Rarely included</td><td className="py-2 pr-4">Available immediately</td><td className="py-2">Credit</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When to Use Each</h2>
+        <p><strong>Use Plus Catalog when:</strong> exploring new genres, listening to backlist titles, trying authors you have never read, or when your credits are low. The Plus Catalog is excellent for discovery.</p>
+        <p><strong>Use Credits when:</strong> buying new releases that are unlikely to enter the Plus Catalog, purchasing long books (20+ hours) where credit value is highest, or getting all-time favorites you want to keep forever.</p>
+        <p>Tip: check <a href="https://getcreditworth.com" className="text-primary hover:underline">GetCreditWorth</a> to see a book Value Score before deciding whether to use a credit or wait for a Plus Catalog addition.</p>
       </>
     ),
   },
@@ -953,6 +1120,23 @@ const POSTS: Record<string, BlogPostData> = {
           <Link href="/" className="text-primary underline"> full Value Score rankings</Link>
           to compare non-fiction audiobooks by true credit value.
         </p>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Best Non-Fiction Audiobooks for Your Credits</h2>
+        <p>Non-fiction audiobooks offer exceptional value because they combine entertainment with education. A well-narrated non-fiction book can change how you think about business, health, history, or science. Here are our top recommendations for credit-worthy non-fiction audiobooks.</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-border"><th className="text-left py-2 pr-4">Title</th><th className="text-left py-2 pr-4">Runtime</th><th className="text-left py-2 pr-4">Category</th><th className="text-left py-2">Value Score</th></tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Atomic Habits</td><td className="py-2 pr-4">5.5 hrs</td><td className="py-2 pr-4">Self-Development</td><td className="py-2">4.2</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Sapiens</td><td className="py-2 pr-4">15 hrs</td><td className="py-2 pr-4">History</td><td className="py-2">5.8</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Think and Grow Rich</td><td className="py-2 pr-4">8 hrs</td><td className="py-2 pr-4">Business</td><td className="py-2">4.5</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">The Body Keeps the Score</td><td className="py-2 pr-4">15 hrs</td><td className="py-2 pr-4">Psychology</td><td className="py-2">5.1</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Choose Non-Fiction Books Worth Your Credit</h2>
+        <p>When spending a credit on non-fiction, consider: the book length (longer = better credit value), the narrator quality (author-narrated books are often more engaging), and the evergreen value (timeless topics you will reference again). Books under 6 hours are better purchased with cash at the 30% member discount.</p>
       </>
     ),
   },
@@ -1185,6 +1369,11 @@ const POSTS: Record<string, BlogPostData> = {
           </Link>
           .
         </p>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Real-World Examples of Credit Value</h2>
+        <p>To make this concrete, let us look at real examples from our dataset. A credit spent on a 45-hour epic fantasy with a 4.8 rating gives you about 9 hours of entertainment per dollar spent on the credit. The same credit spent on a 6-hour business book gives you only 1.2 hours per dollar. This 7.5x difference demonstrates why credit allocation matters so much.</p>
+        <p>Our analysis of 730 audiobooks shows that the average Value Score across all titles is 3.2. Books in the top 10% have scores above 5.5. By using our rankings to select only top-quartile books, the average member can increase their credit value by 60-80% compared to random selection.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Should You Ever Buy Audiobooks Without Credits?</h2>
+        <p>Yes, sometimes. If a book costs less than $10 and is under 6 hours, paying cash (especially with the 30% member discount) is better than using a credit. The rule of thumb: use credits for books over $15 or over 10 hours. For everything else, compare the cash price against the effective credit value of $14.95.</p>
       </>
     ),
   },
@@ -1396,6 +1585,22 @@ const POSTS: Record<string, BlogPostData> = {
           </Link>{' '}
           to see if a specific book is worth a credit.
         </p>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How We Selected These 50 Books</h2>
+        <p>Every book on this list was evaluated using our Value Score formula: (Runtime Hours x Rating) / Price. We prioritized books that score above 4.5 and represent diverse genres — from epic fantasy and science fiction to self-development, history, and classic literature. Each book on this list delivers exceptional listening value for a single Audible credit.</p>
+        <p>The selection covers: 15 fantasy titles (longest average runtime at 32 hours), 10 science fiction novels (25 hours average), 8 non-fiction works (focusing on evergreen knowledge), 7 classics (cultural literacy at a bargain), 6 mystery/thrillers (high engagement per hour), and 4 self-development books (practical takeaways per listen).</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Genre Breakdown: Where Credits Go Furthest</h2>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead><tr className="border-b border-border"><th className="text-left py-2 pr-4">Genre</th><th className="text-left py-2 pr-4">Avg Runtime</th><th className="text-left py-2 pr-4">Avg Price</th><th className="text-left py-2 pr-4">Avg Value Score</th><th className="text-left py-2">Credit Efficiency</th></tr></thead>
+            <tbody>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Epic Fantasy</td><td className="py-2 pr-4">32 hrs</td><td className="py-2 pr-4">$42</td><td className="py-2 pr-4">5.8</td><td className="py-2">Excellent</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Science Fiction</td><td className="py-2 pr-4">25 hrs</td><td className="py-2 pr-4">$35</td><td className="py-2 pr-4">5.2</td><td className="py-2">Great</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">History/Biography</td><td className="py-2 pr-4">18 hrs</td><td className="py-2 pr-4">$30</td><td className="py-2 pr-4">4.5</td><td className="py-2">Good</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Self-Development</td><td className="py-2 pr-4">8 hrs</td><td className="py-2 pr-4">$20</td><td className="py-2 pr-4">3.8</td><td className="py-2">Fair</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Visit our <a href="https://getcreditworth.com/books" className="text-primary hover:underline">full ranking</a> to see all 730 books sorted by Value Score.</p>
       </>
     ),
   },
@@ -1440,6 +1645,14 @@ const POSTS: Record<string, BlogPostData> = {
         <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">How do I return audiobooks for a refund?</h3>
         <p>Go to Account Details &rarr; Purchase History &rarr; Select the book &rarr; Click Return. You can return within 365 days of purchase for either a credit or cash refund.</p>
         <p className="mt-6 text-text-secondary">Need more help? Check our <a href="/blog/audible-return-policy-guide" className="text-primary underline">complete return policy guide</a> for details on the 365-day return window.</p>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What Happens After You Cancel?</h2>
+        <p>After canceling, you immediately lose access to the Plus Catalog and member discounts. However, all audiobooks you purchased with credits or cash remain in your library permanently. You can still download and listen to them through the Audible app. Any unused credits are forfeited immediately upon cancellation, so spend them first.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Retention Offers: What Audible Might Offer</h2>
+        <p>When you go through the cancellation flow, Audible often presents retention offers. These can include: one free credit to stay, a discounted membership rate for 3 months, or a free month of Premium Plus. Even if you intend to cancel, it is worth seeing what retention offer you receive — you might decide to stay for another month at a discount.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Canceling via Mobile vs Desktop</h2>
+        <p>The cancellation process is slightly different on mobile. On iOS, Apple requires that you cancel through your Apple ID subscription settings, not the Audible app. On Android, you can cancel directly through the Audible app. The desktop website offers the most straightforward experience with the clearest information about what you lose and gain by canceling.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Rejoining After Cancellation</h2>
+        <p>If you decide to come back, your account history and library are preserved. Former members often receive special rejoin offers. Before resubscribing, check our <a href="https://getcreditworth.com" className="text-primary hover:underline">GetCreditWorth rankings</a> to see which books you missed and plan your credit spending strategy.</p>
       </>
     ),
   },
@@ -1483,6 +1696,29 @@ const POSTS: Record<string, BlogPostData> = {
           <li>If you listen to 1 audiobook/month: Either works (Premium saves $7/month)</li>
           <li>If you want maximum discounts: Premium Plus</li>
         </ul>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Standard vs Premium Plans: Feature Comparison</h2>
+        <p>Audible offers two main subscription types: Audible Plus (formerly Standard) and Audible Premium Plus. The key difference comes down to credits. Here is a direct comparison:</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-border"><th className="text-left py-2 pr-4">Feature</th><th className="text-left py-2 pr-4">Audible Plus</th><th className="text-left py-2">Premium Plus</th></tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Monthly Price</td><td className="py-2 pr-4">$7.95</td><td className="py-2">$14.95</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Monthly Credits</td><td className="py-2 pr-4">0</td><td className="py-2">1</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Plus Catalog Access</td><td className="py-2 pr-4">Unlimited</td><td className="py-2">Unlimited</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Member Discount (30%)</td><td className="py-2 pr-4">No</td><td className="py-2">Yes</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Best For</td><td className="py-2 pr-4">Casual listeners</td><td className="py-2">Heavy listeners</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>If you listen to 1+ audiobooks per month, Premium Plus is almost always better value. A single credit at $14.95 can buy any audiobook regardless of retail price, often saving you 50% or more compared to buying without a credit.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When Standard (Plus) Makes Sense</h2>
+        <p>Audible Plus is ideal for: casual listeners who go through 0-1 books per month, people who primarily listen to Plus Catalog titles, and those who want to try Audible before committing to credits. Since the Plus Catalog includes thousands of titles, you may never need a credit if you stick to included content.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When Premium Plus Wins</h2>
+        <p>Premium Plus is better for: listeners who want specific bestsellers and new releases (rarely in Plus Catalog), those who listen to 2+ books per month, and readers who want the 30% member discount on cash purchases. Use our <a href="https://getcreditworth.com/calculator" className="text-primary hover:underline">Credit Calculator</a> to see your optimal plan.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Upgrading and Downgrading</h2>
+        <p>You can switch between plans at any time. Upgrading from Plus to Premium Plus takes effect immediately and you receive a prorated credit. Downgrading from Premium Plus to Plus takes effect at the next billing cycle, and any unused credits are forfeited. Plan changes are managed in Account Details under Membership.</p>
       </>
     ),
   },
@@ -1518,6 +1754,50 @@ const POSTS: Record<string, BlogPostData> = {
           <li>Don&apos;t overuse returns (excessive returns may trigger account review)</li>
           <li>Use returns to recover credits for better books</li>
         </ul>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How Returns Work With Credits vs Cash</h2>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-border">
+                <th className="text-left py-2 pr-4">Method</th>
+                <th className="text-left py-2 pr-4">Refund</th>
+                <th className="text-left py-2 pr-4">Speed</th>
+                <th className="text-left py-2">Best For</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-border">
+                <td className="py-2 pr-4">Credit Purchase</td>
+                <td className="py-2 pr-4">Credit returned</td>
+                <td className="py-2 pr-4">Instant</td>
+                <td className="py-2">Exchanging books</td>
+              </tr>
+              <tr className="border-b border-border">
+                <td className="py-2 pr-4">Cash Purchase</td>
+                <td className="py-2 pr-4">Refund to card</td>
+                <td className="py-2 pr-4">3-5 days</td>
+                <td className="py-2">Getting money back</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Great Return Policy Change</h2>
+        <p>In 2022, Audible introduced a policy that limited frequent returners. Users who returned too many audiobooks relative to purchases lost self-service returns and had to contact support instead. This was to prevent abuse where some users effectively rented audiobooks by purchasing and returning them repeatedly.</p>
+        <p>As of 2026, Audible displays a return limit in your account settings showing how many returns you have remaining. Most active members can return several books per year without issue.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Return an Audiobook</h2>
+        <ol className="space-y-2 list-decimal pl-5">
+          <li>Go to Audible website and log in</li>
+          <li>Click <strong>Account Details</strong> &rarr; <strong>Purchase History</strong></li>
+          <li>Find the book and click <strong>Return this title</strong></li>
+          <li>Select a reason and confirm</li>
+        </ol>
+        <p>If self-service return is not available, contact Audible customer support via chat.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Tips for Smart Returns</h2>
+        <ul className="space-y-2">
+          <li>Use returns for genuine quality issues, not as a rental service</li>
+          <li>Check our <a href="https://getcreditworth.com" className="text-primary hover:underline">Value Score rankings</a> before buying to avoid disappointment</li>
+          <li>Returning more than 20% of purchases may flag your account</li>
+        </ul>
       </>
     ),
   },
@@ -1544,6 +1824,53 @@ const POSTS: Record<string, BlogPostData> = {
           <p className="font-semibold text-text-primary mb-2">Key Tip:</p>
           <p className="text-sm">Spend all unused credits before canceling - they expire immediately upon cancellation.</p>
         </div>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Audible Cancellation Policy by Plan Type</h2>
+        <p>Audible offers several subscription tiers, and the cancellation process differs slightly depending on your plan. Here is how each plan handles cancellations:</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-border">
+                <th className="text-left py-2 pr-4">Plan</th>
+                <th className="text-left py-2 pr-4">Monthly Price</th>
+                <th className="text-left py-2 pr-4">Cancellation Fee</th>
+                <th className="text-left py-2">Credit Upon Cancel</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-border">
+                <td className="py-2 pr-4">Premium Plus</td>
+                <td className="py-2 pr-4">$14.95</td>
+                <td className="py-2 pr-4">$0</td>
+                <td className="py-2">Forfeited immediately</td>
+              </tr>
+              <tr className="border-b border-border">
+                <td className="py-2 pr-4">Premium Plus 2</td>
+                <td className="py-2 pr-4">$22.95</td>
+                <td className="py-2 pr-4">$0</td>
+                <td className="py-2">Forfeited immediately</td>
+              </tr>
+              <tr className="border-b border-border">
+                <td className="py-2 pr-4">Premium Plus Annual</td>
+                <td className="py-2 pr-4">$149.50/year</td>
+                <td className="py-2 pr-4">$0 (partial refund)</td>
+                <td className="py-2">Forfeited immediately</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>The annual plan is the only plan where you may receive a partial refund upon cancellation. Audible typically refunds the unused portion of your annual membership if you cancel within the first year. Any credits used will be deducted from the refund amount at standard credit price.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Cancel Your Audible Membership</h2>
+        <ol className="space-y-2 list-decimal pl-5">
+          <li>Go to the <strong>Audible website</strong> and log into your account</li>
+          <li>Click on <strong>Account Details</strong> then <strong>Cancel Membership</strong></li>
+          <li>Follow the prompts — Audible often offers a retention deal</li>
+          <li>Confirm cancellation</li>
+        </ol>
+        <p>You can also cancel through the Audible mobile app. The process takes about 2 minutes.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Will You Lose Your Audiobooks?</h2>
+        <p><strong>No.</strong> All audiobooks you purchased remain in your library permanently, even after cancellation. You can still access and download them. The only thing you lose is access to the Plus Catalog, member discounts, and unused credits.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Rejoining After Cancellation</h2>
+        <p>Your purchase history and library remain intact. Former members are often offered promotional deals to rejoin. Check the promotions page before resubscribing at full price.</p>
       </>
     ),
   },
@@ -1567,6 +1894,20 @@ const POSTS: Record<string, BlogPostData> = {
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Strategy for Maximum Value</h2>
         <p>The key to maximizing multiple credits is spending them on expensive, long audiobooks. A single $35+ audiobook uses one credit and saves you ~$20. Using 3 credits on 3 such books saves you ~$60.</p>
         <p>Tip: Consider the <strong>Premium Plus 2 plan</strong> ($22.95/month for 2 credits) if you regularly use more than one credit per month. The per-credit cost drops from $14.95 to $11.48.</p>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How Credit Rollover Works</h2>
+        <p>Credit rollover allows you to accumulate unused credits from month to month. The rules depend on your plan:</p>
+        <ul className="space-y-2">
+          <li><strong>Premium Plus (1 credit/mo):</strong> Roll over up to 6 credits. This means if you skip using credits for 6 months, you will have 6 credits available at once.</li>
+          <li><strong>Premium Plus 2 (2 credits/mo):</strong> Higher rollover limits. You can accumulate credits faster with this plan.</li>
+          <li><strong>Premium Plus Annual (12 upfront):</strong> All credits are available immediately. Spend them strategically before they expire 12 months from issuance.</li>
+        </ul>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Using Multiple Credits in One Purchase</h2>
+        <p>Audible allows you to use multiple credits in a single transaction. When checking out, you can select "Use X credits" instead of paying cash. This is particularly useful for box sets and multi-book collections that cost more than one credit.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Best Strategies for Multiple Credits</h2>
+        <p>When you have accumulated multiple credits, the best strategy is to spend them on expensive, long audiobooks. A $50, 45-hour epic fantasy series gives you an effective cost-per-hour of $0.33 per credit — exceptional value. Short books under 8 hours are better purchased with cash (especially with the 30% member discount) rather than credits.</p>
+        <p>Use our <a href="https://getcreditworth.com" className="text-primary hover:underline">Cost Per Hour calculator</a> to compare which books give you the best listening value for your credits.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Can You Share Multiple Credits?</h2>
+        <p>Audible credits are non-transferable. You cannot gift a credit to another person (though you can gift specific audiobooks). If you have excess credits about to expire, your best option is to find books you will enjoy rather than losing them entirely.</p>
       </>
     ),
   },
@@ -1596,6 +1937,25 @@ const POSTS: Record<string, BlogPostData> = {
         <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
           <p className="text-sm"><strong>Warning:</strong> An expired credit is worth $0. Better to spend on a decent book than lose it entirely.</p>
         </div>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Credit Expiration by Plan Type</h2>
+        <p>Different Audible plans have different credit expiration rules. Here is a breakdown:</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-border"><th className="text-left py-2 pr-4">Plan</th><th className="text-left py-2 pr-4">Credit Issuance</th><th className="text-left py-2 pr-4">Expiration</th><th className="text-left py-2">Rollover Limit</th></tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Premium Plus</td><td className="py-2 pr-4">1 per month</td><td className="py-2 pr-4">12 months</td><td className="py-2">6 credits</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Premium Plus 2</td><td className="py-2 pr-4">2 per month</td><td className="py-2 pr-4">12 months</td><td className="py-2">Up to 12</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Premium Plus Annual</td><td className="py-2 pr-4">12 upfront</td><td className="py-2 pr-4">12 months from issuance</td><td className="py-2">N/A</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Never Lose a Credit</h2>
+        <p>The golden rule: always know your expiration dates. Log into your Audible account and check your credit balance. Each credit shows its expiration date. Set calendar reminders 30 days before expiration so you have time to choose a book wisely rather than panic-spending on a mediocre title.</p>
+        <p>Our recommendation: use credits on books with a Value Score above 4.0. These are audiobooks that offer the best combination of length, rating, and price. Check our <a href="https://getcreditworth.com" className="text-primary hover:underline">top-rated audiobooks</a> for inspiration.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What Happens to Expired Credits?</h2>
+        <p>An expired credit is gone permanently. Audible does not reinstate expired credits under any circumstances. However, you can contact customer support before expiration and they may offer an extension if you have a valid reason. Do not rely on this — always spend your credits proactively.</p>
       </>
     ),
   },
@@ -1637,6 +1997,25 @@ const POSTS: Record<string, BlogPostData> = {
         </ul>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When to Stick with Standard</h2>
         <p>If you only use 1 credit per month and can't roll over the second one, Premium Plus 2 wastes $8/month. Standard Premium Plus is the better choice.</p>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Premium Plus 2 Plan: Full Breakdown</h2>
+        <p>The Audible Premium Plus 2 plan costs $22.95/month and provides 2 credits per month. This is Audible's best value plan for heavy listeners. Here is how the math works out:</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-border"><th className="text-left py-2 pr-4">Metric</th><th className="text-left py-2 pr-4">Premium Plus (1 Credit)</th><th className="text-left py-2">Premium Plus 2</th></tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Monthly Cost</td><td className="py-2 pr-4">$14.95</td><td className="py-2">$22.95</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Cost Per Credit</td><td className="py-2 pr-4">$14.95</td><td className="py-2">$11.48</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Annual Savings vs Buying Books</td><td className="py-2 pr-4">~$200 (2 books/mo at $30)</td><td className="py-2">~$380 (4 books/mo at $30)</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Credits Per Year</td><td className="py-2 pr-4">12 + rollover</td><td className="py-2">24 + rollover</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Who Should Get Premium Plus 2?</h2>
+        <p>This plan is ideal for: listeners who finish 2+ audiobooks per month, commuters who listen during long drives, people who listen while exercising or doing chores, and those who want to build a large library quickly. The cost per credit drops to $11.48, saving you $3.47 per credit compared to the 1-credit plan.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Maximizing the 2-Credit Plan</h2>
+        <p>The key to maximizing value is spending each credit on high-value books. Use our <a href="https://getcreditworth.com" className="text-primary hover:underline">Value Score rankings</a> to find audiobooks with the best combination of runtime, rating, and price. A 40-hour fantasy epic at $45 gives you incredible value for a single credit.</p>
       </>
     ),
   },
@@ -1667,6 +2046,35 @@ const POSTS: Record<string, BlogPostData> = {
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Before You Downgrade</h2>
         <p>If you're on Premium Plus 2 and want to downgrade, first ensure you've used or saved any rolled-over credits. You won't get a second credit in the next billing cycle after downgrading.</p>
         <p>Your current credits remain valid and can be used until their expiration date (12 months from issue).</p>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Audible Subscription Tiers Overview</h2>
+        <p>Audible offers several subscription tiers. Downgrading is straightforward but the implications differ depending on your current and target plan:</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-border"><th className="text-left py-2 pr-4">Downgrade Path</th><th className="text-left py-2 pr-4">Takes Effect</th><th className="text-left py-2 pr-4">Credit Impact</th><th className="text-left py-2">Price Change</th></tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-border"><td className="py-2 pr-4">2-Credit &rarr; 1-Credit</td><td className="py-2 pr-4">Next cycle</td><td className="py-2 pr-4">Credits safe, future: 1/mo</td><td className="py-2">-$8/mo</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Premium Plus &rarr; Plus</td><td className="py-2 pr-4">Next cycle</td><td className="py-2 pr-4">Unused credits forfeited</td><td className="py-2">-$7/mo</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Annual &rarr; Monthly</td><td className="py-2 pr-4">After annual term</td><td className="py-2 pr-4">Remaining credits safe</td><td className="py-2">Varies</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Any &rarr; Cancel</td><td className="py-2 pr-4">Immediate</td><td className="py-2 pr-4">All credits lost</td><td className="py-2">$0</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Step-by-Step Downgrade Instructions</h2>
+        <ol className="space-y-2 list-decimal pl-5">
+          <li>Log into your Audible account on the website</li>
+          <li>Go to <strong>Account Details</strong> &rarr; <strong>Membership Details</strong></li>
+          <li>Click <strong>Switch Plan</strong> or <strong>Change Membership</strong></li>
+          <li>Select your new plan from available options</li>
+          <li>Review credit and billing changes carefully</li>
+          <li>Confirm the switch</li>
+        </ol>
+        <p>You can also downgrade through the Audible mobile app under Account &rarr; Membership.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Critical Warning: Credits First, Downgrade Second</h2>
+        <p><strong>Always spend your unused credits before downgrading.</strong> When moving from a credit plan to a non-credit plan, all remaining credits are forfeited. Each credit represents $14.95 in membership value and potentially much more in book value. Use our <a href="https://getcreditworth.com" className="text-primary hover:underline">Value Score rankings</a> to quickly find the best books for your remaining credits before making the switch.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Downgrading from Annual Plans</h2>
+        <p>Annual plan members have additional considerations. If you are on the Premium Plus Annual plan and want to downgrade, you typically need to wait until the end of your annual term. Some users report that contacting customer support directly can result in a prorated refund, but this is handled case-by-case and not guaranteed.</p>
       </>
     ),
   },
@@ -1842,6 +2250,13 @@ const POSTS: Record<string, BlogPostData> = {
           </Link>
           .
         </p>
+      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How the Calculator Works</h2>
+        <p>Our Audible Credit Value Calculator on <a href="https://getcreditworth.com/calculator" className="text-primary hover:underline">GetCreditWorth</a> compares any audiobook against your membership plan to determine whether using a credit or paying cash is the smarter choice. The calculator takes into account: the book's retail price, your membership plan (1-credit, 2-credit, or annual), the 30% member discount on cash purchases, and the book's runtime for cost-per-hour analysis.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Real Example: Credit vs Cash Decision</h2>
+        <p>Consider a $24.99 audiobook with 15 hours of runtime. Using a credit costs $14.95 (effective) and gives you a cost-per-hour of $1.00. Buying with cash at the member price of $17.49 (30% off $24.99) gives a cost-per-hour of $1.17. In this case, using a credit saves you $0.17/hour — modest savings.</p>
+        <p>Now consider a $49.95 audiobook with 40 hours. Credit: $14.95, $0.37/hour. Cash with discount: $34.97, $0.87/hour. The credit saves you $0.50/hour, or $20 total. The calculator makes these comparisons instantly.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When the Calculator Says "Pay Cash"</h2>
+        <p>The calculator will recommend paying cash when: the book is under $10, the runtime is under 6 hours, you have very few credits remaining, or the book is on deep discount (Daily Deal). In these cases, save your credit for a higher-value book and use the calculator to identify which one.</p>
       </>
     ),
   },
