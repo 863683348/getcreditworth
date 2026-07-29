@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { ValueScoreBadge } from '@/components/ValueScoreBadge';
 import { formatDuration, formatPrice, formatRating } from '@/lib/utils/format';
+import { useI18n } from '@/lib/i18n';
 import type { Book } from '@/lib/types';
 
 interface PaginatedBookTableProps {
@@ -24,6 +25,7 @@ export function PaginatedBookTable({
   showDuration = true,
   showPrice = true,
 }: PaginatedBookTableProps) {
+  const { t } = useI18n();
   const [page, setPage] = useState(1);
   const [pageSize, setPageSize] = useState(defaultPageSize);
 
@@ -39,7 +41,7 @@ export function PaginatedBookTable({
   }
 
   if (books.length === 0) {
-    return <p className="text-sm text-text-secondary text-center py-8">No books found.</p>;
+    return <p className="text-sm text-text-secondary text-center py-8">{t.empty.noResults}</p>;
   }
 
   return (
@@ -110,8 +112,8 @@ export function PaginatedBookTable({
 
       <div className="flex flex-col sm:flex-row items-center justify-between gap-3 pt-4 mt-4 border-t border-border">
         <div className="flex items-center gap-2 text-sm text-text-secondary">
-          <span>Showing {start + 1}-{Math.min(start + pageSize, books.length)} of {books.length}</span>
-          <span className="hidden sm:inline">| Per page:</span>
+          <span>{t.pagination.showing.replace("{from}", String(start + 1)).replace("{to}", String(Math.min(start + pageSize, books.length))).replace("{total}", String(books.length))}</span>
+          <span className="hidden sm:inline">| {t.pagination.perPage}:</span>
           <select
             className="hidden sm:inline-block bg-bg-surface border border-border rounded px-2 py-1 text-xs text-text-primary"
             value={pageSize}
@@ -130,7 +132,7 @@ export function PaginatedBookTable({
             onClick={function () { setPage(page - 1); }}
           >
             <ChevronLeft className="h-3.5 w-3.5" />
-            <span className="ml-1 hidden sm:inline">Previous</span>
+            <span className="ml-1 hidden sm:inline">{t.pagination.prev}</span>
           </button>
 
           {Array.from({ length: Math.min(totalPages, 5) }, function (_, i) {
@@ -152,7 +154,7 @@ export function PaginatedBookTable({
             disabled={page >= totalPages}
             onClick={function () { setPage(page + 1); }}
           >
-            <span className="mr-1 hidden sm:inline">Next</span>
+            <span className="mr-1 hidden sm:inline">{t.pagination.next}</span>
             <ChevronRight className="h-3.5 w-3.5" />
           </button>
         </div>
