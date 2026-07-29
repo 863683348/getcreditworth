@@ -4,6 +4,7 @@ import { Calendar, Clock } from 'lucide-react';
 import { FileText } from 'lucide-react';
 import Link from 'next/link';
 import { formatDate } from '@/lib/utils/format';
+import { buildAudibleTrialUrl } from '@/lib/utils/affiliate';
 import { useI18n } from '@/lib/i18n';
 
 import type { BlogPost } from '@/data/blog/posts';

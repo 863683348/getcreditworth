@@ -5,7 +5,8 @@
  import type { Book } from '@/lib/types';
  import { BookExplorer } from '@/components/BookExplorer';
  import { ItemListJsonLd } from '@/components/seo/JsonLd';
- import { useI18n } from '@/lib/i18n';
+ import { buildAudibleTrialUrl } from '@/lib/utils/affiliate';
+import { useI18n } from '@/lib/i18n';
  import { getCuratedLists } from '@/lib/data/books';
  import { formatDate } from '@/lib/utils/format';
  

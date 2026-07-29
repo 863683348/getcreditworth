@@ -1,8 +1,9 @@
 'use client';
 
 import Link from 'next/link';
-import { Calculator, DollarSign, Clock, Star, ArrowRight, Info, Trophy } from 'lucide-react';
+import { Calculator, DollarSign, Clock, Star, ArrowRight, Info, Trophy, Gift, ExternalLink } from 'lucide-react';
 import type { Book } from '@/lib/types';
+import { buildAudibleTrialUrl } from '@/lib/utils/affiliate';
 import { useI18n } from '@/lib/i18n';
 import { AUDIBLE_CREDIT_VALUE } from '@/lib/config';
 import { formatPrice } from '@/lib/utils/format';

@@ -5,6 +5,7 @@ import { ListChecks, ChevronLeft, Calendar } from 'lucide-react';
 import { BookList } from '@/components/BookList';
 import { ItemListJsonLd } from '@/components/seo/JsonLd';
 import { formatDate } from '@/lib/utils/format';
+import { buildAudibleTrialUrl } from '@/lib/utils/affiliate';
 import { useI18n } from '@/lib/i18n';
 import type { Book, CuratedList } from '@/lib/types';
 

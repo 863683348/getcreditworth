@@ -1,9 +1,10 @@
 'use client';
 
 import Link from 'next/link';
-import { ChevronLeft, Calendar, Clock, ArrowRight } from 'lucide-react';
+import { ChevronLeft, Calendar, Clock, ArrowRight, Gift, ExternalLink } from 'lucide-react';
 import { formatDate } from '@/lib/utils/format';
 import { Breadcrumb } from '@/components/Breadcrumb';
+import { buildAudibleTrialUrl } from '@/lib/utils/affiliate';
 import { useI18n } from '@/lib/i18n';
 
 import type { BlogPostData } from '@/data/blog/posts';
@@ -63,6 +64,27 @@ export function BlogDetailContent({ post }: BlogDetailContentProps) {
           <ArrowRight className="h-4 w-4" />
         </Link>
       </div>
-    </article>
+    
+      {/* Start your free trial */}
+      <div className="mt-8 p-5 rounded-lg bg-gradient-to-br from-primary-50 via-bg-base to-amber-50 border border-primary-200">
+        <div className="flex items-center gap-2 mb-3">
+          <Gift className="h-5 w-5 text-primary" />
+          <h3 className="text-lg font-semibold text-text-primary">Start your free Audible trial today</h3>
+        </div>
+        <p className="text-sm text-text-secondary mb-4">
+          Get 1 free credit worth $14.95 - enough for almost any audiobook. Cancel anytime, books are yours to keep.
+        </p>
+        <a
+          href={buildAudibleTrialUrl()}
+          target="_blank"
+          rel="noopener noreferrer sponsored"
+          className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold rounded-md bg-primary text-white hover:bg-primary-hover transition-colors"
+        >
+          Try Audible Free for 30 Days
+          <ExternalLink className="h-4 w-4" />
+        </a>
+        <p className="text-xs text-text-muted mt-2">Affiliate link - we may earn a commission at no extra cost to you.</p>
+      </div>
+</article>
   );
 }

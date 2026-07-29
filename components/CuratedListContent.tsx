@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { ListChecks, ChevronRight } from 'lucide-react';
 import { formatDate } from '@/lib/utils/format';
+import { buildAudibleTrialUrl } from '@/lib/utils/affiliate';
 import { useI18n } from '@/lib/i18n';
 import type { CuratedList } from '@/lib/types';
 
