@@ -31,25 +31,20 @@ export function CalculatorContent({ books: _books }: CalculatorContentProps) {
         <section className="p-5 rounded-lg bg-bg-surface border border-border">
           <h2 className="text-lg font-semibold text-text-primary mb-3 flex items-center gap-2">
             <Info className="h-4 w-4 text-primary" />
-            How the Audible Credit Calculator Works
+            {t.calculatorPage.guideTitle}
           </h2>
           <div className="text-sm text-text-secondary space-y-3">
             <p>
-              Every Audible credit is worth <strong>{formatPrice(AUDIBLE_CREDIT_VALUE)}</strong> — that is
-              what you pay per month for one credit on the standard Premium Plus plan. But not all books
-              give you the same value for that credit. A $40 book that runs 45 hours is a much better deal
-              than a $12 book that runs 5 hours.
+              {t.calculatorPage.guideP1.replace("{creditValue}", formatPrice(AUDIBLE_CREDIT_VALUE)).replace("{expensive}", formatPrice(40)).replace("{long}", "45").replace("{cheap}", formatPrice(12)).replace("{short}", "5")}
             </p>
             <p>
-              This calculator uses the <strong>Value Score formula</strong>:
+              {t.calculatorPage.guideP2}
             </p>
             <div className="font-mono text-base text-text-primary text-center py-3 bg-background rounded-md border border-border">
-              Value Score = (Duration in hours &times; Star Rating) / Price in USD
+              {t.calculatorPage.guideFormula}
             </div>
             <p>
-              Enter your credits and subscription plan below, and the calculator will instantly show
-              you the best books to spend your credits on. The recommendations are sorted by Value
-              Score, so you always get the highest possible credit value.
+              {t.calculatorPage.guideP3}
             </p>
           </div>
         </section>
@@ -57,25 +52,23 @@ export function CalculatorContent({ books: _books }: CalculatorContentProps) {
         <section className="p-5 rounded-lg bg-bg-surface border border-border">
           <h2 className="text-lg font-semibold text-text-primary mb-3 flex items-center gap-2">
             <DollarSign className="h-4 w-4 text-primary" />
-            Real Example: How Much Can You Save?
+            {t.calculatorPage.exampleTitle}
           </h2>
           <div className="text-sm text-text-secondary space-y-3">
             <p>
-              Let us walk through a real example. Say you have <strong>3 credits</strong> on a
-              standard Premium Plus plan. You want to spend them on quality audiobooks.
+              {t.calculatorPage.exampleP1.replace("{credits}", "3")}
             </p>
             <div className="bg-background p-4 rounded-md border border-border">
-              <p className="font-semibold text-text-primary mb-2">Example Calculation:</p>
+              <p className="font-semibold text-text-primary mb-2">{t.calculatorPage.exampleCalcTitle}</p>
               <ul className="space-y-1.5 text-sm">
-                <li><strong>3 credits</strong> &times; {formatPrice(AUDIBLE_CREDIT_VALUE)} = <strong>{formatPrice(AUDIBLE_CREDIT_VALUE * 3)} total value</strong></li>
-                <li>If you pick 3 books worth $35 each = <strong>$105 retail value</strong></li>
-                <li>Your savings: <strong className="text-success">${(105 - AUDIBLE_CREDIT_VALUE * 3).toFixed(2)}</strong></li>
-                <li>Cost per hour: as low as <strong>$0.33/hour</strong> (on 45-hour books)</li>
+                <li><strong>{t.calculatorPage.exampleCalc1.replace("{credits}", "3").replace("{creditValue}", formatPrice(AUDIBLE_CREDIT_VALUE)).replace("{total}", formatPrice(AUDIBLE_CREDIT_VALUE * 3))}</strong> &times; {formatPrice(AUDIBLE_CREDIT_VALUE)} = <strong>{formatPrice(AUDIBLE_CREDIT_VALUE * 3)} total value</strong></li>
+                <li>{t.calculatorPage.exampleCalc2.replace("{n}", "3").replace("{price}", formatPrice(35)).replace("{totalValue}", formatPrice(105))}</li>
+                <li>{t.calculatorPage.exampleCalc3.replace("{savings}", formatPrice(105 - AUDIBLE_CREDIT_VALUE * 3))}</li>
+                <li>{t.calculatorPage.exampleCalc4.replace("{rate}", "$0.33").replace("{hours}", "45")}</li>
               </ul>
             </div>
             <p>
-              The recommendation engine below automatically picks the books that maximize your
-              savings. The more expensive and longer the book, the better your credit value.
+              {t.calculatorPage.exampleP2}
             </p>
           </div>
         </section>
@@ -83,24 +76,24 @@ export function CalculatorContent({ books: _books }: CalculatorContentProps) {
         <section className="p-5 rounded-lg bg-bg-surface border border-border">
           <h2 className="text-lg font-semibold text-text-primary mb-3 flex items-center gap-2">
             <Star className="h-4 w-4 text-accent" />
-            What Makes a Book Worth a Credit?
+            {t.calculatorPage.criteriaTitle}
           </h2>
           <div className="text-sm text-text-secondary space-y-3">
             <div className="overflow-x-auto">
               <table className="w-full text-sm border border-border rounded-md">
                 <thead className="bg-background">
                   <tr>
-                    <th className="p-2 border-b text-left">Scenario</th>
-                    <th className="p-2 border-b text-left">Use Credit?</th>
-                    <th className="p-2 border-b text-left">Why</th>
+                    <th className="p-2 border-b text-left">{t.calculatorPage.tableScenario}</th>
+                    <th className="p-2 border-b text-left">{t.calculatorPage.tableUseCredit}</th>
+                    <th className="p-2 border-b text-left">{t.calculatorPage.tableWhy}</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr><td className="p-2 border-b">Book costs &gt; {formatPrice(AUDIBLE_CREDIT_VALUE)}</td><td className="p-2 border-b text-success font-medium">Yes</td><td className="p-2 border-b">You save money vs buying directly</td></tr>
-                  <tr><td className="p-2 border-b">Book costs &lt; {formatPrice(AUDIBLE_CREDIT_VALUE)}</td><td className="p-2 border-b text-warning font-medium">No</td><td className="p-2 border-b">Buy directly, save the credit for a pricier book</td></tr>
-                  <tr><td className="p-2 border-b">Short book (&lt; 8 hours)</td><td className="p-2 border-b text-warning font-medium">Consider</td><td className="p-2 border-b">Cost per hour will be high; check price first</td></tr>
-                  <tr><td className="p-2 border-b">Long book (&gt; 20 hours)</td><td className="p-2 border-b text-success font-medium">Yes</td><td className="p-2 border-b">Excellent cost per hour ({'<'} $0.75/h)</td></tr>
-                  <tr><td className="p-2 border-b">Highly rated (4.5+ stars)</td><td className="p-2 border-b text-success font-medium">Yes</td><td className="p-2 border-b">Quality listening + great value</td></tr>
+                  <tr><td className="p-2 border-b">{t.calculatorPage.tableExpensive.replace("{price}", formatPrice(AUDIBLE_CREDIT_VALUE))}</td><td className="p-2 border-b text-success font-medium">{t.calculatorPage.tableExpensiveResult}</td><td className="p-2 border-b">You save money vs buying directly</td></tr>
+                  <tr><td className="p-2 border-b">{t.calculatorPage.tableCheap.replace("{price}", formatPrice(AUDIBLE_CREDIT_VALUE))}</td><td className="p-2 border-b text-warning font-medium">{t.calculatorPage.tableCheapResult}</td><td className="p-2 border-b">{t.calculatorPage.tableCheapWhy}</td></tr>
+                  <tr><td className="p-2 border-b">{t.calculatorPage.tableShort}</td><td className="p-2 border-b text-warning font-medium">{t.calculatorPage.tableShortResult}</td><td className="p-2 border-b">{t.calculatorPage.tableShortWhy}</td></tr>
+                  <tr><td className="p-2 border-b">Long book (&gt; 20 hours)</td><td className="p-2 border-b text-success font-medium">{t.calculatorPage.tableExpensiveResult}</td><td className="p-2 border-b">Excellent cost per hour ({'<'} $0.75/h)</td></tr>
+                  <tr><td className="p-2 border-b">Highly rated (4.5+ stars)</td><td className="p-2 border-b text-success font-medium">{t.calculatorPage.tableExpensiveResult}</td><td className="p-2 border-b">Quality listening + great value</td></tr>
                 </tbody>
               </table>
             </div>
@@ -110,15 +103,15 @@ export function CalculatorContent({ books: _books }: CalculatorContentProps) {
         <section className="flex flex-wrap gap-3 mt-4">
           <Link href="/" className="btn btn-primary">
             <Trophy className="h-4 w-4" />
-            Browse Top Audiobooks
+            {t.calculatorPage.browseTop}
           </Link>
           <Link href="/curated/best-long-audiobooks-for-credits" className="btn btn-outline">
             <Clock className="h-4 w-4" />
-            Best Long Audiobooks (30h+)
+            {t.calculatorPage.bestLong}
           </Link>
           <Link href="/curated/best-classic-literature" className="btn btn-outline">
             <ArrowRight className="h-4 w-4" />
-            Classic Literature Picks
+            {t.calculatorPage.classicPicks}
           </Link>
         </section>
       </div>
