@@ -281,7 +281,7 @@ export function BookDetailContent({ book, relatedBooks }: BookDetailContentProps
       {relatedBooks && relatedBooks.length > 0 && (
         <div className="mt-10 pt-8 border-t border-border">
           <h2 className="text-xl font-semibold text-text-primary mb-4">
-            Similar Audiobooks Worth Your Credit
+            {t.bookDetail.similarAudiobooksTitle}
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
             {relatedBooks.map((rb) => (

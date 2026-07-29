@@ -62,7 +62,7 @@ export function CalculatorContent({ books: _books }: CalculatorContentProps) {
             <div className="bg-background p-4 rounded-md border border-border">
               <p className="font-semibold text-text-primary mb-2">{t.calculatorPage.exampleCalcTitle}</p>
               <ul className="space-y-1.5 text-sm">
-                <li><strong>{t.calculatorPage.exampleCalc1.replace("{credits}", "3").replace("{creditValue}", formatPrice(AUDIBLE_CREDIT_VALUE)).replace("{total}", formatPrice(AUDIBLE_CREDIT_VALUE * 3))}</strong> &times; {formatPrice(AUDIBLE_CREDIT_VALUE)} = <strong>{formatPrice(AUDIBLE_CREDIT_VALUE * 3)} total value</strong></li>
+                <li><strong>{t.calculatorPage.exampleCalc1.replace("{credits}", "3").replace("{creditValue}", formatPrice(AUDIBLE_CREDIT_VALUE)).replace("{total}", formatPrice(AUDIBLE_CREDIT_VALUE * 3))}</strong> &times; {formatPrice(AUDIBLE_CREDIT_VALUE)} = <strong>{formatPrice(AUDIBLE_CREDIT_VALUE * 3)} {t.calculatorPage.totalValueLabel}</strong></li>
                 <li>{t.calculatorPage.exampleCalc2.replace("{n}", "3").replace("{price}", formatPrice(35)).replace("{totalValue}", formatPrice(105))}</li>
                 <li>{t.calculatorPage.exampleCalc3.replace("{savings}", formatPrice(105 - AUDIBLE_CREDIT_VALUE * 3))}</li>
                 <li>{t.calculatorPage.exampleCalc4.replace("{rate}", "$0.33").replace("{hours}", "45")}</li>
