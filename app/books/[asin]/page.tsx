@@ -31,19 +31,20 @@ export function generateMetadata({ params }: PageProps): Metadata {
   const title = `${book.title} by ${book.author} - Value Score & Audible Credit Review`;
   const verdict = book.valueScore >= 8 ? 'Excellent credit value' : book.valueScore >= 5 ? 'Good credit value' : 'Better to buy directly';
   const description = `Is ${book.title} worth an Audible credit? ${verdict}. Value Score ${book.valueScore.toFixed(1)}, $${book.costPerHour.toFixed(2)}/hr, ${book.starRating.toFixed(1)} stars from ${book.reviewCount.toLocaleString()} reviews, ${book.runtimeHours.toFixed(1)} hours. See the full credit analysis before you spend.`;
-  const titleLower = book.title.toLowerCase();
+  const 
   const keywords = [
-    `${book.title} audible`,
-    `${book.title} audiobook review`,
-    `${book.title} worth a credit`,
-    `${book.author} audiobook credit value`,
-    `${book.title} value score`,
-    `is ${titleLower} worth an audible credit`,
-    `${book.title} credit worth it`,
-    `${book.title} cost per hour`,
-    `audible credit value ${titleLower}`,
-    `${book.title} audible review 2026`,
-    ...book.categories.slice(0,3).map(c => `${c.toLowerCase()} audiobooks credits`),
+    \ audible,
+    \ \,
+    \ worth a credit,
+    \ audible credit,
+    is  worth a credit,
+    \ credit value score,
+    \ cost per hour,
+    how long is \,
+    est  credits,
+    \ audiobooks,
+    should I buy \,
+    \ audible review,
   ];
 
   return {
