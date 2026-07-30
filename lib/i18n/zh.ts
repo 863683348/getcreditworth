@@ -51,6 +51,7 @@ export const zh = {
     guidesBlog: "指南与博客",
     disclosure: "声明",
     disclosureText: "作为Amazon Associate，{name}从符合条件的购买中赚取佣金。Audible是Amazon.com, Inc.或其关联公司的商标。本网站与Amazon无关，也未获其认可。",
+    privacy: "隐私政策",
     about: "关于",
     howItWorks: "运作方式",
     amazon: "Amazon",

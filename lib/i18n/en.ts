@@ -63,6 +63,7 @@ export const en = {
     guidesBlog: 'Guides & Blog',
     disclosure: 'Disclosure',
     disclosureText: 'As an Amazon Associate, {name} earns from qualifying purchases. Audible is a trademark of Amazon.com, Inc. or its affiliates. This site is not affiliated with or endorsed by Amazon.',
+    privacy: 'Privacy Policy',
     about: 'About',
     howItWorks: 'How It Works',
     amazon: 'Amazon',
