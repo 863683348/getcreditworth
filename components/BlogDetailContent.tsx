@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { ChevronLeft, Calendar, Clock, ArrowRight, Gift, ExternalLink } from 'lucide-react';
 import { formatDate } from '@/lib/utils/format';
 import { Breadcrumb } from '@/components/Breadcrumb';
+import { AdUnit } from '@/components/analytics/AdUnit';
 import { buildAudibleTrialUrl } from '@/lib/utils/affiliate';
 import { useI18n } from '@/lib/i18n';
 
@@ -85,6 +86,12 @@ export function BlogDetailContent({ post }: BlogDetailContentProps) {
         </a>
         <p className="text-xs text-text-muted mt-2">Affiliate link - we may earn a commission at no extra cost to you.</p>
       </div>
+
+      {/* AdSense - 博客文章页底部广告位（slot 在 .env 配置后生效） */}
+      <AdUnit
+        slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_BLOG_POST || ""}
+        className="mt-12"
+      />
 </article>
   );
 }
