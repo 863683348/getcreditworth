@@ -28,24 +28,23 @@ export function generateMetadata({ params }: PageProps): Metadata {
   const book = getBookDetail(params.asin);
   if (!book) return { title: "Book Not Found" };
 
-  const title = `${book.title} by ${book.author} - Value Score & Audible Credit Review`;
+  const title = (book.starRating >= 4.5 && book.runtimeHours >= 20) ? `${book.title} by ${book.author} - Top Pick (Score ${book.valueScore.toFixed(1)})` : `${book.title} by ${book.author} - Value Score & Credit Review`;
   const verdict = book.valueScore >= 8 ? 'Excellent credit value' : book.valueScore >= 5 ? 'Good credit value' : 'Better to buy directly';
   const description = `Is ${book.title} worth an Audible credit? ${verdict}. Value Score ${book.valueScore.toFixed(1)}, $${book.costPerHour.toFixed(2)}/hr, ${book.starRating.toFixed(1)} stars from ${book.reviewCount.toLocaleString()} reviews, ${book.runtimeHours.toFixed(1)} hours. See the full credit analysis before you spend.`;
-  const 
+  const titleLower = book.title.toLowerCase();
   const keywords = [
-    \ audible,
-    \ \,
-    \ worth a credit,
-    \ audible credit,
-    is  worth a credit,
-    \ credit value score,
-    \ cost per hour,
-    how long is \,
-    est  credits,
-    \ audiobooks,
-    should I buy \,
-    \ audible review,
-  ];
+    `${book.title} audible`,
+    `${book.author} ${book.title}`,
+    `${book.title} worth a credit`,
+    `${book.title} credit value`,
+    `is ${titleLower} worth it`,
+    `${book.title} audible review`,
+    `${book.title} cost per hour`,
+    `how long is ${titleLower}`,
+    `best ${(book.categories[0]||"audiobook").toLowerCase()} credits`,
+    `${(book.categories[1]||book.categories[0]||"book").toLowerCase()} recommendations`,
+    `should I buy ${titleLower}`,
+  ]
 
   return {
     title,
