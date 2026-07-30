@@ -28,6 +28,7 @@ import {
 } from '@/lib/utils/format';
 import { AUDIBLE_CREDIT_VALUE } from '@/lib/config';
 import { Breadcrumb } from '@/components/Breadcrumb';
+import { AdUnit } from '@/components/analytics/AdUnit';
 import { useI18n } from '@/lib/i18n';
 import type { Book } from '@/lib/types';
 
@@ -315,6 +316,12 @@ export function BookDetailContent({ book, relatedBooks }: BookDetailContentProps
           </div>
         </div>
       )}
+
+      {/* AdSense - 书籍详情页底部广告位（slot 在 .env 配置后生效） */}
+      <AdUnit
+        slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_BOOK_DETAIL || ""}
+        className="mt-12"
+      />
     </div>
   );
 }
