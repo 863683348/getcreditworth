@@ -47,7 +47,7 @@ export const metadata: Metadata = {
 };
 
 export default function AllBooksPage() {
-  const result = getBookList({ pageSize: 1000 });
+  const result = getBookList({ pageSize: 5000 });
   return <AllBooksContent books={result.books} />;
 }
 
