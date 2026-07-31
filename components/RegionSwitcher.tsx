@@ -8,7 +8,7 @@
 "use client";
 
 import { useRegion } from "@/components/RegionProvider";
-import { AMAZON_REGIONS } from "@/lib/amazon-regions";
+import { VISIBLE_REGIONS } from "@/lib/amazon-regions";
 
 export function RegionSwitcher() {
   const { region, setRegion } = useRegion();
@@ -25,7 +25,7 @@ export function RegionSwitcher() {
         Choose your Amazon region — affiliate links route to the matching store.
       </p>
       <ul className="flex flex-wrap gap-2">
-        {AMAZON_REGIONS.map((r) => {
+        {VISIBLE_REGIONS.map((r) => {
           const active = r.id === region;
           return (
             <li key={r.id}>

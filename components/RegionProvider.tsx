@@ -14,7 +14,7 @@ import {
   useCallback,
   type ReactNode,
 } from "react";
-import { AmazonRegion, DEFAULT_REGION, detectRegionFromLocale, isValidRegion } from "@/lib/amazon-regions";
+import { AmazonRegion, DEFAULT_REGION, detectRegionFromLocale, isValidRegion, isRegionVisible } from "@/lib/amazon-regions";
 
 const STORAGE_KEY = "gcw-region";
 
@@ -31,7 +31,7 @@ export function RegionProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     const saved = localStorage.getItem(STORAGE_KEY);
-    if (saved && isValidRegion(saved)) {
+    if (saved && isValidRegion(saved) && isRegionVisible(saved)) {
       setRegionState(saved);
     } else if (typeof navigator !== "undefined" && navigator.language) {
       setRegionState(detectRegionFromLocale(navigator.language));
