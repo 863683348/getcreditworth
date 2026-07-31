@@ -13,6 +13,7 @@ import {
   formatNumber,
 } from "@/lib/utils/format";
 import { useI18n } from "@/lib/i18n";
+import { useRegion } from "@/components/RegionProvider";
 import { useFavorites } from "@/lib/hooks/useFavorites";
 import { Heart } from "lucide-react";
 
@@ -24,8 +25,9 @@ interface BookCardProps {
 
 export function BookCard({ book, rank, variant = "default" }: BookCardProps) {
   const { t } = useI18n();
+  const { region } = useRegion();
   const { toggleFavorite, isFavorite } = useFavorites();
-  const redirectUrl = buildRedirectUrl(book.asin);
+  const redirectUrl = buildRedirectUrl(book.asin, region);
 
   return (
     <article className="card p-3 sm:p-4 flex gap-2 sm:gap-4">

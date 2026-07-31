@@ -30,6 +30,7 @@ import { AUDIBLE_CREDIT_VALUE } from '@/lib/config';
 import { Breadcrumb } from '@/components/Breadcrumb';
 import { AdUnit } from '@/components/analytics/AdUnit';
 import { useI18n } from '@/lib/i18n';
+import { useRegion } from '@/components/RegionProvider';
 import type { Book } from '@/lib/types';
 
 interface BookDetailContentProps {
@@ -39,8 +40,9 @@ interface BookDetailContentProps {
 
 export function BookDetailContent({ book, relatedBooks }: BookDetailContentProps) {
   const { t } = useI18n();
+  const { region } = useRegion();
 
-  const redirectUrl = buildRedirectUrl(book.asin);
+  const redirectUrl = buildRedirectUrl(book.asin, region);
   const worthUsingCredit = isCreditWorth(book.price);
   const savingsVsCredit = book.price - AUDIBLE_CREDIT_VALUE;
   const savingsPercent = (savingsVsCredit / book.price) * 100;
@@ -61,7 +63,7 @@ export function BookDetailContent({ book, relatedBooks }: BookDetailContentProps
           </div>
         </div>
         <a
-          href={buildAudibleTrialUrl()}
+          href={buildAudibleTrialUrl(region)}
           target="_blank"
           rel="noopener noreferrer sponsored"
           title="Start your free 30-day Audible trial"
@@ -243,7 +245,7 @@ export function BookDetailContent({ book, relatedBooks }: BookDetailContentProps
                 ))}
               </ul>
               <a
-                href={buildAudibleTrialUrl()}
+                href={buildAudibleTrialUrl(region)}
                 target="_blank"
                 rel="noopener noreferrer sponsored"
                 title="Claim your free Audible trial credit"

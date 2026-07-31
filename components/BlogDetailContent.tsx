@@ -7,6 +7,7 @@ import { Breadcrumb } from '@/components/Breadcrumb';
 import { AdUnit } from '@/components/analytics/AdUnit';
 import { buildAudibleTrialUrl } from '@/lib/utils/affiliate';
 import { useI18n } from '@/lib/i18n';
+import { useRegion } from '@/components/RegionProvider';
 
 import type { BlogPostData } from '@/data/blog/posts';
 
@@ -16,6 +17,7 @@ interface BlogDetailContentProps {
 
 export function BlogDetailContent({ post }: BlogDetailContentProps) {
   const { t } = useI18n();
+  const { region } = useRegion();
 
   return (
     <article className="container-content py-6 md:py-8 max-w-3xl">
@@ -76,7 +78,7 @@ export function BlogDetailContent({ post }: BlogDetailContentProps) {
           Get 1 free credit worth $14.95 - enough for almost any audiobook. Cancel anytime, books are yours to keep.
         </p>
         <a
-          href={buildAudibleTrialUrl()}
+          href={buildAudibleTrialUrl(region)}
           target="_blank"
           rel="noopener noreferrer sponsored"
           className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold rounded-md bg-primary text-white hover:bg-primary-hover transition-colors"

@@ -5,6 +5,7 @@ import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { I18nProvider } from "@/lib/i18n";
+import { RegionProvider } from "@/components/RegionProvider";
 import { WebsiteJsonLd, OrganizationJsonLd } from "@/components/seo/JsonLd";
 import { SITE_CONFIG } from "@/lib/config";
 
@@ -81,9 +82,11 @@ export default function RootLayout({
       </head>
       <body className="min-h-screen flex flex-col">
         <I18nProvider>
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
+          <RegionProvider>
+            <Header />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </RegionProvider>
         </I18nProvider>
           <WebsiteJsonLd />
       <OrganizationJsonLd />

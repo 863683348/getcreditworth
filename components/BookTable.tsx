@@ -7,6 +7,7 @@ import { ValueScoreBadge } from '@/components/ValueScoreBadge';
 import { buildRedirectUrl } from '@/lib/utils/affiliate';
 import { formatDuration, formatPrice, formatRating, formatNumber } from '@/lib/utils/format';
 import { useI18n } from '@/lib/i18n';
+import { useRegion } from '@/components/RegionProvider';
 
 interface BookTableProps {
   books: Book[];
@@ -16,6 +17,7 @@ interface BookTableProps {
 
 export function BookTable({ books, showRank = true, startRank = 1 }: BookTableProps) {
   const { t } = useI18n();
+  const { region } = useRegion();
 
   if (books.length === 0) {
     return (
@@ -108,7 +110,7 @@ export function BookTable({ books, showRank = true, startRank = 1 }: BookTablePr
               </td>
               <td className="py-2 px-2 sm:px-3 text-right">
                 <a
-                  href={buildRedirectUrl(book.asin)}
+                  href={buildRedirectUrl(book.asin, region)}
                   target="_blank"
                   rel="noopener noreferrer sponsored"
                   className="inline-flex items-center gap-0.5 text-xs text-primary hover:text-primary-hover font-medium whitespace-nowrap"

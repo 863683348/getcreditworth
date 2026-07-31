@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import { buildAffiliateUrl } from '@/lib/utils/affiliate';
 import { getBookByAsin } from '@/lib/data/books';
+import { AmazonRegion, AMAZON_REGIONS, DEFAULT_REGION } from '@/lib/amazon-regions';
 
 interface RouteParams {
   params: { asin: string };
@@ -16,7 +17,7 @@ interface RouteParams {
  *
  * 跳转目标: amazon.com/s?k={书名+作者+audible}&i=audible&tag={tag}
  */
-export async function GET(_request: Request, { params }: RouteParams) {
+export async function GET(request: Request, { params }: RouteParams) {
   const { asin } = params;
 
   if (!asin || !/^[A-Z0-9]{10}$/.test(asin)) {
@@ -26,9 +27,17 @@ export async function GET(_request: Request, { params }: RouteParams) {
     );
   }
 
-  // 查找书籍信息，用书名+作者构建搜索链接
+  // 读取区域参数（来自前端 buildRedirectUrl 附加的 ?region=）
+  const url = new URL(request.url);
+  const regionParam = url.searchParams.get('region');
+  const region: AmazonRegion =
+    regionParam && AMAZON_REGIONS.some((r) => r.id === regionParam)
+      ? (regionParam as AmazonRegion)
+      : DEFAULT_REGION;
+
+  // 查找书籍信息，用书名+作者构建搜索链接（按区域路由到对应 Amazon 商店）
   const book = getBookByAsin(asin);
-  const targetUrl = buildAffiliateUrl(asin, book?.title, book?.author);
+  const targetUrl = buildAffiliateUrl(asin, book?.title, book?.author, region);
 
   // 301 永久重定向（SEO 友好）
   const response = NextResponse.redirect(targetUrl, {

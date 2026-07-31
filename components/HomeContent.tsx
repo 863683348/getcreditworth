@@ -11,6 +11,8 @@ import {
   FaqPageJsonLd,
 } from "@/components/seo/JsonLd";
 import { useI18n } from "@/lib/i18n";
+import { useRegion } from "@/components/RegionProvider";
+import { RegionSwitcher } from "@/components/RegionSwitcher";
 import { formatPrice } from "@/lib/utils/format";
 import { AUDIBLE_CREDIT_VALUE } from "@/lib/config";
 import { buildAudibleTrialUrl } from "@/lib/utils/affiliate";
@@ -46,6 +48,7 @@ const FAQ_ITEMS = [
 
 export function HomeContent({ topBooks }: HomeContentProps) {
   const { t } = useI18n();
+  const { region } = useRegion();
 
   return (
     <>
@@ -67,7 +70,7 @@ export function HomeContent({ topBooks }: HomeContentProps) {
             {t.home.subtitle}
           </p>
           <a
-            href={buildAudibleTrialUrl()}
+            href={buildAudibleTrialUrl(region)}
             target="_blank"
             rel="noopener noreferrer sponsored"
             className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 text-xs sm:text-sm md:text-base font-semibold rounded-md bg-primary text-white hover:bg-primary-hover transition-colors duration-150 shadow-sm"
@@ -105,6 +108,9 @@ export function HomeContent({ topBooks }: HomeContentProps) {
             </div>
           </div>
         </div>
+
+        {/* Region switcher (Data source) */}
+        <RegionSwitcher />
 
         {/* Ranked list header */}
         <div className="mb-6 flex items-center gap-2">
