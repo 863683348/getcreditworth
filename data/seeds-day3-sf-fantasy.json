@@ -1,0 +1,1255 @@
+[
+  [
+    "Project Hail Mary",
+    "Andy Weir",
+    "Fiction",
+    "Science Fiction",
+    "Space",
+    "Adventure"
+  ],
+  [
+    "The Martian",
+    "Andy Weir",
+    "Fiction",
+    "Science Fiction",
+    "Space",
+    "Adventure"
+  ],
+  [
+    "Artemis",
+    "Andy Weir",
+    "Fiction",
+    "Science Fiction",
+    "Space",
+    "Adventure"
+  ],
+  [
+    "Dune",
+    "Frank Herbert",
+    "Fiction",
+    "Science Fiction",
+    "Classic",
+    "Space Opera"
+  ],
+  [
+    "Dune Messiah",
+    "Frank Herbert",
+    "Fiction",
+    "Science Fiction",
+    "Classic",
+    "Space Opera"
+  ],
+  [
+    "Children of Dune",
+    "Frank Herbert",
+    "Fiction",
+    "Science Fiction",
+    "Classic",
+    "Space Opera"
+  ],
+  [
+    "Ender's Game",
+    "Orson Scott Card",
+    "Fiction",
+    "Science Fiction",
+    "Classic",
+    "Military Sci-Fi"
+  ],
+  [
+    "Speaker for the Dead",
+    "Orson Scott Card",
+    "Fiction",
+    "Science Fiction",
+    "Classic",
+    "Space"
+  ],
+  [
+    "Neuromancer",
+    "William Gibson",
+    "Fiction",
+    "Science Fiction",
+    "Cyberpunk",
+    "Classic"
+  ],
+  [
+    "Snow Crash",
+    "Neal Stephenson",
+    "Fiction",
+    "Science Fiction",
+    "Cyberpunk",
+    "Classic"
+  ],
+  [
+    "The Three-Body Problem",
+    "Cixin Liu",
+    "Fiction",
+    "Science Fiction",
+    "Hard Sci-Fi",
+    "Space Opera"
+  ],
+  [
+    "The Dark Forest",
+    "Cixin Liu",
+    "Fiction",
+    "Science Fiction",
+    "Hard Sci-Fi",
+    "Space Opera"
+  ],
+  [
+    "Death's End",
+    "Cixin Liu",
+    "Fiction",
+    "Science Fiction",
+    "Hard Sci-Fi",
+    "Space Opera"
+  ],
+  [
+    "The Left Hand of Darkness",
+    "Ursula K. Le Guin",
+    "Fiction",
+    "Science Fiction",
+    "Classic",
+    "Fantasy"
+  ],
+  [
+    "The Handmaid's Tale",
+    "Margaret Atwood",
+    "Fiction",
+    "Science Fiction",
+    "Dystopian",
+    "Classic"
+  ],
+  [
+    "Oryx and Crake",
+    "Margaret Atwood",
+    "Fiction",
+    "Science Fiction",
+    "Dystopian",
+    "Literary Fiction"
+  ],
+  [
+    "Ready Player One",
+    "Ernest Cline",
+    "Fiction",
+    "Science Fiction",
+    "Dystopian",
+    "Adventure"
+  ],
+  [
+    "Ready Player Two",
+    "Ernest Cline",
+    "Fiction",
+    "Science Fiction",
+    "Dystopian",
+    "Adventure"
+  ],
+  [
+    "The Hunger Games",
+    "Suzanne Collins",
+    "Fiction",
+    "Science Fiction",
+    "Dystopian",
+    "Young Adult"
+  ],
+  [
+    "Catching Fire",
+    "Suzanne Collins",
+    "Fiction",
+    "Science Fiction",
+    "Dystopian",
+    "Young Adult"
+  ],
+  [
+    "Mockingjay",
+    "Suzanne Collins",
+    "Fiction",
+    "Science Fiction",
+    "Dystopian",
+    "Young Adult"
+  ],
+  [
+    "The Maze Runner",
+    "James Dashner",
+    "Fiction",
+    "Science Fiction",
+    "Dystopian",
+    "Young Adult"
+  ],
+  [
+    "The Scorch Trials",
+    "James Dashner",
+    "Fiction",
+    "Science Fiction",
+    "Dystopian",
+    "Young Adult"
+  ],
+  [
+    "The Death Cure",
+    "James Dashner",
+    "Fiction",
+    "Science Fiction",
+    "Dystopian",
+    "Young Adult"
+  ],
+  [
+    "Brave New World",
+    "Aldous Huxley",
+    "Fiction",
+    "Science Fiction",
+    "Dystopian",
+    "Classic"
+  ],
+  [
+    "1984",
+    "George Orwell",
+    "Fiction",
+    "Science Fiction",
+    "Dystopian",
+    "Classic"
+  ],
+  [
+    "Fahrenheit 451",
+    "Ray Bradbury",
+    "Fiction",
+    "Science Fiction",
+    "Dystopian",
+    "Classic"
+  ],
+  [
+    "The Hitchhiker's Guide to the Galaxy",
+    "Douglas Adams",
+    "Fiction",
+    "Science Fiction",
+    "Humor",
+    "Classic"
+  ],
+  [
+    "The Restaurant at the End of the Universe",
+    "Douglas Adams",
+    "Fiction",
+    "Science Fiction",
+    "Humor",
+    "Classic"
+  ],
+  [
+    "Life, the Universe and Everything",
+    "Douglas Adams",
+    "Fiction",
+    "Science Fiction",
+    "Humor",
+    "Classic"
+  ],
+  [
+    "So Long, and Thanks for All the Fish",
+    "Douglas Adams",
+    "Fiction",
+    "Science Fiction",
+    "Humor",
+    "Classic"
+  ],
+  [
+    "World War Z",
+    "Max Brooks",
+    "Fiction",
+    "Science Fiction",
+    "Horror",
+    "Post-Apocalyptic"
+  ],
+  [
+    "The Stand",
+    "Stephen King",
+    "Fiction",
+    "Science Fiction",
+    "Horror",
+    "Post-Apocalyptic",
+    "Fantasy"
+  ],
+  [
+    "The Road",
+    "Cormac McCarthy",
+    "Fiction",
+    "Science Fiction",
+    "Post-Apocalyptic",
+    "Literary Fiction"
+  ],
+  [
+    "Wool",
+    "Hugh Howey",
+    "Fiction",
+    "Science Fiction",
+    "Dystopian",
+    "Post-Apocalyptic"
+  ],
+  [
+    "Shift",
+    "Hugh Howey",
+    "Fiction",
+    "Science Fiction",
+    "Dystopian",
+    "Post-Apocalyptic"
+  ],
+  [
+    "Dust",
+    "Hugh Howey",
+    "Fiction",
+    "Science Fiction",
+    "Dystopian",
+    "Post-Apocalyptic"
+  ],
+  [
+    "Red Rising",
+    "Pierce Brown",
+    "Fiction",
+    "Science Fiction",
+    "Space Opera",
+    "Dystopian"
+  ],
+  [
+    "Golden Son",
+    "Pierce Brown",
+    "Fiction",
+    "Science Fiction",
+    "Space Opera",
+    "Dystopian"
+  ],
+  [
+    "Morning Star",
+    "Pierce Brown",
+    "Fiction",
+    "Science Fiction",
+    "Space Opera",
+    "Dystopian"
+  ],
+  [
+    "Dark Age",
+    "Pierce Brown",
+    "Fiction",
+    "Science Fiction",
+    "Space Opera",
+    "Dystopian"
+  ],
+  [
+    "Light Bringer",
+    "Pierce Brown",
+    "Fiction",
+    "Science Fiction",
+    "Space Opera",
+    "Dystopian"
+  ],
+  [
+    "The Long Way to a Small, Angry Planet",
+    "Becky Chambers",
+    "Fiction",
+    "Science Fiction",
+    "Space Opera",
+    "Adventure"
+  ],
+  [
+    "A Closed and Common Orbit",
+    "Becky Chambers",
+    "Fiction",
+    "Science Fiction",
+    "Space Opera",
+    "Adventure"
+  ],
+  [
+    "Record of a Spaceborn Few",
+    "Becky Chambers",
+    "Fiction",
+    "Science Fiction",
+    "Space Opera",
+    "Adventure"
+  ],
+  [
+    "Children of Time",
+    "Adrian Tchaikovsky",
+    "Fiction",
+    "Science Fiction",
+    "Space Opera",
+    "Hard Sci-Fi"
+  ],
+  [
+    "Children of Ruin",
+    "Adrian Tchaikovsky",
+    "Fiction",
+    "Science Fiction",
+    "Space Opera",
+    "Hard Sci-Fi"
+  ],
+  [
+    "Children of Memory",
+    "Adrian Tchaikovsky",
+    "Fiction",
+    "Science Fiction",
+    "Space Opera",
+    "Hard Sci-Fi"
+  ],
+  [
+    "The Fifth Season",
+    "N.K. Jemisin",
+    "Fiction",
+    "Science Fiction",
+    "Fantasy",
+    "Dystopian"
+  ],
+  [
+    "The Obelisk Gate",
+    "N.K. Jemisin",
+    "Fiction",
+    "Science Fiction",
+    "Fantasy",
+    "Dystopian"
+  ],
+  [
+    "The Stone Sky",
+    "N.K. Jemisin",
+    "Fiction",
+    "Science Fiction",
+    "Fantasy",
+    "Dystopian"
+  ],
+  [
+    "The City We Became",
+    "N.K. Jemisin",
+    "Fiction",
+    "Science Fiction",
+    "Fantasy",
+    "Urban Fantasy"
+  ],
+  [
+    "Hyperion",
+    "Dan Simmons",
+    "Fiction",
+    "Science Fiction",
+    "Space Opera",
+    "Classic"
+  ],
+  [
+    "The Fall of Hyperion",
+    "Dan Simmons",
+    "Fiction",
+    "Science Fiction",
+    "Space Opera",
+    "Classic"
+  ],
+  [
+    "Foundation",
+    "Isaac Asimov",
+    "Fiction",
+    "Science Fiction",
+    "Classic",
+    "Space Opera"
+  ],
+  [
+    "Foundation and Empire",
+    "Isaac Asimov",
+    "Fiction",
+    "Science Fiction",
+    "Classic",
+    "Space Opera"
+  ],
+  [
+    "Second Foundation",
+    "Isaac Asimov",
+    "Fiction",
+    "Science Fiction",
+    "Classic",
+    "Space Opera"
+  ],
+  [
+    "I, Robot",
+    "Isaac Asimov",
+    "Fiction",
+    "Science Fiction",
+    "Classic",
+    "Robots"
+  ],
+  [
+    "The Forever War",
+    "Joe Haldeman",
+    "Fiction",
+    "Science Fiction",
+    "Classic",
+    "Military Sci-Fi"
+  ],
+  [
+    "Old Man's War",
+    "John Scalzi",
+    "Fiction",
+    "Science Fiction",
+    "Military Sci-Fi",
+    "Space Opera"
+  ],
+  [
+    "The Ghost Brigades",
+    "John Scalzi",
+    "Fiction",
+    "Science Fiction",
+    "Military Sci-Fi",
+    "Space Opera"
+  ],
+  [
+    "The Last Colony",
+    "John Scalzi",
+    "Fiction",
+    "Science Fiction",
+    "Military Sci-Fi",
+    "Space Opera"
+  ],
+  [
+    "The Kaiju Preservation Society",
+    "John Scalzi",
+    "Fiction",
+    "Science Fiction",
+    "Adventure",
+    "Humor"
+  ],
+  [
+    "Starter Villain",
+    "John Scalzi",
+    "Fiction",
+    "Science Fiction",
+    "Humor",
+    "Fantasy"
+  ],
+  [
+    "A Memory Called Empire",
+    "Arkady Martine",
+    "Fiction",
+    "Science Fiction",
+    "Space Opera",
+    "Political"
+  ],
+  [
+    "A Desolation Called Peace",
+    "Arkady Martine",
+    "Fiction",
+    "Science Fiction",
+    "Space Opera",
+    "Political"
+  ],
+  [
+    "Klara and the Sun",
+    "Kazuo Ishiguro",
+    "Fiction",
+    "Science Fiction",
+    "Literary Fiction",
+    "Robots"
+  ],
+  [
+    "Never Let Me Go",
+    "Kazuo Ishiguro",
+    "Fiction",
+    "Science Fiction",
+    "Literary Fiction",
+    "Dystopian"
+  ],
+  [
+    "The Power",
+    "Naomi Alderman",
+    "Fiction",
+    "Science Fiction",
+    "Dystopian",
+    "Thriller"
+  ],
+  [
+    "The Windup Girl",
+    "Paolo Bacigalupi",
+    "Fiction",
+    "Science Fiction",
+    "Dystopian",
+    "Biotech"
+  ],
+  [
+    "Blindsight",
+    "Peter Watts",
+    "Fiction",
+    "Science Fiction",
+    "Hard Sci-Fi",
+    "Space"
+  ],
+  [
+    "The Ministry for the Future",
+    "Kim Stanley Robinson",
+    "Fiction",
+    "Science Fiction",
+    "Hard Sci-Fi",
+    "Climate Fiction"
+  ],
+  [
+    "Aurora",
+    "Kim Stanley Robinson",
+    "Fiction",
+    "Science Fiction",
+    "Space",
+    "Hard Sci-Fi"
+  ],
+  [
+    "Game of Thrones",
+    "George R.R. Martin",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Political"
+  ],
+  [
+    "A Clash of Kings",
+    "George R.R. Martin",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Political"
+  ],
+  [
+    "A Storm of Swords",
+    "George R.R. Martin",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Political"
+  ],
+  [
+    "A Feast for Crows",
+    "George R.R. Martin",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Political"
+  ],
+  [
+    "A Dance with Dragons",
+    "George R.R. Martin",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Political"
+  ],
+  [
+    "The Fellowship of the Ring",
+    "J.R.R. Tolkien",
+    "Fiction",
+    "Fantasy",
+    "Classic",
+    "Epic Fantasy"
+  ],
+  [
+    "The Two Towers",
+    "J.R.R. Tolkien",
+    "Fiction",
+    "Fantasy",
+    "Classic",
+    "Epic Fantasy"
+  ],
+  [
+    "The Return of the King",
+    "J.R.R. Tolkien",
+    "Fiction",
+    "Fantasy",
+    "Classic",
+    "Epic Fantasy"
+  ],
+  [
+    "The Hobbit",
+    "J.R.R. Tolkien",
+    "Fiction",
+    "Fantasy",
+    "Classic",
+    "Epic Fantasy",
+    "Adventure"
+  ],
+  [
+    "Harry Potter and the Sorcerer's Stone",
+    "J.K. Rowling",
+    "Fiction",
+    "Fantasy",
+    "Young Adult",
+    "Classic"
+  ],
+  [
+    "Harry Potter and the Chamber of Secrets",
+    "J.K. Rowling",
+    "Fiction",
+    "Fantasy",
+    "Young Adult",
+    "Classic"
+  ],
+  [
+    "Harry Potter and the Prisoner of Azkaban",
+    "J.K. Rowling",
+    "Fiction",
+    "Fantasy",
+    "Young Adult",
+    "Classic"
+  ],
+  [
+    "Harry Potter and the Goblet of Fire",
+    "J.K. Rowling",
+    "Fiction",
+    "Fantasy",
+    "Young Adult",
+    "Classic"
+  ],
+  [
+    "Harry Potter and the Order of the Phoenix",
+    "J.K. Rowling",
+    "Fiction",
+    "Fantasy",
+    "Young Adult",
+    "Classic"
+  ],
+  [
+    "Harry Potter and the Half-Blood Prince",
+    "J.K. Rowling",
+    "Fiction",
+    "Fantasy",
+    "Young Adult",
+    "Classic"
+  ],
+  [
+    "Harry Potter and the Deathly Hallows",
+    "J.K. Rowling",
+    "Fiction",
+    "Fantasy",
+    "Young Adult",
+    "Classic"
+  ],
+  [
+    "The Name of the Wind",
+    "Patrick Rothfuss",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Classic"
+  ],
+  [
+    "The Wise Man's Fear",
+    "Patrick Rothfuss",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Classic"
+  ],
+  [
+    "The Way of Kings",
+    "Brandon Sanderson",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "High Fantasy"
+  ],
+  [
+    "Words of Radiance",
+    "Brandon Sanderson",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "High Fantasy"
+  ],
+  [
+    "Oathbringer",
+    "Brandon Sanderson",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "High Fantasy"
+  ],
+  [
+    "Rhythm of War",
+    "Brandon Sanderson",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "High Fantasy"
+  ],
+  [
+    "Mistborn: The Final Empire",
+    "Brandon Sanderson",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "High Fantasy"
+  ],
+  [
+    "The Well of Ascension",
+    "Brandon Sanderson",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "High Fantasy"
+  ],
+  [
+    "The Hero of Ages",
+    "Brandon Sanderson",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "High Fantasy"
+  ],
+  [
+    "The Alloy of Law",
+    "Brandon Sanderson",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Steampunk"
+  ],
+  [
+    "Shadows of Self",
+    "Brandon Sanderson",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Steampunk"
+  ],
+  [
+    "The Bands of Mourning",
+    "Brandon Sanderson",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Steampunk"
+  ],
+  [
+    "The Lost Metal",
+    "Brandon Sanderson",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Steampunk"
+  ],
+  [
+    "Tress of the Emerald Sea",
+    "Brandon Sanderson",
+    "Fiction",
+    "Fantasy",
+    "Adventure",
+    "Romance"
+  ],
+  [
+    "Yumi and the Nightmare Painter",
+    "Brandon Sanderson",
+    "Fiction",
+    "Fantasy",
+    "Romance",
+    "Adventure"
+  ],
+  [
+    "The Sunlit Man",
+    "Brandon Sanderson",
+    "Fiction",
+    "Fantasy",
+    "Science Fiction",
+    "Adventure"
+  ],
+  [
+    "Good Omens",
+    "Neil Gaiman",
+    "Fiction",
+    "Fantasy",
+    "Humor",
+    "Classic"
+  ],
+  [
+    "American Gods",
+    "Neil Gaiman",
+    "Fiction",
+    "Fantasy",
+    "Urban Fantasy",
+    "Mythology"
+  ],
+  [
+    "Anansi Boys",
+    "Neil Gaiman",
+    "Fiction",
+    "Fantasy",
+    "Urban Fantasy",
+    "Mythology",
+    "Humor"
+  ],
+  [
+    "The Ocean at the End of the Lane",
+    "Neil Gaiman",
+    "Fiction",
+    "Fantasy",
+    "Urban Fantasy",
+    "Mythology"
+  ],
+  [
+    "Neverwhere",
+    "Neil Gaiman",
+    "Fiction",
+    "Fantasy",
+    "Urban Fantasy",
+    "Adventure"
+  ],
+  [
+    "The Night Circus",
+    "Erin Morgenstern",
+    "Fiction",
+    "Fantasy",
+    "Romance",
+    "Historical Fiction"
+  ],
+  [
+    "The Starless Sea",
+    "Erin Morgenstern",
+    "Fiction",
+    "Fantasy",
+    "Romance",
+    "Adventure"
+  ],
+  [
+    "Circe",
+    "Madeline Miller",
+    "Fiction",
+    "Fantasy",
+    "Mythology",
+    "Historical Fiction"
+  ],
+  [
+    "The Song of Achilles",
+    "Madeline Miller",
+    "Fiction",
+    "Fantasy",
+    "Mythology",
+    "Romance",
+    "Historical Fiction"
+  ],
+  [
+    "Ninth House",
+    "Leigh Bardugo",
+    "Fiction",
+    "Fantasy",
+    "Dark Fantasy",
+    "Mystery",
+    "Urban Fantasy"
+  ],
+  [
+    "Hell Bent",
+    "Leigh Bardugo",
+    "Fiction",
+    "Fantasy",
+    "Dark Fantasy",
+    "Mystery",
+    "Urban Fantasy"
+  ],
+  [
+    "Six of Crows",
+    "Leigh Bardugo",
+    "Fiction",
+    "Fantasy",
+    "Young Adult",
+    "Heist",
+    "Adventure"
+  ],
+  [
+    "Crooked Kingdom",
+    "Leigh Bardugo",
+    "Fiction",
+    "Fantasy",
+    "Young Adult",
+    "Heist",
+    "Adventure"
+  ],
+  [
+    "Shadow and Bone",
+    "Leigh Bardugo",
+    "Fiction",
+    "Fantasy",
+    "Young Adult",
+    "Epic Fantasy"
+  ],
+  [
+    "Siege and Storm",
+    "Leigh Bardugo",
+    "Fiction",
+    "Fantasy",
+    "Young Adult",
+    "Epic Fantasy"
+  ],
+  [
+    "Ruin and Rising",
+    "Leigh Bardugo",
+    "Fiction",
+    "Fantasy",
+    "Young Adult",
+    "Epic Fantasy"
+  ],
+  [
+    "The Priory of the Orange Tree",
+    "Samantha Shannon",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Romance"
+  ],
+  [
+    "A Day of Fallen Night",
+    "Samantha Shannon",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Romance"
+  ],
+  [
+    "Uprooted",
+    "Naomi Novik",
+    "Fiction",
+    "Fantasy",
+    "Romance",
+    "Fairy Tale"
+  ],
+  [
+    "Spinning Silver",
+    "Naomi Novik",
+    "Fiction",
+    "Fantasy",
+    "Fairy Tale",
+    "Historical Fiction"
+  ],
+  [
+    "A Deadly Education",
+    "Naomi Novik",
+    "Fiction",
+    "Fantasy",
+    "Young Adult",
+    "Dark Fantasy"
+  ],
+  [
+    "The Last Graduate",
+    "Naomi Novik",
+    "Fiction",
+    "Fantasy",
+    "Young Adult",
+    "Dark Fantasy"
+  ],
+  [
+    "The Golden Enclaves",
+    "Naomi Novik",
+    "Fiction",
+    "Fantasy",
+    "Young Adult",
+    "Dark Fantasy"
+  ],
+  [
+    "The Witcher: The Last Wish",
+    "Andrzej Sapkowski",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Adventure"
+  ],
+  [
+    "Blood of Elves",
+    "Andrzej Sapkowski",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Adventure"
+  ],
+  [
+    "The Time of Contempt",
+    "Andrzej Sapkowski",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Adventure"
+  ],
+  [
+    "Baptism of Fire",
+    "Andrzej Sapkowski",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Adventure"
+  ],
+  [
+    "The Tower of the Swallow",
+    "Andrzej Sapkowski",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Adventure"
+  ],
+  [
+    "Lady of the Lake",
+    "Andrzej Sapkowski",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Adventure"
+  ],
+  [
+    "Assassin's Apprentice",
+    "Robin Hobb",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Classic"
+  ],
+  [
+    "Royal Assassin",
+    "Robin Hobb",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Classic"
+  ],
+  [
+    "Assassin's Quest",
+    "Robin Hobb",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Classic"
+  ],
+  [
+    "Fool's Errand",
+    "Robin Hobb",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Adventure"
+  ],
+  [
+    "The Golden Fool",
+    "Robin Hobb",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Adventure"
+  ],
+  [
+    "Fool's Fate",
+    "Robin Hobb",
+    "Fiction",
+    "Fantasy",
+    "Epic Fantasy",
+    "Adventure"
+  ],
+  [
+    "The Lion, the Witch and the Wardrobe",
+    "C.S. Lewis",
+    "Fiction",
+    "Fantasy",
+    "Classic",
+    "Young Adult"
+  ],
+  [
+    "Prince Caspian",
+    "C.S. Lewis",
+    "Fiction",
+    "Fantasy",
+    "Classic",
+    "Young Adult"
+  ],
+  [
+    "The Voyage of the Dawn Treader",
+    "C.S. Lewis",
+    "Fiction",
+    "Fantasy",
+    "Classic",
+    "Young Adult"
+  ],
+  [
+    "The Silver Chair",
+    "C.S. Lewis",
+    "Fiction",
+    "Fantasy",
+    "Classic",
+    "Young Adult"
+  ],
+  [
+    "Eragon",
+    "Christopher Paolini",
+    "Fiction",
+    "Fantasy",
+    "Young Adult",
+    "Epic Fantasy",
+    "Adventure"
+  ],
+  [
+    "Eldest",
+    "Christopher Paolini",
+    "Fiction",
+    "Fantasy",
+    "Young Adult",
+    "Epic Fantasy",
+    "Adventure"
+  ],
+  [
+    "Brisingr",
+    "Christopher Paolini",
+    "Fiction",
+    "Fantasy",
+    "Young Adult",
+    "Epic Fantasy",
+    "Adventure"
+  ],
+  [
+    "Inheritance",
+    "Christopher Paolini",
+    "Fiction",
+    "Fantasy",
+    "Young Adult",
+    "Epic Fantasy",
+    "Adventure"
+  ],
+  [
+    "The Gunslinger",
+    "Stephen King",
+    "Fiction",
+    "Fantasy",
+    "Dark Fantasy",
+    "Science Fiction",
+    "Western"
+  ],
+  [
+    "The Drawing of the Three",
+    "Stephen King",
+    "Fiction",
+    "Fantasy",
+    "Dark Fantasy",
+    "Science Fiction"
+  ],
+  [
+    "The Waste Lands",
+    "Stephen King",
+    "Fiction",
+    "Fantasy",
+    "Dark Fantasy",
+    "Science Fiction"
+  ],
+  [
+    "Wizard and Glass",
+    "Stephen King",
+    "Fiction",
+    "Fantasy",
+    "Dark Fantasy",
+    "Science Fiction"
+  ],
+  [
+    "Wolves of the Calla",
+    "Stephen King",
+    "Fiction",
+    "Fantasy",
+    "Dark Fantasy",
+    "Science Fiction"
+  ],
+  [
+    "Song of Susannah",
+    "Stephen King",
+    "Fiction",
+    "Fantasy",
+    "Dark Fantasy",
+    "Science Fiction"
+  ],
+  [
+    "The Dark Tower",
+    "Stephen King",
+    "Fiction",
+    "Fantasy",
+    "Dark Fantasy",
+    "Science Fiction"
+  ]
+]
