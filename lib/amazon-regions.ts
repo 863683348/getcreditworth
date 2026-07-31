@@ -34,7 +34,7 @@ export const AMAZON_REGIONS: AmazonRegionInfo[] = [
   { id: "de", tld: "de", domain: "amazon.de", label: "Germany", code: "DE", visible: false },
   { id: "fr", tld: "fr", domain: "amazon.fr", label: "France", code: "FR", visible: true },
   { id: "it", tld: "it", domain: "amazon.it", label: "Italy", code: "IT", visible: true },
-  { id: "es", tld: "es", domain: "amazon.es", label: "Spain", code: "ES", visible: true },
+  { id: "es", tld: "es", domain: "amazon.es", label: "Spain", code: "ES", visible: false },
 ];
 
 /** 切换器中实际展示的区域（过滤 hidden） */
