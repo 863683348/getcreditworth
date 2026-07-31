@@ -33,7 +33,7 @@ export const AMAZON_REGIONS: AmazonRegionInfo[] = [
   { id: "uk", tld: "co.uk", domain: "amazon.co.uk", label: "United Kingdom", code: "UK", visible: true },
   { id: "de", tld: "de", domain: "amazon.de", label: "Germany", code: "DE", visible: false },
   { id: "fr", tld: "fr", domain: "amazon.fr", label: "France", code: "FR", visible: true },
-  { id: "it", tld: "it", domain: "amazon.it", label: "Italy", code: "IT", visible: false },
+  { id: "it", tld: "it", domain: "amazon.it", label: "Italy", code: "IT", visible: true },
   { id: "es", tld: "es", domain: "amazon.es", label: "Spain", code: "ES", visible: true },
 ];
 
