@@ -6,6 +6,7 @@ import { Menu, X, Trophy, BookOpen, ListChecks, Calculator, FileText, Bookmark, 
 import { NAV_ITEMS, SITE_CONFIG } from "@/lib/config";
 import { useI18n } from "@/lib/i18n";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { RegionSwitcher } from "@/components/RegionSwitcher";
 
 const ICON_MAP = {
   Trophy,
@@ -72,6 +73,7 @@ export function Header() {
 
         {/* Right side */}
         <div className="flex items-center gap-1 sm:gap-2">
+          <RegionSwitcher variant="compact" />
           <LanguageSwitcher />
           <button
             className="md:hidden flex items-center justify-center h-10 w-10 rounded-md text-text-primary hover:bg-bg-surface"

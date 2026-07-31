@@ -11,6 +11,7 @@ import { ValueScoreBadge } from "@/components/ValueScoreBadge";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { BookOpen, ArrowLeft } from "lucide-react";
+import { RegionAffiliateLink } from "@/components/RegionAffiliateLink";
 
 export const revalidate = 86400;
 
@@ -119,13 +120,12 @@ export default function SeriesDetailPage({ params }: PageProps) {
                     <ValueScoreBadge score={book.valueScore} size="sm" />
                   </td>
                   <td className="p-3">
-                    <a
-                      href={"/api/redirect/" + book.asin}
-                      rel="nofollow sponsored"
+                    <RegionAffiliateLink
+                      asin={book.asin}
                       className="inline-block px-3 py-1 bg-primary text-white text-xs rounded-md hover:bg-primary-dark transition-colors"
                     >
                       Buy
-                    </a>
+                    </RegionAffiliateLink>
                   </td>
                 </tr>
               );

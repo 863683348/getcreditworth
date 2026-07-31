@@ -4,10 +4,15 @@ import Link from "next/link";
 import { ExternalLink } from "lucide-react";
 import { SITE_CONFIG } from "@/lib/config";
 import { useI18n } from "@/lib/i18n";
+import { useRegion } from "@/components/RegionProvider";
+import { getAffiliateTag } from "@/lib/utils/affiliate";
+import { AMAZON_TLD } from "@/lib/amazon-regions";
 
 export function Footer() {
   const year = new Date().getFullYear();
   const { t } = useI18n();
+  const { region } = useRegion();
+  const amazonUrl = `https://www.amazon.${AMAZON_TLD[region]}/?tag=${getAffiliateTag(region)}`;
 
   return (
     <footer className="border-t border-border bg-bg-surface mt-12 sm:mt-16">
@@ -60,7 +65,7 @@ export function Footer() {
             <Link href="/privacy" className="hover:text-primary min-h-[44px] flex items-center">{t.footer.privacy}</Link>
             <Link href="/about#how-it-works" className="hover:text-primary min-h-[44px] flex items-center">{t.footer.howItWorks}</Link>
             <a
-              href="https://www.amazon.com"
+              href={amazonUrl}
               target="_blank"
               rel="noopener noreferrer sponsored"
               className="flex items-center gap-1 hover:text-primary min-h-[44px]"

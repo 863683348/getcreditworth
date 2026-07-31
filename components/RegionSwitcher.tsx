@@ -1,17 +1,49 @@
 /**
- * 首页区域切换器（Data source 区块）
+ * Amazon 区域切换器
  *
- * 既是数据源展示（列出可路由的 Amazon 区域站点），
- * 也是选择器：点击切换区域，affiliate 链接随之路由到对应 Amazon 商店。
- * 当前区域高亮，选择持久化在 localStorage。
+ * 两种形态：
+ * - variant="full"（默认）：首页 "Data source" 区块，带标题与说明，作为数据源展示。
+ * - variant="compact"：Header 用的紧凑下拉，全站可见，便于用户在任意页面切换区域。
+ *
+ * 两者共用同一个 RegionProvider Context，因此在任一处切换都会同步更新（并持久化到 localStorage）。
+ * 区域选择决定 affiliate 链接路由到哪个 Amazon 商店（TLD + tag）。
  */
 "use client";
 
+import { Globe } from "lucide-react";
 import { useRegion } from "@/components/RegionProvider";
-import { VISIBLE_REGIONS } from "@/lib/amazon-regions";
+import { VISIBLE_REGIONS, type AmazonRegion } from "@/lib/amazon-regions";
 
-export function RegionSwitcher() {
+interface RegionSwitcherProps {
+  variant?: "full" | "compact";
+}
+
+export function RegionSwitcher({ variant = "full" }: RegionSwitcherProps) {
   const { region, setRegion } = useRegion();
+
+  if (variant === "compact") {
+    return (
+      <label
+        className="flex items-center gap-1.5 rounded-md border border-border bg-bg-base px-2 py-1.5 text-text-secondary hover:border-primary-200 hover:text-primary transition-colors duration-150"
+        title="Choose your Amazon region"
+      >
+        <Globe className="h-4 w-4 flex-shrink-0" aria-hidden="true" />
+        <span className="sr-only">Select Amazon region</span>
+        <select
+          value={region}
+          onChange={(e) => setRegion(e.target.value as AmazonRegion)}
+          aria-label="Select Amazon region"
+          className="bg-transparent text-xs sm:text-sm font-medium text-current outline-none cursor-pointer"
+        >
+          {VISIBLE_REGIONS.map((r) => (
+            <option key={r.id} value={r.id} className="text-text-primary">
+              {r.domain}
+            </option>
+          ))}
+        </select>
+      </label>
+    );
+  }
 
   return (
     <section

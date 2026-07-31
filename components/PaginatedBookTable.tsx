@@ -6,6 +6,8 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { ValueScoreBadge } from '@/components/ValueScoreBadge';
 import { formatDuration, formatPrice, formatRating } from '@/lib/utils/format';
 import { useI18n } from '@/lib/i18n';
+import { useRegion } from '@/components/RegionProvider';
+import { buildRedirectUrl } from '@/lib/utils/affiliate';
 import type { Book } from '@/lib/types';
 
 interface PaginatedBookTableProps {
@@ -26,6 +28,7 @@ export function PaginatedBookTable({
   showPrice = true,
 }: PaginatedBookTableProps) {
   const { t } = useI18n();
+  const { region } = useRegion();
   const [page, setPage] = useState(1);
   const [pageSize, setPageSize] = useState(defaultPageSize);
 
@@ -96,7 +99,7 @@ export function PaginatedBookTable({
                   </td>
                   <td className="p-3">
                     <a
-                      href={"/api/redirect/" + book.asin}
+                      href={buildRedirectUrl(book.asin, region)}
                       rel="nofollow sponsored"
                       className="inline-block px-3 py-1 bg-primary text-white text-xs rounded-md hover:bg-primary-dark transition-colors"
                     >
