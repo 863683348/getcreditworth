@@ -35,7 +35,7 @@ export function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const { t } = useI18n();
 
-  // 缁夎濮╅懣婊冨礋閹垫挸绱戦弮鍫曟敚鐎?body 濠婃艾濮?
+  // 移动菜单打开时锁定 body 滚动
   useEffect(() => {
     if (mobileOpen) {
       document.body.classList.add("menu-open");
@@ -47,14 +47,14 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-bg-base border-b border-border">
-      <div className="container-content flex h-14 sm:h-16 items-center justify-between safe-area-padding">
+      <div className="container-content flex h-16 sm:h-[4.5rem] items-center justify-between safe-area-padding">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 flex-shrink-0" onClick={() => setMobileOpen(false)}>
           <span className="font-semibold text-base sm:text-lg text-text-primary">GetCreditWorth</span>
         </Link>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-1">
+        <nav className="hidden md:flex items-center gap-1.5 lg:gap-2.5">
           {NAV_ITEMS.map((item) => {
             const Icon = ICON_MAP[item.icon];
             const labelKey = NAV_LABELS[item.href];
@@ -62,7 +62,7 @@ export function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="flex items-center gap-1.5 px-2.5 py-2 rounded-md text-sm text-text-secondary hover:text-primary hover:bg-primary-50 transition-colors duration-150"
+                className="flex items-center gap-2 px-3 sm:px-3.5 py-2.5 rounded-md text-sm text-text-secondary hover:text-primary hover:bg-primary-50 transition-colors duration-150"
               >
                 {Icon && <Icon className="h-4 w-4" />}
                 {labelKey ? t.nav[labelKey] : item.label}
@@ -72,7 +72,7 @@ export function Header() {
         </nav>
 
         {/* Right side */}
-        <div className="flex items-center gap-1 sm:gap-2">
+        <div className="flex items-center gap-2 sm:gap-3">
           <RegionSwitcher variant="compact" />
           <LanguageSwitcher />
           <button

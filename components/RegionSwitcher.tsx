@@ -24,7 +24,7 @@ export function RegionSwitcher({ variant = "full" }: RegionSwitcherProps) {
   if (variant === "compact") {
     return (
       <label
-        className="flex items-center gap-1.5 rounded-md border border-border bg-bg-base px-2 py-1.5 text-text-secondary hover:border-primary-200 hover:text-primary transition-colors duration-150"
+        className="flex items-center gap-2 rounded-md border border-border bg-bg-base px-2.5 py-2 text-text-secondary hover:border-primary-200 hover:text-primary transition-colors duration-150"
         title="Choose your Amazon region"
       >
         <Globe className="h-4 w-4 flex-shrink-0" aria-hidden="true" />

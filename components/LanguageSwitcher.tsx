@@ -9,7 +9,7 @@ export function LanguageSwitcher() {
   return (
     <button
       onClick={toggleLocale}
-      className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-md text-xs text-text-secondary hover:text-primary hover:bg-primary-50 transition-colors duration-150"
+      className="flex items-center gap-2 px-3 py-2 rounded-md text-xs text-text-secondary hover:text-primary hover:bg-primary-50 transition-colors duration-150"
       aria-label={locale === 'en' ? '切换到中文' : 'Switch to English'}
       title={locale === 'en' ? '切换到中文' : 'Switch to English'}
     >
