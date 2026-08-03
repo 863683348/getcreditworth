@@ -71,15 +71,15 @@
     font-variant-numeric: tabular-nums;
   }
 
-  /* 链接默认样式 */
+  /* 链接默认样式
+     重要:不写 a:hover 全局颜色规则!
+     原因:`a:hover { color: ... }` 会覆盖组件层 .text-white 等工具类,
+     导致带白字按钮(Start Free Trial、Use a Credit)hover 时文字变深色、不可见。
+     如需默认链接变色,在对应位置用 Tailwind 的 hover:text-primary-hover 工具类。 */
   a {
     color: var(--color-primary);
     text-decoration: none;
     transition: color 150ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-
-  a:hover {
-    color: var(--color-primary-hover);
   }
 
   /* 标题 */
