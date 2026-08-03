@@ -33,11 +33,22 @@ const REGION_TAGS: Partial<Record<AmazonRegion, string>> = {
   // de: "your-de-tag-22",
 };
 
+// 必须为每个区域写「静态字面量」的 process.env.NEXT_PUBLIC_XXX 引用。
+// Next.js 只有在 key 是静态字面量时，才会在构建期把值内联进客户端 bundle；
+// 用 process.env[`NEXT_PUBLIC_...${region}`] 这种计算 key 无法被内联，
+// 浏览器端会取到 undefined 而回退到美国 tag（之前 IT 区域不生效的根因就在这）。
+const REGION_TAG_ENV: Partial<Record<AmazonRegion, string | undefined>> = {
+  us: process.env.NEXT_PUBLIC_AMAZON_AFFILIATE_TAG_US,
+  uk: process.env.NEXT_PUBLIC_AMAZON_AFFILIATE_TAG_UK,
+  fr: process.env.NEXT_PUBLIC_AMAZON_AFFILIATE_TAG_FR,
+  it: process.env.NEXT_PUBLIC_AMAZON_AFFILIATE_TAG_IT,
+  de: process.env.NEXT_PUBLIC_AMAZON_AFFILIATE_TAG_DE,
+  es: process.env.NEXT_PUBLIC_AMAZON_AFFILIATE_TAG_ES,
+};
+
 /** 取某区域的 affiliate tag，未配置则回退全局 tag */
 export function getAffiliateTag(region: AmazonRegion = DEFAULT_REGION): string {
-  const envKey = `NEXT_PUBLIC_AMAZON_AFFILIATE_TAG_${region.toUpperCase()}`;
-  const envTag = process.env[envKey];
-  return envTag || REGION_TAGS[region] || AFFILIATE_TAG;
+  return REGION_TAG_ENV[region] || REGION_TAGS[region] || AFFILIATE_TAG;
 }
 
 /**
