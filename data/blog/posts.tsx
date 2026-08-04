@@ -2580,6 +2580,64 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+
+  'war-and-peace-audible-review': {
+    slug: 'war-and-peace-audible-review',
+    title: 'War and Peace Audiobook Review: 60 Hours of Listening Value',
+    description:
+      'War and Peace is roughly 60 hours for a single Audible credit — by cost-per-hour, one of the best credit uses in the catalog. Full review, version tips, and who it is for.',
+    keywords: ['war and peace audible review', 'longest audiobooks', 'classic audiobooks value', 'war and peace audiobook length'],
+    date: '2026-08-05',
+    readTime: '7 min read',
+    category: 'Book Review',
+    content: (
+      <>
+        <p>
+          War and Peace is a value monster on Audible: roughly 60 hours for a single credit.
+          By cost-per-hour, it is one of the best credit uses in the catalog — if you can
+          finish it. This review helps you decide whether to spend a credit on it.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What 60 hours means</h2>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>Most audiobooks: 8-15 hours</li>
+          <li>War and Peace: ~60 hours (varies by version)</li>
+          <li>One credit for 60 hours = extremely low hourly cost</li>
+          <li>vs an 8-hour bestseller: 5x+ the hourly cost</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Credit value math</h2>
+        <p>
+          At roughly $14.95 per credit: War and Peace works out to about $0.25/hour, while an
+          average 12-hour audiobook is about $1.25/hour. In other words, the credit value of
+          this book crushes most of the catalog.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Who is it for?</h2>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>Epic and historical fiction fans</li>
+          <li>Long commuters with real listening time</li>
+          <li>Credit-value maximizers</li>
+          <li>Avoid it if you dislike slow, sprawling narratives</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Version tips</h2>
+        <p>
+          Prefer premium narrations, and make sure to pick the <strong>unabridged</strong>{" "}
+          edition — the abridged version is only ~20 hours and loses much of the value.
+          Use our <a href="/calculator" className="text-accent hover:underline">credit calculator</a>{" "}
+          to compare cost-per-hour across versions before you spend.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Verdict</h2>
+        <p>
+          If you have the time and enjoy literary epics, War and Peace is one of the best
+          credit-to-value trades on Audible. Sample the first chapter before committing —
+          its pacing is not for everyone.
+        </p>
+      </>
+    ),
+  },
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
