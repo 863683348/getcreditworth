@@ -2,7 +2,7 @@ name: Book Library Daily Expand (30-day plan)
 
 on:
   schedule:
-    - cron: "0 1 * * *" # UTC 01:00 = 北京时间 09:00
+    - cron: "15 16 * * *" # UTC 16:15 = 北京时间次日 00:15
   workflow_dispatch:
     inputs:
       count:
