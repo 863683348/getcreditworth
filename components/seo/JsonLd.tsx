@@ -107,6 +107,31 @@ export function OrganizationJsonLd() {
   return <JsonLd data={schema} />;
 }
 
+export function SoftwareApplicationJsonLd() {
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: "GetCreditWorth — Audible Credit Value Calculator",
+    applicationCategory: "FinanceApplication",
+    applicationSubCategory: "Calculator",
+    operatingSystem: "Web",
+    url: "https://getcreditworth.com",
+    description:
+      "Free web tool to calculate how much an Audible credit is worth and find the best audiobooks to spend credits on using a transparent Value Score formula.",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "GetCreditWorth",
+      url: "https://getcreditworth.com",
+    },
+  };
+  return <JsonLd data={schema} />;
+}
+
 export function BreadcrumbListJsonLd({
   items,
 }: {
