@@ -1,0 +1,65 @@
+name: Book Library Daily Expand (30-day plan)
+
+on:
+  schedule:
+    - cron: "0 1 * * *" # UTC 01:00 = 北京时间 09:00
+  workflow_dispatch:
+    inputs:
+      count:
+        description: "目标新增本数"
+        required: false
+        default: "150"
+      day:
+        description: "指定主题日(1-30)，留空按日期自动"
+        required: false
+        default: ""
+
+env:
+  NODE_VERSION: "20"
+
+jobs:
+  expand-books:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Run daily book expand
+        id: expand
+        run: |
+          COUNT="${{ github.event.inputs.count || '150' }}"
+          DAY_ARG=""
+          if [ -n "${{ github.event.inputs.day }}" ]; then
+            DAY_ARG="--day ${{ github.event.inputs.day }}"
+          fi
+          node scripts/fetch-books-daily.mjs "$COUNT" $DAY_ARG
+
+      - name: Commit and push
+        run: |
+          git config user.name "getcreditworth-bot"
+          git config user.email "bot@getcreditworth.com"
+          git add data/books.json
+          if git diff --cached --quiet; then
+            echo "No new books today, nothing to commit"
+          else
+            git commit -m "chore(books): daily expand $(date +'%Y-%m-%d')"
+            git push
+            echo "Pushed book expansion"
+          fi
+
+      - name: Trigger ISR revalidation
+        if: ${{ vars.SITE_URL != '' }}
+        run: |
+          curl -s -X POST "${{ vars.SITE_URL }}/api/revalidate" \
+            -H "Content-Type: application/json" \
+            -d '{"secret":"${{ secrets.REVALIDATE_SECRET }}"}' \
+            || echo "revalidate skipped"
+        continue-on-error: true
