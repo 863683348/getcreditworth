@@ -8,6 +8,7 @@ import {
   ItemListJsonLd,
   WebsiteJsonLd,
   OrganizationJsonLd,
+  SoftwareApplicationJsonLd,
   FaqPageJsonLd,
 } from "@/components/seo/JsonLd";
 import { useI18n } from "@/lib/i18n";
@@ -54,6 +55,7 @@ export function HomeContent({ topBooks }: HomeContentProps) {
     <>
       <WebsiteJsonLd />
       <OrganizationJsonLd />
+      <SoftwareApplicationJsonLd />
       <FaqPageJsonLd questions={FAQ_ITEMS} />
       <ItemListJsonLd
         books={topBooks}
