@@ -72,7 +72,7 @@ export const en = {
 
   // Home page
   home: {
-    title: 'Top Audiobooks by Value Score',
+    title: 'How Much Is an Audible Credit Worth? Top Value-Score Audiobooks',
     subtitle: 'Ranked by Value Score —a formula combining listening hours, rating, and price to find the best audiobooks to spend your Audible credits on.',
     howCalculated: 'How is Value Score calculated?',
     formulaLabel: 'The formula:',
