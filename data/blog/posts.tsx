@@ -2638,6 +2638,73 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+
+  'wind-and-truth-audible-review': {
+    slug: 'wind-and-truth-audible-review',
+    title: 'Wind and Truth Review: Is Brandon Sanderson\u2019s Epic Worth a Credit?',
+    description:
+      'Wind and Truth audiobook review — 62.8 hours of Brandon Sanderson\u2019s Stormlight finale for one credit. Credit math, who it is for, and whether it belongs on your 2026 fantasy list.',
+    keywords: ['wind and truth audiobook review', 'brandon sanderson audiobooks', 'best fantasy audiobooks 2026', 'wind and truth audible length'],
+    date: '2026-08-06',
+    readTime: '7 min read',
+    category: 'Book Review',
+    content: (
+      <>
+        <p>
+          Wind and Truth is the fifth Stormlight Archive novel and one of 2026\u2019s most
+          discussed <strong>wind and truth audiobook review</strong> targets: roughly 63 hours
+          of narrated epic fantasy for a single Audible credit. This review breaks down the
+          credit math, the narration, and exactly who should spend a credit on it.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Wind and Truth at a glance</h2>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>Author: Brandon Sanderson (with Stormlight co-creator co-writing)</li>
+          <li>Runtime: 62.8 hours (unabridged)</li>
+          <li>Rating: 4.5 stars from ~3,800 reviews</li>
+          <li>Price: ~$17.62 — but one credit covers the whole thing</li>
+          <li>Value Score: 16.0 — among the best in Epic Fantasy</li>
+          <li>Categories: Fantasy / Epic Fantasy / Fiction</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The credit math</h2>
+        <p>
+          At $14.95 per credit, Wind and Truth works out to roughly <strong>$0.24/hour</strong>.
+          An average 12-hour bestseller costs about $1.25/hour. In other words, this is a
+          top-tier credit-to-value trade — if you actually finish it. Use our{" "}
+          <a href="/calculator" className="text-accent hover:underline">credit calculator</a>{" "}
+          to compare cost-per-hour against other <a href="/category/fantasy" className="text-accent hover:underline">fantasy audiobooks</a>{" "}
+          before you commit.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Where it ranks among Brandon Sanderson audiobooks</h2>
+        <p>
+          Among <strong>Brandon Sanderson audiobooks</strong>, Wind and Truth is the longest
+          single installment, and it sits near the top of any{" "}
+          <strong>best fantasy audiobooks 2026</strong> shortlist. The narration work across the
+          Stormlight series is consistently strong, and the book caps a decade-long arc —
+          which also means it is not a starting point for newcomers.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Who is it for?</h2>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>Stormlight Archive fans finishing the arc</li>
+          <li>Epic fantasy listeners with 60+ hours of listening time</li>
+          <li>Credit-value maximizers who want long runtime per credit</li>
+          <li>Avoid it if you are new to the series — start with The Way of Kings</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Verdict</h2>
+        <p>
+          If you are caught up on Stormlight, Wind and Truth is an easy credit. If you are
+          looking for a single standalone fantasy pick, consider a shorter entry from the{" "}
+          <a href="/books/B0CQ3759C3" className="text-accent hover:underline">Wind and Truth book page</a>{" "}
+          and check the value score first. Either way, 62.8 hours at one credit is hard to beat
+          in 2026.
+        </p>
+      </>
+    ),
+  },
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
