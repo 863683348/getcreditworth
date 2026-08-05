@@ -58,7 +58,7 @@ export const zh = {
     allRightsReserved: "版权所有。",
   },
   home: {
-    title: "顶级有声书价值评分排行",
+    title: "一个 Audible 积分值多少钱？高价值评分有声书",
     subtitle: "按价值评分排名——一个结合收听时长、评分和价格的公式，帮您找到最值得使用Audible积分的有声书。",
     howCalculated: "价值评分如何计算？",
     formulaLabel: "公式：",
