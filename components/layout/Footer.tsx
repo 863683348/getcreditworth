@@ -63,6 +63,7 @@ export function Footer() {
           <div className="flex items-center gap-4 text-xs text-text-muted flex-wrap justify-center">
             <Link href="/about" className="hover:text-primary min-h-[44px] flex items-center">{t.footer.about}</Link>
             <Link href="/privacy" className="hover:text-primary min-h-[44px] flex items-center">{t.footer.privacy}</Link>
+            <Link href="/terms" className="hover:text-primary min-h-[44px] flex items-center">{t.footer.terms}</Link>
             <Link href="/contact" className="hover:text-primary min-h-[44px] flex items-center">{t.footer.contact}</Link>
             <Link href="/about#how-it-works" className="hover:text-primary min-h-[44px] flex items-center">{t.footer.howItWorks}</Link>
             <a
