@@ -26,7 +26,7 @@ const SECTIONS: { id: string; heading: string; body: string[] }[] = [
     heading: "2. Cookies and Advertising",
     body: [
       "This website uses Google AdSense to display advertisements. Google AdSense and its partners may use cookies (such as the NID and IDE cookies) to personalize and serve ads based on your prior visits to this and other websites.",
-      "A cookie is a small text file stored on your device. Google's use of the DART (DoubleClick) cookie enables it and its partners to serve ads based on your visit to this site and other sites on the internet. For details on how Google uses data through the DART cookie, see Google's advertising privacy policy (https://policies.google.com/technologies/ads).",
+      "A cookie is a small text file stored on your device. Google's use of the DART cookie (also called the DoubleClick cookie) enables it and its partners to serve ads based on your visit to this site and other sites on the internet. For details on how Google uses data through the DART cookie, see Google's advertising privacy policy (https://policies.google.com/technologies/ads).",
       "You can opt out of personalized advertising by visiting the Google Ads Settings page (https://www.google.com/settings/ads) or the opt-out page of the Network Advertising Initiative (https://www.networkadvertising.org/choices/). You may also consult YourOnlineChoices (https://www.youronlinechoices.com/) for information about managing advertising cookies in the European Union.",
     ],
   },
