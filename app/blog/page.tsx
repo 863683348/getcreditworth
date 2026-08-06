@@ -2,6 +2,7 @@ import { getAllPosts } from "@/lib/api/controllers/blog.controller";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import { BlogListContent } from "@/components/BlogListContent";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { BreadcrumbListJsonLd } from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
 export const revalidate = 604800;
@@ -38,6 +39,12 @@ export default function BlogPage() {
         ]}
       />
       <BlogListContent posts={posts} />
+      <BreadcrumbListJsonLd
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Blog", url: "/blog" },
+        ]}
+      />
     </>
   );
 }

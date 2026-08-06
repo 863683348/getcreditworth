@@ -14,25 +14,32 @@ interface RelatedArticlesProps {
   category?: string;
 }
 
+// 相关文章内链数量上限
+const RELATED_POSTS_LIMIT = 4;
+
 export function RelatedArticles({ post, book, category }: RelatedArticlesProps) {
   // 获取所有文章
   const allPosts = getAllPosts();
   const allBooks = getAllBooks();
 
-  // 确定推荐目标：如果是post，推荐同类别博客；如果是book，推荐同类别博客
-  const relatedPosts = post
-    ? allPosts
-        .filter(p => p.category === post.category && p.slug !== post.slug)
-        .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-        .slice(0, 5)
-    : book && book.categories[0]
-    ? allPosts
-        .filter(p => p.category === book.categories[0])
-        .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-        .slice(0, 5)
-    : allPosts
-        .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-        .slice(0, 5);
+  const byDateDesc = (a: BlogPost, b: BlogPost) =>
+    new Date(b.date).getTime() - new Date(a.date).getTime();
+
+  // 候选池：排除当前文章本身
+  const candidates = post ? allPosts.filter(p => p.slug !== post.slug) : allPosts;
+
+  // 优先推荐同类别文章
+  const preferredCategory = post ? post.category : book?.categories[0];
+  const sameCategory = preferredCategory
+    ? candidates.filter(p => p.category === preferredCategory).sort(byDateDesc)
+    : [];
+
+  // 同类别文章不足时，用其它最新文章补足，保证始终有 3-4 条内链
+  const others = candidates
+    .filter(p => !sameCategory.some(s => s.slug === p.slug))
+    .sort(byDateDesc);
+
+  const relatedPosts = [...sameCategory, ...others].slice(0, RELATED_POSTS_LIMIT);
 
   if (relatedPosts.length === 0) {
     return null;
