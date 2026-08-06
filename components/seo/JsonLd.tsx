@@ -103,6 +103,10 @@ export function OrganizationJsonLd() {
     description:
       "Audible credit value optimizer — find the best audiobooks to spend your credits on with data-driven value scores.",
     foundingDate: "2024",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://getcreditworth.com/favicon.svg",
+    },
   };
   return <JsonLd data={schema} />;
 }
@@ -127,6 +131,10 @@ export function SoftwareApplicationJsonLd() {
       "@type": "Organization",
       name: "GetCreditWorth",
       url: "https://getcreditworth.com",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://getcreditworth.com/favicon.svg",
+      },
     },
   };
   return <JsonLd data={schema} />;
@@ -220,6 +228,7 @@ export function ArticleJsonLd({
     description,
     url,
     datePublished: publishedDate,
+    dateModified: publishedDate,
     author: {
       "@type": "Person",
       name: BLOG_AUTHOR,
@@ -230,7 +239,7 @@ export function ArticleJsonLd({
       name: "GetCreditWorth",
       url: "https://getcreditworth.com",
     },
-    ...(image && { image }),
+    image: image ?? "https://getcreditworth.com/favicon.svg",
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": url,
