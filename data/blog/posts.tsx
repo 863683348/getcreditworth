@@ -2705,6 +2705,102 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+
+  'complete-sherlock-holmes-audiobook-review': {
+    slug: 'complete-sherlock-holmes-audiobook-review',
+    title: 'The Complete Sherlock Holmes: 58 Hours of Mystery at One Credit',
+    description:
+      'The Complete Sherlock Holmes audiobook review — 58.1 hours of the entire canon for a single Audible credit. Narration notes, credit math, and who should spend one.',
+    keywords: ['sherlock holmes audiobook review', 'best mystery audiobooks', 'audiobooks over 50 hours', 'complete sherlock holmes audible'],
+    date: '2026-08-07',
+    readTime: '7 min read',
+    category: 'Book Review',
+    content: (
+      <>
+        <p>
+          Here&apos;s a <strong>sherlock holmes audiobook review</strong> that starts with the
+          math, because that&apos;s usually the first thing people ask. The Complete Sherlock
+          Holmes runs 58.1 hours, unabridged — all four novels and the fifty-six short stories —
+          and it costs exactly one Audible credit. At the standard $14.95 credit price, that&apos;s
+          about $0.26 an hour. An average 10-hour thriller costs roughly five times that per
+          hour. This collection is not just a classic; it&apos;s one of the best value trades in
+          the entire mystery section.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The collection at a glance</h2>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>Runtime: 58.1 hours (unabridged, single volume)</li>
+          <li>Contents: A Study in Scarlet, The Sign of Four, The Hound of the Baskervilles, The Valley of Fear + 56 short stories</li>
+          <li>Narrator: multiple editions exist; the widely praised one is Simon Vance</li>
+          <li>Rating: roughly 4.5 stars from thousands of reviews</li>
+          <li>Price: one credit, or about $20 in cash when it goes on sale</li>
+          <li>Categories: Mystery / Classics / Fiction</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The credit math on 58 hours</h2>
+        <p>
+          If you are hunting for <strong>audiobooks over 50 hours</strong>, this is one of the
+          few that stays listenable the whole way through. 58.1 hours at $14.95 per credit works
+          out to $0.26/hour. Compare that to a typical 9-hour mystery at roughly $1.66/hour, and
+          the difference is stark. Run the same math on anything else you are considering with
+          our <a href="/calculator" className="text-accent hover:underline">credit calculator</a>, and
+          browse the{" "}
+          <a href="/category/mystery" className="text-accent hover:underline">mystery audiobooks</a>{" "}
+          category page while you are at it.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What the narration actually sounds like</h2>
+        <p>
+          The Simon Vance edition is the one most people end up with, and it earns the praise it
+          gets. He gives Holmes a cool, precise tone and Watson a warmer, slightly slower one,
+          and he keeps the accents consistent across all 58 hours. That consistency matters more
+          than you&apos;d think. Some older recordings change narrators mid-story, which is a fast
+          way to lose the thread.
+        </p>
+        <p>
+          One honest caveat: a few of the short stories are formulaic in the way only
+          turn-of-the-century serials can be. If you hit one that drags, skip it. This is not a
+          single narrative you must finish; it&apos;s sixty separate doses, and nothing breaks if
+          you take them out of order.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Where it sits among best mystery audiobooks</h2>
+        <p>
+          Ask anyone to name the <strong>best mystery audiobooks</strong> ever recorded and
+          Sherlock Holmes makes the shortlist every time, mostly because it defined the genre.
+          Conan Doyle&apos;s plots hold up well, and modern editions sound far better than the
+          scratchy radio plays of the last century. If you have never read the originals, hearing
+          them in order, starting with A Study in Scarlet, is a genuine treat rather than
+          homework.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Who should spend a credit on it</h2>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>Mystery fans who somehow never read the originals</li>
+          <li>Commuters who want one book that lasts months, not days</li>
+          <li>Credit-value hunters looking for the biggest hour-per-credit ratio</li>
+          <li>Podcast listeners who want something with a real beginning and end</li>
+          <li>Skip it if you need constant action — the pacing is very much 1890s</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Verdict</h2>
+        <p>
+          If you like mysteries at all, spend the credit. The Complete Sherlock Holmes is the
+          rare long audiobook that justifies its length, and at $0.26 an hour it is one of the
+          easiest yeses in the catalog. Check the full value breakdown on the{" "}
+          <a href="/books/B00FEFE4XK" className="text-accent hover:underline">Complete Sherlock Holmes book page</a>{" "}
+          before you commit.
+        </p>
+        <p>
+          GetCreditWorth (getcreditworth.com) helps you decide whether an audiobook is worth a
+          credit. Browse our <a href="/" className="text-accent hover:underline">homepage</a> for
+          book reviews, the <a href="/calculator" className="text-accent hover:underline">credit calculator</a>{" "}
+          for hour-per-dollar math, and the <a href="/blog" className="text-accent hover:underline">blog</a>{" "}
+          for more picks like this one.
+        </p>
+      </>
+    ),
+  },
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
