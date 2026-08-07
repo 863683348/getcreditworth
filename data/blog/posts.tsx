@@ -2706,6 +2706,97 @@ const POSTS: Record<string, BlogPostData> = {
     ),
   },
 
+  'grant-ron-chernow-audiobook-review': {
+    slug: 'grant-ron-chernow-audiobook-review',
+    title: 'Grant by Ron Chernow: The Biography That Is Worth Every Credit',
+    description:
+      'Grant by Ron Chernow audiobook review — 48 hours of Ulysses S. Grant at one Audible credit, narrated by Mark Bramhall. Why this is among the best biography audiobooks in 2026.',
+    keywords: ['grant ron chernow audiobook', 'best biography audiobooks', 'ron chernow books', 'grant audiobook review'],
+    date: '2026-08-08',
+    readTime: '7 min read',
+    category: 'Book Review',
+    content: (
+      <>
+        <p>
+          Here&apos;s a <strong>grant ron chernow audiobook</strong> review that starts with the
+          numbers, because that&apos;s how most people decide. Grant runs 48 hours, unabridged,
+          narrated by Mark Bramhall, and it costs one Audible credit. At the standard $14.95
+          credit price that works out to roughly $0.31 an hour. It holds a 5.0-star rating from
+          more than 1,400 reviews. If you are shopping for <strong>best biography audiobooks</strong>,
+          this one belongs near the top of the list, and the math backs it up.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The book at a glance</h2>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>Runtime: 48 hours (unabridged, single volume)</li>
+          <li>Narrator: Mark Bramhall, a veteran of historical nonfiction</li>
+          <li>Rating: 5.0 stars from 1,478 reviews</li>
+          <li>Price: one credit, or about $16.28 in cash</li>
+          <li>Value Score: 14.8 (hours per dollar on the high side)</li>
+          <li>Categories: Biography / History / Politics</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Why Grant works as an audiobook</h2>
+        <p>
+          Ron Chernow is one of those <strong>ron chernow books</strong> authors who treats a
+          biography like a novel. Grant is a genuinely strange American story: a man who failed
+          at farming, business, and politics before the war, then turned into a general the
+          country could not have done without, then got cheated out of his savings by a Wall
+          Street swindler and wrote his memoirs to save his family from poverty. He finished
+          them days before he died. The shape of that life carries itself, and Bramhall&apos;s
+          calm, plain delivery suits it. He never over-dramatizes the war chapters, which makes
+          them land harder.
+        </p>
+        <p>
+          The middle section, covering the war itself, is the densest listening. If you already
+          know Civil War history cold, some of the campaign-by-campaign detail will feel familiar.
+          If you don&apos;t, it&apos;s a clear, patient explanation of how Grant thought about
+          attrition and supply. Either way, the presidency chapters after Appomattox are the part
+          people talk about least and the part worth the credit on its own. Grant walked into the
+          White House as a naive populist and got burned repeatedly; Chernow shows it without
+          either excusing or condemning him.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The credit math in 2026</h2>
+        <p>
+          For anyone weighing <strong>best biography audiobooks</strong> by value, 48 hours at one
+          credit is an easy yes. Compare it to a typical 12-hour biography at roughly $1.25 an
+          hour, and Grant is four times cheaper per hour of listening. If you have a stack of
+          candidates, run the same math on each with our{" "}
+          <a href="/calculator" className="text-accent hover:underline">credit calculator</a> before
+          you spend anything. And if the Civil War era pulls you further in, browse the{" "}
+          <a href="/category/biography" className="text-accent hover:underline">biography
+          audiobooks</a> category for more long-form picks.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Who should spend a credit on it</h2>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>American history readers who somehow skipped the definitive Grant biography</li>
+          <li>Commuters who want one deep book that lasts a month</li>
+          <li>Fans of Chernow&apos;s other work looking for the natural follow-up</li>
+          <li>Anyone tired of thin, hype-driven bios — this one has real weight</li>
+          <li>Skip it if you need relentless action; the peacetime chapters move at peacetime pace</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Verdict</h2>
+        <p>
+          Spend the credit. Grant is the rare long biography that earns its length, and at
+          $0.31 an hour it is one of the best-value trades in the biography section this year.
+          Check the full data on the{" "}
+          <a href="/books/B074F447V6" className="text-accent hover:underline">Grant book page</a>{" "}
+          before you commit, and keep the credit-value mindset going with more reviews below.
+        </p>
+        <p>
+          GetCreditWorth (getcreditworth.com) helps you decide whether an audiobook is worth a
+          credit. Browse our <a href="/" className="text-accent hover:underline">homepage</a> for
+          book reviews, the <a href="/calculator" className="text-accent hover:underline">credit calculator</a>{" "}
+          for hour-per-dollar math, and the <a href="/blog" className="text-accent hover:underline">blog</a>{" "}
+          for more picks like this one.
+        </p>
+      </>
+    ),
+  },
+
   'complete-sherlock-holmes-audiobook-review': {
     slug: 'complete-sherlock-holmes-audiobook-review',
     title: 'The Complete Sherlock Holmes: 58 Hours of Mystery at One Credit',
