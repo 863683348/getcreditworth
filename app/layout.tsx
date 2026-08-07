@@ -36,12 +36,21 @@ export const metadata: Metadata = {
     title: SITE_CONFIG.title,
     description: SITE_CONFIG.description,
     siteName: SITE_CONFIG.name,
+    images: [
+      {
+        url: '/og-image.svg',
+        width: 1200,
+        height: 630,
+        alt: SITE_CONFIG.title,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: SITE_CONFIG.title,
     description: SITE_CONFIG.description,
     creator: SITE_CONFIG.twitter,
+    images: ['/og-image.svg'],
   },
   robots: {
     index: true,

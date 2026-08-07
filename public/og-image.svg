@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F766E"/>
+      <stop offset="100%" stop-color="#134E4A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <!-- brand mark -->
+  <circle cx="100" cy="100" r="36" fill="#FFFFFF" opacity="0.95"/>
+  <text x="100" y="113" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif" font-size="42" font-weight="700" fill="#0F766E">$</text>
+  <text x="155" y="115" font-family="ui-sans-serif,system-ui,sans-serif" font-size="36" font-weight="700" fill="#FFFFFF">Audible Credit Calculator</text>
+  <!-- main title -->
+  <text x="100" y="280" font-family="ui-sans-serif,system-ui,sans-serif" font-size="74" font-weight="800" fill="#FFFFFF">How Much Is an</text>
+  <text x="100" y="370" font-family="ui-sans-serif,system-ui,sans-serif" font-size="74" font-weight="800" fill="#FFFFFF">Audible Credit Worth?</text>
+  <!-- subtitle pill -->
+  <rect x="100" y="430" width="430" height="74" rx="37" fill="#FFFFFF"/>
+  <text x="315" y="478" text-anchor="middle" font-family="ui-sans-serif,system-ui,sans-serif" font-size="34" font-weight="700" fill="#0F766E">$14.95 Real Value</text>
+  <!-- tagline -->
+  <text x="100" y="560" font-family="ui-sans-serif,system-ui,sans-serif" font-size="30" font-weight="500" fill="#FFFFFF" opacity="0.95">Free calculator · 300+ audiobooks ranked by Value Score</text>
+  <text x="100" y="600" font-family="ui-sans-serif,system-ui,sans-serif" font-size="24" font-weight="500" fill="#FFFFFF" opacity="0.85">getcreditworth.com</text>
+</svg>

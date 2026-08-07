@@ -10,7 +10,7 @@ export const revalidate = 3600;
 export const metadata: Metadata = {
   title: 'How Much Is an Audible Credit Worth? ($14.95 Real Value)',
   description:
-    'How much is an Audible credit worth? Each credit costs $14.95 — find out the real value with our free calculator. See which of 300+ audiobooks are worth a credit and which to buy directly. Stop wasting credits today.',
+    'How much is an Audible credit worth? Find out with our free calculator — see which 300+ audiobooks are worth a credit and which to buy directly.',
   keywords: [
     'how much is an audible credit worth',
     'audible credit value',
@@ -43,12 +43,21 @@ export const metadata: Metadata = {
     type: 'website',
     url: SITE_CONFIG.url,
     siteName: SITE_CONFIG.name,
+    images: [
+      {
+        url: '/og-image.svg',
+        width: 1200,
+        height: 630,
+        alt: 'Audible Credit Calculator — find the real value of your credits',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'How Much Is an Audible Credit Worth? ($14.95 Real Value)',
     description:
       'Free Audible credit value calculator. 300+ audiobooks ranked by Value Score to help you stop wasting credits.',
+    images: ['/og-image.svg'],
   },
 };
 
