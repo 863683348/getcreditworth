@@ -2892,6 +2892,118 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+  'rise-and-fall-third-reich-audiobook-review': {
+    slug: 'rise-and-fall-third-reich-audiobook-review',
+    title: 'The Rise and Fall of the Third Reich: 57 Hours of History',
+    description:
+      'A third reich audiobook review that starts with the math: 57 hours of William L. Shirer, narrated by Grover Gardner, at one Audible credit. Why it earns a place among the best history audiobooks in 2026.',
+    keywords: ['third reich audiobook review', 'best history audiobooks', 'long nonfiction audiobooks', 'william shirer audiobook'],
+    date: '2026-08-09',
+    readTime: '7 min read',
+    category: 'Book Review',
+    content: (
+      <>
+        <p>
+          This <strong>third reich audiobook review</strong> starts with numbers, because that is
+          how most people actually decide. The Rise and Fall of the Third Reich runs 57 hours and
+          12 minutes, narrated by Grover Gardner, and it costs one Audible credit. At the standard
+          $14.95 credit price that works out to about $0.26 an hour. It holds a 5.0-star rating
+          from more than 1,790 listeners. If you are building a shelf of{" "}
+          <strong>best history audiobooks</strong>, this is the title people measure everything
+          else against.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The book at a glance</h2>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>Runtime: 57 hours 12 minutes (3431 minutes, unabridged)</li>
+          <li>Author: William L. Shirer, CBS correspondent in Berlin from 1934 to 1940</li>
+          <li>Narrator: Grover Gardner, a reliable voice for long nonfiction</li>
+          <li>Rating: 5.0 stars from 1,793 reviews</li>
+          <li>Price: $20.77 in cash, or one credit</li>
+          <li>Value Score: 13.8 (hours per dollar on the high side)</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          What Shirer&apos;s 57 hours actually cover
+        </h2>
+        <p>
+          The book moves from Hitler&apos;s rise in 1933 through the machinery of the Nazi state,
+          the turning points of World War Two, and the collapse of Berlin in 1945. What makes it
+          unusual is the point of view. Shirer was there, filing for CBS from inside Germany, and
+          he wove his own daily notes into the archival record. So you get the official documents
+          and the feel of the street in the same chapter. It is a reporter&apos;s history, not a
+          dry academic one, which is exactly why it works as an audiobook. Long stretches that
+          would feel like homework in print move at a clip when Gardner reads them.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          How it sits among best history audiobooks
+        </h2>
+        <p>
+          Put it next to the other giants of the category and the pattern is clear: the classics
+          that endure are the ones with a strong narrator and a strong personal angle. Shirer has
+          both. Historians have pushed back on parts of his interpretation since the 1990s, and
+          you should hear that caveat. But for a listener who wants one definitive, listenable
+          account of the Third Reich, there is still nothing else quite like it. Among{" "}
+          <strong>long nonfiction audiobooks</strong> it stands out because it never forgets it is
+          telling a story with stakes, not just stacking facts.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Who should spend a credit on it
+        </h2>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>WW2 history fans who want the classic account, not a summary</li>
+          <li>Commuters who want one book that lasts two months instead of two days</li>
+          <li>Anyone easing into long nonfiction audiobooks and looking for a proven entry point</li>
+          <li>Listeners who prefer a journalist&apos;s eyewitness tone over textbook neutrality</li>
+          <li>Skip it if you want a short overview; this is a marathon, by design</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">FAQ</h2>
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">
+          Is The Rise and Fall of the Third Reich worth an Audible credit?
+        </h3>
+        <p>
+          Yes, for most listeners. 57 hours at $0.26 an hour with a 5.0-star rating puts it among
+          the highest value-per-credit titles in the catalog, especially if you like history.
+        </p>
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">
+          How long is the audiobook?
+        </h3>
+        <p>
+          It runs 57 hours and 12 minutes. At an average commute of 45 minutes a day, that is
+          roughly two months of listening.
+        </p>
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">
+          Is Shirer&apos;s account still considered accurate?
+        </h3>
+        <p>
+          The broad narrative holds up. Later scholarship has revised parts of his analysis,
+          especially around responsibility and intention, so treat it as a classic account with a
+          journalist&apos;s bias rather than the final word.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Verdict</h2>
+        <p>
+          Spend the credit. There is no cheaper way to get 57 hours of serious history that also
+          happens to be genuinely listenable, and at $0.26 an hour it is an easy yes. Check the
+          full value breakdown on the{" "}
+          <a href="/books/B003VWJAPA" className="text-accent hover:underline">Rise and Fall of the Third Reich book page</a>{" "}
+          and run your own math in the{" "}
+          <a href="/calculator" className="text-accent hover:underline">credit calculator</a>{" "}
+          before you commit.
+        </p>
+        <p>
+          GetCreditWorth (getcreditworth.com) helps you decide whether an audiobook is worth a
+          credit. Browse our <a href="/" className="text-accent hover:underline">homepage</a> for
+          book reviews, the <a href="/calculator" className="text-accent hover:underline">credit calculator</a>{" "}
+          for hour-per-dollar math, and the <a href="/blog" className="text-accent hover:underline">blog</a>{" "}
+          for more picks like this one.
+        </p>
+      </>
+    ),
+  },
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
