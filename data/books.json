@@ -988,6 +988,32 @@
     "creditWorth": 1.18
   },
   {
+    "asin": "B08SHVRMGM",
+    "title": "The Ultimate Stoicism Collection",
+    "author": "Seneca, Marcus Aurelius, Epictetus, John Lord",
+    "narrator": "Museum Audiobooks cast",
+    "runtimeMinutes": 3089,
+    "price": 16.21,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 27,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51KnxNcRBOL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B08SHVRMGM",
+    "categories": [
+      "Politics & Social Sciences",
+      "Philosophy",
+      "Greek & Roman"
+    ],
+    "releaseDate": "2021-01-09",
+    "publisher": "MuseumAudiobooks.com",
+    "description": "\"The Ultimate Stoicism Collection\" by Seneca, Marcus Aurelius, Epictetus, John Lord scores 12.7 on our Value Score system. This 52-hour Politics & Social Sciences costs $0.31/hour. 4.0 stars. Using a credit saves you money.",
+    "runtimeHours": 51.5,
+    "valueScore": 12.7,
+    "costPerHour": 0.31,
+    "creditWorth": 1.08,
+    "adjustedValueScore": 42.32
+  },
+  {
     "asin": "B0GXYL6CY5",
     "title": "Ashes of Terra: The Flesh and Chrome/Crimson Deathbringer Series Mega Boxset (Books 1-11)",
     "author": "Sean Robins",
@@ -1064,6 +1090,32 @@
     "creditWorth": 1.43
   },
   {
+    "asin": "B0G6NPYJMV",
+    "title": "Slayer 66 2/3 (Post-Reunion Update… Reborn Re-Remastered 4th Edition)",
+    "author": "D.X. Ferris",
+    "narrator": "D.X. Ferris",
+    "runtimeMinutes": 2089,
+    "price": 14.31,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51dBCB2p7ML._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0G6NPYJMV",
+    "categories": [
+      "Arts & Entertainment",
+      "Music",
+      "History & Criticism"
+    ],
+    "releaseDate": "2025-12-15",
+    "publisher": "Möstly Thïngs Äudio, 6623 Press",
+    "description": "\"Slayer 66 2/3 (Post-Reunion Update… Reborn Re-Remastered 4th Edition)\" by D.X. Ferris scores 12.2 on our Value Score system. This 35-hour Arts & Entertainment costs $0.41/hour. 5.0 stars. Consider buying directly.",
+    "runtimeHours": 34.8,
+    "valueScore": 12.17,
+    "costPerHour": 0.41,
+    "creditWorth": 0.96,
+    "adjustedValueScore": 8.44
+  },
+  {
     "asin": "B004Y0IWL6",
     "title": "A Breath of Snow and Ashes",
     "author": "Diana Gabaldon",
@@ -1087,6 +1139,32 @@
     "valueScore": 12.1,
     "costPerHour": 0.41,
     "creditWorth": 1.6
+  },
+  {
+    "asin": "B0DYCZZBLF",
+    "title": "Anne of Green Gables: The Original Series (Annotated)",
+    "author": "Lucy Maud Montgomery",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 3227,
+    "price": 17.92,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51S26Cc+KfL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DYCZZBLF",
+    "categories": [
+      "Literature & Fiction",
+      "Anthologies & Short Stories",
+      "Anthologies"
+    ],
+    "releaseDate": "2026-03-17",
+    "publisher": "Erato Press",
+    "description": "\"Anne of Green Gables: The Original Series (Annotated)\" by Lucy Maud Montgomery scores 12.0 on our Value Score system. This 54-hour Literature & Fiction costs $0.33/hour. 4.0 stars. Using a credit saves you money.",
+    "runtimeHours": 53.8,
+    "valueScore": 12.01,
+    "costPerHour": 0.33,
+    "creditWorth": 1.2,
+    "adjustedValueScore": 8.32
   },
   {
     "asin": "B0044EMDEO",
@@ -1776,6 +1854,32 @@
     "description": "\"The Legend of Randidly Ghosthound 14\" by Noret Flood, puddles4263 scores 9.1 on our Value Score system. This 32-hour Young Adult costs $0.48/hour. 4.4 stars. Using a credit saves you money."
   },
   {
+    "asin": "B0F1BMJ98P",
+    "title": "W.E.B. Du Bois: Biography of a Race, 1868-1919",
+    "author": "David Levering Lewis",
+    "narrator": "Courtney B. Vance",
+    "runtimeMinutes": 2122,
+    "price": 14.42,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51RdqpZ+A8L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F1BMJ98P",
+    "categories": [
+      "Biographies & Memoirs",
+      "Cultural & Regional",
+      "Historical"
+    ],
+    "releaseDate": "2025-06-17",
+    "publisher": "Simon & Schuster Audio",
+    "description": "\"W.E.B. Du Bois: Biography of a Race, 1868-1919\" by David Levering Lewis scores 9.8 on our Value Score system. This 35-hour Biographies & Memoirs costs $0.41/hour. 4.0 stars. Consider buying directly.",
+    "runtimeHours": 35.4,
+    "valueScore": 9.81,
+    "costPerHour": 0.41,
+    "creditWorth": 0.96,
+    "adjustedValueScore": 10.78
+  },
+  {
     "asin": "0525633723",
     "title": "A Promised Land",
     "author": "Barack Obama",
@@ -2279,6 +2383,32 @@
     "description": "In A Classic Pair: Great Expectations & A Woman in White, author Charles Dickens, Wilkie Collins delivers a compelling narrative. This decent audiobook runs 50 hours and offers an engaging listen for fans of fiction. Brought to life by narrator Stephen Fry, Nicholas Boulton.  Before you spend your Audible credit on A Classic Pair: Great Expectations & A Woman in White, check how it stacks up against our Value Score system. A Classic Pair: Great Expectations & A Woman in White has a Value Score of 9.1, costs $21.24, and runs 49.7 hours at $0.43 per hour of listening. 50h of decent content makes this audiobook an excellent choice for your next credit."
   },
   {
+    "asin": "152931626X",
+    "title": "Cecil Beaton",
+    "author": "Hugo Vickers",
+    "narrator": "Hugo Vickers",
+    "runtimeMinutes": 1633,
+    "price": 14.96,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51GD9LjO5dL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/152931626X",
+    "categories": [
+      "Arts & Entertainment",
+      "Photography",
+      "Biographies & Memoirs"
+    ],
+    "releaseDate": "2020-03-05",
+    "publisher": "Hodder & Stoughton",
+    "description": "\"Cecil Beaton\" by Hugo Vickers scores 9.1 on our Value Score system. This 27-hour Arts & Entertainment costs $0.55/hour. 5.0 stars. Using a credit saves you money.",
+    "runtimeHours": 27.2,
+    "valueScore": 9.1,
+    "costPerHour": 0.55,
+    "creditWorth": 1,
+    "adjustedValueScore": 6.31
+  },
+  {
     "title": "Harry Potter and the Order of the Phoenix (Full-Cast Edition)",
     "author": "J.K. Rowling",
     "narrator": "Hugh Laurie, Keira Knightley, James McAvoy, Kit Harington, Ruth Wilson, Matthew Macfadyen, Michelle Gomez, Riz Ahmed, Leo Woodall, Ṣọpẹ́ Dìrísù, Cush Jumbo, Simon Pegg, Jaxon Knopf, Rhys Mulligan, Nina Barker-Francis",
@@ -2554,6 +2684,32 @@
     "costPerHour": 0.57,
     "creditWorth": 1,
     "adjustedValueScore": 66.9
+  },
+  {
+    "asin": "170520080X",
+    "title": "London",
+    "author": "Peter Ackroyd",
+    "narrator": "Nigel Patterson",
+    "runtimeMinutes": 1973,
+    "price": 16.87,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 11,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61jYvicj3SL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/170520080X",
+    "categories": [
+      "History",
+      "Europe",
+      "Great Britain"
+    ],
+    "releaseDate": "2020-07-31",
+    "publisher": "Tantor Audio",
+    "description": "\"London\" by Peter Ackroyd scores 8.8 on our Value Score system. This 33-hour History costs $0.51/hour. 4.5 stars. Using a credit saves you money.",
+    "runtimeHours": 32.9,
+    "valueScore": 8.77,
+    "costPerHour": 0.51,
+    "creditWorth": 1.13,
+    "adjustedValueScore": 21.79
   },
   {
     "asin": "B004Z4R1I6",
@@ -2885,6 +3041,32 @@
     "adjustedValueScore": 41.83
   },
   {
+    "asin": "1474619754",
+    "title": "Messi",
+    "author": "Guillem Balague",
+    "narrator": "Peter Kenny",
+    "runtimeMinutes": 1673,
+    "price": 15.06,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51WF-Vb7yEL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1474619754",
+    "categories": [
+      "Biographies & Memoirs",
+      "Sports",
+      "Sports & Outdoors"
+    ],
+    "releaseDate": "2020-06-25",
+    "publisher": "Seven Dials",
+    "description": "\"Messi\" by Guillem Balague scores 8.3 on our Value Score system. This 28-hour Biographies & Memoirs costs $0.54/hour. 4.5 stars. Using a credit saves you money.",
+    "runtimeHours": 27.9,
+    "valueScore": 8.33,
+    "costPerHour": 0.54,
+    "creditWorth": 1.01,
+    "adjustedValueScore": 18.3
+  },
+  {
     "asin": "B013XS0LEK",
     "title": "The Conquering Tide",
     "author": "Ian W. Toll",
@@ -3112,6 +3294,32 @@
     "costPerHour": 0.61,
     "creditWorth": 1.16,
     "adjustedValueScore": 62.28
+  },
+  {
+    "asin": "B08358R3T1",
+    "title": "Alexandra Kollontai",
+    "author": "Cathy Porter",
+    "narrator": "Natasha Soudek",
+    "runtimeMinutes": 1433,
+    "price": 14.7,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51j8XcQZd6L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B08358R3T1",
+    "categories": [
+      "Biographies & Memoirs",
+      "Historical",
+      "Politics & Activism"
+    ],
+    "releaseDate": "2020-01-14",
+    "publisher": "Audible Studios",
+    "description": "\"Alexandra Kollontai\" by Cathy Porter scores 8.1 on our Value Score system. This 24-hour Biographies & Memoirs costs $0.62/hour. 5.0 stars. Consider buying directly.",
+    "runtimeHours": 23.9,
+    "valueScore": 8.12,
+    "costPerHour": 0.62,
+    "creditWorth": 0.98,
+    "adjustedValueScore": 5.63
   },
   {
     "asin": "B00546D584",
@@ -3668,6 +3876,32 @@
     "adjustedValueScore": 45.94
   },
   {
+    "asin": "B0DQ6CZV9V",
+    "title": "The Complete Aristotle Collection",
+    "author": "Aristotle",
+    "narrator": "Ken Grezin",
+    "runtimeMinutes": 1907,
+    "price": 18.47,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 57,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51s3RQZvUqL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DQ6CZV9V",
+    "categories": [
+      "Biographies & Memoirs",
+      "Professionals & Academics",
+      "Philosophers"
+    ],
+    "releaseDate": "2024-12-12",
+    "publisher": "LTV SPOT LLC",
+    "description": "\"The Complete Aristotle Collection\" by Aristotle scores 7.7 on our Value Score system. This 32-hour Biographies & Memoirs costs $0.58/hour. 4.5 stars. Using a credit saves you money.",
+    "runtimeHours": 31.8,
+    "valueScore": 7.74,
+    "costPerHour": 0.58,
+    "creditWorth": 1.24,
+    "adjustedValueScore": 31.43
+  },
+  {
     "asin": "B00H9JEIDA",
     "title": "The House of Morgan",
     "author": "Ron Chernow",
@@ -4076,6 +4310,32 @@
     "adjustedValueScore": 36.1
   },
   {
+    "asin": "0063082721",
+    "title": "With Malice Toward None",
+    "author": "Stephen B. Oates",
+    "narrator": "T. Ryder Smith",
+    "runtimeMinutes": 1273,
+    "price": 14.25,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 42,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Qt+zF9UfS._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0063082721",
+    "categories": [
+      "Biographies & Memoirs",
+      "Historical",
+      "Politics & Activism"
+    ],
+    "releaseDate": "2021-06-22",
+    "publisher": "Harper Perennial",
+    "description": "\"With Malice Toward None\" by Stephen B. Oates scores 7.4 on our Value Score system. This 21-hour Biographies & Memoirs costs $0.67/hour. 5.0 stars. Consider buying directly.",
+    "runtimeHours": 21.2,
+    "valueScore": 7.44,
+    "costPerHour": 0.67,
+    "creditWorth": 0.95,
+    "adjustedValueScore": 27.98
+  },
+  {
     "asin": "B0F3K8R2XY",
     "title": "Fairydale",
     "author": "Veronica Lancet",
@@ -4100,6 +4360,32 @@
     "costPerHour": 0.54,
     "creditWorth": 1.14,
     "adjustedValueScore": 41.46
+  },
+  {
+    "asin": "B002V59SXC",
+    "title": "Appetite for Life",
+    "author": "Noel Riley Fitch",
+    "narrator": "Wanda McCaddon",
+    "runtimeMinutes": 1394,
+    "price": 14.08,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 20,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51iM8x79sZL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V59SXC",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities",
+      "Women"
+    ],
+    "releaseDate": "2001-01-11",
+    "publisher": "Blackstone Audio, Inc.",
+    "description": "\"Appetite for Life\" by Noel Riley Fitch scores 7.4 on our Value Score system. This 23-hour Biographies & Memoirs costs $0.61/hour. 4.5 stars. Consider buying directly.",
+    "runtimeHours": 23.2,
+    "valueScore": 7.43,
+    "costPerHour": 0.61,
+    "creditWorth": 0.94,
+    "adjustedValueScore": 22.62
   },
   {
     "asin": "B002UZLEFS",
@@ -5796,6 +6082,32 @@
     "adjustedValueScore": 44.62
   },
   {
+    "asin": "B0CBL5KBVQ",
+    "title": "Truckload of Art",
+    "author": "Brendan Greaves",
+    "narrator": "Jason Culp, Brendan Greaves",
+    "runtimeMinutes": 1264,
+    "price": 15.93,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51wfll5CmOL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CBL5KBVQ",
+    "categories": [
+      "Arts & Entertainment",
+      "Art",
+      "Music"
+    ],
+    "releaseDate": "2024-03-19",
+    "publisher": "Da Capo",
+    "description": "\"Truckload of Art\" by Brendan Greaves scores 6.6 on our Value Score system. This 21-hour Arts & Entertainment costs $0.76/hour. 5.0 stars. Using a credit saves you money.",
+    "runtimeHours": 21.1,
+    "valueScore": 6.61,
+    "costPerHour": 0.76,
+    "creditWorth": 1.07,
+    "adjustedValueScore": 4.58
+  },
+  {
     "asin": "B0036N2C7M",
     "title": "A Fire Upon The Deep",
     "author": "Vernor Vinge",
@@ -6280,6 +6592,32 @@
     "description": "5.0 stars from 1,966 reviewers make \"Abaddon's Gate - La fuga\" one of the highest-rated audiobooks. James S. A. Corey delivers 19 hours at $0.78/hour. Priced at $14.84. Value Score: 6.4."
   },
   {
+    "asin": "1549150553",
+    "title": "Hitler",
+    "author": "Brendan Simms",
+    "narrator": "Leighton Pugh",
+    "runtimeMinutes": 1757,
+    "price": 20.45,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 9,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41le-ulfXwL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1549150553",
+    "categories": [
+      "Biographies & Memoirs",
+      "Politics & Activism",
+      "Politicians"
+    ],
+    "releaseDate": "2019-10-01",
+    "publisher": "Basic Books",
+    "description": "\"Hitler\" by Brendan Simms scores 6.4 on our Value Score system. This 29-hour Biographies & Memoirs costs $0.70/hour. 4.5 stars. Using a credit saves you money.",
+    "runtimeHours": 29.3,
+    "valueScore": 6.44,
+    "costPerHour": 0.7,
+    "creditWorth": 1.37,
+    "adjustedValueScore": 14.83
+  },
+  {
     "asin": "B004RC37C0",
     "title": "The Warmth of Other Suns",
     "author": "Isabel Wilkerson",
@@ -6608,6 +6946,32 @@
     "creditWorth": 1.41
   },
   {
+    "asin": "B00C6LJ43K",
+    "title": "At the Eleventh Hour",
+    "author": "Pandit Rajmani Tigunait Ph.D.",
+    "narrator": "D. C. Rao Ph.D.",
+    "runtimeMinutes": 1061,
+    "price": 14.09,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 9,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51yAYR-dimL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00C6LJ43K",
+    "categories": [
+      "Biographies & Memoirs",
+      "Religious",
+      "Literature & Fiction"
+    ],
+    "releaseDate": "2013-04-05",
+    "publisher": "Himalayan Institute",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"At the Eleventh Hour\" by Pandit Rajmani Tigunait Ph.D. runs 18 hours at $0.80/hour. Rated 5.0/5. Buy for $14.09.",
+    "runtimeHours": 17.7,
+    "valueScore": 6.28,
+    "costPerHour": 0.8,
+    "creditWorth": 0.94,
+    "adjustedValueScore": 14.46
+  },
+  {
     "asin": "B003WVNWU4",
     "title": "Eldest",
     "author": "Christopher Paolini",
@@ -6890,6 +7254,32 @@
     "costPerHour": 0.73,
     "creditWorth": 1.11,
     "adjustedValueScore": 31.18
+  },
+  {
+    "asin": "B003KQH66M",
+    "title": "Woodrow Wilson",
+    "author": "John Milton Cooper",
+    "narrator": "John McDonough",
+    "runtimeMinutes": 2157,
+    "price": 23.24,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 27,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/514JcbI9-0L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B003KQH66M",
+    "categories": [
+      "Biographies & Memoirs",
+      "Historical",
+      "Politics & Activism"
+    ],
+    "releaseDate": "2010-05-05",
+    "publisher": "Recorded Books",
+    "description": "\"Woodrow Wilson\" by John Milton Cooper scores 6.2 on our Value Score system. This 36-hour Biographies & Memoirs costs $0.65/hour. 4.0 stars. Using a credit saves you money.",
+    "runtimeHours": 36,
+    "valueScore": 6.19,
+    "costPerHour": 0.65,
+    "creditWorth": 1.55,
+    "adjustedValueScore": 20.63
   },
   {
     "asin": "B09WNDWX1Q",
@@ -7427,6 +7817,32 @@
     "adjustedValueScore": 46.7
   },
   {
+    "asin": "0593163788",
+    "title": "Victoria: The Queen",
+    "author": "Julia Baird",
+    "narrator": "Lucy Rayner",
+    "runtimeMinutes": 1268,
+    "price": 15.81,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 16,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41ZoZF+nr6L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0593163788",
+    "categories": [
+      "Biographies & Memoirs",
+      "Politics & Activism",
+      "Royalty"
+    ],
+    "releaseDate": "2022-05-10",
+    "publisher": "Random House Audio",
+    "description": "\"Victoria: The Queen\" by Julia Baird scores 6.0 on our Value Score system. This 21-hour Biographies & Memoirs costs $0.75/hour. 4.5 stars. Using a credit saves you money.",
+    "runtimeHours": 21.1,
+    "valueScore": 6.02,
+    "costPerHour": 0.75,
+    "creditWorth": 1.06,
+    "adjustedValueScore": 17.06
+  },
+  {
     "asin": "B0F45BX5RJ",
     "title": "The Stubborn Skill-Grinder in a Time Loop",
     "author": "X-RHODEN-X",
@@ -7475,6 +7891,32 @@
     "valueScore": 6.01,
     "costPerHour": 0.75,
     "creditWorth": 1.1
+  },
+  {
+    "asin": "0593208307",
+    "title": "Natalie Wood",
+    "author": "Suzanne Finstad",
+    "narrator": "Rose McGowan, Suzanne Finstad",
+    "runtimeMinutes": 1217,
+    "price": 15.25,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 32,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51S2XrA8PUL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0593208307",
+    "categories": [
+      "Arts & Entertainment",
+      "Entertainment & Performing Arts",
+      "Film & TV"
+    ],
+    "releaseDate": "2020-03-10",
+    "publisher": "Random House Audio",
+    "description": "\"Natalie Wood\" by Suzanne Finstad scores 6.0 on our Value Score system. This 20-hour Arts & Entertainment costs $0.75/hour. 4.5 stars. Using a credit saves you money.",
+    "runtimeHours": 20.3,
+    "valueScore": 5.99,
+    "costPerHour": 0.75,
+    "creditWorth": 1.02,
+    "adjustedValueScore": 20.94
   },
   {
     "asin": "B002VA9IKK",
@@ -8204,6 +8646,32 @@
     "creditWorth": 1.56
   },
   {
+    "asin": "B0BVMYYG5W",
+    "title": "The Waste Land",
+    "author": "Matthew Hollis",
+    "narrator": "Matthew Hollis",
+    "runtimeMinutes": 996,
+    "price": 14.41,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 12,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51PRaec-IrL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0BVMYYG5W",
+    "categories": [
+      "Biographies & Memoirs",
+      "Art & Literature",
+      "Authors"
+    ],
+    "releaseDate": "2023-02-14",
+    "publisher": "Tantor Audio",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"The Waste Land\" by Matthew Hollis runs 17 hours at $0.87/hour. Rated 5.0/5. Buy for $14.41.",
+    "runtimeHours": 16.6,
+    "valueScore": 5.76,
+    "costPerHour": 0.87,
+    "creditWorth": 0.96,
+    "adjustedValueScore": 14.77
+  },
+  {
     "asin": "B074XM52YQ",
     "title": "Persepolis Rising",
     "author": "James S. A. Corey",
@@ -8631,6 +9099,32 @@
     "adjustedValueScore": 32.72
   },
   {
+    "asin": "B09DTF55P3",
+    "title": "Dorothy Dandridge",
+    "author": "Donald Bogle",
+    "narrator": "Donald Bogle, Matthew J. Turner",
+    "runtimeMinutes": 1604,
+    "price": 21.46,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 11,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/518jPj6idsL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09DTF55P3",
+    "categories": [
+      "Arts & Entertainment",
+      "Entertainment & Performing Arts",
+      "Biographies & Memoirs"
+    ],
+    "releaseDate": "2021-10-12",
+    "publisher": "Amistad",
+    "description": "\"Dorothy Dandridge\" by Donald Bogle scores 5.6 on our Value Score system. This 27-hour Arts & Entertainment costs $0.80/hour. 4.5 stars. Using a credit saves you money.",
+    "runtimeHours": 26.7,
+    "valueScore": 5.61,
+    "costPerHour": 0.8,
+    "creditWorth": 1.44,
+    "adjustedValueScore": 13.94
+  },
+  {
     "asin": "B003ZWFO7E",
     "title": "The Way of Kings",
     "author": "Brandon Sanderson",
@@ -8805,6 +9299,31 @@
     "costPerHour": 0.84,
     "creditWorth": 2.88,
     "description": "In Oathbringer, author Brandon Sanderson delivers an immersive fantasy world. This top-rated audiobook runs 51 hours and offers an engaging listen for fans of fantasy. Beautifully voiced by Kate Reading, Michael Kramer.  Before you spend your Audible credit on Oathbringer, check how it stacks up against our Value Score system. Oathbringer has a Value Score of 5.6, costs $42.99, and runs 51.0 hours at $0.84 per hour of listening. With 51 hours of immersive listening and a top-rated rating, this audiobook represents a decent value."
+  },
+  {
+    "asin": "B004D5Y39W",
+    "title": "His Way",
+    "author": "Kitty Kelley",
+    "narrator": "Anna Fields",
+    "runtimeMinutes": 1300,
+    "price": 15.54,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 18,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51IouTwmdAL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B004D5Y39W",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities"
+    ],
+    "releaseDate": "2010-12-28",
+    "publisher": "Random House Audio",
+    "description": "\"His Way\" by Kitty Kelley scores 5.6 on our Value Score system. This 22-hour Biographies & Memoirs costs $0.72/hour. 4.0 stars. Using a credit saves you money.",
+    "runtimeHours": 21.7,
+    "valueScore": 5.58,
+    "costPerHour": 0.72,
+    "creditWorth": 1.04,
+    "adjustedValueScore": 16.43
   },
   {
     "asin": "B09PSSTFP3",
@@ -9568,6 +10087,32 @@
     "valueScore": 5.37,
     "costPerHour": 0.93,
     "creditWorth": 1.51
+  },
+  {
+    "asin": "B00D91635S",
+    "title": "What Fresh Lunacy Is This?",
+    "author": "Robert Sellers",
+    "narrator": "Sean Barrett",
+    "runtimeMinutes": 1025,
+    "price": 14.35,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 7,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51r77ILc5jL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00D91635S",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities",
+      "la_confidential"
+    ],
+    "releaseDate": "2013-06-20",
+    "publisher": "Audible Studios",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"What Fresh Lunacy Is This?\" by Robert Sellers runs 17 hours at $0.84/hour. Rated 4.5/5. Buy for $14.35.",
+    "runtimeHours": 17.1,
+    "valueScore": 5.36,
+    "costPerHour": 0.84,
+    "creditWorth": 0.96,
+    "adjustedValueScore": 11.15
   },
   {
     "asin": "B0DM6WT9JH",
@@ -10738,6 +11283,32 @@
     "creditWorth": 1.2
   },
   {
+    "asin": "B002VA3QZS",
+    "title": "Boone",
+    "author": "Robert Morgan",
+    "narrator": "James Jenner",
+    "runtimeMinutes": 1218,
+    "price": 17.9,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 141,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51iIkpH2WhL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002VA3QZS",
+    "categories": [
+      "Biographies & Memoirs",
+      "Adventurers, Explorers & Survival",
+      "Historical"
+    ],
+    "releaseDate": "2008-12-19",
+    "publisher": "Recorded Books",
+    "description": "\"Boone\" by Robert Morgan scores 5.1 on our Value Score system. This 20-hour Biographies & Memoirs costs $0.88/hour. 4.5 stars. Using a credit saves you money.",
+    "runtimeHours": 20.3,
+    "valueScore": 5.1,
+    "costPerHour": 0.88,
+    "creditWorth": 1.2,
+    "adjustedValueScore": 25.27
+  },
+  {
     "asin": "B002V5CWOY",
     "title": "Jane Eyre",
     "author": "Charlotte Brontë",
@@ -10864,6 +11435,32 @@
       "SciFi"
     ],
     "description": "Morning Star: Book III of the Red Rising Trilogy by Pierce Brown is a masterfully crafted sci-fi universe. This highly praised audiobook runs 22 hours and belongs to the scifi genre. With stellar narration by Tim Gerard Reynolds.  Before you spend your Audible credit on Morning Star: Book III of the Red Rising Trilogy, check how it stacks up against our Value Score system. Morning Star: Book III of the Red Rising Trilogy has a Value Score of 3.9, costs $24.99, and runs 21.8 hours at $1.14 per hour of listening. 22h of highly praised content makes this audiobook a marginal choice for your next credit."
+  },
+  {
+    "asin": "B082P69F1F",
+    "title": "Mary Lincoln",
+    "author": "Ruth Painter Randall",
+    "narrator": "Karen Commins",
+    "runtimeMinutes": 1349,
+    "price": 19.93,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 12,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51ZXUwUyeXL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B082P69F1F",
+    "categories": [
+      "Biographies & Memoirs",
+      "Women",
+      "History"
+    ],
+    "releaseDate": "2019-12-16",
+    "publisher": "Jewel Audiobooks",
+    "description": "\"Mary Lincoln\" by Ruth Painter Randall scores 5.1 on our Value Score system. This 23-hour Biographies & Memoirs costs $0.89/hour. 4.5 stars. Using a credit saves you money.",
+    "runtimeHours": 22.5,
+    "valueScore": 5.08,
+    "costPerHour": 0.89,
+    "creditWorth": 1.33,
+    "adjustedValueScore": 13.03
   },
   {
     "title": "Medio sol amarillo [Half of a Yellow Sun]",
@@ -11244,6 +11841,32 @@
     "creditWorth": 1.24
   },
   {
+    "asin": "B004VFMTN6",
+    "title": "Robert Redford",
+    "author": "Michael Feeney Callan",
+    "narrator": "Mark Deakins",
+    "runtimeMinutes": 1052,
+    "price": 14.05,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 15,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/519Bz2dh-QL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B004VFMTN6",
+    "categories": [
+      "Arts & Entertainment",
+      "Entertainment & Performing Arts",
+      "Film & TV"
+    ],
+    "releaseDate": "2011-05-03",
+    "publisher": "Random House Audio",
+    "description": "Best Arts & Entertainment for your Audible credit? \"Robert Redford\" by Michael Feeney Callan runs 18 hours at $0.80/hour. Rated 4.0/5. Buy for $14.05.",
+    "runtimeHours": 17.5,
+    "valueScore": 4.99,
+    "costPerHour": 0.8,
+    "creditWorth": 0.94,
+    "adjustedValueScore": 13.84
+  },
+  {
     "asin": "B0FXY6DVJS",
     "title": "A Parade of Horribles",
     "author": "Matt Dinniman",
@@ -11473,6 +12096,32 @@
     "costPerHour": 1.01,
     "creditWorth": 1.03,
     "adjustedValueScore": 26.2
+  },
+  {
+    "asin": "B09WZD1C43",
+    "title": "A Biography of the Pixel",
+    "author": "Alvy Ray Smith",
+    "narrator": "Daniel Henning",
+    "runtimeMinutes": 1258,
+    "price": 19.03,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/419jzpu+syL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09WZD1C43",
+    "categories": [
+      "Arts & Entertainment",
+      "Art",
+      "Computers & Technology"
+    ],
+    "releaseDate": "2022-04-19",
+    "publisher": "Tantor Audio",
+    "description": "\"A Biography of the Pixel\" by Alvy Ray Smith scores 5.0 on our Value Score system. This 21-hour Arts & Entertainment costs $0.91/hour. 4.5 stars. Using a credit saves you money.",
+    "runtimeHours": 21,
+    "valueScore": 4.96,
+    "costPerHour": 0.91,
+    "creditWorth": 1.27,
+    "adjustedValueScore": 10.9
   },
   {
     "asin": "B09CS5KBV1",
@@ -12413,6 +13062,32 @@
     "adjustedValueScore": 21.8
   },
   {
+    "asin": "B01N8Q0LS5",
+    "title": "The Sealed Nectar",
+    "author": "Darussalam Publishers, Safiur Rahman Al Mubarakpuri",
+    "narrator": "Bilal Abdul Kareem",
+    "runtimeMinutes": 1413,
+    "price": 22,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 42,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51HVBQqIYvL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01N8Q0LS5",
+    "categories": [
+      "Religion & Spirituality",
+      "Islam",
+      "Biographies"
+    ],
+    "releaseDate": "2016-11-14",
+    "publisher": "Author's Republic",
+    "description": "\"The Sealed Nectar\" by Darussalam Publishers, Safiur Rahman Al Mubarakpuri scores 4.8 on our Value Score system. This 24-hour Religion & Spirituality costs $0.93/hour. 4.5 stars. Using a credit saves you money.",
+    "runtimeHours": 23.6,
+    "valueScore": 4.82,
+    "costPerHour": 0.93,
+    "creditWorth": 1.47,
+    "adjustedValueScore": 18.13
+  },
+  {
     "asin": "B00WYDJ2YQ",
     "title": "48 Laws of Power",
     "author": "Robert Greene",
@@ -12460,6 +13135,32 @@
     "valueScore": 4.81,
     "costPerHour": 0.94,
     "creditWorth": 1.12
+  },
+  {
+    "asin": "1538484307",
+    "title": "Burton",
+    "author": "Byron Farwell",
+    "narrator": "Simon Vance",
+    "runtimeMinutes": 1117,
+    "price": 15.48,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51TJA3tvBvL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1538484307",
+    "categories": [
+      "Biographies & Memoirs",
+      "Professionals & Academics",
+      "Science & Technology"
+    ],
+    "releaseDate": "2019-02-19",
+    "publisher": "Blackstone Audio, Inc.",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Burton\" by Byron Farwell runs 19 hours at $0.83/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 18.6,
+    "valueScore": 4.81,
+    "costPerHour": 0.83,
+    "creditWorth": 1.04,
+    "adjustedValueScore": 8.62
   },
   {
     "asin": "B002V1CJ8W",
@@ -12665,6 +13366,32 @@
     "costPerHour": 0.94,
     "creditWorth": 1.43,
     "adjustedValueScore": 19.24
+  },
+  {
+    "asin": "B0088NXBUC",
+    "title": "Orwell",
+    "author": "Michael Shelden",
+    "narrator": "Frederick Davidson",
+    "runtimeMinutes": 1140,
+    "price": 17.81,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/510ZbuQqSdL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0088NXBUC",
+    "categories": [
+      "Biographies & Memoirs",
+      "Art & Literature",
+      "Authors"
+    ],
+    "releaseDate": "2012-06-04",
+    "publisher": "Blackstone Audio, Inc.",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Orwell\" by Michael Shelden runs 19 hours at $0.94/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 19,
+    "valueScore": 4.8,
+    "costPerHour": 0.94,
+    "creditWorth": 1.19,
+    "adjustedValueScore": 5.27
   },
   {
     "asin": "B005V0QI82",
@@ -12998,6 +13725,32 @@
     "adjustedValueScore": 27.02
   },
   {
+    "asin": "B09NCDBHKQ",
+    "title": "Christian Leaders of the Eighteenth Century (Updated, Annotated)",
+    "author": "J. C. Ryle",
+    "narrator": "Saethon Williams",
+    "runtimeMinutes": 914,
+    "price": 16.07,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41sTt4IZg7L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09NCDBHKQ",
+    "categories": [
+      "Religion & Spirituality",
+      "Christianity",
+      "History"
+    ],
+    "releaseDate": "2021-12-09",
+    "publisher": "Aneko Press",
+    "description": "Best Religion & Spirituality for your Audible credit? \"Christian Leaders of the Eighteenth Century (Updated, Annotated)\" by J. C. Ryle runs 15 hours at $1.05/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 15.2,
+    "valueScore": 4.74,
+    "costPerHour": 1.05,
+    "creditWorth": 1.07,
+    "adjustedValueScore": 8.49
+  },
+  {
     "asin": "B017WJ5ZK6",
     "title": "Harry Potter and the Deathly Hallows, Book 7",
     "author": "J.K. Rowling",
@@ -13074,6 +13827,32 @@
     "adjustedValueScore": 25.75
   },
   {
+    "asin": "B0095YR3T8",
+    "title": "Marilyn Monroe",
+    "author": "Donald Spoto",
+    "narrator": "Anna Fields",
+    "runtimeMinutes": 1366,
+    "price": 21.76,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 59,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51hTWNRTbSL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0095YR3T8",
+    "categories": [
+      "Arts & Entertainment",
+      "Entertainment & Performing Arts",
+      "Film & TV"
+    ],
+    "releaseDate": "2012-09-05",
+    "publisher": "Blackstone Audio, Inc.",
+    "description": "\"Marilyn Monroe\" by Donald Spoto scores 4.7 on our Value Score system. This 23-hour Arts & Entertainment costs $0.96/hour. 4.5 stars. Using a credit saves you money.",
+    "runtimeHours": 22.8,
+    "valueScore": 4.71,
+    "costPerHour": 0.96,
+    "creditWorth": 1.46,
+    "adjustedValueScore": 19.28
+  },
+  {
     "asin": "B0H4NXHQ6K",
     "title": "Body Refinement in a Beast Tamer’s World, Book 3",
     "author": "Seth Ring",
@@ -13096,6 +13875,32 @@
     "valueScore": 4.7,
     "costPerHour": 1.02,
     "creditWorth": 0.96
+  },
+  {
+    "asin": "B06VVJ7YG1",
+    "title": "Charles Manson Coming Down Fast",
+    "author": "Simon Wells",
+    "narrator": "Peter Curran",
+    "runtimeMinutes": 987,
+    "price": 15.77,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 12,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61yhPHr5v5L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B06VVJ7YG1",
+    "categories": [
+      "Biographies & Memoirs",
+      "True Crime",
+      "la_confidential"
+    ],
+    "releaseDate": "2017-02-14",
+    "publisher": "Talking Music",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Charles Manson Coming Down Fast\" by Simon Wells runs 17 hours at $0.96/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 16.5,
+    "valueScore": 4.69,
+    "costPerHour": 0.96,
+    "creditWorth": 1.05,
+    "adjustedValueScore": 12.03
   },
   {
     "asin": "B09GHD1R2R",
@@ -13302,6 +14107,58 @@
       "Thriller"
     ],
     "description": ""
+  },
+  {
+    "asin": "0063033909",
+    "title": "What Becomes a Legend Most",
+    "author": "Philip Gefter",
+    "narrator": "Jane Oppenheimer",
+    "runtimeMinutes": 1370,
+    "price": 22.1,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 7,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51tGyOWdPYL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0063033909",
+    "categories": [
+      "Arts & Entertainment",
+      "Photography",
+      "Biographies & Memoirs"
+    ],
+    "releaseDate": "2020-10-13",
+    "publisher": "Harper",
+    "description": "\"What Becomes a Legend Most\" by Philip Gefter scores 4.7 on our Value Score system. This 23-hour Arts & Entertainment costs $0.97/hour. 4.5 stars. Using a credit saves you money.",
+    "runtimeHours": 22.8,
+    "valueScore": 4.65,
+    "costPerHour": 0.97,
+    "creditWorth": 1.48,
+    "adjustedValueScore": 9.67
+  },
+  {
+    "asin": "B002V5BA9C",
+    "title": "Namath: A Biography",
+    "author": "Mark Kriegel",
+    "narrator": "Scott Brick",
+    "runtimeMinutes": 1294,
+    "price": 20.89,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 10,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/414LYb+pHdL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V5BA9C",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities",
+      "Sports"
+    ],
+    "releaseDate": "2004-10-29",
+    "publisher": "Penguin Audio",
+    "description": "\"Namath: A Biography\" by Mark Kriegel scores 4.7 on our Value Score system. This 22-hour Biographies & Memoirs costs $0.97/hour. 4.5 stars. Using a credit saves you money.",
+    "runtimeHours": 21.6,
+    "valueScore": 4.65,
+    "costPerHour": 0.97,
+    "creditWorth": 1.4,
+    "adjustedValueScore": 11.15
   },
   {
     "title": "The Body Keeps the Score",
@@ -13714,6 +14571,32 @@
     "adjustedValueScore": 23.37
   },
   {
+    "asin": "B002V9ZCI8",
+    "title": "Cavalryman of the Lost Cause",
+    "author": "Jeffry D. Wert",
+    "narrator": "Michael Prichard",
+    "runtimeMinutes": 1030,
+    "price": 14.94,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51swXq5ZqVL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V9ZCI8",
+    "categories": [
+      "Biographies & Memoirs",
+      "Military & War",
+      "American Civil War"
+    ],
+    "releaseDate": "2008-11-03",
+    "publisher": "Tantor Audio",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Cavalryman of the Lost Cause\" by Jeffry D. Wert runs 17 hours at $0.87/hour. Rated 4.0/5. Buy for $14.94.",
+    "runtimeHours": 17.2,
+    "valueScore": 4.6,
+    "costPerHour": 0.87,
+    "creditWorth": 1,
+    "adjustedValueScore": 10.11
+  },
+  {
     "asin": "B002V1AJEI",
     "title": "Path of Daggers",
     "author": "Robert Jordan",
@@ -13842,6 +14725,32 @@
     "adjustedValueScore": 26.42
   },
   {
+    "asin": "B0B6GR1J4H",
+    "title": "Cole Porter",
+    "author": "William McBrien",
+    "narrator": "Joel Froomkin",
+    "runtimeMinutes": 1047,
+    "price": 15.28,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41RCLRBDdyL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0B6GR1J4H",
+    "categories": [
+      "Arts & Entertainment",
+      "Entertainment & Performing Arts",
+      "Theater"
+    ],
+    "releaseDate": "2022-07-19",
+    "publisher": "Tantor Audio",
+    "description": "Best Arts & Entertainment for your Audible credit? \"Cole Porter\" by William McBrien runs 18 hours at $0.88/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 17.5,
+    "valueScore": 4.57,
+    "costPerHour": 0.88,
+    "creditWorth": 1.02,
+    "adjustedValueScore": 6.34
+  },
+  {
     "asin": "B004BAUKFK",
     "title": "Unbroken",
     "author": "Laura Hillenbrand",
@@ -13916,6 +14825,30 @@
     "costPerHour": 1.1,
     "creditWorth": 1.54,
     "adjustedValueScore": 23.93
+  },
+  {
+    "asin": "B00RET2986",
+    "title": "Analysis of Criminal Psychology",
+    "author": "Hans Gross, Israel Bouseman",
+    "narrator": "Karin Allers",
+    "runtimeMinutes": 1250,
+    "price": 18.26,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51o+7+6XYtL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00RET2986",
+    "categories": [
+      "Audiobooks"
+    ],
+    "releaseDate": "2014-12-29",
+    "publisher": "AudioLearn",
+    "description": "\"Analysis of Criminal Psychology\" by Hans Gross, Israel Bouseman scores 4.6 on our Value Score system. This 21-hour Audiobooks costs $0.88/hour. 4.0 stars. Using a credit saves you money.",
+    "runtimeHours": 20.8,
+    "valueScore": 4.56,
+    "costPerHour": 0.88,
+    "creditWorth": 1.22,
+    "adjustedValueScore": 3.16
   },
   {
     "asin": "B004CNGLYA",
@@ -15312,6 +16245,32 @@
     "adjustedValueScore": 22.39
   },
   {
+    "asin": "B0CLZ13DCK",
+    "title": "Deterring Armageddon: A Biography of NATO",
+    "author": "Peter Apps",
+    "narrator": "Peter Apps",
+    "runtimeMinutes": 924,
+    "price": 17.58,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51N9doEEj1L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CLZ13DCK",
+    "categories": [
+      "History",
+      "Military",
+      "Politics & Social Sciences"
+    ],
+    "releaseDate": "2024-02-01",
+    "publisher": "Wildfire",
+    "description": "Best History for your Audible credit? \"Deterring Armageddon: A Biography of NATO\" by Peter Apps runs 15 hours at $1.14/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 15.4,
+    "valueScore": 4.38,
+    "costPerHour": 1.14,
+    "creditWorth": 1.18,
+    "adjustedValueScore": 6.07
+  },
+  {
     "title": "Sapiens",
     "author": "Yuval Noah Harari",
     "narrator": "Derek Perkins",
@@ -15462,6 +16421,32 @@
     "adjustedValueScore": 18.81
   },
   {
+    "asin": "B002V5H7KS",
+    "title": "Ted Williams",
+    "author": "Leigh Montville",
+    "narrator": "Scott Brick",
+    "runtimeMinutes": 1272,
+    "price": 21.84,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 23,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51JIJhPk3BL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V5H7KS",
+    "categories": [
+      "Biographies & Memoirs",
+      "Sports",
+      "Sports & Outdoors"
+    ],
+    "releaseDate": "2004-04-26",
+    "publisher": "Random House Audio",
+    "description": "\"Ted Williams\" by Leigh Montville scores 4.4 on our Value Score system. This 21-hour Biographies & Memoirs costs $1.03/hour. 4.5 stars. Using a credit saves you money.",
+    "runtimeHours": 21.2,
+    "valueScore": 4.37,
+    "costPerHour": 1.03,
+    "creditWorth": 1.46,
+    "adjustedValueScore": 13.89
+  },
+  {
     "asin": "B0036JVO6G",
     "title": "The Da Vinci Code",
     "author": "Dan Brown",
@@ -15585,6 +16570,32 @@
     "costPerHour": 1.15,
     "creditWorth": 0.95,
     "adjustedValueScore": 23.25
+  },
+  {
+    "asin": "B002V8HKNE",
+    "title": "Wilbur and Orville",
+    "author": "Fred Howard",
+    "narrator": "Larry McKeever",
+    "runtimeMinutes": 1301,
+    "price": 19.97,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/518gGbEMh+L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V8HKNE",
+    "categories": [
+      "Biographies & Memoirs",
+      "Historical",
+      "Professionals & Academics"
+    ],
+    "releaseDate": "2009-04-02",
+    "publisher": "Recorded Books",
+    "description": "\"Wilbur and Orville\" by Fred Howard scores 4.3 on our Value Score system. This 22-hour Biographies & Memoirs costs $0.92/hour. 4.0 stars. Using a credit saves you money.",
+    "runtimeHours": 21.7,
+    "valueScore": 4.34,
+    "costPerHour": 0.92,
+    "creditWorth": 1.34,
+    "adjustedValueScore": 6.02
   },
   {
     "asin": "B0D9P8TFW4",
@@ -16576,6 +17587,32 @@
     "adjustedValueScore": 2.93
   },
   {
+    "asin": "B0F55W34V3",
+    "title": "American Kings",
+    "author": "Seth Wickersham",
+    "narrator": "Seth Wickersham",
+    "runtimeMinutes": 791,
+    "price": 14.01,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 20,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51h7s5Is+nL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F55W34V3",
+    "categories": [
+      "Sports & Outdoors",
+      "Football",
+      "Sociology of Sports"
+    ],
+    "releaseDate": "2025-09-09",
+    "publisher": "Audible Studios",
+    "description": "Best Sports & Outdoors for your Audible credit? \"American Kings\" by Seth Wickersham runs 13 hours at $1.06/hour. Rated 4.5/5. Buy for $14.01.",
+    "runtimeHours": 13.2,
+    "valueScore": 4.23,
+    "costPerHour": 1.06,
+    "creditWorth": 0.94,
+    "adjustedValueScore": 12.88
+  },
+  {
     "asin": "B009PRJ6BS",
     "title": "Antifragile",
     "author": "Nassim Nicholas Taleb",
@@ -17235,6 +18272,31 @@
     "description": "Best Biography for your Audible credit? \"Angela's Ashes\" by Frank McCourt runs 15 hours at $1.09/hour. Rated 4.5/5. Save with a credit."
   },
   {
+    "asin": "B09JTRHXZ3",
+    "title": "Shackleton",
+    "author": "Sir Ranulph Fiennes",
+    "narrator": "Jonathan Keeble",
+    "runtimeMinutes": 711,
+    "price": 14.33,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 13,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51MnaAtOEJL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09JTRHXZ3",
+    "categories": [
+      "Biographies & Memoirs",
+      "Adventurers, Explorers & Survival"
+    ],
+    "releaseDate": "2022-01-04",
+    "publisher": "Blackstone Publishing",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Shackleton\" by Sir Ranulph Fiennes runs 12 hours at $1.21/hour. Rated 5.0/5. Buy for $14.33.",
+    "runtimeHours": 11.9,
+    "valueScore": 4.13,
+    "costPerHour": 1.21,
+    "creditWorth": 0.96,
+    "adjustedValueScore": 10.9
+  },
+  {
     "asin": "B01LZ0188N",
     "title": "Origin",
     "author": "Dan Brown",
@@ -17309,6 +18371,32 @@
       "Science"
     ],
     "description": "In Homo Deus: A Brief History of Tomorrow, Yuval Noah Harari presents a fascinating journey through history. This highly praised audiobook runs 14 hours and delivers deep insights for anyone interested in history. Expertly narrated by Derek Perkins.  Before you spend your Audible credit on Homo Deus: A Brief History of Tomorrow, check how it stacks up against our Value Score system. Homo Deus: A Brief History of Tomorrow has a Value Score of 3.5, costs $17.99, and runs 14.0 hours at $1.29 per hour of listening. At 14 hours with a highly praised rating, this is a marginal value for any audiobook lover."
+  },
+  {
+    "asin": "0593455444",
+    "title": "Madam",
+    "author": "Debby Applegate",
+    "narrator": "Erin Bennett",
+    "runtimeMinutes": 1225,
+    "price": 22.31,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 28,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41CJ5iVNRUL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0593455444",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities",
+      "Historical"
+    ],
+    "releaseDate": "2021-11-02",
+    "publisher": "Random House Audio",
+    "description": "\"Madam\" by Debby Applegate scores 4.1 on our Value Score system. This 20-hour Biographies & Memoirs costs $1.09/hour. 4.5 stars. Using a credit saves you money.",
+    "runtimeHours": 20.4,
+    "valueScore": 4.12,
+    "costPerHour": 1.09,
+    "creditWorth": 1.49,
+    "adjustedValueScore": 13.87
   },
   {
     "asin": "1549119737",
@@ -18322,6 +19410,32 @@
     "creditWorth": 1.01
   },
   {
+    "asin": "1549149482",
+    "title": "Jimmy Page",
+    "author": "Chris Salewicz",
+    "narrator": "Tom McGairl",
+    "runtimeMinutes": 1017,
+    "price": 19.19,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 18,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41Hrs48H2CL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1549149482",
+    "categories": [
+      "Arts & Entertainment",
+      "Music",
+      "Biographies & Memoirs"
+    ],
+    "releaseDate": "2019-04-02",
+    "publisher": "Da Capo",
+    "description": "Best Arts & Entertainment for your Audible credit? \"Jimmy Page\" by Chris Salewicz runs 17 hours at $1.13/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 17,
+    "valueScore": 3.97,
+    "costPerHour": 1.13,
+    "creditWorth": 1.28,
+    "adjustedValueScore": 11.69
+  },
+  {
     "asin": "B07FYMZCTK",
     "title": "Babylon's Ashes - Il destino",
     "author": "James S. A. Corey",
@@ -18446,6 +19560,32 @@
     "valueScore": 3.95,
     "costPerHour": 1.14,
     "creditWorth": 1.23
+  },
+  {
+    "asin": "B0036N7V9Q",
+    "title": "Whittaker Chambers",
+    "author": "Sam Tanenhaus",
+    "narrator": "Edward Lewis",
+    "runtimeMinutes": 1114,
+    "price": 21.13,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 10,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51EGab3W0hL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0036N7V9Q",
+    "categories": [
+      "Biographies & Memoirs",
+      "Historical",
+      "Politics & Activism"
+    ],
+    "releaseDate": "2010-01-11",
+    "publisher": "Blackstone Audio, Inc.",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Whittaker Chambers\" by Sam Tanenhaus runs 19 hours at $1.14/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 18.6,
+    "valueScore": 3.95,
+    "costPerHour": 1.14,
+    "creditWorth": 1.41,
+    "adjustedValueScore": 9.47
   },
   {
     "asin": "B0F3L6YCYH",
@@ -19309,6 +20449,58 @@
     "creditWorth": 1.13
   },
   {
+    "asin": "152935501X",
+    "title": "Philip",
+    "author": "Gyles Brandreth",
+    "narrator": "Gyles Brandreth",
+    "runtimeMinutes": 1069,
+    "price": 22.91,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 9,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/4177u9VAuDL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/152935501X",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities",
+      "Politics & Activism"
+    ],
+    "releaseDate": "2021-04-27",
+    "publisher": "Hodder & Stoughton",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Philip\" by Gyles Brandreth runs 18 hours at $1.29/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 17.8,
+    "valueScore": 3.89,
+    "costPerHour": 1.29,
+    "creditWorth": 1.53,
+    "adjustedValueScore": 8.96
+  },
+  {
+    "asin": "B002VA9Z26",
+    "title": "Gallant Lady",
+    "author": "Don Keith, Ken Henry",
+    "narrator": "Alan Sklar",
+    "runtimeMinutes": 872,
+    "price": 14.96,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 14,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41eAIRrzMKL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002VA9Z26",
+    "categories": [
+      "Biographies & Memoirs",
+      "Military & War",
+      "History"
+    ],
+    "releaseDate": "2005-11-01",
+    "publisher": "Blackstone Audio, Inc.",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Gallant Lady\" by Don Keith, Ken Henry runs 15 hours at $1.03/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 14.5,
+    "valueScore": 3.89,
+    "costPerHour": 1.03,
+    "creditWorth": 1,
+    "adjustedValueScore": 10.53
+  },
+  {
     "title": "A Random Walk Down Wall Street (Completely Revised and Updated)",
     "author": "Burton G. Malkiel",
     "narrator": "George Guidall",
@@ -19614,6 +20806,31 @@
     "adjustedValueScore": 15.18
   },
   {
+    "asin": "9178291313",
+    "title": "As above, so below",
+    "author": "Anders Tengner",
+    "narrator": "Anders Tengner",
+    "runtimeMinutes": 729,
+    "price": 14.18,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51hjQ7kG4GL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/9178291313",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities"
+    ],
+    "releaseDate": "2020-06-12",
+    "publisher": "Word Audio Publishing International",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"As above, so below\" by Anders Tengner runs 12 hours at $1.17/hour. Rated 4.5/5. Buy for $14.18.",
+    "runtimeHours": 12.2,
+    "valueScore": 3.86,
+    "costPerHour": 1.17,
+    "creditWorth": 0.95,
+    "adjustedValueScore": 6.21
+  },
+  {
     "asin": "1338635204",
     "title": "The Ballad of Songbirds and Snakes",
     "author": "Suzanne Collins",
@@ -19793,6 +21010,32 @@
     "adjustedValueScore": 19.11
   },
   {
+    "asin": "B073G34KL7",
+    "title": "Bacardi and the Long Fight for Cuba",
+    "author": "Tom Gjelten",
+    "narrator": "Robertson Dean",
+    "runtimeMinutes": 1084,
+    "price": 21.09,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 12,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/516QpBiFpwL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B073G34KL7",
+    "categories": [
+      "Biographies & Memoirs",
+      "Professionals & Academics",
+      "Business"
+    ],
+    "releaseDate": "2017-08-08",
+    "publisher": "Penguin Audio",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Bacardi and the Long Fight for Cuba\" by Tom Gjelten runs 18 hours at $1.17/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 18.1,
+    "valueScore": 3.85,
+    "costPerHour": 1.17,
+    "creditWorth": 1.41,
+    "adjustedValueScore": 9.88
+  },
+  {
     "asin": "B01DYO4QRQ",
     "title": "A Court of Mist and Fury",
     "author": "Sarah J. Maas",
@@ -19920,6 +21163,32 @@
     "valueScore": 3.84,
     "costPerHour": 1.17,
     "creditWorth": 1.38
+  },
+  {
+    "asin": "B002V0133K",
+    "title": "Nathan Bedford Forrest",
+    "author": "Jack Hurst",
+    "narrator": "Jeff Riggenbach",
+    "runtimeMinutes": 1015,
+    "price": 19.81,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 53,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51syQORq4rL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V0133K",
+    "categories": [
+      "Biographies & Memoirs",
+      "Historical",
+      "Military & War"
+    ],
+    "releaseDate": "2009-07-03",
+    "publisher": "Blackstone Audio, Inc.",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Nathan Bedford Forrest\" by Jack Hurst runs 17 hours at $1.17/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 16.9,
+    "valueScore": 3.84,
+    "costPerHour": 1.17,
+    "creditWorth": 1.33,
+    "adjustedValueScore": 15.32
   },
   {
     "asin": "B09HVWKLNL",
@@ -20150,6 +21419,32 @@
     "valueScore": 3.83,
     "costPerHour": 1.31,
     "creditWorth": 1.04
+  },
+  {
+    "asin": "B016V3TWCQ",
+    "title": "George MacDonald",
+    "author": "Michael R Phillips",
+    "narrator": "Johnny Heller",
+    "runtimeMinutes": 892,
+    "price": 19.39,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61vuaUXDdYL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B016V3TWCQ",
+    "categories": [
+      "Biographies & Memoirs",
+      "Art & Literature",
+      "Authors"
+    ],
+    "releaseDate": "2015-10-20",
+    "publisher": "Oasis Audio",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"George MacDonald\" by Michael R Phillips runs 15 hours at $1.30/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 14.9,
+    "valueScore": 3.83,
+    "costPerHour": 1.3,
+    "creditWorth": 1.3,
+    "adjustedValueScore": 8.42
   },
   {
     "asin": "B005K0E3AS",
@@ -20630,6 +21925,32 @@
     "costPerHour": 1.19,
     "creditWorth": 1.05,
     "adjustedValueScore": 5.24
+  },
+  {
+    "asin": "B07F851RSZ",
+    "title": "Pep Guardiola",
+    "author": "Guillem Balague",
+    "narrator": "William Glasswell",
+    "runtimeMinutes": 1111,
+    "price": 22.06,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51+Aaag+99L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07F851RSZ",
+    "categories": [
+      "Biographies & Memoirs",
+      "Sports",
+      "Sports & Outdoors"
+    ],
+    "releaseDate": "2018-10-18",
+    "publisher": "Seven Dials",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Pep Guardiola\" by Guillem Balague runs 19 hours at $1.19/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 18.5,
+    "valueScore": 3.78,
+    "costPerHour": 1.19,
+    "creditWorth": 1.48,
+    "adjustedValueScore": 6.77
   },
   {
     "asin": "0593408519",
@@ -21894,6 +23215,32 @@
     "valueScore": 3.65,
     "costPerHour": 1.23,
     "creditWorth": 1.24
+  },
+  {
+    "asin": "1705276644",
+    "title": "Snowdon",
+    "author": "Anne deCourcy",
+    "narrator": "Theo Solomon",
+    "runtimeMinutes": 1067,
+    "price": 21.94,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 9,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51c7UPPxVCS._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1705276644",
+    "categories": [
+      "Biographies & Memoirs",
+      "Art & Literature",
+      "Artists, Architects & Photographers"
+    ],
+    "releaseDate": "2021-06-08",
+    "publisher": "Tantor Audio",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Snowdon\" by Anne deCourcy runs 18 hours at $1.23/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 17.8,
+    "valueScore": 3.65,
+    "costPerHour": 1.23,
+    "creditWorth": 1.47,
+    "adjustedValueScore": 8.4
   },
   {
     "asin": "B0055274U2",
@@ -23929,6 +25276,32 @@
     "adjustedValueScore": 18.37
   },
   {
+    "asin": "B09V6VDK7C",
+    "title": "Thomas Jefferson",
+    "author": "Thomas S. Kidd",
+    "narrator": "Grover Gardner",
+    "runtimeMinutes": 705,
+    "price": 15.2,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 13,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41xJVfp45tL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09V6VDK7C",
+    "categories": [
+      "Biographies & Memoirs",
+      "Historical",
+      "Politics & Activism"
+    ],
+    "releaseDate": "2022-05-10",
+    "publisher": "Blackstone Publishing",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Thomas Jefferson\" by Thomas S. Kidd runs 12 hours at $1.29/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 11.8,
+    "valueScore": 3.48,
+    "costPerHour": 1.29,
+    "creditWorth": 1.02,
+    "adjustedValueScore": 9.18
+  },
+  {
     "asin": "B002V0K6D8",
     "title": "Chapterhouse Dune",
     "author": "Frank Herbert",
@@ -24411,6 +25784,58 @@
     "costPerHour": 1.31,
     "creditWorth": 1.26,
     "adjustedValueScore": 14.51
+  },
+  {
+    "asin": "B0DB2V3M9S",
+    "title": "George Washington Carver",
+    "author": "Rackham Holt",
+    "narrator": "Karl T. Wright aka K.T. Wright",
+    "runtimeMinutes": 737,
+    "price": 17.79,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51SKJGkQJ6L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DB2V3M9S",
+    "categories": [
+      "Biographies & Memoirs",
+      "Historical",
+      "History"
+    ],
+    "releaseDate": "2024-07-25",
+    "publisher": "Greenwoman Publishing, LLC",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"George Washington Carver\" by Rackham Holt runs 12 hours at $1.45/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 12.3,
+    "valueScore": 3.45,
+    "costPerHour": 1.45,
+    "creditWorth": 1.19,
+    "adjustedValueScore": 2.39
+  },
+  {
+    "asin": "B002V0Q1UA",
+    "title": "Portrait of an Artist",
+    "author": "Laurie Lisle",
+    "narrator": "Grace Conlin",
+    "runtimeMinutes": 818,
+    "price": 17.78,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 48,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51nacVzF1rL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V0Q1UA",
+    "categories": [
+      "Biographies & Memoirs",
+      "Art & Literature",
+      "Artists, Architects & Photographers"
+    ],
+    "releaseDate": "2006-01-16",
+    "publisher": "Blackstone Audio, Inc.",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Portrait of an Artist\" by Laurie Lisle runs 14 hours at $1.30/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 13.6,
+    "valueScore": 3.45,
+    "costPerHour": 1.3,
+    "creditWorth": 1.19,
+    "adjustedValueScore": 13.43
   },
   {
     "asin": "B002V1AGNC",
@@ -24966,6 +26391,32 @@
     "adjustedValueScore": 2.37
   },
   {
+    "asin": "B09WBZNKP1",
+    "title": "Barkley",
+    "author": "Timothy Bella",
+    "narrator": "Korey Jackson",
+    "runtimeMinutes": 1006,
+    "price": 22.07,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 26,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51TxZKhNGTL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09WBZNKP1",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities",
+      "Sports"
+    ],
+    "releaseDate": "2022-11-01",
+    "publisher": "Hanover Square Press",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Barkley\" by Timothy Bella runs 17 hours at $1.32/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 16.8,
+    "valueScore": 3.42,
+    "costPerHour": 1.32,
+    "creditWorth": 1.48,
+    "adjustedValueScore": 11.27
+  },
+  {
     "asin": "1797105582",
     "title": "The Book of Lost Names",
     "author": "Kristin Harmel",
@@ -25171,6 +26622,32 @@
     "valueScore": 3.41,
     "costPerHour": 1.29,
     "creditWorth": 1.04
+  },
+  {
+    "asin": "B0B4BMFBCW",
+    "title": "England Football: The Biography",
+    "author": "Paul Hayward",
+    "narrator": "Chris Harper",
+    "runtimeMinutes": 1049,
+    "price": 23.06,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41L8s1biLHL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0B4BMFBCW",
+    "categories": [
+      "Biographies & Memoirs",
+      "Sports",
+      "Sports & Outdoors"
+    ],
+    "releaseDate": "2022-10-27",
+    "publisher": "Simon & Schuster Audio UK",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"England Football: The Biography\" by Paul Hayward runs 18 hours at $1.32/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 17.5,
+    "valueScore": 3.41,
+    "costPerHour": 1.32,
+    "creditWorth": 1.54,
+    "adjustedValueScore": 2.36
   },
   {
     "asin": "B0036NDRG2",
@@ -27505,6 +28982,32 @@
     "adjustedValueScore": 2.27
   },
   {
+    "asin": "B0B7832KPV",
+    "title": "John Milton Poetry Collection",
+    "author": "John Milton, CSA Publishing",
+    "narrator": "Tom Chandler",
+    "runtimeMinutes": 937,
+    "price": 21.41,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51l9A1zaXEL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0B7832KPV",
+    "categories": [
+      "Literature & Fiction",
+      "Ancient, Classical & Medieval Literature",
+      "Poetry"
+    ],
+    "releaseDate": "2022-07-22",
+    "publisher": "CSA Publishing",
+    "description": "Best Literature & Fiction for your Audible credit? \"John Milton Poetry Collection\" by John Milton, CSA Publishing runs 16 hours at $1.37/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 15.6,
+    "valueScore": 3.28,
+    "costPerHour": 1.37,
+    "creditWorth": 1.43,
+    "adjustedValueScore": 4.55
+  },
+  {
     "title": "Ignite the Infernos: A Romantasy",
     "author": "Ivy Asher",
     "narrator": "Amelia Hugh, Vincent Skye",
@@ -28289,6 +29792,58 @@
     "costPerHour": 1.39,
     "creditWorth": 1.51,
     "adjustedValueScore": 17.82
+  },
+  {
+    "asin": "B017NZOKNW",
+    "title": "Lady Bird",
+    "author": "Jan Jarboe Russell",
+    "narrator": "Andrea Gallo",
+    "runtimeMinutes": 960,
+    "price": 22.26,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51cKkeugXyL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B017NZOKNW",
+    "categories": [
+      "Biographies & Memoirs",
+      "Historical",
+      "Politics & Activism"
+    ],
+    "releaseDate": "2015-11-09",
+    "publisher": "Recorded Books",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Lady Bird\" by Jan Jarboe Russell runs 16 hours at $1.39/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 16,
+    "valueScore": 3.23,
+    "costPerHour": 1.39,
+    "creditWorth": 1.49,
+    "adjustedValueScore": 5.79
+  },
+  {
+    "asin": "B00R5278LK",
+    "title": "Expression of Emotion in Man and Animals",
+    "author": "Charles Darwin, Israel Bouseman",
+    "narrator": "Rupert Bush",
+    "runtimeMinutes": 688,
+    "price": 14.19,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51uBciqn9UL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00R5278LK",
+    "categories": [
+      "Biographies & Memoirs",
+      "Professionals & Academics",
+      "Science & Technology"
+    ],
+    "releaseDate": "2014-12-18",
+    "publisher": "AudioLearn",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Expression of Emotion in Man and Animals\" by Charles Darwin, Israel Bouseman runs 12 hours at $1.24/hour. Rated 4.0/5. Buy for $14.19.",
+    "runtimeHours": 11.5,
+    "valueScore": 3.23,
+    "costPerHour": 1.24,
+    "creditWorth": 0.95,
+    "adjustedValueScore": 2.24
   },
   {
     "asin": "B0B1PJ4XHY",
@@ -30479,6 +32034,31 @@
     "adjustedValueScore": 16
   },
   {
+    "asin": "B00CKWQAUU",
+    "title": "When Marina Abramovic Dies",
+    "author": "James Westcott",
+    "narrator": "Kathleen Gati",
+    "runtimeMinutes": 768,
+    "price": 18.41,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/517sCcsZbEL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00CKWQAUU",
+    "categories": [
+      "Biographies & Memoirs",
+      "la_confidential"
+    ],
+    "releaseDate": "2013-06-05",
+    "publisher": "Audible Studios",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"When Marina Abramovic Dies\" by James Westcott runs 13 hours at $1.44/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 12.8,
+    "valueScore": 3.13,
+    "costPerHour": 1.44,
+    "creditWorth": 1.23,
+    "adjustedValueScore": 4.34
+  },
+  {
     "asin": "B0B6GRLKR1",
     "title": "Twisted Hate",
     "author": "Ana Huang",
@@ -30704,6 +32284,32 @@
     "costPerHour": 1.45,
     "creditWorth": 1.16,
     "adjustedValueScore": 12.41
+  },
+  {
+    "asin": "0593287517",
+    "title": "A Burning in My Bones",
+    "author": "Winn Collier",
+    "narrator": "Richard Poe",
+    "runtimeMinutes": 584,
+    "price": 15.66,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 74,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51C3eilMWDL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0593287517",
+    "categories": [
+      "Biographies & Memoirs",
+      "Religious",
+      "Religion & Spirituality"
+    ],
+    "releaseDate": "2021-03-23",
+    "publisher": "Random House Audio",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"A Burning in My Bones\" by Winn Collier runs 10 hours at $1.61/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 9.7,
+    "valueScore": 3.11,
+    "costPerHour": 1.61,
+    "creditWorth": 1.05,
+    "adjustedValueScore": 13.43
   },
   {
     "asin": "B008NB9GIU",
@@ -32001,6 +33607,32 @@
     "adjustedValueScore": 2.11
   },
   {
+    "asin": "B07BRCSW54",
+    "title": "Martin Luther",
+    "author": "Herman Selderhuis",
+    "narrator": "Grover Gardner",
+    "runtimeMinutes": 714,
+    "price": 17.57,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51oOO+X8MHL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07BRCSW54",
+    "categories": [
+      "Biographies & Memoirs",
+      "Religious",
+      "la_confidential"
+    ],
+    "releaseDate": "2018-04-03",
+    "publisher": "christianaudio.com",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Martin Luther\" by Herman Selderhuis runs 12 hours at $1.48/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 11.9,
+    "valueScore": 3.05,
+    "costPerHour": 1.48,
+    "creditWorth": 1.18,
+    "adjustedValueScore": 5.46
+  },
+  {
     "asin": "B0B5M28HZK",
     "title": "Edgedancer",
     "author": "Brandon Sanderson",
@@ -32226,6 +33858,32 @@
     "valueScore": 3.04,
     "costPerHour": 1.64,
     "creditWorth": 1.4
+  },
+  {
+    "asin": "B0CJSKMXQ2",
+    "title": "Roger Federer",
+    "author": "Chris Bowers",
+    "narrator": "Jonathan Guy Lewis, Chris Bowers",
+    "runtimeMinutes": 773,
+    "price": 21.19,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41v8C2ZmttL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CJSKMXQ2",
+    "categories": [
+      "Biographies & Memoirs",
+      "Sports",
+      "Sports & Outdoors"
+    ],
+    "releaseDate": "2023-09-26",
+    "publisher": "Tantor Audio",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Roger Federer\" by Chris Bowers runs 13 hours at $1.64/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 12.9,
+    "valueScore": 3.04,
+    "costPerHour": 1.64,
+    "creditWorth": 1.42,
+    "adjustedValueScore": 2.11
   },
   {
     "asin": "B002V8L8KU",
@@ -32707,6 +34365,32 @@
     "creditWorth": 1.11
   },
   {
+    "asin": "B017OD6XTW",
+    "title": "Petty: The Biography",
+    "author": "Warren Zanes",
+    "narrator": "Warren Zanes",
+    "runtimeMinutes": 837,
+    "price": 20.86,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 222,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41oEsva5f9L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B017OD6XTW",
+    "categories": [
+      "Arts & Entertainment",
+      "Music",
+      "Biographies & Memoirs"
+    ],
+    "releaseDate": "2015-12-15",
+    "publisher": "Audible Studios",
+    "description": "Best Arts & Entertainment for your Audible credit? \"Petty: The Biography\" by Warren Zanes runs 14 hours at $1.50/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 14,
+    "valueScore": 3.01,
+    "costPerHour": 1.5,
+    "creditWorth": 1.4,
+    "adjustedValueScore": 16.28
+  },
+  {
     "asin": "0008433844",
     "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
@@ -32806,6 +34490,32 @@
     "costPerHour": 1.67,
     "creditWorth": 1.03,
     "adjustedValueScore": 6.24
+  },
+  {
+    "asin": "1789463262",
+    "title": "Valentino Rossi",
+    "author": "Stuart Barker",
+    "narrator": "Jonathan Guy Lewis",
+    "runtimeMinutes": 544,
+    "price": 15.1,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51bTz3UZGqL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1789463262",
+    "categories": [
+      "Biographies & Memoirs",
+      "Sports",
+      "Science & Engineering"
+    ],
+    "releaseDate": "2020-11-12",
+    "publisher": "John Blake",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Valentino Rossi\" by Stuart Barker runs 9 hours at $1.67/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 9.1,
+    "valueScore": 3,
+    "costPerHour": 1.67,
+    "creditWorth": 1.01,
+    "adjustedValueScore": 4.16
   },
   {
     "asin": "0062992503",
@@ -33945,6 +35655,32 @@
     "adjustedValueScore": 15.56
   },
   {
+    "asin": "B00HMAFYCU",
+    "title": "The Complete Writings of St. Francis of Assisi with Biography",
+    "author": "St. Francis of Assisi, Z. El Bey",
+    "narrator": "Melissa Silvestro",
+    "runtimeMinutes": 832,
+    "price": 21.16,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51VxOe84jdL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00HMAFYCU",
+    "categories": [
+      "Religion & Spirituality",
+      "Christianity",
+      "History"
+    ],
+    "releaseDate": "2014-01-02",
+    "publisher": "Zaafirah El-bey",
+    "description": "Best Religion & Spirituality for your Audible credit? \"The Complete Writings of St. Francis of Assisi with Biography\" by St. Francis of Assisi, Z. El Bey runs 14 hours at $1.53/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 13.9,
+    "valueScore": 2.95,
+    "costPerHour": 1.53,
+    "creditWorth": 1.42,
+    "adjustedValueScore": 5.29
+  },
+  {
     "asin": "1984845349",
     "title": "Malibu Rising",
     "author": "Taylor Jenkins Reid",
@@ -34145,6 +35881,32 @@
     "valueScore": 2.94,
     "costPerHour": 1.57,
     "creditWorth": 1.15
+  },
+  {
+    "asin": "B002V8L27E",
+    "title": "The Beatles",
+    "author": "Bob Spitz",
+    "narrator": "Alfred Molina",
+    "runtimeMinutes": 613,
+    "price": 15.66,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 97,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51NswzZ3QPL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V8L27E",
+    "categories": [
+      "Arts & Entertainment",
+      "Music",
+      "Biographies & Memoirs"
+    ],
+    "releaseDate": "2005-11-01",
+    "publisher": "Simon & Schuster Audio",
+    "description": "Best Arts & Entertainment for your Audible credit? \"The Beatles\" by Bob Spitz runs 10 hours at $1.53/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 10.2,
+    "valueScore": 2.94,
+    "costPerHour": 1.53,
+    "creditWorth": 1.05,
+    "adjustedValueScore": 13.48
   },
   {
     "asin": "0062939505",
@@ -34809,6 +36571,32 @@
     "valueScore": 2.9,
     "costPerHour": 1.73,
     "creditWorth": 1.11
+  },
+  {
+    "asin": "B0CHSKVW6P",
+    "title": "Being Elisabeth Elliot",
+    "author": "Ellen Vaughn",
+    "narrator": "Connie Shabshab",
+    "runtimeMinutes": 685,
+    "price": 19.66,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 43,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51r8jbz7ZML._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CHSKVW6P",
+    "categories": [
+      "Biographies & Memoirs",
+      "Religious",
+      "Religion & Spirituality"
+    ],
+    "releaseDate": "2023-09-20",
+    "publisher": "B&H Publishing Group",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Being Elisabeth Elliot\" by Ellen Vaughn runs 11 hours at $1.72/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 11.4,
+    "valueScore": 2.9,
+    "costPerHour": 1.72,
+    "creditWorth": 1.32,
+    "adjustedValueScore": 10.97
   },
   {
     "asin": "B01CRM17MS",
@@ -37601,6 +39389,32 @@
     "creditWorth": 1.43
   },
   {
+    "asin": "B0F3R8KLR4",
+    "title": "Homer's Iliad and Odyssey: A Biography (Revised and Expanded Edition)",
+    "author": "Alberto Manguel",
+    "narrator": "Malcolm Hillgartner",
+    "runtimeMinutes": 467,
+    "price": 14.01,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51tf9-lVs1L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F3R8KLR4",
+    "categories": [
+      "Biographies & Memoirs",
+      "Art & Literature",
+      "Authors"
+    ],
+    "releaseDate": "2025-07-15",
+    "publisher": "Tantor Media",
+    "description": "8 hours: \"Homer's Iliad and Odyssey: A Biography (Revised and Expanded Edition)\" by Alberto Manguel is a shorter Biographies & Memoirs. Rated 5.0/5. Cost: $1.80/hour. Buy directly for $14.01.",
+    "runtimeHours": 7.8,
+    "valueScore": 2.78,
+    "costPerHour": 1.8,
+    "creditWorth": 0.94,
+    "adjustedValueScore": 1.93
+  },
+  {
     "title": "The 4-Hour Work Week",
     "author": "Timothy Ferriss",
     "narrator": "Ray Porter",
@@ -37907,6 +39721,32 @@
     "adjustedValueScore": 14.53
   },
   {
+    "asin": "B0CXZ182XZ",
+    "title": "Malcolm Lives!",
+    "author": "Ibram X. Kendi",
+    "narrator": "Ibram X. Kendi",
+    "runtimeMinutes": 534,
+    "price": 16.04,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 6,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51U34Uw1GUL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CXZ182XZ",
+    "categories": [
+      "Children's Audiobooks",
+      "Biographies",
+      "Political"
+    ],
+    "releaseDate": "2025-05-13",
+    "publisher": "Macmillan Young Listeners",
+    "description": "Best Children's Audiobooks for your Audible credit? \"Malcolm Lives!\" by Ibram X. Kendi runs 9 hours at $1.80/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 8.9,
+    "valueScore": 2.77,
+    "costPerHour": 1.8,
+    "creditWorth": 1.07,
+    "adjustedValueScore": 5.39
+  },
+  {
     "asin": "B003D8S2ME",
     "title": "Second Foundation",
     "author": "Isaac Asimov",
@@ -38137,6 +39977,32 @@
     "adjustedValueScore": 3.83
   },
   {
+    "asin": "B07XFTBJ2W",
+    "title": "Brigham Young and the Expansion of the Mormon Faith",
+    "author": "Thomas G. Alexander",
+    "narrator": "Charles Henderson Norman",
+    "runtimeMinutes": 732,
+    "price": 19.92,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 10,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/5164r6wlbtL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07XFTBJ2W",
+    "categories": [
+      "Biographies & Memoirs",
+      "Religious",
+      "History"
+    ],
+    "releaseDate": "2019-09-05",
+    "publisher": "University Press Audiobooks",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Brigham Young and the Expansion of the Mormon Faith\" by Thomas G. Alexander runs 12 hours at $1.63/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 12.2,
+    "valueScore": 2.76,
+    "costPerHour": 1.63,
+    "creditWorth": 1.33,
+    "adjustedValueScore": 6.62
+  },
+  {
     "asin": "B002V8H660",
     "title": "Dune Messiah",
     "author": "Frank Herbert",
@@ -38260,6 +40126,58 @@
     "costPerHour": 1.46,
     "creditWorth": 1.27,
     "adjustedValueScore": 11.07
+  },
+  {
+    "asin": "B09RYMD3PX",
+    "title": "Jill",
+    "author": "Julie Pace, Darlene Superville",
+    "narrator": "Deanna Anthony",
+    "runtimeMinutes": 531,
+    "price": 14.49,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41KyoRHqmRL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09RYMD3PX",
+    "categories": [
+      "Biographies & Memoirs",
+      "Politics & Activism",
+      "Politicians"
+    ],
+    "releaseDate": "2022-04-19",
+    "publisher": "Little, Brown & Company",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Jill\" by Julie Pace, Darlene Superville runs 9 hours at $1.64/hour. Rated 4.5/5. Buy for $14.49.",
+    "runtimeHours": 8.9,
+    "valueScore": 2.75,
+    "costPerHour": 1.64,
+    "creditWorth": 0.97,
+    "adjustedValueScore": 3.02
+  },
+  {
+    "asin": "B06XXQZ798",
+    "title": "Manderley Forever",
+    "author": "Tatiana de Rosnay, Sam Taylor - translator",
+    "narrator": "Charlotte Wright",
+    "runtimeMinutes": 819,
+    "price": 19.82,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51YNOLdb2OL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B06XXQZ798",
+    "categories": [
+      "Biographies & Memoirs",
+      "Art & Literature",
+      "Authors"
+    ],
+    "releaseDate": "2017-04-18",
+    "publisher": "Macmillan Audio",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Manderley Forever\" by Tatiana de Rosnay, Sam Taylor - translator runs 14 hours at $1.45/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 13.7,
+    "valueScore": 2.75,
+    "costPerHour": 1.45,
+    "creditWorth": 1.33,
+    "adjustedValueScore": 4.43
   },
   {
     "asin": "B0D2JKML5B",
@@ -40288,6 +42206,58 @@
     "creditWorth": 1.48
   },
   {
+    "asin": "B09G77XFZC",
+    "title": "Joey Dunlop",
+    "author": "Stuart Barker",
+    "narrator": "Jonathan Keeble",
+    "runtimeMinutes": 564,
+    "price": 17.52,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 7,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/519qJJ8ZwdL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09G77XFZC",
+    "categories": [
+      "Biographies & Memoirs",
+      "Sports",
+      "Science & Engineering"
+    ],
+    "releaseDate": "2021-10-14",
+    "publisher": "John Blake",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Joey Dunlop\" by Stuart Barker runs 9 hours at $1.86/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 9.4,
+    "valueScore": 2.68,
+    "costPerHour": 1.86,
+    "creditWorth": 1.17,
+    "adjustedValueScore": 5.57
+  },
+  {
+    "asin": "B0095Y13EE",
+    "title": "Bette Davis",
+    "author": "Barbara Leaming",
+    "narrator": "Grace Conlin",
+    "runtimeMinutes": 764,
+    "price": 19,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 9,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51lJtnNMjzL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0095Y13EE",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities",
+      "Actors"
+    ],
+    "releaseDate": "2012-09-05",
+    "publisher": "Blackstone Audio, Inc.",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Bette Davis\" by Barbara Leaming runs 13 hours at $1.49/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 12.7,
+    "valueScore": 2.68,
+    "costPerHour": 1.49,
+    "creditWorth": 1.27,
+    "adjustedValueScore": 6.17
+  },
+  {
     "asin": "B07FDJQ8YH",
     "title": "Sense and Sensibility",
     "author": "Jane Austen",
@@ -41198,6 +43168,32 @@
     "adjustedValueScore": 10.48
   },
   {
+    "asin": "B002UZX6TU",
+    "title": "P.G. Wodehouse",
+    "author": "Frances Donaldson",
+    "narrator": "Frederick Davidson",
+    "runtimeMinutes": 824,
+    "price": 23.37,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 10,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41Lyi-utavL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002UZX6TU",
+    "categories": [
+      "Literature & Fiction",
+      "Literary History & Criticism",
+      "World Literature"
+    ],
+    "releaseDate": "2006-03-20",
+    "publisher": "Blackstone Audio, Inc.",
+    "description": "Best Literature & Fiction for your Audible credit? \"P.G. Wodehouse\" by Frances Donaldson runs 14 hours at $1.70/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 13.7,
+    "valueScore": 2.64,
+    "costPerHour": 1.7,
+    "creditWorth": 1.56,
+    "adjustedValueScore": 6.33
+  },
+  {
     "asin": "B01N4NY0LG",
     "title": "Twisted Palace",
     "author": "Erin Watt",
@@ -41498,6 +43494,32 @@
     "valueScore": 2.63,
     "costPerHour": 1.71,
     "creditWorth": 1.03
+  },
+  {
+    "asin": "1662008406",
+    "title": "Dylan",
+    "author": "Dennis McDougal",
+    "narrator": "Gary Bennett",
+    "runtimeMinutes": 836,
+    "price": 21.18,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Gc4S3A4AL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1662008406",
+    "categories": [
+      "Arts & Entertainment",
+      "Music",
+      "Biographies & Memoirs"
+    ],
+    "releaseDate": "2020-05-19",
+    "publisher": "Dreamscape Media, LLC",
+    "description": "Best Arts & Entertainment for your Audible credit? \"Dylan\" by Dennis McDougal runs 14 hours at $1.52/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 13.9,
+    "valueScore": 2.63,
+    "costPerHour": 1.52,
+    "creditWorth": 1.42,
+    "adjustedValueScore": 1.82
   },
   {
     "asin": "179713521X",
@@ -42471,6 +44493,32 @@
     "adjustedValueScore": 1.8
   },
   {
+    "asin": "1545916551",
+    "title": "Biography of God",
+    "author": "Skip Heitzig",
+    "narrator": "Kirby Heyborne",
+    "runtimeMinutes": 670,
+    "price": 21.59,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/514gAJkZ7JL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1545916551",
+    "categories": [
+      "Biographies & Memoirs",
+      "Religious",
+      "Religion & Spirituality"
+    ],
+    "releaseDate": "2020-10-13",
+    "publisher": "christianaudio.com",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Biography of God\" by Skip Heitzig runs 11 hours at $1.93/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 11.2,
+    "valueScore": 2.59,
+    "costPerHour": 1.93,
+    "creditWorth": 1.44,
+    "adjustedValueScore": 3.59
+  },
+  {
     "asin": "B01G49TI62",
     "title": "The Woman in Cabin 10",
     "author": "Ruth Ware",
@@ -42646,6 +44694,58 @@
     "valueScore": 2.58,
     "costPerHour": 1.74,
     "creditWorth": 1.27
+  },
+  {
+    "asin": "154917603X",
+    "title": "The Ox",
+    "author": "Paul Rees",
+    "narrator": "Thomas Judd",
+    "runtimeMinutes": 594,
+    "price": 17.24,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/518bUhFmFpL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/154917603X",
+    "categories": [
+      "Arts & Entertainment",
+      "Music",
+      "History & Criticism"
+    ],
+    "releaseDate": "2020-04-07",
+    "publisher": "Da Capo",
+    "description": "Best Arts & Entertainment for your Audible credit? \"The Ox\" by Paul Rees runs 10 hours at $1.74/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 9.9,
+    "valueScore": 2.58,
+    "costPerHour": 1.74,
+    "creditWorth": 1.15,
+    "adjustedValueScore": 5.67
+  },
+  {
+    "asin": "B0CQ3C578F",
+    "title": "The Evil Hours",
+    "author": "David J. Morris",
+    "narrator": "Alex Knox",
+    "runtimeMinutes": 696,
+    "price": 22.46,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41X6BnTi7UL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CQ3C578F",
+    "categories": [
+      "Biographies & Memoirs",
+      "Professionals & Academics",
+      "Medical"
+    ],
+    "releaseDate": "2024-08-07",
+    "publisher": "Mariner Books",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"The Evil Hours\" by David J. Morris runs 12 hours at $1.94/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 11.6,
+    "valueScore": 2.58,
+    "costPerHour": 1.94,
+    "creditWorth": 1.5,
+    "adjustedValueScore": 2.83
   },
   {
     "asin": "1984844458",
@@ -44245,6 +46345,32 @@
     "adjustedValueScore": 14.32
   },
   {
+    "asin": "B0B2CN9V3N",
+    "title": "Becoming C. S. Lewis",
+    "author": "Harry Lee Poe",
+    "narrator": "Simon Bubb",
+    "runtimeMinutes": 605,
+    "price": 18.14,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51IeCt1T4-L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0B2CN9V3N",
+    "categories": [
+      "Biographies & Memoirs",
+      "Art & Literature",
+      "Authors"
+    ],
+    "releaseDate": "2022-10-11",
+    "publisher": "Crossway",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Becoming C. S. Lewis\" by Harry Lee Poe runs 10 hours at $1.80/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 10.1,
+    "valueScore": 2.5,
+    "costPerHour": 1.8,
+    "creditWorth": 1.21,
+    "adjustedValueScore": 2.75
+  },
+  {
     "asin": "B0DQ5VL94C",
     "title": "The First Gentleman",
     "author": "President Bill Clinton, James Patterson",
@@ -44392,6 +46518,32 @@
     "costPerHour": 2.01,
     "creditWorth": 1.23,
     "adjustedValueScore": 1.73
+  },
+  {
+    "asin": "B0BSVMKRRM",
+    "title": "Arrow Through the Heart",
+    "author": "Matthew Hild",
+    "narrator": "Adam Hanin",
+    "runtimeMinutes": 530,
+    "price": 15.98,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41IGitweD5L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0BSVMKRRM",
+    "categories": [
+      "Arts & Entertainment",
+      "Music",
+      "Biographies & Memoirs"
+    ],
+    "releaseDate": "2023-02-07",
+    "publisher": "BearManor Media",
+    "description": "Best Arts & Entertainment for your Audible credit? \"Arrow Through the Heart\" by Matthew Hild runs 9 hours at $1.81/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 8.8,
+    "valueScore": 2.49,
+    "costPerHour": 1.81,
+    "creditWorth": 1.07,
+    "adjustedValueScore": 4.01
   },
   {
     "asin": "0593213866",
@@ -45183,6 +47335,32 @@
     "adjustedValueScore": 7.49
   },
   {
+    "asin": "B010PEHKI0",
+    "title": "Street Poison",
+    "author": "Justin Gifford",
+    "narrator": "J. D. Jackson",
+    "runtimeMinutes": 632,
+    "price": 19.28,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51rNrt67KpL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B010PEHKI0",
+    "categories": [
+      "Biographies & Memoirs",
+      "Cultural & Regional",
+      "True Crime"
+    ],
+    "releaseDate": "2015-08-04",
+    "publisher": "HighBridge, a division of Recorded Books",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Street Poison\" by Justin Gifford runs 11 hours at $1.83/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 10.5,
+    "valueScore": 2.46,
+    "costPerHour": 1.83,
+    "creditWorth": 1.29,
+    "adjustedValueScore": 4.41
+  },
+  {
     "asin": "9500763729",
     "title": "How to Win Friends and Influence People",
     "author": "Dale Carnegie",
@@ -45428,6 +47606,58 @@
     "valueScore": 2.45,
     "costPerHour": 1.83,
     "creditWorth": 1.58
+  },
+  {
+    "asin": "B0GXX5FDQG",
+    "title": "KATHRYN KUHLMAN: THE GLORY, THE TEARS, AND THE MIRACLES",
+    "author": "Michael Yeager",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 425,
+    "price": 14.45,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51v0uYc8qwL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GXX5FDQG",
+    "categories": [
+      "Biographies & Memoirs",
+      "Religious",
+      "Religion & Spirituality"
+    ],
+    "releaseDate": "2026-04-20",
+    "publisher": "Independently Published",
+    "description": "7 hours: \"KATHRYN KUHLMAN: THE GLORY, THE TEARS, AND THE MIRACLES\" by Michael Yeager is a shorter Biographies & Memoirs. Rated 5.0/5. Cost: $2.04/hour. Buy directly for $14.45.",
+    "runtimeHours": 7.1,
+    "valueScore": 2.45,
+    "costPerHour": 2.04,
+    "creditWorth": 0.97,
+    "adjustedValueScore": 1.7
+  },
+  {
+    "asin": "B0DNR5VWY6",
+    "title": "Rowdy",
+    "author": "Colt Baird Toombs, Ariel Teal Toombs, Craig Pyette - contributor",
+    "narrator": "Joe Hempel",
+    "runtimeMinutes": 721,
+    "price": 22.08,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 9,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51abtuv9SBL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DNR5VWY6",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities",
+      "Sports"
+    ],
+    "releaseDate": "2024-11-26",
+    "publisher": "Tantor Media",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Rowdy\" by Colt Baird Toombs, Ariel Teal Toombs, Craig Pyette - contributor runs 12 hours at $1.84/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 12,
+    "valueScore": 2.45,
+    "costPerHour": 1.84,
+    "creditWorth": 1.48,
+    "adjustedValueScore": 5.64
   },
   {
     "asin": "1797108263",
@@ -46626,6 +48856,32 @@
     "costPerHour": 2.09,
     "creditWorth": 1.09,
     "adjustedValueScore": 3.86
+  },
+  {
+    "asin": "B002V8MANY",
+    "title": "Lincoln: The Biography of a Writer",
+    "author": "Fred Kaplan PhD",
+    "narrator": "Dan John Miller",
+    "runtimeMinutes": 898,
+    "price": 21.83,
+    "currency": "USD",
+    "starRating": 3.5,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51q8UmwCzvL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V8MANY",
+    "categories": [
+      "Biographies & Memoirs",
+      "Art & Literature",
+      "Authors"
+    ],
+    "releaseDate": "2008-11-01",
+    "publisher": "Brilliance Audio",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Lincoln: The Biography of a Writer\" by Fred Kaplan PhD runs 15 hours at $1.46/hour. Rated 3.5/5. Save with a credit.",
+    "runtimeHours": 15,
+    "valueScore": 2.4,
+    "costPerHour": 1.46,
+    "creditWorth": 1.46,
+    "adjustedValueScore": 4.3
   },
   {
     "asin": "B0H5MWSKF4",
@@ -47948,6 +50204,57 @@
     "creditWorth": 1.18
   },
   {
+    "asin": "1094127426",
+    "title": "Dirty Sexy Money",
+    "author": "Dylan Howard, Cathy Griffon",
+    "narrator": "David Linski",
+    "runtimeMinutes": 643,
+    "price": 18.27,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51mUS3SOMbL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1094127426",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities"
+    ],
+    "releaseDate": "2021-02-23",
+    "publisher": "Blackstone Publishing",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Dirty Sexy Money\" by Dylan Howard, Cathy Griffon runs 11 hours at $1.70/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 10.7,
+    "valueScore": 2.35,
+    "costPerHour": 1.7,
+    "creditWorth": 1.22,
+    "adjustedValueScore": 4.21
+  },
+  {
+    "asin": "B09PZ3DQLR",
+    "title": "The Earth",
+    "author": "Dr Elsa Panciroli",
+    "narrator": "Reanne Farley",
+    "runtimeMinutes": 552,
+    "price": 17.59,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Eenj2cGvL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09PZ3DQLR",
+    "categories": [
+      "Science & Engineering",
+      "Science",
+      "Biological Sciences"
+    ],
+    "releaseDate": "2022-04-22",
+    "publisher": "Greenfinch",
+    "description": "Best Science & Engineering for your Audible credit? \"The Earth\" by Dr Elsa Panciroli runs 9 hours at $1.91/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 9.2,
+    "valueScore": 2.35,
+    "costPerHour": 1.91,
+    "creditWorth": 1.18,
+    "adjustedValueScore": 3.78
+  },
+  {
     "asin": "B0030MV7MU",
     "title": "The Happiness Project",
     "author": "Gretchen Rubin",
@@ -48397,6 +50704,32 @@
     "valueScore": 2.33,
     "costPerHour": 1.93,
     "creditWorth": 1.53
+  },
+  {
+    "asin": "B0CPQ4DDSL",
+    "title": "The Red Emperor",
+    "author": "Michael Sheridan",
+    "narrator": "Daniel Loh York",
+    "runtimeMinutes": 619,
+    "price": 19.9,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51PHKjQ1EgL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CPQ4DDSL",
+    "categories": [
+      "Biographies & Memoirs",
+      "Politics & Activism",
+      "Politicians"
+    ],
+    "releaseDate": "2024-08-29",
+    "publisher": "Headline Press",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"The Red Emperor\" by Michael Sheridan runs 10 hours at $1.93/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 10.3,
+    "valueScore": 2.33,
+    "costPerHour": 1.93,
+    "creditWorth": 1.33,
+    "adjustedValueScore": 3.23
   },
   {
     "asin": "B005ZUI3OA",
@@ -49131,6 +51464,32 @@
     "valueScore": 2.3,
     "costPerHour": 1.95,
     "creditWorth": 1.34
+  },
+  {
+    "asin": "B0DJRQWDGT",
+    "title": "Yoko",
+    "author": "David Sheff",
+    "narrator": "Max Meyers",
+    "runtimeMinutes": 666,
+    "price": 21.74,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 12,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51YNTAD1+aL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DJRQWDGT",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities",
+      "Women"
+    ],
+    "releaseDate": "2025-03-25",
+    "publisher": "Simon & Schuster Audio",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Yoko\" by David Sheff runs 11 hours at $1.96/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 11.1,
+    "valueScore": 2.3,
+    "costPerHour": 1.96,
+    "creditWorth": 1.45,
+    "adjustedValueScore": 5.9
   },
   {
     "asin": "B08F6D4ZPV",
@@ -50224,6 +52583,32 @@
     "creditWorth": 1.09
   },
   {
+    "asin": "0063138700",
+    "title": "Bourdain",
+    "author": "Laurie Woolever",
+    "narrator": "Laurie Woolever, Christopher Bourdain, José Andrés, Nigella Lawson, W. Kamau Bell, Full Cast",
+    "runtimeMinutes": 688,
+    "price": 23.03,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 85,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/510ytVd-mvL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0063138700",
+    "categories": [
+      "Biographies & Memoirs",
+      "Adventurers, Explorers & Survival",
+      "Entertainment & Celebrities"
+    ],
+    "releaseDate": "2021-09-28",
+    "publisher": "Ecco",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Bourdain\" by Laurie Woolever runs 12 hours at $2.01/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 11.5,
+    "valueScore": 2.24,
+    "costPerHour": 2.01,
+    "creditWorth": 1.54,
+    "adjustedValueScore": 9.98
+  },
+  {
     "asin": "179712322X",
     "title": "The Soulmate Equation",
     "author": "Christina Lauren",
@@ -50736,6 +53121,32 @@
     "adjustedValueScore": 9.49
   },
   {
+    "asin": "B0D6WJWC1K",
+    "title": "Eternal Flame",
+    "author": "Jennifer Otter Bickerdike",
+    "narrator": "Jennifer Otter Bickerdike",
+    "runtimeMinutes": 718,
+    "price": 21.55,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 10,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51iI120VJXL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0D6WJWC1K",
+    "categories": [
+      "Arts & Entertainment",
+      "Music",
+      "Biographies & Memoirs"
+    ],
+    "releaseDate": "2025-02-18",
+    "publisher": "Da Capo",
+    "description": "Best Arts & Entertainment for your Audible credit? \"Eternal Flame\" by Jennifer Otter Bickerdike runs 12 hours at $1.80/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 12,
+    "valueScore": 2.22,
+    "costPerHour": 1.8,
+    "creditWorth": 1.44,
+    "adjustedValueScore": 5.32
+  },
+  {
     "asin": "B002V5GOHA",
     "title": "Freakonomics",
     "author": "Steven D. Levitt, Stephen J. Dubner",
@@ -51013,6 +53424,32 @@
     "valueScore": 2.21,
     "costPerHour": 2.04,
     "creditWorth": 1.25
+  },
+  {
+    "asin": "B0CXZV6RLC",
+    "title": "Palmetto Pioneers",
+    "author": "Cindy Roe Littlejohn",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 615,
+    "price": 18.58,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51que1IpGcL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CXZV6RLC",
+    "categories": [
+      "Biographies & Memoirs",
+      "History",
+      "Americas"
+    ],
+    "releaseDate": "2024-03-14",
+    "publisher": "Independently Published",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Palmetto Pioneers\" by Cindy Roe Littlejohn runs 10 hours at $1.81/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 10.3,
+    "valueScore": 2.21,
+    "costPerHour": 1.81,
+    "creditWorth": 1.24,
+    "adjustedValueScore": 3.56
   },
   {
     "asin": "0062888447",
@@ -51442,6 +53879,32 @@
     "valueScore": 2.19,
     "costPerHour": 2.05,
     "creditWorth": 0.98
+  },
+  {
+    "asin": "B0D8TPHW3K",
+    "title": "William Seymour",
+    "author": "Craig Borlase",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 438,
+    "price": 16.66,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41hEHDPzZoL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0D8TPHW3K",
+    "categories": [
+      "Biographies & Memoirs",
+      "Religious",
+      "Religion & Spirituality"
+    ],
+    "releaseDate": "2025-04-03",
+    "publisher": "Seymour Press",
+    "description": "7 hours: \"William Seymour\" by Craig Borlase is a shorter Biographies & Memoirs. Rated 5.0/5. Cost: $2.28/hour. A credit works well here.",
+    "runtimeHours": 7.3,
+    "valueScore": 2.19,
+    "costPerHour": 2.28,
+    "creditWorth": 1.11,
+    "adjustedValueScore": 1.52
   },
   {
     "asin": "B002V0GCE0",
@@ -51955,6 +54418,58 @@
     "adjustedValueScore": 3.01
   },
   {
+    "asin": "B0GCCCS9NV",
+    "title": "Pope Leo XIV",
+    "author": "Elise Ann Allen",
+    "narrator": "Janelle Tedesco",
+    "runtimeMinutes": 576,
+    "price": 22.17,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41Hbv5uEtxL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GCCCS9NV",
+    "categories": [
+      "Biographies & Memoirs",
+      "Politics & Activism",
+      "Presidents & Heads of State"
+    ],
+    "releaseDate": "2026-04-28",
+    "publisher": "Random House Audio",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Pope Leo XIV\" by Elise Ann Allen runs 10 hours at $2.31/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 9.6,
+    "valueScore": 2.17,
+    "costPerHour": 2.31,
+    "creditWorth": 1.48,
+    "adjustedValueScore": 3.01
+  },
+  {
+    "asin": "0063017237",
+    "title": "Witness to Hope",
+    "author": "George Weigel",
+    "narrator": "Sam Tsoutsouvas",
+    "runtimeMinutes": 583,
+    "price": 22.4,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 20,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51lM5nTqrYL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0063017237",
+    "categories": [
+      "Biographies & Memoirs",
+      "Religious",
+      "Religion & Spirituality"
+    ],
+    "releaseDate": "2020-03-03",
+    "publisher": "Harper Perennial",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Witness to Hope\" by George Weigel runs 10 hours at $2.31/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 9.7,
+    "valueScore": 2.17,
+    "costPerHour": 2.31,
+    "creditWorth": 1.5,
+    "adjustedValueScore": 6.61
+  },
+  {
     "asin": "B00QXW5GYY",
     "title": "The Girl on the Train",
     "author": "Paula Hawkins",
@@ -52381,6 +54896,32 @@
     "valueScore": 2.15,
     "costPerHour": 2.32,
     "creditWorth": 1.53
+  },
+  {
+    "asin": "B0CDM43H7R",
+    "title": "Unstoppable",
+    "author": "Mark Hughes",
+    "narrator": "Elliot Fitzpatrick",
+    "runtimeMinutes": 605,
+    "price": 21.12,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 11,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51DKKqG-oPL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CDM43H7R",
+    "categories": [
+      "Biographies & Memoirs",
+      "Sports",
+      "Sports & Outdoors"
+    ],
+    "releaseDate": "2023-09-07",
+    "publisher": "Headline",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Unstoppable\" by Mark Hughes runs 10 hours at $2.09/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 10.1,
+    "valueScore": 2.15,
+    "costPerHour": 2.09,
+    "creditWorth": 1.41,
+    "adjustedValueScore": 5.34
   },
   {
     "asin": "B01LWUJKQ7",
@@ -52865,6 +55406,32 @@
     "adjustedValueScore": 10.86
   },
   {
+    "asin": "B07CWYMPZJ",
+    "title": "Atticus Finch",
+    "author": "Joseph Crespino",
+    "narrator": "Dan Woren",
+    "runtimeMinutes": 469,
+    "price": 16.55,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/31boap1jt1L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07CWYMPZJ",
+    "categories": [
+      "Biographies & Memoirs",
+      "Art & Literature",
+      "Authors"
+    ],
+    "releaseDate": "2018-05-08",
+    "publisher": "Basic Books",
+    "description": "8 hours: \"Atticus Finch\" by Joseph Crespino is a shorter Biographies & Memoirs. Rated 4.5/5. Cost: $2.12/hour. A credit works well here.",
+    "runtimeHours": 7.8,
+    "valueScore": 2.13,
+    "costPerHour": 2.12,
+    "creditWorth": 1.11,
+    "adjustedValueScore": 3.82
+  },
+  {
     "asin": "B00JLOJ04I",
     "title": "Bird Box",
     "author": "Josh Malerman",
@@ -53344,6 +55911,58 @@
     "valueScore": 2.11,
     "costPerHour": 2.37,
     "creditWorth": 1.54
+  },
+  {
+    "asin": "B002UZJUEA",
+    "title": "George Washington",
+    "author": "John R. Alden",
+    "narrator": "Grover Gardner",
+    "runtimeMinutes": 676,
+    "price": 21.31,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 17,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41g63v1cVEL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002UZJUEA",
+    "categories": [
+      "Biographies & Memoirs",
+      "Historical",
+      "Politics & Activism"
+    ],
+    "releaseDate": "2006-06-26",
+    "publisher": "Blackstone Audio, Inc.",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"George Washington\" by John R. Alden runs 11 hours at $1.89/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 11.3,
+    "valueScore": 2.11,
+    "costPerHour": 1.89,
+    "creditWorth": 1.43,
+    "adjustedValueScore": 6.1
+  },
+  {
+    "asin": "B00A7YUW1Q",
+    "title": "Paramhansa Yogananda: A Biography",
+    "author": "Swami Kriyananda",
+    "narrator": "Swami Kriyananda",
+    "runtimeMinutes": 659,
+    "price": 23.37,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 13,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51mWtW9SGhL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00A7YUW1Q",
+    "categories": [
+      "Biographies & Memoirs",
+      "Religious",
+      "Religion & Spirituality"
+    ],
+    "releaseDate": "2012-11-16",
+    "publisher": "Crystal Clarity Publishers",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Paramhansa Yogananda: A Biography\" by Swami Kriyananda runs 11 hours at $2.13/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 11,
+    "valueScore": 2.11,
+    "costPerHour": 2.13,
+    "creditWorth": 1.56,
+    "adjustedValueScore": 5.57
   },
   {
     "asin": "B0BDGKCJX2",
@@ -54154,6 +56773,32 @@
     "adjustedValueScore": 5.17
   },
   {
+    "asin": "B003XKGWEC",
+    "title": "Angelina",
+    "author": "Andrew Morton",
+    "narrator": "Bronson Pinchot",
+    "runtimeMinutes": 728,
+    "price": 20.46,
+    "currency": "USD",
+    "starRating": 3.5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41ZmRWAgxWL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B003XKGWEC",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities",
+      "Actors"
+    ],
+    "releaseDate": "2010-07-31",
+    "publisher": "Blackstone Audio, Inc.",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Angelina\" by Andrew Morton runs 12 hours at $1.69/hour. Rated 3.5/5. Save with a credit.",
+    "runtimeHours": 12.1,
+    "valueScore": 2.08,
+    "costPerHour": 1.69,
+    "creditWorth": 1.37,
+    "adjustedValueScore": 3.35
+  },
+  {
     "asin": "1473579724",
     "title": "Wintering",
     "author": "Katherine May",
@@ -54939,6 +57584,58 @@
     "adjustedValueScore": 2.25
   },
   {
+    "asin": "1250757568",
+    "title": "Free, Melania",
+    "author": "Kate Bennett",
+    "narrator": "Kate Bennett",
+    "runtimeMinutes": 577,
+    "price": 16.42,
+    "currency": "USD",
+    "starRating": 3.5,
+    "reviewCount": 19,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41dSFu+Dp6L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1250757568",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities",
+      "Politics & Activism"
+    ],
+    "releaseDate": "2019-12-03",
+    "publisher": "Macmillan Audio",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Free, Melania\" by Kate Bennett runs 10 hours at $1.71/hour. Rated 3.5/5. Save with a credit.",
+    "runtimeHours": 9.6,
+    "valueScore": 2.05,
+    "costPerHour": 1.71,
+    "creditWorth": 1.1,
+    "adjustedValueScore": 6.14
+  },
+  {
+    "asin": "B077716QVQ",
+    "title": "Phish",
+    "author": "Parke Puterbaugh",
+    "narrator": "John Glouchevitch",
+    "runtimeMinutes": 613,
+    "price": 22.42,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 10,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51CU+arTyyL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B077716QVQ",
+    "categories": [
+      "Arts & Entertainment",
+      "Music",
+      "Biographies & Memoirs"
+    ],
+    "releaseDate": "2017-11-14",
+    "publisher": "Da Capo",
+    "description": "Best Arts & Entertainment for your Audible credit? \"Phish\" by Parke Puterbaugh runs 10 hours at $2.19/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 10.2,
+    "valueScore": 2.05,
+    "costPerHour": 2.19,
+    "creditWorth": 1.5,
+    "adjustedValueScore": 4.92
+  },
+  {
     "asin": "B002V1NTTU",
     "title": "Sharp Objects",
     "author": "Gillian Flynn",
@@ -55394,6 +58091,32 @@
     "costPerHour": 2.22,
     "creditWorth": 1.35,
     "adjustedValueScore": 7.94
+  },
+  {
+    "asin": "B09PCBNWJW",
+    "title": "Cod",
+    "author": "Mark Kurlansky",
+    "narrator": "Richard M. Davidson",
+    "runtimeMinutes": 461,
+    "price": 15.21,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 39,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51vWWAGwXOL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09PCBNWJW",
+    "categories": [
+      "History",
+      "Europe",
+      "World"
+    ],
+    "releaseDate": "2022-01-03",
+    "publisher": "Phoenix Books, Inc.",
+    "description": "8 hours: \"Cod\" by Mark Kurlansky is a shorter History. Rated 4.0/5. Cost: $1.98/hour. A credit works well here.",
+    "runtimeHours": 7.7,
+    "valueScore": 2.02,
+    "costPerHour": 1.98,
+    "creditWorth": 1.02,
+    "adjustedValueScore": 7.45
   },
   {
     "asin": "B0C5N9FNB4",
@@ -56488,6 +59211,32 @@
     "costPerHour": 2.28,
     "creditWorth": 1,
     "adjustedValueScore": 4.12
+  },
+  {
+    "asin": "B0DXLVBNPR",
+    "title": "Five Mere Christians",
+    "author": "Jordan Raynor, Kaleigh Cox",
+    "narrator": "Jordan Raynor",
+    "runtimeMinutes": 401,
+    "price": 16.87,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 17,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/414EprCu4lL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DXLVBNPR",
+    "categories": [
+      "Biographies & Memoirs",
+      "Religious",
+      "Religion & Spirituality"
+    ],
+    "releaseDate": "2025-05-06",
+    "publisher": "Dreamscape Media",
+    "description": "7 hours: \"Five Mere Christians\" by Jordan Raynor, Kaleigh Cox is a shorter Biographies & Memoirs. Rated 5.0/5. Cost: $2.52/hour. A credit works well here.",
+    "runtimeHours": 6.7,
+    "valueScore": 1.98,
+    "costPerHour": 2.52,
+    "creditWorth": 1.13,
+    "adjustedValueScore": 5.72
   },
   {
     "asin": "B002V08GGC",
@@ -58783,6 +61532,32 @@
     "adjustedValueScore": 4.15
   },
   {
+    "asin": "B07V3FZKVQ",
+    "title": "Flying with the Fifteenth Air Force: A B-24 Pilot's Missions from Italy during World War II",
+    "author": "Tom Faulkner",
+    "narrator": "Mark Sando",
+    "runtimeMinutes": 444,
+    "price": 17.6,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/518LcPmBdIL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07V3FZKVQ",
+    "categories": [
+      "Biographies & Memoirs",
+      "Military & War",
+      "World War II"
+    ],
+    "releaseDate": "2019-07-10",
+    "publisher": "University Press Audiobooks",
+    "description": "7 hours: \"Flying with the Fifteenth Air Force: A B-24 Pilot's Missions from Italy during World War II\" by Tom Faulkner is a shorter Biographies & Memoirs. Rated 4.5/5. Cost: $2.38/hour. A credit works well here.",
+    "runtimeHours": 7.4,
+    "valueScore": 1.89,
+    "costPerHour": 2.38,
+    "creditWorth": 1.18,
+    "adjustedValueScore": 3.04
+  },
+  {
     "asin": "1797111566",
     "title": "In a Holidaze",
     "author": "Christina Lauren",
@@ -59289,6 +62064,32 @@
     "creditWorth": 1.53
   },
   {
+    "asin": "B08R1543SF",
+    "title": "Wallace D. Wattles Collection",
+    "author": "Wallace D. Wattles, CSA Publishing",
+    "narrator": "Michael Bower",
+    "runtimeMinutes": 448,
+    "price": 19.96,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51WfbYdrnFL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B08R1543SF",
+    "categories": [
+      "Business & Careers",
+      "Business Development & Entrepreneurship",
+      "Consulting"
+    ],
+    "releaseDate": "2020-12-19",
+    "publisher": "CSA Publishing",
+    "description": "8 hours: \"Wallace D. Wattles Collection\" by Wallace D. Wattles, CSA Publishing is a shorter Business & Careers. Rated 5.0/5. Cost: $2.67/hour. A credit works well here.",
+    "runtimeHours": 7.5,
+    "valueScore": 1.87,
+    "costPerHour": 2.67,
+    "creditWorth": 1.34,
+    "adjustedValueScore": 3.01
+  },
+  {
     "asin": "0063034336",
     "title": "Anxious People \\ Gente ansiosa",
     "author": "Fredrik Backman",
@@ -59467,6 +62268,32 @@
     "adjustedValueScore": 2.04
   },
   {
+    "asin": "1529362350",
+    "title": "Love of My Life",
+    "author": "Lesley-Ann Jones",
+    "narrator": "Julie Teal, Lesley-Ann Jones",
+    "runtimeMinutes": 540,
+    "price": 21.73,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41PS8wiX5KS._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1529362350",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities",
+      "LGBTQ+"
+    ],
+    "releaseDate": "2021-09-02",
+    "publisher": "Hodder & Stoughton",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Love of My Life\" by Lesley-Ann Jones runs 9 hours at $2.41/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 9,
+    "valueScore": 1.86,
+    "costPerHour": 2.41,
+    "creditWorth": 1.45,
+    "adjustedValueScore": 4.09
+  },
+  {
     "asin": "B007T7U0RK",
     "title": "Let's Pretend This Never Happened",
     "author": "Jenny Lawson",
@@ -59538,6 +62365,32 @@
     "valueScore": 1.85,
     "costPerHour": 2.43,
     "creditWorth": 1.2
+  },
+  {
+    "asin": "B00IT2NEJA",
+    "title": "The Tom Hanks Enigma",
+    "author": "David Gardner",
+    "narrator": "Norman Gilligan",
+    "runtimeMinutes": 646,
+    "price": 23.31,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 21,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51H6NjOLV2L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00IT2NEJA",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities",
+      "la_confidential"
+    ],
+    "releaseDate": "2014-03-06",
+    "publisher": "Prospero Media",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"The Tom Hanks Enigma\" by David Gardner runs 11 hours at $2.17/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 10.8,
+    "valueScore": 1.85,
+    "costPerHour": 2.17,
+    "creditWorth": 1.56,
+    "adjustedValueScore": 5.72
   },
   {
     "asin": "0593209699",
@@ -60327,6 +63180,32 @@
     "creditWorth": 1.48
   },
   {
+    "asin": "B0FXDKWPBP",
+    "title": "Stalin: The Red Tsar and His Terror",
+    "author": "Gordon J. Mackenzie",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 691,
+    "price": 19.14,
+    "currency": "USD",
+    "starRating": 3,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41rudPacbUL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FXDKWPBP",
+    "categories": [
+      "Biographies & Memoirs",
+      "Historical",
+      "Politics & Activism"
+    ],
+    "releaseDate": "2026-06-11",
+    "publisher": "Independently Published",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Stalin: The Red Tsar and His Terror\" by Gordon J. Mackenzie runs 12 hours at $1.66/hour. Rated 3.0/5. Save with a credit.",
+    "runtimeHours": 11.5,
+    "valueScore": 1.81,
+    "costPerHour": 1.66,
+    "creditWorth": 1.28,
+    "adjustedValueScore": 1.25
+  },
+  {
     "asin": "B0BPBCW1DV",
     "title": "All My Knotted-Up Life",
     "author": "Beth Moore",
@@ -60481,6 +63360,31 @@
     "costPerHour": 2.22,
     "creditWorth": 1.47,
     "adjustedValueScore": 6.81
+  },
+  {
+    "asin": "B0822797HS",
+    "title": "Sheeran: A Biography",
+    "author": "Sean Smith",
+    "narrator": "Ian Pringle",
+    "runtimeMinutes": 448,
+    "price": 18.63,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 6,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51brz9IR-fL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0822797HS",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities"
+    ],
+    "releaseDate": "2019-11-29",
+    "publisher": "Diversion Books",
+    "description": "8 hours: \"Sheeran: A Biography\" by Sean Smith is a shorter Biographies & Memoirs. Rated 4.5/5. Cost: $2.50/hour. A credit works well here.",
+    "runtimeHours": 7.5,
+    "valueScore": 1.8,
+    "costPerHour": 2.5,
+    "creditWorth": 1.25,
+    "adjustedValueScore": 3.5
   },
   {
     "asin": "B08Z7Z7LQK",
@@ -62116,6 +65020,58 @@
     "adjustedValueScore": 4.15
   },
   {
+    "asin": "B0CZSCM58X",
+    "title": "Taylor: Era by Era",
+    "author": "Caroline Sullivan",
+    "narrator": "Katelyn Levering",
+    "runtimeMinutes": 413,
+    "price": 19.9,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51oj5ywfsAL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CZSCM58X",
+    "categories": [
+      "Arts & Entertainment",
+      "Music",
+      "Biographies & Memoirs"
+    ],
+    "releaseDate": "2024-06-06",
+    "publisher": "Dreamscape Media",
+    "description": "7 hours: \"Taylor: Era by Era\" by Caroline Sullivan is a shorter Arts & Entertainment. Rated 5.0/5. Cost: $2.89/hour. A credit works well here.",
+    "runtimeHours": 6.9,
+    "valueScore": 1.73,
+    "costPerHour": 2.89,
+    "creditWorth": 1.33,
+    "adjustedValueScore": 2.78
+  },
+  {
+    "asin": "B078NZ9B51",
+    "title": "Mary Magdalene",
+    "author": "Bruce Chilton",
+    "narrator": "Jeff Harding",
+    "runtimeMinutes": 389,
+    "price": 15.02,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 6,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51CXaeOKVOL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B078NZ9B51",
+    "categories": [
+      "Biographies & Memoirs",
+      "Historical",
+      "Religious"
+    ],
+    "releaseDate": "2018-03-06",
+    "publisher": "Dreamscape Media, LLC",
+    "description": "7 hours: \"Mary Magdalene\" by Bruce Chilton is a shorter Biographies & Memoirs. Rated 4.0/5. Cost: $2.32/hour. A credit works well here.",
+    "runtimeHours": 6.5,
+    "valueScore": 1.73,
+    "costPerHour": 2.32,
+    "creditWorth": 1,
+    "adjustedValueScore": 3.37
+  },
+  {
     "asin": "B09WY6Z8KD",
     "title": "The Mountain Is You: Transforming Self-Sabotage into Self-Mastery",
     "author": "Brianna Wiest",
@@ -63013,6 +65969,32 @@
     "adjustedValueScore": 3.89
   },
   {
+    "asin": "1645551393",
+    "title": "C.S. Lewis",
+    "author": "Colin Duriez",
+    "narrator": "Simon Vance",
+    "runtimeMinutes": 434,
+    "price": 19.31,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/518oXBb0EtL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1645551393",
+    "categories": [
+      "Biographies & Memoirs",
+      "Art & Literature",
+      "Authors"
+    ],
+    "releaseDate": "2020-08-11",
+    "publisher": "Oasis Audio",
+    "description": "7 hours: \"C.S. Lewis\" by Colin Duriez is a shorter Biographies & Memoirs. Rated 4.5/5. Cost: $2.67/hour. A credit works well here.",
+    "runtimeHours": 7.2,
+    "valueScore": 1.69,
+    "costPerHour": 2.67,
+    "creditWorth": 1.29,
+    "adjustedValueScore": 1.86
+  },
+  {
     "asin": "B09G557LSZ",
     "title": "Change Your Paradigm, Change Your Life",
     "author": "Bob Proctor",
@@ -63748,6 +66730,58 @@
     "adjustedValueScore": 1.8
   },
   {
+    "asin": "B00IV3IQ2C",
+    "title": "Life and Death in the Central Highlands",
+    "author": "James T. Gillam",
+    "narrator": "Todd Belcher",
+    "runtimeMinutes": 502,
+    "price": 22.9,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 21,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51FRy0ge2EL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00IV3IQ2C",
+    "categories": [
+      "Biographies & Memoirs",
+      "Military & War",
+      "Vietnam War"
+    ],
+    "releaseDate": "2014-03-10",
+    "publisher": "University Press Audiobooks",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Life and Death in the Central Highlands\" by James T. Gillam runs 8 hours at $2.74/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 8.4,
+    "valueScore": 1.64,
+    "costPerHour": 2.74,
+    "creditWorth": 1.53,
+    "adjustedValueScore": 5.07
+  },
+  {
+    "asin": "B01CH3OGSO",
+    "title": "Maureen O'Hara: The Biography (Screen Classics)",
+    "author": "Aubrey Malone",
+    "narrator": "James Killavey",
+    "runtimeMinutes": 570,
+    "price": 23.19,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 6,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51bAl+X79EL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01CH3OGSO",
+    "categories": [
+      "Arts & Entertainment",
+      "Entertainment & Performing Arts",
+      "Film & TV"
+    ],
+    "releaseDate": "2016-03-03",
+    "publisher": "University Press Audiobooks",
+    "description": "Best Arts & Entertainment for your Audible credit? \"Maureen O'Hara: The Biography (Screen Classics)\" by Aubrey Malone runs 10 hours at $2.44/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 9.5,
+    "valueScore": 1.64,
+    "costPerHour": 2.44,
+    "creditWorth": 1.55,
+    "adjustedValueScore": 3.19
+  },
+  {
     "asin": "1524779261",
     "title": "Atomic Habits",
     "author": "James Clear",
@@ -64022,6 +67056,32 @@
     "valueScore": 1.62,
     "costPerHour": 2.78,
     "creditWorth": 1.14
+  },
+  {
+    "asin": "B0FC5TD8VX",
+    "title": "We Volunteered",
+    "author": "Timothy Ruse",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 383,
+    "price": 15.8,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/413LK6ViuiL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FC5TD8VX",
+    "categories": [
+      "Biographies & Memoirs",
+      "Military & War",
+      "tandem"
+    ],
+    "releaseDate": "2025-08-12",
+    "publisher": "Independently Published",
+    "description": "6 hours: \"We Volunteered\" by Timothy Ruse is a shorter Biographies & Memoirs. Rated 4.0/5. Cost: $2.48/hour. A credit works well here.",
+    "runtimeHours": 6.4,
+    "valueScore": 1.62,
+    "costPerHour": 2.48,
+    "creditWorth": 1.06,
+    "adjustedValueScore": 1.12
   },
   {
     "asin": "B09VQ572P3",
@@ -64965,6 +68025,32 @@
     "valueScore": 1.58,
     "costPerHour": 2.85,
     "creditWorth": 1.5
+  },
+  {
+    "asin": "B07CNXYDRR",
+    "title": "Harry",
+    "author": "Angela Levin",
+    "narrator": "Bea Holland",
+    "runtimeMinutes": 502,
+    "price": 23.88,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 69,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41mpStILG0L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07CNXYDRR",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities",
+      "Politics & Activism"
+    ],
+    "releaseDate": "2018-05-03",
+    "publisher": "Blackstone Audio, Inc.",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"Harry\" by Angela Levin runs 8 hours at $2.85/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 8.4,
+    "valueScore": 1.58,
+    "costPerHour": 2.85,
+    "creditWorth": 1.6,
+    "adjustedValueScore": 6.71
   },
   {
     "asin": "0593209451",
@@ -66586,6 +69672,58 @@
     "adjustedValueScore": 4.36
   },
   {
+    "asin": "B00CJ0MQZ6",
+    "title": "Rattler One-Seven: A Vietnam Helicopter Pilot's War Story",
+    "author": "Chuck Gross",
+    "narrator": "Gerry Burke",
+    "runtimeMinutes": 425,
+    "price": 21.6,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 40,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51V6yZRRX9L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00CJ0MQZ6",
+    "categories": [
+      "Biographies & Memoirs",
+      "Military & War",
+      "Vietnam War"
+    ],
+    "releaseDate": "2013-04-26",
+    "publisher": "University Press Audiobooks",
+    "description": "7 hours: \"Rattler One-Seven: A Vietnam Helicopter Pilot's War Story\" by Chuck Gross is a shorter Biographies & Memoirs. Rated 4.5/5. Cost: $3.05/hour. A credit works well here.",
+    "runtimeHours": 7.1,
+    "valueScore": 1.48,
+    "costPerHour": 3.05,
+    "creditWorth": 1.44,
+    "adjustedValueScore": 5.5
+  },
+  {
+    "asin": "B07TH9CQ7H",
+    "title": "The Ultimate Serial Killer Collection",
+    "author": "Charles Clark",
+    "narrator": "Merrick Pearce",
+    "runtimeMinutes": 513,
+    "price": 23.11,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 14,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51zG1otHSeL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07TH9CQ7H",
+    "categories": [
+      "Biographies & Memoirs",
+      "True Crime",
+      "Murder"
+    ],
+    "releaseDate": "2019-06-25",
+    "publisher": "Charles Clark",
+    "description": "Best Biographies & Memoirs for your Audible credit? \"The Ultimate Serial Killer Collection\" by Charles Clark runs 9 hours at $2.70/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 8.6,
+    "valueScore": 1.48,
+    "costPerHour": 2.7,
+    "creditWorth": 1.55,
+    "adjustedValueScore": 4.01
+  },
+  {
     "asin": "B002V5GT02",
     "title": "A Whole New Mind",
     "author": "Daniel H. Pink",
@@ -66789,6 +69927,32 @@
     "valueScore": 1.47,
     "costPerHour": 3.06,
     "creditWorth": 0.99
+  },
+  {
+    "asin": "B0B5YDMGBC",
+    "title": "The Terrible Speed of Mercy",
+    "author": "Justin M. Rogers",
+    "narrator": "Jeremy Childs",
+    "runtimeMinutes": 312,
+    "price": 17.72,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/514Ga-0O93L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0B5YDMGBC",
+    "categories": [
+      "Biographies & Memoirs",
+      "Art & Literature",
+      "Authors"
+    ],
+    "releaseDate": "2022-08-18",
+    "publisher": "Thomas Nelson",
+    "description": "5 hours: \"The Terrible Speed of Mercy\" by Justin M. Rogers is a shorter Biographies & Memoirs. Rated 5.0/5. Cost: $3.41/hour. A credit works well here.",
+    "runtimeHours": 5.2,
+    "valueScore": 1.47,
+    "costPerHour": 3.41,
+    "creditWorth": 1.19,
+    "adjustedValueScore": 1.61
   },
   {
     "asin": "B0191YTGI2",
@@ -67731,6 +70895,32 @@
     "adjustedValueScore": 0.98
   },
   {
+    "asin": "B00M360KOA",
+    "title": "The Yoga Sutra of Patanjali",
+    "author": "David Gordon White",
+    "narrator": "Peter Ganim",
+    "runtimeMinutes": 434,
+    "price": 20.46,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 14,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61ZP7DY+NmL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00M360KOA",
+    "categories": [
+      "Politics & Social Sciences",
+      "Philosophy",
+      "Eastern"
+    ],
+    "releaseDate": "2014-07-25",
+    "publisher": "Audible Studios",
+    "description": "7 hours: \"The Yoga Sutra of Patanjali\" by David Gordon White is a shorter Politics & Social Sciences. Rated 4.0/5. Cost: $2.83/hour. A credit works well here.",
+    "runtimeHours": 7.2,
+    "valueScore": 1.41,
+    "costPerHour": 2.83,
+    "creditWorth": 1.37,
+    "adjustedValueScore": 3.82
+  },
+  {
     "asin": "B002V1M5RW",
     "title": "Hannibal Rising",
     "author": "Thomas Harris",
@@ -68086,6 +71276,32 @@
     "valueScore": 1.39,
     "costPerHour": 3.25,
     "creditWorth": 1.06
+  },
+  {
+    "asin": "B0B138K96K",
+    "title": "The Revolutionary Paul Revere",
+    "author": "Joel J. Miller",
+    "narrator": "John Behrens",
+    "runtimeMinutes": 334,
+    "price": 16.03,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/4176vu1CMkL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0B138K96K",
+    "categories": [
+      "Biographies & Memoirs",
+      "Historical",
+      "History"
+    ],
+    "releaseDate": "2022-06-07",
+    "publisher": "Thomas Nelson",
+    "description": "6 hours: \"The Revolutionary Paul Revere\" by Joel J. Miller is a shorter Biographies & Memoirs. Rated 4.0/5. Cost: $2.88/hour. A credit works well here.",
+    "runtimeHours": 5.6,
+    "valueScore": 1.39,
+    "costPerHour": 2.88,
+    "creditWorth": 1.07,
+    "adjustedValueScore": 0.96
   },
   {
     "asin": "B072MLGY5S",
@@ -68855,6 +72071,32 @@
     "adjustedValueScore": 6.81
   },
   {
+    "asin": "B0DMTQDCGS",
+    "title": "The Man Who Mapped Consciousness",
+    "author": "Susan Hawkins",
+    "narrator": "Amy Jensen",
+    "runtimeMinutes": 277,
+    "price": 17.4,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 6,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51pa0liQBjL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DMTQDCGS",
+    "categories": [
+      "Biographies & Memoirs",
+      "Professionals & Academics",
+      "Social Scientists & Psychologists"
+    ],
+    "releaseDate": "2025-06-03",
+    "publisher": "Hay House LLC",
+    "description": "5 hours: \"The Man Who Mapped Consciousness\" by Susan Hawkins is a shorter Biographies & Memoirs. Rated 5.0/5. Cost: $3.77/hour. A credit works well here.",
+    "runtimeHours": 4.6,
+    "valueScore": 1.33,
+    "costPerHour": 3.77,
+    "creditWorth": 1.16,
+    "adjustedValueScore": 2.59
+  },
+  {
     "asin": "B015ELUYL4",
     "title": "Slaughterhouse-Five",
     "author": "Kurt Vonnegut",
@@ -69138,6 +72380,32 @@
     "creditWorth": 0.96
   },
   {
+    "asin": "B00N970KBA",
+    "title": "Bowie",
+    "author": "Wendy Leigh",
+    "narrator": "Simon Vance",
+    "runtimeMinutes": 483,
+    "price": 21.46,
+    "currency": "USD",
+    "starRating": 3.5,
+    "reviewCount": 13,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51XCSX0I-uL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00N970KBA",
+    "categories": [
+      "Arts & Entertainment",
+      "Music",
+      "Biographies & Memoirs"
+    ],
+    "releaseDate": "2014-09-23",
+    "publisher": "Brilliance Audio",
+    "description": "Best Arts & Entertainment for your Audible credit? \"Bowie\" by Wendy Leigh runs 8 hours at $2.67/hour. Rated 3.5/5. Save with a credit.",
+    "runtimeHours": 8.1,
+    "valueScore": 1.31,
+    "costPerHour": 2.67,
+    "creditWorth": 1.44,
+    "adjustedValueScore": 3.46
+  },
+  {
     "asin": "B0GXXXHGHB",
     "title": "Ego Is the Enemy",
     "author": "Ryan Holiday",
@@ -69212,6 +72480,31 @@
     "costPerHour": 3.47,
     "creditWorth": 1.5,
     "adjustedValueScore": 8.32
+  },
+  {
+    "asin": "B093CQ8XT6",
+    "title": "The Seeker King",
+    "author": "Gary Tillery",
+    "narrator": "Tim H. Dixon",
+    "runtimeMinutes": 397,
+    "price": 22.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51usS18SfTS._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B093CQ8XT6",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities"
+    ],
+    "releaseDate": "2021-04-26",
+    "publisher": "Quest Books/Theosophical Publishing House",
+    "description": "7 hours: \"The Seeker King\" by Gary Tillery is a shorter Biographies & Memoirs. Rated 4.5/5. Cost: $3.47/hour. A credit works well here.",
+    "runtimeHours": 6.6,
+    "valueScore": 1.3,
+    "costPerHour": 3.47,
+    "creditWorth": 1.54,
+    "adjustedValueScore": 2.33
   },
   {
     "asin": "B01K5UCNFO",
@@ -69519,6 +72812,58 @@
     "costPerHour": 3.92,
     "creditWorth": 1.33,
     "adjustedValueScore": 6.88
+  },
+  {
+    "asin": "B07CZ19PVB",
+    "title": "The Second Amendment",
+    "author": "Michael Waldman",
+    "narrator": "John Glouchevitch",
+    "runtimeMinutes": 432,
+    "price": 22.75,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 11,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61XOwCXpLkL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07CZ19PVB",
+    "categories": [
+      "History",
+      "Americas",
+      "United States"
+    ],
+    "releaseDate": "2018-05-29",
+    "publisher": "Tantor Media",
+    "description": "7 hours: \"The Second Amendment\" by Michael Waldman is a shorter History. Rated 4.0/5. Cost: $3.16/hour. A credit works well here.",
+    "runtimeHours": 7.2,
+    "valueScore": 1.27,
+    "costPerHour": 3.16,
+    "creditWorth": 1.52,
+    "adjustedValueScore": 3.16
+  },
+  {
+    "asin": "B0BVYCY67Z",
+    "title": "Sri Ramakrishna",
+    "author": "Swami Nikhilananda",
+    "narrator": "Paul Bazely",
+    "runtimeMinutes": 247,
+    "price": 14.57,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/419InfByYPL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0BVYCY67Z",
+    "categories": [
+      "Biographies & Memoirs",
+      "Religious",
+      "Religion & Spirituality"
+    ],
+    "releaseDate": "2023-02-16",
+    "publisher": "Ramakrishna-Vivekananda Center of New York",
+    "description": "4 hours: \"Sri Ramakrishna\" by Swami Nikhilananda is a shorter Biographies & Memoirs. Rated 4.5/5. Cost: $3.54/hour. Buy directly for $14.57.",
+    "runtimeHours": 4.1,
+    "valueScore": 1.27,
+    "costPerHour": 3.54,
+    "creditWorth": 0.97,
+    "adjustedValueScore": 1.76
   },
   {
     "asin": "B00ENI4SS0",
@@ -70032,6 +73377,32 @@
     "adjustedValueScore": 0.85
   },
   {
+    "asin": "B07L8NB5YV",
+    "title": "The Ogre",
+    "author": "Doug Scott",
+    "narrator": "Saethon Williams",
+    "runtimeMinutes": 279,
+    "price": 17.04,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51n74rXgTXL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07L8NB5YV",
+    "categories": [
+      "Biographies & Memoirs",
+      "Adventurers, Explorers & Survival",
+      "Sports"
+    ],
+    "releaseDate": "2018-12-11",
+    "publisher": "Vertebrate Publishing",
+    "description": "5 hours: \"The Ogre\" by Doug Scott is a shorter Biographies & Memoirs. Rated 4.5/5. Cost: $3.66/hour. A credit works well here.",
+    "runtimeHours": 4.7,
+    "valueScore": 1.23,
+    "costPerHour": 3.66,
+    "creditWorth": 1.14,
+    "adjustedValueScore": 1.35
+  },
+  {
     "asin": "B00X6BUUKA",
     "title": "Why Not Me?",
     "author": "Mindy Kaling",
@@ -70258,6 +73629,32 @@
     "costPerHour": 3.71,
     "creditWorth": 1.07,
     "adjustedValueScore": 0.84
+  },
+  {
+    "asin": "B07N32SYGT",
+    "title": "God in the ICU: The Inspirational Biography of a Praying Doctor",
+    "author": "Dave Walker MD",
+    "narrator": "Dave Walker MD",
+    "runtimeMinutes": 258,
+    "price": 15.98,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 27,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51920BqbpQL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07N32SYGT",
+    "categories": [
+      "Biographies & Memoirs",
+      "Professionals & Academics",
+      "Medical"
+    ],
+    "releaseDate": "2019-01-30",
+    "publisher": "Dr David Anthony Walker",
+    "description": "4 hours: \"God in the ICU: The Inspirational Biography of a Praying Doctor\" by Dave Walker MD is a shorter Biographies & Memoirs. Rated 4.5/5. Cost: $3.72/hour. A credit works well here.",
+    "runtimeHours": 4.3,
+    "valueScore": 1.21,
+    "costPerHour": 3.72,
+    "creditWorth": 1.07,
+    "adjustedValueScore": 4.03
   },
   {
     "asin": "B00NLPAZ9W",
@@ -70969,6 +74366,32 @@
     "costPerHour": 4.27,
     "creditWorth": 1.03,
     "adjustedValueScore": 3.94
+  },
+  {
+    "asin": "1978650256",
+    "title": "The Boy Between Worlds",
+    "author": "Annejet van der Zijl, Kristen Gehrman - translator",
+    "narrator": "Coleen Marlo",
+    "runtimeMinutes": 365,
+    "price": 23.38,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 27,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51YNlb2CleL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1978650256",
+    "categories": [
+      "Biographies & Memoirs",
+      "History",
+      "Europe"
+    ],
+    "releaseDate": "2019-08-01",
+    "publisher": "Brilliance Audio",
+    "description": "6 hours: \"The Boy Between Worlds\" by Annejet van der Zijl, Kristen Gehrman - translator is a shorter Biographies & Memoirs. Rated 4.5/5. Cost: $3.84/hour. A credit works well here.",
+    "runtimeHours": 6.1,
+    "valueScore": 1.17,
+    "costPerHour": 3.84,
+    "creditWorth": 1.56,
+    "adjustedValueScore": 3.9
   },
   {
     "asin": "0062346725",
@@ -71788,6 +75211,32 @@
     "valueScore": 1.1,
     "costPerHour": 4.28,
     "creditWorth": 1.57
+  },
+  {
+    "asin": "B002VA8JRI",
+    "title": "Clausewitz's On War",
+    "author": "Hew Strachan",
+    "narrator": "Simon Vance",
+    "runtimeMinutes": 328,
+    "price": 17.41,
+    "currency": "USD",
+    "starRating": 3.5,
+    "reviewCount": 7,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Jig+Am5AL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002VA8JRI",
+    "categories": [
+      "Biographies & Memoirs",
+      "Historical",
+      "History"
+    ],
+    "releaseDate": "2007-07-10",
+    "publisher": "Tantor Media",
+    "description": "6 hours: \"Clausewitz's On War\" by Hew Strachan is a shorter Biographies & Memoirs. Rated 3.5/5. Cost: $3.18/hour. A credit works well here.",
+    "runtimeHours": 5.5,
+    "valueScore": 1.1,
+    "costPerHour": 3.18,
+    "creditWorth": 1.16,
+    "adjustedValueScore": 2.29
   },
   {
     "asin": "B0H9BVGVQK",
@@ -73039,6 +76488,32 @@
     "adjustedValueScore": 0.68
   },
   {
+    "asin": "B01C9AYHEI",
+    "title": "C. S. Lewis's Mere Christianity",
+    "author": "George M. Marsden",
+    "narrator": "Robert Ian Mackenzie",
+    "runtimeMinutes": 326,
+    "price": 22.16,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 25,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41bR4HkYhTL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01C9AYHEI",
+    "categories": [
+      "History",
+      "Religion & Spirituality",
+      "Christianity"
+    ],
+    "releaseDate": "2016-03-29",
+    "publisher": "Recorded Books",
+    "description": "5 hours: \"C. S. Lewis's Mere Christianity\" by George M. Marsden is a shorter History. Rated 4.0/5. Cost: $4.08/hour. A credit works well here.",
+    "runtimeHours": 5.4,
+    "valueScore": 0.98,
+    "costPerHour": 4.08,
+    "creditWorth": 1.48,
+    "adjustedValueScore": 3.19
+  },
+  {
     "asin": "B0H7KZ2YSB",
     "title": "Pretty Dead Girl",
     "author": "Natalie Tielcke",
@@ -73266,6 +76741,32 @@
     "adjustedValueScore": 0.67
   },
   {
+    "asin": "B01EVTHIMI",
+    "title": "I Am Raymond Washington",
+    "author": "Zach Fortier, Derard Barton",
+    "narrator": "Taj Shareef",
+    "runtimeMinutes": 200,
+    "price": 15.63,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 7,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51bddOrFByL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01EVTHIMI",
+    "categories": [
+      "Biographies & Memoirs",
+      "Historical",
+      "True Crime"
+    ],
+    "releaseDate": "2016-04-28",
+    "publisher": "Zach Fortier",
+    "description": "3 hours: \"I Am Raymond Washington\" by Zach Fortier, Derard Barton is a shorter Biographies & Memoirs. Rated 4.5/5. Cost: $4.69/hour. A credit works well here.",
+    "runtimeHours": 3.3,
+    "valueScore": 0.96,
+    "costPerHour": 4.69,
+    "creditWorth": 1.05,
+    "adjustedValueScore": 2
+  },
+  {
     "asin": "B0HBCZFXZW",
     "title": "The Sign of the Four",
     "author": "Arthur Conan Doyle",
@@ -73341,6 +76842,32 @@
     "costPerHour": 3.15,
     "creditWorth": 1.48,
     "adjustedValueScore": 0.66
+  },
+  {
+    "asin": "B002VA9PVC",
+    "title": "Thomas Paine's Rights of Man",
+    "author": "Christopher Hitchens",
+    "narrator": "Simon Vance",
+    "runtimeMinutes": 216,
+    "price": 17.07,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 23,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51GfS+Oha5L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002VA9PVC",
+    "categories": [
+      "Biographies & Memoirs",
+      "Politics & Activism",
+      "Politicians"
+    ],
+    "releaseDate": "2007-09-01",
+    "publisher": "Tantor Media",
+    "description": "4 hours: \"Thomas Paine's Rights of Man\" by Christopher Hitchens is a shorter Biographies & Memoirs. Rated 4.5/5. Cost: $4.74/hour. A credit works well here.",
+    "runtimeHours": 3.6,
+    "valueScore": 0.95,
+    "costPerHour": 4.74,
+    "creditWorth": 1.14,
+    "adjustedValueScore": 3.02
   },
   {
     "asin": "B0H8Q9H15M",
@@ -73976,6 +77503,32 @@
     "creditWorth": 1.48
   },
   {
+    "asin": "B0F7R9GX3F",
+    "title": "The legend of the masters of Okinawan Karate",
+    "author": "Emanuel Giordano",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 236,
+    "price": 17.63,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51VNQLGgfFL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F7R9GX3F",
+    "categories": [
+      "Sports & Outdoors",
+      "Combat Sports & Self-Defense",
+      "tandem"
+    ],
+    "releaseDate": "2025-05-07",
+    "publisher": "Independently Published",
+    "description": "4 hours: \"The legend of the masters of Okinawan Karate\" by Emanuel Giordano is a shorter Sports & Outdoors. Rated 4.0/5. Cost: $4.48/hour. A credit works well here.",
+    "runtimeHours": 3.9,
+    "valueScore": 0.89,
+    "costPerHour": 4.48,
+    "creditWorth": 1.18,
+    "adjustedValueScore": 0.62
+  },
+  {
     "asin": "B002V8OEW4",
     "title": "Prince Caspian",
     "author": "C. S. Lewis",
@@ -74582,6 +78135,32 @@
     "creditWorth": 1.45
   },
   {
+    "asin": "B002V8HBT2",
+    "title": "Darwin's Origin of Species",
+    "author": "Janet Browne",
+    "narrator": "Josephine Bailey",
+    "runtimeMinutes": 261,
+    "price": 21.15,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51E42suVeyL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V8HBT2",
+    "categories": [
+      "Biographies & Memoirs",
+      "Professionals & Academics",
+      "Science & Technology"
+    ],
+    "releaseDate": "2007-03-12",
+    "publisher": "Tantor Media",
+    "description": "4 hours: \"Darwin's Origin of Species\" by Janet Browne is a shorter Biographies & Memoirs. Rated 4.0/5. Cost: $4.86/hour. A credit works well here.",
+    "runtimeHours": 4.4,
+    "valueScore": 0.82,
+    "costPerHour": 4.86,
+    "creditWorth": 1.41,
+    "adjustedValueScore": 1.32
+  },
+  {
     "title": "Kristy and the Walking Disaster",
     "author": "Ann M. Martin",
     "narrator": "Brittany Pressley",
@@ -74860,6 +78439,32 @@
     "valueScore": 0.79,
     "costPerHour": 5.05,
     "creditWorth": 1.5
+  },
+  {
+    "asin": "B002V5ISX8",
+    "title": "Goldwyn",
+    "author": "A. Scott Berg",
+    "narrator": "Roddy McDowall",
+    "runtimeMinutes": 181,
+    "price": 15.23,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51qE0zxXshL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V5ISX8",
+    "categories": [
+      "Arts & Entertainment",
+      "Art",
+      "Entertainment & Performing Arts"
+    ],
+    "releaseDate": "2009-08-19",
+    "publisher": "Phoenix Books",
+    "description": "3 hours: \"Goldwyn\" by A. Scott Berg is a shorter Arts & Entertainment. Rated 4.0/5. Cost: $5.05/hour. A credit works well here.",
+    "runtimeHours": 3,
+    "valueScore": 0.79,
+    "costPerHour": 5.05,
+    "creditWorth": 1.02,
+    "adjustedValueScore": 1.74
   },
   {
     "title": "Self Leadership and the One Minute Manager Revised Edition",
@@ -76546,6 +80151,32 @@
     "creditWorth": 1.27
   },
   {
+    "asin": "B0039Y4QYK",
+    "title": "Jeremy Clarkson",
+    "author": "Gwen Russell",
+    "narrator": "Richard Dallyn",
+    "runtimeMinutes": 129,
+    "price": 15.47,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51fIte2uzML._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0039Y4QYK",
+    "categories": [
+      "Arts & Entertainment",
+      "Entertainment & Performing Arts",
+      "Film & TV"
+    ],
+    "releaseDate": "2010-02-24",
+    "publisher": "Sound Entertainment Ltd",
+    "description": "2 hours: \"Jeremy Clarkson\" by Gwen Russell is a shorter Arts & Entertainment. Rated 4.0/5. Cost: $7.20/hour. A credit works well here.",
+    "runtimeHours": 2.2,
+    "valueScore": 0.56,
+    "costPerHour": 7.2,
+    "creditWorth": 1.03,
+    "adjustedValueScore": 0.78
+  },
+  {
     "asin": "B002V8LA80",
     "title": "El Octavo Habito De la Efectividad a la Grandeza [The 8th Habit",
     "author": "Stephen R. Covey",
@@ -77109,6 +80740,32 @@
     "creditWorth": 1.46
   },
   {
+    "asin": "B0GYG2G598",
+    "title": "The Truth About Taylor Sheridan",
+    "author": "Halven Strayer",
+    "narrator": "Michael Bridges",
+    "runtimeMinutes": 132,
+    "price": 23.23,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 12,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51cnKbc5mzL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GYG2G598",
+    "categories": [
+      "Biographies & Memoirs",
+      "Art & Literature",
+      "Authors"
+    ],
+    "releaseDate": "2026-04-27",
+    "publisher": "Zentara UK",
+    "description": "2 hours: \"The Truth About Taylor Sheridan\" by Halven Strayer is a shorter Biographies & Memoirs. Rated 5.0/5. Cost: $10.56/hour. A credit works well here.",
+    "runtimeHours": 2.2,
+    "valueScore": 0.47,
+    "costPerHour": 10.56,
+    "creditWorth": 1.55,
+    "adjustedValueScore": 1.21
+  },
+  {
     "title": "He Put Her in First Class I Flew Private With His Boss",
     "author": "Sadie Shore",
     "narrator": "Virtual Voice",
@@ -77361,6 +81018,32 @@
     "costPerHour": 11.37,
     "creditWorth": 1.31,
     "adjustedValueScore": 1.42
+  },
+  {
+    "asin": "B089NZYD6M",
+    "title": "Aaron Judge",
+    "author": "Clayton Geoffreys",
+    "narrator": "Derek Dysart",
+    "runtimeMinutes": 116,
+    "price": 15.32,
+    "currency": "USD",
+    "starRating": 3.5,
+    "reviewCount": 6,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51d3gGpgQlL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B089NZYD6M",
+    "categories": [
+      "Children's Audiobooks",
+      "Biographies",
+      "Sports & Recreation"
+    ],
+    "releaseDate": "2020-06-04",
+    "publisher": "Calvintir Books, LLC",
+    "description": "2 hours: \"Aaron Judge\" by Clayton Geoffreys is a shorter Children's Audiobooks. Rated 3.5/5. Cost: $7.92/hour. A credit works well here.",
+    "runtimeHours": 1.9,
+    "valueScore": 0.44,
+    "costPerHour": 7.92,
+    "creditWorth": 1.02,
+    "adjustedValueScore": 0.86
   },
   {
     "title": "The Life and Legacy of the Roman Leader Who Saved the Republic and Gave Up Power",
@@ -77773,6 +81456,32 @@
     "adjustedValueScore": 0.94
   },
   {
+    "asin": "B08M6CJ13M",
+    "title": "Ken Griffey Jr.",
+    "author": "Clayton Geoffreys",
+    "narrator": "Tom Sleeker",
+    "runtimeMinutes": 101,
+    "price": 20.05,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51wtfXeHN-L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B08M6CJ13M",
+    "categories": [
+      "Biographies & Memoirs",
+      "Sports",
+      "Sports & Outdoors"
+    ],
+    "releaseDate": "2020-10-29",
+    "publisher": "Calvintir Books, LLC",
+    "description": "2 hours: \"Ken Griffey Jr.\" by Clayton Geoffreys is a shorter Biographies & Memoirs. Rated 4.5/5. Cost: $11.91/hour. A credit works well here.",
+    "runtimeHours": 1.7,
+    "valueScore": 0.38,
+    "costPerHour": 11.91,
+    "creditWorth": 1.34,
+    "adjustedValueScore": 0.42
+  },
+  {
     "asin": "B07F77R461",
     "title": "Who Moved My Cheese?",
     "author": "Spencer Johnson, Kenneth Blanchard - introduction",
@@ -77846,6 +81555,58 @@
     "costPerHour": 14.48,
     "creditWorth": 0.94,
     "adjustedValueScore": 0.97
+  },
+  {
+    "asin": "B0GYKQLH5V",
+    "title": "Jelly Roll Biography",
+    "author": "John O. Heyward",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 103,
+    "price": 20.33,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41eGiXM65bL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GYKQLH5V",
+    "categories": [
+      "Arts & Entertainment",
+      "Music",
+      "Biographies & Memoirs"
+    ],
+    "releaseDate": "2026-04-26",
+    "publisher": "Independently Published",
+    "description": "2 hours: \"Jelly Roll Biography\" by John O. Heyward is a shorter Arts & Entertainment. Rated 4.0/5. Cost: $11.84/hour. A credit works well here.",
+    "runtimeHours": 1.7,
+    "valueScore": 0.34,
+    "costPerHour": 11.84,
+    "creditWorth": 1.36,
+    "adjustedValueScore": 0.24
+  },
+  {
+    "asin": "B0GZXBL9MW",
+    "title": "The King in Yellow (Annotated)",
+    "author": "Robert W. Chambers",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 489,
+    "price": 23.7,
+    "currency": "USD",
+    "starRating": 1,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51kEIX3sYIL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GZXBL9MW",
+    "categories": [
+      "Literature & Fiction",
+      "Horror",
+      "Mystery, Thriller & Suspense"
+    ],
+    "releaseDate": "2026-05-07",
+    "publisher": "Erato Press",
+    "description": "Best Literature & Fiction for your Audible credit? \"The King in Yellow (Annotated)\" by Robert W. Chambers runs 8 hours at $2.91/hour. Rated 1.0/5. Save with a credit.",
+    "runtimeHours": 8.2,
+    "valueScore": 0.34,
+    "costPerHour": 2.91,
+    "creditWorth": 1.59,
+    "adjustedValueScore": 0.24
   },
   {
     "title": "Fantastic Mr Fox",
@@ -78399,6 +82160,32 @@
     "creditWorth": 1.12
   },
   {
+    "asin": "B0DR38GCWG",
+    "title": "Wernher von Braun",
+    "author": "Hourly History",
+    "narrator": "Matthew J. Chandler-Smith",
+    "runtimeMinutes": 61,
+    "price": 17.53,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 7,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51e1rJun-QL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DR38GCWG",
+    "categories": [
+      "Biographies & Memoirs",
+      "Historical",
+      "Military & War"
+    ],
+    "releaseDate": "2024-12-20",
+    "publisher": "Hourly History",
+    "description": "1 hours: \"Wernher von Braun\" by Hourly History is a shorter Biographies & Memoirs. Rated 4.5/5. Cost: $17.24/hour. A credit works well here.",
+    "runtimeHours": 1,
+    "valueScore": 0.26,
+    "costPerHour": 17.24,
+    "creditWorth": 1.17,
+    "adjustedValueScore": 0.54
+  },
+  {
     "asin": "B00LSYYMY2",
     "title": "Mitosis",
     "author": "Brandon Sanderson",
@@ -78423,6 +82210,32 @@
     "costPerHour": 18.32,
     "creditWorth": 1.29,
     "adjustedValueScore": 1.39
+  },
+  {
+    "asin": "B0FXDNB7H4",
+    "title": "ABUSED TO DEATH 5 – MY NAME IS GABRIEL FERNANDEZ",
+    "author": "Jessica Jackson",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 73,
+    "price": 19.3,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/416CUy65RDL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FXDNB7H4",
+    "categories": [
+      "Biographies & Memoirs",
+      "True Crime",
+      "Con Artists, Hoaxes & Deceptions"
+    ],
+    "releaseDate": "2025-11-19",
+    "publisher": "Independently Published",
+    "description": "1 hours: \"ABUSED TO DEATH 5 – MY NAME IS GABRIEL FERNANDEZ\" by Jessica Jackson is a shorter Biographies & Memoirs. Rated 4.0/5. Cost: $15.86/hour. A credit works well here.",
+    "runtimeHours": 1.2,
+    "valueScore": 0.25,
+    "costPerHour": 15.86,
+    "creditWorth": 1.29,
+    "adjustedValueScore": 0.17
   },
   {
     "title": "The Future of Leadership Begins at Home — with Soraiya Bodhi & Nishma Karim",
@@ -78474,6 +82287,58 @@
     "costPerHour": 18.59,
     "creditWorth": 1.45,
     "adjustedValueScore": 0.17
+  },
+  {
+    "asin": "B079YX565L",
+    "title": "George Washington: A Life from Beginning to End",
+    "author": "Hourly History",
+    "narrator": "Jimmy Kieffer",
+    "runtimeMinutes": 70,
+    "price": 21.96,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51qcigyjUML._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B079YX565L",
+    "categories": [
+      "Biographies & Memoirs",
+      "Politics & Activism",
+      "Presidents & Heads of State"
+    ],
+    "releaseDate": "2018-02-22",
+    "publisher": "Hourly History",
+    "description": "1 hours: \"George Washington: A Life from Beginning to End\" by Hourly History is a shorter Biographies & Memoirs. Rated 4.5/5. Cost: $18.82/hour. A credit works well here.",
+    "runtimeHours": 1.2,
+    "valueScore": 0.24,
+    "costPerHour": 18.82,
+    "creditWorth": 1.47,
+    "adjustedValueScore": 0.26
+  },
+  {
+    "asin": "B078WZ3K5R",
+    "title": "Leonardo da Vinci: A Life From Beginning to End",
+    "author": "Hourly History",
+    "narrator": "Nate Sjol",
+    "runtimeMinutes": 64,
+    "price": 19.74,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/71TYUfvlmKL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B078WZ3K5R",
+    "categories": [
+      "Arts & Entertainment",
+      "Art",
+      "Biographies & Memoirs"
+    ],
+    "releaseDate": "2018-01-10",
+    "publisher": "Hourly History",
+    "description": "1 hours: \"Leonardo da Vinci: A Life From Beginning to End\" by Hourly History is a shorter Arts & Entertainment. Rated 4.5/5. Cost: $18.51/hour. A credit works well here.",
+    "runtimeHours": 1.1,
+    "valueScore": 0.24,
+    "costPerHour": 18.51,
+    "creditWorth": 1.32,
+    "adjustedValueScore": 0.33
   },
   {
     "asin": "B00URXOQ1E",
@@ -78700,6 +82565,32 @@
     "valueScore": 0.19,
     "costPerHour": 24.65,
     "creditWorth": 1.1
+  },
+  {
+    "asin": "B0DH9K11SP",
+    "title": "Jimmy Buffett",
+    "author": "Hourly History",
+    "narrator": "Matthew J. Chandler-Smith",
+    "runtimeMinutes": 58,
+    "price": 20.38,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41Jq4Z1hMWL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DH9K11SP",
+    "categories": [
+      "Arts & Entertainment",
+      "Music",
+      "Biographies & Memoirs"
+    ],
+    "releaseDate": "2024-09-17",
+    "publisher": "Hourly History",
+    "description": "1 hours: \"Jimmy Buffett\" by Hourly History is a shorter Arts & Entertainment. Rated 4.0/5. Cost: $21.08/hour. A credit works well here.",
+    "runtimeHours": 1,
+    "valueScore": 0.19,
+    "costPerHour": 21.08,
+    "creditWorth": 1.36,
+    "adjustedValueScore": 0.21
   },
   {
     "asin": "B0HC7K5BVS",
