@@ -3004,6 +3004,140 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+  'don-quixote-audiobook-review': {
+    slug: 'don-quixote-audiobook-review',
+    title: 'Don Quixote Audiobook Review: 39 Hours of Classic That Delivers',
+    description:
+      'A don quixote audiobook review that starts with the math: 39 hours and 17 minutes at $0.48 an hour, one Audible credit, four narrators, 4.5 stars. Is this 400-year-old classic worth a credit in 2026?',
+    keywords: ['don quixote audiobook review', 'classic audiobooks audible', 'adventure audiobooks', 'cervantes audiobook'],
+    date: '2026-08-10',
+    readTime: '7 min read',
+    category: 'Book Review',
+    content: (
+      <>
+        <p>
+          This <strong>don quixote audiobook review</strong> opens with the math, because that is
+          how most people actually decide. 39 hours and 17 minutes, one Audible credit, roughly
+          $0.48 an hour. A 400-year-old novel, four narrators, 4.5 stars. Sounds like a steal,
+          except listeners split into two camps: some call it a literary rite of passage, others
+          drop it halfway. I want to talk about both sides.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          What the book is, and why it runs 39 hours
+        </h2>
+        <p>
+          Cervantes published Don Quixote in 1605. An old gentleman reads so many chivalry novels
+          that he loses his grip on reality, straps on armor, climbs onto a skinny horse, and
+          rides out with his farmer neighbor Sancho Panza to right wrongs. He tilts at windmills,
+          mistakes inns for castles, gets beaten up, and gets up again.
+        </p>
+        <p>
+          The runtime is a pacing thing. Cervantes was in no hurry. Every farce plays out in
+          full, stories nest inside stories, and the plot only moves when he decides it is ready.
+          Modern listeners may find that maddening at first. For people who live on{" "}
+          <strong>adventure audiobooks</strong>, it is exactly the appeal: you travel hundreds of
+          miles with Quixote and Sancho, and every stretch of road brings new trouble.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Why this version earns a credit
+        </h2>
+        <p>
+          There are several English editions on Audible, and this one sells on its cast: Kayvan
+          Novak, Josh Cohen, Alistair Petrie and Richard Hughes each take different roles, and the
+          acting carries real personality. Sancho sounds wry and loyal; Quixote shifts from
+          dignified to unhinged in the same scene. John Rutherford&apos;s translation is widely
+          considered the closest English version to Cervantes&apos;s actual voice: it keeps the
+          crude jokes and the literary digressions, and it reads livelier than the older Victorian
+          translations.
+        </p>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>Runtime: 39 hours 17 minutes (2357 minutes, unabridged)</li>
+          <li>Author: Miguel Cervantes, translated by John Rutherford</li>
+          <li>Narrators: Kayvan Novak, Josh Cohen, Alistair Petrie, Richard Hughes</li>
+          <li>Rating: 4.5 stars from 23 reviews</li>
+          <li>Price: $18.82 in cash, or one credit</li>
+          <li>Value Score: 9.39, about $0.48 per hour</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          39 hours is a commitment. Ask yourself three things
+        </h2>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>How often do you actually listen? At one commute hour a day, this is about six weeks of listening</li>
+          <li>Do you enjoy slow, digressive storytelling? If yes, it gets better the deeper you go; if you want a tight plot, it will test your patience</li>
+          <li>When did you last finish a 17th-century novel? If you cannot remember, listen to chapter one before spending anything</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          How it stacks up among classic audiobooks audible
+        </h2>
+        <p>
+          Put it next to The Three Musketeers or Gulliver&apos;s Travels and the difference is
+          stark. Dumas hits his stride in two hours; Quixote wanders, mixing slapstick with
+          philosophy, and never has what you would call a main plot. As far as{" "}
+          <strong>classic audiobooks audible</strong> go, it is an acquired taste, the kind of
+          thing that repels the first sip and keeps you coming back after.
+        </p>
+        <p>
+          We rate it 9.39 on our Value Score, and the reason is simple: under fifty cents an hour
+          for a text that rewards three separate listens, first as comedy, then as literature,
+          and somewhere around listen three you realize Sancho is the sanest person in the whole
+          book.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">FAQ</h2>
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">
+          Is the Don Quixote audiobook worth an Audible credit?
+        </h3>
+        <p>
+          If your goal is the most classic literature per dollar, yes. 39 hours at $0.48 an hour,
+          performed by four actors, unabridged. Few classics in this range come close on value.
+        </p>
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">
+          Which translation is this, and is it good?
+        </h3>
+        <p>
+          It uses John Rutherford&apos;s translation, widely regarded as the English version
+          closest to Cervantes&apos;s actual voice, with more natural dialogue than older
+          editions. The cast is Kayvan Novak, Josh Cohen, Alistair Petrie and Richard Hughes.
+        </p>
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">
+          Is 39 hours too long?
+        </h3>
+        <p>
+          Honestly, yes. If you only want the gist, read a summary. If this is your first serious
+          listen of Don Quixote, give yourself six weeks and do not rush it.
+        </p>
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">
+          Why 4.5 stars instead of higher?
+        </h3>
+        <p>
+          The 23 reviews include complaints about pacing and the old-fashioned structure. If you
+          want the full data and a side-by-side with other classics, the book page has it all.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Verdict</h2>
+        <p>
+          Spend the credit if you like long books and even longer commitments. 39 hours is a lot
+          of your commute, but at $0.48 an hour it is also one of the cheapest ways to actually
+          finish a literary classic. Check the full breakdown on the{" "}
+          <a href="/books/0241429536" className="text-accent hover:underline">Don Quixote book page</a>{" "}
+          and browse the{" "}
+          <a href="/category/classic" className="text-accent hover:underline">classic literature category</a>{" "}
+          for more picks in this lane.
+        </p>
+        <p>
+          GetCreditWorth (getcreditworth.com) helps you decide whether an audiobook is worth a
+          credit. Browse our <a href="/" className="text-accent hover:underline">homepage</a> for
+          book reviews, the <a href="/calculator" className="text-accent hover:underline">credit calculator</a>{" "}
+          for hour-per-dollar math, and the <a href="/blog" className="text-accent hover:underline">blog</a>{" "}
+          for more picks like this one.
+        </p>
+      </>
+    ),
+  },
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
