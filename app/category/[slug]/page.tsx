@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getAllCategories, filterBooks } from "@/lib/data/books";
+import { getAllCategories, filterBooks, toListBook } from "@/lib/data/books";
 import { getAllBooks } from "@/lib/data/books";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import type { Metadata } from "next";
@@ -59,7 +59,9 @@ export default function CategoryDetailPage({ params }: PageProps) {
         return c.toLowerCase() === categoryName.toLowerCase();
       });
     })
-    .sort(function (a, b) { return b.valueScore - a.valueScore; });
+    .sort(function (a, b) { return b.valueScore - a.valueScore; })
+    // Fast Origin Transfer 优化:分类页表格无需 description 大文本
+    .map(toListBook);
 
   return (
     <div className="container-content py-6 md:py-8">

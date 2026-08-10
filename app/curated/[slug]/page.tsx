@@ -7,6 +7,7 @@ import {
 import { ItemListJsonLd, BreadcrumbListJsonLd } from "@/components/seo/JsonLd";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import { CuratedDetailContent } from "@/components/CuratedDetailContent";
+import { toListBook } from "@/lib/data/books";
 import type { Metadata } from "next";
 
 export const revalidate = 604800;
@@ -47,10 +48,12 @@ export function generateMetadata({ params }: PageProps): Metadata {
 export default function CuratedListPage({ params }: PageProps) {
   const detail = getCuratedListDetail(params.slug);
   if (!detail) notFound();
+  // Fast Origin Transfer 优化:精选列表页无需 description 大文本
+  const lightBooks = detail.books.map(toListBook);
   return (
     <>
-      <CuratedDetailContent list={detail} books={detail.books} />
-      <ItemListJsonLd books={detail.books} name={detail.title} />
+      <CuratedDetailContent list={detail} books={lightBooks} />
+      <ItemListJsonLd books={lightBooks} name={detail.title} />
       <BreadcrumbListJsonLd
         items={[
           { name: "Home", url: "/" },
