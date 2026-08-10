@@ -48,8 +48,10 @@ export const metadata: Metadata = {
 };
 
 export default function AllBooksPage() {
-  const result = getBookList({ pageSize: 5000 });
-  // Fast Origin Transfer 优化：剔除 description 大文本，减小 RSC payload（列表无需长描述）
+  // Fast Origin Transfer 优化：初始只渲染 Top 50（排行展示），
+  // 全量 3673 本由 BookExplorer 通过 /api/books/list 客户端懒加载（搜索/筛选不受影响）。
+  // 原实现全量 pageSize:5000 内联进 RSC payload ~3MB，每次回源都是大 FOT。
+  const result = getBookList({ pageSize: 50 });
   return <AllBooksContent books={result.books.map((b) => toListBook(b))} />;
 }
 

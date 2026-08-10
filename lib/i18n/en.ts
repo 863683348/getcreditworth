@@ -89,7 +89,7 @@ export const en = {
   // Books list page
   booksPage: {
     title: 'All Audiobooks',
-    subtitle: 'Browse all {count} audiobooks. Use filters to find the perfect match for your listening goals.',
+    subtitle: 'Browse every audiobook ranked by Value Score. Use filters to find the perfect match for your listening goals.',
     pageTitle: 'All Audiobooks - Browse and Compare Value Scores',
     pageDescription: 'Browse all audiobooks with Value Scores. Filter by duration, rating, and category to find the best books for your Audible credits.',
     curatedTitle: 'Curated Lists',

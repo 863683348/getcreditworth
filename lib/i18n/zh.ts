@@ -73,7 +73,7 @@ export const zh = {
   },
   booksPage: {
     title: "全部有声书",
-    subtitle: "浏览全部 {count} 本有声书。使用筛选条件找到最适合您收听目标的书籍。",
+    subtitle: "浏览全部有声书的价值评分排名。使用筛选条件找到最适合您收听目标的书籍。",
     pageTitle: "全部有声书 - 浏览并对比价值评分",
     pageDescription: "浏览带有价值评分的全部有声书。按时长、评分和分类筛选，找到最适合您Audible积分的有声书。",
     curatedTitle: "精选榜单",
