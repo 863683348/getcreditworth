@@ -39,3 +39,6 @@ pnpm-debug.log*
 next-env.d.ts
 .vercel
 dev/null
+
+# Temporary fresh clone used for l'x-path git repair (never commit)
+getcreditworth-fresh/
