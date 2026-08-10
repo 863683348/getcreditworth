@@ -1,4 +1,4 @@
-import { getAllBooks } from "@/lib/data/books";
+import { getAllBooks, toListBook } from "@/lib/data/books";
 import { HomeContent } from "@/components/HomeContent";
 import { SITE_CONFIG } from "@/lib/config";
 import type { Metadata } from "next";
@@ -62,7 +62,8 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  const topBooks = getAllBooks();
+  // Fast Origin Transfer 优化：首页仅需列表字段（BookExplorer 用 categories/narrator），剔除 description 大文本
+  const topBooks = getAllBooks().map(toListBook);
 
   return <HomeContent topBooks={topBooks} />;
 }

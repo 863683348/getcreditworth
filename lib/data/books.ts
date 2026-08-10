@@ -7,7 +7,7 @@
 import booksRaw from '@/data/books.json';
 import curatedListsRaw from '@/data/curated-lists.json';
 import categoriesRaw from '@/data/categories.json';
-import type { Book, BookRawData, CuratedList } from '@/lib/types';
+import type { Book, BookRawData, CompareBook, CuratedList, ListBook } from '@/lib/types';
 import { calculateAllScores } from '@/lib/calc/value-score';
 
 // 过滤占位符书籍：PENDING_*/FINAL_* 为数据管道未处理完成的标记，
@@ -21,6 +21,29 @@ const allBooks: Book[] = calculateAllScores(VALID_BOOKS);
 
 export function getAllBooks(): Book[] {
   return allBooks;
+}
+
+/** 裁剪为列表/首页版：仅剔除 description 大文本（RSC payload 从 ~3.2MB 降到 ~2MB） */
+export function toListBook(book: Book): ListBook {
+  const { description: _drop, ...rest } = book;
+  return rest;
+}
+
+/** 裁剪为比较页版：仅保留对比界面所需字段（payload 再降到 ~250KB） */
+export function toCompareBook(book: Book): CompareBook {
+  return {
+    asin: book.asin,
+    title: book.title,
+    author: book.author,
+    narrator: book.narrator,
+    runtimeMinutes: book.runtimeMinutes,
+    price: book.price,
+    starRating: book.starRating,
+    reviewCount: book.reviewCount,
+    valueScore: book.valueScore,
+    costPerHour: book.costPerHour,
+    creditWorth: book.creditWorth,
+  };
 }
 
 export function getBookByAsin(asin: string): Book | undefined {

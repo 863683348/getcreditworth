@@ -1,4 +1,5 @@
 import { getBookList } from "@/lib/api/controllers/book.controller";
+import { toListBook } from "@/lib/data/books";
 import { AllBooksContent } from "@/components/AllBooksContent";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import type { Metadata } from "next";
@@ -48,6 +49,7 @@ export const metadata: Metadata = {
 
 export default function AllBooksPage() {
   const result = getBookList({ pageSize: 5000 });
-  return <AllBooksContent books={result.books} />;
+  // Fast Origin Transfer 优化：剔除 description 大文本，减小 RSC payload（列表无需长描述）
+  return <AllBooksContent books={result.books.map((b) => toListBook(b))} />;
 }
 

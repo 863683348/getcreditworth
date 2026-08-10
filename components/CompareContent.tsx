@@ -3,17 +3,17 @@
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { GitCompare, Search, X } from 'lucide-react';
-import type { Book } from '@/lib/types';
+import type { CompareBook } from '@/lib/types';
 import { ValueScoreBadge } from '@/components/ValueScoreBadge';
 import { formatDuration, formatPrice, formatRating } from '@/lib/utils/format';
 
 const MAX_COMPARE = 4;
 
 interface CompareContentProps {
-  books: Book[];
+  books: CompareBook[];
 }
 
-function CompareRow({ label, books }: { label: string; books: Book[] }) {
+function CompareRow({ label, books }: { label: string; books: CompareBook[] }) {
   return (
     <tr className='border-b border-border'>
       <td className='p-3 font-medium text-text-secondary bg-bg-surface border border-border whitespace-nowrap'>{label}</td>
@@ -26,7 +26,7 @@ function CompareRow({ label, books }: { label: string; books: Book[] }) {
     </tr>
   );
 
-  function getCellValue(label: string, book: Book): React.ReactNode {
+  function getCellValue(label: string, book: CompareBook): React.ReactNode {
     switch (label) {
       case 'Author': return book.author;
       case 'Narrator': return book.narrator || '-';
