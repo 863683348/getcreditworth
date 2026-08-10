@@ -1,4 +1,4 @@
-import { getAllBooks, toListBook } from "@/lib/data/books";
+import { getTopBooks, toListBook } from "@/lib/data/books";
 import { HomeContent } from "@/components/HomeContent";
 import { SITE_CONFIG } from "@/lib/config";
 import type { Metadata } from "next";
@@ -62,8 +62,10 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  // Fast Origin Transfer 优化：首页仅需列表字段（BookExplorer 用 categories/narrator），剔除 description 大文本
-  const topBooks = getAllBooks().map(toListBook);
+  // Fast Origin Transfer 优化：首页仅渲染 Top 30（排行展示），
+  // 全量 300+ 本由 BookExplorer 通过 /api/books/list 客户端懒加载（搜索功能不受影响）。
+  // 原实现 getAllBooks() 全量内联进 RSC payload ~2.3MB，每次回源都是大 FOT。
+  const topBooks = getTopBooks(30).map(toListBook);
 
   return <HomeContent topBooks={topBooks} />;
 }

@@ -16,6 +16,9 @@ interface BookExplorerProps {
   showRank?: boolean;
   title?: string;
   emptyMessage?: string;
+  /** 可选：全量数据 URL（如 /api/books/list）。提供时挂载后客户端懒加载替换数据，
+   *  搜索/筛选范围扩展为全量；不提供时行为不变（仅用传入 books）。 */
+  allBooksUrl?: string;
 }
 
 export function BookExplorer({
@@ -23,8 +26,10 @@ export function BookExplorer({
   showRank = true,
   title,
   emptyMessage,
+  allBooksUrl,
 }: BookExplorerProps) {
   const { t } = useI18n();
+  const [allBooks, setAllBooks] = useState(books);
   const [keyword, setKeyword] = useState('');
   const [duration, setDuration] = useState('all');
   const [minRating, setMinRating] = useState(0);
@@ -38,7 +43,7 @@ export function BookExplorer({
   
   const allNarrators = useMemo(() => {
     const set = new Set<string>();
-    books.forEach((book) => {
+    allBooks.forEach((book) => {
       if (book.narrator) {
         book.narrator.split(',').forEach((n) => {
           const name = n.trim();
@@ -47,11 +52,11 @@ export function BookExplorer({
       }
     });
     return Array.from(set).sort();
-  }, [books]);
+  }, [allBooks]);
 
   const allCategories = useMemo(() => {
     const counts = new Map<string, number>();
-    books.forEach((book) => {
+    allBooks.forEach((book) => {
       book.categories.forEach((c) => {
         counts.set(c, (counts.get(c) ?? 0) + 1);
       });
@@ -61,17 +66,38 @@ export function BookExplorer({
       .filter(([, count]) => count >= 4)
       .map(([cat]) => cat)
       .sort();
-  }, [books]);
+  }, [allBooks]);
 
   const filteredBooks = useMemo(() => {
-    return filterBooks(books, {
+    return filterBooks(allBooks, {
       keyword,
       durationRange: duration,
       minRating,
       category,
       narrator,
     });
-  }, [books, keyword, duration, minRating, category, narrator]);
+  }, [allBooks, keyword, duration, minRating, category, narrator]);
+
+  // 懒加载全量数据（搜索/筛选用），替换初始 Top N
+  useEffect(() => {
+    if (!allBooksUrl) return;
+    let cancelled = false;
+    fetch(allBooksUrl)
+      .then((res) => (res.ok ? res.json() : Promise.reject(new Error(`HTTP ${res.status}`))))
+      .then((data: Book[]) => {
+        if (!cancelled && Array.isArray(data) && data.length > 0) {
+          setAllBooks(data);
+          setCurrentPage(1);
+        }
+      })
+      .catch((err) => {
+        // 静默失败：保持初始数据可用（搜索范围缩小但不白屏）
+        console.error('BookExplorer: failed to load full list', err);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [allBooksUrl]);
 
   // Reset page when filters change
   useEffect(() => {

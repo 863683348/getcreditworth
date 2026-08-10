@@ -154,6 +154,7 @@ export function HomeContent({ topBooks }: HomeContentProps) {
 
         <BookExplorer
           books={topBooks}
+          allBooksUrl="/api/books/list"
           showRank
           title=""
           emptyMessage={t.home.emptyMessage}
