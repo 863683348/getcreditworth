@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import Link from 'next/link';
 import { GitCompare, Search, X } from 'lucide-react';
 import type { CompareBook } from '@/lib/types';
@@ -11,6 +11,9 @@ const MAX_COMPARE = 4;
 
 interface CompareContentProps {
   books: CompareBook[];
+  /** 可选：全量对比数据 URL（如 /api/books/compare）。提供时挂载后客户端懒加载替换数据，
+   *  搜索/选择范围扩展为全量；不提供时行为不变（仅用传入 books）。 */
+  allBooksUrl?: string;
 }
 
 function CompareRow({ label, books }: { label: string; books: CompareBook[] }) {
@@ -42,23 +45,44 @@ function CompareRow({ label, books }: { label: string; books: CompareBook[] }) {
   }
 }
 
-export function CompareContent({ books }: CompareContentProps) {
+export function CompareContent({ books, allBooksUrl }: CompareContentProps) {
+  const [allBooks, setAllBooks] = useState(books);
   const [selected, setSelected] = useState<string[]>([]);
   const [search, setSearch] = useState('');
+
+  // 懒加载全量对比数据（搜索/选择用），替换初始 Top N
+  useEffect(() => {
+    if (!allBooksUrl) return;
+    let cancelled = false;
+    fetch(allBooksUrl)
+      .then((res) => (res.ok ? res.json() : Promise.reject(new Error(`HTTP ${res.status}`))))
+      .then((data: CompareBook[]) => {
+        if (!cancelled && Array.isArray(data) && data.length > 0) {
+          setAllBooks(data);
+        }
+      })
+      .catch((err) => {
+        // 静默失败：保持初始数据可用（搜索范围缩小但不白屏）
+        console.error('CompareContent: failed to load full list', err);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [allBooksUrl]);
 
   const filteredBooks = useMemo(() => {
     if (!search) return [];
     const kw = search.toLowerCase();
-    return books.filter(function(b) {
+    return allBooks.filter(function(b) {
       return b.title.toLowerCase().includes(kw) ||
         b.author.toLowerCase().includes(kw) ||
         (b.narrator && b.narrator.toLowerCase().includes(kw));
     }).slice(0, 10);
-  }, [books, search]);
+  }, [allBooks, search]);
 
   const compareBooks = useMemo(function() {
-    return books.filter(function(b) { return selected.includes(b.asin); });
-  }, [books, selected]);
+    return allBooks.filter(function(b) { return selected.includes(b.asin); });
+  }, [allBooks, selected]);
 
   function toggleBook(asin: string) {
     setSelected(function(prev) {
