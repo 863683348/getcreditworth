@@ -66,6 +66,18 @@ const nextConfig = {
           { key: "X-Frame-Options", value: "DENY" },
         ],
       },
+      // #13 FOT 修复：Next.js 对 ISR 页面默认 max-age=0（每次回源验证 → ISR Reads/FOT 持续高）。
+      // 所有公开页（含 sitemap.xml/robots.txt）加 1 天边缘缓存 + 7 天后台刷新。
+      // 负向前瞻排除：/api（动态接口）、/favorites（用户收藏）、/compare（对比工具）。
+      {
+        source: "/:path((?!api|favorites|compare).*)",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "public, s-maxage=86400, stale-while-revalidate=604800",
+          },
+        ],
+      },
     ];
   },
 };
