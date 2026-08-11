@@ -58,7 +58,7 @@ export function HomeContent({ topBooks }: HomeContentProps) {
       <SoftwareApplicationJsonLd />
       <FaqPageJsonLd questions={FAQ_ITEMS} />
       <ItemListJsonLd
-        books={topBooks}
+        books={topBooks.slice(0, 10)}
         name="Top Audible Books by Value Score"
       />
 

@@ -39,6 +39,8 @@ export function BookExplorer({
   const [currentPage, setCurrentPage] = useState(1);
   const [pageSize, setPageSize] = useState(200);
   const [viewMode, setViewMode] = useState<ViewMode>('card');
+  // 全量 JSON 是否已加载（避免每次挂载都下载 2MB+）
+  const [loadedFull, setLoadedFull] = useState(false);
 
   
   const allNarrators = useMemo(() => {
@@ -78,14 +80,15 @@ export function BookExplorer({
     });
   }, [allBooks, keyword, duration, minRating, category, narrator]);
 
-  // 懒加载全量数据（搜索/筛选用），替换初始 Top N
-  useEffect(() => {
-    if (!allBooksUrl) return;
-    let cancelled = false;
+  // 懒加载全量数据：仅在用户首次搜索/筛选时才拉取（Fast Origin Transfer 优化）。
+  // 挂载时不下载，避免每个首页/列表页都回源 2MB+ JSON。
+  const loadFull = useCallback(() => {
+    if (loadedFull || !allBooksUrl) return;
+    setLoadedFull(true);
     fetch(allBooksUrl)
       .then((res) => (res.ok ? res.json() : Promise.reject(new Error(`HTTP ${res.status}`))))
       .then((data: Book[]) => {
-        if (!cancelled && Array.isArray(data) && data.length > 0) {
+        if (Array.isArray(data) && data.length > 0) {
           setAllBooks(data);
           setCurrentPage(1);
         }
@@ -94,10 +97,14 @@ export function BookExplorer({
         // 静默失败：保持初始数据可用（搜索范围缩小但不白屏）
         console.error('BookExplorer: failed to load full list', err);
       });
-    return () => {
-      cancelled = true;
-    };
-  }, [allBooksUrl]);
+  }, [allBooksUrl, loadedFull]);
+
+  // 用户首次交互（搜索/筛选）时触发全量加载，扩展搜索范围到全量
+  useEffect(() => {
+    if (keyword || duration !== 'all' || minRating !== 0 || category !== 'all' || narrator !== '') {
+      loadFull();
+    }
+  }, [keyword, duration, minRating, category, narrator, loadFull]);
 
   // Reset page when filters change
   useEffect(() => {
