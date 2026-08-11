@@ -1,19 +1,22 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import { GitCompare, Search, X } from 'lucide-react';
-import type { Book } from '@/lib/types';
+import type { CompareBook } from '@/lib/types';
 import { ValueScoreBadge } from '@/components/ValueScoreBadge';
 import { formatDuration, formatPrice, formatRating } from '@/lib/utils/format';
 
 const MAX_COMPARE = 4;
 
 interface CompareContentProps {
-  books: Book[];
+  books: CompareBook[];
+  /** 可选：全量对比数据 URL（如 /data/books-compare.json）。提供时挂载后客户端懒加载替换数据，
+   *  搜索/选择范围扩展为全量；不提供时行为不变（仅用传入 books）。 */
+  allBooksUrl?: string;
 }
 
-function CompareRow({ label, books }: { label: string; books: Book[] }) {
+function CompareRow({ label, books }: { label: string; books: CompareBook[] }) {
   return (
     <tr className='border-b border-border'>
       <td className='p-3 font-medium text-text-secondary bg-bg-surface border border-border whitespace-nowrap'>{label}</td>
@@ -26,7 +29,7 @@ function CompareRow({ label, books }: { label: string; books: Book[] }) {
     </tr>
   );
 
-  function getCellValue(label: string, book: Book): React.ReactNode {
+  function getCellValue(label: string, book: CompareBook): React.ReactNode {
     switch (label) {
       case 'Author': return book.author;
       case 'Narrator': return book.narrator || '-';
@@ -42,23 +45,51 @@ function CompareRow({ label, books }: { label: string; books: Book[] }) {
   }
 }
 
-export function CompareContent({ books }: CompareContentProps) {
+export function CompareContent({ books, allBooksUrl }: CompareContentProps) {
+  const [allBooks, setAllBooks] = useState(books);
   const [selected, setSelected] = useState<string[]>([]);
   const [search, setSearch] = useState('');
+  // 全量 JSON 是否已加载（避免每次挂载都下载 ~1MB）
+  const [loadedFull, setLoadedFull] = useState(false);
+
+  // 懒加载全量对比数据：仅在用户搜索时才拉取（Fast Origin Transfer 优化）。
+  // 挂载时不下载，避免每个对比页都回源 ~1MB JSON。
+  const loadFull = useCallback(() => {
+    if (loadedFull || !allBooksUrl) return;
+    setLoadedFull(true);
+    fetch(allBooksUrl)
+      .then((res) => (res.ok ? res.json() : Promise.reject(new Error(`HTTP ${res.status}`))))
+      .then((data: CompareBook[]) => {
+        if (Array.isArray(data) && data.length > 0) {
+          setAllBooks(data);
+        }
+      })
+      .catch((err) => {
+        // 静默失败：保持初始数据可用（搜索范围缩小但不白屏）
+        console.error('CompareContent: failed to load full list', err);
+      });
+  }, [allBooksUrl, loadedFull]);
+
+  // 用户首次输入搜索词时触发全量加载，扩展搜索范围到全量
+  useEffect(() => {
+    if (search) {
+      loadFull();
+    }
+  }, [search, loadFull]);
 
   const filteredBooks = useMemo(() => {
     if (!search) return [];
     const kw = search.toLowerCase();
-    return books.filter(function(b) {
+    return allBooks.filter(function(b) {
       return b.title.toLowerCase().includes(kw) ||
         b.author.toLowerCase().includes(kw) ||
         (b.narrator && b.narrator.toLowerCase().includes(kw));
     }).slice(0, 10);
-  }, [books, search]);
+  }, [allBooks, search]);
 
   const compareBooks = useMemo(function() {
-    return books.filter(function(b) { return selected.includes(b.asin); });
-  }, [books, selected]);
+    return allBooks.filter(function(b) { return selected.includes(b.asin); });
+  }, [allBooks, selected]);
 
   function toggleBook(asin: string) {
     setSelected(function(prev) {

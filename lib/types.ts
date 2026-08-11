@@ -33,6 +33,15 @@ export interface Book extends BookRawData {
   adjustedValueScore: number; // 鑴?log(reviewCount + 1)
 }
 
+/** 轻量 Book：列表/比较类客户端组件用，剔除 description 大文本（优化 RSC payload / Fast Origin Transfer） */
+export type ListBook = Omit<Book, 'description'>;
+
+/** 超轻量 Book：比较页用，仅保留对比界面所需字段（最小化传输体积） */
+export type CompareBook = Omit<
+  Book,
+  'description' | 'coverImageUrl' | 'detailPageUrl' | 'categories' | 'currency' | 'releaseDate' | 'publisher' | 'adjustedValueScore' | 'runtimeHours'
+>;
+
 /** Value Score 鐠囧嫬鍨庣粵澶岄獓 */
 export type ScoreGrade = 'excellent' | 'good' | 'fair' | 'poor';
 

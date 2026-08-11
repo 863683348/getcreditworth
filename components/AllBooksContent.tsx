@@ -32,13 +32,13 @@ export function AllBooksContent({ books }: AllBooksContentProps) {
             </h1>
           </div>
           <p className="text-sm text-text-secondary">
-            {t.booksPage.subtitle.replace('{count}', String(books.length))}
+            {t.booksPage.subtitle}
           </p>
         </div>
 
         <BookExplorer
           books={books}
-          showRank={false}
+          showRank={true}
           emptyMessage={t.home.emptyMessage}
         />
 

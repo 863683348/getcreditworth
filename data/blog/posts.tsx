@@ -2705,6 +2705,559 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+
+  'grant-ron-chernow-audiobook-review': {
+    slug: 'grant-ron-chernow-audiobook-review',
+    title: 'Grant by Ron Chernow: The Biography That Is Worth Every Credit',
+    description:
+      'Grant by Ron Chernow audiobook review — 48 hours of Ulysses S. Grant at one Audible credit, narrated by Mark Bramhall. Why this is among the best biography audiobooks in 2026.',
+    keywords: ['grant ron chernow audiobook', 'best biography audiobooks', 'ron chernow books', 'grant audiobook review'],
+    date: '2026-08-08',
+    readTime: '7 min read',
+    category: 'Book Review',
+    content: (
+      <>
+        <p>
+          Here&apos;s a <strong>grant ron chernow audiobook</strong> review that starts with the
+          numbers, because that&apos;s how most people decide. Grant runs 48 hours, unabridged,
+          narrated by Mark Bramhall, and it costs one Audible credit. At the standard $14.95
+          credit price that works out to roughly $0.31 an hour. It holds a 5.0-star rating from
+          more than 1,400 reviews. If you are shopping for <strong>best biography audiobooks</strong>,
+          this one belongs near the top of the list, and the math backs it up.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The book at a glance</h2>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>Runtime: 48 hours (unabridged, single volume)</li>
+          <li>Narrator: Mark Bramhall, a veteran of historical nonfiction</li>
+          <li>Rating: 5.0 stars from 1,478 reviews</li>
+          <li>Price: one credit, or about $16.28 in cash</li>
+          <li>Value Score: 14.8 (hours per dollar on the high side)</li>
+          <li>Categories: Biography / History / Politics</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Why Grant works as an audiobook</h2>
+        <p>
+          Ron Chernow is one of those <strong>ron chernow books</strong> authors who treats a
+          biography like a novel. Grant is a genuinely strange American story: a man who failed
+          at farming, business, and politics before the war, then turned into a general the
+          country could not have done without, then got cheated out of his savings by a Wall
+          Street swindler and wrote his memoirs to save his family from poverty. He finished
+          them days before he died. The shape of that life carries itself, and Bramhall&apos;s
+          calm, plain delivery suits it. He never over-dramatizes the war chapters, which makes
+          them land harder.
+        </p>
+        <p>
+          The middle section, covering the war itself, is the densest listening. If you already
+          know Civil War history cold, some of the campaign-by-campaign detail will feel familiar.
+          If you don&apos;t, it&apos;s a clear, patient explanation of how Grant thought about
+          attrition and supply. Either way, the presidency chapters after Appomattox are the part
+          people talk about least and the part worth the credit on its own. Grant walked into the
+          White House as a naive populist and got burned repeatedly; Chernow shows it without
+          either excusing or condemning him.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The credit math in 2026</h2>
+        <p>
+          For anyone weighing <strong>best biography audiobooks</strong> by value, 48 hours at one
+          credit is an easy yes. Compare it to a typical 12-hour biography at roughly $1.25 an
+          hour, and Grant is four times cheaper per hour of listening. If you have a stack of
+          candidates, run the same math on each with our{" "}
+          <a href="/calculator" className="text-accent hover:underline">credit calculator</a> before
+          you spend anything. And if the Civil War era pulls you further in, browse the{" "}
+          <a href="/category/biography" className="text-accent hover:underline">biography
+          audiobooks</a> category for more long-form picks.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Who should spend a credit on it</h2>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>American history readers who somehow skipped the definitive Grant biography</li>
+          <li>Commuters who want one deep book that lasts a month</li>
+          <li>Fans of Chernow&apos;s other work looking for the natural follow-up</li>
+          <li>Anyone tired of thin, hype-driven bios — this one has real weight</li>
+          <li>Skip it if you need relentless action; the peacetime chapters move at peacetime pace</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Verdict</h2>
+        <p>
+          Spend the credit. Grant is the rare long biography that earns its length, and at
+          $0.31 an hour it is one of the best-value trades in the biography section this year.
+          Check the full data on the{" "}
+          <a href="/books/B074F447V6" className="text-accent hover:underline">Grant book page</a>{" "}
+          before you commit, and keep the credit-value mindset going with more reviews below.
+        </p>
+        <p>
+          GetCreditWorth (getcreditworth.com) helps you decide whether an audiobook is worth a
+          credit. Browse our <a href="/" className="text-accent hover:underline">homepage</a> for
+          book reviews, the <a href="/calculator" className="text-accent hover:underline">credit calculator</a>{" "}
+          for hour-per-dollar math, and the <a href="/blog" className="text-accent hover:underline">blog</a>{" "}
+          for more picks like this one.
+        </p>
+      </>
+    ),
+  },
+
+  'complete-sherlock-holmes-audiobook-review': {
+    slug: 'complete-sherlock-holmes-audiobook-review',
+    title: 'The Complete Sherlock Holmes: 58 Hours of Mystery at One Credit',
+    description:
+      'The Complete Sherlock Holmes audiobook review — 58.1 hours of the entire canon for a single Audible credit. Narration notes, credit math, and who should spend one.',
+    keywords: ['sherlock holmes audiobook review', 'best mystery audiobooks', 'audiobooks over 50 hours', 'complete sherlock holmes audible'],
+    date: '2026-08-07',
+    readTime: '7 min read',
+    category: 'Book Review',
+    content: (
+      <>
+        <p>
+          Here&apos;s a <strong>sherlock holmes audiobook review</strong> that starts with the
+          math, because that&apos;s usually the first thing people ask. The Complete Sherlock
+          Holmes runs 58.1 hours, unabridged — all four novels and the fifty-six short stories —
+          and it costs exactly one Audible credit. At the standard $14.95 credit price, that&apos;s
+          about $0.26 an hour. An average 10-hour thriller costs roughly five times that per
+          hour. This collection is not just a classic; it&apos;s one of the best value trades in
+          the entire mystery section.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The collection at a glance</h2>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>Runtime: 58.1 hours (unabridged, single volume)</li>
+          <li>Contents: A Study in Scarlet, The Sign of Four, The Hound of the Baskervilles, The Valley of Fear + 56 short stories</li>
+          <li>Narrator: multiple editions exist; the widely praised one is Simon Vance</li>
+          <li>Rating: roughly 4.5 stars from thousands of reviews</li>
+          <li>Price: one credit, or about $20 in cash when it goes on sale</li>
+          <li>Categories: Mystery / Classics / Fiction</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The credit math on 58 hours</h2>
+        <p>
+          If you are hunting for <strong>audiobooks over 50 hours</strong>, this is one of the
+          few that stays listenable the whole way through. 58.1 hours at $14.95 per credit works
+          out to $0.26/hour. Compare that to a typical 9-hour mystery at roughly $1.66/hour, and
+          the difference is stark. Run the same math on anything else you are considering with
+          our <a href="/calculator" className="text-accent hover:underline">credit calculator</a>, and
+          browse the{" "}
+          <a href="/category/mystery" className="text-accent hover:underline">mystery audiobooks</a>{" "}
+          category page while you are at it.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What the narration actually sounds like</h2>
+        <p>
+          The Simon Vance edition is the one most people end up with, and it earns the praise it
+          gets. He gives Holmes a cool, precise tone and Watson a warmer, slightly slower one,
+          and he keeps the accents consistent across all 58 hours. That consistency matters more
+          than you&apos;d think. Some older recordings change narrators mid-story, which is a fast
+          way to lose the thread.
+        </p>
+        <p>
+          One honest caveat: a few of the short stories are formulaic in the way only
+          turn-of-the-century serials can be. If you hit one that drags, skip it. This is not a
+          single narrative you must finish; it&apos;s sixty separate doses, and nothing breaks if
+          you take them out of order.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Where it sits among best mystery audiobooks</h2>
+        <p>
+          Ask anyone to name the <strong>best mystery audiobooks</strong> ever recorded and
+          Sherlock Holmes makes the shortlist every time, mostly because it defined the genre.
+          Conan Doyle&apos;s plots hold up well, and modern editions sound far better than the
+          scratchy radio plays of the last century. If you have never read the originals, hearing
+          them in order, starting with A Study in Scarlet, is a genuine treat rather than
+          homework.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Who should spend a credit on it</h2>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>Mystery fans who somehow never read the originals</li>
+          <li>Commuters who want one book that lasts months, not days</li>
+          <li>Credit-value hunters looking for the biggest hour-per-credit ratio</li>
+          <li>Podcast listeners who want something with a real beginning and end</li>
+          <li>Skip it if you need constant action — the pacing is very much 1890s</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Verdict</h2>
+        <p>
+          If you like mysteries at all, spend the credit. The Complete Sherlock Holmes is the
+          rare long audiobook that justifies its length, and at $0.26 an hour it is one of the
+          easiest yeses in the catalog. Check the full value breakdown on the{" "}
+          <a href="/books/B00FEFE4XK" className="text-accent hover:underline">Complete Sherlock Holmes book page</a>{" "}
+          before you commit.
+        </p>
+        <p>
+          GetCreditWorth (getcreditworth.com) helps you decide whether an audiobook is worth a
+          credit. Browse our <a href="/" className="text-accent hover:underline">homepage</a> for
+          book reviews, the <a href="/calculator" className="text-accent hover:underline">credit calculator</a>{" "}
+          for hour-per-dollar math, and the <a href="/blog" className="text-accent hover:underline">blog</a>{" "}
+          for more picks like this one.
+        </p>
+      </>
+    ),
+  },
+  'rise-and-fall-third-reich-audiobook-review': {
+    slug: 'rise-and-fall-third-reich-audiobook-review',
+    title: 'The Rise and Fall of the Third Reich: 57 Hours of History',
+    description:
+      'A third reich audiobook review that starts with the math: 57 hours of William L. Shirer, narrated by Grover Gardner, at one Audible credit. Why it earns a place among the best history audiobooks in 2026.',
+    keywords: ['third reich audiobook review', 'best history audiobooks', 'long nonfiction audiobooks', 'william shirer audiobook'],
+    date: '2026-08-09',
+    readTime: '7 min read',
+    category: 'Book Review',
+    content: (
+      <>
+        <p>
+          This <strong>third reich audiobook review</strong> starts with numbers, because that is
+          how most people actually decide. The Rise and Fall of the Third Reich runs 57 hours and
+          12 minutes, narrated by Grover Gardner, and it costs one Audible credit. At the standard
+          $14.95 credit price that works out to about $0.26 an hour. It holds a 5.0-star rating
+          from more than 1,790 listeners. If you are building a shelf of{" "}
+          <strong>best history audiobooks</strong>, this is the title people measure everything
+          else against.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The book at a glance</h2>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>Runtime: 57 hours 12 minutes (3431 minutes, unabridged)</li>
+          <li>Author: William L. Shirer, CBS correspondent in Berlin from 1934 to 1940</li>
+          <li>Narrator: Grover Gardner, a reliable voice for long nonfiction</li>
+          <li>Rating: 5.0 stars from 1,793 reviews</li>
+          <li>Price: $20.77 in cash, or one credit</li>
+          <li>Value Score: 13.8 (hours per dollar on the high side)</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          What Shirer&apos;s 57 hours actually cover
+        </h2>
+        <p>
+          The book moves from Hitler&apos;s rise in 1933 through the machinery of the Nazi state,
+          the turning points of World War Two, and the collapse of Berlin in 1945. What makes it
+          unusual is the point of view. Shirer was there, filing for CBS from inside Germany, and
+          he wove his own daily notes into the archival record. So you get the official documents
+          and the feel of the street in the same chapter. It is a reporter&apos;s history, not a
+          dry academic one, which is exactly why it works as an audiobook. Long stretches that
+          would feel like homework in print move at a clip when Gardner reads them.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          How it sits among best history audiobooks
+        </h2>
+        <p>
+          Put it next to the other giants of the category and the pattern is clear: the classics
+          that endure are the ones with a strong narrator and a strong personal angle. Shirer has
+          both. Historians have pushed back on parts of his interpretation since the 1990s, and
+          you should hear that caveat. But for a listener who wants one definitive, listenable
+          account of the Third Reich, there is still nothing else quite like it. Among{" "}
+          <strong>long nonfiction audiobooks</strong> it stands out because it never forgets it is
+          telling a story with stakes, not just stacking facts.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Who should spend a credit on it
+        </h2>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>WW2 history fans who want the classic account, not a summary</li>
+          <li>Commuters who want one book that lasts two months instead of two days</li>
+          <li>Anyone easing into long nonfiction audiobooks and looking for a proven entry point</li>
+          <li>Listeners who prefer a journalist&apos;s eyewitness tone over textbook neutrality</li>
+          <li>Skip it if you want a short overview; this is a marathon, by design</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">FAQ</h2>
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">
+          Is The Rise and Fall of the Third Reich worth an Audible credit?
+        </h3>
+        <p>
+          Yes, for most listeners. 57 hours at $0.26 an hour with a 5.0-star rating puts it among
+          the highest value-per-credit titles in the catalog, especially if you like history.
+        </p>
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">
+          How long is the audiobook?
+        </h3>
+        <p>
+          It runs 57 hours and 12 minutes. At an average commute of 45 minutes a day, that is
+          roughly two months of listening.
+        </p>
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">
+          Is Shirer&apos;s account still considered accurate?
+        </h3>
+        <p>
+          The broad narrative holds up. Later scholarship has revised parts of his analysis,
+          especially around responsibility and intention, so treat it as a classic account with a
+          journalist&apos;s bias rather than the final word.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Verdict</h2>
+        <p>
+          Spend the credit. There is no cheaper way to get 57 hours of serious history that also
+          happens to be genuinely listenable, and at $0.26 an hour it is an easy yes. Check the
+          full value breakdown on the{" "}
+          <a href="/books/B003VWJAPA" className="text-accent hover:underline">Rise and Fall of the Third Reich book page</a>{" "}
+          and run your own math in the{" "}
+          <a href="/calculator" className="text-accent hover:underline">credit calculator</a>{" "}
+          before you commit.
+        </p>
+        <p>
+          GetCreditWorth (getcreditworth.com) helps you decide whether an audiobook is worth a
+          credit. Browse our <a href="/" className="text-accent hover:underline">homepage</a> for
+          book reviews, the <a href="/calculator" className="text-accent hover:underline">credit calculator</a>{" "}
+          for hour-per-dollar math, and the <a href="/blog" className="text-accent hover:underline">blog</a>{" "}
+          for more picks like this one.
+        </p>
+      </>
+    ),
+  },
+  'don-quixote-audiobook-review': {
+    slug: 'don-quixote-audiobook-review',
+    title: 'Don Quixote Audiobook Review: 39 Hours of Classic That Delivers',
+    description:
+      'A don quixote audiobook review that starts with the math: 39 hours and 17 minutes at $0.48 an hour, one Audible credit, four narrators, 4.5 stars. Is this 400-year-old classic worth a credit in 2026?',
+    keywords: ['don quixote audiobook review', 'classic audiobooks audible', 'adventure audiobooks', 'cervantes audiobook'],
+    date: '2026-08-10',
+    readTime: '7 min read',
+    category: 'Book Review',
+    content: (
+      <>
+        <p>
+          This <strong>don quixote audiobook review</strong> opens with the math, because that is
+          how most people actually decide. 39 hours and 17 minutes, one Audible credit, roughly
+          $0.48 an hour. A 400-year-old novel, four narrators, 4.5 stars. Sounds like a steal,
+          except listeners split into two camps: some call it a literary rite of passage, others
+          drop it halfway. I want to talk about both sides.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          What the book is, and why it runs 39 hours
+        </h2>
+        <p>
+          Cervantes published Don Quixote in 1605. An old gentleman reads so many chivalry novels
+          that he loses his grip on reality, straps on armor, climbs onto a skinny horse, and
+          rides out with his farmer neighbor Sancho Panza to right wrongs. He tilts at windmills,
+          mistakes inns for castles, gets beaten up, and gets up again.
+        </p>
+        <p>
+          The runtime is a pacing thing. Cervantes was in no hurry. Every farce plays out in
+          full, stories nest inside stories, and the plot only moves when he decides it is ready.
+          Modern listeners may find that maddening at first. For people who live on{" "}
+          <strong>adventure audiobooks</strong>, it is exactly the appeal: you travel hundreds of
+          miles with Quixote and Sancho, and every stretch of road brings new trouble.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Why this version earns a credit
+        </h2>
+        <p>
+          There are several English editions on Audible, and this one sells on its cast: Kayvan
+          Novak, Josh Cohen, Alistair Petrie and Richard Hughes each take different roles, and the
+          acting carries real personality. Sancho sounds wry and loyal; Quixote shifts from
+          dignified to unhinged in the same scene. John Rutherford&apos;s translation is widely
+          considered the closest English version to Cervantes&apos;s actual voice: it keeps the
+          crude jokes and the literary digressions, and it reads livelier than the older Victorian
+          translations.
+        </p>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>Runtime: 39 hours 17 minutes (2357 minutes, unabridged)</li>
+          <li>Author: Miguel Cervantes, translated by John Rutherford</li>
+          <li>Narrators: Kayvan Novak, Josh Cohen, Alistair Petrie, Richard Hughes</li>
+          <li>Rating: 4.5 stars from 23 reviews</li>
+          <li>Price: $18.82 in cash, or one credit</li>
+          <li>Value Score: 9.39, about $0.48 per hour</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          39 hours is a commitment. Ask yourself three things
+        </h2>
+        <ul className="list-disc ml-5 space-y-1">
+          <li>How often do you actually listen? At one commute hour a day, this is about six weeks of listening</li>
+          <li>Do you enjoy slow, digressive storytelling? If yes, it gets better the deeper you go; if you want a tight plot, it will test your patience</li>
+          <li>When did you last finish a 17th-century novel? If you cannot remember, listen to chapter one before spending anything</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          How it stacks up among classic audiobooks audible
+        </h2>
+        <p>
+          Put it next to The Three Musketeers or Gulliver&apos;s Travels and the difference is
+          stark. Dumas hits his stride in two hours; Quixote wanders, mixing slapstick with
+          philosophy, and never has what you would call a main plot. As far as{" "}
+          <strong>classic audiobooks audible</strong> go, it is an acquired taste, the kind of
+          thing that repels the first sip and keeps you coming back after.
+        </p>
+        <p>
+          We rate it 9.39 on our Value Score, and the reason is simple: under fifty cents an hour
+          for a text that rewards three separate listens, first as comedy, then as literature,
+          and somewhere around listen three you realize Sancho is the sanest person in the whole
+          book.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">FAQ</h2>
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">
+          Is the Don Quixote audiobook worth an Audible credit?
+        </h3>
+        <p>
+          If your goal is the most classic literature per dollar, yes. 39 hours at $0.48 an hour,
+          performed by four actors, unabridged. Few classics in this range come close on value.
+        </p>
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">
+          Which translation is this, and is it good?
+        </h3>
+        <p>
+          It uses John Rutherford&apos;s translation, widely regarded as the English version
+          closest to Cervantes&apos;s actual voice, with more natural dialogue than older
+          editions. The cast is Kayvan Novak, Josh Cohen, Alistair Petrie and Richard Hughes.
+        </p>
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">
+          Is 39 hours too long?
+        </h3>
+        <p>
+          Honestly, yes. If you only want the gist, read a summary. If this is your first serious
+          listen of Don Quixote, give yourself six weeks and do not rush it.
+        </p>
+        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">
+          Why 4.5 stars instead of higher?
+        </h3>
+        <p>
+          The 23 reviews include complaints about pacing and the old-fashioned structure. If you
+          want the full data and a side-by-side with other classics, the book page has it all.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Verdict</h2>
+        <p>
+          Spend the credit if you like long books and even longer commitments. 39 hours is a lot
+          of your commute, but at $0.48 an hour it is also one of the cheapest ways to actually
+          finish a literary classic. Check the full breakdown on the{" "}
+          <a href="/books/0241429536" className="text-accent hover:underline">Don Quixote book page</a>{" "}
+          and browse the{" "}
+          <a href="/category/classic" className="text-accent hover:underline">classic literature category</a>{" "}
+          for more picks in this lane.
+        </p>
+        <p>
+          GetCreditWorth (getcreditworth.com) helps you decide whether an audiobook is worth a
+          credit. Browse our <a href="/" className="text-accent hover:underline">homepage</a> for
+          book reviews, the <a href="/calculator" className="text-accent hover:underline">credit calculator</a>{" "}
+          for hour-per-dollar math, and the <a href="/blog" className="text-accent hover:underline">blog</a>{" "}
+          for more picks like this one.
+        </p>
+      </>
+    ),
+  },
+  'assassins-fate-audiobook-review': {
+    slug: 'assassins-fate-audiobook-review',
+    title: "Assassin's Fate by Robin Hobb: The Best Credit of the Series",
+    description:
+      'An assassins fate audiobook review that leads with the math: 41 hours and 15 minutes at $0.31 an hour, one Audible credit, 4.8 stars. Is the finale of Robin Hobb\'s Realm of the Elderlings the best epic fantasy credit value going?',
+    keywords: ['assassins fate audiobook review', 'robin hobb audiobooks', 'epic fantasy audiobooks', 'assassins fate audible'],
+    date: '2026-08-11',
+    readTime: '7 min read',
+    category: 'Book Review',
+    content: (
+      <>
+        <p>
+          This <strong>assassins fate audiobook review</strong> is not only about whether the book
+          is good. It is about whether it earns an Audible credit. 41 hours and 15 minutes, one
+          credit, roughly $0.31 an hour. This is the closing volume of the Realm of the
+          Elderlings, the final stop in a journey Fitz has been on for more than three decades of
+          published pages. If you are stocking up on <strong>epic fantasy audiobooks</strong>,
+          here is the math and the honest experience.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          41 hours of payoff, not a standalone
+        </h2>
+        <p>
+          Assassin&apos;s Fate is the third book in the Fitz and the Fool trilogy and the sixteenth
+          and final volume in Robin Hobb&apos;s Realm of the Elderlings. Fair warning: start here
+          without the earlier books and you will be lost. This is a finale written for readers who
+          have followed a dozen-plus installments. Every thread gets pulled together, and it
+          assumes you already care.
+        </p>
+        <p>
+          If you are new, start with Assassin&apos;s Apprentice instead. Hobb builds slowly: book
+          one plants, book two develops, book three harvests. The 41 hours of Assassin&apos;s Fate
+          spend the first third setting pieces and the last two thirds landing emotional blows.
+          That is why it is the best credit value in the series. It cashes in the emotional debt
+          of every book that came before.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Why this version earns the credit
+        </h2>
+        <p>
+          Elliot Hill narrates the whole series on Audible, from Assassin&apos;s Apprentice through
+          this finale. His Fitz has the weary, grown-up register of a man who has been through
+          everything, and the voice aging across installments is itself part of the story. Easy to
+          overlook, hard to replace.
+        </p>
+        <ul className="space-y-2">
+          <li><strong>Runtime:</strong> 41 hours 15 minutes</li>
+          <li><strong>Cash price:</strong> $42.57, or one credit</li>
+          <li><strong>Cost per hour:</strong> $0.31</li>
+          <li><strong>Rating:</strong> 4.8 stars from 8,000+ ratings</li>
+          <li><strong>Narrator:</strong> Elliot Hill</li>
+        </ul>
+        <p>
+          Among robin hobb audiobooks, this is the longest and the highest-rated. Compare it to the
+          author&apos;s other titles: Shaman&apos;s Crossing runs about 13 hours, and all three
+          Liveship Traders books together barely top half of this one.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Is 41 hours too long?
+        </h2>
+        <ul className="space-y-2">
+          <li>At one commute hour a day, 41 hours is about two months of listening.</li>
+          <li>
+            It is a series finale, so the experience differs from a standalone: callbacks,
+            closures, and a much denser emotional texture.
+          </li>
+          <li>
+            If you only want a taste of Hobb, do not start here. Listen to Assassin&apos;s
+            Apprentice (about 16 hours) and go deeper only if it sticks.
+          </li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          How it compares to other epic fantasy
+        </h2>
+        <p>
+          Against something like A Song of Ice and Fire or The Wheel of Time, the difference is
+          structural: Martin cuts between a cast, Hobb stays inside one mind for whole chapters.
+          Nobody does companionship like her. You follow Fitz from boyhood to old age, and the
+          attachment built over that run is hard for other authors to match. Same epic fantasy
+          audiobooks aisle, different shelf: this one wins on character depth, not battle scenes.
+        </p>
+        <p>
+          We give it a 9.6 Value Score. Thirty-one cents an hour, dense prose, and a finale that
+          rewards re-listening. Hard to beat.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">FAQ</h2>
+        <p>
+          <strong>Is the Assassin&apos;s Fate audiobook worth an Audible credit?</strong> If you
+          have read the earlier books, this is the best value in the series: 41 hours, $0.31 an
+          hour, 4.8 stars. Starting from zero, listen to Assassin&apos;s Apprentice first.
+        </p>
+        <p>
+          <strong>Can I listen to it without reading the earlier books?</strong> Not really. It is
+          the finale, and threads from a dozen previous volumes close here.
+        </p>
+        <p>
+          <strong>Who narrates this version?</strong> Elliot Hill. He narrates the entire series,
+          so Fitz&apos;s voice carries continuity across all installments.
+        </p>
+        <p>
+          <strong>Is 41 hours too long?</strong> Depends on your pace. At an hour a day it is two
+          months, but the payoff density of a finale makes it a different experience from a
+          standalone title.
+        </p>
+        <p>
+          GetCreditWorth (getcreditworth.com) helps you decide whether an audiobook is worth a
+          credit. See the full breakdown for Assassin&apos;s Fate on its{" "}
+          <a href="/books/0316262390" className="text-accent hover:underline">book page</a>, browse
+          more picks in the <a href="/category/fantasy" className="text-accent hover:underline">fantasy category</a>,
+          or run the numbers with the{" "}
+          <a href="/calculator" className="text-accent hover:underline">credit calculator</a>.
+        </p>
+      </>
+    ),
+  },
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
@@ -2716,8 +3269,10 @@ export function getBlogSlugs(): string[] {
 }
 
 /**
- * 获取全部博客文章元数据（不含 content）
+ * 获取全部博客文章元数据（不含 content），按日期倒序（最新在前）
  */
 export function getAllBlogPosts(): BlogPost[] {
-  return Object.values(POSTS).map(({ content, ...meta }) => meta);
+  return Object.values(POSTS)
+    .map(({ content, ...meta }) => meta)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }

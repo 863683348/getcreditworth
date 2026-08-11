@@ -38,11 +38,6 @@ export function Footer() {
                   {t.footer.creditCalculator}
                 </Link>
               </li>
-              <li>
-                <Link href="/blog" className="text-text-secondary hover:text-primary">
-                  {t.footer.guidesBlog}
-                </Link>
-              </li>
             </ul>
           </div>
 

@@ -82,14 +82,14 @@ export const en = {
     bullet1: 'Higher scores mean better value for your credit',
     bullet2: 'Long, highly-rated books at higher prices are the best credit investments',
     bullet3: 'A $35 audiobook with 4.8 stars and 45 hours scores much higher than a $15 short book',
-    rankedList: 'Ranked #1 to #{limit}',
+    rankedList: 'Ranked #1 to #{limit} of #{total}',
     emptyMessage: 'No books match your filters. Try adjusting them.',
   },
 
   // Books list page
   booksPage: {
     title: 'All Audiobooks',
-    subtitle: 'Browse all {count} audiobooks. Use filters to find the perfect match for your listening goals.',
+    subtitle: 'Browse every audiobook ranked by Value Score. Use filters to find the perfect match for your listening goals.',
     pageTitle: 'All Audiobooks - Browse and Compare Value Scores',
     pageDescription: 'Browse all audiobooks with Value Scores. Filter by duration, rating, and category to find the best books for your Audible credits.',
     curatedTitle: 'Curated Lists',

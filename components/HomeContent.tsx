@@ -20,6 +20,7 @@ import { buildAudibleTrialUrl } from "@/lib/utils/affiliate";
 
 interface HomeContentProps {
   topBooks: Book[];
+  totalBooks: number;
 }
 
 const FAQ_ITEMS = [
@@ -47,7 +48,7 @@ const FAQ_ITEMS = [
   },
 ];
 
-export function HomeContent({ topBooks }: HomeContentProps) {
+export function HomeContent({ topBooks, totalBooks }: HomeContentProps) {
   const { t } = useI18n();
   const { region } = useRegion();
 
@@ -58,7 +59,7 @@ export function HomeContent({ topBooks }: HomeContentProps) {
       <SoftwareApplicationJsonLd />
       <FaqPageJsonLd questions={FAQ_ITEMS} />
       <ItemListJsonLd
-        books={topBooks}
+        books={topBooks.slice(0, 10)}
         name="Top Audible Books by Value Score"
       />
 
@@ -86,7 +87,7 @@ export function HomeContent({ topBooks }: HomeContentProps) {
           <div className="grid grid-cols-3 gap-2 sm:gap-4 mt-6 pt-6 border-t border-border">
             <div>
               <div className="font-mono font-bold text-lg sm:text-2xl md:text-3xl text-primary">
-                {topBooks.length}
+                {totalBooks}
               </div>
               <div className="text-xs sm:text-sm text-text-muted mt-1">
                 {t.hero.statBooksLabel}
@@ -117,8 +118,10 @@ export function HomeContent({ topBooks }: HomeContentProps) {
         {/* Ranked list header */}
         <div className="mb-6 flex items-center gap-2">
           <Trophy className="h-5 w-5 text-accent flex-shrink-0" />
-          <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-text-primary">
-            {t.home.rankedList.replace("{limit}", String(topBooks.length))}
+              <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-text-primary">
+            {t.home.rankedList
+              .replace("{limit}", String(topBooks.length))
+              .replace("{total}", String(totalBooks))}
           </h2>
         </div>
 
@@ -154,6 +157,7 @@ export function HomeContent({ topBooks }: HomeContentProps) {
 
         <BookExplorer
           books={topBooks}
+          allBooksUrl="/data/books-list.json"
           showRank
           title=""
           emptyMessage={t.home.emptyMessage}
@@ -186,7 +190,7 @@ export function HomeContent({ topBooks }: HomeContentProps) {
               </span>
             </div>
             <p className="text-xs text-text-secondary">
-              The 2026 breakdown with real numbers from 300+ audiobooks.
+              The 2026 breakdown with real numbers from 3,900+ audiobooks.
             </p>
           </Link>
           <Link

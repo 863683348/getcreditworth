@@ -5,7 +5,7 @@
     "description":  "Audible credit value optimizer - find the best audiobooks to spend your credits on",
     "scripts":  {
                     "dev":  "next dev",
-                    "build":  "next build",
+                    "build":  "node scripts/generate-books-data.mjs && next build",
                     "start":  "next start",
                     "lint":  "next lint",
                     "type-check":  "tsc --noEmit",

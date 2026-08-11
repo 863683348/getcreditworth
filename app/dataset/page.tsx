@@ -4,12 +4,10 @@ import { AUDIBLE_CREDIT_VALUE, SITE_CONFIG } from "@/lib/config";
 import type { Metadata } from "next";
 import Link from "next/link";
 
-export const revalidate = 86400;
-
 export const metadata: Metadata = {
-  title: 'Audible Audiobooks Dataset (300+ Books) - Free CSV Download | GetCreditWorth',
+  title: 'Audible Audiobooks Dataset (3,900+ Books) - Free CSV Download | GetCreditWorth',
   description:
-    'Download our free open dataset of 300+ Audible audiobooks with Value Score, cost per hour, credit worth ratio, ratings, and runtime. CSV format, updated 2026, MIT licensed.',
+    'Download our free open dataset of 3,900+ Audible audiobooks with Value Score, cost per hour, credit worth ratio, ratings, and runtime. CSV format, updated 2026, MIT licensed.',
   keywords: [
     'audible books dataset csv',
     'audible audiobook data download',
@@ -32,16 +30,16 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Audible Audiobooks Dataset (300+ Books) - Free CSV Download',
+    title: 'Audible Audiobooks Dataset (3,900+ Books) - Free CSV Download',
     description:
-      'Free open dataset of 300+ Audible audiobooks with Value Score, cost per hour, and credit worth. CSV format, MIT licensed.',
+      'Free open dataset of 3,900+ Audible audiobooks with Value Score, cost per hour, and credit worth. CSV format, MIT licensed.',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Audible Audiobooks Dataset (300+ Books) - Free CSV Download',
+    title: 'Audible Audiobooks Dataset (3,900+ Books) - Free CSV Download',
     description:
-      '300+ Audible audiobooks with Value Score, cost per hour, and credit worth. Free CSV download, MIT licensed.',
+      '3,900+ Audible audiobooks with Value Score, cost per hour, and credit worth. Free CSV download, MIT licensed.',
   },
 };
 
@@ -83,7 +81,7 @@ export default function DatasetPage() {
       <header className="mb-8">
         <p className="text-sm text-text-secondary mb-2">Open Dataset</p>
         <h1 className="text-3xl md:text-4xl font-bold text-text-primary mb-3">
-          Audible Audiobooks Dataset (300+ Books)
+          Audible Audiobooks Dataset (3,900+ Books)
         </h1>
         <p className="text-lg text-text-secondary leading-relaxed">
           A free, open dataset of {totalBooks} Audible audiobooks with Value Score, cost per hour,
