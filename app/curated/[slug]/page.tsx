@@ -10,8 +10,6 @@ import { CuratedDetailContent } from "@/components/CuratedDetailContent";
 import { toListBook } from "@/lib/data/books";
 import type { Metadata } from "next";
 
-export const revalidate = 604800;
-
 interface PageProps {
   params: { slug: string };
 }
@@ -44,6 +42,8 @@ export function generateMetadata({ params }: PageProps): Metadata {
     },
   };
 }
+
+export const dynamicParams = false;
 
 export default function CuratedListPage({ params }: PageProps) {
   const detail = getCuratedListDetail(params.slug);

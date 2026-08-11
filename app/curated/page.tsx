@@ -3,8 +3,6 @@ import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import { CuratedListContent } from "@/components/CuratedListContent";
 import type { Metadata } from "next";
 
-export const revalidate = 604800;
-
 export const metadata: Metadata = {
   title: "Curated Audiobook Lists - Best Books for Your Credits",
   description:

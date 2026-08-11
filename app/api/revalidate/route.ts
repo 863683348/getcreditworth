@@ -21,6 +21,7 @@ const DEFAULT_PATHS = [
   "/compare",
   "/calculator",
   "/favorites",
+  "/sitemap.xml",
 ];
 
 export async function POST(request: NextRequest) {

@@ -5,8 +5,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { FolderOpen, ChevronRight } from "lucide-react";
 
-export const revalidate = 86400;
-
 export const metadata: Metadata = {
   title: "Audiobook Categories - Browse by Genre for Audible Credits",
   description:

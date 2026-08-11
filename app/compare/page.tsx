@@ -4,8 +4,6 @@ import { CompareContent } from '@/components/CompareContent';
 import type { Metadata } from 'next';
 
 // Fast Origin Transfer 优化：页面缓存 24h，避免每次访问都执行 Function + 全量传输
-export const revalidate = 86400;
-
 export const metadata: Metadata = {
   title: 'Compare Audiobooks - Side by Side Value Comparison',
   description: 'Compare audiobooks side by side. See Value Scores, prices, durations, ratings and more.',

@@ -5,8 +5,6 @@ import type { Metadata } from "next";
 
 // trigger rebuild: inline NEXT_PUBLIC_AMAZON_AFFILIATE_TAG_IT into client bundle
 
-export const revalidate = 3600;
-
 export const metadata: Metadata = {
   title: 'How Much Is an Audible Credit Worth? ($14.95 Real Value)',
   description:

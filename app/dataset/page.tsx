@@ -4,8 +4,6 @@ import { AUDIBLE_CREDIT_VALUE, SITE_CONFIG } from "@/lib/config";
 import type { Metadata } from "next";
 import Link from "next/link";
 
-export const revalidate = 86400;
-
 export const metadata: Metadata = {
   title: 'Audible Audiobooks Dataset (300+ Books) - Free CSV Download | GetCreditWorth',
   description:

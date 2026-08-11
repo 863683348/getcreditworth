@@ -5,8 +5,6 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { BreadcrumbListJsonLd } from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
 
-export const revalidate = 3600;
-
 export const metadata: Metadata = {
   title: "Audible Credit Guides & Tips - Maximize Your Credit Value",
   description:

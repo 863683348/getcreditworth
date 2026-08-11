@@ -7,8 +7,6 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import type { Metadata } from "next";
 
-export const revalidate = 604800;
-
 interface PageProps {
   params: { slug: string };
 }
@@ -37,6 +35,8 @@ export function generateMetadata({ params }: PageProps): Metadata {
     },
   };
 }
+
+export const dynamicParams = false;
 
 export default function BlogPostPage({ params }: PageProps) {
   const post = getPost(params.slug);

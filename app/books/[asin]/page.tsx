@@ -14,8 +14,6 @@ import { SeriesNav } from "@/components/SeriesNav";
 import { getAllBooks } from "@/lib/data/books";
 import type { Metadata } from "next";
 
-export const revalidate = 86400;
-
 interface PageProps {
   params: { asin: string };
 }
@@ -76,6 +74,8 @@ export function generateMetadata({ params }: PageProps): Metadata {
     },
   };
 }
+
+export const dynamicParams = false;
 
 export default function BookDetailPage({ params }: PageProps) {
   const book = getBookDetail(params.asin);

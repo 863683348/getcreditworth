@@ -5,8 +5,6 @@ import { getAllSeries } from "@/lib/data/series";
 import { SITE_CONFIG } from "@/lib/config";
 
 // Fast Origin Transfer 优化:爬虫高频请求 sitemap,缓存 24h 避免反复执行函数
-export const revalidate = 86400;
-
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = SITE_CONFIG.url;
 

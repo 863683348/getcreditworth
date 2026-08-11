@@ -13,8 +13,6 @@ import Link from "next/link";
 import { BookOpen, ArrowLeft } from "lucide-react";
 import { RegionAffiliateLink } from "@/components/RegionAffiliateLink";
 
-export const revalidate = 86400;
-
 interface PageProps {
   params: { slug: string };
 }
@@ -48,6 +46,8 @@ export function generateMetadata({ params }: PageProps): Metadata {
     },
   };
 }
+
+export const dynamicParams = false;
 
 export default function SeriesDetailPage({ params }: PageProps) {
   const series = getSeriesWithBooks(params.slug);

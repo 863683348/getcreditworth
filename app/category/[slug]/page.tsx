@@ -7,8 +7,6 @@ import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
 import { PaginatedBookTable } from "@/components/PaginatedBookTable";
 
-export const revalidate = 86400;
-
 interface PageProps {
   params: { slug: string };
 }
@@ -47,6 +45,8 @@ export function generateMetadata({ params }: PageProps): Metadata {
     openGraph: { title, description },
   };
 }
+
+export const dynamicParams = false;
 
 export default function CategoryDetailPage({ params }: PageProps) {
   const categoryName = slugToCategory(params.slug);

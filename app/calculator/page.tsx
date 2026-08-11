@@ -4,8 +4,6 @@ import { CalculatorWidget } from "@/components/CalculatorWidget";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import type { Metadata } from "next";
 
-export const revalidate = 3600;
-
 export const metadata: Metadata = {
   title: 'Audible Credit Value Calculator - Is Your Credit Worth It?',
   description:

@@ -4,8 +4,6 @@ import { AllBooksContent } from "@/components/AllBooksContent";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import type { Metadata } from "next";
 
-export const revalidate = 86400;
-
 export const metadata: Metadata = {
   title: 'Best Audiobooks for Audible Credits (700+ Ranked by Value)',
   description:

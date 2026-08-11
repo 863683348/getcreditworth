@@ -4,8 +4,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { BookOpen, ChevronRight } from "lucide-react";
 
-export const revalidate = 86400;
-
 export const metadata: Metadata = {
   title: "Audiobook Series - Browse Complete Series for Audible Credits",
   description:
