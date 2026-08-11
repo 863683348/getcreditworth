@@ -1,5 +1,4 @@
-import { getBookList } from "@/lib/api/controllers/book.controller";
-import { toListBook } from "@/lib/data/books";
+import { getAllBooks, toListBook } from "@/lib/data/books";
 import { AllBooksContent } from "@/components/AllBooksContent";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import type { Metadata } from "next";
@@ -46,10 +45,10 @@ export const metadata: Metadata = {
 };
 
 export default function AllBooksPage() {
-  // Fast Origin Transfer 优化：初始只渲染 Top 50（排行展示），
-  // 全量 3673 本由 BookExplorer 通过 /api/books/list 客户端懒加载（搜索/筛选不受影响）。
-  // 原实现全量 pageSize:5000 内联进 RSC payload ~3MB，每次回源都是大 FOT。
-  const result = getBookList({ pageSize: 50 });
-  return <AllBooksContent books={result.books.map((b) => toListBook(b))} />;
+  // /books 是静态页（无 dynamic 导出），全量数据在构建期渲染进静态 HTML，
+  // 不计入每次请求回源的 FOT。直接喂全量 3945 本给 BookExplorer，
+  // 翻页 + 搜索/筛选立即基于完整数据集生效，与 /category/[slug] 行为一致。
+  const allBooks = getAllBooks();
+  return <AllBooksContent books={allBooks.map(toListBook)} />;
 }
 
