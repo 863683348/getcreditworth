@@ -11,7 +11,7 @@ const MAX_COMPARE = 4;
 
 interface CompareContentProps {
   books: CompareBook[];
-  /** 可选：全量对比数据 URL（如 /api/books/compare）。提供时挂载后客户端懒加载替换数据，
+  /** 可选：全量对比数据 URL（如 /data/books-compare.json）。提供时挂载后客户端懒加载替换数据，
    *  搜索/选择范围扩展为全量；不提供时行为不变（仅用传入 books）。 */
   allBooksUrl?: string;
 }

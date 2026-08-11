@@ -29,5 +29,5 @@ export default function ComparePage() {
   // 全量 3673 本由 CompareContent 通过 /api/books/compare 客户端懒加载（搜索/选择不受影响）。
   // 原实现全量序列化进 RSC payload ~1MB。
   const books = getTopBooks(50).map(toCompareBook);
-  return <CompareContent books={books} allBooksUrl="/api/books/compare" />;
+  return <CompareContent books={books} allBooksUrl="/data/books-compare.json" />;
 }

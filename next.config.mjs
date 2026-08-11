@@ -21,6 +21,14 @@ const nextConfig = {
   },
   async headers() {
     return [
+      // 客户端懒加载的全量书籍 JSON（prebuild 生成，替代原 force-static API 路由）。
+      // 1 天新鲜 + 7 天 SWR；daily expand 每天更新时文件名不变，浏览器/CDN 最多拿 1 天前数据。
+      {
+        source: "/data/books-:file(list|compare).json",
+        headers: [
+          { key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" },
+        ],
+      },
       {
         source: "/(.*)",
         headers: [

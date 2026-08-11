@@ -40,5 +40,8 @@ next-env.d.ts
 .vercel
 dev/null
 
+# prebuild 生成的客户端懒加载数据（构建时由 scripts/generate-books-data.mjs 生成）
+public/data/books-*.json
+
 # Temporary fresh clone used for l'x-path git repair (never commit)
 getcreditworth-fresh/

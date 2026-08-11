@@ -16,7 +16,7 @@ interface BookExplorerProps {
   showRank?: boolean;
   title?: string;
   emptyMessage?: string;
-  /** 可选：全量数据 URL（如 /api/books/list）。提供时挂载后客户端懒加载替换数据，
+  /** 可选：全量数据 URL（如 /data/books-list.json）。提供时挂载后客户端懒加载替换数据，
    *  搜索/筛选范围扩展为全量；不提供时行为不变（仅用传入 books）。 */
   allBooksUrl?: string;
 }

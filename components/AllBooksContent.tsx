@@ -38,7 +38,7 @@ export function AllBooksContent({ books }: AllBooksContentProps) {
 
         <BookExplorer
           books={books}
-          allBooksUrl="/api/books/list"
+          allBooksUrl="/data/books-list.json"
           showRank={false}
           emptyMessage={t.home.emptyMessage}
         />
