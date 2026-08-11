@@ -13,14 +13,12 @@ import { NextRequest, NextResponse } from "next/server";
  * - paths:  可选，指定要重新验证的路径列表。
  *           不传时默认重新验证所有关键页面。
  */
+// 默认只刷新真正需要运行时刷新的聚合壳页（首页 + sitemap）。
+// 书籍详情页是 dynamicParams=false 静态页，由每日数据提交触发的构建自动重生，
+// 不再在这里做目录级全量 revalidatePath（那会无谓地让几千页每日重生 → 推高 ISR Writes）。
+// 如需刷新具体书籍，调用方传入 paths: ["/books/B00XYZ", ...] 即可精准刷新。
 const DEFAULT_PATHS = [
   "/",
-  "/books",
-  "/curated",
-  "/blog",
-  "/compare",
-  "/calculator",
-  "/favorites",
   "/sitemap.xml",
 ];
 

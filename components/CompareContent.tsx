@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import { GitCompare, Search, X } from 'lucide-react';
 import type { CompareBook } from '@/lib/types';
@@ -49,15 +49,18 @@ export function CompareContent({ books, allBooksUrl }: CompareContentProps) {
   const [allBooks, setAllBooks] = useState(books);
   const [selected, setSelected] = useState<string[]>([]);
   const [search, setSearch] = useState('');
+  // 全量 JSON 是否已加载（避免每次挂载都下载 ~1MB）
+  const [loadedFull, setLoadedFull] = useState(false);
 
-  // 懒加载全量对比数据（搜索/选择用），替换初始 Top N
-  useEffect(() => {
-    if (!allBooksUrl) return;
-    let cancelled = false;
+  // 懒加载全量对比数据：仅在用户搜索时才拉取（Fast Origin Transfer 优化）。
+  // 挂载时不下载，避免每个对比页都回源 ~1MB JSON。
+  const loadFull = useCallback(() => {
+    if (loadedFull || !allBooksUrl) return;
+    setLoadedFull(true);
     fetch(allBooksUrl)
       .then((res) => (res.ok ? res.json() : Promise.reject(new Error(`HTTP ${res.status}`))))
       .then((data: CompareBook[]) => {
-        if (!cancelled && Array.isArray(data) && data.length > 0) {
+        if (Array.isArray(data) && data.length > 0) {
           setAllBooks(data);
         }
       })
@@ -65,10 +68,14 @@ export function CompareContent({ books, allBooksUrl }: CompareContentProps) {
         // 静默失败：保持初始数据可用（搜索范围缩小但不白屏）
         console.error('CompareContent: failed to load full list', err);
       });
-    return () => {
-      cancelled = true;
-    };
-  }, [allBooksUrl]);
+  }, [allBooksUrl, loadedFull]);
+
+  // 用户首次输入搜索词时触发全量加载，扩展搜索范围到全量
+  useEffect(() => {
+    if (search) {
+      loadFull();
+    }
+  }, [search, loadFull]);
 
   const filteredBooks = useMemo(() => {
     if (!search) return [];
