@@ -82,7 +82,7 @@ export const en = {
     bullet1: 'Higher scores mean better value for your credit',
     bullet2: 'Long, highly-rated books at higher prices are the best credit investments',
     bullet3: 'A $35 audiobook with 4.8 stars and 45 hours scores much higher than a $15 short book',
-    rankedList: 'Ranked #1 to #{limit}',
+    rankedList: 'Ranked #1 to #{limit} of #{total}',
     emptyMessage: 'No books match your filters. Try adjusting them.',
   },
 

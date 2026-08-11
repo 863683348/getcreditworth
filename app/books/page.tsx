@@ -5,9 +5,9 @@ import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: 'Best Audiobooks for Audible Credits (700+ Ranked by Value)',
+  title: 'Best Audiobooks for Audible Credits (3,900+ Ranked by Value)',
   description:
-    'The best audiobooks for Audible credits in 2026. Browse 700+ titles ranked by Value Score, cost per hour, and rating. Filter by genre, length, and rating to find the highest-value books and maximize every credit.',
+    'The best audiobooks for Audible credits in 2026. Browse 3,900+ titles ranked by Value Score, cost per hour, and rating. Filter by genre, length, and rating to find the highest-value books and maximize every credit.',
   keywords: [
     'best audiobooks for credits',
     'audiobooks ranked by value',
@@ -32,16 +32,16 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Best Audiobooks for Audible Credits (700+ Ranked by Value)',
+    title: 'Best Audiobooks for Audible Credits (3,900+ Ranked by Value)',
     description:
-      'Browse 700+ audiobooks ranked by Value Score. Find the best books to spend your Audible credits on and maximize every credit.',
+      'Browse 3,900+ audiobooks ranked by Value Score. Find the best books to spend your Audible credits on and maximize every credit.',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Best Audiobooks for Audible Credits (700+ Ranked by Value)',
+    title: 'Best Audiobooks for Audible Credits (3,900+ Ranked by Value)',
     description:
-      'Browse 700+ audiobooks ranked by Value Score. Filter by length, rating, and genre to find the highest-value books for your Audible credits.',
+      'Browse 3,900+ audiobooks ranked by Value Score. Filter by length, rating, and genre to find the highest-value books for your Audible credits.',
   },
 };
 

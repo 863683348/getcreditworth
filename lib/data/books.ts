@@ -23,6 +23,11 @@ export function getAllBooks(): Book[] {
   return allBooks;
 }
 
+/** Real total of valid, scored books (PENDING_/FINAL_ filtered out). */
+export function getBookCount(): number {
+  return allBooks.length;
+}
+
 /** 裁剪为列表/首页版：仅剔除 description 大文本（RSC payload 从 ~3.2MB 降到 ~2MB） */
 export function toListBook(book: Book): ListBook {
   const { description: _drop, ...rest } = book;

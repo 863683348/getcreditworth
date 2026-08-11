@@ -68,7 +68,7 @@ export const zh = {
     bullet1: "评分越高，积分使用价值越大",
     bullet2: "时长长、评分高的高价书籍是最佳积分投资",
     bullet3: "一本$35、4.8星、45小时的有声书，评分远高于$15的短篇书籍",
-    rankedList: "排名 #1 至 #{limit}",
+    rankedList: "排名 #1 至 #{limit}（共 #{total} 本）",
     emptyMessage: "没有符合筛选条件的书籍。请尝试调整筛选条件。",
   },
   booksPage: {
