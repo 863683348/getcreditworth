@@ -9928,6 +9928,32 @@
     "creditWorth": 1.02
   },
   {
+    "asin": "B09TK7DW4S",
+    "title": "The Best of Jeeves and Wooster",
+    "author": "P. G. Wodehouse",
+    "narrator": "Kevin Theis",
+    "runtimeMinutes": 1432,
+    "price": 18.12,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 12,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/615rIkRFKzL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09TK7DW4S",
+    "categories": [
+      "Literature & Fiction",
+      "Classics",
+      "Comedy & Humor"
+    ],
+    "releaseDate": "2022-02-28",
+    "publisher": "SoundCraft Audiobooks",
+    "description": "\"The Best of Jeeves and Wooster\" by P. G. Wodehouse scores 5.9 on our Value Score system. This 24-hour Literature & Fiction costs $0.76/hour. 4.5 stars. Using a credit saves you money.",
+    "runtimeHours": 23.9,
+    "valueScore": 5.93,
+    "costPerHour": 0.76,
+    "creditWorth": 1.21,
+    "adjustedValueScore": 15.21
+  },
+  {
     "title": "Harry Potter and the Half-Blood Prince (Full-Cast Edition)",
     "author": "J.K. Rowling",
     "narrator": "Hugh Laurie, Ruth Wilson, Bill Nighy, Matthew Macfadyen, Riz Ahmed, Michelle Gomez, Cush Jumbo, Simon Pegg, Leo Woodall, Mark Addy, Daniel Mays, Gemma Whelan, Jaxon Knopf, Rhys Mulligan, Nina Barker-Francis",
@@ -11125,6 +11151,32 @@
     "valueScore": 5.61,
     "costPerHour": 0.89,
     "creditWorth": 1.29
+  },
+  {
+    "asin": "B0H27BYB1R",
+    "title": "AI Technology Handbook",
+    "author": "Kevian Liley",
+    "narrator": "Bobby Dean",
+    "runtimeMinutes": 1269,
+    "price": 18.85,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51kuU8svCgL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H27BYB1R",
+    "categories": [
+      "Computers & Technology",
+      "Computer Science",
+      "Education & Learning"
+    ],
+    "releaseDate": "2026-05-19",
+    "publisher": "KEVIAN LILEY",
+    "description": "\"AI Technology Handbook\" by Kevian Liley scores 5.6 on our Value Score system. This 21-hour Computers & Technology costs $0.89/hour. 5.0 stars. Using a credit saves you money.",
+    "runtimeHours": 21.2,
+    "valueScore": 5.61,
+    "costPerHour": 0.89,
+    "creditWorth": 1.26,
+    "adjustedValueScore": 3.89
   },
   {
     "asin": "B003ZWFO7E",
@@ -18539,6 +18591,32 @@
     "creditWorth": 1.19
   },
   {
+    "asin": "1541445023",
+    "title": "Favorite Wife",
+    "author": "Susan Ray Schmidt",
+    "narrator": "Susan Ericksen",
+    "runtimeMinutes": 1321,
+    "price": 21.92,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 46,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61sHCrQGQRL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1541445023",
+    "categories": [
+      "Biographies & Memoirs",
+      "True Crime",
+      "la_confidential"
+    ],
+    "releaseDate": "2018-11-27",
+    "publisher": "Tantor Audio",
+    "description": "\"Favorite Wife\" by Susan Ray Schmidt scores 4.5 on our Value Score system. This 22-hour Biographies & Memoirs costs $1.00/hour. 4.5 stars. Using a credit saves you money.",
+    "runtimeHours": 22,
+    "valueScore": 4.52,
+    "costPerHour": 1,
+    "creditWorth": 1.47,
+    "adjustedValueScore": 17.4
+  },
+  {
     "title": "Resist Me",
     "author": "Kelsie Rae",
     "narrator": "Ava Monroe, Zach Lazar Hoffman, Vanessa Moyen, Ryan Pierson, Dani Soleil, E.M. Wylde, Cary Hite, Skye Lark",
@@ -19074,6 +19152,32 @@
     "costPerHour": 1.13,
     "creditWorth": 1.12,
     "adjustedValueScore": 28.48
+  },
+  {
+    "asin": "B0CPB42DXN",
+    "title": "My Favorite Mistake",
+    "author": "Marian Keyes",
+    "narrator": "Marian Keyes",
+    "runtimeMinutes": 935,
+    "price": 15.79,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 21,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/31H-Z8WRX3L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CPB42DXN",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Family Life"
+    ],
+    "releaseDate": "2024-07-30",
+    "publisher": "Doubleday Canada",
+    "description": "Best Literature & Fiction for your Audible credit? \"My Favorite Mistake\" by Marian Keyes runs 16 hours at $1.01/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 15.6,
+    "valueScore": 4.44,
+    "costPerHour": 1.01,
+    "creditWorth": 1.06,
+    "adjustedValueScore": 13.72
   },
   {
     "asin": "B002V0M190",
@@ -21859,6 +21963,32 @@
     "adjustedValueScore": 17.43
   },
   {
+    "asin": "B0161TL4YE",
+    "title": "Magicians of the Gods",
+    "author": "Graham Hancock",
+    "narrator": "Graham Hancock",
+    "runtimeMinutes": 894,
+    "price": 15.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 577,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Mbet0dxOL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0161TL4YE",
+    "categories": [
+      "History",
+      "Ancient",
+      "World"
+    ],
+    "releaseDate": "2015-11-10",
+    "publisher": "Macmillan Audio",
+    "description": "Best History for your Audible credit? \"Magicians of the Gods\" by Graham Hancock runs 15 hours at $1.07/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 14.9,
+    "valueScore": 4.19,
+    "costPerHour": 1.07,
+    "creditWorth": 1.07,
+    "adjustedValueScore": 26.65
+  },
+  {
     "asin": "0593166981",
     "title": "Deacon King Kong",
     "author": "James McBride",
@@ -22365,6 +22495,32 @@
     "adjustedValueScore": 16.81
   },
   {
+    "asin": "B005O0MYBY",
+    "title": "Favorite Science Fiction Stories, Volume 4",
+    "author": "Poul Anderson, Ben Bova, Fredric Brown, Philip K. Dick, Harry Harrison, Damon Knight, Robert Sheckley, Clifford Simak",
+    "narrator": "Jim Roberts, Cindy Killavey, Emmett Casey",
+    "runtimeMinutes": 881,
+    "price": 14.18,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 42,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51KeywhSkIL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B005O0MYBY",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Anthologies & Short Stories"
+    ],
+    "releaseDate": "2012-02-10",
+    "publisher": "Jimcin Recordings",
+    "description": "Best Science Fiction & Fantasy for your Audible credit? \"Favorite Science Fiction Stories, Volume 4\" by Poul Anderson, Ben Bova, Fredric Brown, Philip K. Dick, Harry Harrison, Damon Knight, Robert Sheckley, Clifford Simak runs 15 hours at $0.97/hour. Rated 4.0/5. Buy for $14.18.",
+    "runtimeHours": 14.7,
+    "valueScore": 4.14,
+    "costPerHour": 0.97,
+    "creditWorth": 0.95,
+    "adjustedValueScore": 15.57
+  },
+  {
     "asin": "B002UZZ14S",
     "title": "Angela's Ashes",
     "author": "Frank McCourt",
@@ -22413,6 +22569,32 @@
     "costPerHour": 1.21,
     "creditWorth": 0.96,
     "adjustedValueScore": 10.9
+  },
+  {
+    "asin": "B007KSG7ZW",
+    "title": "Favorite Science Fiction Stories, Volume 5",
+    "author": "Philip K. Dick, Murray Leinster, Horace Brown Fyfe, H. Beam Piper, Gordon Jarrett, Keith Laumer, A. Bertram Chandler",
+    "narrator": "Cindy Hardin Killavey, Kevin Killavey, Jim Roberts, Mark Nelson, Emmett Casey",
+    "runtimeMinutes": 862,
+    "price": 13.92,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51wRuuCrUeL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B007KSG7ZW",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Anthologies & Short Stories"
+    ],
+    "releaseDate": "2012-03-16",
+    "publisher": "Jimcin Recordings",
+    "description": "Best Science Fiction & Fantasy for your Audible credit? \"Favorite Science Fiction Stories, Volume 5\" by Philip K. Dick, Murray Leinster, Horace Brown Fyfe, H. Beam Piper, Gordon Jarrett, Keith Laumer, A. Bertram Chandler runs 14 hours at $0.97/hour. Rated 4.0/5. Buy for $13.92.",
+    "runtimeHours": 14.4,
+    "valueScore": 4.13,
+    "costPerHour": 0.97,
+    "creditWorth": 0.93,
+    "adjustedValueScore": 6.65
   },
   {
     "asin": "B01LZ0188N",
@@ -26459,6 +26641,32 @@
     "adjustedValueScore": 21.81
   },
   {
+    "asin": "B0H522HT43",
+    "title": "Shadows Never Leave",
+    "author": "Lark Taylor",
+    "narrator": "Silas Wood",
+    "runtimeMinutes": 729,
+    "price": 15.94,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51DNNjy2rTL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H522HT43",
+    "categories": [
+      "LGBTQ+",
+      "Romance",
+      "Contemporary"
+    ],
+    "releaseDate": "2026-06-12",
+    "publisher": "Lark Taylor",
+    "description": "Best LGBTQ+ for your Audible credit? \"Shadows Never Leave\" by Lark Taylor runs 12 hours at $1.31/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 12.2,
+    "valueScore": 3.81,
+    "costPerHour": 1.31,
+    "creditWorth": 1.07,
+    "adjustedValueScore": 4.19
+  },
+  {
     "asin": "B082VK89T8",
     "title": "Tribe of Mentors",
     "author": "Tim Ferriss",
@@ -27245,6 +27453,32 @@
     "costPerHour": 1.2,
     "creditWorth": 1.15,
     "adjustedValueScore": 16.7
+  },
+  {
+    "asin": "B0H3LRMJFW",
+    "title": "The Unwilling Bride",
+    "author": "L. Steele",
+    "narrator": "Shane East, Evelyn Rose, Roxy Isles",
+    "runtimeMinutes": 1012,
+    "price": 17.98,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 10,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/510NvKRR3AL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H3LRMJFW",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "literature-and-fiction"
+    ],
+    "releaseDate": "2026-06-02",
+    "publisher": "Laxmi Hariharan",
+    "description": "Best Romance for your Audible credit? \"The Unwilling Bride\" by L. Steele runs 17 hours at $1.07/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 16.9,
+    "valueScore": 3.75,
+    "costPerHour": 1.07,
+    "creditWorth": 1.2,
+    "adjustedValueScore": 8.99
   },
   {
     "asin": "B08G9PRS1K",
@@ -28635,6 +28869,32 @@
     "adjustedValueScore": 13.55
   },
   {
+    "asin": "B0F1WLGSHR",
+    "title": "Good Hair Days",
+    "author": "Grace Helena Walz",
+    "narrator": "Natalie Duke, Reba Buhr",
+    "runtimeMinutes": 684,
+    "price": 14.06,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51n57zFzuML._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F1WLGSHR",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Family Life"
+    ],
+    "releaseDate": "2025-11-11",
+    "publisher": "Thomas Nelson",
+    "description": "Best Literature & Fiction for your Audible credit? \"Good Hair Days\" by Grace Helena Walz runs 11 hours at $1.23/hour. Rated 4.5/5. Buy for $14.06.",
+    "runtimeHours": 11.4,
+    "valueScore": 3.65,
+    "costPerHour": 1.23,
+    "creditWorth": 0.94,
+    "adjustedValueScore": 4.01
+  },
+  {
     "asin": "B0055274U2",
     "title": "American Gods",
     "author": "Neil Gaiman",
@@ -29439,6 +29699,32 @@
     "valueScore": 3.6,
     "costPerHour": 1.39,
     "creditWorth": 1.58
+  },
+  {
+    "asin": "B0GZZHG3SH",
+    "title": "The Very Best of Friends",
+    "author": "Melissa Anne",
+    "narrator": "Harry Frost",
+    "runtimeMinutes": 670,
+    "price": 15.51,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/5126Y3x8F-L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GZZHG3SH",
+    "categories": [
+      "Literature & Fiction",
+      "Historical Fiction",
+      "Romance"
+    ],
+    "releaseDate": "2026-06-16",
+    "publisher": "Podium Audio",
+    "description": "Best Literature & Fiction for your Audible credit? \"The Very Best of Friends\" by Melissa Anne runs 11 hours at $1.39/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 11.2,
+    "valueScore": 3.6,
+    "costPerHour": 1.39,
+    "creditWorth": 1.04,
+    "adjustedValueScore": 7.91
   },
   {
     "asin": "B0CQMLY2N7",
@@ -30276,6 +30562,31 @@
     "creditWorth": 0.94
   },
   {
+    "asin": "B0758LHSSV",
+    "title": "The Psychology of Performance: How to Be Your Best in Life",
+    "author": "Dr. Eddie O'Connor, The Great Courses",
+    "narrator": "Dr. Eddie O'Connor",
+    "runtimeMinutes": 738,
+    "price": 15.63,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 30,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51P80d97kVL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0758LHSSV",
+    "categories": [
+      "Education & Learning",
+      "Education"
+    ],
+    "releaseDate": "2017-09-22",
+    "publisher": "The Great Courses",
+    "description": "Best Education & Learning for your Audible credit? \"The Psychology of Performance: How to Be Your Best in Life\" by Dr. Eddie O'Connor, The Great Courses runs 12 hours at $1.27/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 12.3,
+    "valueScore": 3.54,
+    "costPerHour": 1.27,
+    "creditWorth": 1.05,
+    "adjustedValueScore": 12.16
+  },
+  {
     "asin": "006298389X",
     "title": "The Night Watchman",
     "author": "Louise Erdrich",
@@ -30683,6 +30994,32 @@
     "creditWorth": 1.46
   },
   {
+    "asin": "B009ET4GCG",
+    "title": "Favorite Science Fiction Stories, Volume 6",
+    "author": "Richard Stockham, Robert Silverburg, Dave Dryfoos, Darius John Granger, Mack Reynolds, R. R. Merliss, Alan Nourse, Richard O. Lewis, Charles A. Sterns, Murray Leinster",
+    "narrator": "Cindy Hardin Killavey, Christopher Strong, Emmett Casey, Jim Roberts, Veronica Giguere, Kevin Killavey",
+    "runtimeMinutes": 896,
+    "price": 16.97,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51gGXEK2wtL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B009ET4GCG",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Anthologies & Short Stories"
+    ],
+    "releaseDate": "2012-09-21",
+    "publisher": "Jimcin Recordings",
+    "description": "Best Science Fiction & Fantasy for your Audible credit? \"Favorite Science Fiction Stories, Volume 6\" by Richard Stockham, Robert Silverburg, Dave Dryfoos, Darius John Granger, Mack Reynolds, R. R. Merliss, Alan Nourse, Richard O. Lewis, Charles A. Sterns, Murray Leinster runs 15 hours at $1.14/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 14.9,
+    "valueScore": 3.52,
+    "costPerHour": 1.14,
+    "creditWorth": 1.14,
+    "adjustedValueScore": 3.87
+  },
+  {
     "asin": "1549186434",
     "title": "The Ministry for the Future",
     "author": "Kim Stanley Robinson",
@@ -30780,6 +31117,32 @@
     "valueScore": 3.51,
     "costPerHour": 1.28,
     "creditWorth": 0.95
+  },
+  {
+    "asin": "B0DX3F5HL1",
+    "title": "You Said I Was Your Favorite",
+    "author": "Monica Murphy",
+    "narrator": "Savannah Peachwood, Lee Samuels",
+    "runtimeMinutes": 796,
+    "price": 17.02,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/518ZlmM64fL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DX3F5HL1",
+    "categories": [
+      "Erotica",
+      "Literature & Fiction",
+      "Romantic"
+    ],
+    "releaseDate": "2025-02-26",
+    "publisher": "Monica Murphy Publishing LLC",
+    "description": "Best Erotica for your Audible credit? \"You Said I Was Your Favorite\" by Monica Murphy runs 13 hours at $1.28/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 13.3,
+    "valueScore": 3.51,
+    "costPerHour": 1.28,
+    "creditWorth": 1.14,
+    "adjustedValueScore": 2.43
   },
   {
     "asin": "B07B1J873J",
@@ -31210,6 +31573,32 @@
     "costPerHour": 1.29,
     "creditWorth": 1.07,
     "adjustedValueScore": 6.77
+  },
+  {
+    "asin": "B0DZQ816J2",
+    "title": "The Best Man",
+    "author": "Malcolm D. Lee, Jayne Allen",
+    "narrator": "January LaVoy, Jakobi Diem, Zenzi Williams",
+    "runtimeMinutes": 943,
+    "price": 22.57,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 260,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/517UCk-bB4L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DZQ816J2",
+    "categories": [
+      "Literature & Fiction",
+      "Women's Fiction",
+      "African American"
+    ],
+    "releaseDate": "2025-07-15",
+    "publisher": "Random House Audio",
+    "description": "Best Literature & Fiction for your Audible credit? \"The Best Man\" by Malcolm D. Lee, Jayne Allen runs 16 hours at $1.44/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 15.7,
+    "valueScore": 3.48,
+    "costPerHour": 1.44,
+    "creditWorth": 1.51,
+    "adjustedValueScore": 19.36
   },
   {
     "asin": "B002V0K6D8",
@@ -36304,6 +36693,32 @@
     "adjustedValueScore": 16.5
   },
   {
+    "asin": "B06XY5L8GZ",
+    "title": "Multipliers, Revised and Updated",
+    "author": "Liz Wiseman",
+    "narrator": "Liz Wiseman, John Meagher",
+    "runtimeMinutes": 684,
+    "price": 15.82,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 161,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/510Ll1v6LJL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B06XY5L8GZ",
+    "categories": [
+      "Business & Careers",
+      "Management & Leadership",
+      "Leadership"
+    ],
+    "releaseDate": "2017-05-16",
+    "publisher": "Harper Business",
+    "description": "Best Business & Careers for your Audible credit? \"Multipliers, Revised and Updated\" by Liz Wiseman runs 11 hours at $1.39/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 11.4,
+    "valueScore": 3.24,
+    "costPerHour": 1.39,
+    "creditWorth": 1.06,
+    "adjustedValueScore": 16.48
+  },
+  {
     "asin": "B07KKMNZCH",
     "title": "Can't Hurt Me",
     "author": "David Goggins",
@@ -37066,6 +37481,32 @@
     "adjustedValueScore": 15.58
   },
   {
+    "asin": "B0FHHZMRC2",
+    "title": "The Mysterious Bookshop Presents the Best Mystery Stories of the Year 2025",
+    "author": "John Grisham - editor, Otto Penzler - series editor",
+    "narrator": "Jamie Renell, Marnye Young",
+    "runtimeMinutes": 1018,
+    "price": 23.75,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 22,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/518MojHHLLL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FHHZMRC2",
+    "categories": [
+      "Literature & Fiction",
+      "Anthologies & Short Stories",
+      "Short Stories"
+    ],
+    "releaseDate": "2025-09-23",
+    "publisher": "Highbridge Audio",
+    "description": "Best Literature & Fiction for your Audible credit? \"The Mysterious Bookshop Presents the Best Mystery Stories of the Year 2025\" by John Grisham - editor, Otto Penzler - series editor runs 17 hours at $1.40/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 17,
+    "valueScore": 3.21,
+    "costPerHour": 1.4,
+    "creditWorth": 1.59,
+    "adjustedValueScore": 10.06
+  },
+  {
     "asin": "B00ANPX7IE",
     "title": "Me Before You",
     "author": "Jojo Moyes",
@@ -37598,6 +38039,32 @@
     "valueScore": 3.19,
     "costPerHour": 1.41,
     "creditWorth": 0.95
+  },
+  {
+    "asin": "B0H1SWYZBH",
+    "title": "Not Mine to Love",
+    "author": "Rosa Lucas",
+    "narrator": "Shane East, Zara Hampton-Brown",
+    "runtimeMinutes": 758,
+    "price": 17.84,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51mkACtREML._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H1SWYZBH",
+    "categories": [
+      "Erotica",
+      "Literature & Fiction",
+      "Romantic"
+    ],
+    "releaseDate": "2026-05-15",
+    "publisher": "Rosa Lucas Romance",
+    "description": "Best Erotica for your Audible credit? \"Not Mine to Love\" by Rosa Lucas runs 13 hours at $1.41/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 12.6,
+    "valueScore": 3.19,
+    "costPerHour": 1.41,
+    "creditWorth": 1.19,
+    "adjustedValueScore": 4.42
   },
   {
     "asin": "B09CHBJYZC",
@@ -39150,6 +39617,32 @@
     "creditWorth": 1.15
   },
   {
+    "asin": "B0036BT04W",
+    "title": "Favorite Science Fiction Stories, Volume 2",
+    "author": "Fredric Brown, Ben Bova, Frank Herbert, Harry Harrison, Kurt Vonnegut, Jerome Bixby, Poul Anderson, Andre Norton, Fritz Leiber, Robert Sheckley",
+    "narrator": "Ben Hurst, Emmett Casey, Ran Allan Ricard, Cindy Hardin Killavey, Kevin Killavey, Michelle Ford, Pat Bottino",
+    "runtimeMinutes": 842,
+    "price": 15.65,
+    "currency": "USD",
+    "starRating": 3.5,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Rs1mF4j8L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0036BT04W",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Anthologies & Short Stories"
+    ],
+    "releaseDate": "2010-01-28",
+    "publisher": "Jimcin Recordings",
+    "description": "Best Science Fiction & Fantasy for your Audible credit? \"Favorite Science Fiction Stories, Volume 2\" by Fredric Brown, Ben Bova, Frank Herbert, Harry Harrison, Kurt Vonnegut, Jerome Bixby, Poul Anderson, Andre Norton, Fritz Leiber, Robert Sheckley runs 14 hours at $1.12/hour. Rated 3.5/5. Save with a credit.",
+    "runtimeHours": 14,
+    "valueScore": 3.14,
+    "costPerHour": 1.12,
+    "creditWorth": 1.05,
+    "adjustedValueScore": 6.9
+  },
+  {
     "asin": "0593398629",
     "title": "BE 2.0 (Beyond Entrepreneurship 2.0): Turning Your Business into an Enduring Great Company",
     "author": "Jim Collins, William Lazier",
@@ -40241,6 +40734,32 @@
     "valueScore": 3.09,
     "costPerHour": 1.46,
     "creditWorth": 1.55
+  },
+  {
+    "asin": "B0BLP9G9PZ",
+    "title": "The Best Intentions",
+    "author": "Sarah M. Eden",
+    "narrator": "Luone Ingram",
+    "runtimeMinutes": 594,
+    "price": 14.42,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 25,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Kfm424kuL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0BLP9G9PZ",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Christian Fiction"
+    ],
+    "releaseDate": "2022-11-21",
+    "publisher": "Shadow Mountain",
+    "description": "Best Literature & Fiction for your Audible credit? \"The Best Intentions\" by Sarah M. Eden runs 10 hours at $1.46/hour. Rated 4.5/5. Buy for $14.42.",
+    "runtimeHours": 9.9,
+    "valueScore": 3.09,
+    "costPerHour": 1.46,
+    "creditWorth": 0.96,
+    "adjustedValueScore": 10.07
   },
   {
     "asin": "0593167082",
@@ -42340,6 +42859,32 @@
     "creditWorth": 0.99
   },
   {
+    "asin": "B005T6Z0G4",
+    "title": "The Best of Me",
+    "author": "Nicholas Sparks",
+    "narrator": "Sean Pratt",
+    "runtimeMinutes": 577,
+    "price": 14.39,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 302,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51T0-5Oy4-L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B005T6Z0G4",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Coming of Age"
+    ],
+    "releaseDate": "2011-10-11",
+    "publisher": "Grand Central Publishing",
+    "description": "Best Literature & Fiction for your Audible credit? \"The Best of Me\" by Nicholas Sparks runs 10 hours at $1.50/hour. Rated 4.5/5. Buy for $14.39.",
+    "runtimeHours": 9.6,
+    "valueScore": 3.01,
+    "costPerHour": 1.5,
+    "creditWorth": 0.96,
+    "adjustedValueScore": 17.2
+  },
+  {
     "asin": "0008433844",
     "title": "The Hobbit",
     "author": "J.R.R. Tolkien",
@@ -42465,6 +43010,32 @@
     "costPerHour": 1.67,
     "creditWorth": 1.01,
     "adjustedValueScore": 4.16
+  },
+  {
+    "asin": "B07K7YF6FV",
+    "title": "The Worst Best Man",
+    "author": "Lucy Score",
+    "narrator": "Natalie Duke",
+    "runtimeMinutes": 707,
+    "price": 17.66,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 108,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51EBnNeFA0L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07K7YF6FV",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "Romantic Comedy"
+    ],
+    "releaseDate": "2018-11-09",
+    "publisher": "That's What She Said Publishing, Inc",
+    "description": "Best Romance for your Audible credit? \"The Worst Best Man\" by Lucy Score runs 12 hours at $1.50/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 11.8,
+    "valueScore": 3,
+    "costPerHour": 1.5,
+    "creditWorth": 1.18,
+    "adjustedValueScore": 14.07
   },
   {
     "asin": "0062992503",
@@ -43752,6 +44323,32 @@
     "creditWorth": 1.08
   },
   {
+    "asin": "B09LVV658F",
+    "title": "Darling Venom",
+    "author": "Parker S. Huntington",
+    "narrator": "Sebastian York, Jacob Morgan, Ava Erickson",
+    "runtimeMinutes": 901,
+    "price": 22.94,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 593,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51OLZt0-UEL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09LVV658F",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "literature-and-fiction"
+    ],
+    "releaseDate": "2021-12-11",
+    "publisher": "PSH Publishing House",
+    "description": "Best Romance for your Audible credit? \"Darling Venom\" by Parker S. Huntington runs 15 hours at $1.53/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 15,
+    "valueScore": 2.95,
+    "costPerHour": 1.53,
+    "creditWorth": 1.53,
+    "adjustedValueScore": 18.84
+  },
+  {
     "asin": "1984845349",
     "title": "Malibu Rising",
     "author": "Taylor Jenkins Reid",
@@ -44182,6 +44779,58 @@
     "valueScore": 2.93,
     "costPerHour": 1.71,
     "creditWorth": 1.6
+  },
+  {
+    "asin": "B0H4VCLQ2F",
+    "title": "Red Dwarf: Titan",
+    "author": "Rob Grant, Andrew Marshall",
+    "narrator": "Chris Barrie",
+    "runtimeMinutes": 662,
+    "price": 16.96,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51X-HxOE9QL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H4VCLQ2F",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "releaseDate": "2026-07-16",
+    "publisher": "Gollancz",
+    "description": "Best Science Fiction & Fantasy for your Audible credit? \"Red Dwarf: Titan\" by Rob Grant, Andrew Marshall runs 11 hours at $1.54/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 11,
+    "valueScore": 2.93,
+    "costPerHour": 1.54,
+    "creditWorth": 1.13,
+    "adjustedValueScore": 5.25
+  },
+  {
+    "asin": "B0DY2YHX4P",
+    "title": "Inner Excellence",
+    "author": "Jim Murphy",
+    "narrator": "Jim Murphy",
+    "runtimeMinutes": 611,
+    "price": 15.65,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 35,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41qYMFPomYL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DY2YHX4P",
+    "categories": [
+      "Business & Careers",
+      "Management & Leadership",
+      "Leadership"
+    ],
+    "releaseDate": "2025-03-11",
+    "publisher": "Grand Central Publishing",
+    "description": "Best Business & Careers for your Audible credit? \"Inner Excellence\" by Jim Murphy runs 10 hours at $1.54/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 10.2,
+    "valueScore": 2.93,
+    "costPerHour": 1.54,
+    "creditWorth": 1.05,
+    "adjustedValueScore": 10.5
   },
   {
     "asin": "B01N2PF84R",
@@ -45096,6 +45745,58 @@
     "adjustedValueScore": 11.46
   },
   {
+    "asin": "B0FM9FSGFD",
+    "title": "Off Limits Mogul",
+    "author": "Scarlett Avery",
+    "narrator": "J.F. Harding, Vivienne LaRue",
+    "runtimeMinutes": 638,
+    "price": 16.51,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51plmd3VxfL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FM9FSGFD",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "literature-and-fiction"
+    ],
+    "releaseDate": "2025-08-24",
+    "publisher": "Scarlett Avery",
+    "description": "Best Romance for your Audible credit? \"Off Limits Mogul\" by Scarlett Avery runs 11 hours at $1.55/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 10.6,
+    "valueScore": 2.9,
+    "costPerHour": 1.55,
+    "creditWorth": 1.1,
+    "adjustedValueScore": 6.37
+  },
+  {
+    "asin": "B0DVCGFMZ5",
+    "title": "After Disney",
+    "author": "Neil O'Brien",
+    "narrator": "Jonathan Todd Ross",
+    "runtimeMinutes": 576,
+    "price": 14.88,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 6,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51nmYqfUHbL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DVCGFMZ5",
+    "categories": [
+      "Arts & Entertainment",
+      "Entertainment & Performing Arts",
+      "Film & TV"
+    ],
+    "releaseDate": "2025-03-25",
+    "publisher": "Recorded Books",
+    "description": "Best Arts & Entertainment for your Audible credit? \"After Disney\" by Neil O'Brien runs 10 hours at $1.55/hour. Rated 4.5/5. Buy for $14.88.",
+    "runtimeHours": 9.6,
+    "valueScore": 2.9,
+    "costPerHour": 1.55,
+    "creditWorth": 1,
+    "adjustedValueScore": 5.64
+  },
+  {
     "asin": "B01CRM17MS",
     "title": "Shoe Dog",
     "author": "Phil Knight",
@@ -45347,6 +46048,58 @@
     "costPerHour": 1.56,
     "creditWorth": 0.98,
     "adjustedValueScore": 8.93
+  },
+  {
+    "asin": "B0B94JM2KY",
+    "title": "The Sleepover",
+    "author": "Keri Beevis",
+    "narrator": "Imogen Church",
+    "runtimeMinutes": 685,
+    "price": 17.8,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 516,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51W9D+WaBAL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0B94JM2KY",
+    "categories": [
+      "Mystery, Thriller & Suspense",
+      "Thriller & Suspense",
+      "Crime Thrillers"
+    ],
+    "releaseDate": "2022-10-24",
+    "publisher": "Boldwood Books",
+    "description": "Best Mystery, Thriller & Suspense for your Audible credit? \"The Sleepover\" by Keri Beevis runs 11 hours at $1.56/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 11.4,
+    "valueScore": 2.89,
+    "costPerHour": 1.56,
+    "creditWorth": 1.19,
+    "adjustedValueScore": 18.06
+  },
+  {
+    "asin": "B0CFRHSYHH",
+    "title": "Death's Favorite Warlock 4",
+    "author": "Charles Dean",
+    "narrator": "Steve Campbell",
+    "runtimeMinutes": 583,
+    "price": 15.13,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 17,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51bSKj-j1TL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CFRHSYHH",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2023-09-19",
+    "publisher": "Podium Audio",
+    "description": "Best Science Fiction & Fantasy for your Audible credit? \"Death's Favorite Warlock 4\" by Charles Dean runs 10 hours at $1.56/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 9.7,
+    "valueScore": 2.89,
+    "costPerHour": 1.56,
+    "creditWorth": 1.01,
+    "adjustedValueScore": 8.35
   },
   {
     "asin": "B003UDDK7O",
@@ -46208,6 +46961,32 @@
     "adjustedValueScore": 16.58
   },
   {
+    "asin": "1665023910",
+    "title": "Wonder Tales: Favorite Fairy Tales from Around the World",
+    "author": "Oscar Wilde, Hans Christian Andersen, Brothers Grimm, Charles Perrault, Joseph Jacobs, Elizabeth Klett, Jeanne-Marie Le Prince de Beaumont",
+    "narrator": "Elizabeth Klett",
+    "runtimeMinutes": 676,
+    "price": 17.67,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 7,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51uQSuBY1HL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1665023910",
+    "categories": [
+      "Literature & Fiction",
+      "Anthologies & Short Stories",
+      "Anthologies"
+    ],
+    "releaseDate": "2020-10-13",
+    "publisher": "Spoken Realms",
+    "description": "Best Literature & Fiction for your Audible credit? \"Wonder Tales: Favorite Fairy Tales from Around the World\" by Oscar Wilde, Hans Christian Andersen, Brothers Grimm, Charles Perrault, Joseph Jacobs, Elizabeth Klett, Jeanne-Marie Le Prince de Beaumont runs 11 hours at $1.57/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 11.3,
+    "valueScore": 2.87,
+    "costPerHour": 1.57,
+    "creditWorth": 1.18,
+    "adjustedValueScore": 5.97
+  },
+  {
     "asin": "B09MGC94DG",
     "title": "The 21 Irrefutable Laws of Leadership: 25th Anniversary: Follow Them and People Will Follow You",
     "author": "John C. Maxwell",
@@ -46433,6 +47212,32 @@
     "valueScore": 2.86,
     "costPerHour": 1.75,
     "creditWorth": 1.15
+  },
+  {
+    "asin": "B0FWRZ4VF7",
+    "title": "The Best Wild Idea",
+    "author": "Lily Parker",
+    "narrator": "Dawn Adams, Darcy Miller, Teddy Hamilton",
+    "runtimeMinutes": 601,
+    "price": 15.77,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 420,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51+G1+lbvlL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FWRZ4VF7",
+    "categories": [
+      "Romance",
+      "Clean & Wholesome",
+      "Contemporary"
+    ],
+    "releaseDate": "2025-10-23",
+    "publisher": "Audible Studios",
+    "description": "Best Romance for your Audible credit? \"The Best Wild Idea\" by Lily Parker runs 10 hours at $1.57/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 10,
+    "valueScore": 2.86,
+    "costPerHour": 1.57,
+    "creditWorth": 1.05,
+    "adjustedValueScore": 17.28
   },
   {
     "asin": "B007WU26KI",
@@ -49589,6 +50394,57 @@
     "creditWorth": 1.45
   },
   {
+    "asin": "B00JLJI8AK",
+    "title": "The Art of Negotiating the Best Deal",
+    "author": "Seth Freeman, The Great Courses",
+    "narrator": "Seth Freeman",
+    "runtimeMinutes": 766,
+    "price": 20.83,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 203,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Lh-yAPHtL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00JLJI8AK",
+    "categories": [
+      "Business & Careers",
+      "Career Success"
+    ],
+    "releaseDate": "2014-05-02",
+    "publisher": "The Great Courses",
+    "description": "Best Business & Careers for your Audible credit? \"The Art of Negotiating the Best Deal\" by Seth Freeman, The Great Courses runs 13 hours at $1.63/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 12.8,
+    "valueScore": 2.76,
+    "costPerHour": 1.63,
+    "creditWorth": 1.39,
+    "adjustedValueScore": 14.68
+  },
+  {
+    "asin": "B0DNRJPYVZ",
+    "title": "Your Favorite Scary Movie",
+    "author": "Ashley Cullins",
+    "narrator": "Roger L. Jackson, Ashley Cullins",
+    "runtimeMinutes": 583,
+    "price": 17.6,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 45,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51OaXlfKiPL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DNRJPYVZ",
+    "categories": [
+      "Arts & Entertainment",
+      "Entertainment & Performing Arts",
+      "Film & TV"
+    ],
+    "releaseDate": "2025-08-19",
+    "publisher": "Penguin Audio",
+    "description": "Best Arts & Entertainment for your Audible credit? \"Your Favorite Scary Movie\" by Ashley Cullins runs 10 hours at $1.81/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 9.7,
+    "valueScore": 2.76,
+    "costPerHour": 1.81,
+    "creditWorth": 1.18,
+    "adjustedValueScore": 10.57
+  },
+  {
     "asin": "B002V8H660",
     "title": "Dune Messiah",
     "author": "Frank Herbert",
@@ -49814,6 +50670,32 @@
     "valueScore": 2.75,
     "costPerHour": 1.64,
     "creditWorth": 1.12
+  },
+  {
+    "asin": "B0DKG8W8NZ",
+    "title": "Fan Favorite",
+    "author": "Adrienne Gunn",
+    "narrator": "Patti Murin",
+    "runtimeMinutes": 711,
+    "price": 21.57,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41nM4wpBXKL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DKG8W8NZ",
+    "categories": [
+      "Literature & Fiction",
+      "Women's Fiction",
+      "Romance"
+    ],
+    "releaseDate": "2025-06-24",
+    "publisher": "Grand Central Publishing",
+    "description": "Best Literature & Fiction for your Audible credit? \"Fan Favorite\" by Adrienne Gunn runs 12 hours at $1.82/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 11.9,
+    "valueScore": 2.75,
+    "costPerHour": 1.82,
+    "creditWorth": 1.44,
+    "adjustedValueScore": 4.43
   },
   {
     "asin": "B0D2JKML5B",
@@ -50198,6 +51080,32 @@
     "costPerHour": 1.64,
     "creditWorth": 1.09,
     "adjustedValueScore": 11.56
+  },
+  {
+    "asin": "B09XY3FRBG",
+    "title": "Salmon Wars",
+    "author": "Catherine Collins, Douglas Frantz",
+    "narrator": "Amy McFadden",
+    "runtimeMinutes": 825,
+    "price": 22.6,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41Z8TqqTXsL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09XY3FRBG",
+    "categories": [
+      "Business & Careers",
+      "Health & Wellness",
+      "Hygiene & Healthy Living"
+    ],
+    "releaseDate": "2022-07-12",
+    "publisher": "Macmillan Audio",
+    "description": "Best Business & Careers for your Audible credit? \"Salmon Wars\" by Catherine Collins, Douglas Frantz runs 14 hours at $1.64/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 13.8,
+    "valueScore": 2.74,
+    "costPerHour": 1.64,
+    "creditWorth": 1.51,
+    "adjustedValueScore": 1.9
   },
   {
     "asin": "8420439258",
@@ -52196,6 +53104,32 @@
     "costPerHour": 1.68,
     "creditWorth": 1.03,
     "adjustedValueScore": 7.26
+  },
+  {
+    "asin": "B01K2MJARO",
+    "title": "Whistlestop",
+    "author": "John Dickerson",
+    "narrator": "John Dickerson",
+    "runtimeMinutes": 791,
+    "price": 22.12,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 13,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51+wYI3gEHL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01K2MJARO",
+    "categories": [
+      "History",
+      "Americas",
+      "United States"
+    ],
+    "releaseDate": "2016-08-09",
+    "publisher": "Twelve",
+    "description": "Best History for your Audible credit? \"Whistlestop\" by John Dickerson runs 13 hours at $1.68/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 13.2,
+    "valueScore": 2.68,
+    "costPerHour": 1.68,
+    "creditWorth": 1.48,
+    "adjustedValueScore": 7.07
   },
   {
     "asin": "B07FDJQ8YH",
@@ -54496,6 +55430,32 @@
     "adjustedValueScore": 5.43
   },
   {
+    "asin": "B0H1N58MKH",
+    "title": "The Best Lawyer",
+    "author": "Robin James",
+    "narrator": "Teri Clark Linden",
+    "runtimeMinutes": 560,
+    "price": 16.11,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51rIVethQ3L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H1N58MKH",
+    "categories": [
+      "Literature & Fiction",
+      "Women's Fiction",
+      "Mystery, Thriller & Suspense"
+    ],
+    "releaseDate": "2026-05-14",
+    "publisher": "Nokay Press",
+    "description": "Best Literature & Fiction for your Audible credit? \"The Best Lawyer\" by Robin James runs 9 hours at $1.73/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 9.3,
+    "valueScore": 2.61,
+    "costPerHour": 1.73,
+    "creditWorth": 1.08,
+    "adjustedValueScore": 2.87
+  },
+  {
     "asin": "B005QDNUL2",
     "title": "Great by Choice",
     "author": "Jim Collins, Morten T. Hansen",
@@ -55538,6 +56498,32 @@
     "creditWorth": 1.2
   },
   {
+    "asin": "B0GZ76CSB5",
+    "title": "Blue Skies Ahead",
+    "author": "Jessica Redland",
+    "narrator": "Karen Cass",
+    "runtimeMinutes": 566,
+    "price": 16.43,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51BIsyqgaEL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GZ76CSB5",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Family Life"
+    ],
+    "releaseDate": "2026-07-27",
+    "publisher": "Boldwood Books",
+    "description": "Best Literature & Fiction for your Audible credit? \"Blue Skies Ahead\" by Jessica Redland runs 9 hours at $1.74/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 9.4,
+    "valueScore": 2.58,
+    "costPerHour": 1.74,
+    "creditWorth": 1.1,
+    "adjustedValueScore": 4.15
+  },
+  {
     "asin": "1984844458",
     "title": "Exhalation",
     "author": "Ted Chiang",
@@ -55839,6 +56825,32 @@
     "valueScore": 2.57,
     "costPerHour": 1.95,
     "creditWorth": 1.23
+  },
+  {
+    "asin": "B0C7LLV5DJ",
+    "title": "The Best Laid Plans",
+    "author": "Karla Sorensen",
+    "narrator": "Connor Crais, Vanessa Edwin",
+    "runtimeMinutes": 593,
+    "price": 17.31,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 84,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51i-cvGn0cL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0C7LLV5DJ",
+    "categories": [
+      "Romance",
+      "Sports",
+      "literature-and-fiction"
+    ],
+    "releaseDate": "2023-10-03",
+    "publisher": "Brilliance Audio",
+    "description": "Best Romance for your Audible credit? \"The Best Laid Plans\" by Karla Sorensen runs 10 hours at $1.75/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 9.9,
+    "valueScore": 2.57,
+    "costPerHour": 1.75,
+    "creditWorth": 1.16,
+    "adjustedValueScore": 11.42
   },
   {
     "asin": "B002VA8NOW",
@@ -56326,6 +57338,58 @@
     "valueScore": 2.55,
     "costPerHour": 1.76,
     "creditWorth": 1.07
+  },
+  {
+    "asin": "B0H8K6WL4Z",
+    "title": "My Best Friend's Billionaire Dad",
+    "author": "Evie Butler",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 523,
+    "price": 17.1,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41tTwiFzi+L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H8K6WL4Z",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "tandem"
+    ],
+    "releaseDate": "2026-07-11",
+    "publisher": "Independently Published",
+    "description": "Best Romance for your Audible credit? \"My Best Friend's Billionaire Dad\" by Evie Butler runs 9 hours at $1.96/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 8.7,
+    "valueScore": 2.55,
+    "costPerHour": 1.96,
+    "creditWorth": 1.14,
+    "adjustedValueScore": 1.77
+  },
+  {
+    "asin": "1039405746",
+    "title": "Death's Favorite Warlock 2",
+    "author": "Charles Dean",
+    "narrator": "Steve Campbell",
+    "runtimeMinutes": 732,
+    "price": 21.54,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 37,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51IgAgLyJtS._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1039405746",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2021-11-02",
+    "publisher": "Podium Audio",
+    "description": "Best Science Fiction & Fantasy for your Audible credit? \"Death's Favorite Warlock 2\" by Charles Dean runs 12 hours at $1.77/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 12.2,
+    "valueScore": 2.55,
+    "costPerHour": 1.77,
+    "creditWorth": 1.44,
+    "adjustedValueScore": 9.28
   },
   {
     "asin": "B002V5CW08",
@@ -58202,6 +59266,32 @@
     "creditWorth": 1.12
   },
   {
+    "asin": "B0GC7NWFP6",
+    "title": "Deadliest Desire",
+    "author": "Nikki Ash",
+    "narrator": "Gideon Frost, Mia Tucker",
+    "runtimeMinutes": 580,
+    "price": 17.45,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 26,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51CgcI3PqoL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GC7NWFP6",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "Romantic Suspense"
+    ],
+    "releaseDate": "2026-01-08",
+    "publisher": "Pink Flamingo Productions",
+    "description": "Best Romance for your Audible credit? \"Deadliest Desire\" by Nikki Ash runs 10 hours at $1.81/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 9.7,
+    "valueScore": 2.49,
+    "costPerHour": 1.81,
+    "creditWorth": 1.17,
+    "adjustedValueScore": 8.21
+  },
+  {
     "asin": "0593213866",
     "title": "Mexican Gothic",
     "author": "Silvia Moreno-Garcia",
@@ -59294,6 +60384,32 @@
     "creditWorth": 1.05
   },
   {
+    "asin": "B0H6GZDQXM",
+    "title": "Campus Secret",
+    "author": "Cadence Keys",
+    "narrator": "Vanessa Vasquez, Ryan Stone",
+    "runtimeMinutes": 671,
+    "price": 20.46,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51+cyxuQT2L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H6GZDQXM",
+    "categories": [
+      "Romance",
+      "Sports",
+      "literature-and-fiction"
+    ],
+    "releaseDate": "2026-07-14",
+    "publisher": "Love Locked Press,LLC",
+    "description": "Best Romance for your Audible credit? \"Campus Secret\" by Cadence Keys runs 11 hours at $1.83/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 11.2,
+    "valueScore": 2.46,
+    "costPerHour": 1.83,
+    "creditWorth": 1.37,
+    "adjustedValueScore": 2.7
+  },
+  {
     "asin": "9500763729",
     "title": "How to Win Friends and Influence People",
     "author": "Dale Carnegie",
@@ -59615,6 +60731,58 @@
     "valueScore": 2.45,
     "costPerHour": 1.84,
     "creditWorth": 1.37
+  },
+  {
+    "asin": "B07VCMK9TT",
+    "title": "The Secret to Dating Your Best Friend's Sister",
+    "author": "Meghan Quinn",
+    "narrator": "Charley Ongel, Tor Thom",
+    "runtimeMinutes": 635,
+    "price": 19.43,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 64,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Euq5Ie2jL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07VCMK9TT",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "Romantic Comedy"
+    ],
+    "releaseDate": "2019-07-22",
+    "publisher": "Hot Lanta Publishing",
+    "description": "Best Romance for your Audible credit? \"The Secret to Dating Your Best Friend's Sister\" by Meghan Quinn runs 11 hours at $1.84/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 10.6,
+    "valueScore": 2.45,
+    "costPerHour": 1.84,
+    "creditWorth": 1.3,
+    "adjustedValueScore": 10.23
+  },
+  {
+    "asin": "B0DT2PF1RH",
+    "title": "Last Call for Bud Light",
+    "author": "Anson Frericks",
+    "narrator": "Kirby Heyborne",
+    "runtimeMinutes": 585,
+    "price": 17.91,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41hFBzJH7BL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DT2PF1RH",
+    "categories": [
+      "Business & Careers",
+      "Politics & Social Sciences",
+      "Politics & Government"
+    ],
+    "releaseDate": "2025-02-04",
+    "publisher": "Simon & Schuster Audio",
+    "description": "Best Business & Careers for your Audible credit? \"Last Call for Bud Light\" by Anson Frericks runs 10 hours at $1.84/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 9.8,
+    "valueScore": 2.45,
+    "costPerHour": 1.84,
+    "creditWorth": 1.2,
+    "adjustedValueScore": 5.38
   },
   {
     "asin": "1797108263",
@@ -63031,6 +64199,32 @@
     "adjustedValueScore": 8.71
   },
   {
+    "asin": "B084C3VS66",
+    "title": "Blindsided",
+    "author": "Amy Daws",
+    "narrator": "Will Watt, Charlotte Cole",
+    "runtimeMinutes": 642,
+    "price": 20.43,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 583,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51vBZVKe8AL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B084C3VS66",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "Romantic Comedy"
+    ],
+    "releaseDate": "2020-02-04",
+    "publisher": "Amy Daws, LLC",
+    "description": "Best Romance for your Audible credit? \"Blindsided\" by Amy Daws runs 11 hours at $1.91/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 10.7,
+    "valueScore": 2.36,
+    "costPerHour": 1.91,
+    "creditWorth": 1.37,
+    "adjustedValueScore": 15.03
+  },
+  {
     "title": "The Dark Tower I: The Gunslinger",
     "author": "Stephen King",
     "narrator": "George Guidall",
@@ -63364,6 +64558,31 @@
     "valueScore": 2.35,
     "costPerHour": 1.96,
     "creditWorth": 1.43
+  },
+  {
+    "asin": "B0GBYYS726",
+    "title": "Never the Best",
+    "author": "Maya Alden",
+    "narrator": "Scott Rose, Greyson Ash",
+    "runtimeMinutes": 534,
+    "price": 17.06,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 6,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51YRBzHA7XL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GBYYS726",
+    "categories": [
+      "Romance",
+      "Contemporary"
+    ],
+    "releaseDate": "2026-02-03",
+    "publisher": "Podium Audio",
+    "description": "Best Romance for your Audible credit? \"Never the Best\" by Maya Alden runs 9 hours at $1.92/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 8.9,
+    "valueScore": 2.35,
+    "costPerHour": 1.92,
+    "creditWorth": 1.14,
+    "adjustedValueScore": 4.57
   },
   {
     "asin": "B0030MV7MU",
@@ -65053,6 +66272,32 @@
     "creditWorth": 1.4
   },
   {
+    "asin": "B0H7XZJYCD",
+    "title": "The Best Friends' Playlist",
+    "author": "Jessica King",
+    "narrator": "Emma Faye, Adam Skousen",
+    "runtimeMinutes": 624,
+    "price": 22.63,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41bnhmrhezL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H7XZJYCD",
+    "categories": [
+      "Romance",
+      "Clean & Wholesome",
+      "Romantic Comedy"
+    ],
+    "releaseDate": "2026-07-08",
+    "publisher": "Jessica King",
+    "description": "Best Romance for your Audible credit? \"The Best Friends' Playlist\" by Jessica King runs 10 hours at $2.18/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 10.4,
+    "valueScore": 2.3,
+    "costPerHour": 2.18,
+    "creditWorth": 1.51,
+    "adjustedValueScore": 1.59
+  },
+  {
     "asin": "B08F6D4ZPV",
     "title": "12 Months to $1 Million: How to Pick a Winning Product, Build a Real Business, and Become a Seven-Figure Entrepreneur",
     "author": "Ryan Daniel Moran",
@@ -65226,6 +66471,57 @@
     "valueScore": 2.29,
     "costPerHour": 2.19,
     "creditWorth": 1.44
+  },
+  {
+    "asin": "B0CY91XQ6Q",
+    "title": "Hidden Desires",
+    "author": "S.E. Law",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 455,
+    "price": 16.57,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/518RbepqFAL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CY91XQ6Q",
+    "categories": [
+      "Romance",
+      "tandem"
+    ],
+    "releaseDate": "2026-04-10",
+    "publisher": "Independently Published",
+    "description": "8 hours: \"Hidden Desires\" by S.E. Law is a shorter Romance. Rated 5.0/5. Cost: $2.19/hour. A credit works well here.",
+    "runtimeHours": 7.6,
+    "valueScore": 2.29,
+    "costPerHour": 2.19,
+    "creditWorth": 1.11,
+    "adjustedValueScore": 1.59
+  },
+  {
+    "asin": "B07VHFDYXK",
+    "title": "His Favorite Color Is Blood",
+    "author": "K.A. Merikan",
+    "narrator": "Wyatt Baker",
+    "runtimeMinutes": 699,
+    "price": 22.94,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 28,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51yuMcULi0L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07VHFDYXK",
+    "categories": [
+      "Erotica",
+      "Literature & Fiction",
+      "Romantic"
+    ],
+    "releaseDate": "2019-07-24",
+    "publisher": "Acerbi & Villani Ltd.",
+    "description": "Best Erotica for your Audible credit? \"His Favorite Color Is Blood\" by K.A. Merikan runs 12 hours at $1.97/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 11.7,
+    "valueScore": 2.29,
+    "costPerHour": 1.97,
+    "creditWorth": 1.53,
+    "adjustedValueScore": 7.71
   },
   {
     "asin": "B0043WI3N2",
@@ -66048,6 +67344,32 @@
     "creditWorth": 1.18
   },
   {
+    "asin": "B00BFXD2LK",
+    "title": "Favorite Sons",
+    "author": "Robin Yocum",
+    "narrator": "Jeremy Arthur",
+    "runtimeMinutes": 557,
+    "price": 18.48,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 139,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51N59HMjRCL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00BFXD2LK",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Literary Fiction"
+    ],
+    "releaseDate": "2013-02-28",
+    "publisher": "Audible Studios",
+    "description": "Best Literature & Fiction for your Audible credit? \"Favorite Sons\" by Robin Yocum runs 9 hours at $1.99/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 9.3,
+    "valueScore": 2.26,
+    "costPerHour": 1.99,
+    "creditWorth": 1.24,
+    "adjustedValueScore": 11.17
+  },
+  {
     "asin": "B0F1NK1X5W",
     "title": "Love, Rebooted",
     "author": "Katy Summers",
@@ -66246,6 +67568,32 @@
     "costPerHour": 2,
     "creditWorth": 1.24,
     "adjustedValueScore": 9.02
+  },
+  {
+    "asin": "B09X7G8G3J",
+    "title": "Doctor Mistake",
+    "author": "J. Saman, Julie Saman",
+    "narrator": "Tim Paige, Mackenzie Cartwright",
+    "runtimeMinutes": 585,
+    "price": 21.65,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 27,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51aqgkljP-L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09X7G8G3J",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "literature-and-fiction"
+    ],
+    "releaseDate": "2022-04-21",
+    "publisher": "J. Saman",
+    "description": "Best Romance for your Audible credit? \"Doctor Mistake\" by J. Saman, Julie Saman runs 10 hours at $2.22/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 9.8,
+    "valueScore": 2.25,
+    "costPerHour": 2.22,
+    "creditWorth": 1.45,
+    "adjustedValueScore": 7.5
   },
   {
     "asin": "B0FNDTVTNR",
@@ -66604,6 +67952,32 @@
     "adjustedValueScore": 6.35
   },
   {
+    "asin": "B0FDR45619",
+    "title": "The Best Worst Mistake",
+    "author": "Lily Parker",
+    "narrator": "Kelly Burke, Matt Mella",
+    "runtimeMinutes": 564,
+    "price": 18.91,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 199,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51IGv2OOVeL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FDR45619",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "literature-and-fiction"
+    ],
+    "releaseDate": "2025-07-02",
+    "publisher": "Audible Studios",
+    "description": "Best Romance for your Audible credit? \"The Best Worst Mistake\" by Lily Parker runs 9 hours at $2.01/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 9.4,
+    "valueScore": 2.24,
+    "costPerHour": 2.01,
+    "creditWorth": 1.26,
+    "adjustedValueScore": 11.87
+  },
+  {
     "asin": "179712322X",
     "title": "The Soulmate Equation",
     "author": "Christina Lauren",
@@ -66907,6 +68281,32 @@
     "valueScore": 2.23,
     "costPerHour": 2.01,
     "creditWorth": 1.35
+  },
+  {
+    "asin": "B0763VD996",
+    "title": "My Best Friend's Ex",
+    "author": "Meghan Quinn",
+    "narrator": "Rudy Sanda, Amelie Griffin",
+    "runtimeMinutes": 632,
+    "price": 21.24,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 182,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51WacEmTvtL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0763VD996",
+    "categories": [
+      "Erotica",
+      "Literature & Fiction",
+      "Romantic"
+    ],
+    "releaseDate": "2017-10-10",
+    "publisher": "Tantor Audio",
+    "description": "Best Erotica for your Audible credit? \"My Best Friend's Ex\" by Meghan Quinn runs 11 hours at $2.02/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 10.5,
+    "valueScore": 2.23,
+    "costPerHour": 2.02,
+    "creditWorth": 1.42,
+    "adjustedValueScore": 11.62
   },
   {
     "asin": "B09K2MCS1P",
@@ -67292,6 +68692,32 @@
     "creditWorth": 1.29
   },
   {
+    "asin": "B0B5YCKF3J",
+    "title": "My Scorned Best Friend",
+    "author": "Piper Rayne",
+    "narrator": "Aaron Shedlock, Holly Warren",
+    "runtimeMinutes": 406,
+    "price": 15.24,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 6,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51CnO+4ZCOL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0B5YCKF3J",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "Romantic Comedy"
+    ],
+    "releaseDate": "2022-07-06",
+    "publisher": "Piper Rayne Inc.",
+    "description": "7 hours: \"My Scorned Best Friend\" by Piper Rayne is a shorter Romance. Rated 5.0/5. Cost: $2.25/hour. A credit works well here.",
+    "runtimeHours": 6.8,
+    "valueScore": 2.22,
+    "costPerHour": 2.25,
+    "creditWorth": 1.02,
+    "adjustedValueScore": 4.32
+  },
+  {
     "asin": "B002V5GOHA",
     "title": "Freakonomics",
     "author": "Steven D. Levitt, Stephen J. Dubner",
@@ -67672,6 +69098,32 @@
     "costPerHour": 2.26,
     "creditWorth": 1.28,
     "adjustedValueScore": 9.84
+  },
+  {
+    "asin": "B09FYJ2X67",
+    "title": "The King's Favorite",
+    "author": "Tanya Anne Crosby",
+    "narrator": "Marian Hussey",
+    "runtimeMinutes": 605,
+    "price": 20.53,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Q1K6IY09L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09FYJ2X67",
+    "categories": [
+      "Literature & Fiction",
+      "Historical Fiction",
+      "Romance"
+    ],
+    "releaseDate": "2021-09-28",
+    "publisher": "Tantor Audio",
+    "description": "Best Literature & Fiction for your Audible credit? \"The King's Favorite\" by Tanya Anne Crosby runs 10 hours at $2.04/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 10.1,
+    "valueScore": 2.21,
+    "costPerHour": 2.04,
+    "creditWorth": 1.37,
+    "adjustedValueScore": 3.06
   },
   {
     "asin": "0062888447",
@@ -68251,6 +69703,32 @@
     "valueScore": 2.19,
     "costPerHour": 2.05,
     "creditWorth": 1.46
+  },
+  {
+    "asin": "1984883151",
+    "title": "The Favorite Daughter",
+    "author": "Patti Callahan Henry",
+    "narrator": "Joshilyn Jackson",
+    "runtimeMinutes": 684,
+    "price": 23.38,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 36,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51KQlE2pSjL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1984883151",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Family Life"
+    ],
+    "releaseDate": "2019-06-04",
+    "publisher": "Penguin Audio",
+    "description": "Best Literature & Fiction for your Audible credit? \"The Favorite Daughter\" by Patti Callahan Henry runs 11 hours at $2.05/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 11.4,
+    "valueScore": 2.19,
+    "costPerHour": 2.05,
+    "creditWorth": 1.56,
+    "adjustedValueScore": 7.91
   },
   {
     "asin": "B002V0GCE0",
@@ -69368,6 +70846,58 @@
     "adjustedValueScore": 8.07
   },
   {
+    "asin": "B0CGVR68KM",
+    "title": "Entwined with Him",
+    "author": "Kylie Kent",
+    "narrator": "Ben Hughes, Jacqueline Elizabeth",
+    "runtimeMinutes": 445,
+    "price": 15.44,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 7,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61Y7Bl0Ab+L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CGVR68KM",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "Romantic Suspense"
+    ],
+    "releaseDate": "2023-08-29",
+    "publisher": "BTS Publishing",
+    "description": "7 hours: \"Entwined with Him\" by Kylie Kent is a shorter Romance. Rated 4.5/5. Cost: $2.08/hour. A credit works well here.",
+    "runtimeHours": 7.4,
+    "valueScore": 2.16,
+    "costPerHour": 2.08,
+    "creditWorth": 1.03,
+    "adjustedValueScore": 4.49
+  },
+  {
+    "asin": "B07DQTRG9Z",
+    "title": "My Favorite Half-Night Stand",
+    "author": "Christina Lauren",
+    "narrator": "Shayna Thibodeaux, Deacon Lee",
+    "runtimeMinutes": 428,
+    "price": 14.87,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 98,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41QIf+h7+tL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07DQTRG9Z",
+    "categories": [
+      "Literature & Fiction",
+      "Women's Fiction",
+      "Romance"
+    ],
+    "releaseDate": "2018-12-04",
+    "publisher": "Simon & Schuster Audio",
+    "description": "7 hours: \"My Favorite Half-Night Stand\" by Christina Lauren is a shorter Literature & Fiction. Rated 4.5/5. Cost: $2.08/hour. Buy directly for $14.87.",
+    "runtimeHours": 7.1,
+    "valueScore": 2.16,
+    "costPerHour": 2.08,
+    "creditWorth": 0.99,
+    "adjustedValueScore": 9.93
+  },
+  {
     "asin": "B0F3432DNS",
     "title": "The Catcher in the Rye",
     "author": "J.D. Salinger",
@@ -69594,6 +71124,58 @@
     "valueScore": 2.15,
     "costPerHour": 2.33,
     "creditWorth": 1.5
+  },
+  {
+    "asin": "B0DK3XLMHZ",
+    "title": "Wish You Weren't Here",
+    "author": "Portia MacIntosh",
+    "narrator": "Karen Cass",
+    "runtimeMinutes": 451,
+    "price": 15.75,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 18,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Y4WKqglRL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DK3XLMHZ",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Family Life"
+    ],
+    "releaseDate": "2025-01-08",
+    "publisher": "Boldwood Books",
+    "description": "8 hours: \"Wish You Weren't Here\" by Portia MacIntosh is a shorter Literature & Fiction. Rated 4.5/5. Cost: $2.10/hour. A credit works well here.",
+    "runtimeHours": 7.5,
+    "valueScore": 2.15,
+    "costPerHour": 2.1,
+    "creditWorth": 1.05,
+    "adjustedValueScore": 6.33
+  },
+  {
+    "asin": "1541482964",
+    "title": "My Favorite Cowboy",
+    "author": "Donna Grant",
+    "narrator": "Rebecca Estrella",
+    "runtimeMinutes": 560,
+    "price": 19.53,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61C2Z8cJyJL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1541482964",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "Military"
+    ],
+    "releaseDate": "2019-06-28",
+    "publisher": "Tantor Media",
+    "description": "Best Romance for your Audible credit? \"My Favorite Cowboy\" by Donna Grant runs 9 hours at $2.09/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 9.3,
+    "valueScore": 2.15,
+    "costPerHour": 2.09,
+    "creditWorth": 1.31,
+    "adjustedValueScore": 3.46
   },
   {
     "asin": "B01LWUJKQ7",
@@ -70028,6 +71610,32 @@
     "adjustedValueScore": 14.74
   },
   {
+    "asin": "B0DCGNTZJT",
+    "title": "Favorite Daughter",
+    "author": "Morgan Dick",
+    "narrator": "Heather Kosik, Susanna Fournier",
+    "runtimeMinutes": 654,
+    "price": 22.94,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41-vbtafBlL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DCGNTZJT",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Family Life"
+    ],
+    "releaseDate": "2025-04-29",
+    "publisher": "Penguin Audio",
+    "description": "Best Literature & Fiction for your Audible credit? \"Favorite Daughter\" by Morgan Dick runs 11 hours at $2.10/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 10.9,
+    "valueScore": 2.14,
+    "costPerHour": 2.1,
+    "creditWorth": 1.53,
+    "adjustedValueScore": 2.35
+  },
+  {
     "asin": "B07Q769RZS",
     "title": "Verity",
     "author": "Colleen Hoover",
@@ -70328,6 +71936,32 @@
     "valueScore": 2.13,
     "costPerHour": 2.11,
     "creditWorth": 1.41
+  },
+  {
+    "asin": "B0GH3Q36K1",
+    "title": "The Ram Dass Audio Collection",
+    "author": "Ram Dass",
+    "narrator": "Ram Dass",
+    "runtimeMinutes": 469,
+    "price": 18.33,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41JpyUe68IL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GH3Q36K1",
+    "categories": [
+      "Health & Wellness",
+      "Aging & Longevity",
+      "Relationships, Parenting & Personal Development"
+    ],
+    "releaseDate": "2026-01-15",
+    "publisher": "Macmillan Audio",
+    "description": "8 hours: \"The Ram Dass Audio Collection\" by Ram Dass is a shorter Health & Wellness. Rated 5.0/5. Cost: $2.34/hour. A credit works well here.",
+    "runtimeHours": 7.8,
+    "valueScore": 2.13,
+    "costPerHour": 2.34,
+    "creditWorth": 1.23,
+    "adjustedValueScore": 3.43
   },
   {
     "asin": "B00JLOJ04I",
@@ -71470,6 +73104,32 @@
     "creditWorth": 1.12
   },
   {
+    "asin": "B09JPHRNSX",
+    "title": "Swoon",
+    "author": "Lauren Rowe",
+    "narrator": "Joe Arden, Desireé Ketchum",
+    "runtimeMinutes": 619,
+    "price": 22.07,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 179,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/514Dxda559L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09JPHRNSX",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "Romantic Comedy"
+    ],
+    "releaseDate": "2021-11-01",
+    "publisher": "SoCoRo Publishing",
+    "description": "Best Romance for your Audible credit? \"Swoon\" by Lauren Rowe runs 10 hours at $2.14/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 10.3,
+    "valueScore": 2.1,
+    "costPerHour": 2.14,
+    "creditWorth": 1.48,
+    "adjustedValueScore": 10.91
+  },
+  {
     "asin": "B01KBM825G",
     "title": "The Undoing Project",
     "author": "Michael Lewis",
@@ -72303,6 +73963,58 @@
     "creditWorth": 1.56
   },
   {
+    "asin": "B0DJPW83JK",
+    "title": "The Wish Switch",
+    "author": "Lynn Painter",
+    "narrator": "Jesse Vilinsky",
+    "runtimeMinutes": 389,
+    "price": 14.02,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51TSI+0TgbL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DJPW83JK",
+    "categories": [
+      "Children's Audiobooks",
+      "Growing Up & Facts of Life",
+      "Social & Life Skills"
+    ],
+    "releaseDate": "2025-05-13",
+    "publisher": "Little, Brown Young Readers",
+    "description": "7 hours: \"The Wish Switch\" by Lynn Painter is a shorter Children's Audiobooks. Rated 4.5/5. Cost: $2.16/hour. Buy directly for $14.02.",
+    "runtimeHours": 6.5,
+    "valueScore": 2.08,
+    "costPerHour": 2.16,
+    "creditWorth": 0.94,
+    "adjustedValueScore": 2.29
+  },
+  {
+    "asin": "B0FMZNG26K",
+    "title": "You're So Strong",
+    "author": "Leslie Harter-Berg",
+    "narrator": "Leslie Harter-Berg",
+    "runtimeMinutes": 470,
+    "price": 18.82,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 11,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41hef7o0fiL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FMZNG26K",
+    "categories": [
+      "Biographies & Memoirs",
+      "Religious",
+      "Relationships, Parenting & Personal Development"
+    ],
+    "releaseDate": "2026-03-24",
+    "publisher": "Zondervan",
+    "description": "8 hours: \"You're So Strong\" by Leslie Harter-Berg is a shorter Biographies & Memoirs. Rated 5.0/5. Cost: $2.40/hour. A credit works well here.",
+    "runtimeHours": 7.8,
+    "valueScore": 2.08,
+    "costPerHour": 2.4,
+    "creditWorth": 1.26,
+    "adjustedValueScore": 5.17
+  },
+  {
     "asin": "1473579724",
     "title": "Wintering",
     "author": "Katherine May",
@@ -72705,6 +74417,84 @@
     "valueScore": 2.07,
     "costPerHour": 2.18,
     "creditWorth": 1.33
+  },
+  {
+    "asin": "B079NTNGCD",
+    "title": "Bachelor Nation",
+    "author": "Amy Kaufman",
+    "narrator": "Amy Kaufman",
+    "runtimeMinutes": 463,
+    "price": 14.91,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 52,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41cBibW3yEL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B079NTNGCD",
+    "categories": [
+      "Arts & Entertainment",
+      "Entertainment & Performing Arts",
+      "Film & TV"
+    ],
+    "releaseDate": "2018-03-06",
+    "publisher": "Penguin Audio",
+    "description": "8 hours: \"Bachelor Nation\" by Amy Kaufman is a shorter Arts & Entertainment. Rated 4.0/5. Cost: $1.93/hour. Buy directly for $14.91.",
+    "runtimeHours": 7.7,
+    "valueScore": 2.07,
+    "costPerHour": 1.93,
+    "creditWorth": 1,
+    "adjustedValueScore": 8.22
+  },
+  {
+    "asin": "1094000779",
+    "title": "My Favorites",
+    "author": "Ben Bova",
+    "narrator": "Ben Bova, Efrem Zimbalist Jr., Alex Hyde-White, Stefan Rudnicki, Paul Boehmer, Orson Scott Card, Grover Gardner, John Rubinstein, Gabrielle de Cuir, Arthur Morey, Steven Hoye",
+    "runtimeMinutes": 575,
+    "price": 20.81,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 9,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51+v0D7GjML._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1094000779",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Anthologies & Short Stories"
+    ],
+    "releaseDate": "2020-10-13",
+    "publisher": "Blackstone Publishing",
+    "description": "Best Science Fiction & Fantasy for your Audible credit? \"My Favorites\" by Ben Bova runs 10 hours at $2.17/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 9.6,
+    "valueScore": 2.07,
+    "costPerHour": 2.17,
+    "creditWorth": 1.39,
+    "adjustedValueScore": 4.77
+  },
+  {
+    "asin": "B082BJF4XC",
+    "title": "The Least Favorite Child",
+    "author": "C. R. Daems",
+    "narrator": "Sarah L. Colton",
+    "runtimeMinutes": 501,
+    "price": 18.16,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 11,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51-4W8iYMCL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B082BJF4XC",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "releaseDate": "2019-12-06",
+    "publisher": "Talon Novels",
+    "description": "Best Science Fiction & Fantasy for your Audible credit? \"The Least Favorite Child\" by C. R. Daems runs 8 hours at $2.17/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 8.4,
+    "valueScore": 2.07,
+    "costPerHour": 2.17,
+    "creditWorth": 1.21,
+    "adjustedValueScore": 5.14
   },
   {
     "asin": "B00XWTPUW4",
@@ -73417,6 +75207,32 @@
     "adjustedValueScore": 3.67
   },
   {
+    "asin": "B0F62FMG3T",
+    "title": "The Best Wrong Move",
+    "author": "Lily Parker",
+    "narrator": "Ina-Marie Smith, Davis Brooks",
+    "runtimeMinutes": 594,
+    "price": 21.7,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 413,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51iqour0cVL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F62FMG3T",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Holidays"
+    ],
+    "releaseDate": "2025-04-24",
+    "publisher": "Audible Studios",
+    "description": "Best Literature & Fiction for your Audible credit? \"The Best Wrong Move\" by Lily Parker runs 10 hours at $2.19/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 9.9,
+    "valueScore": 2.05,
+    "costPerHour": 2.19,
+    "creditWorth": 1.45,
+    "adjustedValueScore": 12.35
+  },
+  {
     "asin": "B002V1NTTU",
     "title": "Sharp Objects",
     "author": "Gillian Flynn",
@@ -74124,6 +75940,32 @@
     "creditWorth": 1.34
   },
   {
+    "asin": "B01F27B3G0",
+    "title": "My Best Friend's Exorcism",
+    "author": "Grady Hendrix",
+    "narrator": "Emily Woo Zeller",
+    "runtimeMinutes": 611,
+    "price": 22.66,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 889,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51GepUhA1pL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01F27B3G0",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Coming of Age"
+    ],
+    "releaseDate": "2016-05-17",
+    "publisher": "Blackstone Audio, Inc.",
+    "description": "Best Literature & Fiction for your Audible credit? \"My Best Friend's Exorcism\" by Grady Hendrix runs 10 hours at $2.23/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 10.2,
+    "valueScore": 2.02,
+    "costPerHour": 2.23,
+    "creditWorth": 1.52,
+    "adjustedValueScore": 13.72
+  },
+  {
     "asin": "B0C5N9FNB4",
     "title": "System Collapse",
     "author": "Martha Wells",
@@ -74455,6 +76297,32 @@
     "valueScore": 2.01,
     "costPerHour": 2.24,
     "creditWorth": 1.38
+  },
+  {
+    "asin": "B0H2N9XRBV",
+    "title": "From the Ashes",
+    "author": "Atreus Rosewood",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 547,
+    "price": 15.91,
+    "currency": "USD",
+    "starRating": 3.5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51nuPZHBXFL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H2N9XRBV",
+    "categories": [
+      "LGBTQ+",
+      "Literature & Fiction",
+      "Romance"
+    ],
+    "releaseDate": "2026-05-23",
+    "publisher": "UwU Publishing",
+    "description": "Best LGBTQ+ for your Audible credit? \"From the Ashes\" by Atreus Rosewood runs 9 hours at $1.75/hour. Rated 3.5/5. Save with a credit.",
+    "runtimeHours": 9.1,
+    "valueScore": 2.01,
+    "costPerHour": 1.75,
+    "creditWorth": 1.06,
+    "adjustedValueScore": 1.39
   },
   {
     "asin": "B00H8U90YC",
@@ -75091,6 +76959,32 @@
     "adjustedValueScore": 15.62
   },
   {
+    "asin": "B009K9YNI2",
+    "title": "It's Your Ship",
+    "author": "D. Michael Abrashoff",
+    "narrator": "D. Michael Abrashoff",
+    "runtimeMinutes": 384,
+    "price": 16.12,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 373,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51duRF10f6L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B009K9YNI2",
+    "categories": [
+      "Biographies & Memoirs",
+      "Business & Careers",
+      "Management & Leadership"
+    ],
+    "releaseDate": "2012-10-09",
+    "publisher": "Grand Central Publishing",
+    "description": "6 hours: \"It's Your Ship\" by D. Michael Abrashoff is a shorter Biographies & Memoirs. Rated 5.0/5. Cost: $2.52/hour. A credit works well here.",
+    "runtimeHours": 6.4,
+    "valueScore": 1.99,
+    "costPerHour": 2.52,
+    "creditWorth": 1.08,
+    "adjustedValueScore": 11.79
+  },
+  {
     "asin": "197869167X",
     "title": "Rich Dad Poor Dad",
     "author": "Robert T. Kiyosaki",
@@ -75470,6 +77364,32 @@
     "valueScore": 1.98,
     "costPerHour": 2.28,
     "creditWorth": 1.42
+  },
+  {
+    "asin": "B0H3NBTJX1",
+    "title": "His Best Friend",
+    "author": "Madison Joy",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 512,
+    "price": 17.25,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41ri9VklHOL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H3NBTJX1",
+    "categories": [
+      "Romance",
+      "Romantic Comedy",
+      "tandem"
+    ],
+    "releaseDate": "2026-06-03",
+    "publisher": "Wet Dog Press",
+    "description": "Best Romance for your Audible credit? \"His Best Friend\" by Madison Joy runs 9 hours at $2.02/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 8.5,
+    "valueScore": 1.98,
+    "costPerHour": 2.02,
+    "creditWorth": 1.15,
+    "adjustedValueScore": 1.37
   },
   {
     "asin": "B002V08GGC",
@@ -76467,6 +78387,32 @@
     "creditWorth": 1.55
   },
   {
+    "asin": "B0DNRQNDPV",
+    "title": "Korean for K-Pop Fans: Master Basics of Hangul, Grammar, and Pronunciation",
+    "author": "Hallyu Press",
+    "narrator": "Esther Nam",
+    "runtimeMinutes": 365,
+    "price": 15.63,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 36,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51HqgYs0U6L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DNRQNDPV",
+    "categories": [
+      "Arts & Entertainment",
+      "Music",
+      "Education & Learning"
+    ],
+    "releaseDate": "2024-11-21",
+    "publisher": "Hallyu Press, Moonshiine Publishing",
+    "description": "6 hours: \"Korean for K-Pop Fans: Master Basics of Hangul, Grammar, and Pronunciation\" by Hallyu Press is a shorter Arts & Entertainment. Rated 5.0/5. Cost: $2.57/hour. A credit works well here.",
+    "runtimeHours": 6.1,
+    "valueScore": 1.95,
+    "costPerHour": 2.57,
+    "creditWorth": 1.05,
+    "adjustedValueScore": 7.04
+  },
+  {
     "asin": "0008281025",
     "title": "Who Killed Ruby?",
     "author": "Camilla Way",
@@ -76694,6 +78640,32 @@
     "valueScore": 1.94,
     "costPerHour": 2.06,
     "creditWorth": 1.02
+  },
+  {
+    "asin": "B0C2WV7S3V",
+    "title": "My Favorite Angel Stories",
+    "author": "Joe L. Wheeler",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 414,
+    "price": 17.75,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/4198m7pJ3FL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0C2WV7S3V",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Christian Fiction"
+    ],
+    "releaseDate": "2023-12-28",
+    "publisher": "FaithHappenings Publishers",
+    "description": "7 hours: \"My Favorite Angel Stories\" by Joe L. Wheeler is a shorter Literature & Fiction. Rated 5.0/5. Cost: $2.57/hour. A credit works well here.",
+    "runtimeHours": 6.9,
+    "valueScore": 1.94,
+    "costPerHour": 2.57,
+    "creditWorth": 1.19,
+    "adjustedValueScore": 1.34
   },
   {
     "asin": "B00IWZ6XGA",
@@ -77130,6 +79102,32 @@
     "adjustedValueScore": 6.75
   },
   {
+    "asin": "B0FRNMPS1Q",
+    "title": "Compulsion",
+    "author": "Julia Sykes",
+    "narrator": "M.K. Blackwood, Benjamin Crow",
+    "runtimeMinutes": 477,
+    "price": 16.47,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 11,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51pde28GRFL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FRNMPS1Q",
+    "categories": [
+      "Literature & Fiction",
+      "Horror",
+      "Gothic"
+    ],
+    "releaseDate": "2025-10-21",
+    "publisher": "Podium Audio",
+    "description": "8 hours: \"Compulsion\" by Julia Sykes is a shorter Literature & Fiction. Rated 4.0/5. Cost: $2.07/hour. A credit works well here.",
+    "runtimeHours": 8,
+    "valueScore": 1.93,
+    "costPerHour": 2.07,
+    "creditWorth": 1.1,
+    "adjustedValueScore": 4.8
+  },
+  {
     "asin": "B0783R9DPV",
     "title": "Crushing It!",
     "author": "Gary Vaynerchuk",
@@ -77437,6 +79435,58 @@
     "adjustedValueScore": 3.44
   },
   {
+    "asin": "B0HBXLH2M5",
+    "title": "Best Friend's Ex Erotic Tales: Claiming Pal's Dumped Lover",
+    "author": "Blush Publications",
+    "narrator": "Cindy Palmer",
+    "runtimeMinutes": 399,
+    "price": 17.35,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 6,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51ccqZP7saL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HBXLH2M5",
+    "categories": [
+      "Erotica",
+      "Literature & Fiction",
+      "literature-and-fiction"
+    ],
+    "releaseDate": "2026-07-29",
+    "publisher": "Blush Publications",
+    "description": "7 hours: \"Best Friend's Ex Erotic Tales: Claiming Pal's Dumped Lover\" by Blush Publications is a shorter Erotica. Rated 5.0/5. Cost: $2.61/hour. A credit works well here.",
+    "runtimeHours": 6.7,
+    "valueScore": 1.92,
+    "costPerHour": 2.61,
+    "creditWorth": 1.16,
+    "adjustedValueScore": 3.74
+  },
+  {
+    "asin": "B0FYHCNX4D",
+    "title": "Hold Me Tight",
+    "author": "Jennifer Sucevic",
+    "narrator": "Vivienne LaRue, Grayson Owens",
+    "runtimeMinutes": 501,
+    "price": 19.56,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 15,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51AO8f2AUWL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FYHCNX4D",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "Sports"
+    ],
+    "releaseDate": "2025-10-30",
+    "publisher": "Tangled Hearts LLC",
+    "description": "Best Romance for your Audible credit? \"Hold Me Tight\" by Jennifer Sucevic runs 8 hours at $2.34/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 8.4,
+    "valueScore": 1.92,
+    "costPerHour": 2.34,
+    "creditWorth": 1.31,
+    "adjustedValueScore": 5.32
+  },
+  {
     "asin": "B002V5J47W",
     "title": "1st To Die",
     "author": "James Patterson",
@@ -77638,6 +79688,58 @@
     "valueScore": 1.91,
     "costPerHour": 2.36,
     "creditWorth": 1.42
+  },
+  {
+    "asin": "B0H82S39WZ",
+    "title": "Brother's Best Friends",
+    "author": "Brooklyn Cox",
+    "narrator": "Lance Greenfield, Kasha Kensington",
+    "runtimeMinutes": 523,
+    "price": 22.87,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51JS9riAIFL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H82S39WZ",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Small Town & Rural"
+    ],
+    "releaseDate": "2026-08-04",
+    "publisher": "Podium Audio",
+    "description": "Best Literature & Fiction for your Audible credit? \"Brother's Best Friends\" by Brooklyn Cox runs 9 hours at $2.62/hour. Rated 5.0/5. Save with a credit.",
+    "runtimeHours": 8.7,
+    "valueScore": 1.91,
+    "costPerHour": 2.62,
+    "creditWorth": 1.53,
+    "adjustedValueScore": 2.1
+  },
+  {
+    "asin": "B01D3PQNH2",
+    "title": "Your Favorite Band Is Killing Me",
+    "author": "Steven Hyden",
+    "narrator": "Ben Sullivan",
+    "runtimeMinutes": 468,
+    "price": 18.4,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 7,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/518eVwMJwWL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01D3PQNH2",
+    "categories": [
+      "Arts & Entertainment",
+      "Music",
+      "History & Criticism"
+    ],
+    "releaseDate": "2016-05-17",
+    "publisher": "Little, Brown & Company",
+    "description": "8 hours: \"Your Favorite Band Is Killing Me\" by Steven Hyden is a shorter Arts & Entertainment. Rated 4.5/5. Cost: $2.36/hour. A credit works well here.",
+    "runtimeHours": 7.8,
+    "valueScore": 1.91,
+    "costPerHour": 2.36,
+    "creditWorth": 1.23,
+    "adjustedValueScore": 3.97
   },
   {
     "asin": "B007VEWUWY",
@@ -79116,6 +81218,32 @@
     "creditWorth": 1.43
   },
   {
+    "asin": "B01H46C9JC",
+    "title": "The Billionaire's Favorite Mistake",
+    "author": "Jessica Clare",
+    "narrator": "Jillian Macie",
+    "runtimeMinutes": 575,
+    "price": 23.04,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 11,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61eZsW07OsL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01H46C9JC",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "Romantic Comedy"
+    ],
+    "releaseDate": "2016-06-14",
+    "publisher": "Tantor Audio",
+    "description": "Best Romance for your Audible credit? \"The Billionaire's Favorite Mistake\" by Jessica Clare runs 10 hours at $2.40/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 9.6,
+    "valueScore": 1.87,
+    "costPerHour": 2.4,
+    "creditWorth": 1.54,
+    "adjustedValueScore": 4.65
+  },
+  {
     "asin": "0063034336",
     "title": "Anxious People \\ Gente ansiosa",
     "author": "Fredrik Backman",
@@ -79746,6 +81874,32 @@
     "valueScore": 1.84,
     "costPerHour": 2.45,
     "creditWorth": 1.29
+  },
+  {
+    "asin": "B01ELX0V2S",
+    "title": "My Favorite Universe",
+    "author": "Neil deGrasse Tyson, The Great Courses",
+    "narrator": "Neil deGrasse Tyson",
+    "runtimeMinutes": 370,
+    "price": 15.07,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 169,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/516AJHy2waL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01ELX0V2S",
+    "categories": [
+      "Science & Engineering",
+      "Science",
+      "Astronomy & Space Science"
+    ],
+    "releaseDate": "2016-04-22",
+    "publisher": "The Great Courses",
+    "description": "6 hours: \"My Favorite Universe\" by Neil deGrasse Tyson, The Great Courses is a shorter Science & Engineering. Rated 4.5/5. Cost: $2.44/hour. A credit works well here.",
+    "runtimeHours": 6.2,
+    "valueScore": 1.84,
+    "costPerHour": 2.44,
+    "creditWorth": 1.01,
+    "adjustedValueScore": 9.45
   },
   {
     "asin": "B0CYNPSBNG",
@@ -80758,6 +82912,32 @@
     "creditWorth": 1.06
   },
   {
+    "asin": "B00OZ8IG0E",
+    "title": "The Secret Life of Clams",
+    "author": "Anthony Fredericks",
+    "narrator": "Jason Culp",
+    "runtimeMinutes": 637,
+    "price": 23.41,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 22,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/513Qs36zYTL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00OZ8IG0E",
+    "categories": [
+      "Home & Garden",
+      "Food & Wine",
+      "Science & Engineering"
+    ],
+    "releaseDate": "2014-11-18",
+    "publisher": "Audible Studios",
+    "description": "Best Home & Garden for your Audible credit? \"The Secret Life of Clams\" by Anthony Fredericks runs 11 hours at $2.21/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 10.6,
+    "valueScore": 1.81,
+    "costPerHour": 2.21,
+    "creditWorth": 1.57,
+    "adjustedValueScore": 5.68
+  },
+  {
     "asin": "B0BPBCW1DV",
     "title": "All My Knotted-Up Life",
     "author": "Beth Moore",
@@ -80986,6 +83166,32 @@
     "valueScore": 1.8,
     "costPerHour": 2.23,
     "creditWorth": 1.48
+  },
+  {
+    "asin": "B0CH3R2JMP",
+    "title": "Best Friend Temptation",
+    "author": "Carrie Ann Ryan",
+    "narrator": "Jacob Morgan, Teddy Hamilton, Desiree Ketchum",
+    "runtimeMinutes": 361,
+    "price": 15.03,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 55,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51VMxMbyVeL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CH3R2JMP",
+    "categories": [
+      "LGBTQ+",
+      "Romance",
+      "Contemporary"
+    ],
+    "releaseDate": "2023-10-30",
+    "publisher": "Carrie Ann Ryan",
+    "description": "6 hours: \"Best Friend Temptation\" by Carrie Ann Ryan is a shorter LGBTQ+. Rated 4.5/5. Cost: $2.50/hour. A credit works well here.",
+    "runtimeHours": 6,
+    "valueScore": 1.8,
+    "costPerHour": 2.5,
+    "creditWorth": 1.01,
+    "adjustedValueScore": 7.25
   },
   {
     "asin": "B08Z7Z7LQK",
@@ -81339,6 +83545,58 @@
     "valueScore": 1.79,
     "costPerHour": 2.51,
     "creditWorth": 1.56
+  },
+  {
+    "asin": "B0GWDDFLLY",
+    "title": "The Housewife",
+    "author": "Valerie Keogh",
+    "narrator": "Rose Robinson",
+    "runtimeMinutes": 523,
+    "price": 19.53,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Qfp5R682L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GWDDFLLY",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Psychological"
+    ],
+    "releaseDate": "2026-05-05",
+    "publisher": "Boldwood Books",
+    "description": "Best Literature & Fiction for your Audible credit? \"The Housewife\" by Valerie Keogh runs 9 hours at $2.24/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 8.7,
+    "valueScore": 1.79,
+    "costPerHour": 2.24,
+    "creditWorth": 1.31,
+    "adjustedValueScore": 1.97
+  },
+  {
+    "asin": "B0H1N97Y7X",
+    "title": "Off Limits Obsession",
+    "author": "Elle Arden",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 409,
+    "price": 15.27,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/5126KH6cZkL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H1N97Y7X",
+    "categories": [
+      "Romance",
+      "Sports",
+      "tandem"
+    ],
+    "releaseDate": "2026-05-15",
+    "publisher": "Independently Published",
+    "description": "7 hours: \"Off Limits Obsession\" by Elle Arden is a shorter Romance. Rated 4.0/5. Cost: $2.24/hour. A credit works well here.",
+    "runtimeHours": 6.8,
+    "valueScore": 1.79,
+    "costPerHour": 2.24,
+    "creditWorth": 1.02,
+    "adjustedValueScore": 1.24
   },
   {
     "asin": "B002V0QO5W",
@@ -83334,6 +85592,58 @@
     "adjustedValueScore": 8.33
   },
   {
+    "asin": "B0D2JVXSCY",
+    "title": "The Eyes Are the Best Part",
+    "author": "Monika Kim",
+    "narrator": "Jaine Ye",
+    "runtimeMinutes": 556,
+    "price": 21.56,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 69,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51dHABzAXAL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0D2JVXSCY",
+    "categories": [
+      "Literature & Fiction",
+      "Horror",
+      "Women's Fiction"
+    ],
+    "releaseDate": "2024-07-09",
+    "publisher": "Recorded Books",
+    "description": "Best Literature & Fiction for your Audible credit? \"The Eyes Are the Best Part\" by Monika Kim runs 9 hours at $2.33/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 9.3,
+    "valueScore": 1.72,
+    "costPerHour": 2.33,
+    "creditWorth": 1.44,
+    "adjustedValueScore": 7.31
+  },
+  {
+    "asin": "B0H9BSYB4K",
+    "title": "If I Was Your Best Friend",
+    "author": "NISHA",
+    "narrator": "J.R. Mason, Drama Simpson",
+    "runtimeMinutes": 450,
+    "price": 21.85,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51H+R253hpL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H9BSYB4K",
+    "categories": [
+      "Literature & Fiction",
+      "African American",
+      "Romance"
+    ],
+    "releaseDate": "2026-07-20",
+    "publisher": "NISHA",
+    "description": "8 hours: \"If I Was Your Best Friend\" by NISHA is a shorter Literature & Fiction. Rated 5.0/5. Cost: $2.91/hour. A credit works well here.",
+    "runtimeHours": 7.5,
+    "valueScore": 1.72,
+    "costPerHour": 2.91,
+    "creditWorth": 1.46,
+    "adjustedValueScore": 1.89
+  },
+  {
     "asin": "B0H9BFQS67",
     "title": "The Oz Method: Psychological Secrets of Influence for Sales, Leadership, and Life",
     "author": "Collin Henderson",
@@ -83820,6 +86130,58 @@
     "adjustedValueScore": 5.5
   },
   {
+    "asin": "B0H4WCJJ1W",
+    "title": "Accidentally in Love with My Best Friend's Brother",
+    "author": "Abby Greyson",
+    "narrator": "R.L. Hemm, Jay Parker",
+    "runtimeMinutes": 399,
+    "price": 17.52,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Hvbj+HFBL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H4WCJJ1W",
+    "categories": [
+      "Romance",
+      "Romantic Comedy",
+      "literature-and-fiction"
+    ],
+    "releaseDate": "2026-06-15",
+    "publisher": "JennaLee Gallicchio",
+    "description": "7 hours: \"Accidentally in Love with My Best Friend's Brother\" by Abby Greyson is a shorter Romance. Rated 4.5/5. Cost: $2.63/hour. A credit works well here.",
+    "runtimeHours": 6.7,
+    "valueScore": 1.71,
+    "costPerHour": 2.63,
+    "creditWorth": 1.17,
+    "adjustedValueScore": 2.37
+  },
+  {
+    "asin": "B0G2PC4YM4",
+    "title": "Redemption",
+    "author": "Julia Sykes",
+    "narrator": "M.K. Blackwood, Benjamin Crow",
+    "runtimeMinutes": 461,
+    "price": 20.24,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51w9RwaEPFL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0G2PC4YM4",
+    "categories": [
+      "Literature & Fiction",
+      "Horror",
+      "Gothic"
+    ],
+    "releaseDate": "2025-12-16",
+    "publisher": "Podium Audio",
+    "description": "8 hours: \"Redemption\" by Julia Sykes is a shorter Literature & Fiction. Rated 4.5/5. Cost: $2.63/hour. A credit works well here.",
+    "runtimeHours": 7.7,
+    "valueScore": 1.71,
+    "costPerHour": 2.63,
+    "creditWorth": 1.35,
+    "adjustedValueScore": 3.06
+  },
+  {
     "title": "Unf#ck Your Sleep! Rework Your Life While You Sleep",
     "author": "Mark MacDonald BSc Dip CBT",
     "narrator": "Kevin Koolin Fox",
@@ -84259,6 +86621,32 @@
     "adjustedValueScore": 1.86
   },
   {
+    "asin": "1666104469",
+    "title": "Food Americana",
+    "author": "David Page",
+    "narrator": "Jonathan Yen",
+    "runtimeMinutes": 436,
+    "price": 21.55,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Ir7LSiLNL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1666104469",
+    "categories": [
+      "Biographies & Memoirs",
+      "Professionals & Academics",
+      "Culinary"
+    ],
+    "releaseDate": "2021-04-13",
+    "publisher": "Tantor Media",
+    "description": "7 hours: \"Food Americana\" by David Page is a shorter Biographies & Memoirs. Rated 5.0/5. Cost: $2.97/hour. A credit works well here.",
+    "runtimeHours": 7.3,
+    "valueScore": 1.69,
+    "costPerHour": 2.97,
+    "creditWorth": 1.44,
+    "adjustedValueScore": 2.34
+  },
+  {
     "asin": "B09G557LSZ",
     "title": "Change Your Paradigm, Change Your Life",
     "author": "Bob Proctor",
@@ -84671,6 +87059,32 @@
     "adjustedValueScore": 1.16
   },
   {
+    "asin": "B07MPNLNQR",
+    "title": "Next in Line",
+    "author": "Amy Daws",
+    "narrator": "Erin Mallon, Teddy Hamilton",
+    "runtimeMinutes": 479,
+    "price": 21.49,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 216,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51qF3tBpnHL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07MPNLNQR",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "Romantic Comedy"
+    ],
+    "releaseDate": "2019-01-09",
+    "publisher": "Amy Daws,LLC",
+    "description": "8 hours: \"Next in Line\" by Amy Daws is a shorter Romance. Rated 4.5/5. Cost: $2.69/hour. A credit works well here.",
+    "runtimeHours": 8,
+    "valueScore": 1.67,
+    "costPerHour": 2.69,
+    "creditWorth": 1.44,
+    "adjustedValueScore": 8.98
+  },
+  {
     "asin": "B004WFWA8Y",
     "title": "Bossypants",
     "author": "Tina Fey",
@@ -84843,6 +87257,32 @@
     "costPerHour": 2.71,
     "creditWorth": 1.27,
     "adjustedValueScore": 6.39
+  },
+  {
+    "asin": "B0F5BW8J37",
+    "title": "The Caged Girl",
+    "author": "Monica Arya",
+    "narrator": "Nikita Mirpuri",
+    "runtimeMinutes": 595,
+    "price": 23.86,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 71,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51o66eKpadL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F5BW8J37",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Medical"
+    ],
+    "releaseDate": "2025-05-20",
+    "publisher": "Podium Audio",
+    "description": "Best Literature & Fiction for your Audible credit? \"The Caged Girl\" by Monica Arya runs 10 hours at $2.41/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 9.9,
+    "valueScore": 1.66,
+    "costPerHour": 2.41,
+    "creditWorth": 1.6,
+    "adjustedValueScore": 7.1
   },
   {
     "asin": "B0C6YM6Q41",
@@ -85484,6 +87924,32 @@
     "adjustedValueScore": 6.41
   },
   {
+    "asin": "B0FJFWXWSN",
+    "title": "His Other Woman",
+    "author": "Valerie Keogh",
+    "narrator": "Rose Robinson",
+    "runtimeMinutes": 493,
+    "price": 20.16,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 16,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51HsLnbOJZL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FJFWXWSN",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Psychological"
+    ],
+    "releaseDate": "2025-11-03",
+    "publisher": "Boldwood Books",
+    "description": "Best Literature & Fiction for your Audible credit? \"His Other Woman\" by Valerie Keogh runs 8 hours at $2.45/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 8.2,
+    "valueScore": 1.63,
+    "costPerHour": 2.45,
+    "creditWorth": 1.35,
+    "adjustedValueScore": 4.62
+  },
+  {
     "asin": "B01EM4ZO14",
     "title": "Hillbilly Elegy",
     "author": "J. D. Vance",
@@ -85709,6 +88175,32 @@
     "costPerHour": 2.77,
     "creditWorth": 1.39,
     "adjustedValueScore": 9.05
+  },
+  {
+    "asin": "B0GM224636",
+    "title": "Best Kept Vows",
+    "author": "Maya Alden",
+    "narrator": "Scott Rose, Greyson Ash",
+    "runtimeMinutes": 515,
+    "price": 23.84,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 6,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/512EZ7y+BOL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GM224636",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Family Life"
+    ],
+    "releaseDate": "2026-03-10",
+    "publisher": "Podium Audio",
+    "description": "Best Literature & Fiction for your Audible credit? \"Best Kept Vows\" by Maya Alden runs 9 hours at $2.78/hour. Rated 4.5/5. Save with a credit.",
+    "runtimeHours": 8.6,
+    "valueScore": 1.62,
+    "costPerHour": 2.78,
+    "creditWorth": 1.59,
+    "adjustedValueScore": 3.15
   },
   {
     "asin": "B09VQ572P3",
@@ -86910,6 +89402,32 @@
     "adjustedValueScore": 9.37
   },
   {
+    "asin": "B0F552XLXJ",
+    "title": "Best Offer Wins",
+    "author": "Marisa Kashino",
+    "narrator": "Cia Court",
+    "runtimeMinutes": 518,
+    "price": 21.82,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 237,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51rnN2d9EML._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F552XLXJ",
+    "categories": [
+      "Literature & Fiction",
+      "Women's Fiction",
+      "Mystery, Thriller & Suspense"
+    ],
+    "releaseDate": "2025-11-25",
+    "publisher": "Macmillan Audio",
+    "description": "Best Literature & Fiction for your Audible credit? \"Best Offer Wins\" by Marisa Kashino runs 9 hours at $2.53/hour. Rated 4.0/5. Save with a credit.",
+    "runtimeHours": 8.6,
+    "valueScore": 1.58,
+    "costPerHour": 2.53,
+    "creditWorth": 1.46,
+    "adjustedValueScore": 8.65
+  },
+  {
     "asin": "0593209451",
     "title": "Looking for Alaska",
     "author": "John Green",
@@ -87189,6 +89707,32 @@
     "valueScore": 1.57,
     "costPerHour": 2.86,
     "creditWorth": 1.44,
+    "adjustedValueScore": 2.18
+  },
+  {
+    "asin": "B0FDVLJKPZ",
+    "title": "The Complication with the Best Man",
+    "author": "Piper Rayne",
+    "narrator": "Scott Rose, Willa Jaymes",
+    "runtimeMinutes": 452,
+    "price": 21.65,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51LLXcCZF8L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FDVLJKPZ",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "literature-and-fiction"
+    ],
+    "releaseDate": "2025-06-20",
+    "publisher": "Piper Rayne Inc.",
+    "description": "8 hours: \"The Complication with the Best Man\" by Piper Rayne is a shorter Romance. Rated 4.5/5. Cost: $2.87/hour. A credit works well here.",
+    "runtimeHours": 7.5,
+    "valueScore": 1.57,
+    "costPerHour": 2.87,
+    "creditWorth": 1.45,
     "adjustedValueScore": 2.18
   },
   {
@@ -88864,6 +91408,30 @@
     "adjustedValueScore": 4.94
   },
   {
+    "asin": "B0FDC9GZY9",
+    "title": "I Love Disneyland",
+    "author": "Ry Castles, Skyla Castles",
+    "narrator": "Ry Castles, Skyla Castles",
+    "runtimeMinutes": 336,
+    "price": 18.69,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/517K9kUjRZL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FDC9GZY9",
+    "categories": [
+      "Travel & Tourism"
+    ],
+    "releaseDate": "2025-10-07",
+    "publisher": "Simon & Schuster Audio",
+    "description": "6 hours: \"I Love Disneyland\" by Ry Castles, Skyla Castles is a shorter Travel & Tourism. Rated 5.0/5. Cost: $3.34/hour. A credit works well here.",
+    "runtimeHours": 5.6,
+    "valueScore": 1.5,
+    "costPerHour": 3.34,
+    "creditWorth": 1.25,
+    "adjustedValueScore": 1.65
+  },
+  {
     "asin": "B0G3QN3B8R",
     "title": "Going Ghost",
     "author": "Dina Marie",
@@ -88912,6 +91480,32 @@
     "valueScore": 1.49,
     "costPerHour": 3.02,
     "creditWorth": 0.93
+  },
+  {
+    "asin": "B00O807O3Y",
+    "title": "My Favorite Husband, Vol. 1",
+    "author": "Hollywood 360, CBS Radio",
+    "narrator": "Lucille Ball, Richard Denning",
+    "runtimeMinutes": 340,
+    "price": 18.96,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 13,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41-JIPCXppL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00O807O3Y",
+    "categories": [
+      "Arts & Entertainment",
+      "Entertainment & Performing Arts",
+      "Radio"
+    ],
+    "releaseDate": "2014-10-07",
+    "publisher": "Black Eye Entertainment",
+    "description": "6 hours: \"My Favorite Husband, Vol. 1\" by Hollywood 360, CBS Radio is a shorter Arts & Entertainment. Rated 5.0/5. Cost: $3.35/hour. A credit works well here.",
+    "runtimeHours": 5.7,
+    "valueScore": 1.49,
+    "costPerHour": 3.35,
+    "creditWorth": 1.27,
+    "adjustedValueScore": 3.93
   },
   {
     "asin": "B07DHTT3Y1",
@@ -89143,6 +91737,32 @@
     "costPerHour": 2.7,
     "creditWorth": 1.55,
     "adjustedValueScore": 4.01
+  },
+  {
+    "asin": "B0FTDK46WV",
+    "title": "Forever His Favorite",
+    "author": "Ava Selwyn",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 401,
+    "price": 20.33,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41fKAmxUMwL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FTDK46WV",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "tandem"
+    ],
+    "releaseDate": "2025-10-04",
+    "publisher": "Independently Published",
+    "description": "7 hours: \"Forever His Favorite\" by Ava Selwyn is a shorter Romance. Rated 4.5/5. Cost: $3.04/hour. A credit works well here.",
+    "runtimeHours": 6.7,
+    "valueScore": 1.48,
+    "costPerHour": 3.04,
+    "creditWorth": 1.36,
+    "adjustedValueScore": 1.63
   },
   {
     "asin": "B002V5GT02",
@@ -89627,6 +92247,58 @@
     "costPerHour": 3.09,
     "creditWorth": 0.96,
     "adjustedValueScore": 3.5
+  },
+  {
+    "asin": "B09L35R7V2",
+    "title": "Stay Off My Operating Table",
+    "author": "Philip Ovadia",
+    "narrator": "Philip Ovadia",
+    "runtimeMinutes": 293,
+    "price": 16.76,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 110,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/519iv1inN6L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09L35R7V2",
+    "categories": [
+      "Health & Wellness",
+      "Fitness, Diet & Nutrition",
+      "Diets, Nutrition & Healthy Eating"
+    ],
+    "releaseDate": "2021-11-05",
+    "publisher": "Ovadia Heart Health LLC",
+    "description": "5 hours: \"Stay Off My Operating Table\" by Philip Ovadia is a shorter Health & Wellness. Rated 5.0/5. Cost: $3.43/hour. A credit works well here.",
+    "runtimeHours": 4.9,
+    "valueScore": 1.46,
+    "costPerHour": 3.43,
+    "creditWorth": 1.12,
+    "adjustedValueScore": 6.88
+  },
+  {
+    "asin": "B01AOBBI50",
+    "title": "Fast Food Maniac",
+    "author": "Jon Hein",
+    "narrator": "Jon Hein",
+    "runtimeMinutes": 347,
+    "price": 17.82,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51z79uj7-pL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01AOBBI50",
+    "categories": [
+      "Business & Careers",
+      "Home & Garden",
+      "Food & Wine"
+    ],
+    "releaseDate": "2016-02-02",
+    "publisher": "Brilliance Audio",
+    "description": "6 hours: \"Fast Food Maniac\" by Jon Hein is a shorter Business & Careers. Rated 4.5/5. Cost: $3.08/hour. A credit works well here.",
+    "runtimeHours": 5.8,
+    "valueScore": 1.46,
+    "costPerHour": 3.08,
+    "creditWorth": 1.19,
+    "adjustedValueScore": 2.35
   },
   {
     "asin": "B002V1J8EU",
@@ -90702,6 +93374,32 @@
     "adjustedValueScore": 1.95
   },
   {
+    "asin": "B0BWH3FBV7",
+    "title": "Chinese Menu",
+    "author": "Grace Lin",
+    "narrator": "Lisa Ling",
+    "runtimeMinutes": 365,
+    "price": 21.56,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51vPxC71z4L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0BWH3FBV7",
+    "categories": [
+      "Children's Audiobooks",
+      "Activities & Hobbies",
+      "Cooking & Food"
+    ],
+    "releaseDate": "2023-09-12",
+    "publisher": "Little, Brown Young Readers",
+    "description": "6 hours: \"Chinese Menu\" by Grace Lin is a shorter Children's Audiobooks. Rated 5.0/5. Cost: $3.54/hour. A credit works well here.",
+    "runtimeHours": 6.1,
+    "valueScore": 1.41,
+    "costPerHour": 3.54,
+    "creditWorth": 1.44,
+    "adjustedValueScore": 1.55
+  },
+  {
     "asin": "B002V1M5RW",
     "title": "Hannibal Rising",
     "author": "Thomas Harris",
@@ -90881,6 +93579,57 @@
     "costPerHour": 3.56,
     "creditWorth": 1.08,
     "adjustedValueScore": 0.97
+  },
+  {
+    "asin": "B0GHNH34R5",
+    "title": "The New Neighbour",
+    "author": "Valerie Keogh",
+    "narrator": "Rose Robinson",
+    "runtimeMinutes": 445,
+    "price": 21.15,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51m4Zc5h+BL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GHNH34R5",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Psychological"
+    ],
+    "releaseDate": "2026-03-02",
+    "publisher": "Boldwood Books",
+    "description": "7 hours: \"The New Neighbour\" by Valerie Keogh is a shorter Literature & Fiction. Rated 4.0/5. Cost: $2.85/hour. A credit works well here.",
+    "runtimeHours": 7.4,
+    "valueScore": 1.4,
+    "costPerHour": 2.85,
+    "creditWorth": 1.41,
+    "adjustedValueScore": 2.25
+  },
+  {
+    "asin": "B0H85CX73Q",
+    "title": "Trick",
+    "author": "Charlotte McGinlay",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 364,
+    "price": 19.48,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Qrl968LaL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H85CX73Q",
+    "categories": [
+      "Romance",
+      "tandem"
+    ],
+    "releaseDate": "2026-07-12",
+    "publisher": "Independently Published",
+    "description": "6 hours: \"Trick\" by Charlotte McGinlay is a shorter Romance. Rated 4.5/5. Cost: $3.21/hour. A credit works well here.",
+    "runtimeHours": 6.1,
+    "valueScore": 1.4,
+    "costPerHour": 3.21,
+    "creditWorth": 1.3,
+    "adjustedValueScore": 1.94
   },
   {
     "asin": "B002V5H3AW",
@@ -91467,6 +94216,32 @@
     "costPerHour": 2.92,
     "creditWorth": 1.53,
     "adjustedValueScore": 0.95
+  },
+  {
+    "asin": "B0H6HJKLMQ",
+    "title": "Surprise Baby for the Bad Boy",
+    "author": "Elle Arden",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 362,
+    "price": 19.77,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51UKlrTnGxL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H6HJKLMQ",
+    "categories": [
+      "Romance",
+      "Action & Adventure",
+      "tandem"
+    ],
+    "releaseDate": "2026-06-24",
+    "publisher": "Independently Published",
+    "description": "6 hours: \"Surprise Baby for the Bad Boy\" by Elle Arden is a shorter Romance. Rated 4.5/5. Cost: $3.28/hour. A credit works well here.",
+    "runtimeHours": 6,
+    "valueScore": 1.37,
+    "costPerHour": 3.28,
+    "creditWorth": 1.32,
+    "adjustedValueScore": 1.51
   },
   {
     "asin": "B015CYJON2",
@@ -92182,6 +94957,32 @@
     "valueScore": 1.34,
     "costPerHour": 3.36,
     "creditWorth": 1.09
+  },
+  {
+    "asin": "B0DXWKS46D",
+    "title": "I Love Disney's Magic Kingdom",
+    "author": "Danielle Kelly, Ian Wilson",
+    "narrator": "Danielle Kelly",
+    "runtimeMinutes": 280,
+    "price": 17.35,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51q3+4KzMgL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DXWKS46D",
+    "categories": [
+      "Politics & Social Sciences",
+      "Social Sciences",
+      "Popular Culture"
+    ],
+    "releaseDate": "2025-05-13",
+    "publisher": "Simon & Schuster Audio",
+    "description": "5 hours: \"I Love Disney's Magic Kingdom\" by Danielle Kelly, Ian Wilson is a shorter Politics & Social Sciences. Rated 5.0/5. Cost: $3.72/hour. A credit works well here.",
+    "runtimeHours": 4.7,
+    "valueScore": 1.34,
+    "costPerHour": 3.72,
+    "creditWorth": 1.16,
+    "adjustedValueScore": 2.94
   },
   {
     "asin": "B006LPK3WS",
@@ -93415,6 +96216,32 @@
     "adjustedValueScore": 2.04
   },
   {
+    "asin": "B0CPGWCM9P",
+    "title": "Favorite Mistake",
+    "author": "Jessica Prince",
+    "narrator": "Alan Carlson, Avie Paige",
+    "runtimeMinutes": 429,
+    "price": 22.57,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51e0I7BzGQL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CPGWCM9P",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Small Town & Rural"
+    ],
+    "releaseDate": "2024-01-16",
+    "publisher": "Podium Audio",
+    "description": "7 hours: \"Favorite Mistake\" by Jessica Prince is a shorter Literature & Fiction. Rated 4.0/5. Cost: $3.16/hour. A credit works well here.",
+    "runtimeHours": 7.2,
+    "valueScore": 1.27,
+    "costPerHour": 3.16,
+    "creditWorth": 1.51,
+    "adjustedValueScore": 0.88
+  },
+  {
     "asin": "B00ENI4SS0",
     "title": "And Then There Were None",
     "author": "Agatha Christie",
@@ -94430,6 +97257,58 @@
     "adjustedValueScore": 0.84
   },
   {
+    "asin": "B002V8KY28",
+    "title": "Favorite Essays",
+    "author": "Michel de Montaigne, Jonathan Swift, Thomas Carlyle, Joseph Addison, Samuel Johnson",
+    "narrator": "Neville Jason",
+    "runtimeMinutes": 295,
+    "price": 18.33,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51dzveoqGEL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V8KY28",
+    "categories": [
+      "Literature & Fiction",
+      "Classics",
+      "la_confidential"
+    ],
+    "releaseDate": "2009-05-26",
+    "publisher": "Naxos AudioBooks",
+    "description": "5 hours: \"Favorite Essays\" by Michel de Montaigne, Jonathan Swift, Thomas Carlyle, Joseph Addison, Samuel Johnson is a shorter Literature & Fiction. Rated 4.5/5. Cost: $3.73/hour. A credit works well here.",
+    "runtimeHours": 4.9,
+    "valueScore": 1.21,
+    "costPerHour": 3.73,
+    "creditWorth": 1.23,
+    "adjustedValueScore": 0.84
+  },
+  {
+    "asin": "1797130706",
+    "title": "Full Out",
+    "author": "Monica Aldama",
+    "narrator": "Monica Aldama",
+    "runtimeMinutes": 335,
+    "price": 20.68,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 21,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51ogytYKsJL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1797130706",
+    "categories": [
+      "Biographies & Memoirs",
+      "Sports",
+      "Business & Careers"
+    ],
+    "releaseDate": "2022-01-04",
+    "publisher": "Simon & Schuster Audio",
+    "description": "6 hours: \"Full Out\" by Monica Aldama is a shorter Biographies & Memoirs. Rated 4.5/5. Cost: $3.70/hour. A credit works well here.",
+    "runtimeHours": 5.6,
+    "valueScore": 1.21,
+    "costPerHour": 3.7,
+    "creditWorth": 1.38,
+    "adjustedValueScore": 3.74
+  },
+  {
     "asin": "B00NLPAZ9W",
     "title": "Horrorstör",
     "author": "Grady Hendrix",
@@ -95339,6 +98218,32 @@
     "creditWorth": 1.48
   },
   {
+    "asin": "B06XY4YWNB",
+    "title": "Make Someone Happy",
+    "author": "Elizabeth Berg",
+    "narrator": "Elizabeth Berg",
+    "runtimeMinutes": 230,
+    "price": 16.33,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51NkZVKwvCL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B06XY4YWNB",
+    "categories": [
+      "Literature & Fiction",
+      "World Literature",
+      "United States"
+    ],
+    "releaseDate": "2017-03-31",
+    "publisher": "Recorded Books",
+    "description": "4 hours: \"Make Someone Happy\" by Elizabeth Berg is a shorter Literature & Fiction. Rated 5.0/5. Cost: $4.26/hour. A credit works well here.",
+    "runtimeHours": 3.8,
+    "valueScore": 1.17,
+    "costPerHour": 4.26,
+    "creditWorth": 1.09,
+    "adjustedValueScore": 1.29
+  },
+  {
     "asin": "0062346725",
     "title": "Built to Last",
     "author": "Jim Collins",
@@ -95463,6 +98368,31 @@
     "valueScore": 1.16,
     "costPerHour": 3.87,
     "creditWorth": 1.49
+  },
+  {
+    "asin": "B0HCKVKRS9",
+    "title": "He Got My Best Friend Pregnant, I Married His Brother",
+    "author": "Clara March",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 318,
+    "price": 22.79,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51uA4hAKrrL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HCKVKRS9",
+    "categories": [
+      "Romance",
+      "tandem"
+    ],
+    "releaseDate": "2026-08-02",
+    "publisher": "Independently Published",
+    "description": "5 hours: \"He Got My Best Friend Pregnant, I Married His Brother\" by Clara March is a shorter Romance. Rated 5.0/5. Cost: $4.30/hour. A credit works well here.",
+    "runtimeHours": 5.3,
+    "valueScore": 1.16,
+    "costPerHour": 4.3,
+    "creditWorth": 1.52,
+    "adjustedValueScore": 0.8
   },
   {
     "asin": "B002V5D5ZE",
@@ -95697,6 +98627,32 @@
     "adjustedValueScore": 7.46
   },
   {
+    "asin": "B002UZLJG2",
+    "title": "The Pluto Files",
+    "author": "Neil deGrasse Tyson",
+    "narrator": "Mirron Willis",
+    "runtimeMinutes": 262,
+    "price": 15.35,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 59,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51v3udB4HiL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002UZLJG2",
+    "categories": [
+      "Science & Engineering",
+      "Science",
+      "Astronomy & Space Science"
+    ],
+    "releaseDate": "2009-01-19",
+    "publisher": "Blackstone Audio, Inc.",
+    "description": "4 hours: \"The Pluto Files\" by Neil deGrasse Tyson is a shorter Science & Engineering. Rated 4.0/5. Cost: $3.52/hour. A credit works well here.",
+    "runtimeHours": 4.4,
+    "valueScore": 1.14,
+    "costPerHour": 3.52,
+    "creditWorth": 1.03,
+    "adjustedValueScore": 4.67
+  },
+  {
     "asin": "B007MPI5BM",
     "title": "I, Claudius",
     "author": "Robert Graves",
@@ -95921,6 +98877,32 @@
     "valueScore": 1.13,
     "costPerHour": 4,
     "creditWorth": 1.54
+  },
+  {
+    "asin": "B06Y1GMTM1",
+    "title": "Lessons from the Prairie",
+    "author": "Melissa Francis",
+    "narrator": "Melissa Francis",
+    "runtimeMinutes": 349,
+    "price": 23.18,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51KzXDQCEXL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B06Y1GMTM1",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities",
+      "Business & Careers"
+    ],
+    "releaseDate": "2017-04-25",
+    "publisher": "Balance",
+    "description": "6 hours: \"Lessons from the Prairie\" by Melissa Francis is a shorter Biographies & Memoirs. Rated 4.5/5. Cost: $3.99/hour. A credit works well here.",
+    "runtimeHours": 5.8,
+    "valueScore": 1.13,
+    "costPerHour": 3.99,
+    "creditWorth": 1.55,
+    "adjustedValueScore": 2.48
   },
   {
     "title": "Dust to Dust",
@@ -97151,6 +100133,31 @@
     "adjustedValueScore": 0.73
   },
   {
+    "asin": "B0CQZ46F1W",
+    "title": "Good Flies",
+    "author": "John Gierach",
+    "narrator": "David Colacci",
+    "runtimeMinutes": 314,
+    "price": 19.93,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41IE+UyO8+L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CQZ46F1W",
+    "categories": [
+      "Sports & Outdoors",
+      "Outdoors & Nature"
+    ],
+    "releaseDate": "2024-01-23",
+    "publisher": "Tantor Media",
+    "description": "5 hours: \"Good Flies\" by John Gierach is a shorter Sports & Outdoors. Rated 4.0/5. Cost: $3.81/hour. A credit works well here.",
+    "runtimeHours": 5.2,
+    "valueScore": 1.05,
+    "costPerHour": 3.81,
+    "creditWorth": 1.33,
+    "adjustedValueScore": 1.46
+  },
+  {
     "asin": "B002V5GL3W",
     "title": "The Godfather's Revenge",
     "author": "Mark Winegardner",
@@ -97555,6 +100562,32 @@
     "adjustedValueScore": 0.71
   },
   {
+    "asin": "B0GCFBNL42",
+    "title": "Finding Confidence in Conflict",
+    "author": "Kwame Christian",
+    "narrator": "Kwame Christian",
+    "runtimeMinutes": 284,
+    "price": 23.26,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51kTR8HkQKL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GCFBNL42",
+    "categories": [
+      "Business & Careers",
+      "Management & Leadership",
+      "Negotiating"
+    ],
+    "releaseDate": "2025-12-24",
+    "publisher": "American Negotiation Institute LLC",
+    "description": "5 hours: \"Finding Confidence in Conflict\" by Kwame Christian is a shorter Business & Careers. Rated 5.0/5. Cost: $4.91/hour. A credit works well here.",
+    "runtimeHours": 4.7,
+    "valueScore": 1.02,
+    "costPerHour": 4.91,
+    "creditWorth": 1.56,
+    "adjustedValueScore": 0.71
+  },
+  {
     "asin": "B01N6JVO8I",
     "title": "Exit West",
     "author": "Mohsin Hamid",
@@ -97654,6 +100687,32 @@
     "valueScore": 1.01,
     "costPerHour": 4.45,
     "creditWorth": 1.44
+  },
+  {
+    "asin": "B002V8LG52",
+    "title": "Science Fiction Favorites",
+    "author": "Isaac Asimov",
+    "narrator": "Isaac Asimov",
+    "runtimeMinutes": 313,
+    "price": 23.18,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 43,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41cgPkot1iL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V8LG52",
+    "categories": [
+      "Literature & Fiction",
+      "Classics",
+      "Science Fiction & Fantasy"
+    ],
+    "releaseDate": "2002-08-02",
+    "publisher": "Random House Audio",
+    "description": "5 hours: \"Science Fiction Favorites\" by Isaac Asimov is a shorter Literature & Fiction. Rated 4.5/5. Cost: $4.44/hour. A credit works well here.",
+    "runtimeHours": 5.2,
+    "valueScore": 1.01,
+    "costPerHour": 4.44,
+    "creditWorth": 1.55,
+    "adjustedValueScore": 3.82
   },
   {
     "title": "The Last Sad Love Song",
@@ -97836,6 +100895,32 @@
     "creditWorth": 1.2
   },
   {
+    "asin": "0063015021",
+    "title": "Eat It!",
+    "author": "Jordan Syatt, Michael Vacanti",
+    "narrator": "Jordan Syatt, Michael Vacanti",
+    "runtimeMinutes": 280,
+    "price": 23.31,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 36,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51L8E46XuPL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0063015021",
+    "categories": [
+      "Business & Careers",
+      "Career Success",
+      "Health & Wellness"
+    ],
+    "releaseDate": "2022-06-07",
+    "publisher": "Harper Wave",
+    "description": "5 hours: \"Eat It!\" by Jordan Syatt, Michael Vacanti is a shorter Business & Careers. Rated 5.0/5. Cost: $4.99/hour. A credit works well here.",
+    "runtimeHours": 4.7,
+    "valueScore": 1,
+    "costPerHour": 4.99,
+    "creditWorth": 1.56,
+    "adjustedValueScore": 3.61
+  },
+  {
     "asin": "B07Y5G8GHM",
     "title": "Around the World in 80 Days",
     "author": "Jules Verne, Anna Lea - adaptation",
@@ -97885,6 +100970,31 @@
     "costPerHour": 4.03,
     "creditWorth": 1.02,
     "adjustedValueScore": 1.37
+  },
+  {
+    "asin": "B0H4NL6XFB",
+    "title": "Boxed Set: The Billionaire's Favorite Trilogy (Brother’s Best Friend Love Triangle Romance)",
+    "author": "Ava Selwyn",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 1347,
+    "price": 22.59,
+    "currency": "USD",
+    "starRating": 1,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41tUADTsUAL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H4NL6XFB",
+    "categories": [
+      "Romance",
+      "tandem"
+    ],
+    "releaseDate": "2026-06-09",
+    "publisher": "Independently Published",
+    "description": "\"Boxed Set: The Billionaire's Favorite Trilogy (Brother’s Best Friend Love Triangle Romance)\" by Ava Selwyn scores 1.0 on our Value Score system. This 23-hour Romance costs $1.01/hour. 1.0 stars. Using a credit saves you money.",
+    "runtimeHours": 22.5,
+    "valueScore": 0.99,
+    "costPerHour": 1.01,
+    "creditWorth": 1.51,
+    "adjustedValueScore": 0.69
   },
   {
     "asin": "B0B3GRD2VC",
@@ -98139,6 +101249,32 @@
     "valueScore": 0.97,
     "costPerHour": 4.63,
     "creditWorth": 1.43
+  },
+  {
+    "asin": "B0HBRB3ZDN",
+    "title": "Retired LIFE . . . Let the Celebration Begin",
+    "author": "Michael West",
+    "narrator": "Ryan Durham",
+    "runtimeMinutes": 246,
+    "price": 21.19,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51xqsdci3LL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HBRB3ZDN",
+    "categories": [
+      "Biographies & Memoirs",
+      "Professionals & Academics",
+      "Educators"
+    ],
+    "releaseDate": "2026-07-28",
+    "publisher": "Ace East Publishing",
+    "description": "4 hours: \"Retired LIFE . . . Let the Celebration Begin\" by Michael West is a shorter Biographies & Memoirs. Rated 5.0/5. Cost: $5.17/hour. A credit works well here.",
+    "runtimeHours": 4.1,
+    "valueScore": 0.97,
+    "costPerHour": 5.17,
+    "creditWorth": 1.42,
+    "adjustedValueScore": 1.34
   },
   {
     "asin": "1984843265",
@@ -98955,6 +102091,32 @@
     "creditWorth": 1.28
   },
   {
+    "asin": "1524414638",
+    "title": "The Best-Laid Plans",
+    "author": "Sarah M. Eden",
+    "narrator": "Luone Ingram",
+    "runtimeMinutes": 293,
+    "price": 23.79,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 10,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Gq1aLnI1L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1524414638",
+    "categories": [
+      "Literature & Fiction",
+      "Historical Fiction",
+      "Romance"
+    ],
+    "releaseDate": "2021-02-12",
+    "publisher": "Covenant",
+    "description": "5 hours: \"The Best-Laid Plans\" by Sarah M. Eden is a shorter Literature & Fiction. Rated 4.5/5. Cost: $4.87/hour. A credit works well here.",
+    "runtimeHours": 4.9,
+    "valueScore": 0.92,
+    "costPerHour": 4.87,
+    "creditWorth": 1.59,
+    "adjustedValueScore": 2.21
+  },
+  {
     "asin": "B00MQ0COZG",
     "title": "Charlie and the Chocolate Factory",
     "author": "Roald Dahl, Quentin Blake",
@@ -99210,6 +102372,32 @@
     "adjustedValueScore": 2.38
   },
   {
+    "asin": "B002V0QQNM",
+    "title": "James Herriot's Favorite Dog Stories",
+    "author": "James Herriot",
+    "narrator": "Christopher Timothy",
+    "runtimeMinutes": 181,
+    "price": 15.12,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 50,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51EpBCgBWdL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V0QQNM",
+    "categories": [
+      "Biographies & Memoirs",
+      "Professionals & Academics",
+      "Medical"
+    ],
+    "releaseDate": "2001-01-02",
+    "publisher": "Macmillan Audio",
+    "description": "3 hours: \"James Herriot's Favorite Dog Stories\" by James Herriot is a shorter Biographies & Memoirs. Rated 4.5/5. Cost: $5.01/hour. A credit works well here.",
+    "runtimeHours": 3,
+    "valueScore": 0.9,
+    "costPerHour": 5.01,
+    "creditWorth": 1.01,
+    "adjustedValueScore": 3.54
+  },
+  {
     "asin": "B002V8HK3E",
     "title": "The Power of Positive Thinking",
     "author": "Dr. Norman Vincent Peale",
@@ -99385,6 +102573,32 @@
     "valueScore": 0.88,
     "costPerHour": 4.54,
     "creditWorth": 1.34
+  },
+  {
+    "asin": "B0983W3SDN",
+    "title": "Gifting Me to His Best Friend",
+    "author": "Katee Robert",
+    "narrator": "Jenny Nordbak",
+    "runtimeMinutes": 246,
+    "price": 21.06,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 30,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51w98K-RKwS._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0983W3SDN",
+    "categories": [
+      "Erotica",
+      "Literature & Fiction",
+      "literature-and-fiction"
+    ],
+    "releaseDate": "2021-06-29",
+    "publisher": "Trinkets and Tales LLC",
+    "description": "4 hours: \"Gifting Me to His Best Friend\" by Katee Robert is a shorter Erotica. Rated 4.5/5. Cost: $5.14/hour. A credit works well here.",
+    "runtimeHours": 4.1,
+    "valueScore": 0.88,
+    "costPerHour": 5.14,
+    "creditWorth": 1.41,
+    "adjustedValueScore": 3.02
   },
   {
     "asin": "B002V8L9MW",
@@ -99917,6 +103131,32 @@
     "valueScore": 0.85,
     "costPerHour": 5.27,
     "creditWorth": 1.57
+  },
+  {
+    "asin": "B0B5VVG53B",
+    "title": "You Deserve This Sh!t",
+    "author": "Jordan Tarver",
+    "narrator": "Jordan Tarver",
+    "runtimeMinutes": 290,
+    "price": 22.75,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 48,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41ynO20CG1L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0B5VVG53B",
+    "categories": [
+      "Business & Careers",
+      "Career Success",
+      "Motivation & Self-Improvement"
+    ],
+    "releaseDate": "2022-07-05",
+    "publisher": "Jordan Tarver",
+    "description": "5 hours: \"You Deserve This Sh!t\" by Jordan Tarver is a shorter Business & Careers. Rated 4.0/5. Cost: $4.71/hour. A credit works well here.",
+    "runtimeHours": 4.8,
+    "valueScore": 0.85,
+    "costPerHour": 4.71,
+    "creditWorth": 1.52,
+    "adjustedValueScore": 3.31
   },
   {
     "asin": "B0DTV7KBL2",
@@ -100830,6 +104070,32 @@
     "adjustedValueScore": 1.38
   },
   {
+    "asin": "B0F39NCP33",
+    "title": "The Billionaire's Favorite BBW",
+    "author": "T.C. Johnson",
+    "narrator": "Elyce Anthony, Dontavious Breighton",
+    "runtimeMinutes": 230,
+    "price": 22.37,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Aid5Qq3DL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F39NCP33",
+    "categories": [
+      "Literature & Fiction",
+      "African American",
+      "Romance"
+    ],
+    "releaseDate": "2025-05-06",
+    "publisher": "Podium Audio",
+    "description": "4 hours: \"The Billionaire's Favorite BBW\" by T.C. Johnson is a shorter Literature & Fiction. Rated 4.5/5. Cost: $5.84/hour. A credit works well here.",
+    "runtimeHours": 3.8,
+    "valueScore": 0.77,
+    "costPerHour": 5.84,
+    "creditWorth": 1.5,
+    "adjustedValueScore": 1.69
+  },
+  {
     "asin": "B09YVV1VS5",
     "title": "The God of Small Things",
     "author": "Arundhati Roy",
@@ -100927,6 +104193,32 @@
     "valueScore": 0.75,
     "costPerHour": 5.98,
     "creditWorth": 0.94
+  },
+  {
+    "asin": "B09J6BSG15",
+    "title": "Diddly Squat",
+    "author": "Jeremy Clarkson",
+    "narrator": "Jeremy Clarkson",
+    "runtimeMinutes": 152,
+    "price": 16.85,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 66,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51a5ObrX8mL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09J6BSG15",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities",
+      "Business & Careers"
+    ],
+    "releaseDate": "2021-11-11",
+    "publisher": "Penguin",
+    "description": "3 hours: \"Diddly Squat\" by Jeremy Clarkson is a shorter Biographies & Memoirs. Rated 5.0/5. Cost: $6.65/hour. A credit works well here.",
+    "runtimeHours": 2.5,
+    "valueScore": 0.75,
+    "costPerHour": 6.65,
+    "creditWorth": 1.13,
+    "adjustedValueScore": 3.15
   },
   {
     "asin": "B0B15L2LVB",
@@ -101998,6 +105290,32 @@
     "adjustedValueScore": 0.91
   },
   {
+    "asin": "B002V0K7QY",
+    "title": "Nelson Mandela's Favorite African Folktales",
+    "author": "Nelson Mandela",
+    "narrator": "Desmond Tutu, Alan Rickman, Whoopi Goldberg, Matt Damon, Parminder Nagra, Forest Whitaker, Sean Hayes, Charlize Theron, Benjamin Bratt, Scarlett Johansson, Ricardo Chavira, Debra Messing, LaTanya Richardson Jackson, Hugh Jackman, Gillian Anderson",
+    "runtimeMinutes": 223,
+    "price": 22.45,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 35,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Y7Dn33clL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V0K7QY",
+    "categories": [
+      "Children's Audiobooks",
+      "Fairy Tales, Folk Tales & Myths",
+      "African"
+    ],
+    "releaseDate": "2009-07-01",
+    "publisher": "Hachette Original",
+    "description": "4 hours: \"Nelson Mandela's Favorite African Folktales\" by Nelson Mandela is a shorter Children's Audiobooks. Rated 4.0/5. Cost: $6.04/hour. A credit works well here.",
+    "runtimeHours": 3.7,
+    "valueScore": 0.66,
+    "costPerHour": 6.04,
+    "creditWorth": 1.5,
+    "adjustedValueScore": 2.37
+  },
+  {
     "asin": "B004GF3ENK",
     "title": "Debt of Bones",
     "author": "Terry Goodkind",
@@ -102655,6 +105973,32 @@
     "valueScore": 0.58,
     "costPerHour": 7.79,
     "creditWorth": 1.38
+  },
+  {
+    "asin": "B0GVPMK4CR",
+    "title": "The Unwilling Love",
+    "author": "L. Steele",
+    "narrator": "Shane East, Evelyn Rose",
+    "runtimeMinutes": 130,
+    "price": 14.94,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 23,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51-oMgSgYIL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GVPMK4CR",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "literature-and-fiction"
+    ],
+    "releaseDate": "2026-04-02",
+    "publisher": "Laxmi Hariharan",
+    "description": "2 hours: \"The Unwilling Love\" by L. Steele is a shorter Romance. Rated 4.0/5. Cost: $6.90/hour. Buy directly for $14.94.",
+    "runtimeHours": 2.2,
+    "valueScore": 0.58,
+    "costPerHour": 6.9,
+    "creditWorth": 1,
+    "adjustedValueScore": 1.84
   },
   {
     "asin": "B00KY66UZY",
@@ -103805,6 +107149,32 @@
     "adjustedValueScore": 1.21
   },
   {
+    "asin": "B0H6BLCX39",
+    "title": "Shitty Best",
+    "author": "Pavel G. Somov",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 108,
+    "price": 19.15,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41U1jKKYjAL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H6BLCX39",
+    "categories": [
+      "Relationships, Parenting & Personal Development",
+      "Personal Development",
+      "Personal Success"
+    ],
+    "releaseDate": "2026-06-22",
+    "publisher": "I-Catching Books",
+    "description": "2 hours: \"Shitty Best\" by Pavel G. Somov is a shorter Relationships, Parenting & Personal Development. Rated 5.0/5. Cost: $10.64/hour. A credit works well here.",
+    "runtimeHours": 1.8,
+    "valueScore": 0.47,
+    "costPerHour": 10.64,
+    "creditWorth": 1.28,
+    "adjustedValueScore": 0.33
+  },
+  {
     "title": "He Put Her in First Class I Flew Private With His Boss",
     "author": "Sadie Shore",
     "narrator": "Virtual Voice",
@@ -104674,6 +108044,31 @@
     "description": "2 hours: \"Who Moved My Cheese?\" by Spencer Johnson, Kenneth Blanchard - introduction is a shorter Self-Help. Rated 5.0/5. Cost: $13.54/hour. A credit works well here."
   },
   {
+    "asin": "B0153XRK9W",
+    "title": "The Favorite",
+    "author": "Kiera Cass",
+    "narrator": "Arielle DeLisle",
+    "runtimeMinutes": 72,
+    "price": 14.78,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61c7D4Du1ZL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0153XRK9W",
+    "categories": [
+      "Teen & Young Adult",
+      "Romance"
+    ],
+    "releaseDate": "2015-10-13",
+    "publisher": "HarperCollins",
+    "description": "1 hours: \"The Favorite\" by Kiera Cass is a shorter Teen & Young Adult. Rated 4.5/5. Cost: $12.32/hour. Buy directly for $14.78.",
+    "runtimeHours": 1.2,
+    "valueScore": 0.37,
+    "costPerHour": 12.32,
+    "creditWorth": 0.99,
+    "adjustedValueScore": 0.81
+  },
+  {
     "asin": "B0HCKWMLYL",
     "title": "Millionaire Mindset Mastery for Wealth, Freedom, and Fulfillment",
     "author": "Zachary Price",
@@ -104722,6 +108117,58 @@
     "costPerHour": 14.48,
     "creditWorth": 0.94,
     "adjustedValueScore": 0.97
+  },
+  {
+    "asin": "B0H6T8VXNX",
+    "title": "He Cheated With Our Neighbor, I Rocked The Trailer With His Best Friend",
+    "author": "Tess Ava, Marci King",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 89,
+    "price": 21.38,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51tsNlo5KVL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H6T8VXNX",
+    "categories": [
+      "Literature & Fiction",
+      "Anthologies & Short Stories",
+      "Short Stories"
+    ],
+    "releaseDate": "2026-06-28",
+    "publisher": "Independently Published",
+    "description": "2 hours: \"He Cheated With Our Neighbor, I Rocked The Trailer With His Best Friend\" by Tess Ava, Marci King is a shorter Literature & Fiction. Rated 5.0/5. Cost: $14.41/hour. A credit works well here.",
+    "runtimeHours": 1.5,
+    "valueScore": 0.35,
+    "costPerHour": 14.41,
+    "creditWorth": 1.43,
+    "adjustedValueScore": 0.24
+  },
+  {
+    "asin": "B0H2QZ92N1",
+    "title": "CNC Breeding Gooning Material: My Sweet Goth Girlfriend Is College’s Favorite Cumslut",
+    "author": "Morrigan Vale",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 99,
+    "price": 18.92,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51m5drzUkGL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H2QZ92N1",
+    "categories": [
+      "Erotica",
+      "Literature & Fiction",
+      "tandem"
+    ],
+    "releaseDate": "2026-05-23",
+    "publisher": "Independently Published",
+    "description": "2 hours: \"CNC Breeding Gooning Material: My Sweet Goth Girlfriend Is College’s Favorite Cumslut\" by Morrigan Vale is a shorter Erotica. Rated 4.0/5. Cost: $11.47/hour. A credit works well here.",
+    "runtimeHours": 1.7,
+    "valueScore": 0.35,
+    "costPerHour": 11.47,
+    "creditWorth": 1.27,
+    "adjustedValueScore": 0.24
   },
   {
     "asin": "B0GYKQLH5V",
@@ -104824,6 +108271,32 @@
     "costPerHour": 13.27,
     "creditWorth": 1.3,
     "adjustedValueScore": 0.96
+  },
+  {
+    "asin": "B0H7CWV4SM",
+    "title": "Baby Maker For Best Friend's Daddy",
+    "author": "Jessie Halston",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 109,
+    "price": 23.86,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51BjQpV6qtL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H7CWV4SM",
+    "categories": [
+      "Erotica",
+      "Literature & Fiction",
+      "tandem"
+    ],
+    "releaseDate": "2026-07-02",
+    "publisher": "Independently Published",
+    "description": "2 hours: \"Baby Maker For Best Friend's Daddy\" by Jessie Halston is a shorter Erotica. Rated 4.5/5. Cost: $13.13/hour. A credit works well here.",
+    "runtimeHours": 1.8,
+    "valueScore": 0.34,
+    "costPerHour": 13.13,
+    "creditWorth": 1.6,
+    "adjustedValueScore": 0.47
   },
   {
     "title": "Fantastic Mr Fox",
@@ -105225,6 +108698,32 @@
     "costPerHour": 14.91,
     "creditWorth": 1.26,
     "adjustedValueScore": 0.33
+  },
+  {
+    "asin": "B002V1M24S",
+    "title": "Arthur's Audio Favorites, Volume 2",
+    "author": "Marc Brown",
+    "narrator": "Marc Brown",
+    "runtimeMinutes": 69,
+    "price": 18.92,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51HFaNsJBtL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V1M24S",
+    "categories": [
+      "Children's Audiobooks",
+      "Growing Up & Facts of Life",
+      "Social & Life Skills"
+    ],
+    "releaseDate": "2009-08-01",
+    "publisher": "Little, Brown Books for Young Readers",
+    "description": "1 hours: \"Arthur's Audio Favorites, Volume 2\" by Marc Brown is a shorter Children's Audiobooks. Rated 5.0/5. Cost: $16.45/hour. A credit works well here.",
+    "runtimeHours": 1.2,
+    "valueScore": 0.3,
+    "costPerHour": 16.45,
+    "creditWorth": 1.27,
+    "adjustedValueScore": 0.21
   },
   {
     "asin": "B0FJ2Y1GB8",
@@ -105756,6 +109255,32 @@
     "creditWorth": 1.24
   },
   {
+    "asin": "B002VAEMRE",
+    "title": "Arthur's Audio Favorites, Volume 1",
+    "author": "Marc Brown",
+    "narrator": "Marc Brown",
+    "runtimeMinutes": 71,
+    "price": 21.88,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/5143l65IDbL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002VAEMRE",
+    "categories": [
+      "Children's Audiobooks",
+      "Fairy Tales, Folk Tales & Myths",
+      "Growing Up & Facts of Life"
+    ],
+    "releaseDate": "2007-11-01",
+    "publisher": "Little, Brown Books for Young Readers",
+    "description": "1 hours: \"Arthur's Audio Favorites, Volume 1\" by Marc Brown is a shorter Children's Audiobooks. Rated 4.5/5. Cost: $18.49/hour. A credit works well here.",
+    "runtimeHours": 1.2,
+    "valueScore": 0.24,
+    "costPerHour": 18.49,
+    "creditWorth": 1.46,
+    "adjustedValueScore": 0.33
+  },
+  {
     "asin": "B00URXOQ1E",
     "title": "The Art of War",
     "author": "Sun Tzu",
@@ -105779,6 +109304,32 @@
     "costPerHour": 19.39,
     "creditWorth": 1.45,
     "description": "In The Art of War, Sun Tzu presents a thought-provoking exploration. This highly praised audiobook runs 1 hours and delivers deep insights for anyone interested in non-fiction. Brought to life by narrator Aidan Gillen.  Before you spend your Audible credit on The Art of War, check how it stacks up against our Value Score system. The Art of War has a Value Score of 0.2, costs $21.65, and runs 1.1 hours at $19.39 per hour of listening. At 1 hours with a highly praised rating, this is a marginal value for any audiobook lover."
+  },
+  {
+    "asin": "B002V1OO58",
+    "title": "Snow White and Other Children's Favorites",
+    "author": "Jacbo Grimm, Wilhelm Grimm, Hans Christian Andersen",
+    "narrator": "Catherine Lutz, David DuChene, Blair Mellow, James Mio",
+    "runtimeMinutes": 58,
+    "price": 17.25,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 13,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/511NqtCnxBL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V1OO58",
+    "categories": [
+      "Children's Audiobooks",
+      "Fairy Tales, Folk Tales & Myths",
+      "la_confidential"
+    ],
+    "releaseDate": "2007-12-30",
+    "publisher": "PC Treasures, Inc.",
+    "description": "1 hours: \"Snow White and Other Children's Favorites\" by Jacbo Grimm, Wilhelm Grimm, Hans Christian Andersen is a shorter Children's Audiobooks. Rated 4.0/5. Cost: $17.84/hour. A credit works well here.",
+    "runtimeHours": 1,
+    "valueScore": 0.22,
+    "costPerHour": 17.84,
+    "creditWorth": 1.15,
+    "adjustedValueScore": 0.58
   },
   {
     "asin": "B0CST7FMTG",
@@ -105829,6 +109380,58 @@
     "valueScore": 0.21,
     "costPerHour": 22.02,
     "creditWorth": 0.98
+  },
+  {
+    "asin": "B07HGG3JQY",
+    "title": "A Christmas Carol and Other Favorites",
+    "author": "Jim Weiss",
+    "narrator": "Jim Weiss",
+    "runtimeMinutes": 62,
+    "price": 22.54,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 7,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51kjR0KJ8EL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07HGG3JQY",
+    "categories": [
+      "Literature & Fiction",
+      "Classics",
+      "literature-and-fiction"
+    ],
+    "releaseDate": "2018-09-19",
+    "publisher": "Well-Trained Mind Press",
+    "description": "1 hours: \"A Christmas Carol and Other Favorites\" by Jim Weiss is a shorter Literature & Fiction. Rated 4.5/5. Cost: $21.81/hour. A credit works well here.",
+    "runtimeHours": 1,
+    "valueScore": 0.21,
+    "costPerHour": 21.81,
+    "creditWorth": 1.51,
+    "adjustedValueScore": 0.44
+  },
+  {
+    "asin": "B002V0K0XE",
+    "title": "The Three Little Pigs and Other Children's Favorites",
+    "author": "Joseph Jacobs, Beatrix Potter, L. Frank Baum",
+    "narrator": "David DuChene, Shawn Ryskamp, Jenny Day, Bart Allen Burger",
+    "runtimeMinutes": 53,
+    "price": 14.76,
+    "currency": "USD",
+    "starRating": 3.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51abDg4FPhL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V0K0XE",
+    "categories": [
+      "Children's Audiobooks",
+      "Animals & Nature",
+      "Animals"
+    ],
+    "releaseDate": "2007-12-30",
+    "publisher": "PC Treasures, Inc.",
+    "description": "1 hours: \"The Three Little Pigs and Other Children's Favorites\" by Joseph Jacobs, Beatrix Potter, L. Frank Baum is a shorter Children's Audiobooks. Rated 3.5/5. Cost: $16.71/hour. Buy directly for $14.76.",
+    "runtimeHours": 0.9,
+    "valueScore": 0.21,
+    "costPerHour": 16.71,
+    "creditWorth": 0.99,
+    "adjustedValueScore": 0.23
   },
   {
     "asin": "B00ZGUEK8M",
@@ -105957,6 +109560,32 @@
     "creditWorth": 1.01
   },
   {
+    "asin": "B0FX3CZXNH",
+    "title": "Daddy Will Spank",
+    "author": "Lynn Carlyle",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 49,
+    "price": 18.11,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41V5HqtZy7L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FX3CZXNH",
+    "categories": [
+      "Romance",
+      "Romantic Comedy",
+      "tandem"
+    ],
+    "releaseDate": "2025-10-21",
+    "publisher": "Independently Published",
+    "description": "1 hours: \"Daddy Will Spank\" by Lynn Carlyle is a shorter Romance. Rated 4.5/5. Cost: $22.18/hour. A credit works well here.",
+    "runtimeHours": 0.8,
+    "valueScore": 0.2,
+    "costPerHour": 22.18,
+    "creditWorth": 1.21,
+    "adjustedValueScore": 0.14
+  },
+  {
     "title": "The Fisherman and the Genie",
     "author": "Unknown, Audible Sleep",
     "narrator": "Prentice Onayemi",
@@ -106032,6 +109661,32 @@
     "adjustedValueScore": 0.21
   },
   {
+    "asin": "B00G959X0I",
+    "title": "Sleeping Cutie's Two Favorite Men",
+    "author": "Riley Rourke",
+    "narrator": "Pepper Laramie",
+    "runtimeMinutes": 55,
+    "price": 19.27,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 36,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51hyVsjfE8L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00G959X0I",
+    "categories": [
+      "Erotica",
+      "Literature & Fiction",
+      "la_confidential"
+    ],
+    "releaseDate": "2013-10-28",
+    "publisher": "Francis Ashe Publishing",
+    "description": "1 hours: \"Sleeping Cutie's Two Favorite Men\" by Riley Rourke is a shorter Erotica. Rated 4.0/5. Cost: $21.02/hour. A credit works well here.",
+    "runtimeHours": 0.9,
+    "valueScore": 0.19,
+    "costPerHour": 21.02,
+    "creditWorth": 1.29,
+    "adjustedValueScore": 0.69
+  },
+  {
     "asin": "B0HC7K5BVS",
     "title": "Sorkin' In It 5.7: Homecoming (Friday Night Lights S1E7)",
     "author": "H.G. Bissinger",
@@ -106082,6 +109737,58 @@
     "adjustedValueScore": 0.9
   },
   {
+    "asin": "B08GBGW1Z2",
+    "title": "Thirty Favorite Novenas",
+    "author": "The Benedictine Convent of Clyde Missouri",
+    "narrator": "Joe Hunninghake",
+    "runtimeMinutes": 43,
+    "price": 21.53,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51z3CTatOjL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B08GBGW1Z2",
+    "categories": [
+      "Religion & Spirituality",
+      "Christianity",
+      "Catholicism"
+    ],
+    "releaseDate": "2020-08-24",
+    "publisher": "TAN Books",
+    "description": "1 hours: \"Thirty Favorite Novenas\" by The Benedictine Convent of Clyde Missouri is a shorter Religion & Spirituality. Rated 5.0/5. Cost: $30.04/hour. A credit works well here.",
+    "runtimeHours": 0.7,
+    "valueScore": 0.17,
+    "costPerHour": 30.04,
+    "creditWorth": 1.44,
+    "adjustedValueScore": 0.12
+  },
+  {
+    "asin": "B09Q4CZVKX",
+    "title": "Pete the Cat Storybook Favorites: Groovy Adventures",
+    "author": "James Dean, Kimberly Dean",
+    "narrator": "James Fouhey",
+    "runtimeMinutes": 38,
+    "price": 17.07,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51XbsIfHb2L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09Q4CZVKX",
+    "categories": [
+      "Children's Audiobooks",
+      "Action & Adventure",
+      "Animals"
+    ],
+    "releaseDate": "2022-09-06",
+    "publisher": "HarperCollins",
+    "description": "1 hours: \"Pete the Cat Storybook Favorites: Groovy Adventures\" by James Dean, Kimberly Dean is a shorter Children's Audiobooks. Rated 4.5/5. Cost: $26.95/hour. A credit works well here.",
+    "runtimeHours": 0.6,
+    "valueScore": 0.17,
+    "costPerHour": 26.95,
+    "creditWorth": 1.14,
+    "adjustedValueScore": 0.19
+  },
+  {
     "asin": "B0FNWZRR24",
     "title": "Joe Explains the Stupid Yet Pioneering Naked Gun Franchise | Close Up E147",
     "author": "David Sedaris",
@@ -106104,6 +109811,32 @@
     "valueScore": 0.16,
     "costPerHour": 28.11,
     "creditWorth": 1.25
+  },
+  {
+    "asin": "B0CYDH8N66",
+    "title": "Cuckold Cleanup Chronicles - Housing Swap",
+    "author": "Raven Merlot",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 52,
+    "price": 22.04,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41Mo71IOUeL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CYDH8N66",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "tandem"
+    ],
+    "releaseDate": "2024-07-02",
+    "publisher": "Independently Published",
+    "description": "1 hours: \"Cuckold Cleanup Chronicles - Housing Swap\" by Raven Merlot is a shorter Romance. Rated 4.0/5. Cost: $25.43/hour. A credit works well here.",
+    "runtimeHours": 0.9,
+    "valueScore": 0.16,
+    "costPerHour": 25.43,
+    "creditWorth": 1.47,
+    "adjustedValueScore": 0.29
   },
   {
     "asin": "B01LXU6YDT",
@@ -106359,6 +110092,110 @@
     "adjustedValueScore": 0.19
   },
   {
+    "asin": "B0057HSE6S",
+    "title": "Nate the Great and the Monster Mess",
+    "author": "Marjorie Weinman Sharmat",
+    "narrator": "John Lavelle",
+    "runtimeMinutes": 17,
+    "price": 14.79,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 13,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51ohTgIFz1L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0057HSE6S",
+    "categories": [
+      "Children's Audiobooks",
+      "Literature & Fiction",
+      "Chapter Books & Readers"
+    ],
+    "releaseDate": "2011-07-12",
+    "publisher": "Listening Library",
+    "description": "0 hours: \"Nate the Great and the Monster Mess\" by Marjorie Weinman Sharmat is a shorter Children's Audiobooks. Rated 4.5/5. Cost: $52.20/hour. Buy directly for $14.79.",
+    "runtimeHours": 0.3,
+    "valueScore": 0.09,
+    "costPerHour": 52.2,
+    "creditWorth": 0.99,
+    "adjustedValueScore": 0.24
+  },
+  {
+    "asin": "B002V00WJ6",
+    "title": "Goldilocks and the Three Bears",
+    "author": "Joseph Jacobs, L. Frank Baum, Wilhelm Grimm, Jacob Grimm",
+    "narrator": "Jenny Day, Blair Mellow, Shawn Ryskamp",
+    "runtimeMinutes": 42,
+    "price": 22.5,
+    "currency": "USD",
+    "starRating": 3,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51u8-Lc3BUL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V00WJ6",
+    "categories": [
+      "Children's Audiobooks",
+      "Literature & Fiction",
+      "Classics"
+    ],
+    "releaseDate": "2008-01-14",
+    "publisher": "PC Treasures, Inc.",
+    "description": "1 hours: \"Goldilocks and the Three Bears\" by Joseph Jacobs, L. Frank Baum, Wilhelm Grimm, Jacob Grimm is a shorter Children's Audiobooks. Rated 3.0/5. Cost: $32.14/hour. A credit works well here.",
+    "runtimeHours": 0.7,
+    "valueScore": 0.09,
+    "costPerHour": 32.14,
+    "creditWorth": 1.51,
+    "adjustedValueScore": 0.1
+  },
+  {
+    "asin": "B0F6J6BYJD",
+    "title": "CNC Daddy: Breeding my Fiancé's Best Friend on a Live Stream",
+    "author": "Morrigan Vale",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 29,
+    "price": 17.56,
+    "currency": "USD",
+    "starRating": 3,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Xnf5XrMoL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F6J6BYJD",
+    "categories": [
+      "Erotica",
+      "Literature & Fiction",
+      "tandem"
+    ],
+    "releaseDate": "2026-05-08",
+    "publisher": "Independently Published",
+    "description": "1 hours: \"CNC Daddy: Breeding my Fiancé's Best Friend on a Live Stream\" by Morrigan Vale is a shorter Erotica. Rated 3.0/5. Cost: $36.33/hour. A credit works well here.",
+    "runtimeHours": 0.5,
+    "valueScore": 0.08,
+    "costPerHour": 36.33,
+    "creditWorth": 1.17,
+    "adjustedValueScore": 0.06
+  },
+  {
+    "asin": "B0CZLVK3QV",
+    "title": "Cenicienta [Cinderella]",
+    "author": "Cari Meister, Carolina Farías - illustrator, Valentina Belloni, Eva Montanari, Polona Kosec, Aparicio Publishing LLC",
+    "narrator": "uncredited",
+    "runtimeMinutes": 15,
+    "price": 14.27,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51F61nxbWzL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CZLVK3QV",
+    "categories": [
+      "Children's Audiobooks",
+      "Fairy Tales, Folk Tales & Myths",
+      "Geography & Cultures"
+    ],
+    "releaseDate": "2024-05-01",
+    "publisher": "Picture Window Books",
+    "description": "0 hours: \"Cenicienta [Cinderella]\" by Cari Meister, Carolina Farías - illustrator, Valentina Belloni, Eva Montanari, Polona Kosec, Aparicio Publishing LLC is a shorter Children's Audiobooks. Rated 4.5/5. Cost: $57.08/hour. Buy directly for $14.27.",
+    "runtimeHours": 0.3,
+    "valueScore": 0.08,
+    "costPerHour": 57.08,
+    "creditWorth": 0.95,
+    "adjustedValueScore": 0.13
+  },
+  {
     "asin": "B0HD99J27Q",
     "title": "#44: The One Minute Manager",
     "author": "Kenneth Blanchard",
@@ -106562,6 +110399,32 @@
     "adjustedValueScore": 0.03
   },
   {
+    "asin": "B0CZBSRX4W",
+    "title": "Blancanieves [Snow White]",
+    "author": "Jessica Gunderson, Colleen Madden - illustrator, Eva Montanari, Valentina Belloni, Carolina Farías, Aparicio Publishing LLC",
+    "narrator": "uncredited",
+    "runtimeMinutes": 16,
+    "price": 20.95,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Wzz6RQYnL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CZBSRX4W",
+    "categories": [
+      "Children's Audiobooks",
+      "Fairy Tales, Folk Tales & Myths",
+      "Geography & Cultures"
+    ],
+    "releaseDate": "2024-04-18",
+    "publisher": "Picture Window Books",
+    "description": "0 hours: \"Blancanieves [Snow White]\" by Jessica Gunderson, Colleen Madden - illustrator, Eva Montanari, Valentina Belloni, Carolina Farías, Aparicio Publishing LLC is a shorter Children's Audiobooks. Rated 4.0/5. Cost: $78.56/hour. A credit works well here.",
+    "runtimeHours": 0.3,
+    "valueScore": 0.05,
+    "costPerHour": 78.56,
+    "creditWorth": 1.4,
+    "adjustedValueScore": 0.03
+  },
+  {
     "title": "Calm, Organized Finances",
     "author": "Verda Geis",
     "narrator": "Rhonda Pownall",
@@ -106609,6 +110472,32 @@
     "valueScore": 0.04,
     "costPerHour": 113,
     "creditWorth": 1.13
+  },
+  {
+    "asin": "B0058OUU58",
+    "title": "Nate the Great",
+    "author": "Marjorie Weinman Sharmat",
+    "narrator": "John Lavelle",
+    "runtimeMinutes": 13,
+    "price": 22.7,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51TT43Bvv7L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0058OUU58",
+    "categories": [
+      "Children's Audiobooks",
+      "Literature & Fiction",
+      "Chapter Books & Readers"
+    ],
+    "releaseDate": "2011-07-12",
+    "publisher": "Listening Library",
+    "description": "0 hours: \"Nate the Great\" by Marjorie Weinman Sharmat is a shorter Children's Audiobooks. Rated 4.5/5. Cost: $104.77/hour. A credit works well here.",
+    "runtimeHours": 0.2,
+    "valueScore": 0.04,
+    "costPerHour": 104.77,
+    "creditWorth": 1.52,
+    "adjustedValueScore": 0.06
   },
   {
     "asin": "B0C749CC2C",
