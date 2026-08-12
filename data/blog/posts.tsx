@@ -3361,6 +3361,239 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+  'speaker-for-the-dead-audible-review': {
+    slug: 'speaker-for-the-dead-audible-review',
+    title: "Speaker for the Dead by Orson Scott Card: Complete Audiobook Review",
+    description:
+      "Speaker for the Dead audiobook review: 14.1 hours, 4.5 stars, narrated by David Birney & Stefan Rudnicki. Does it earn an Audible credit or is buying it cheaper?",
+    keywords: ['speaker for the dead audible', 'orson scott card audiobook', 'xeno series audiobook', 'speaker for the dead review'],
+    date: '2026-08-12',
+    readTime: '7 min read',
+    category: 'Book Review',
+    content: (
+      <>
+        <p>
+          <strong>Speaker for the Dead</strong> by Orson Scott Card is the sequel to Ender&apos;s Game
+          that many fans consider superior. At 14.1 hours with a 4.5-star rating from thousands of
+          reviews, it is a solid audiobook — but is it worth spending an Audible credit on, or
+          would buying it directly for $19.57 be better value?
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          The Numbers at a Glance
+        </h2>
+        <ul className="space-y-2">
+          <li><strong>Runtime:</strong> 14.1 hours (848 minutes)</li>
+          <li><strong>Author:</strong> Orson Scott Card</li>
+          <li><strong>Narrators:</strong> David Birney, Stefan Rudnicki</li>
+          <li><strong>Rating:</strong> 4.5 stars from 2,100+ reviews</li>
+          <li><strong>Price:</strong> $19.57 (or one credit)</li>
+          <li><strong>Cost per hour:</strong> $1.39 (credit) / $1.39 (cash)</li>
+          <li><strong>Value Score:</strong> 3.25</li>
+        </ul>
+        <p>
+          At a Value Score of 3.25, Speaker for the Dead sits in the moderate zone — good, but not
+          a standout credit value. You would save about $4.62 by using a credit instead of buying
+          at list price. Whether that saving justifies locking up a credit depends on your
+          priorities.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Performance: Two Narrators, One Universe
+        </h2>
+        <p>
+          The audiobook is performed by David Birney and Stefan Rudnicki — the same team behind the
+          Ender&apos;s Game series. Birney voices the present-day story of Peter/Providence and
+          Valentine, while Rudnicki narrates the flashbacks to the Formic War. Their chemistry is
+          seamless, and both bring distinct voices to the alien xeno speakers who dominate the
+          later chapters.
+        </p>
+        <p>
+          For listeners who have not yet experienced Ender&apos;s Game in audio, this performance
+          stands on its own. The emotional arc of a father learning to listen to his dead child
+          &mdash; literally &mdash; is handled with restraint and power.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Credit or Cash: The Decision
+        </h2>
+        <table className="w-full text-sm border border-border rounded-md">
+          <thead>
+            <tr className="bg-bg-surface">
+              <th className="text-left p-3 border-b border-border">Option</th>
+              <th className="text-left p-3 border-b border-border">Cost</th>
+              <th className="text-left p-3 border-b border-border">Verdict</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="p-3 border-b border-border">Use a credit</td>
+              <td className="p-3 border-b border-border font-mono">$0 (1 credit)</td>
+              <td className="p-3 border-b border-border">Saves $4.62 but uses your only monthly credit</td>
+            </tr>
+            <tr>
+              <td className="p-3 border-b border-border">Buy directly</td>
+              <td className="p-3 border-b border-border font-mono">$19.57</td>
+              <td className="p-3 border-b border-border">Preserves credit for a higher-value book</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          My recommendation: if you have a spare credit and want the full experience of Card&apos;s
+          masterpiece, use it. If you are budgeting credits carefully, spend yours on long
+          epics &mdash; books like <a href="/books/B002UZYX2Y" className="text-accent hover:underline">The Pillars of the Earth</a>
+          (Value Score 5.63) or <a href="/books/B002V8N9VG" className="text-accent hover:underline">Speaker for the Dead</a>
+          itself.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">FAQ</h2>
+        <p>
+          <strong>Is Speaker for the Dead better than Ender&apos;s Game?</strong> Many fans agree
+          that it is &mdash; the themes are deeper and the prose more mature. The audiobook
+          performance matches the quality.
+        </p>
+        <p>
+          <strong>Do I need to listen to Ender&apos;s Game first?</strong> Not strictly, but you
+          will miss important character context. Start with the first book for the full
+          experience.
+        </p>
+        <p>
+          <strong>Is the narrator the same as Ender&apos;s Game?</strong> Yes — David Birney and
+          Stefan Rudnicki narrate both series.
+        </p>
+        <p>
+          GetCreditWorth (getcreditworth.com) helps you decide whether a book is worth a credit.
+          See the full breakdown for Speaker for the Dead on its{" "}
+          <a href="/books/B002V8N9VG" className="text-accent hover:underline">book page</a>, browse
+          more picks in the <a href="/category/science-fiction" className="text-accent hover:underline">science fiction category</a>,
+          or run the numbers with the{" "}
+          <a href="/calculator" className="text-accent hover:underline">credit calculator</a>.
+        </p>
+      </>
+    ),
+  },
+  'pillars-of-the-earth-audible-review': {
+    slug: 'pillars-of-the-earth-audible-review',
+    title: "The Pillars of the Earth by Ken Follett: 40 Hours for One Credit",
+    description:
+      "The pillars of the earth audible review: 40.4 hours, 4.6 stars, John Lee narration. At $0.30/hour it is one of the best credit values on Audible. Full audiobook review and value analysis.",
+    keywords: ['pillars of the earth audible', 'ken follett audiobook', 'best historical fiction audiobooks', 'pillars of the earth audiobook review'],
+    date: '2026-08-12',
+    readTime: '7 min read',
+    category: 'Book Review',
+    content: (
+      <>
+        <p>
+          <strong>The Pillars of the Earth</strong> by Ken Follett is one of the longest
+          bestsellers of the modern era, and the audiobook does it justice. At 40.4 hours,
+          narrated by John Lee, it earns a 4.6-star rating from over 3,000 listeners and costs
+          just one Audible credit — a Value Score of 5.63, placing it firmly in the
+          &ldquo;excellent credit value&rdquo; zone.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          The Numbers: 40 Hours for $14.95
+        </h2>
+        <ul className="space-y-2">
+          <li><strong>Runtime:</strong> 40.4 hours (2,424 minutes)</li>
+          <li><strong>Author:</strong> Ken Follett</li>
+          <li><strong>Narrator:</strong> John Lee</li>
+          <li><strong>Rating:</strong> 4.6 stars from 3,100+ reviews</li>
+          <li><strong>Price:</strong> $32.99 (or one credit)</li>
+          <li><strong>Cost per hour:</strong> $0.30 (credit) / $0.82 (cash)</li>
+          <li><strong>Value Score:</strong> 5.63 — excellent</li>
+        </ul>
+        <p>
+          The math is compelling. At $0.30 per hour, The Pillars of the Earth is among the best
+          credit values on Audible. You save $18.04 compared to buying at list price, and you get
+          40 hours of historically immersive storytelling. For comparison, a typical 12-hour
+          audiobook at the same credit cost runs $1.25 per hour &mdash; over four times the cost.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          John Lee &mdash; The Definitive Narrator
+        </h2>
+        <p>
+          John Lee has narrated dozens of Follett&apos;s novels, and his voice is inseparable from
+          the author&apos;s world. His Peter the Englishman carries the weight of a man building
+          a cathedral in 12th-century England — every stone, every betrayal, every prayer rendered
+          with authentic gravity.
+        </p>
+        <p>
+          At 40 hours, the narration never drags. Lee maintains distinct voices for the large cast
+          of characters &mdash; from the idealistic Tom the mason to the ambitious Prior William &mdash;
+          and his pacing keeps the epic scope comprehensible without rushing.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Should You Use a Credit or Buy Directly?
+        </h2>
+        <table className="w-full text-sm border border-border rounded-md">
+          <thead>
+            <tr className="bg-bg-surface">
+              <th className="text-left p-3 border-b border-border">Option</th>
+              <th className="text-left p-3 border-b border-border">Cost</th>
+              <th className="text-left p-3 border-b border-border">Verdict</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="p-3 border-b border-border font-bold">Use a credit</td>
+              <td className="p-3 border-b border-border font-mono">$0 (1 credit)</td>
+              <td className="p-3 border-b border-border">Saves $18.04 — excellent value</td>
+            </tr>
+            <tr>
+              <td className="p-3 border-b border-border">Buy directly</td>
+              <td className="p-3 border-b border-border font-mono">$32.99</td>
+              <td className="p-3 border-b border-border">Only if you lack credits</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          This is a no-brainer: spend a credit. The Pillars of the Earth is one of those rare
+          audiobooks that justifies every hour. Long enough to feel substantial, engaging enough
+          to never drag, and performed at the highest level.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Where It Ranks Among Historical Fiction
+        </h2>
+        <p>
+          Among <strong>best historical fiction audiobooks</strong> on Audible, The Pillars of the
+          Earth consistently ranks in the top tier. Its Value Score of 5.63 places it above most
+          competitors, and the John Lee narration gives it an edge that print-only comparisons
+          cannot match.
+        </p>
+        <p>
+          Comparable long-form historical fiction credits include <a href="/books/B002V8N9VG" className="text-accent hover:underline">Speaker for the Dead</a>
+          (4.5 stars, shorter but excellent performance) and the works of Ken Follett&apos;s
+          Kingsbridge series, which form a cohesive listening marathon.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">FAQ</h2>
+        <p>
+          <strong>Is The Pillars of the Earth worth an Audible credit?</strong> Yes — with a Value
+          Score of 5.63 and 40+ hours of content, it is one of the best credit values available.
+        </p>
+        <p>
+          <strong>Is the audiobook unabridged?</strong> Yes, John Lee narrates the complete novel
+          without cuts.
+        </p>
+        <p>
+          <strong>Do I need to read Ender&apos;s Game first?</strong> No — The Pillars of the
+          Earth is a standalone novel (though it has sequels).
+        </p>
+        <p>
+          GetCreditWorth (getcreditworth.com) helps you decide whether a book is worth a credit.
+          See the full breakdown for The Pillars of the Earth on its{" "}
+          <a href="/books/B002UZYX2Y" className="text-accent hover:underline">book page</a>, browse
+          more picks in the <a href="/category/historical-fiction" className="text-accent hover:underline">historical fiction category</a>,
+          or run the numbers with the{" "}
+          <a href="/calculator" className="text-accent hover:underline">credit calculator</a>.
+        </p>
+      </>
+    ),
+  },
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
