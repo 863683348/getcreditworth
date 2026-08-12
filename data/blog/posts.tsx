@@ -3258,6 +3258,109 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+  'a-promised-land-audiobook-review': {
+    slug: 'a-promised-land-audiobook-review',
+    title: 'A Promised Land by Barack Obama: 29 Hours of Insight',
+    description:
+      'A promised land audiobook review that weighs 29 hours of Obama reading his own memoir against one Audible credit. The White House years, the backroom politics, and why the narrator makes the difference.',
+    keywords: ['a promised land audiobook review', 'barack obama audiobook', 'political memoirs audiobook', 'a promised land audible'],
+    date: '2026-08-12',
+    readTime: '6 min read',
+    category: 'Book Review',
+    content: (
+      <>
+        <p>
+          This <strong>a promised land audiobook review</strong> starts with a confession: I came
+          for the politics and stayed for the voice. 29 hours and 9 minutes of Barack Obama
+          reading his own memoir, one Audible credit, roughly $0.34 an hour. If you are weighing
+          <strong> political memoirs audiobooks</strong> this year, this is the one everyone
+          compares everything else to. Here is why it mostly deserves that.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          The narrator is the whole game
+        </h2>
+        <p>
+          Most memoirs get a professional narrator. Fine for most books, but for a president who
+          built his public image on how he speaks, a stand-in would be a crime. Obama reads it
+          himself, and it changes what you get out of the book. The deadpan delivery on the 2008
+          campaign chaos, the slight pause before he lands a joke about Mitch McConnell, the
+          weight in his voice when he talks about kids in cages. None of that survives in print.
+        </p>
+        <p>
+          The trade-off is pace. Obama reads like he talks, deliberate, careful, occasionally
+          circling. A print reader can skim a passage in two minutes that takes him six. You do
+          not listen to this book for speed. You listen for the man explaining his own decisions
+          in his own cadence.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          What the 29 hours actually cover
+        </h2>
+        <p>
+          Volume one ends in May 2011, with the bin Laden raid. That means no second term, no
+          Obamacare aftermath, no Trump. What you get instead: the 2004 convention speech that
+          made him, the 2008 primary fight against Hillary Clinton, the financial crisis
+          response, and the long grind of healthcare reform. If you want the second term, you
+          wait for the volume he keeps promising.
+        </p>
+        <ul className="space-y-2">
+          <li><strong>Runtime:</strong> 29 hours 9 minutes</li>
+          <li><strong>Cash price:</strong> $42.98, or one credit</li>
+          <li><strong>Cost per hour:</strong> $0.34</li>
+          <li><strong>Rating:</strong> 4.8 stars from 30,000+ ratings</li>
+          <li><strong>Narrator:</strong> Barack Obama himself</li>
+          <li><strong>Coverage:</strong> 2004 to May 2011</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          For whom this earns a credit
+        </h2>
+        <p>
+          Three groups get real value here. Politics junkies who want the inside version of the
+          2008-2011 story. Audiobook listeners who value a self-narrated memoir, which is a
+          shrinking category. And anyone who has read the print version, because the audio adds a
+          layer the page cannot. The audience it does not serve: people who want a fast
+          history lesson. This is a memoir, not a summary, and it lingers.
+        </p>
+        <p>
+          Honest caveat: the book is not a tell-all. Obama is generous with former rivals and
+          sparing with blame. Critics have noted he leaves out as much as he reveals. If you are
+          shopping for a scandalous political memoir audiobook, look elsewhere. If you want the
+          measured, first-person record of the first two years of a presidency, this is the
+          definitive one.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">FAQ</h2>
+        <p>
+          <strong>Is A Promised Land worth an Audible credit?</strong> Yes, if the 2008-2011
+          period interests you. 29 hours at $0.34 an hour, self-narrated, 4.8 stars. It is one of
+          the strongest political memoir values on Audible.
+        </p>
+        <p>
+          <strong>Do I need to know US politics to follow it?</strong> Not deeply. He explains the
+          players and the stakes as he goes. Some context helps, but the book stands alone.
+        </p>
+        <p>
+          <strong>Why does the audio version matter so much?</strong> Because Obama narrates it
+          himself. The delivery, the pauses, the dry humor, they are part of the content. Print
+          and audio are genuinely different experiences here.
+        </p>
+        <p>
+          <strong>Is there a volume two?</strong> Not yet. Volume one ends in May 2011. Obama has
+          said a second volume is coming, but there is no release date.
+        </p>
+        <p>
+          GetCreditWorth (getcreditworth.com) helps you decide whether a book is worth a credit.
+          See the full breakdown for A Promised Land on its{" "}
+          <a href="/books/0525633723" className="text-accent hover:underline">book page</a>, browse
+          more picks in the <a href="/category/biography" className="text-accent hover:underline">biography category</a>,
+          or run the numbers with the{" "}
+          <a href="/calculator" className="text-accent hover:underline">credit calculator</a>.
+        </p>
+      </>
+    ),
+  },
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
