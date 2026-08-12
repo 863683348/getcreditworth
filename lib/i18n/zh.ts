@@ -12,6 +12,7 @@ export const zh = {
     series: "系列",
     calculator: "计算器",
     blog: "博客",
+    guide: "指南",
     favorites: "收藏",
     compare: "对比",
     dataset: "数据集",

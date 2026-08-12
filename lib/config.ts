@@ -23,6 +23,7 @@ export const NAV_ITEMS = [
   { label: 'Series', href: '/series', icon: 'BookOpen' as const },
   { label: 'Calculator', href: '/calculator', icon: 'Calculator' as const },
   { label: 'Blog', href: '/blog', icon: 'FileText' as const },
+  { label: 'Guides', href: '/guide/audible-credit-value', icon: 'Compass' as const },
   { label: 'Favorites', href: '/favorites', icon: 'Bookmark' as const },
   { label: 'Compare', href: '/compare', icon: 'GitCompare' as const },
 ] as const;

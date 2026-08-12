@@ -12,6 +12,7 @@ export const en = {
     series: 'Series',
     calculator: 'Calculator',
     blog: 'Blog',
+    guide: 'Guides',
     favorites: 'Favorites',
     compare: 'Compare',
     dataset: 'Dataset',

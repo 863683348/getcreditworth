@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: baseUrl + "/curated", lastModified: new Date(), changeFrequency: "weekly", priority: 0.7 },
     { url: baseUrl + "/calculator", lastModified: new Date(), changeFrequency: "monthly", priority: 0.6 },
     { url: baseUrl + "/blog", lastModified: new Date(), changeFrequency: "weekly", priority: 0.6 },
+    { url: baseUrl + "/guide/audible-credit-value", lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
     { url: baseUrl + "/about", lastModified: new Date(), changeFrequency: "monthly", priority: 0.3 },
     { url: baseUrl + "/series", lastModified: new Date(), changeFrequency: "weekly", priority: 0.7 },
     { url: baseUrl + "/category", lastModified: new Date(), changeFrequency: "weekly", priority: 0.7 },
