@@ -3,6 +3,7 @@ import { getTopBookList } from "@/lib/api/controllers/book.controller";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import { FaqPageJsonLd, BreadcrumbListJsonLd, WebsiteJsonLd } from "@/components/seo/JsonLd";
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -209,13 +210,13 @@ export default function AudibleCreditValueGuide() {
             <strong>Choose highly-rated titles (4.5★+)</strong> — time spent listening should be worth it
           </li>
           <li>
-            <strong>Target expensive books ($25–$50)</strong> — that's where credits save the most
+            <strong>Target expensive books ($25–$50)</strong> — that&apos;s where credits save the most
           </li>
           <li>
             <strong>Use the Premium Plus 2 plan</strong> if you listen to 2+ books/month
           </li>
           <li>
-            <strong>Return what you don't love</strong> — 365-day return window, credits restored instantly
+            <strong>Return what you don&apos;t love</strong> — 365-day return window, credits restored instantly
           </li>
         </ol>
       </section>
@@ -236,9 +237,11 @@ export default function AudibleCreditValueGuide() {
             >
               <div className="flex gap-3">
                 {book.coverImageUrl && (
-                  <img
+                  <Image
                     src={book.coverImageUrl}
                     alt={`${book.title} cover`}
+                    width={48}
+                    height={64}
                     className="w-12 h-16 object-cover rounded flex-shrink-0"
                   />
                 )}
