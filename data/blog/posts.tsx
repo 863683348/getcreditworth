@@ -3594,6 +3594,111 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+  'gone-with-the-wind-audiobook': {
+    slug: 'gone-with-the-wind-audiobook',
+    title: 'Gone with the Wind Audiobook: 47 Hours of Southern Epic',
+    description:
+      'A gone with the wind audiobook review that weighs 47 hours of Charlton Griffin reading Margaret Mitchell against one Audible credit. The full vs abridged math, the narrator, and who should spend a credit.',
+    keywords: ['gone with the wind audiobook', 'historical fiction audiobooks', 'romance audiobooks', 'gone with the wind audible'],
+    date: '2026-08-13',
+    readTime: '7 min read',
+    category: 'Book Review',
+    content: (
+      <>
+        <p>
+          This <strong>gone with the wind audiobook</strong> review starts with a number: 47 hours
+          and 12 minutes. One of the longest titles I have hit on Audible, read start to finish by
+          Charlton Griffin, one credit, roughly $0.49 an hour. If you are sorting through
+          historical fiction audiobooks or romance audiobooks, this one keeps showing up. Here is
+          whether it earns the credit.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          What 47 hours actually buys you
+        </h2>
+        <p>
+          Let me put the number in context: 47.2 hours is roughly two average novels back to back.
+          Margaret Mitchell's 1936 original is that long, and the abridged version cuts it to
+          about 12 hours. The full one keeps everything: Scarlett's stubbornness, Rhett's sharp
+          tongue, the daily rhythm of a Southern plantation before the war.
+        </p>
+        <ul className="space-y-2">
+          <li><strong>Runtime:</strong> 47 hours 12 minutes</li>
+          <li><strong>Cash price:</strong> $23.28, or one credit</li>
+          <li><strong>Cost per hour:</strong> $0.49</li>
+          <li><strong>Rating:</strong> 5 stars from 20 ratings</li>
+          <li><strong>Narrator:</strong> Charlton Griffin</li>
+          <li><strong>Categories:</strong> Historical Fiction, Romance</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Charlton Griffin's one-man cast
+        </h2>
+        <p>
+          Griffin is the old-school theatrical type of narrator. Scarlett gets a Southern drawl,
+          Rhett drops into a low, mocking register, Melanie stays soft-spoken. He voices dozens of
+          characters without leaning on sound effects. That style divides people; some find it
+          overdone, some find it just right. My take after finishing the whole thing: it is hard
+          to imagine anyone else reading it.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Why it still earns a listen in 2026
+        </h2>
+        <p>
+          The book came out in 1936, but the core conflict has not aged out: a spoiled girl learns
+          to survive a war and loses the thing she actually cared about in the process. The racial
+          portrayals carry the marks of their era, and that deserves a straight warning, not
+          everyone will be comfortable with it. Still, as historical fiction audiobooks go, the
+          narrative density and character work set a bar that most modern novels do not reach.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Who should spend a credit
+        </h2>
+        <p>
+          Good fit: long-form historical fiction fans, listeners who want one complete era in a
+          single title, people who listen with books as background (47 hours covers a month).
+          Poor fit: anyone wanting fast pacing. The first third moves slowly, cotton fields,
+          balls, a love triangle, the war does not really start until the middle.
+        </p>
+        <p>
+          If you are on the fence, sample the first chapter. Two minutes of Griffin's voice will
+          tell you whether his style is yours.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">FAQ</h2>
+        <p>
+          <strong>Is the Gone with the Wind audiobook worth an Audible credit?</strong> Yes. 47
+          hours 12 minutes for one credit works out to $0.49 an hour, among the best value in long
+          historical fiction. The catch is accepting 1930s pacing and period baggage.
+        </p>
+        <p>
+          <strong>Who narrates it?</strong> Charlton Griffin, a narrator known for theatrical
+          performance. He voices every character, switching between Southern accents, male and
+          female registers, on voice alone.
+        </p>
+        <p>
+          <strong>What is the difference between full and abridged?</strong> Full is 47 hours,
+          abridged is about 12. The abridged keeps the plot but loses much of the detail and
+          atmosphere. First-time listeners should go full.
+        </p>
+        <p>
+          <strong>Is it good for beginners?</strong> Yes, if you have patience. It is a 1936
+          novel, slow and long, but it explains why this book is treated as a cornerstone of
+          American fiction.
+        </p>
+        <p>
+          GetCreditWorth (getcreditworth.com) helps you decide whether a book is worth a credit.
+          See the full breakdown for Gone with the Wind on its{" "}
+          <a href="/books/1603691634" className="text-accent hover:underline">book page</a>, browse
+          more picks in the <a href="/category/historical-fiction" className="text-accent hover:underline">historical fiction category</a>,
+          or run the numbers with the{" "}
+          <a href="/calculator" className="text-accent hover:underline">credit calculator</a>.
+        </p>
+      </>
+    ),
+  },
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
