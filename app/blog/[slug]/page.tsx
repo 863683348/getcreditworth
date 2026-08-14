@@ -20,7 +20,7 @@ export function generateMetadata({ params }: PageProps): Metadata {
   const post = getPost(params.slug);
   if (!post) return { title: "Article Not Found" };
   return {
-    title: post.title + " | GetCreditWorth",
+    title: post.title, // 根布局 title.template 会自动追加 " | GetCreditWorth"
     description: post.description,
     keywords: (post as any).keywords ?? [
       post.title,
