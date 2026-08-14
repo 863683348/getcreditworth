@@ -3699,6 +3699,291 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+  'the-running-grave-audiobook-review': {
+    slug: 'the-running-grave-audiobook-review',
+    title: 'The Running Grave: Robert Galbraith Mystery Worth a Credit?',
+    description:
+      'A the running grave audiobook review covering Robert Galbraith\'s 39-hour Cormoran Strike thriller and whether it is worth an Audible credit. Runtime, narration, value, and verdict.',
+    keywords: ['the running grave audiobook review', 'robert galbraith audiobooks', 'best thriller audiobooks'],
+    date: '2026-08-14',
+    readTime: '9 min read',
+    category: 'Book Review',
+    content: (
+      <>
+        <p>
+          If you are weighing a <strong>the running grave audiobook review</strong> against your
+          monthly Audible credit, you have picked a heavy one, literally. Robert Galbraith&apos;s
+          seventh Cormoran Strike novel runs close to 39 hours on audio, which makes the
+          credit-or-cash question more interesting than usual. I spent the better part of two
+          weeks with it on commutes and evening dog walks, and the experience left me with a
+          clear verdict: this is a credit well spent, but only for the right listener.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Robert Galbraith audiobooks: where The Running Grave fits
+        </h2>
+        <p>
+          The Cormoran Strike series has a rhythm. Each book is longer than the last, and The
+          Running Grave is the longest yet. If you have read the earlier entries, you already
+          know the setup: Strike is the limping private eye with a knack for uncomfortable
+          truths, Robin is his partner who does the undercover work nobody else survives, and
+          the cases sprawl into corners of British life most crime writers ignore.
+        </p>
+        <p>
+          What I like about Galbraith&apos;s writing on audio is the patience. These are not
+          tidy puzzle boxes. They are slow, detailed, and oddly comforting once you settle in.
+          The Running Grave leans harder into that than any previous book, which is exactly why
+          the runtime matters for credit planning.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          The story, minus the spoilers
+        </h2>
+        <p>
+          A young man walks into the agency and asks Strike to find his sister, who joined a
+          closed community in Norfolk and cut off her family. What follows pulls Robin deep
+          undercover inside a group that does not welcome questions. I will not say more, except
+          that the cult plot is the most unsettling thing Galbraith has written, and it pays off
+          in a way the slower middle section earns.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Is the credit worth it? The numbers
+        </h2>
+        <p>
+          GetCreditWorth is built on a simple idea: one credit should buy one audiobook, so the
+          value is the book you get for it. Here is how The Running Grave stacks up.
+        </p>
+        <table className="w-full text-sm my-6 border border-border rounded-md overflow-hidden">
+          <thead className="bg-bg-surface">
+            <tr>
+              <th className="text-left p-3 border-b border-border">Metric</th>
+              <th className="text-left p-3 border-b border-border">The Running Grave</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="p-3 border-b border-border">Runtime</td>
+              <td className="p-3 border-b border-border">~39 hours</td>
+            </tr>
+            <tr>
+              <td className="p-3 border-b border-border">Cash price</td>
+              <td className="p-3 border-b border-border">$34.99, or one credit</td>
+            </tr>
+            <tr>
+              <td className="p-3 border-b border-border">Cost per hour</td>
+              <td className="p-3 border-b border-border">about $0.90</td>
+            </tr>
+            <tr>
+              <td className="p-3">Narrator</td>
+              <td className="p-3">Robert Glenister</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          At roughly 39 hours for a single credit, the cost per listening hour lands near $0.90.
+          That is not the cheapest title in the catalog, but it is squarely in the sweet spot
+          for long-form crime, and far better value than spending cash on it directly.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Robert Glenister&apos;s narration
+        </h2>
+        <p>
+          Glenister has read the whole series, and that continuity is a quiet advantage. Strike
+          gets a worn, careful voice; Robin stays precise and dry. The cult members are where he
+          does his real work, shifting registers without ever tipping into caricature. I found
+          myself slowing the speed to 1.0x just to hear him land a line. If you liked his work on
+          the earlier books, nothing here will disappoint.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Best thriller audiobooks for a long commute
+        </h2>
+        <p>
+          If you judge thrillers by how many drives they fill, The Running Grave belongs on any
+          list of the best thriller audiobooks for a long stretch of listening. It asks for
+          patience in the middle, but the final quarter is relentless. Compared with shorter
+          pace-first thrillers, it rewards the listener who actually finishes it, which is the
+          whole point of spending a credit on something this size.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Who should spend a credit
+        </h2>
+        <ul className="space-y-2">
+          <li><strong>Good fit:</strong> fans of long, character-driven crime; anyone partway
+          through the Strike series; listeners who want one title to cover weeks of commuting.</li>
+          <li><strong>Poor fit:</strong> people who need fast plots; anyone starting the series
+          here (begin with The Cuckoo&apos;s Calling first).</li>
+          <li><strong>Best value:</strong> use a credit, never pay $34.99 cash.</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">FAQ</h2>
+        <p>
+          <strong>Is The Running Grave worth an Audible credit?</strong> Yes, for series fans and
+          long-form listeners. At ~39 hours for one credit, the per-hour cost beats paying cash,
+          and the payoff in the final section justifies the slow build.
+        </p>
+        <p>
+          <strong>Do I need to read the earlier Robert Galbraith audiobooks first?</strong> Ideally
+          yes. The characters carry years of history, and starting here will spoil earlier cases.
+          The Cuckoo&apos;s Calling is the natural entry point.
+        </p>
+        <p>
+          <strong>Who narrates it?</strong> Robert Glenister, who has narrated every Cormoran
+          Strike book. His steady, character-aware performance is part of the appeal.
+        </p>
+        <p>
+          <strong>Is it too long for a casual listener?</strong> If you only listen in short
+          bursts, the 39-hour runtime is a commitment. Sample the first hour; if the pace suits
+          you, the credit is a great deal.
+        </p>
+
+        <p>
+          GetCreditWorth (getcreditworth.com) helps you decide whether any audiobook is worth a
+          credit. Browse more mystery picks in the{" "}
+          <a href="/category/mystery" className="text-accent hover:underline">mystery category</a>,
+          or start from the{" "}
+          <a href="/" className="text-accent hover:underline">homepage</a> to run the credit
+          calculator on your next listen.
+        </p>
+      </>
+    ),
+  },
+  'the-running-grave-audiobook-review-zh': {
+    slug: 'the-running-grave-audiobook-review-zh',
+    title: '《猎场行动》(The Running Grave)：罗伯特·盖布拉思悬疑巨著，值不值一个 Audible Credit？',
+    description:
+      '《猎场行动》(The Running Grave) 有声书评测：罗伯特·盖布拉思近 39 小时的 Cormoran Strike 长篇，值不值一个 Audible Credit？时长、旁白、性价比与结论。',
+    keywords: ['the running grave audiobook review', 'robert galbraith audiobooks', 'best thriller audiobooks'],
+    date: '2026-08-14',
+    readTime: '9 min read',
+    category: 'Book Review',
+    content: (
+      <>
+        <p>
+          如果你正在搜索引擎里查「the running grave audiobook review」，想知道《猎场行动》（The
+          Running Grave）这张有声书值不值一个 Audible Credit，先说结论：对系列老听众来说，
+          非常值。罗伯特·盖布拉思（Robert Galbraith，也就是 J.K. 罗琳的笔名）的第七部
+          Cormoran Strike 推理小说，有声版全长接近 39 小时。我断断续续听了两周通勤和遛狗的时间，
+          越听越觉得，这张碟就该用 credit 换，而不是花 34.99 美元现金买。
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          罗伯特·盖布拉思的有声书：这一部排在哪
+        </h2>
+        <p>
+          Cormoran Strike 系列有个规律：每本都比上一本更长，《猎场行动》是目前最长的一本。
+          如果你读过前面几部，人设你都熟——Strike 是那条瘸腿、专揭难堪真相的私家侦探，Robin
+          是替他做卧底的搭档。盖布拉思写有声书最让我舒服的一点，是她不着急。这不是精致的小
+          谜题，而是慢慢铺开、细节密到惊人的长篇，听到中段你就陷进去了。
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          剧情大概，不剧透
+        </h2>
+        <p>
+          一个年轻人走进事务所，请 Strike 帮忙找妹妹——她加入了诺福克一处封闭社区，从此和家人
+          断了联系。故事把 Robin 推进那个不容置疑的团体深处做卧底。我不剧透，只说一句：这条
+          cult 线是整个系列里最让人不安的，而中段的慢，恰恰为结尾的爆发铺了路。
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          一个 credit 值不值？看数字
+        </h2>
+        <p>
+          GetCreditWorth 的逻辑很简单：一个 credit 换一本有声书，所以值不值，就看你换到了什么。
+          下面这张表是《猎场行动》的账。
+        </p>
+        <table className="w-full text-sm my-6 border border-border rounded-md overflow-hidden">
+          <thead className="bg-bg-surface">
+            <tr>
+              <th className="text-left p-3 border-b border-border">项目</th>
+              <th className="text-left p-3 border-b border-border">《猎场行动》</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="p-3 border-b border-border">时长</td>
+              <td className="p-3 border-b border-border">约 39 小时</td>
+            </tr>
+            <tr>
+              <td className="p-3 border-b border-border">现金价</td>
+              <td className="p-3 border-b border-border">34.99 美元，或 1 个 credit</td>
+            </tr>
+            <tr>
+              <td className="p-3 border-b border-border">每小时成本</td>
+              <td className="p-3 border-b border-border">约 0.90 美元</td>
+            </tr>
+            <tr>
+              <td className="p-3">旁白</td>
+              <td className="p-3">Robert Glenister</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          用一个 credit 换约 39 小时，平均每小时成本压到 0.90 美元上下。它不是全站最便宜的，但
+          放在长篇犯罪类里相当划算，远比直接花现金买来得值。
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Robert Glenister 的旁白
+        </h2>
+        <p>
+          整套系列都是 Glenister 读的，这种连贯本身就是优势。Strike 的声音疲惫而克制，Robin
+          精准又冷。最见功力的是那群 cult 成员，他靠声调区分人物，从不过火。我有几次特意把
+          速度调到 1.0 倍，就为了听他把一句台词说到位。
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          适合长时间通勤的悬疑有声书
+        </h2>
+        <p>
+          如果你用「能听满几趟通勤」来衡量悬疑书，《猎场行动》绝对排得上号。它中段需要耐心，
+          但最后四分之一几乎不停。比起那些起步快、收尾虚的短篇惊悚，它奖赏的是真正听完的人——
+          而这正是一个 credit 换长篇的意义。
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          谁该花这个 credit
+        </h2>
+        <ul className="space-y-2">
+          <li><strong>适合：</strong>喜欢长篇、重人物的犯罪听众；已经听到系列中段的读者；想用
+          一本填满几周通勤的人。</li>
+          <li><strong>不适合：</strong>追求快节奏的人；第一次接触这个系列的人（请从《Cuckoo&apos;s
+          Calling》开始）。</li>
+          <li><strong>最划算：</strong>用 credit，别花 34.99 美元现金。</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">常见问题</h2>
+        <p>
+          <strong>《猎场行动》值得用一个 Audible credit 吗？</strong> 对老听众和长篇爱好者，值得。
+          约 39 小时换一个 credit，每小时成本比现金买低，结尾的回报也对得起前面的慢热。
+        </p>
+        <p>
+          <strong>需要先听前面的罗伯特·盖布拉思有声书吗？</strong> 最好先听。人物带着好几年的
+          历史，从这里开始会剧透前面的案子。《Cuckoo&apos;s Calling》是自然的起点。
+        </p>
+        <p>
+          <strong>谁旁白？</strong> Robert Glenister，整套 Cormoran Strike 都是他读的。他沉稳、懂
+          角色的演绎，本身就是卖点之一。
+        </p>
+        <p>
+          <strong>对随性听众会不会太长？</strong> 如果你每次只听一小段，39 小时是笔不小的投入。
+          先试听第一小时，节奏对味，这个 credit 就很划算。
+        </p>
+
+        <p>
+          GetCreditWorth（getcreditworth.com）帮你判断任何一本有声书值不值一个 credit。更多悬疑
+          推荐请看{" "}
+          <a href="/category/mystery" className="text-accent hover:underline">悬疑分类</a>，
+          或从{" "}
+          <a href="/" className="text-accent hover:underline">首页</a> 用 credit 计算器算算下一本。
+        </p>
+      </>
+    ),
+  },
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
