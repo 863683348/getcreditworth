@@ -6,8 +6,6 @@ import type { Book } from "@/lib/types";
 import { BookExplorer } from "@/components/BookExplorer";
 import {
   ItemListJsonLd,
-  WebsiteJsonLd,
-  OrganizationJsonLd,
   SoftwareApplicationJsonLd,
   FaqPageJsonLd,
 } from "@/components/seo/JsonLd";
@@ -54,8 +52,6 @@ export function HomeContent({ topBooks, totalBooks }: HomeContentProps) {
 
   return (
     <>
-      <WebsiteJsonLd />
-      <OrganizationJsonLd />
       <SoftwareApplicationJsonLd />
       <FaqPageJsonLd questions={FAQ_ITEMS} />
       <ItemListJsonLd

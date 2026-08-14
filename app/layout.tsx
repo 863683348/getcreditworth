@@ -66,12 +66,6 @@ export const metadata: Metadata = {
     icon: '/favicon.svg',
     apple: '/favicon.svg',
   },
-  alternates: {
-    languages: {
-      en: `${baseUrl}/en`,
-      zh: `${baseUrl}/zh`,
-    },
-  },
 };
 
 export default function RootLayout({
