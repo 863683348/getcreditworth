@@ -13,6 +13,8 @@ export interface BlogPost {
   date: string;
   readTime: string;
   category: string;
+  /** Optional FAQ for rich-result eligibility (FAQPage JSON-LD + visible block) */
+  faq?: { question: string; answer: string }[];
 }
 
 export interface BlogPostData extends BlogPost {
@@ -2047,6 +2049,28 @@ const POSTS: Record<string, BlogPostData> = {
     date: '2026-07-27',
     readTime: '5 min read',
     category: 'Analysis',
+    faq: [
+      {
+        question: 'When do Audible credits expire?',
+        answer:
+          'Audible credits expire 12 months after the date they are issued. A credit received on January 1 expires on December 31 of the same year. Canceling your membership immediately forfeits all remaining credits.',
+      },
+      {
+        question: 'Do rolled-over credits expire at the same time?',
+        answer:
+          'No. Each credit keeps its original issuance date for expiration purposes. If you accumulate credits over several months, they expire on a rolling basis — the oldest credit expires first, not all at once.',
+      },
+      {
+        question: 'Can I get an expired credit back?',
+        answer:
+          'Audible does not reinstate expired credits as a rule. You can contact support before expiration and they may grant a one-time extension for a valid reason, but never rely on this. Spend credits proactively.',
+      },
+      {
+        question: 'Do credits survive a plan change?',
+        answer:
+          'Upgrading (e.g. to Premium Plus 2) keeps your existing credits and their original expiration dates. Downgrading to a non-credit plan (Audible Plus) forfeits all unused credits immediately — spend them first.',
+      },
+    ],
     content: (
       <>
         <p><strong>Audible credits expire 12 months after they are issued.</strong> This applies to both monthly credits and any credits you've rolled over from previous months.</p>
@@ -2093,6 +2117,181 @@ const POSTS: Record<string, BlogPostData> = {
 <p><strong>Pro tip:</strong> If you have credits about to expire but cannot find a book you want, consider buying a book you know you will listen to eventually. Even a book you are only moderately interested in is better than letting a credit expire to zero value. Every credit saved is $14.95 in membership value preserved.</p><p>Audible does occasionally run promotions where they offer bonus credits or extend expiration dates. Check your account periodically for these offers, especially during holiday seasons.</p></>
 
 
+    ),
+  },
+
+  'do-audible-credits-expire': {
+    slug: 'do-audible-credits-expire',
+    title: 'Do Audible Credits Expire? The 12-Month Rule, Explained (2026)',
+    description:
+      'Yes — Audible credits expire 12 months after they are issued. Here is exactly how the expiration clock works and what it means for your unused credits.',
+    keywords: ['do audible credits expire', 'when do audible credits expire', 'audible credit expiration rule'],
+    date: '2026-08-14',
+    readTime: '4 min read',
+    category: 'Analysis',
+    faq: [
+      {
+        question: 'Do Audible credits expire?',
+        answer:
+          'Yes. Every Audible credit expires 12 months after the date it was issued, regardless of which plan you are on. Spend it before then or it becomes worthless.',
+      },
+      {
+        question: 'Is there a grace period after expiration?',
+        answer:
+          'No automatic grace period. Once a credit passes its 12-month mark it is gone. Audible support may grant a one-time extension only if you contact them before it expires.',
+      },
+    ],
+    content: (
+      <>
+        <p><strong>Yes, Audible credits expire — 12 months after they are issued.</strong> This is the single most misunderstood part of the Audible membership, and it is where most subscribers quietly lose money.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How the 12-Month Clock Works</h2>
+        <p>The expiration date is tied to when the credit was <em>issued</em>, not when your membership started. A credit that lands in your account on March 1, 2026 expires on February 28, 2027. Monthly credits therefore expire on a rolling, staggered schedule rather than all at once.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Why People Think Credits Never Expire</h2>
+        <p>Audible lets you &ldquo;roll over&rdquo; a limited number of unused credits (6 on standard Premium Plus). Because those credits stay visible in your account for months, it is easy to assume they last forever. They do not — each one is still ticking toward its own 12-month deadline.</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
+          <p className="text-sm"><strong>Bottom line:</strong> an expired credit is worth $0. Spend it on any title, even a mediocre one, rather than let it vanish.</p>
+        </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What Happens to Rolled-Over Credits?</h2>
+        <p>Rollover does not pause the clock. Each rolled-over credit keeps its original issuance date, so your oldest credits are always the first to expire. For the full breakdown of expiration by plan type, read our <Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">complete Audible credit expiration policy guide</Link>.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Never Lose a Credit</h2>
+        <ul className="space-y-2">
+          <li>Check <strong>Account Details &rarr; Your Membership &rarr; Premium Plus Credits</strong> monthly</li>
+          <li>Set a calendar reminder 30 days before each credit&apos;s expiration</li>
+          <li>Spend credits on books with a Value Score above 4.0 for the best return</li>
+          <li>Before canceling, use every remaining credit — cancellation forfeits them instantly</li>
+        </ul>
+      </>
+    ),
+  },
+
+  'stop-audible-credits-expiring': {
+    slug: 'stop-audible-credits-expiring',
+    title: 'How to Stop Audible Credits from Expiring (5 Working Methods)',
+    description:
+      'Five practical ways to keep your Audible credits from expiring — from calendar reminders to strategic plan choices. Stop losing $14.95 per credit.',
+    keywords: ['how to stop audible credits from expiring', 'keep audible credits from expiring', 'audible credits expiring fix'],
+    date: '2026-08-14',
+    readTime: '6 min read',
+    category: 'Analysis',
+    faq: [
+      {
+        question: 'Can I stop Audible credits from expiring?',
+        answer:
+          'You cannot freeze the 12-month expiration clock, but you can avoid losing credits: spend them before they expire, set reminders, or choose a plan whose rollover limit fits your listening pace.',
+      },
+      {
+        question: 'Does pausing Audible stop credit expiration?',
+        answer:
+          'No. Pausing only stops billing and keeps your account active, but credits already issued continue to expire on their original schedule. See our pause-vs-cancel breakdown for details.',
+      },
+    ],
+    content: (
+      <>
+        <p><strong>You can&apos;t freeze the 12-month clock, but you can stop losing credits to it.</strong> Here are five methods that actually work, ranked by effort.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">1. Set a 30-Day Expiration Reminder</h2>
+        <p>The simplest fix: every month, open <strong>Account Details &rarr; Premium Plus Credits</strong> and note the earliest expiration date. Drop a reminder 30 days out. This alone eliminates most accidental losses.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">2. Spend on High Value-Score Books</h2>
+        <p>A credit spent on a 40-hour, 4.8-star epic returns far more than one spent on a 2-hour short story. Use our <Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">expiration strategy guide</Link> to prioritize before the deadline.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">3. Match Your Plan to Your Pace</h2>
+        <p>If you only listen to one book every two months, a single-credit plan with a 6-credit rollover is plenty. Heavy listeners should pick Premium Plus 2 (up to 12 rollover). Over- or under-provisioning is what causes pile-ups that expire.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">4. &ldquo;Use It or Lose It&rdquo; Spending</h2>
+        <p>About to lose a credit with no title you love? Spend it on a book you&apos;ll probably listen to eventually. A decent book you half-want beats a credit worth exactly $0.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">5. Contact Support Before — Not After</h2>
+        <p>If a credit is about to expire and you have a genuine reason, Audible support can sometimes grant a one-time extension. The request must happen <em>before</em> expiration; never after.</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
+          <p className="text-sm"><strong>Rule of thumb:</strong> track dates aggressively, spend proactively, and treat every credit as a $14.95 bill coming due.</p>
+        </div>
+      </>
+    ),
+  },
+
+  'audible-pause-membership-keep-credits': {
+    slug: 'audible-pause-membership-keep-credits',
+    title: 'Does Pausing Audible Keep Your Credits? Pause vs Cancel in 2026',
+    description:
+      'Pausing Audible stops billing but keeps your account active — yet your credits still expire. Learn exactly what pause protects and what it does not.',
+    keywords: ['pause audible keep credits', 'pausing audible credits', 'audible pause membership'],
+    date: '2026-08-14',
+    readTime: '5 min read',
+    category: 'Analysis',
+    faq: [
+      {
+        question: 'Does pausing Audible keep your credits?',
+        answer:
+          'Pausing keeps your account and your already-redeemed library, but it does NOT stop issued credits from expiring. The 12-month clock keeps running while paused.',
+      },
+      {
+        question: 'Is pause better than cancel for keeping credits?',
+        answer:
+          'Yes — cancel immediately forfeits all unused credits, while pause preserves them (until they expire). But neither pauses the expiration timer. Spend credits before pausing if a deadline is near.',
+      },
+    ],
+    content: (
+      <>
+        <p><strong>Pausing Audible keeps your account and your downloaded books — but it does not stop your credits from expiring.</strong> This distinction trips up a lot of subscribers.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What Pausing Actually Does</h2>
+        <p>When you pause, billing stops for up to three months and your membership benefits (like the Plus Catalog) are suspended. Your account stays open, your redeemed audiobooks remain yours, and you can resume anytime. What does <em>not</em> change: any credit already in your balance keeps its original 12-month expiration date.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Pause vs Cancel: The Credit Difference</h2>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-border"><th className="text-left py-2 pr-4">Action</th><th className="text-left py-2 pr-4">Unused Credits</th><th className="text-left py-2">Expiration Clock</th></tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Pause</td><td className="py-2 pr-4">Kept (until they expire)</td><td className="py-2">Keeps running</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Cancel</td><td className="py-2 pr-4">Forfeited immediately</td><td className="py-2">N/A</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When Pause Makes Sense</h2>
+        <p>Pause is ideal for a listening break — a few months off, then back. It protects you from the worst outcome (instant forfeiture) while you are away. Just remember to spend any credit nearing its deadline <em>before</em> you pause.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Expiration Catch</h2>
+        <p>Because the 12-month timer never pauses, a credit issued in January still expires the following January even if you paused from March to June. For the full plan-by-plan expiration rules, see our <Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">Audible credit expiration policy guide</Link>.</p>
+      </>
+    ),
+  },
+
+  'audible-credit-expiration-extension': {
+    slug: 'audible-credit-expiration-extension',
+    title: 'Can You Extend Expired Audible Credits? What Support Will (and Won\'t) Do',
+    description:
+      'Expired Audible credits are usually gone for good. Here is when support can grant an extension, and the steps to maximize your odds of recovery.',
+    keywords: ['extend expired audible credits', 'audible credit grace period', 'audible expired credit recovery'],
+    date: '2026-08-14',
+    readTime: '4 min read',
+    category: 'Analysis',
+    faq: [
+      {
+        question: 'Can you extend an already-expired Audible credit?',
+        answer:
+          'Rarely. Audible does not reinstate expired credits as policy. Support may make a one-time exception if you contact them before expiration with a valid reason — almost never after.',
+      },
+      {
+        question: 'Is there a grace period for expired credits?',
+        answer:
+          'No standard grace period exists. Treat the 12-month date as a hard deadline. The only lever is a discretionary extension granted by support before the credit lapses.',
+      },
+    ],
+    content: (
+      <>
+        <p><strong>Once an Audible credit expires, it is almost always gone for good.</strong> Understanding exactly when support can help — and when they cannot — saves you from false hope.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Hard Rule</h2>
+        <p>Audible&apos;s policy is clear: expired credits are not reinstated. There is no automated grace period and no &ldquo;reactivate&rdquo; button in your account. The moment a credit passes its 12-month mark, its value drops to $0.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When Support Might Extend</h2>
+        <p>In practice, Audible support has limited discretion to grant a <em>one-time</em> extension — but only under specific conditions:</p>
+        <ul className="space-y-2">
+          <li>You contact them <strong>before</strong> the credit expires</li>
+          <li>You have a credible reason (billing error, medical leave, account compromise)</li>
+          <li>You are a long-term, in-good-standing member</li>
+        </ul>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
+          <p className="text-sm"><strong>Reality check:</strong> asking after expiration almost never works. The request must land while the credit is still live.</p>
+        </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Maximize Recovery Odds</h2>
+        <p>If a deadline is imminent, open a chat with support, explain the situation calmly, and ask specifically for a &ldquo;credit expiration extension.&rdquo; Pair this with proactive spending: our <Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">expiration policy guide</Link> shows how to check each credit&apos;s exact date so nothing slips by.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Better Strategy: Don&apos;t Rely on Exceptions</h2>
+        <p>Discretionary extensions are a safety net, not a plan. The subscribers who never lose value are the ones who track dates and spend ahead of time — not the ones who negotiate with support after the fact.</p>
+      </>
     ),
   },
 

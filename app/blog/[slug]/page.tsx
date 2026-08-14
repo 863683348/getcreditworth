@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getPost, getPostSlugs } from "@/lib/api/controllers/blog.controller";
-import { ArticleJsonLd, BreadcrumbListJsonLd } from "@/components/seo/JsonLd";
+import { ArticleJsonLd, BreadcrumbListJsonLd, FaqPageJsonLd } from "@/components/seo/JsonLd";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import { BlogDetailContent } from "@/components/BlogDetailContent";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -58,6 +58,9 @@ export default function BlogPostPage({ params }: PageProps) {
         url={buildCanonicalUrl("/blog/" + post.slug)}
         publishedDate={post.date}
       />
+      {post.faq && post.faq.length > 0 && (
+        <FaqPageJsonLd questions={post.faq} />
+      )}
       <BreadcrumbListJsonLd
         items={[
           { name: "Home", url: "/" },
