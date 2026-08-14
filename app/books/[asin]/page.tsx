@@ -4,6 +4,7 @@ import {
   getBookAsins,
 } from "@/lib/api/controllers/book.controller";
 import { BookDetailContent } from "@/components/BookDetailContent";
+import { RelatedArticles } from "@/components/RelatedArticles";
 import { BookJsonLd, BreadcrumbListJsonLd, FaqPageJsonLd } from "@/components/seo/JsonLd";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import { formatPrice } from "@/lib/utils/format";
@@ -144,6 +145,9 @@ export default function BookDetailPage({ params }: PageProps) {
           </div>
         );
       }()}
+      <div className="container-content">
+        <RelatedArticles book={book} />
+      </div>
       <BookJsonLd book={book} />
       <BreadcrumbListJsonLd
         items={[
