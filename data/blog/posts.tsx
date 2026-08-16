@@ -4436,6 +4436,59 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+
+  'truman-audiobook-review': {
+    slug: 'truman-audiobook-review',
+    title: "Truman by David McCullough: 54 Hours of Presidential History",
+    description:
+      "A truman audiobook review of David McCullough's Pulitzer-winning biography at 54 hours: narration by Nelson Runger, cost per hour, and where it fits in the best presidential biographies collection.",
+    keywords: ['truman audiobook review', 'david mccullough audiobooks', 'presidential biographies', 'best history audiobooks'],
+    date: '2026-08-17',
+    readTime: '10 min read',
+    category: 'Book Review',
+    faq: [
+    {
+        "question": "Is the Truman audiobook worth an Audible credit?",
+        "answer": "Yes. 54 hours for one credit at roughly $0.44 per hour makes it one of the best value presidential biographies on Audible. McCullough's Truman is 5-star across thousands of reviews, and the narration holds up over the full run."
+    },
+    {
+        "question": "Who narrates Truman by David McCullough?",
+        "answer": "Nelson Runger narrates the complete audiobook. His delivery is steady and warm, closer to a storyteller than an actor, which fits McCullough's narrative history style."
+    },
+    {
+        "question": "How long is the Truman audiobook?",
+        "answer": "54 hours and 11 minutes (3,251 minutes). It is a long commitment, but the chapter structure makes it easy to consume in one-hour listening sessions."
+    },
+    {
+        "question": "Is Truman by David McCullough a good entry into presidential biographies?",
+        "answer": "It is one of the best. McCullough writes people, not policy papers. If you want presidential biographies with warmth and momentum, this is the classic starting point."
+    }
+],
+    content: (
+      <>
+        <p>Harry Truman was never supposed to be president. He was a failed haberdasher from Missouri who had been in the Senate for barely ten weeks when he was picked as FDR's running mate. Then FDR died, and the man who had never expected to lead anything suddenly carried the hardest job on earth. This <strong>truman audiobook review</strong> digs into David McCullough's Pulitzer-winning biography, the narration, the numbers, and whether 54 hours deserves one of your Audible credits. If you are building a list of presidential biographies worth listening to, this one sits near the top of most of them.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What the book is</h2>
+        <p>McCullough's <em>Truman</em> won the 1993 Pulitzer Prize for Biography. It traces the full arc: the farm boy, the artillery captain in World War I, the failed business, the county judge, the senator, the vice president nobody wanted, and finally the president who made the calls — the atomic bomb, the Marshall Plan, the Korean War, the firing of MacArthur.</p>
+        <p>What makes it different from most presidential biographies is the texture. McCullough lets Truman's letters and diary entries carry the story. You hear the man's voice in his own words, and that is why the audiobook works so well — Truman's plain-spoken honesty translates directly into audio.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Narration: Nelson Runger's 54 hours</h2>
+        <p>Nelson Runger narrates the entire 54-hour run. His style is unflashy: measured, warm, and clear, with just enough inflection to keep long passages alive without turning Truman into a caricature. For a book this long, that restraint is the right call. A theatrical narrator would exhaust you by hour ten; Runger stays listenable through hour fifty.</p>
+        <p>The chapter structure helps too. McCullough writes in manageable episodes, so one-hour commutes map cleanly onto the narrative. You rarely need to hunt for a good stopping point.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Why Truman matters in 2026</h2>
+        <p>The book reads differently now. Truman made decisions alone — the bomb, the Cold War posture, the recognition of Israel — without a phone in his pocket or a pollster in his ear. In an era of focus-grouped leadership, the story of a man who wrote "the buck stops here" on a desk sign feels almost antique. That is exactly why it keeps appearing on presidential biographies reading lists.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The numbers: value per hour</h2>
+        <p>Runtime 54 hours 11 minutes (3,251 minutes), price $23.82, value score 11.37, cost per hour $0.44, rating 5.0 stars across 598 reviews.</p>
+        <p>At $0.44 per hour, Truman belongs firmly in the "safe to spend a credit" tier. A single credit buys more than two full days of listening from one of the most respected American history audiobooks in the catalog.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Who should skip it</h2>
+        <p>If you want a fast, argument-driven history, this is not it. McCullough's approach is narrative and affectionate; he is not out to score points against Truman's record. And 54 hours is a real commitment — if you bounce off slow-burn biography, start with something shorter in the history category before you invest a credit here.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">FAQ</h2>
+        <p>**Is the Truman audiobook worth an Audible credit?** Yes. 54 hours for one credit at roughly $0.44 per hour makes it one of the best value presidential biographies on Audible. McCullough's Truman is 5-star across thousands of reviews, and the narration holds up over the full run.</p>
+        <p>**Who narrates Truman by David McCullough?** Nelson Runger narrates the complete audiobook. His delivery is steady and warm, closer to a storyteller than an actor, which fits McCullough's narrative history style.</p>
+        <p>**How long is the Truman audiobook?** 54 hours and 11 minutes (3,251 minutes). It is a long commitment, but the chapter structure makes it easy to consume in one-hour listening sessions.</p>
+        <p>**Is Truman by David McCullough a good entry into presidential biographies?** It is one of the best. McCullough writes people, not policy papers. If you want presidential biographies with warmth and momentum, this is the classic starting point.</p>
+        <p>Want the full scorecard and price history? Open its<a href="/books/B004W1ROSY" className="text-accent hover:underline">book page</a>; for more long-form history, browse the<a href="/category/history" className="text-accent hover:underline">history category</a>; or run the math yourself with the<a href="/calculator" className="text-accent hover:underline">credit calculator</a>. Welcome to getcreditworth.com, where you can compare hundreds of audiobooks the same way.</p>
+      </>
+    ),
+  },
 };
 
 
