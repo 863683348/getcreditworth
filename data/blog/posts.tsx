@@ -954,9 +954,9 @@ const POSTS: Record<string, BlogPostData> = {
   },
   'audible-gift-audiobooks-guide': {
     slug: 'audible-gift-audiobooks-guide',
-    title: 'Gift Audible Audiobooks in 2026: Steps + Costs ($20–$150)',
+    title: 'How to Gift Audible in 2026: Specific Book vs Membership ($20–$150)',
     description:
-      'Want to gift an Audible audiobook or membership in 2026? Our 5-step guide covers costs ($20–$150), holiday timing, and how to send by email in minutes.',
+      'Gift Audible audiobooks in 2026: 5-step guide. Send a specific title or membership ($20–$150). Email delivery in minutes. Full cost breakdown.',
     keywords: ['gift audible audiobooks', 'how to gift audible books', 'send audible book as gift'],
     date: '2026-07-25',
     readTime: '8 min read',
@@ -1689,8 +1689,8 @@ const POSTS: Record<string, BlogPostData> = {
 
   'how-to-cancel-audible-subscription': {
     slug: 'how-to-cancel-audible-subscription',
-    title: 'How to Cancel Audible in 2026: Keep Credits, Avoid Fees',
-    description: 'Cancel Audible in 2026 in 5 steps. Keep your audiobooks forever, spend credits before they expire, and avoid surprise fees. Full walkthrough.',
+    title: 'Cancel Audible in 2026: 5 Steps to Keep Credits & Full Refund',
+    description: 'Cancel Audible in 2026: 5 easy steps. Keep your audiobooks forever, spend credits before they expire, avoid fees. Full walkthrough.',
     keywords: ['how to cancel audible subscription', 'cancel audible subscription steps', 'audible cancellation guide 2026'],
     date: '2026-07-27',
     readTime: '8 min read',
@@ -1819,8 +1819,8 @@ const POSTS: Record<string, BlogPostData> = {
 
   'audible-return-refund-policy': {
     slug: 'audible-return-refund-policy',
-    title: 'Audible Return & Refund Policy: Complete Guide (2026)',
-    description: 'Learn Audible&apos;s 365-day return policy. How to return audiobooks, get credits back, and understand your rights.',
+    title: 'Audible Return & Refund Policy: Full Guide (365 Days, 2026)',
+    description: 'Learn Audible return policy: 365-day window, credit vs cash refund, step-by-step return process. Full guide to your rights.',
     keywords: ['audible return policy', 'audible refund process', 'how to return audible audiobooks'],
     date: '2026-07-27',
     readTime: '7 min read',
@@ -2820,6 +2820,86 @@ const POSTS: Record<string, BlogPostData> = {
           <Link href="/calculator" className="text-primary underline">
             Run the Credit Calculator on any book
           </Link>
+        </p>
+      </>
+    ),
+  },
+
+  'starship-new-jersey-box-set-review': {
+    slug: 'starship-new-jersey-box-set-review',
+    title: 'Starship New Jersey Box Set: 68 Hours for 1 Credit — Space Opera Value',
+    description: 'Starship New Jersey Box Set by Scott Bartlett: 68.5 hours, 10 books, Value Score 10.3. The best credit value in sci-fi space opera. Full review and verdict.',
+    keywords: ['starship new jersey audible', 'scott bartlett audiobook', 'best space opera audiobooks', 'starship new jersey box set review'],
+    date: '2026-08-17',
+    readTime: '6 min read',
+    category: 'Book Review',
+    content: (
+      <>
+        <p>
+          <strong>Starship New Jersey Box Set</strong> by Scott Bartlett is a 10-book space opera series that runs 68.5 hours — all for a single Audible credit. At a <strong>Value Score of 10.3</strong>, it is one of the highest-value audiobooks on Audible.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Numbers at a Glance</h2>
+        <ul className="space-y-2">
+          <li><strong>Runtime:</strong> 68.5 hours (4,110 minutes)</li>
+          <li><strong>Author:</strong> Scott Bartlett</li>
+          <li><strong>Narrator:</strong> Mark Boyett</li>
+          <li><strong>Rating:</strong> 4.5 stars from 100+ reviews</li>
+          <li><strong>Price:</strong> $29.99 (or one credit)</li>
+          <li><strong>Cost per hour:</strong> $0.44 (credit) / $0.44 (cash)</li>
+          <li><strong>Value Score:</strong> 10.3 — excellent credit value</li>
+        </ul>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Why It Is a Credit Steal</h2>
+        <p>Most audiobooks run 8–15 hours. This box set runs <strong>68.5 hours</strong> — nearly 5× the average. At $0.44/hour, it is one of the best credit values in the entire Audible catalog. If you are a space opera fan, this is a no-brainer credit spend.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Who Should Listen</h2>
+        <p>Fans of long-form space opera (like The Expanse or Star Wars Legends) will find 10 tightly connected books. If you want a series you can binge for weeks, this is it.</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
+          <p className="text-sm"><strong>Verdict:</strong> Strong credit buy. 68.5 hours for one credit is rare — grab it before it sells out.</p>
+        </div>
+        <p>See the full details on the{" "}
+          <Link href="/books/B0GRCRMZRR" className="text-primary hover:underline">Starship New Jersey Box Set page</Link>{" "}
+          or browse more{" "}
+          <Link href="/category/sci-fi" className="text-primary hover:underline">sci-fi audiobooks</Link>{" "}
+          for credit value comparisons.
+        </p>
+      </>
+    ),
+  },
+
+  'black-holes-tides-curved-spacetime-review': {
+    slug: 'black-holes-tides-curved-spacetime-review',
+    title: 'Black Holes, Tides, and Curved Spacetime: Best Science Audiobook (5 Stars)',
+    description: 'Black Holes, Tides, and Curved Spacetime by Benjamin Schumacher: 12.1 hours, 5-star rating, Value Score 9.7. The best physics audiobook for Audible credits. Full review.',
+    keywords: ['black holes tides curved spacetime audible', 'benjamin schumacher audiobook', 'best science audiobooks', 'physics audiobook review'],
+    date: '2026-08-17',
+    readTime: '5 min read',
+    category: 'Book Review',
+    content: (
+      <>
+        <p>
+          <strong>Black Holes, Tides, and Curved Spacetime</strong> by Professor Benjamin Schumacher (The Great Courses) is a 12.1-hour introduction to general relativity and astrophysics. It earned a <strong>perfect 5-star rating</strong> from 48 listeners and a <strong>Value Score of 9.7</strong> — making it one of the best science audiobooks on Audible.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Numbers at a Glance</h2>
+        <ul className="space-y-2">
+          <li><strong>Runtime:</strong> 12.1 hours (726 minutes)</li>
+          <li><strong>Author:</strong> Benjamin Schumacher</li>
+          <li><strong>Narrator:</strong> Benjamin Schumacher</li>
+          <li><strong>Rating:</strong> 5.0 stars from 48 reviews</li>
+          <li><strong>Price:</strong> $16.99 (or one credit)</li>
+          <li><strong>Cost per hour:</strong> $1.40 (credit) / $1.40 (cash)</li>
+          <li><strong>Value Score:</strong> 9.7 — excellent credit value</li>
+        </ul>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Why It Stands Out</h2>
+        <p>A perfect 5-star rating is rare on Audible. Professor Schumacher is a renowned physics educator, and his lecture-style narration makes complex topics like black holes and gravitational waves accessible without dumbing them down. For $16.99 or one credit, this is a must-listen for anyone curious about the universe.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Who Should Listen</h2>
+        <p>Students, science enthusiasts, or anyone who has ever wondered what a black hole actually is. No math required — just curiosity.</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
+          <p className="text-sm"><strong>Verdict:</strong> Must-listen for science fans. The only 5-star physics audiobook in our catalog — and it earns it.</p>
+        </div>
+        <p>See the full details on the{" "}
+          <Link href="/books/1682769992" className="text-primary hover:underline">Black Holes, Tides, and Curved Spacetime page</Link>{" "}
+          or browse more{" "}
+          <Link href="/category/science" className="text-primary hover:underline">science audiobooks</Link>{" "}
+          for credit value comparisons.
         </p>
       </>
     ),

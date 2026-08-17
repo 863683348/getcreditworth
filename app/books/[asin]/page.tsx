@@ -29,7 +29,8 @@ export function generateMetadata({ params }: PageProps): Metadata {
 
   const title = (book.starRating >= 4.5 && book.runtimeHours >= 20) ? `${book.title} by ${book.author} - Top Pick (Score ${book.valueScore.toFixed(1)})` : `${book.title} by ${book.author} - Value Score & Credit Review`;
   const verdict = book.valueScore >= 8 ? 'Excellent credit value' : book.valueScore >= 5 ? 'Good credit value' : 'Better to buy directly';
-  const description = `Is ${book.title} worth an Audible credit? ${verdict}. Value Score ${book.valueScore.toFixed(1)}, $${book.costPerHour.toFixed(2)}/hr, ${book.starRating.toFixed(1)} stars from ${book.reviewCount.toLocaleString()} reviews, ${book.runtimeHours.toFixed(1)} hours. See the full credit analysis before you spend.`;
+  const costSavings = worthUsingCredit ? `Save ${formatPrice(savingsVsCredit)} vs buying` : `Buy for $${book.price.toFixed(2)} — cheaper than 1 credit`;
+  const description = `Is ${book.title} worth an Audible credit? ${verdict}. ${book.title} by ${book.author}: ${book.runtimeHours.toFixed(1)}h, ${book.starRating.toFixed(1)}★, Value Score ${book.valueScore.toFixed(1)}, ${costSavings}. Full credit analysis.`;
   const titleLower = book.title.toLowerCase();
   const keywords = [
     `${book.title} audible`,
