@@ -4713,6 +4713,133 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+  'the-fiery-cross-audiobook-review': {
+    slug: 'the-fiery-cross-audiobook-review',
+    title: "The Fiery Cross Audiobook: Diana Gabaldon's 55-Hour Outlander Sequel",
+    description:
+      "A the fiery cross audiobook review weighing 55.5 hours of Diana Gabaldon's Outlander series sequel against one Audible credit. Davina Porter's narration, value score, and who should spend a credit.",
+    keywords: ['the fiery cross audiobook', 'diana gabaldon audiobooks', 'outlander audiobook series', 'fiery cross audible review'],
+    date: '2026-08-19',
+    readTime: '9 min read',
+    category: 'Book Review',
+    faq: [
+      {
+        question: "Is the Fiery Cross audiobook worth an Audible credit?",
+        answer:
+          'For most Outlander fans, yes. 55.5 hours for one credit works out to about $0.32 per hour against the $17.92 list price, and the Value Score sits at 15.49. If you are already committed to the series, this is one of the most efficient credits in the catalog.',
+      },
+      {
+        question: 'Who narrates The Fiery Cross audiobook?',
+        answer:
+          "Davina Porter narrates the entire Outlander series on Audible, The Fiery Cross included. She has been the voice of Claire Fraser for decades, and listeners who made it this far will recognize the continuity instantly.",
+      },
+      {
+        question: "Do I need to read the earlier Outlander books first?",
+        answer:
+          'Yes. The Fiery Cross is book five in the series. It opens with the Gathering on Fraser\u2019s Ridge and assumes you know Jamie, Claire, and the family tree. Jumping in cold is possible but you will miss most of the emotional weight.',
+      },
+      {
+        question: 'How long is The Fiery Cross audiobook?',
+        answer:
+          '55 hours 30 minutes (3,330 minutes). It is the longest book in the Outlander series, so pace it in one-hour chunks and it lasts the better part of a month.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          The Fiery Cross is the point where the Outlander audiobook series becomes a marathon.
+          Diana Gabaldon&apos;s fifth book runs 55.5 hours, and if you are asking whether this{' '}
+          <em>the fiery cross audiobook</em> is worth one Audible credit, the honest answer depends
+          on how far you&apos;ve already come with the story. This review breaks down the runtime,
+          Davina Porter&apos;s narration, the value math, and who should spend the credit.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          The numbers behind the credit
+        </h2>
+        <ul className="space-y-2">
+          <li><strong>Runtime:</strong> 55 hours 30 minutes, the longest title in the series</li>
+          <li><strong>List price:</strong> $17.92 (one credit beats it outright)</li>
+          <li><strong>Cost per hour:</strong> about $0.32 on a single credit</li>
+          <li><strong>Narrator:</strong> Davina Porter, who has voiced Claire Fraser across all main books</li>
+          <li><strong>Rating:</strong> 5 stars across more than 1,400 reviews</li>
+          <li><strong>Value Score:</strong> 15.49, among the best in historical romance</li>
+        </ul>
+        <p>
+          Compare that with a typical 8-hour thriller at roughly $1.87 per hour, and the efficiency
+          gap is obvious. If you listen to diana gabaldon audiobooks at all, this is the credit
+          that stretches furthest.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          What happens in this book
+        </h2>
+        <p>
+          The Fiery Cross picks up right after <em>Drums of Autumn</em>. Claire and Jamie are at
+          the Gathering on Fraser&apos;s Ridge, and the book spends its first act building the
+          world of the Ridge settlement — the oaths, the neighbors, the slow politics of the
+          frontier. Fans who complain this one is slow are not wrong; the plot moves in long,
+          domestic rhythms before it tightens in the back third around the search for the
+          missing gold and the threat of the regulator uprising.
+        </p>
+        <p>
+          If you are inside the outlander audiobook series, this is where the payoff starts.
+          The romantic tension between Claire and Jamie has settled into partnership, and the
+          book is more about building a life than surviving an escape.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Davina Porter carries all 55 hours
+        </h2>
+        <p>
+          Porter is the reason this audiobook works at this length. She has a huge cast to keep
+          straight — Scots, English, American colonists, and a child perspective in Jemmy — and
+          she never drops a thread. Her Claire voice is the same one you heard in book one, which
+          matters more than any individual performance choice. After fifty-plus hours, continuity
+          is the whole game.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Who should spend a credit
+        </h2>
+        <p>
+          Good fit: readers already inside the series, fans of slow historical fiction, and anyone
+          who wants one title to last a full month of commutes. Poor fit: newcomers (start with
+          <em> Outlander</em>), and listeners who bounce off domestic pacing. If you liked{' '}
+          <em>A Memory of Light</em> or other long-series finales, this sits in the same
+          one-credit-marathon lane.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">FAQ</h2>
+        <p>
+          <strong>Is the Fiery Cross audiobook worth an Audible credit?</strong> For Outlander fans,
+          yes — 55.5 hours at about $0.32 per hour makes it one of the most efficient credits in
+          historical fiction.
+        </p>
+        <p>
+          <strong>Who narrates it?</strong> Davina Porter, the voice of Claire Fraser across the
+          whole series.
+        </p>
+        <p>
+          <strong>Do I need the earlier books?</strong> Yes, book five assumes the full family
+          history.
+        </p>
+        <p>
+          <strong>How long is it?</strong> 55 hours 30 minutes. Pace it like a month-long series.
+        </p>
+
+        <p>
+          GetCreditWorth (getcreditworth.com) helps you decide whether a book is worth a credit. See
+          the full scorecard for The Fiery Cross on its{' '}
+          <a href="/books/B0061R8IP0" className="text-accent hover:underline">book page</a>, browse
+          more sweeping listens in the{' '}
+          <a href="/category/romance" className="text-accent hover:underline">romance category</a>,
+          or run the math yourself with the{' '}
+          <a href="/calculator" className="text-accent hover:underline">credit calculator</a>.
+        </p>
+      </>
+    ),
+  },
 };
 
 
