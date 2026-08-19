@@ -4859,3 +4859,101 @@ export function getAllBlogPosts(): BlogPost[] {
     .map(({ content, ...meta }) => meta)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
+  ,
+  'a-memory-of-light-audiobook-review': {
+    slug: 'a-memory-of-light-audiobook-review',
+    title: 'A Memory of Light Audiobook Review: The Wheel of Time Finale',
+    description:
+      'A the memory of light audiobook review of Robert Jordan and Brandon Sanderson\'s epic Wheel of Time finale. 48 hours of listening, one credit — is it worth it?',
+    keywords: ['a memory of light audiobook', 'wheel of time audiobook', 'robert jordan audiobook', 'sanderson wheel of time'],
+    date: '2026-08-20',
+    readTime: '10 min read',
+    category: 'Book Review',
+    faq: [
+      {
+        question: 'Is A Memory of Light audiobook worth an Audible credit?',
+        answer:
+          'For Wheel of Time completists, yes. At 48 hours for one credit it is excellent value at $0.37 per hour against the $16.95 list price. The Value Score is 14.2. For newcomers it is risky — you will miss 10,000+ hours of story.',
+      },
+      {
+        question: 'Who narrates the Wheel of Time audiobooks?',
+        answer:
+          'Robert Petkoff narrates the entire series. He has been the voice of Rand al\'Thor since book one and brings decades of fantasy narration experience to the role.',
+      },
+      {
+        question: 'Do I need to read the earlier books?',
+        answer:
+          'Yes. A Memory of Light is book 12 and the finale. Jumping in cold means missing 480+ hours of story. Start with The Eye of the World and work your way through.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          A Memory of Light is the book everyone waited twenty years for. Robert Jordan built the
+          world; Brandon Sanderson finished it. The audiobook runs 48 hours, and if you are asking
+          whether this <em>a memory of light audiobook</em> is worth one Audible credit, the honest
+          answer is yes — if you have already invested in the series. It is not a good starting
+          point, but for completists it is one of the best value credits in the catalog.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          The numbers behind the credit
+        </h2>
+        <ul className="space-y-2">
+          <li>Runtime: 48 hours (2,880 minutes)</li>
+          <li>Audible credit value: ~$16.95 list price → $0.37/hour</li>
+          <li>Value Score: 14.2 — high-end for epic fantasy</li>
+          <li>Narrator: Robert Petkoff</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Why this audiobook matters
+        </h2>
+        <p>
+          The Wheel of Time is the longest completed fantasy series ever published. A Memory of
+          Light brings together every thread, every character, every prophecy. For listeners who
+          have followed Rand, Mat, and Perrin from book one, this is the payoff.
+        </p>
+        <p>
+          Robert Petkoff\'s narration has been consistent across all twelve books. He does not
+          fade at the end — he delivers with the same energy he brought to The Eye of the World.
+          That continuity matters when you are 48 hours deep.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Who should listen
+        </h2>
+        <ul className="space-y-2">
+          <li><strong>Wheel of Time completists:</strong> Essential. The finale you waited for.</li>
+          <li><strong>Epic fantasy fans:</strong> Great if you commit to the full series first.</li>
+          <li><strong>New listeners:</strong> Start elsewhere. This is not an entry point.</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">FAQ</h2>
+        <p>
+          <strong>Is A Memory of Light the best Wheel of Time audiobook?</strong> It is one of the
+          most intense. The pacing is relentless, and Petkoff matches it. Earlier books have more
+          mystery; this one has closure.
+        </p>
+        <p>
+          <strong>Can I listen to just this book?</strong> You can, but you will miss nearly
+          everything. The emotional impact depends on 480+ hours of prior story.
+        </p>
+        <p>
+          <strong>How does the audiobook compare to the physical books?</strong> The narration
+          brings characters to life in a way the text cannot. Petkoff\'s voice acting adds
+          dimension — it is not just reading, it is performance.
+        </p>
+
+        <p>
+          GetCreditWorth (getcreditworth.com) helps you decide whether a book is worth a credit.
+          See the full breakdown for A Memory of Light on its{' '}
+          <a href="/books/B003ZTPQM4" className="text-accent hover:underline">book page</a>, browse
+          more epic fantasy in the{' '}
+          <a href="/category/fantasy" className="text-accent hover:underline">fantasy category</a>,
+          or run the numbers with the{' '}
+          <a href="/calculator" className="text-accent hover:underline">credit calculator</a>.
+        </p>
+      </>
+    ),
+  },
