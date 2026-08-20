@@ -797,6 +797,10 @@ const POSTS: Record<string, BlogPostData> = {
           feel intimidating. Both rate above 4.5 stars and sit comfortably above the credit&apos;s
           $14.95 value.
         </p>
+        <p>
+          Start with <em>The Final Empire</em>, the first Mistborn book &mdash; 24.7 hours, a 5-star
+          rating from 5,000+ reviews, and a Value Score of 8.7. See the full analysis on its <a href="/books/B002V0QCYU" className="text-accent hover:underline">book page</a>.
+        </p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Top Fantasy Picks by Value Score</h2>
         <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
           <table className="w-full text-sm">
@@ -1181,6 +1185,10 @@ const POSTS: Record<string, BlogPostData> = {
           Focus your credits on long biographies and comprehensive narratives (20+ hours). For short
           self-help books under $15 &mdash; like <em>Atomic Habits</em> &mdash; buy directly and save
           credits for the marathon reads that justify the $14.95.
+        </p>
+        <p>
+          Niche titles like <em>Wealth Hypnosis for Lottery Wins!</em> (2.7 hours, $14.30) sit right
+          at that line &mdash; check the full math on its <a href="/books/B0FRGKH6J5" className="text-accent hover:underline">book page</a> before you spend a credit.
         </p>
         <p className="mt-6">
           Browse our
@@ -4131,6 +4139,11 @@ const POSTS: Record<string, BlogPostData> = {
           pace-first thrillers, it rewards the listener who actually finishes it, which is the
           whole point of spending a credit on something this size.
         </p>
+        <p>
+          If you prefer a shorter, pace-first crime thriller, Don Winslow&apos;s <em>The Janitor</em>
+          (3.1 hours, narrated by Titus Welliver) is built for a single sitting &mdash; see its full
+          credit breakdown on the <a href="/books/B0GZ8FL7Q3" className="text-accent hover:underline">The Janitor book page</a>.
+        </p>
 
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
           Who should spend a credit
@@ -4840,26 +4853,7 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
-};
-
-
-export function getBlogPost(slug: string): BlogPostData | undefined {
-  return POSTS[slug];
-}
-
-export function getBlogSlugs(): string[] {
-  return Object.keys(POSTS);
-}
-
-/**
- * 获取全部博客文章元数据（不含 content），按日期倒序（最新在前）
- */
-export function getAllBlogPosts(): BlogPost[] {
-  return Object.values(POSTS)
-    .map(({ content, ...meta }) => meta)
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-}
-const POSTS: Record<string, BlogPostData> = {
+  'a-memory-of-light-audiobook-review': {
     slug: 'a-memory-of-light-audiobook-review',
     title: 'A Memory of Light Audiobook Review: The Wheel of Time Finale',
     description:
@@ -4956,4 +4950,21 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+};
+
+export function getBlogPost(slug: string): BlogPostData | undefined {
+  return POSTS[slug];
+}
+
+export function getBlogSlugs(): string[] {
+  return Object.keys(POSTS);
+}
+
+/**
+ * 获取全部博客文章元数据（不含 content），按日期倒序（最新在前）
+ */
+export function getAllBlogPosts(): BlogPost[] {
+  return Object.values(POSTS)
+    .map(({ content, ...meta }) => meta)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }

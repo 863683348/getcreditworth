@@ -27,7 +27,8 @@ export function generateMetadata({ params }: PageProps): Metadata {
   const book = getBookDetail(params.asin);
   if (!book) return { title: "Book Not Found" };
 
-  const title = (book.starRating >= 4.5 && book.runtimeHours >= 20) ? `${book.title} by ${book.author} - Top Pick (Score ${book.valueScore.toFixed(1)})` : `${book.title} by ${book.author} - Value Score & Credit Review`;
+  const isTopPick = book.starRating >= 4.5 && book.runtimeHours >= 20;
+  const title = `${book.title} Audiobook by ${book.author} - ${isTopPick ? "Top Pick" : "Worth a Credit?"} (Score ${book.valueScore.toFixed(1)})`;
   const verdict = book.valueScore >= 8 ? 'Excellent credit value' : book.valueScore >= 5 ? 'Good credit value' : 'Better to buy directly';
   const savingsVsCredit = book.price - AUDIBLE_CREDIT_VALUE;
   const worthUsingCredit = savingsVsCredit > 0;
