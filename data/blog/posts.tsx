@@ -5024,6 +5024,71 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+  'starship-new-jersey-box-set-review': {
+    slug: 'starship-new-jersey-box-set-review',
+    title: 'Starship New Jersey Box Set: 68 Hours for 1 Credit — Space Opera Value',
+    description: 'Starship New Jersey Box Set by Scott Bartlett: 68.5 hours, 10 books, Value Score 10.3. The best credit value in sci-fi space opera. Full review and verdict.',
+    keywords: ['starship new jersey audible', 'scott bartlett audiobook', 'best space opera audiobooks', 'starship new jersey box set review'],
+    date: '2026-08-21',
+    readTime: '6 min read',
+    category: 'Book Review',
+    faq: [
+      {
+        question: 'Is the Starship New Jersey box set worth an Audible credit?',
+        answer: 'Yes. At 68.5 hours for one credit, the value is 10.3 — among the best in sci-fi. If you enjoy military space opera, this is a must-listen.',
+      },
+      {
+        question: 'How many books are in the box set?',
+        answer: '10 books, totaling 68.5 hours of narration. The series follows the crew of a retrofitted aircraft carrier turned deep-space vessel.',
+      },
+      {
+        question: 'Do I need to read the individual books first?',
+        answer: 'No. The box set includes the complete series. Each book builds on the last, so listen in order for the best experience.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          Scott Bartlett&apos;s <strong>Starship New Jersey</strong> is one of those rare box sets that justifies its length. Sixty-eight hours sounds like a commitment. In practice, it feels like a novel that expanded beyond its original boundaries — a sprawling space opera where the characters earn every minute.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          What Is the Starship New Jersey Box Set?
+        </h2>
+        <p>
+          The Starship New Jersey series follows the crew of a retrofitted aircraft carrier turned deep-space vessel. Bartlett blends hard military sci-fi with character-driven drama, and the audiobook production matches that tone with professional narration that never flags across 68 hours.
+        </p>
+        <p>
+          This is not a shortcut through a bestseller list. It&apos;s a complete saga — war, politics, family loyalty, and the kind of sci-fi that asks what we owe each other when the stakes are planetary.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Why 68 Hours Matters for Audible Credits
+        </h2>
+        <p>
+          The Audible credit system flattens value: one credit gets you a 2-hour mystery or a 68-hour epic. The Starship New Jersey box set is a textbook case for credit optimization. You are paying the same price as a short listen, but the return on time invested is dramatically higher.
+        </p>
+        <ul className="list-disc list-inside mt-3 space-y-1">
+          <li>68 hours of continuous narrative</li>
+          <li>Professional audiobook production throughout</li>
+          <li>A complete saga, not an incomplete serialization</li>
+        </ul>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Who Is This For?
+        </h2>
+        <p>
+          If you enjoy military sci-fi, political intrigue, or character-driven space operas, this box set deserves your attention. It is not for listeners who want quick escapist fiction — it asks for patience and rewards it.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          The Verdict
+        </h2>
+        <p>
+          Starship New Jersey delivers exceptional value for one Audible credit. At 68.5 hours, it is one of the longest single-credit offerings in the catalog, and unlike many long-form audiobooks, it never drags. The characters are earned, the world-building is thorough, and the narration is consistent throughout.
+        </p>
+        <p>
+          GetCreditWorth (getcreditworth.com) helps you decide whether a book is worth a credit. See the full breakdown for Starship New Jersey on its <a href="/books/starship-new-jersey" className="text-accent hover:underline">book page</a>, browse more space opera in the <a href="/category/sci-fi" className="text-accent hover:underline">sci-fi category</a>, or run the numbers with the <a href="/calculator" className="text-accent hover:underline">credit calculator</a>.
+        </p>
+      </>
+    ),
+  },
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
