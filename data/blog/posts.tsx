@@ -629,7 +629,7 @@ const POSTS: Record<string, BlogPostData> = {
         <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">Can I cancel Audible and keep my books?</h3>
         <p>Yes. Any audiobook you purchase with a credit is yours to keep forever, even after you cancel your membership.</p>
         <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">What happens to unused credits when I cancel?</h3>
-        <p>Unused credits are forfeited when you cancel. Always spend them before closing your account &mdash; see our <Link href="/blog/how-to-cancel-audible" className="text-primary underline"> cancellation guide</Link> for the smart exit strategy.</p>
+        <p>Unused credits are forfeited when you cancel. Always spend them before closing your account &mdash; see our <Link href="/blog/how-to-cancel-audible-subscription" className="text-primary underline"> cancellation guide</Link> for the smart exit strategy.</p>
         <p className="mt-6">
           For most listeners, Audible is worth it &mdash; especially if you use our
           <Link href="/" className="text-primary underline"> Value Score rankings</Link>
@@ -666,6 +666,24 @@ const POSTS: Record<string, BlogPostData> = {
     date: '2026-07-25',
     readTime: '8 min read',
     category: 'Guide',
+    faq: [
+      {
+        question: 'Can you return audiobooks on Audible?',
+        answer: 'Yes. Active Audible members can return audiobooks purchased with credits or cash within 365 days of purchase. Credits are restored instantly; cash purchases are refunded to the original payment method.',
+      },
+      {
+        question: 'How many Audible books can you return?',
+        answer: 'Audible does not publish a fixed limit, but a safe rule is to return no more than 20% of your total purchases. Excessive returns can trigger account restrictions and remove self-service returns.',
+      },
+      {
+        question: 'Do you lose your credits when you return an Audible book?',
+        answer: 'No. When you return a book bought with a credit, that credit is returned to your account instantly and can be used on any other audiobook.',
+      },
+      {
+        question: 'How long does an Audible refund take?',
+        answer: 'Credit purchases are refunded instantly. Cash purchases take 5-7 business days to appear back on your payment method.',
+      },
+    ],
     content: (
       <>
         <p>
@@ -726,7 +744,7 @@ const POSTS: Record<string, BlogPostData> = {
         <ul className="space-y-2">
           <li><strong>Try before committing:</strong> Sample a narrator you&apos;re unsure about, then return if the performance doesn&apos;t land.</li>
           <li><strong>Recover a wasted credit:</strong> If you spent a credit on a dud, return it and spend on a higher Value Score title.</li>
-          <li><strong>Pre-cancellation cleanup:</strong> Return everything you can before closing your account &mdash; see our <Link href="/blog/how-to-cancel-audible" className="text-primary underline"> cancellation guide</Link>.</li>
+          <li><strong>Pre-cancellation cleanup:</strong> Return everything you can before closing your account &mdash; see our <Link href="/blog/how-to-cancel-audible-subscription" className="text-primary underline"> cancellation guide</Link>.</li>
         </ul>
         <p className="mt-6">
           Use the generous return policy to explore fearlessly. Check our
@@ -758,6 +776,12 @@ const POSTS: Record<string, BlogPostData> = {
         <p>How does Audible's return policy compare to other digital content platforms? Apple Books allows returns of audiobooks within 90 days, but only if unlistened. Google Play Books offers a 7-day return window for audiobooks. Amazon's Kindle books have a 7-day return policy. Audible's policy — no fixed window, case-by-case for active members — is actually the most flexible, though the lack of transparency about return limits creates uncertainty. The key advantage of Audible is that you can return listened books, which no major competitor allows. This flexibility is worth keeping in mind when deciding where to buy your audiobooks.</p>
       <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Great Return Policy of 2022: What Changed and Why</h2>
         <p>In 2022, Audible revised its return policy after discovering that a small number of users were systematically returning audiobooks after listening — effectively using the service as a free rental platform. The policy change introduced return limits based on the ratio of books returned versus books purchased. While Audible does not publish the exact threshold, internal reports suggest the limit triggers when returns exceed 20-30% of total purchases. This change primarily affected heavy returners (those returning more than 5 books per year) while leaving the vast majority of members unaffected. Understanding this history helps contextualize the current policy.</p>
+        <p className="mt-6">
+          For the step-by-step return process with credits vs cash, see our{" "}
+          <Link href="/blog/audible-return-refund-policy" className="text-primary underline">Audible return &amp; refund guide</Link>,
+          and if you are leaving Audible entirely, check the{" "}
+          <Link href="/blog/audible-cancellation-fees" className="text-primary underline">cancellation fee breakdown</Link>.
+        </p>
       </>
     ),
   },
@@ -1833,6 +1857,24 @@ const POSTS: Record<string, BlogPostData> = {
     date: '2026-07-27',
     readTime: '7 min read',
     category: 'Guide',
+    faq: [
+      {
+        question: 'Can I return an Audible audiobook after listening to it?',
+        answer: 'Yes. Audible allows you to return audiobooks within 365 days of purchase, even after you have listened to them. Credits are restored instantly and cash purchases are refunded to your card within 5-7 business days.',
+      },
+      {
+        question: 'How many audiobooks can I return on Audible?',
+        answer: 'Audible does not publish a hard limit, but returning more than 20-30% of your purchases can flag your account for review and remove self-service returns. Use returns sparingly, ideally under 10% of your purchases.',
+      },
+      {
+        question: 'Do I get my Audible credit back when I return a book?',
+        answer: 'Yes. When you return an audiobook purchased with a credit, the credit is restored to your account instantly and can be spent on another title.',
+      },
+      {
+        question: 'Will Audible refund my annual membership if I cancel?',
+        answer: 'Yes, in many cases. If you cancel a Premium Plus Annual plan within the first year, Audible typically refunds the unused portion of your membership on a prorated basis, minus the retail value of any credits you have already used.',
+      },
+    ],
     content: (
       <>
         <p>Audible offers one of the most generous return policies in digital media: you can return audiobooks within 365 days of purchase. This is far longer than most retailers (7-30 days) and gives you peace of mind when spending credits.</p>
@@ -1913,7 +1955,14 @@ const POSTS: Record<string, BlogPostData> = {
           <li>Check reviews and ratings on GetCreditWorth before purchasing to reduce return likelihood</li>
         </ul>
       
-<p><strong>Important:</strong> Return policies vary by region. UK and EU customers have additional consumer protection rights including the right to cancel within 14 days of purchase under distance selling regulations. US customers are covered by Audible voluntary return policy rather than statutory rights.</p></>
+<p><strong>Important:</strong> Return policies vary by region. UK and EU customers have additional consumer protection rights including the right to cancel within 14 days of purchase under distance selling regulations. US customers are covered by Audible voluntary return policy rather than statutory rights.</p>
+        <p>
+          Returning a book frees up a credit &mdash; learn how to spend it before it expires in our{" "}
+          <Link href="/blog/audible-credits-expiration-policy" className="text-primary underline">credit expiration guide</Link>,
+          or see whether pausing beats canceling in the{" "}
+          <Link href="/blog/how-to-cancel-audible-subscription" className="text-primary underline">cancellation guide</Link>.
+        </p>
+      </>
 
 
     ),
@@ -1927,6 +1976,24 @@ const POSTS: Record<string, BlogPostData> = {
     date: '2026-07-27',
     readTime: '4 min read',
     category: 'FAQ',
+    faq: [
+      {
+        question: 'Does Audible charge a cancellation fee?',
+        answer: 'No. Audible does not charge any cancellation fee on any plan. You can cancel your Premium or Premium Plus subscription at any time without penalty.',
+      },
+      {
+        question: 'Do I lose my unused credits when I cancel Audible?',
+        answer: 'Yes. Any unused credits are forfeited immediately upon cancellation. Spend them before you cancel — each credit is worth roughly $14.95 in membership cost.',
+      },
+      {
+        question: 'Do I keep my audiobooks after canceling Audible?',
+        answer: 'Yes. All audiobooks you purchased remain in your library forever. You only lose access to the Plus Catalog, member discounts, and unused credits.',
+      },
+      {
+        question: 'Can I get a partial refund on an Audible annual plan?',
+        answer: 'Yes. If you cancel a Premium Plus Annual plan mid-cycle, Audible may issue a prorated refund for the unused portion, minus the retail value of any credits you have already used. This is handled case-by-case by support.',
+      },
+    ],
     content: (
       <>
         <p><strong>No, Audible does not charge a cancellation fee.</strong> You can cancel your Premium or Premium Plus subscription at any time without penalty.</p>
@@ -1997,7 +2064,14 @@ const POSTS: Record<string, BlogPostData> = {
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Using Your Remaining Credits Before Canceling</h2>
         <p>Before you cancel, use every remaining credit. Each credit represents $14.95 in membership cost and potentially $30-50 in audiobook retail value. Check our <a href="https://getcreditworth.com" className="text-primary hover:underline">GetCreditWorth rankings</a> to find the highest Value Score books for your remaining credits. A credit spent on a 45-hour epic fantasy delivers far more value than one lost to cancellation. Prioritize books with long runtimes and high ratings to maximize your final credit spend.</p>
       
-<p><strong>Summary:</strong> Audible does not charge cancellation fees on any plan. The key financial impact is losing unused credits and the 30% member discount. If you plan to resubscribe within a few months, consider pausing instead.</p></>
+<p><strong>Summary:</strong> Audible does not charge cancellation fees on any plan. The key financial impact is losing unused credits and the 30% member discount. If you plan to resubscribe within a few months, consider pausing instead.</p>
+        <p>
+          Before you cancel, return any books you want to swap via the{" "}
+          <Link href="/blog/audible-return-refund-policy" className="text-primary underline">return &amp; refund guide</Link>,
+          and learn exactly how far your credits stretch in our{" "}
+          <Link href="/blog/audible-credits-expiration-policy" className="text-primary underline">credit expiration guide</Link>.
+        </p>
+      </>
 
 
     ),
