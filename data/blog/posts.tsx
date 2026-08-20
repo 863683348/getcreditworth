@@ -4859,8 +4859,7 @@ export function getAllBlogPosts(): BlogPost[] {
     .map(({ content, ...meta }) => meta)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
-
-export const POSTS: Record<string, BlogPost> = {
+  ,
   'a-memory-of-light-audiobook-review': {
     slug: 'a-memory-of-light-audiobook-review',
     title: 'A Memory of Light Audiobook Review: The Wheel of Time Finale',
@@ -4958,4 +4957,3 @@ export const POSTS: Record<string, BlogPost> = {
       </>
     ),
   },
-}
