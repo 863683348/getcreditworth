@@ -4958,3 +4958,4 @@ export const POSTS: Record<string, BlogPost> = {
       </>
     ),
   },
+}
