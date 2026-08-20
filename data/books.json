@@ -309,6 +309,30 @@
     "author": "Todd Herzman",
     "narrator": "John Pirhalla",
     "runtimeMinutes": 5720,
+    "price": 18.57,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51lX+np2+oL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H7XR2Y24",
+    "categories": [
+      "Young Adult",
+      "Dystopian",
+      "Science Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 95.3,
+    "valueScore": 23.1,
+    "costPerHour": 0.19,
+    "creditWorth": 1.24
+  },
+  {
+    "asin": "B0H7XR2Y24",
+    "title": "Accidental Champion: Books 1-5",
+    "author": "Todd Herzman",
+    "narrator": "John Pirhalla",
+    "runtimeMinutes": 5720,
     "price": 18.66,
     "currency": "USD",
     "starRating": 4.5,
@@ -1956,6 +1980,31 @@
     "creditWorth": 1.16
   },
   {
+    "asin": "B0F49DHHKK",
+    "title": "The Daughters of the Promise",
+    "author": "Beth Wiseman",
+    "narrator": "Renee Ertl",
+    "runtimeMinutes": 3237,
+    "price": 17.38,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51ApybGlolL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F49DHHKK",
+    "categories": [
+      "Fiction",
+      "Romance",
+      "Contemporary",
+      "Women Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 54,
+    "valueScore": 13.97,
+    "costPerHour": 0.32,
+    "creditWorth": 1.16
+  },
+  {
     "asin": "B003VWJAPA",
     "title": "The Rise and Fall of the Third Reich",
     "author": "William L. Shirer",
@@ -3434,6 +3483,31 @@
     "valueScore": 10.34,
     "costPerHour": 0.44,
     "creditWorth": 1.57
+  },
+  {
+    "asin": "B002UZZ93G",
+    "title": "A Game of Thrones",
+    "author": "George R. R. Martin",
+    "narrator": "Roy Dotrice",
+    "runtimeMinutes": 2026,
+    "price": 16.33,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 7199,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51y1J8oFBqL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002UZZ93G",
+    "categories": [
+      "Fiction",
+      "Fantasy",
+      "Epic Fantasy",
+      "Political"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 33.8,
+    "valueScore": 10.34,
+    "costPerHour": 0.48,
+    "creditWorth": 1.09
   },
   {
     "asin": "0061999881",
@@ -6610,6 +6684,30 @@
     "creditWorth": 1.41
   },
   {
+    "asin": "B002V8HNTA",
+    "title": "Mao",
+    "author": "Jung Chang, Jon Halliday",
+    "narrator": "Robertson Dean",
+    "runtimeMinutes": 1790,
+    "price": 16.74,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 212,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51+CGv8v5GL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V8HNTA",
+    "categories": [
+      "Biography",
+      "History",
+      "Politics"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 29.8,
+    "valueScore": 8.02,
+    "costPerHour": 0.56,
+    "creditWorth": 1.12
+  },
+  {
     "asin": "B0DT34WSTZ",
     "title": "THE MOONHAVEN MYSTERIES: Box set 2 (Books 4–6)",
     "author": "K.S. Van",
@@ -6909,6 +7007,31 @@
     "costPerHour": 0.57,
     "creditWorth": 1.24,
     "description": "In Jonathan Strange & Mr Norrell, author Susanna Clarke delivers an immersive fantasy world. This highly praised audiobook runs 32 hours and offers an engaging listen for fans of fantasy. With stellar narration by Simon Prebble.  Before you spend your Audible credit on Jonathan Strange & Mr Norrell, check how it stacks up against our Value Score system. Jonathan Strange & Mr Norrell has a Value Score of 7.9, costs $18.56, and runs 32.5 hours at $0.57 per hour of listening. With 32 hours of immersive listening and a highly praised rating, this audiobook represents a strong value."
+  },
+  {
+    "asin": "B0F14P2632",
+    "title": "Harry Potter and the Order of the Phoenix (Full-Cast Edition)",
+    "author": "J.K. Rowling",
+    "narrator": "Hugh Laurie, Keira Knightley, James McAvoy, Kit Harington, Ruth Wilson, Matthew Macfadyen, Michelle Gomez, Riz Ahmed, Leo Woodall, Ṣọpẹ́ Dìrísù, Cush Jumbo, Simon Pegg, Jaxon Knopf, Rhys Mulligan, Nina Barker-Francis",
+    "runtimeMinutes": 1599,
+    "price": 16.91,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 750,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51qW73k+gWL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F14P2632",
+    "categories": [
+      "Fiction",
+      "Fantasy",
+      "Young Adult",
+      "Classic"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 26.7,
+    "valueScore": 7.88,
+    "costPerHour": 0.63,
+    "creditWorth": 1.13
   },
   {
     "asin": "B0H7Z6PR62",
@@ -7388,6 +7511,30 @@
     "adjustedValueScore": 45.14
   },
   {
+    "asin": "B0CDXWSS5D",
+    "title": "The Eye of the Bedlam Bride",
+    "author": "Matt Dinniman",
+    "narrator": "Jeff Hays, Patrick Warburton, Travis Baldree, Annie Ellicott",
+    "runtimeMinutes": 1606,
+    "price": 17.35,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 2355,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51qfZAq2J4L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CDXWSS5D",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 26.8,
+    "valueScore": 7.71,
+    "costPerHour": 0.65,
+    "creditWorth": 1.16
+  },
+  {
     "asin": "B0FXF36GTL",
     "title": "Sweet Seduction Book Bundle (Sweet Seduction, Books 1-3): A Love At First Sight Romantic Suspense Series",
     "author": "Nicola Claire",
@@ -7689,6 +7836,30 @@
     "costPerHour": 0.59,
     "creditWorth": 1,
     "description": "\"Needful Things\" by Stephen King scores 7.6 on our Value Score system. This 25-hour Horror costs $0.59/hour. 4.5 stars. Consider buying directly."
+  },
+  {
+    "asin": "B004VA8ZVQ",
+    "title": "Benjamin Franklin: An American Life",
+    "author": "Walter Isaacson",
+    "narrator": "Nelson Runger",
+    "runtimeMinutes": 1480,
+    "price": 14.59,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 598,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61zcpKItWZL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B004VA8ZVQ",
+    "categories": [
+      "Biography",
+      "History",
+      "Science"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 24.7,
+    "valueScore": 7.61,
+    "costPerHour": 0.59,
+    "creditWorth": 0.98
   },
   {
     "asin": "B015JK65YU",
@@ -9030,6 +9201,31 @@
     "valueScore": 7.2,
     "costPerHour": 0.69,
     "creditWorth": 1.56
+  },
+  {
+    "asin": "B017WJ5ZK6",
+    "title": "Harry Potter and the Deathly Hallows, Book 7",
+    "author": "J.K. Rowling",
+    "narrator": "Jim Dale",
+    "runtimeMinutes": 1296,
+    "price": 15,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 5027,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61yMjtQzKcL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B017WJ5ZK6",
+    "categories": [
+      "Fiction",
+      "Fantasy",
+      "Young Adult",
+      "Classic"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 21.6,
+    "valueScore": 7.2,
+    "costPerHour": 0.69,
+    "creditWorth": 1
   },
   {
     "asin": "B002V0QCYU",
@@ -10633,6 +10829,30 @@
     "creditWorth": 1.42
   },
   {
+    "asin": "B0BVD25SYT",
+    "title": "Fourth Wing",
+    "author": "Rebecca Yarros",
+    "narrator": "Rebecca Soler, Teddy Hamilton",
+    "runtimeMinutes": 1322,
+    "price": 14.92,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 13314,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61DeDp4b3GL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0BVD25SYT",
+    "categories": [
+      "Romance",
+      "Fantasy",
+      "Young Adult"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 22,
+    "valueScore": 6.65,
+    "costPerHour": 0.68,
+    "creditWorth": 1
+  },
+  {
     "asin": "B00ECGLKLG",
     "title": "Titan",
     "author": "Ron Chernow",
@@ -11822,6 +12042,31 @@
     "adjustedValueScore": 32.96
   },
   {
+    "asin": "B002V0QCYU",
+    "title": "The Final Empire",
+    "author": "Brandon Sanderson",
+    "narrator": "Michael Kramer",
+    "runtimeMinutes": 1479,
+    "price": 19.23,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 5103,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61rYqiz8yJL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V0QCYU",
+    "categories": [
+      "Fiction",
+      "Fantasy",
+      "Epic Fantasy",
+      "High Fantasy"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 24.7,
+    "valueScore": 6.41,
+    "costPerHour": 0.78,
+    "creditWorth": 1.29
+  },
+  {
     "asin": "B003ILGSFE",
     "title": "The Girl Who Kicked the Hornet's Nest",
     "author": "Stieg Larsson, Reg Keeland - translator",
@@ -12096,6 +12341,30 @@
     "description": ""
   },
   {
+    "asin": "B0BZ9FT6ZK",
+    "title": "Shatter Me 3-Book Set 1",
+    "author": "Tahereh Mafi",
+    "narrator": "Kate Simses",
+    "runtimeMinutes": 1851,
+    "price": 21.86,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 169,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51TOZwYkEAL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0BZ9FT6ZK",
+    "categories": [
+      "Young Adult",
+      "Dystopian",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 30.9,
+    "valueScore": 6.35,
+    "costPerHour": 0.71,
+    "creditWorth": 1.46
+  },
+  {
     "asin": "B082VK6Q8G",
     "title": "Tools of Titans",
     "author": "Tim Ferriss",
@@ -12272,6 +12541,31 @@
     "creditWorth": 1.41
   },
   {
+    "asin": "B09WNDWX1Q",
+    "title": "Mago y cristal [Wizard and Glass]",
+    "author": "Stephen King, María Antonia Menini Pagès, Fabio Andrés Ferreras",
+    "narrator": "Jimmy Vásquez",
+    "runtimeMinutes": 1746,
+    "price": 22.97,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41jGXOMqcaL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09WNDWX1Q",
+    "categories": [
+      "Fiction",
+      "Fantasy",
+      "Dark Fantasy",
+      "Science Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 29.1,
+    "valueScore": 6.33,
+    "costPerHour": 0.79,
+    "creditWorth": 1.54
+  },
+  {
     "asin": "B09HRB49KD",
     "title": "The Armor of God",
     "author": "David Skeba",
@@ -12396,6 +12690,30 @@
     "costPerHour": 0.8,
     "creditWorth": 0.94,
     "adjustedValueScore": 14.46
+  },
+  {
+    "asin": "B0G95BR585",
+    "title": "Birds of a Feather: The Secrets of a Knight",
+    "author": "Kate Stewart",
+    "narrator": "Grayson Owens, Chloe Ryan, Leila Allarie, Aaron Shedlock, Will Thorne, Michael Gallagher, Anthony Palmini, Sean Masters",
+    "runtimeMinutes": 1451,
+    "price": 19.25,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 237,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51JT3zAQ8jL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0G95BR585",
+    "categories": [
+      "Mystery",
+      "Historical",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 24.2,
+    "valueScore": 6.28,
+    "costPerHour": 0.8,
+    "creditWorth": 1.29
   },
   {
     "asin": "B003WVNWU4",
@@ -13384,6 +13702,30 @@
     "creditWorth": 1.46
   },
   {
+    "asin": "B0CDYTN7LZ",
+    "title": "Rama II (Serie Rama 2)",
+    "author": "Arthur C. Clarke",
+    "narrator": "Luis Posada",
+    "runtimeMinutes": 1138,
+    "price": 14.02,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41ZBClF3TpL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CDYTN7LZ",
+    "categories": [
+      "Science Fiction",
+      "Classic",
+      "Space Opera"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 19,
+    "valueScore": 6.09,
+    "costPerHour": 0.74,
+    "creditWorth": 0.94
+  },
+  {
     "asin": "B017V4NOZ0",
     "title": "Harry Potter and the Half-Blood Prince, Book 6",
     "author": "J.K. Rowling",
@@ -13912,6 +14254,32 @@
     "costPerHour": 0.83,
     "creditWorth": 1.45,
     "adjustedValueScore": 31.37
+  },
+  {
+    "asin": "B0H4LKXP2C",
+    "title": "He Who Fights with Monsters 13: A LitRPG Adventure",
+    "author": "Shirtaloon, Travis Deverell",
+    "narrator": "Heath Miller",
+    "runtimeMinutes": 1354,
+    "price": 16.52,
+    "currency": "USD",
+    "starRating": 4.4,
+    "reviewCount": 837,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51XVeo9KqOL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H4LKXP2C",
+    "categories": [
+      "Fiction",
+      "Mystery",
+      "Thriller",
+      "Crime",
+      "Legal Thriller"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 22.6,
+    "valueScore": 6.01,
+    "costPerHour": 0.73,
+    "creditWorth": 1.11
   },
   {
     "asin": "0593208307",
@@ -15482,6 +15850,29 @@
     "valueScore": 5.75,
     "costPerHour": 0.78,
     "creditWorth": 1.06
+  },
+  {
+    "asin": "B0DJ3H33MK",
+    "title": "Pachinko (National Book Award Finalist)",
+    "author": "Min Jin Lee",
+    "narrator": "Sandra Oh, Min Jin Lee",
+    "runtimeMinutes": 1068,
+    "price": 13.92,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 306,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/417086yn20L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DJ3H33MK",
+    "categories": [
+      "Fiction",
+      "Literary Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 17.8,
+    "valueScore": 5.75,
+    "costPerHour": 0.78,
+    "creditWorth": 0.93
   },
   {
     "asin": "B002V0QCYU",
@@ -20794,6 +21185,31 @@
     "creditWorth": 0.97
   },
   {
+    "asin": "B0GK2MZ1NX",
+    "title": "Life Out of Order",
+    "author": "Audrey Niffenegger",
+    "narrator": "Melissa Barrera, Santino Fontana, Phoebe Strole, Fred Berman, January LaVoy, Bahni Turpin, Zheng Xi Yong",
+    "runtimeMinutes": 1140,
+    "price": 17.41,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 1699,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51EB5KI2XaL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GK2MZ1NX",
+    "categories": [
+      "Fiction",
+      "Romance",
+      "Science Fiction",
+      "Fantasy"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 19,
+    "valueScore": 5.02,
+    "costPerHour": 0.92,
+    "creditWorth": 1.16
+  },
+  {
     "asin": "B082YHZPTY",
     "title": "House of Earth and Blood: Crescent City, Book 1",
     "author": "Sarah J. Maas",
@@ -21527,6 +21943,31 @@
     "costPerHour": 0.81,
     "creditWorth": 1.14,
     "adjustedValueScore": 5.44
+  },
+  {
+    "asin": "B017V4NUPO",
+    "title": "Harry Potter and the Goblet of Fire, Book 4",
+    "author": "J.K. Rowling",
+    "narrator": "Jim Dale",
+    "runtimeMinutes": 1236,
+    "price": 20.82,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 3490,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61m99NmM4jL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B017V4NUPO",
+    "categories": [
+      "Fiction",
+      "Fantasy",
+      "Young Adult",
+      "Classic"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 20.6,
+    "valueScore": 4.95,
+    "costPerHour": 1.01,
+    "creditWorth": 1.39
   },
   {
     "asin": "B002UUMS76",
@@ -22710,6 +23151,30 @@
     "valueScore": 4.83,
     "costPerHour": 1.04,
     "creditWorth": 1.17
+  },
+  {
+    "asin": "B0HC212SDR",
+    "title": "Apex Guardian",
+    "author": "Jollybane",
+    "narrator": "Neill Thorne",
+    "runtimeMinutes": 1030,
+    "price": 16.01,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 676,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51-+3gQshEL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HC212SDR",
+    "categories": [
+      "Young Adult",
+      "Dystopian",
+      "Romance"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 17.2,
+    "valueScore": 4.83,
+    "costPerHour": 0.93,
+    "creditWorth": 1.07
   },
   {
     "asin": "B0FQ67SVXX",
@@ -24247,6 +24712,31 @@
     "adjustedValueScore": 3.24
   },
   {
+    "asin": "B019NNT1G8",
+    "title": "Dark Tower III",
+    "author": "Stephen King",
+    "narrator": "Frank Muller",
+    "runtimeMinutes": 1094,
+    "price": 19.46,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 803,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51zYSDLAHNL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B019NNT1G8",
+    "categories": [
+      "Fiction",
+      "Fantasy",
+      "Dark Fantasy",
+      "Science Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 18.2,
+    "valueScore": 4.68,
+    "costPerHour": 1.07,
+    "creditWorth": 1.3
+  },
+  {
     "asin": "B07DHRP7VK",
     "title": "The Spy and the Traitor",
     "author": "Ben Macintyre",
@@ -24497,6 +24987,31 @@
     "valueScore": 4.66,
     "costPerHour": 0.97,
     "creditWorth": 1.15
+  },
+  {
+    "asin": "B00CS522EW",
+    "title": "The Cuckoo's Calling",
+    "author": "Robert Galbraith",
+    "narrator": "Robert Glenister",
+    "runtimeMinutes": 954,
+    "price": 15.34,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2235,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/510w6itDJWL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00CS522EW",
+    "categories": [
+      "Fiction",
+      "Mystery",
+      "Crime",
+      "Thriller"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 15.9,
+    "valueScore": 4.66,
+    "costPerHour": 0.96,
+    "creditWorth": 1.03
   },
   {
     "title": "All the Devils Are Here: A Novel",
@@ -24831,6 +25346,31 @@
     "costPerHour": 1.08,
     "creditWorth": 0.97,
     "adjustedValueScore": 11.88
+  },
+  {
+    "asin": "B01N38DEI1",
+    "title": "The Lady of the Lake",
+    "author": "Andrzej Sapkowski, David French - translator",
+    "narrator": "Peter Kenny",
+    "runtimeMinutes": 1218,
+    "price": 19.72,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 483,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51pC9YEauwL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01N38DEI1",
+    "categories": [
+      "Fiction",
+      "Fantasy",
+      "Epic Fantasy",
+      "Adventure"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 20.3,
+    "valueScore": 4.63,
+    "costPerHour": 0.97,
+    "creditWorth": 1.32
   },
   {
     "asin": "1774244888",
@@ -26451,6 +26991,31 @@
     "creditWorth": 1.26
   },
   {
+    "asin": "B017V4NOZ0",
+    "title": "Harry Potter and the Half-Blood Prince, Book 6",
+    "author": "J.K. Rowling",
+    "narrator": "Jim Dale",
+    "runtimeMinutes": 1112,
+    "price": 20.5,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 2655,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51sImF7gqML._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B017V4NOZ0",
+    "categories": [
+      "Fiction",
+      "Fantasy",
+      "Young Adult",
+      "Classic"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 18.5,
+    "valueScore": 4.52,
+    "costPerHour": 1.11,
+    "creditWorth": 1.37
+  },
+  {
     "title": "Resist Me",
     "author": "Kelsie Rae",
     "narrator": "Ava Monroe, Zach Lazar Hoffman, Vanessa Moyen, Ryan Pierson, Dani Soleil, E.M. Wylde, Cary Hite, Skye Lark",
@@ -26958,6 +27523,30 @@
     "costPerHour": 1.12,
     "creditWorth": 1.22,
     "adjustedValueScore": 15.76
+  },
+  {
+    "asin": "B002V5CJDI",
+    "title": "Deception Point: A Novel",
+    "author": "Dan Brown",
+    "narrator": "Richard Poe",
+    "runtimeMinutes": 1024,
+    "price": 17.17,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 893,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41UNGDOwFNL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V5CJDI",
+    "categories": [
+      "Thriller",
+      "Technology",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 17.1,
+    "valueScore": 4.47,
+    "costPerHour": 1.01,
+    "creditWorth": 1.15
   },
   {
     "asin": "B007ZF71L4",
@@ -28723,6 +29312,30 @@
     "adjustedValueScore": 27.47
   },
   {
+    "asin": "B08K565KZM",
+    "title": "Laugh Lines with Kim & Penn Holderness",
+    "author": "Kim & Penn Holderness",
+    "narrator": "",
+    "runtimeMinutes": 840,
+    "price": 16.09,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 11,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51r8f6f117L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B08K565KZM",
+    "categories": [
+      "Classic",
+      "Adventure",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 14,
+    "valueScore": 4.35,
+    "costPerHour": 1.15,
+    "creditWorth": 1.08
+  },
+  {
     "asin": "B00HCQCGJ8",
     "title": "The Name of the Rose",
     "author": "Umberto Eco",
@@ -29556,6 +30169,30 @@
     "creditWorth": 0.94
   },
   {
+    "asin": "B019R2J1F6",
+    "title": "The Paper Menagerie and Other Stories",
+    "author": "Ken Liu",
+    "narrator": "Corey Brill, Joy Osmanski",
+    "runtimeMinutes": 941,
+    "price": 16.45,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 52,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41EalUHaLAL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B019R2J1F6",
+    "categories": [
+      "Science Fiction",
+      "Fantasy",
+      "Short Stories"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 15.7,
+    "valueScore": 4.29,
+    "costPerHour": 1.05,
+    "creditWorth": 1.1
+  },
+  {
     "asin": "B0B6JPQXR6",
     "title": "Mark of the Fool",
     "author": "J.M. Clarke",
@@ -30265,6 +30902,31 @@
     "creditWorth": 1.11
   },
   {
+    "asin": "B003ILGSFE",
+    "title": "The Girl Who Kicked the Hornet's Nest",
+    "author": "Stieg Larsson, Reg Keeland - translator",
+    "narrator": "Simon Vance",
+    "runtimeMinutes": 1217,
+    "price": 21.54,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 939,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/4161GwcH34L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B003ILGSFE",
+    "categories": [
+      "Fiction",
+      "Mystery",
+      "Thriller",
+      "Crime"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 20.3,
+    "valueScore": 4.24,
+    "costPerHour": 1.06,
+    "creditWorth": 1.44
+  },
+  {
     "asin": "0593452100",
     "title": "The Lincoln Highway",
     "author": "Amor Towles",
@@ -30896,6 +31558,30 @@
     "valueScore": 4.2,
     "costPerHour": 1.07,
     "creditWorth": 1.02
+  },
+  {
+    "asin": "B094XCNV6G",
+    "title": "The Dungeon Anarchist's Cookbook",
+    "author": "Matt Dinniman",
+    "narrator": "Jeff Hays, The Critical Drinker",
+    "runtimeMinutes": 1014,
+    "price": 20.13,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 2865,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/518nfG1FaYL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B094XCNV6G",
+    "categories": [
+      "Science",
+      "Food",
+      "Non-Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 16.9,
+    "valueScore": 4.2,
+    "costPerHour": 1.19,
+    "creditWorth": 1.35
   },
   {
     "asin": "B0CJ5NSM8K",
@@ -31941,6 +32627,30 @@
     "creditWorth": 1.05
   },
   {
+    "asin": "B0DR39FX32",
+    "title": "Story of My Life",
+    "author": "Lucy Score",
+    "narrator": "Lila Winters, Sebastian York",
+    "runtimeMinutes": 970,
+    "price": 17.66,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 559,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Q3dZBYzAL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DR39FX32",
+    "categories": [
+      "Biography",
+      "Memoir",
+      "Politics"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 16.2,
+    "valueScore": 4.12,
+    "costPerHour": 1.09,
+    "creditWorth": 1.18
+  },
+  {
     "asin": "1549119737",
     "title": "The City We Became",
     "author": "N. K. Jemisin",
@@ -32411,6 +33121,29 @@
     "costPerHour": 1.22,
     "creditWorth": 1,
     "adjustedValueScore": 29.4
+  },
+  {
+    "asin": "B07KYVZFT7",
+    "title": "The Testaments (TV Tie-in)",
+    "author": "Margaret Atwood",
+    "narrator": "Ann Dowd, Bryce Dallas Howard, Mae Whitman, Derek Jacobi, Tantoo Cardinal, Margaret Atwood",
+    "runtimeMinutes": 798,
+    "price": 14.66,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1800,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41lS6XYDwZL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07KYVZFT7",
+    "categories": [
+      "Fiction",
+      "Literary Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 13.3,
+    "valueScore": 4.08,
+    "costPerHour": 1.1,
+    "creditWorth": 0.98
   },
   {
     "title": "Titan Mage Havoc and the Frigid Flame",
@@ -36525,6 +37258,30 @@
     "adjustedValueScore": 22.2
   },
   {
+    "asin": "B0HC2PFGGK",
+    "title": "Choices of One: Star Wars Legends",
+    "author": "Timothy Zahn",
+    "narrator": "Marc Thompson",
+    "runtimeMinutes": 900,
+    "price": 16.75,
+    "currency": "USD",
+    "starRating": 4.3,
+    "reviewCount": 1835,
+    "coverImageUrl": "",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HC2PFGGK",
+    "categories": [
+      "Young Adult",
+      "Dystopian",
+      "Science Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 15,
+    "valueScore": 3.85,
+    "costPerHour": 1.12,
+    "creditWorth": 1.12
+  },
+  {
     "asin": "B01DYO4QRQ",
     "title": "A Court of Mist and Fury",
     "author": "Sarah J. Maas",
@@ -36985,6 +37742,31 @@
     "adjustedValueScore": 8.42
   },
   {
+    "asin": "B06XXNKX6D",
+    "title": "Lying Game",
+    "author": "Ruth Ware",
+    "narrator": "Imogen Church",
+    "runtimeMinutes": 819,
+    "price": 14.24,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 434,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51aYW-g9YGL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B06XXNKX6D",
+    "categories": [
+      "Fiction",
+      "Mystery",
+      "Thriller",
+      "Crime"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 13.7,
+    "valueScore": 3.83,
+    "costPerHour": 1.04,
+    "creditWorth": 0.95
+  },
+  {
     "asin": "B005K0E3AS",
     "title": "Gone, Baby, Gone",
     "author": "Dennis Lehane",
@@ -37109,6 +37891,54 @@
     "costPerHour": 1.18,
     "creditWorth": 1.25,
     "adjustedValueScore": 20.04
+  },
+  {
+    "asin": "0525494855",
+    "title": "The Water Dancer (Oprah’s Book Club)",
+    "author": "Ta-Nehisi Coates",
+    "narrator": "Joe Morton",
+    "runtimeMinutes": 854,
+    "price": 16.77,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1252,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51ZvLn7ZUtL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0525494855",
+    "categories": [
+      "Fiction",
+      "Historical Fiction",
+      "Fantasy"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 14.2,
+    "valueScore": 3.82,
+    "costPerHour": 1.18,
+    "creditWorth": 1.12
+  },
+  {
+    "asin": "B002VAEON6",
+    "title": "Trunk Music: Harry Bosch Series, Book 5",
+    "author": "Michael Connelly",
+    "narrator": "Dick Hill",
+    "runtimeMinutes": 761,
+    "price": 14.94,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 438,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51fT2VWcdaL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002VAEON6",
+    "categories": [
+      "Mystery",
+      "Thriller",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 12.7,
+    "valueScore": 3.82,
+    "costPerHour": 1.18,
+    "creditWorth": 1
   },
   {
     "title": "The Lincoln Lawyer: Booktrack Edition",
@@ -37746,6 +38576,30 @@
     "adjustedValueScore": 22.47
   },
   {
+    "asin": "B0GQD5ZMWR",
+    "title": "The Essays of Warren Buffett - 8th ed",
+    "author": "Lawrence A. Cunningham",
+    "narrator": "Brennen Blotner",
+    "runtimeMinutes": 874,
+    "price": 17.35,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51V4v4Lj15L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GQD5ZMWR",
+    "categories": [
+      "Business",
+      "Investing",
+      "Finance"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 14.6,
+    "valueScore": 3.78,
+    "costPerHour": 1.19,
+    "creditWorth": 1.16
+  },
+  {
     "asin": "0593408519",
     "title": "Beyond Order",
     "author": "Jordan B. Peterson",
@@ -38170,6 +39024,30 @@
     "costPerHour": 1.33,
     "creditWorth": 1.1,
     "adjustedValueScore": 15.77
+  },
+  {
+    "asin": "B0H9YYPJ98",
+    "title": "Just for the Plot",
+    "author": "Meghan Quinn",
+    "narrator": "Samantha Brentmoor, Teddy Hamilton, J.F. Harding, Connor Crais, Emma Wilder, Stella Hunter",
+    "runtimeMinutes": 808,
+    "price": 16.14,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 179,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51u3PMPoKTL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H9YYPJ98",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 13.5,
+    "valueScore": 3.75,
+    "costPerHour": 1.2,
+    "creditWorth": 1.08
   },
   {
     "asin": "B08G9PRS1K",
@@ -38822,6 +39700,31 @@
     "valueScore": 3.72,
     "costPerHour": 1.16,
     "creditWorth": 1.16
+  },
+  {
+    "asin": "B01DDZ3KHI",
+    "title": "The Tower of Swallows",
+    "author": "Andrzej Sapkowski, David French - translator",
+    "narrator": "Peter Kenny",
+    "runtimeMinutes": 985,
+    "price": 22.05,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 331,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/513cNoLmZRL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01DDZ3KHI",
+    "categories": [
+      "Fiction",
+      "Fantasy",
+      "Epic Fantasy",
+      "Adventure"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 16.4,
+    "valueScore": 3.72,
+    "costPerHour": 1.34,
+    "creditWorth": 1.47
   },
   {
     "title": "Ready Player One",
@@ -39529,6 +40432,31 @@
     "valueScore": 3.68,
     "costPerHour": 1.22,
     "creditWorth": 1.4
+  },
+  {
+    "asin": "B003AO3P5A",
+    "title": "The Farseer: Assassin's Apprentice",
+    "author": "Robin Hobb",
+    "narrator": "Paul Boehmer",
+    "runtimeMinutes": 1038,
+    "price": 21.18,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 923,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61-wM-ZrdGL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B003AO3P5A",
+    "categories": [
+      "Fiction",
+      "Fantasy",
+      "Epic Fantasy",
+      "Classic"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 17.3,
+    "valueScore": 3.68,
+    "costPerHour": 1.22,
+    "creditWorth": 1.42
   },
   {
     "asin": "B0CVBK4KCS",
@@ -42071,6 +42999,55 @@
     "creditWorth": 1.41
   },
   {
+    "asin": "B0HF16C15L",
+    "title": "His Wild Blood",
+    "author": "Ed James",
+    "narrator": "Angus King",
+    "runtimeMinutes": 695,
+    "price": 15.62,
+    "currency": "USD",
+    "starRating": 4.8,
+    "reviewCount": 879,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61xQzGXtKrL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HF16C15L",
+    "categories": [
+      "Biography",
+      "Memoir",
+      "Adventure"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 11.6,
+    "valueScore": 3.56,
+    "costPerHour": 1.35,
+    "creditWorth": 1.04
+  },
+  {
+    "asin": "B0C8ZNR1NP",
+    "title": "Rule of the Aurora King",
+    "author": "Nisha J. Tuli",
+    "narrator": "Corvin King, Soneela Nankani",
+    "runtimeMinutes": 866,
+    "price": 18.27,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 320,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/511sbmoFPIL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0C8ZNR1NP",
+    "categories": [
+      "Fiction",
+      "Science Fiction",
+      "Space",
+      "Hard Sci-Fi"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 14.4,
+    "valueScore": 3.56,
+    "costPerHour": 1.27,
+    "creditWorth": 1.22
+  },
+  {
     "asin": "B071Y9TTHC",
     "title": "Children of Time",
     "author": "Adrian Tchaikovsky",
@@ -42546,6 +43523,31 @@
     "valueScore": 3.54,
     "costPerHour": 1.27,
     "creditWorth": 1.23
+  },
+  {
+    "asin": "B0F14PK33J",
+    "title": "Harry Potter and the Prisoner of Azkaban (Full-Cast Edition)",
+    "author": "J.K. Rowling",
+    "narrator": "Hugh Laurie, Matthew Macfadyen, Riz Ahmed, Michelle Gomez, Ṣọpẹ́ Dìrísù, Simon Pegg, Cush Jumbo, Iwan Rheon, Frankie Treadaway, Max Lester, Arabella Stanton, Mark Addy, Matt Berry, David Holmes, Saoirse-Monica Jackson",
+    "runtimeMinutes": 692,
+    "price": 16.31,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 984,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51KqTt1Fk1L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F14PK33J",
+    "categories": [
+      "Fiction",
+      "Fantasy",
+      "Young Adult",
+      "Classic"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 11.5,
+    "valueScore": 3.54,
+    "costPerHour": 1.41,
+    "creditWorth": 1.09
   },
   {
     "asin": "006298389X",
@@ -43157,6 +44159,32 @@
     "valueScore": 3.52,
     "costPerHour": 1.28,
     "creditWorth": 1.22
+  },
+  {
+    "asin": "B0G75QKX2V",
+    "title": "Paradise Lost and Paradise Regained (Annotated)",
+    "author": "John Milton",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 911,
+    "price": 20.26,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 492,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41zJpS0W6UL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0G75QKX2V",
+    "categories": [
+      "Fiction",
+      "Mystery",
+      "Thriller",
+      "Crime",
+      "Suspense"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 15.2,
+    "valueScore": 3.52,
+    "costPerHour": 1.33,
+    "creditWorth": 1.36
   },
   {
     "asin": "1549186434",
@@ -44169,6 +45197,30 @@
     "costPerHour": 1.44,
     "creditWorth": 1.03,
     "adjustedValueScore": 2.41
+  },
+  {
+    "asin": "B0DR39FX32",
+    "title": "Story of My Life",
+    "author": "Lucy Score",
+    "narrator": "Lila Winters, Sebastian York",
+    "runtimeMinutes": 970,
+    "price": 20.98,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 559,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Q3dZBYzAL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DR39FX32",
+    "categories": [
+      "Biography",
+      "Memoir",
+      "History"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 16.2,
+    "valueScore": 3.47,
+    "costPerHour": 1.3,
+    "creditWorth": 1.4
   },
   {
     "asin": "B0F1DQ52N6",
@@ -47524,6 +48576,31 @@
     "creditWorth": 1.59
   },
   {
+    "asin": "1250760615",
+    "title": "All the Devils Are Here: A Novel",
+    "author": "Louise Penny",
+    "narrator": "Robert Bathurst",
+    "runtimeMinutes": 839,
+    "price": 20.82,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 575,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Ofn1kdZAL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1250760615",
+    "categories": [
+      "Fiction",
+      "Mystery",
+      "Crime",
+      "Thriller"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 14,
+    "valueScore": 3.36,
+    "costPerHour": 1.49,
+    "creditWorth": 1.39
+  },
+  {
     "asin": "B0GL6G4SL4",
     "title": "Fifty Shades of Grey",
     "author": "E L James",
@@ -50504,6 +51581,30 @@
     "creditWorth": 1.49
   },
   {
+    "asin": "B0CHFS1T4V",
+    "title": "Fantasy Fangirls",
+    "author": "Fantasy Fangirls",
+    "narrator": "",
+    "runtimeMinutes": 660,
+    "price": 16.86,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 42,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41XB-rflbvL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CHFS1T4V",
+    "categories": [
+      "Young Adult",
+      "Contemporary",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 11,
+    "valueScore": 3.26,
+    "costPerHour": 1.53,
+    "creditWorth": 1.13
+  },
+  {
     "asin": "B00354ZSS2",
     "title": "Neverwhere",
     "author": "Neil Gaiman",
@@ -51643,6 +52744,30 @@
     "costPerHour": 1.55,
     "creditWorth": 1.03,
     "adjustedValueScore": 3.55
+  },
+  {
+    "asin": "B0FKVQM8K2",
+    "title": "Scythe & Sparrow",
+    "author": "Brynne Weaver",
+    "narrator": "Samantha Brentmoor, Eric Nolan",
+    "runtimeMinutes": 696,
+    "price": 17.93,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1140,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/517-y6PniwL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FKVQM8K2",
+    "categories": [
+      "Young Adult",
+      "Dystopian",
+      "Science Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 11.6,
+    "valueScore": 3.23,
+    "costPerHour": 1.55,
+    "creditWorth": 1.2
   },
   {
     "asin": "B0B1PJ4XHY",
@@ -54935,6 +56060,30 @@
     "creditWorth": 1.19
   },
   {
+    "asin": "B0FJTH21JS",
+    "title": "The Big Short: Inside the Doomsday Machine",
+    "author": "Michael Lewis",
+    "narrator": "Michael Lewis",
+    "runtimeMinutes": 583,
+    "price": 15.49,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 36,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41WcxwVVJVL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FJTH21JS",
+    "categories": [
+      "Biography",
+      "Business",
+      "History"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 9.7,
+    "valueScore": 3.14,
+    "costPerHour": 1.59,
+    "creditWorth": 1.04
+  },
+  {
     "asin": "0593398629",
     "title": "BE 2.0 (Beyond Entrepreneurship 2.0): Turning Your Business into an Enduring Great Company",
     "author": "Jim Collins, William Lazier",
@@ -56928,6 +58077,31 @@
     "creditWorth": 0.94
   },
   {
+    "asin": "B002V8MFK2",
+    "title": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "narrator": "Patricia Routledge",
+    "runtimeMinutes": 855,
+    "price": 20.79,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 200,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51ZHimPIm7L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V8MFK2",
+    "categories": [
+      "Fiction",
+      "Mystery",
+      "Thriller",
+      "Psychological Thriller"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 14.3,
+    "valueScore": 3.08,
+    "costPerHour": 1.46,
+    "creditWorth": 1.39
+  },
+  {
     "asin": "B09SS8STH8",
     "title": "Carrie Soto Is Back",
     "author": "Taylor Jenkins Reid",
@@ -57591,6 +58765,53 @@
     "creditWorth": 1.4
   },
   {
+    "asin": "B0GGDRR1YV",
+    "title": "There Are No Giant Crabs in This Novel",
+    "author": "Jason Pargin",
+    "narrator": "Ari Fliakos",
+    "runtimeMinutes": 741,
+    "price": 18.58,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 2692,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41ifvIuqvbL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GGDRR1YV",
+    "categories": [
+      "Fiction",
+      "Literary Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 12.4,
+    "valueScore": 3.06,
+    "costPerHour": 1.5,
+    "creditWorth": 1.24
+  },
+  {
+    "asin": "B002VACGL8",
+    "title": "The Black Echo: Harry Bosch Series, Book 1",
+    "author": "Michael Connelly",
+    "narrator": "Dick Hill",
+    "runtimeMinutes": 829,
+    "price": 20.33,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 666,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51NnUb3HV2L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002VACGL8",
+    "categories": [
+      "Mystery",
+      "Thriller",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 13.8,
+    "valueScore": 3.06,
+    "costPerHour": 1.47,
+    "creditWorth": 1.36
+  },
+  {
     "asin": "B0GZLCMJWJ",
     "title": "Untamed",
     "author": "Luna Mason",
@@ -57919,6 +59140,30 @@
     "costPerHour": 1.64,
     "creditWorth": 1.01,
     "adjustedValueScore": 7.02
+  },
+  {
+    "asin": "B0HD2BH1CH",
+    "title": "Homestead Crafter, Book 3",
+    "author": "S.D. McKittrick",
+    "narrator": "Christian J. Gilliland, Soraya Li",
+    "runtimeMinutes": 600,
+    "price": 16.41,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41QOZGkNc5L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HD2BH1CH",
+    "categories": [
+      "Science",
+      "Technology",
+      "Non-Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 10,
+    "valueScore": 3.05,
+    "costPerHour": 1.64,
+    "creditWorth": 1.1
   },
   {
     "asin": "B0B5M28HZK",
@@ -58972,6 +60217,30 @@
     "costPerHour": 1.65,
     "creditWorth": 0.99,
     "adjustedValueScore": 2.09
+  },
+  {
+    "asin": "B0HC7LDVN4",
+    "title": "Black Swan 5",
+    "author": "Bobby Akart",
+    "narrator": "Andrew Wehrlen",
+    "runtimeMinutes": 867,
+    "price": 14.35,
+    "currency": "USD",
+    "starRating": 3,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41fj9FkwtWL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HC7LDVN4",
+    "categories": [
+      "Business",
+      "Philosophy",
+      "Economics"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 14.5,
+    "valueScore": 3.02,
+    "costPerHour": 0.99,
+    "creditWorth": 0.96
   },
   {
     "asin": "B09Q3DNCM1",
@@ -61010,6 +62279,30 @@
     "valueScore": 2.96,
     "costPerHour": 1.52,
     "creditWorth": 1.45
+  },
+  {
+    "asin": "B0H8CJJ3BF",
+    "title": "Scarred Angel",
+    "author": "Elle Maldonado",
+    "narrator": "Sean Masters, Janine Granda",
+    "runtimeMinutes": 601,
+    "price": 14.91,
+    "currency": "USD",
+    "starRating": 4.4,
+    "reviewCount": 1479,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61MNGnw-+dL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H8CJJ3BF",
+    "categories": [
+      "Romance",
+      "Dark",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 10,
+    "valueScore": 2.96,
+    "costPerHour": 1.49,
+    "creditWorth": 1
   },
   {
     "asin": "B00CHQVAF4",
@@ -63125,6 +64418,30 @@
     "adjustedValueScore": 6.03
   },
   {
+    "asin": "B0H44JWT72",
+    "title": "The War on Reality",
+    "author": "Frank Turek, Phoenix Hayes",
+    "narrator": "Frank Turek, Phoenix Hayes",
+    "runtimeMinutes": 632,
+    "price": 16.35,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2833,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51QmdI6AydL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H44JWT72",
+    "categories": [
+      "Classic",
+      "Science Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 10.5,
+    "valueScore": 2.9,
+    "costPerHour": 1.55,
+    "creditWorth": 1.09
+  },
+  {
     "asin": "B01CRM17MS",
     "title": "Shoe Dog",
     "author": "Phil Knight",
@@ -64159,6 +65476,30 @@
     "adjustedValueScore": 3.16
   },
   {
+    "asin": "B002V01IY4",
+    "title": "The Last Coyote: Harry Bosch Series, Book 4",
+    "author": "Michael Connelly",
+    "narrator": "Dick Hill",
+    "runtimeMinutes": 806,
+    "price": 20.96,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 364,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51g4EhOB++L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V01IY4",
+    "categories": [
+      "Mystery",
+      "Thriller",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 13.4,
+    "valueScore": 2.88,
+    "costPerHour": 1.56,
+    "creditWorth": 1.4
+  },
+  {
     "asin": "B0B2FHKF4S",
     "title": "One Dark Window",
     "author": "Rachel Gillig",
@@ -64714,6 +66055,30 @@
     "valueScore": 2.87,
     "costPerHour": 1.57,
     "creditWorth": 1.12
+  },
+  {
+    "asin": "B0HF3LGGGW",
+    "title": "Body Refinement in a Beast Tamer’s World, Book 4",
+    "author": "Seth Ring",
+    "narrator": "J. S. Arquin",
+    "runtimeMinutes": 870,
+    "price": 23.23,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 922,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41ui-JvaZAL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HF3LGGGW",
+    "categories": [
+      "Science",
+      "Health",
+      "Non-Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 14.5,
+    "valueScore": 2.87,
+    "costPerHour": 1.6,
+    "creditWorth": 1.55
   },
   {
     "asin": "B09MGC94DG",
@@ -65672,6 +67037,29 @@
     "valueScore": 2.85,
     "costPerHour": 1.58,
     "creditWorth": 1.41
+  },
+  {
+    "asin": "B00M27L7TC",
+    "title": "Station Eleven (Television Tie-In)",
+    "author": "Emily St. John Mandel",
+    "narrator": "Kirsten Potter",
+    "runtimeMinutes": 640,
+    "price": 16.82,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 858,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51LTeQ+b3kL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00M27L7TC",
+    "categories": [
+      "Fiction",
+      "Literary Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 10.7,
+    "valueScore": 2.85,
+    "costPerHour": 1.58,
+    "creditWorth": 1.13
   },
   {
     "asin": "B0H425LGRD",
@@ -67424,6 +68812,30 @@
     "adjustedValueScore": 6.45
   },
   {
+    "asin": "1629976083",
+    "title": "The Theory of Everything: The Quest to Explain All Reality",
+    "author": "Don Lincoln, The Great Courses",
+    "narrator": "Don Lincoln",
+    "runtimeMinutes": 741,
+    "price": 19.88,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 142,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51T-GTbvapL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1629976083",
+    "categories": [
+      "Non-Fiction",
+      "Science",
+      "Physics"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 12.4,
+    "valueScore": 2.8,
+    "costPerHour": 1.61,
+    "creditWorth": 1.33
+  },
+  {
     "asin": "B07L3B3D6G",
     "title": "The Pioneers",
     "author": "David McCullough",
@@ -67725,6 +69137,56 @@
     "costPerHour": 1.61,
     "creditWorth": 1.29,
     "adjustedValueScore": 11.73
+  },
+  {
+    "asin": "B0H95DHFBY",
+    "title": "Suspect",
+    "author": "Danielle Steel, Julie Lopez - traducteur",
+    "narrator": "Antoine Tomé",
+    "runtimeMinutes": 511,
+    "price": 14.67,
+    "currency": "USD",
+    "starRating": 4.8,
+    "reviewCount": 1305,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41qNDh-e7zL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H95DHFBY",
+    "categories": [
+      "Fiction",
+      "Mystery",
+      "Thriller",
+      "Crime"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 8.5,
+    "valueScore": 2.79,
+    "costPerHour": 1.72,
+    "creditWorth": 0.98
+  },
+  {
+    "asin": "B019NNTLBS",
+    "title": "Dark Tower II",
+    "author": "Stephen King",
+    "narrator": "Frank Muller",
+    "runtimeMinutes": 767,
+    "price": 22.9,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1036,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Ij7gHT5zL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B019NNTLBS",
+    "categories": [
+      "Fiction",
+      "Fantasy",
+      "Dark Fantasy",
+      "Science Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 12.8,
+    "valueScore": 2.79,
+    "costPerHour": 1.79,
+    "creditWorth": 1.53
   },
   {
     "asin": "B019NOBKVQ",
@@ -68207,6 +69669,30 @@
     "valueScore": 2.78,
     "costPerHour": 1.62,
     "creditWorth": 1.24
+  },
+  {
+    "asin": "B002V5D7IE",
+    "title": "Surely You're Joking, Mr. Feynman!",
+    "author": "Richard P. Feynman",
+    "narrator": "Raymond Todd",
+    "runtimeMinutes": 691,
+    "price": 18.65,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 714,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/510fhCMBFoL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V5D7IE",
+    "categories": [
+      "Biography",
+      "Science",
+      "Memoir"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 11.5,
+    "valueScore": 2.78,
+    "costPerHour": 1.62,
+    "creditWorth": 1.25
   },
   {
     "title": "The 4-Hour Work Week",
@@ -71246,6 +72732,31 @@
     "adjustedValueScore": 1.88
   },
   {
+    "asin": "B0GS3HQ4L6",
+    "title": "The Wedding Lies",
+    "author": "Jade Lee Wright",
+    "narrator": "Olivia Darnley",
+    "runtimeMinutes": 596,
+    "price": 14.67,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 183,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41Nzg145BOL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GS3HQ4L6",
+    "categories": [
+      "Fiction",
+      "Romance",
+      "Contemporary",
+      "Women Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 9.9,
+    "valueScore": 2.71,
+    "costPerHour": 1.48,
+    "creditWorth": 0.98
+  },
+  {
     "title": "Grit: The Power of Passion and Perseverance",
     "author": "Angela Duckworth",
     "narrator": "Angela Duckworth",
@@ -71725,6 +73236,53 @@
     "valueScore": 2.7,
     "costPerHour": 1.85,
     "creditWorth": 1.11
+  },
+  {
+    "asin": "B01J6CZQGA",
+    "title": "The Underground Railroad (Oprah's Book Club)",
+    "author": "Colson Whitehead",
+    "narrator": "Bahni Turpin",
+    "runtimeMinutes": 643,
+    "price": 17.84,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 785,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51klOD1OYAL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01J6CZQGA",
+    "categories": [
+      "Fiction",
+      "Literary Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 10.7,
+    "valueScore": 2.7,
+    "costPerHour": 1.66,
+    "creditWorth": 1.19
+  },
+  {
+    "asin": "B0H82C9LKN",
+    "title": "Apex Elite Academy: Year 2",
+    "author": "Lyra Winters",
+    "narrator": "Marie Hawkins, Christian Stark",
+    "runtimeMinutes": 485,
+    "price": 14.96,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1839,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51kXeuEx78L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H82C9LKN",
+    "categories": [
+      "Young Adult",
+      "Dystopian",
+      "Romance"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 8.1,
+    "valueScore": 2.7,
+    "costPerHour": 1.85,
+    "creditWorth": 1
   },
   {
     "asin": "B072R1CY4P",
@@ -72764,6 +74322,30 @@
     "creditWorth": 1.13
   },
   {
+    "asin": "B0HDBCCZ9T",
+    "title": "Ruthless Prey",
+    "author": "John Sandford",
+    "narrator": "",
+    "runtimeMinutes": 660,
+    "price": 18.47,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2166,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41D+ShbpBjL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HDBCCZ9T",
+    "categories": [
+      "Thriller",
+      "Science Fiction",
+      "Technology"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 11,
+    "valueScore": 2.68,
+    "costPerHour": 1.68,
+    "creditWorth": 1.24
+  },
+  {
     "asin": "B07FDJQ8YH",
     "title": "Sense and Sensibility",
     "author": "Jane Austen",
@@ -73114,6 +74696,54 @@
     "valueScore": 2.67,
     "costPerHour": 1.68,
     "creditWorth": 1.56
+  },
+  {
+    "asin": "B0D6SYR46M",
+    "title": "A Random Walk Down Wall Street (Completely Revised and Updated)",
+    "author": "Burton G. Malkiel",
+    "narrator": "George Guidall",
+    "runtimeMinutes": 794,
+    "price": 22.29,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41j1VQkGJ5L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0D6SYR46M",
+    "categories": [
+      "Business",
+      "Investing",
+      "Finance"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 13.2,
+    "valueScore": 2.67,
+    "costPerHour": 1.68,
+    "creditWorth": 1.49
+  },
+  {
+    "asin": "B0GTN8FDBN",
+    "title": "The Witch",
+    "author": "Freida McFadden",
+    "narrator": "Saskia Maarleveld, Marin Ireland",
+    "runtimeMinutes": 570,
+    "price": 16.34,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 776,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41vExa8IbhL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GTN8FDBN",
+    "categories": [
+      "Children",
+      "Fantasy",
+      "Humor"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 9.5,
+    "valueScore": 2.67,
+    "costPerHour": 1.72,
+    "creditWorth": 1.09
   },
   {
     "asin": "B003IEQE1Y",
@@ -74220,6 +75850,30 @@
     "valueScore": 2.64,
     "costPerHour": 1.7,
     "creditWorth": 1.03
+  },
+  {
+    "asin": "B08B78TYCG",
+    "title": "Twisted Kingdom: A Dark High School Bully Romance",
+    "author": "Rina Kent",
+    "narrator": "Shane East, Keira Stevens",
+    "runtimeMinutes": 540,
+    "price": 17.06,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 111,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61VYxj-3bxL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B08B78TYCG",
+    "categories": [
+      "Romance",
+      "Young Adult",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 9,
+    "valueScore": 2.64,
+    "costPerHour": 1.9,
+    "creditWorth": 1.14
   },
   {
     "asin": "B01N4NY0LG",
@@ -76011,6 +77665,30 @@
     "creditWorth": 1.26
   },
   {
+    "asin": "B01FY3KMKK",
+    "title": "Trump: The Art of the Deal",
+    "author": "Donald J. Trump, Tony Schwartz",
+    "narrator": "Kaleo Griffith, Donald J. Trump",
+    "runtimeMinutes": 599,
+    "price": 17.29,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1317,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41zTcActaPL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01FY3KMKK",
+    "categories": [
+      "Business",
+      "Negotiation",
+      "Memoir"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 10,
+    "valueScore": 2.6,
+    "costPerHour": 1.73,
+    "creditWorth": 1.16
+  },
+  {
     "asin": "B09MSMJDGT",
     "title": "Everything I Never Told You",
     "author": "Celeste Ng",
@@ -77784,6 +79462,30 @@
     "adjustedValueScore": 1.78
   },
   {
+    "asin": "B0G41XN798",
+    "title": "Aligned",
+    "author": "Kristen Holmes PhD",
+    "narrator": "Kristen Holmes PhD",
+    "runtimeMinutes": 825,
+    "price": 23.52,
+    "currency": "USD",
+    "starRating": 4.4,
+    "reviewCount": 212,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41UPhDSMFdL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0G41XN798",
+    "categories": [
+      "Technology",
+      "Science",
+      "Business"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 13.8,
+    "valueScore": 2.57,
+    "costPerHour": 1.71,
+    "creditWorth": 1.57
+  },
+  {
     "asin": "B002VA8NOW",
     "title": "Digital Fortress",
     "author": "Dan Brown",
@@ -78190,6 +79892,30 @@
     "costPerHour": 1.76,
     "creditWorth": 1.28,
     "adjustedValueScore": 3.55
+  },
+  {
+    "asin": "B0CYHMYGQN",
+    "title": "Eleanor & Park",
+    "author": "Rainbow Rowell",
+    "narrator": "Rebecca Lowman, Sunil Malhotra",
+    "runtimeMinutes": 541,
+    "price": 15.86,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 22,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/4111bkkLKpL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CYHMYGQN",
+    "categories": [
+      "Young Adult",
+      "Romance",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 9,
+    "valueScore": 2.56,
+    "costPerHour": 1.76,
+    "creditWorth": 1.06
   },
   {
     "asin": "B003D8W5VS",
@@ -84060,6 +85786,31 @@
     "creditWorth": 1.39
   },
   {
+    "asin": "B00WX7Y0W2",
+    "title": "The Last Wish",
+    "author": "Andrzej Sapkowski, Danusia Stok - translator",
+    "narrator": "Peter Kenny",
+    "runtimeMinutes": 617,
+    "price": 19.08,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1875,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51L4g6eOipL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00WX7Y0W2",
+    "categories": [
+      "Fiction",
+      "Fantasy",
+      "Epic Fantasy",
+      "Adventure"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 10.3,
+    "valueScore": 2.43,
+    "costPerHour": 1.86,
+    "creditWorth": 1.28
+  },
+  {
     "asin": "B0F5YKPFKP",
     "title": "It's Not Her",
     "author": "Mary Kubica",
@@ -85455,6 +87206,31 @@
     "adjustedValueScore": 7.07
   },
   {
+    "asin": "B0H493RK9N",
+    "title": "Ignite the Infernos: A Romantasy",
+    "author": "Ivy Asher",
+    "narrator": "Amelia Hugh, Vincent Skye",
+    "runtimeMinutes": 648,
+    "price": 21.15,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 1383,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51vkXYZNTXL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H493RK9N",
+    "categories": [
+      "Fiction",
+      "Mystery",
+      "Thriller",
+      "Suspense"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 10.8,
+    "valueScore": 2.4,
+    "costPerHour": 1.96,
+    "creditWorth": 1.41
+  },
+  {
     "asin": "B0H5MWSKF4",
     "title": "To the Lighthouse: A Profound Tale of Memory and Loss",
     "author": "Virginia Woolf",
@@ -86059,6 +87835,30 @@
     "adjustedValueScore": 10.73
   },
   {
+    "asin": "B0DQ9QBWY7",
+    "title": "The Devil's Daughter",
+    "author": "Eva Sparks",
+    "narrator": "Erin Bennett, Adam James Conner",
+    "runtimeMinutes": 654,
+    "price": 20.54,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 32,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51TF5p9ZQTL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DQ9QBWY7",
+    "categories": [
+      "Romance",
+      "Historical",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 10.9,
+    "valueScore": 2.39,
+    "costPerHour": 1.88,
+    "creditWorth": 1.37
+  },
+  {
     "asin": "179976172X",
     "title": "Twenty Thousand Leagues Under the Sea (AmazonClassics Edition)",
     "author": "Jules Verne, Lewis Page Mercier - translator",
@@ -86631,6 +88431,31 @@
     "valueScore": 2.38,
     "costPerHour": 1.85,
     "creditWorth": 1.45
+  },
+  {
+    "asin": "B017V4IWVG",
+    "title": "Harry Potter and the Chamber of Secrets, Book 2",
+    "author": "J.K. Rowling",
+    "narrator": "Jim Dale",
+    "runtimeMinutes": 542,
+    "price": 18.95,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 3865,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61fmfnA-uCL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B017V4IWVG",
+    "categories": [
+      "Fiction",
+      "Fantasy",
+      "Young Adult",
+      "Classic"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 9,
+    "valueScore": 2.38,
+    "costPerHour": 2.1,
+    "creditWorth": 1.27
   },
   {
     "asin": "B002V8H28C",
@@ -89716,6 +91541,30 @@
     "creditWorth": 1.4
   },
   {
+    "asin": "B0HF7PJG6Z",
+    "title": "Battle Born",
+    "author": "J.N. Chaney, Terry Maggert",
+    "narrator": "Jeffrey Kafer",
+    "runtimeMinutes": 573,
+    "price": 19.74,
+    "currency": "USD",
+    "starRating": 4.8,
+    "reviewCount": 1234,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51g+A6seijL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HF7PJG6Z",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 9.6,
+    "valueScore": 2.32,
+    "costPerHour": 2.07,
+    "creditWorth": 1.32
+  },
+  {
     "asin": "B01GGKQVFU",
     "title": "It Ends with Us",
     "author": "Colleen Hoover",
@@ -91435,6 +93284,56 @@
     "creditWorth": 1.17
   },
   {
+    "asin": "B0C3NF3GX4",
+    "title": "Darling Girls",
+    "author": "Sally Hepworth",
+    "narrator": "Jessica Clarke",
+    "runtimeMinutes": 546,
+    "price": 17.94,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 221,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51OsbFCTZXL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0C3NF3GX4",
+    "categories": [
+      "Fiction",
+      "Mystery",
+      "Thriller",
+      "Psychological Thriller"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 9.1,
+    "valueScore": 2.28,
+    "costPerHour": 1.97,
+    "creditWorth": 1.2
+  },
+  {
+    "asin": "B002V0PN36",
+    "title": "The Power of Now",
+    "author": "Eckhart Tolle",
+    "narrator": "Eckhart Tolle",
+    "runtimeMinutes": 457,
+    "price": 15.03,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 3730,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41PvuQY91TL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V0PN36",
+    "categories": [
+      "Fiction",
+      "Science Fiction",
+      "Dystopian",
+      "Thriller"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 7.6,
+    "valueScore": 2.28,
+    "costPerHour": 1.97,
+    "creditWorth": 1.01
+  },
+  {
     "asin": "B09YYQR5LT",
     "title": "The Lost Year",
     "author": "Katherine Marsh",
@@ -91819,6 +93718,30 @@
     "valueScore": 2.27,
     "costPerHour": 1.99,
     "creditWorth": 1.21
+  },
+  {
+    "asin": "B0GV55MYDR",
+    "title": "Live Laugh Love",
+    "author": "Kristin Kobes du Mez",
+    "narrator": "Sarah Zimmerman",
+    "runtimeMinutes": 704,
+    "price": 22.76,
+    "currency": "USD",
+    "starRating": 4.4,
+    "reviewCount": 2874,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/414csSbCkTL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GV55MYDR",
+    "categories": [
+      "Biography",
+      "Memoir",
+      "Politics"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 11.7,
+    "valueScore": 2.27,
+    "costPerHour": 1.94,
+    "creditWorth": 1.52
   },
   {
     "asin": "B07HMJSJG5",
@@ -94738,6 +96661,31 @@
     "adjustedValueScore": 2.43
   },
   {
+    "asin": "0593214536",
+    "title": "Party of Two",
+    "author": "Jasmine Guillory",
+    "narrator": "Janina Edwards",
+    "runtimeMinutes": 566,
+    "price": 19.19,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 91,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51dvB43cEUL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0593214536",
+    "categories": [
+      "Fiction",
+      "Romance",
+      "Contemporary",
+      "Women Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 9.4,
+    "valueScore": 2.21,
+    "costPerHour": 2.03,
+    "creditWorth": 1.28
+  },
+  {
     "asin": "0062888447",
     "title": "Everything Is F*cked: A Book About Hope",
     "author": "Mark Manson",
@@ -95749,6 +97697,31 @@
     "adjustedValueScore": 4.81
   },
   {
+    "asin": "B017V4IM1G",
+    "title": "Harry Potter and the Sorcerer's Stone, Book 1",
+    "author": "J.K. Rowling",
+    "narrator": "Jim Dale",
+    "runtimeMinutes": 498,
+    "price": 18.95,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 9562,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51xJbFMRsxL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B017V4IM1G",
+    "categories": [
+      "Fiction",
+      "Fantasy",
+      "Young Adult",
+      "Classic"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 8.3,
+    "valueScore": 2.19,
+    "costPerHour": 2.28,
+    "creditWorth": 1.27
+  },
+  {
     "asin": "B002V0GCE0",
     "title": "Predictably Irrational",
     "author": "Dan Ariely",
@@ -96201,6 +98174,30 @@
     "valueScore": 2.18,
     "costPerHour": 2.06,
     "creditWorth": 1.5
+  },
+  {
+    "asin": "B015HOMRFY",
+    "title": "Carrie Pilby Part 2",
+    "author": "Caren Lissner",
+    "narrator": "Allyson Ryan",
+    "runtimeMinutes": 615,
+    "price": 21.64,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 368,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51FBn+2OzyL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B015HOMRFY",
+    "categories": [
+      "Horror",
+      "Supernatural",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 10.3,
+    "valueScore": 2.18,
+    "costPerHour": 2.11,
+    "creditWorth": 1.45
   },
   {
     "asin": "0062992570",
@@ -97775,6 +99772,30 @@
     "creditWorth": 1.36
   },
   {
+    "asin": "B002V5BV96",
+    "title": "How to Win Friends & Influence People",
+    "author": "Dale Carnegie",
+    "narrator": "Andrew Macmillan, Andrew Macmillian",
+    "runtimeMinutes": 435,
+    "price": 15.15,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 6099,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51PWIy1rHUL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V5BV96",
+    "categories": [
+      "Business",
+      "Psychology",
+      "Marketing"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 7.3,
+    "valueScore": 2.15,
+    "costPerHour": 2.09,
+    "creditWorth": 1.01
+  },
+  {
     "asin": "B01LWUJKQ7",
     "title": "Norse Mythology",
     "author": "Neil Gaiman",
@@ -98814,6 +100835,30 @@
     "adjustedValueScore": 2.34
   },
   {
+    "asin": "B0H95D3CJ8",
+    "title": "A Wretched Folly",
+    "author": "Lynn Messina",
+    "narrator": "Jill Smith",
+    "runtimeMinutes": 479,
+    "price": 18.74,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/516ILolShNL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H95D3CJ8",
+    "categories": [
+      "Romance",
+      "Dark",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 8,
+    "valueScore": 2.13,
+    "costPerHour": 2.35,
+    "creditWorth": 1.25
+  },
+  {
     "asin": "B00JLOJ04I",
     "title": "Bird Box",
     "author": "Josh Malerman",
@@ -99493,6 +101538,30 @@
     "valueScore": 2.12,
     "costPerHour": 1.89,
     "creditWorth": 0.94
+  },
+  {
+    "asin": "B072HGNMXH",
+    "title": "Jack and Jill: A Village Story",
+    "author": "Louisa May Alcott",
+    "narrator": "Becket Royce",
+    "runtimeMinutes": 518,
+    "price": 18.36,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 13,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Mf7WzmCxL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B072HGNMXH",
+    "categories": [
+      "Mystery",
+      "Thriller",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 8.6,
+    "valueScore": 2.12,
+    "costPerHour": 2.13,
+    "creditWorth": 1.23
   },
   {
     "asin": "B07DKSPL43",
@@ -104497,6 +106566,30 @@
     "creditWorth": 1.18
   },
   {
+    "asin": "1984891383",
+    "title": "The Nickel Boys (Winner 2020 Pulitzer Prize for Fiction)",
+    "author": "Colson Whitehead",
+    "narrator": "JD Jackson, Colson Whitehead",
+    "runtimeMinutes": 406,
+    "price": 15.04,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 504,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/4176gFZ-FmL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1984891383",
+    "categories": [
+      "Fiction",
+      "Historical Fiction",
+      "Literary Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 6.8,
+    "valueScore": 2.02,
+    "costPerHour": 2.22,
+    "creditWorth": 1.01
+  },
+  {
     "asin": "B0C5N9FNB4",
     "title": "System Collapse",
     "author": "Martha Wells",
@@ -106988,6 +109081,32 @@
     "adjustedValueScore": 9.43
   },
   {
+    "asin": "B019NNU7XE",
+    "title": "Dark Tower I",
+    "author": "Stephen King",
+    "narrator": "George Guidall",
+    "runtimeMinutes": 440,
+    "price": 16.78,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2067,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41AoF-lTijL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B019NNU7XE",
+    "categories": [
+      "Fiction",
+      "Fantasy",
+      "Dark Fantasy",
+      "Science Fiction",
+      "Western"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 7.3,
+    "valueScore": 1.97,
+    "costPerHour": 2.29,
+    "creditWorth": 1.12
+  },
+  {
     "asin": "0593209494",
     "title": "An Abundance of Katherines",
     "author": "John Green",
@@ -107876,6 +109995,30 @@
     "costPerHour": 2.31,
     "creditWorth": 1.15,
     "adjustedValueScore": 3.14
+  },
+  {
+    "asin": "B0GL9DSG8C",
+    "title": "It All Starts When You Do",
+    "author": "Kier Gaines LPC",
+    "narrator": "Kier Gaines LPC",
+    "runtimeMinutes": 431,
+    "price": 16.61,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1207,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41Sb5AGNI4L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GL9DSG8C",
+    "categories": [
+      "Business",
+      "Psychology",
+      "Self-Help"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 7.2,
+    "valueScore": 1.95,
+    "costPerHour": 2.31,
+    "creditWorth": 1.11
   },
   {
     "asin": "0008281025",
@@ -110926,6 +113069,55 @@
     "adjustedValueScore": 2.08
   },
   {
+    "asin": "B07KRHC7CQ",
+    "title": "The Mother-in-Law",
+    "author": "Sally Hepworth",
+    "narrator": "Barrie Kreinik",
+    "runtimeMinutes": 558,
+    "price": 22.14,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 199,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61V66hKqABL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07KRHC7CQ",
+    "categories": [
+      "Fiction",
+      "Mystery",
+      "Thriller",
+      "Women Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 9.3,
+    "valueScore": 1.89,
+    "costPerHour": 2.38,
+    "creditWorth": 1.48
+  },
+  {
+    "asin": "B0H8CJ3N75",
+    "title": "Pretty Little Birds",
+    "author": "A. Blossom",
+    "narrator": "Myles Washington, Lauryn Nichols",
+    "runtimeMinutes": 467,
+    "price": 18.56,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51TtBtp+mTL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H8CJ3N75",
+    "categories": [
+      "Young Adult",
+      "Dystopian",
+      "Science Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 7.8,
+    "valueScore": 1.89,
+    "costPerHour": 2.38,
+    "creditWorth": 1.24
+  },
+  {
     "asin": "1797111566",
     "title": "In a Holidaze",
     "author": "Christina Lauren",
@@ -112883,6 +115075,31 @@
     "creditWorth": 1.5
   },
   {
+    "asin": "B0H5L7Z26D",
+    "title": "In the Shadow of Eight",
+    "author": "Collin Gosselin",
+    "narrator": "Collin Gosselin",
+    "runtimeMinutes": 450,
+    "price": 18.71,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 2971,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51lAO+rWufL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H5L7Z26D",
+    "categories": [
+      "Fiction",
+      "Mystery",
+      "Thriller",
+      "Crime"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 7.5,
+    "valueScore": 1.84,
+    "costPerHour": 2.49,
+    "creditWorth": 1.25
+  },
+  {
     "asin": "B0CYNPSBNG",
     "title": "Man's Search for Meaning",
     "author": "Viktor E. Frankl",
@@ -113489,6 +115706,30 @@
     "costPerHour": 2.46,
     "creditWorth": 1.28,
     "adjustedValueScore": 2.01
+  },
+  {
+    "asin": "B0DPJKBQTD",
+    "title": "The Little Book of Common Sense Investing, Updated and Revised",
+    "author": "John C. Bogle",
+    "narrator": "Barry Abrams",
+    "runtimeMinutes": 345,
+    "price": 14.13,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 11,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51ONw8Hm7AL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DPJKBQTD",
+    "categories": [
+      "Business",
+      "Investing",
+      "Finance"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 5.8,
+    "valueScore": 1.83,
+    "costPerHour": 2.46,
+    "creditWorth": 0.95
   },
   {
     "asin": "B002V8KNLK",
@@ -115342,6 +117583,30 @@
     "costPerHour": 2.79,
     "creditWorth": 1.13,
     "adjustedValueScore": 10.84
+  },
+  {
+    "asin": "1250839696",
+    "title": "The Night Shift",
+    "author": "Alex Finlay",
+    "narrator": "Brittany Pressley, Cady McClain, Devon Hales, Gary Tiedemann",
+    "runtimeMinutes": 514,
+    "price": 21.51,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 130,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51YVcdDYOVL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1250839696",
+    "categories": [
+      "Horror",
+      "Anthology",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 8.6,
+    "valueScore": 1.79,
+    "costPerHour": 2.51,
+    "creditWorth": 1.44
   },
   {
     "asin": "B002V0QO5W",
@@ -117496,6 +119761,30 @@
     "adjustedValueScore": 1.91
   },
   {
+    "asin": "B01L2THI52",
+    "title": "Moon Rising",
+    "author": "Tui T. Sutherland",
+    "narrator": "Shannon McManus",
+    "runtimeMinutes": 450,
+    "price": 21.54,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 216,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/5147BBgERKL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01L2THI52",
+    "categories": [
+      "Biography",
+      "Memoir",
+      "Science"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 7.5,
+    "valueScore": 1.74,
+    "costPerHour": 2.87,
+    "creditWorth": 1.44
+  },
+  {
     "asin": "B00CRKR77U",
     "title": "The Ocean at the End of the Lane",
     "author": "Neil Gaiman",
@@ -118380,6 +120669,30 @@
     "costPerHour": 2.9,
     "creditWorth": 1.56,
     "adjustedValueScore": 1.89
+  },
+  {
+    "asin": "B0036GTJP2",
+    "title": "The Children of Húrin",
+    "author": "J. R. R. Tolkien, Christopher Tolkien - editor",
+    "narrator": "Christopher Lee",
+    "runtimeMinutes": 471,
+    "price": 20.58,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 562,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51CoWEe8HmL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0036GTJP2",
+    "categories": [
+      "Fantasy",
+      "Classic",
+      "Mythology"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 7.9,
+    "valueScore": 1.72,
+    "costPerHour": 2.62,
+    "creditWorth": 1.38
   },
   {
     "asin": "B0H9BFQS67",
@@ -119998,6 +122311,30 @@
     "creditWorth": 1.59
   },
   {
+    "asin": "B0HDX485NX",
+    "title": "The Bride He Never Asked For",
+    "author": "Susan Leigh Carlton",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 454,
+    "price": 20.32,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1384,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51NA6p9FhnL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HDX485NX",
+    "categories": [
+      "Romance",
+      "Historical",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 7.6,
+    "valueScore": 1.68,
+    "costPerHour": 2.69,
+    "creditWorth": 1.36
+  },
+  {
     "asin": "B07DKHSL3W",
     "title": "The Infinite Game",
     "author": "Simon Sinek",
@@ -121423,6 +123760,31 @@
     "costPerHour": 2.45,
     "creditWorth": 1.12,
     "adjustedValueScore": 1.14
+  },
+  {
+    "asin": "B00E3U3IB6",
+    "title": "Ender's Game Alive: The Full Cast Audioplay",
+    "author": "Orson Scott Card",
+    "narrator": "Full Cast Recording",
+    "runtimeMinutes": 444,
+    "price": 20.33,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1033,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/619lWsxOFvL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00E3U3IB6",
+    "categories": [
+      "Fiction",
+      "Science Fiction",
+      "Classic",
+      "Military Sci-Fi"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 7.4,
+    "valueScore": 1.64,
+    "costPerHour": 2.75,
+    "creditWorth": 1.36
   },
   {
     "asin": "1524779261",
@@ -126003,6 +128365,31 @@
     "creditWorth": 1.31
   },
   {
+    "asin": "B0H928MJQY",
+    "title": "Land of Wolves: Atonement",
+    "author": "Invi Wright",
+    "narrator": "Stefanie Kay",
+    "runtimeMinutes": 468,
+    "price": 23.1,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51nempmvmoL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H928MJQY",
+    "categories": [
+      "Fiction",
+      "Historical Fiction",
+      "Literary Fiction",
+      "Romance"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 7.8,
+    "valueScore": 1.52,
+    "costPerHour": 2.96,
+    "creditWorth": 1.55
+  },
+  {
     "asin": "B0GXGRQMSV",
     "title": "Culture First: 9 Leadership Practices That Build Elite Teams",
     "author": "Jon B. Becker",
@@ -126559,6 +128946,30 @@
     "costPerHour": 3.31,
     "creditWorth": 1.33,
     "adjustedValueScore": 1.05
+  },
+  {
+    "asin": "B07GRG6JMK",
+    "title": "The Island of Doctor Moreau - Unabridged",
+    "author": "H. G. Wells",
+    "narrator": "Kevin Theis",
+    "runtimeMinutes": 308,
+    "price": 15.27,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 13,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51LKZPyY4EL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07GRG6JMK",
+    "categories": [
+      "Classic",
+      "Science Fiction",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 5.1,
+    "valueScore": 1.51,
+    "costPerHour": 2.97,
+    "creditWorth": 1.02
   },
   {
     "asin": "B00M27LBU2",
@@ -130663,6 +133074,31 @@
     "creditWorth": 1.53
   },
   {
+    "asin": "B008Z2NL9W",
+    "title": "Sherlock Holmes: The Hound of the Baskervilles",
+    "author": "Arthur Conan Doyle",
+    "narrator": "Derek Jacobi",
+    "runtimeMinutes": 382,
+    "price": 20.72,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 73,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61V5TzXRHtL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B008Z2NL9W",
+    "categories": [
+      "Fiction",
+      "Mystery",
+      "Classic",
+      "Crime"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 6.4,
+    "valueScore": 1.38,
+    "costPerHour": 3.25,
+    "creditWorth": 1.39
+  },
+  {
     "asin": "B0CS4XT7BG",
     "title": "The BFG",
     "author": "Roald Dahl, Quentin Blake",
@@ -130939,6 +133375,30 @@
     "valueScore": 1.37,
     "costPerHour": 3.29,
     "creditWorth": 1.4
+  },
+  {
+    "asin": "B0FCZ18867",
+    "title": "The First Time I Saw Him (A Reese Witherspoon Book Club Pick)",
+    "author": "Laura Dave",
+    "narrator": "Rebecca Lowman, Tessa Albertson, Colin Donnell, CJ Wilson",
+    "runtimeMinutes": 445,
+    "price": 21.59,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 204,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/516UoV0zuRL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FCZ18867",
+    "categories": [
+      "Self-Help",
+      "Business",
+      "Productivity"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 7.4,
+    "valueScore": 1.37,
+    "costPerHour": 2.91,
+    "creditWorth": 1.44
   },
   {
     "asin": "B015CYJON2",
@@ -133908,6 +136368,31 @@
     "adjustedValueScore": 0.88
   },
   {
+    "asin": "B0HFJ4VJ1S",
+    "title": "He Put His Mistress in My Vacation Home, I Put Her Brother in My Bed",
+    "author": "Audra Keene",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 330,
+    "price": 20.85,
+    "currency": "USD",
+    "starRating": 4.8,
+    "reviewCount": 507,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51lSrIBYMcL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HFJ4VJ1S",
+    "categories": [
+      "Fiction",
+      "Mystery",
+      "Thriller",
+      "Psychological Thriller"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 5.5,
+    "valueScore": 1.27,
+    "costPerHour": 3.79,
+    "creditWorth": 1.39
+  },
+  {
     "asin": "B00ENI4SS0",
     "title": "And Then There Were None",
     "author": "Agatha Christie",
@@ -135206,6 +137691,30 @@
     "adjustedValueScore": 2.19
   },
   {
+    "asin": "B0H86TH5Z2",
+    "title": "Replacement",
+    "author": "Nicolas Chaillan",
+    "narrator": "Drew Isaac",
+    "runtimeMinutes": 337,
+    "price": 23.11,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 6,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51lQyQogbUL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H86TH5Z2",
+    "categories": [
+      "Business",
+      "Technology",
+      "DevOps"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 5.6,
+    "valueScore": 1.22,
+    "costPerHour": 4.11,
+    "creditWorth": 1.55
+  },
+  {
     "asin": "B0CVD8CX6B",
     "title": "Your Mom's Gonna Love Me",
     "author": "Matt Rife",
@@ -135789,6 +138298,30 @@
     "costPerHour": 3.32,
     "creditWorth": 1.57,
     "adjustedValueScore": 1.32
+  },
+  {
+    "asin": "B002V0KNUO",
+    "title": "Black Holes and Baby Universes and Other Essays",
+    "author": "Stephen Hawking",
+    "narrator": "Simon Prebble",
+    "runtimeMinutes": 267,
+    "price": 14.87,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41mH1IFQiyL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V0KNUO",
+    "categories": [
+      "Science",
+      "Physics",
+      "Non-Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 4.5,
+    "valueScore": 1.2,
+    "costPerHour": 3.34,
+    "creditWorth": 0.99
   },
   {
     "asin": "B0032N8OY6",
@@ -137915,6 +140448,30 @@
     "costPerHour": 3.97,
     "creditWorth": 1.28,
     "adjustedValueScore": 2.98
+  },
+  {
+    "asin": "B0H8FBN3FQ",
+    "title": "The Nature and Nurture of Narcissism",
+    "author": "Peter Salerno PsyD",
+    "narrator": "Peter Salerno PsyD",
+    "runtimeMinutes": 224,
+    "price": 16.57,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 2893,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41LqQxIGOXL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H8FBN3FQ",
+    "categories": [
+      "Science",
+      "Non-Fiction",
+      "History"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 3.7,
+    "valueScore": 1.13,
+    "costPerHour": 4.44,
+    "creditWorth": 1.11
   },
   {
     "title": "Dust to Dust",
@@ -140924,6 +143481,30 @@
     "costPerHour": 3.96,
     "creditWorth": 1.39,
     "adjustedValueScore": 1.11
+  },
+  {
+    "asin": "B005V2HRA8",
+    "title": "Is Everyone Hanging Out Without Me? (And Other Concerns)",
+    "author": "Mindy Kaling",
+    "narrator": "Mindy Kaling, B. J. Novak, Michael Schur, Brenda Withers",
+    "runtimeMinutes": 277,
+    "price": 20.54,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 732,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61Ai3R+dwLL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B005V2HRA8",
+    "categories": [
+      "Biography",
+      "Memoir",
+      "Humor"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 4.6,
+    "valueScore": 1.01,
+    "costPerHour": 4.45,
+    "creditWorth": 1.37
   },
   {
     "title": "The Last Sad Love Song",
@@ -144872,6 +147453,30 @@
     "creditWorth": 0.93
   },
   {
+    "asin": "B0HFRD6GSK",
+    "title": "Remote Pilot Test Mastery",
+    "author": "Tyler McKenna",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 207,
+    "price": 17.41,
+    "currency": "USD",
+    "starRating": 4.3,
+    "reviewCount": 2538,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41uxIWRxJ5L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HFRD6GSK",
+    "categories": [
+      "Business",
+      "Startup",
+      "Work Culture"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 3.5,
+    "valueScore": 0.85,
+    "costPerHour": 5.05,
+    "creditWorth": 1.16
+  },
+  {
     "asin": "B0DTV7KBL2",
     "title": "Contact",
     "author": "J.N. Chaney, Jasper T. Scott",
@@ -146394,6 +148999,30 @@
     "costPerHour": 5.87,
     "creditWorth": 1.26,
     "adjustedValueScore": 2.31
+  },
+  {
+    "asin": "B0741DMQVH",
+    "title": "Self Leadership and the One Minute Manager Revised Edition",
+    "author": "Ken Blanchard, Susan Fowler, Laurence Hawkins",
+    "narrator": "Dan Woren",
+    "runtimeMinutes": 159,
+    "price": 15.45,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 45,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51cm+4eE6jL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0741DMQVH",
+    "categories": [
+      "Business",
+      "Leadership",
+      "Management"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 2.7,
+    "valueScore": 0.77,
+    "costPerHour": 5.83,
+    "creditWorth": 1.03
   },
   {
     "asin": "B09YVV1VS5",
@@ -148481,6 +151110,30 @@
     "adjustedValueScore": 1.28
   },
   {
+    "asin": "B0F16C8WCV",
+    "title": "BIGFOOT Plus One",
+    "author": "Ethan Blackwood",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 153,
+    "price": 17.73,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 1066,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51e0CkEDmYL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F16C8WCV",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 2.6,
+    "valueScore": 0.66,
+    "costPerHour": 6.95,
+    "creditWorth": 1.19
+  },
+  {
     "asin": "B004GF3ENK",
     "title": "Debt of Bones",
     "author": "Terry Goodkind",
@@ -150440,6 +153093,30 @@
     "costPerHour": 5.38,
     "creditWorth": 1.34,
     "adjustedValueScore": 1.78
+  },
+  {
+    "asin": "B002V8LA80",
+    "title": "El Octavo Habito De la Efectividad a la Grandeza [The 8th Habit",
+    "author": "Stephen R. Covey",
+    "narrator": "Alejo Felipe",
+    "runtimeMinutes": 141,
+    "price": 18.75,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 13,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51nPAzTB8bL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V8LA80",
+    "categories": [
+      "Self-Help",
+      "Business",
+      "Leadership"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 2.4,
+    "valueScore": 0.56,
+    "costPerHour": 7.98,
+    "creditWorth": 1.25
   },
   {
     "asin": "B002V8LA80",
@@ -152960,6 +155637,31 @@
     "adjustedValueScore": 0.73
   },
   {
+    "asin": "B0HFLZCFSC",
+    "title": "Girl In The Woods A Dark Psychological Thriller",
+    "author": "J.E. Nickerson",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 74,
+    "price": 15.15,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/418y+A2xLBL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HFLZCFSC",
+    "categories": [
+      "Fiction",
+      "Mystery",
+      "Thriller",
+      "Psychological Thriller"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 1.2,
+    "valueScore": 0.41,
+    "costPerHour": 12.28,
+    "creditWorth": 1.01
+  },
+  {
     "asin": "B0CWJLC3LH",
     "title": "True Ghost Stories and Hauntings, Volume III",
     "author": "Simon Murik",
@@ -154034,6 +156736,31 @@
     "costPerHour": 12.59,
     "creditWorth": 1.46,
     "adjustedValueScore": 0.35
+  },
+  {
+    "asin": "B0HDJY32PT",
+    "title": "He Told Me to Smile I Turned His Secrets Into a Scandal",
+    "author": "Sadie Shore",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 88,
+    "price": 21.25,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 1970,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41QbWQ6DjuL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HDJY32PT",
+    "categories": [
+      "Fiction",
+      "Mystery",
+      "Contemporary",
+      "Women Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 1.5,
+    "valueScore": 0.32,
+    "costPerHour": 14.49,
+    "creditWorth": 1.42
   },
   {
     "asin": "B0H9PHNKDL",
@@ -156547,6 +159274,30 @@
     "adjustedValueScore": 0.21
   },
   {
+    "asin": "B0FNWZRR24",
+    "title": "Joe Explains the Stupid Yet Pioneering Naked Gun Franchise | Close Up E147",
+    "author": "David Sedaris",
+    "narrator": "",
+    "runtimeMinutes": 40,
+    "price": 20.12,
+    "currency": "USD",
+    "starRating": 4.6,
+    "reviewCount": 249,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41jnjbJ5uYL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FNWZRR24",
+    "categories": [
+      "Humor",
+      "Memoir",
+      "Non-Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 0.7,
+    "valueScore": 0.15,
+    "costPerHour": 30.18,
+    "creditWorth": 1.35
+  },
+  {
     "asin": "B002V8OGDQ",
     "title": "Building Bridges",
     "author": "Stephen King",
@@ -157771,6 +160522,30 @@
     "costPerHour": 22.88,
     "creditWorth": 0.97,
     "adjustedValueScore": 0.03
+  },
+  {
+    "asin": "B0DPD2Y5FC",
+    "title": "Ep. 10 - Three Doctor Who Christmas Specials",
+    "author": "Scott Westerfeld",
+    "narrator": "",
+    "runtimeMinutes": 9,
+    "price": 18.9,
+    "currency": "USD",
+    "starRating": 4.7,
+    "reviewCount": 536,
+    "coverImageUrl": "",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DPD2Y5FC",
+    "categories": [
+      "Young Adult",
+      "Dystopian",
+      "Science Fiction"
+    ],
+    "releaseDate": "",
+    "publisher": "",
+    "runtimeHours": 0.2,
+    "valueScore": 0.04,
+    "costPerHour": 126,
+    "creditWorth": 1.26
   },
   {
     "asin": "B0C749CC2C",
