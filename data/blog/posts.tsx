@@ -823,7 +823,7 @@ const POSTS: Record<string, BlogPostData> = {
         </p>
         <p>
           Start with <em>The Final Empire</em>, the first Mistborn book &mdash; 24.7 hours, a 5-star
-          rating from 5,000+ reviews, and a Value Score of 8.7. See the full analysis on its <a href="/books/B002V0QCYU" className="text-accent hover:underline">book page</a>.
+          rating from 5,000+ reviews, and a Value Score of 8.7. See the full analysis on its <a href="/books/B002V0QCYU" className="text-accent hover:underline">The Final Empire book page</a>.
         </p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Top Fantasy Picks by Value Score</h2>
         <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
@@ -1265,7 +1265,7 @@ const POSTS: Record<string, BlogPostData> = {
         </p>
         <p>
           Niche titles like <em>Wealth Hypnosis for Lottery Wins!</em> (2.7 hours, $14.30) sit right
-          at that line &mdash; check the full math on its <a href="/books/B0FRGKH6J5" className="text-accent hover:underline">book page</a> before you spend a credit.
+          at that line &mdash; check the full math on its <a href="/books/B0FRGKH6J5" className="text-accent hover:underline">Wealth Hypnosis book page</a> before you spend a credit.
         </p>
         <p className="mt-6">
           Browse our
@@ -4142,7 +4142,7 @@ const POSTS: Record<string, BlogPostData> = {
         <p>
           GetCreditWorth (getcreditworth.com) helps you decide whether a book is worth a credit.
           See the full breakdown for Gone with the Wind on its{" "}
-          <a href="/books/1603691634" className="text-accent hover:underline">book page</a>, browse
+          <a href="/books/1603691634" className="text-accent hover:underline">Gone with the Wind book page</a>, browse
           more picks in the <a href="/category/historical-fiction" className="text-accent hover:underline">historical fiction category</a>,
           or run the numbers with the{" "}
           <a href="/calculator" className="text-accent hover:underline">credit calculator</a>.
