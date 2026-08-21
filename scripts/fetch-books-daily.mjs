@@ -184,11 +184,23 @@ async function main() {
   console.log('已备份到:', bak);
 
   const merged = [...existing, ...fresh].sort((a, b) => (b.valueScore || 0) - (a.valueScore || 0));
-  fs.writeFileSync(BOOKS_PATH, JSON.stringify(merged, null, 2) + '\n', 'utf8');
 
-  const asinCount = new Set(merged.map((b) => String(b.asin).trim())).size;
+  // 防御性去重：即使 existing 本身含重复（如历史合并残留），写回前也按 ASIN 去重，
+  // 保留每组最后一条（后插入通常字段更全），杜绝 sitemap 重复 URL 与权重稀释
+  const seenAsin = new Set();
+  const deduped = merged.filter((b) => {
+    const k = String(b.asin).trim();
+    if (seenAsin.has(k)) return false;
+    seenAsin.add(k);
+    return true;
+  });
+  const removedDup = merged.length - deduped.length;
+
+  fs.writeFileSync(BOOKS_PATH, JSON.stringify(deduped, null, 2) + '\n', 'utf8');
+
+  const asinCount = new Set(deduped.map((b) => String(b.asin).trim())).size;
   console.log('\n=== 完成 ===');
-  console.log(`Day ${day} 新增 ${fresh.length} 本 → 总数 ${merged.length}（唯一 ASIN ${asinCount}）`);
+  console.log(`Day ${day} 新增 ${fresh.length} 本 → 总数 ${deduped.length}（唯一 ASIN ${asinCount}${removedDup ? `，防御去重 ${removedDup} 条` : ''}）`);
 }
 
 main().catch((e) => { console.error('失败:', e.message); process.exit(1); });
