@@ -989,6 +989,24 @@ const POSTS: Record<string, BlogPostData> = {
     date: '2026-07-25',
     readTime: '8 min read',
     category: 'Guide',
+    faq: [
+      {
+        question: 'Can I gift an Audible audiobook with a credit?',
+        answer: 'Yes. When you click "Give as a Gift" on an audiobook page, you can pay with a credit instead of cash. The recipient claims the title and it is added to their library permanently.',
+      },
+      {
+        question: 'Does the recipient need an Audible membership to receive a gifted audiobook?',
+        answer: 'No. The recipient only needs a free Audible account to claim the gift. They do not need an active membership to receive and keep gifted audiobooks.',
+      },
+      {
+        question: 'Can a gifted audiobook be exchanged for a different title?',
+        answer: 'No. Gifted audiobooks cannot be exchanged. However, if the recipient already owns the book or declines the gift, the credit or payment is refunded to the sender.',
+      },
+      {
+        question: 'How much does it cost to gift Audible?',
+        answer: 'A specific audiobook costs its retail price or one credit. Gifting a membership runs $20 for a 1-credit gift, ~$45 for 3 months, or ~$150 for 12 months of Premium Plus.',
+      },
+    ],
     content: (
       <>
         <p>
@@ -1070,6 +1088,15 @@ const POSTS: Record<string, BlogPostData> = {
         <p>Using a credit to gift an audiobook is a strategic decision. If you have credits approaching expiration and no books you personally want, gifting is an excellent way to extract value. The math: a gifted credit costs you $14.95 but delivers a book worth $20-40 to the recipient. Plan your credit usage around gifts during holiday seasons to maximize membership value.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Gift Receiving: What Happens on the Other Side</h2>
         <p>When someone receives an Audible gift, they get an email with a personalized message and a link to claim the audiobook. The recipient needs an Audible account (free to create) and does not need an active membership. Once claimed, the audiobook is added permanently. If the recipient already owns the book, they can decline and the credit is refunded to you. This makes Audible gifting low-risk and user-friendly for both parties.</p>
+        <p className="mt-6">
+          Before you gift a credit, make sure you know its real value — see our{" "}
+          <Link href="/blog/how-much-is-audible-credit-worth-2026" className="text-primary underline">Audible credit value breakdown</Link>{" "}
+          and how to avoid wasting credits in the{" "}
+          <Link href="/blog/audible-credits-expiration-policy" className="text-primary underline">credit expiration guide</Link>.
+          If the recipient already has the book, our{" "}
+          <Link href="/blog/audible-return-refund-policy" className="text-primary underline">return &amp; refund guide</Link>{" "}
+          covers what happens then.
+        </p>
       </>
     ),
   },
@@ -1082,6 +1109,24 @@ const POSTS: Record<string, BlogPostData> = {
     date: '2026-07-25',
     readTime: '9 min read',
     category: 'Guide',
+    faq: [
+      {
+        question: 'Is the Audible Plus Catalog included with Premium Plus?',
+        answer: 'Yes. The Plus Catalog (thousands of streamable titles) is included with every Audible Premium Plus plan. Your monthly credits are separate — they let you buy any audiobook permanently.',
+      },
+      {
+        question: 'Should I use a credit or the Plus Catalog for a book?',
+        answer: 'Use a credit for new releases, books priced above $14.95, long titles (20+ hours), and anything you want to keep forever. Use the Plus Catalog for short books, unknown authors, classics, and Audible Originals.',
+      },
+      {
+        question: 'Do I keep Plus Catalog books if I cancel Audible?',
+        answer: 'No. Plus Catalog titles are only available while you are subscribed. Audiobooks purchased with credits remain in your library permanently, even after you cancel.',
+      },
+      {
+        question: 'What is the difference between Audible Plus and Premium Plus?',
+        answer: 'Audible Plus is catalog-only — unlimited streaming of Plus Catalog titles with no credits. Premium Plus adds monthly credits (1-2 per month) that let you buy any audiobook permanently. Most members want Premium Plus.',
+      },
+    ],
     content: (
       <>
         <p>
@@ -1151,6 +1196,14 @@ const POSTS: Record<string, BlogPostData> = {
         <p>There are situations where conventional wisdom about credits versus catalog breaks down. If a book is on deep discount (Daily Deal, often 80% off), paying cash may be cheaper than using a credit regardless of length. If a Plus Catalog title is about to leave the catalog (Audible occasionally rotates titles), using a credit to purchase it permanently before it leaves may be wise. And if you have credits about to expire, spending them on Plus Catalog-available titles is still better than losing them entirely. Use our <a href="https://getcreditworth.com" className="text-primary hover:underline">Credit Value Calculator</a> for personalized recommendations on each specific book.</p>
       <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Plus Catalog: Hidden Gems Worth Exploring</h2>
         <p>While the Plus Catalog may not include the latest bestsellers, it contains several hidden gems that make the subscription worthwhile. Audible Originals are exclusive productions available only on the platform, spanning genres from thriller to romance to science fiction. Many of these are high-quality productions with professional casts. The catalog also includes complete series from established authors, making it perfect for binge-listening. Classic literature lovers will find extensive collections of public domain works with professional narration. By exploring the Plus Catalog thoroughly before reaching for credits, many subscribers discover they need fewer credits than expected.</p>
+        <p className="mt-6">
+          Debating between the Plus Catalog and credits? See how much a credit is actually worth in our{" "}
+          <Link href="/blog/audible-credits-expiration-policy" className="text-primary underline">credit expiration guide</Link>,
+          check what happens to credits if you{" "}
+          <Link href="/blog/audible-cancellation-fees" className="text-primary underline">cancel your subscription</Link>,
+          or run your own numbers with the{" "}
+          <Link href="/calculator" className="text-primary underline">credit calculator</Link>.
+        </p>
       </>
     ),
   },
@@ -1259,6 +1312,24 @@ const POSTS: Record<string, BlogPostData> = {
     date: '2026-07-26',
     readTime: '9 min read',
     category: 'Analysis',
+    faq: [
+      {
+        question: 'How much is an Audible credit actually worth?',
+        answer: 'An Audible credit costs $14.95 on the standard Premium Plus plan. Its real value is whatever book you redeem it for — a credit used on a $30 audiobook delivers $30 of value, making it roughly a 2x return.',
+      },
+      {
+        question: 'What is the best way to spend an Audible credit?',
+        answer: 'Spend credits on long audiobooks (20+ hours) or titles priced well above $14.95. These maximize your cost-per-hour and extract the most value from each credit.',
+      },
+      {
+        question: 'How do I calculate an Audible credit cost per hour?',
+        answer: 'Divide the audiobook price by its runtime in hours. A $14.95 credit on a 40-hour book works out to about $0.37/hour — excellent value. Short books under 8 hours are usually better bought with cash or listened via the Plus Catalog.',
+      },
+      {
+        question: 'What happens to my unused credits when I cancel Audible?',
+        answer: 'Unused credits are forfeited immediately when you cancel. Spend them before you cancel — each one is worth roughly $14.95 of membership value that you otherwise lose.',
+      },
+    ],
     content: (
       <>
         <p>
@@ -1484,6 +1555,14 @@ const POSTS: Record<string, BlogPostData> = {
         <p>Our analysis of 730 audiobooks shows that the average Value Score across all titles is 3.2. Books in the top 10% have scores above 5.5. By using our rankings to select only top-quartile books, the average member can increase their credit value by 60-80% compared to random selection.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Should You Ever Buy Audiobooks Without Credits?</h2>
         <p>Yes, sometimes. If a book costs less than $10 and is under 6 hours, paying cash (especially with the 30% member discount) is better than using a credit. The rule of thumb: use credits for books over $15 or over 10 hours. For everything else, compare the cash price against the effective credit value of $14.95.</p>
+        <p className="mt-6">
+          Put this math to work: use our{" "}
+          <Link href="/calculator" className="text-primary underline">credit value calculator</Link>{" "}
+          to score any specific book, protect expiring credits with the{" "}
+          <Link href="/blog/audible-credits-expiration-policy" className="text-primary underline">expiration guide</Link>,
+          and know your rights if a credit&apos;s purchase goes wrong in the{" "}
+          <Link href="/blog/audible-return-refund-policy" className="text-primary underline">return &amp; refund guide</Link>.
+        </p>
       </>
     ),
   },
@@ -2907,46 +2986,7 @@ const POSTS: Record<string, BlogPostData> = {
     ),
   },
 
-  'starship-new-jersey-box-set-review': {
-    slug: 'starship-new-jersey-box-set-review',
-    title: 'Starship New Jersey Box Set: 68 Hours for 1 Credit — Space Opera Value',
-    description: 'Starship New Jersey Box Set by Scott Bartlett: 68.5 hours, 10 books, Value Score 10.3. The best credit value in sci-fi space opera. Full review and verdict.',
-    keywords: ['starship new jersey audible', 'scott bartlett audiobook', 'best space opera audiobooks', 'starship new jersey box set review'],
-    date: '2026-08-17',
-    readTime: '6 min read',
-    category: 'Book Review',
-    content: (
-      <>
-        <p>
-          <strong>Starship New Jersey Box Set</strong> by Scott Bartlett is a 10-book space opera series that runs 68.5 hours — all for a single Audible credit. At a <strong>Value Score of 10.3</strong>, it is one of the highest-value audiobooks on Audible.
-        </p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Numbers at a Glance</h2>
-        <ul className="space-y-2">
-          <li><strong>Runtime:</strong> 68.5 hours (4,110 minutes)</li>
-          <li><strong>Author:</strong> Scott Bartlett</li>
-          <li><strong>Narrator:</strong> Mark Boyett</li>
-          <li><strong>Rating:</strong> 4.5 stars from 100+ reviews</li>
-          <li><strong>Price:</strong> $29.99 (or one credit)</li>
-          <li><strong>Cost per hour:</strong> $0.44 (credit) / $0.44 (cash)</li>
-          <li><strong>Value Score:</strong> 10.3 — excellent credit value</li>
-        </ul>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Why It Is a Credit Steal</h2>
-        <p>Most audiobooks run 8–15 hours. This box set runs <strong>68.5 hours</strong> — nearly 5× the average. At $0.44/hour, it is one of the best credit values in the entire Audible catalog. If you are a space opera fan, this is a no-brainer credit spend.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Who Should Listen</h2>
-        <p>Fans of long-form space opera (like The Expanse or Star Wars Legends) will find 10 tightly connected books. If you want a series you can binge for weeks, this is it.</p>
-        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
-          <p className="text-sm"><strong>Verdict:</strong> Strong credit buy. 68.5 hours for one credit is rare — grab it before it sells out.</p>
-        </div>
-        <p>See the full details on the{" "}
-          <Link href="/books/B0GRCRMZRR" className="text-primary hover:underline">Starship New Jersey Box Set page</Link>{" "}
-          or browse more{" "}
-          <Link href="/category/sci-fi" className="text-primary hover:underline">sci-fi audiobooks</Link>{" "}
-          for credit value comparisons.
-        </p>
-      </>
-    ),
-  },
-
+  
   'black-holes-tides-curved-spacetime-review': {
     slug: 'black-holes-tides-curved-spacetime-review',
     title: 'Black Holes, Tides, and Curved Spacetime: Best Science Audiobook (5 Stars)',
@@ -2982,6 +3022,11 @@ const POSTS: Record<string, BlogPostData> = {
           or browse more{" "}
           <Link href="/category/science" className="text-primary hover:underline">science audiobooks</Link>{" "}
           for credit value comparisons.
+        </p>
+        <p className="mt-6">
+          For more science and nonfiction picks that maximize your credits, see our{" "}
+          <Link href="/blog/best-nonfiction-audiobooks-for-credits" className="text-primary underline">best nonfiction audiobooks for credits</Link>{" "}
+          roundup.
         </p>
       </>
     ),
@@ -5085,6 +5130,11 @@ const POSTS: Record<string, BlogPostData> = {
         </p>
         <p>
           GetCreditWorth (getcreditworth.com) helps you decide whether a book is worth a credit. See the full breakdown for Starship New Jersey on its <a href="/books/starship-new-jersey" className="text-accent hover:underline">book page</a>, browse more space opera in the <a href="/category/sci-fi" className="text-accent hover:underline">sci-fi category</a>, or run the numbers with the <a href="/calculator" className="text-accent hover:underline">credit calculator</a>.
+        </p>
+        <p className="mt-6">
+          If you are still hunting for your next binge, our{ }
+          <Link href="/blog/best-fantasy-audiobooks-for-credits" className="text-primary underline">best fantasy audiobooks for credits</Link>{ }
+          roundup highlights more long-form series worth a single credit.
         </p>
       </>
     ),
