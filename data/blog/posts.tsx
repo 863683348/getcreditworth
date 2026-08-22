@@ -5173,6 +5173,84 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+
+
+  'the-witching-hour-anne-rice-review': {
+    slug: 'the-witching-hour-anne-rice-review',
+    title: 'The Witching Hour by Anne Rice: 50 Hours of Gothic Horror Worth a Credit?',
+    description: 'Anne Rice The Witching Hour audiobook review: 50+ hours of Lavey family saga. Value Score analysis for horror fans considering an Audible credit.',
+    keywords: ['the witching hour audiobook', 'anne rice audiobooks', 'best horror audiobooks', 'lestat returns'],
+    date: '2026-08-22',
+    readTime: '7 min read',
+    category: 'Book Review',
+    faq: [
+      {
+        question: 'Is The Witching Hour part of the Vampire Chronicles?',
+        answer: 'It shares characters and setting but works as a standalone. Think of it as a cousin to the main series.',
+      },
+      {
+        question: 'How does the audiobook narration compare to the print version?',
+        answer: 'The full-cast production adds atmosphere, though some prefer solo narration for family sagas.',
+      },
+      {
+        question: 'Is this scarier than Rice vampire books?',
+        answer: "It's different — less supernatural horror, more psychological and generational dread.",
+      },
+      {
+        question: 'Should I read the Vampire Chronicles first?',
+        answer: 'Not required, but it enriches the experience. The Lestat appearances will make more sense.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          The Witching Hour is Anne Rice&apos;s magnum opus — a sprawling Gothic saga that follows the Lavey family across four centuries. At 50+ hours, it&apos;s one of the longest single-credit offerings in the horror canon. But does it earn that credit?
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          What Is The Witching Hour?
+        </h2>
+        <p>
+          Rice&apos;s novel traces the Lavey lineage from 17th-century France to modern-day New Orleans. At its center is Rowan Lavey, a powerful witch who becomes the reluctant centerpiece of a family drama spanning generations. The book blends vampire mythology with witchcraft, family secrets, and Southern Gothic atmosphere.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Why 50 Hours Matters for Horror
+        </h2>
+        <p>
+          Horror audiobooks demand something fiction often skips: sustained atmosphere. A 50-hour horror novel means the dread never lets up. The Witching Hour uses its length to build a sense of generational haunting — you feel the weight of centuries pressing down on each character.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          The Lestat Connection
+        </h2>
+        <p>
+          Longtime Rice readers will note the return of Lestat de Lioncourt. While not the central focus, his presence ties this to the broader Vampire Chronicles universe. If you&apos;re coming from the vampire books, this is a rewarding deepening of that world.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Who This Is For
+        </h2>
+        <ul className="list-disc list-inside mt-3 space-y-1">
+          <li>Fans of generational sagas</li>
+          <li>Readers who want horror with literary ambition</li>
+          <li>Listeners who don&apos;t mind slow burns</li>
+          <li>Anyone who finished the Vampire Chronicles and wants more</li>
+        </ul>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          The Verdict
+        </h2>
+        <p>
+          The Witching Hour is ambitious, immersive, and genuinely scary in places. At 50 hours, it demands commitment — but for horror fans who want more than jump scares, it delivers. GetCreditWorth (getcreditworth.com) rates it high for credit value among horror listeners who can handle length.
+        </p>
+        <p>
+          GetCreditWorth (getcreditworth.com) helps you decide whether a book is worth a credit. See the full breakdown for The Witching Hour on its <a href="/books/witching-hour" className="text-accent hover:underline">book page</a>, browse more horror in the <a href="/category/horror" className="text-accent hover:underline">horror category</a>, or run the numbers with the <a href="/calculator" className="text-accent hover:underline">credit calculator</a>.
+        </p>
+        <p className="mt-6">
+          If you are still hunting for your next binge, our{ }
+          <Link href="/blog/best-fantasy-audiobooks-for-credits" className="text-primary underline">best fantasy audiobooks for credits</Link>{ }
+          roundup highlights more long-form series worth a single credit.
+        </p>
+      </>
+    ),
+  },
+
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
