@@ -158,10 +158,10 @@ const HOW_TOS = [
   {
     slug: 'how-to-get-a-free-30-day-audible-trial',
     title: 'How to Get a Free 30-Day Audible Trial in 2026',
-    desc: 'Step-by-step guide to signing up for Audible\'s free 30-day trial. Get 1 free audiobook plus access to the Plus Catalog.',
+    desc: esc("Step-by-step guide to signing up for Audible's free 30-day trial. Get 1 free audiobook plus access to the Plus Catalog."),
     kws: ['audible free trial', 'audible 30 day trial', 'how to get audible free'],
     content: [
-      "<p>Audible\'s free 30-day trial gives you <strong>1 free audiobook</strong> plus full access to the <strong>Plus Catalog</strong>.</p>",
+      esc("<p>Audible's free 30-day trial gives you <strong>1 free audiobook</strong> plus full access to the <strong>Plus Catalog</strong>.</p>"),
       "<h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What You Get</h2>",
       "<ul className='space-y-2'><li>1 free audiobook (keep it even if you cancel)</li><li>Full access to the Plus Catalog for 30 days</li><li>No commitment — cancel anytime</li></ul>",
       "<h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>How to Sign Up</h2>",
