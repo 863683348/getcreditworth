@@ -287,6 +287,8 @@ export const en = {
     creditWorth: 'Credit Worth',
     reviews: '{count} reviews',
     useCredit: 'Use a Credit on Audible',
+    buyDirectly: 'Buy This Audiobook on Amazon',
+    getFreeWithTrial: 'Get It Free with a 30-Day Trial',
     narratedBy: 'Narrated by',
     publisher: 'Publisher',
     released: 'Released',

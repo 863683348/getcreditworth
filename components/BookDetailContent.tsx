@@ -214,7 +214,7 @@ export function BookDetailContent({ book, relatedBooks }: BookDetailContentProps
             </div>
           )}
 
-          {/* CTA */}
+          {/* CTA — 按是否值得用积分分流：值 → 引导用积分兑换；不值 → 引导直接买 + 试听免费拿 */}
           <div className="flex flex-wrap gap-3 mb-6">
             <a
               href={redirectUrl}
@@ -222,9 +222,21 @@ export function BookDetailContent({ book, relatedBooks }: BookDetailContentProps
               rel="noopener noreferrer sponsored"
               className="btn btn-primary"
             >
-              {t.bookDetail.useCredit}
+              {worthUsingCredit ? t.bookDetail.useCredit : t.bookDetail.buyDirectly}
               <ExternalLink className="h-4 w-4" />
             </a>
+            {!worthUsingCredit && (
+              <a
+                href={buildAudibleTrialUrl(region)}
+                target="_blank"
+                rel="noopener noreferrer sponsored"
+                title="Start your free 30-day Audible trial and get this book"
+                className="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold rounded-md border border-primary-300 text-primary hover:bg-primary-50 transition-colors"
+              >
+                {t.bookDetail.getFreeWithTrial}
+                <ExternalLink className="h-4 w-4" />
+              </a>
+            )}
           </div>
 
           {/* 友好推荐卡片：Trial Recommendation（仅在书价 > 积分价值时显示） */}
