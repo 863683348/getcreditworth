@@ -15,7 +15,7 @@ import { useRegion } from "@/components/RegionProvider";
 import { RegionSwitcher } from "@/components/RegionSwitcher";
 import { formatPrice, formatRating, formatNumber, formatDuration } from "@/lib/utils/format";
 import { AUDIBLE_CREDIT_VALUE } from "@/lib/config";
-import { buildAudibleTrialUrl, buildRedirectUrl } from "@/lib/utils/affiliate";
+import { buildAudibleTrialUrl, buildAudibleProductUrl } from "@/lib/utils/affiliate";
 
 interface HomeContentProps {
   topBooks: Book[];
@@ -173,7 +173,7 @@ export function HomeContent({ topBooks, totalBooks }: HomeContentProps) {
                       </span>
                     </div>
                     <a
-                      href={buildRedirectUrl(book.asin, region)}
+                      href={buildAudibleProductUrl(book.asin, region)}
                       target="_blank"
                       rel="noopener noreferrer sponsored"
                       className="btn btn-primary text-[11px] sm:text-xs py-1.5 px-2 mt-2.5"

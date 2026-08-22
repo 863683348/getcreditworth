@@ -91,6 +91,39 @@ export function buildRedirectUrl(
   return `/api/redirect/${asin}?region=${region}`;
 }
 
+/** Audible 站点域名后缀（与 Amazon TLD 一一对应） */
+const AUDIBLE_TLD: Record<AmazonRegion, string> = {
+  us: "com",
+  uk: "co.uk",
+  de: "de",
+  fr: "fr",
+  it: "it",
+  es: "es",
+};
+
+/**
+ * 生成 Audible 产品页直链（少一跳、转化路径最短）
+ *
+ * 竞品 audiobookvalue.com 用 amazon.com/dp/{amazonAsin} 直达商品页。
+ * 我们的 books.json ASIN 来自 Audible API，amazon.com/dp/{audibleAsin} 会 404
+ * （实测），但 audible.com/pd/{audibleAsin} 可直接重定向到该书产品页（实测 200，
+ * tag 参数被保留）。
+ *
+ * 用于书页/卡片的主 CTA：用户点击直达"这本书"的 Audible 产品页（试听/购买/用积分），
+ * 而不是搜索结果页，省去二次点击。
+ *
+ * 注意：audible.com 上的 tag 归因需在 Amazon Associates 后台验证；若 24-48h 无点击
+ * 归因，可回退到 buildRedirectUrl（Amazon 搜索链接，归因确定）。
+ */
+export function buildAudibleProductUrl(
+  asin: string,
+  region: AmazonRegion = DEFAULT_REGION
+): string {
+  const tld = AUDIBLE_TLD[region] || AUDIBLE_TLD.us;
+  const tag = getAffiliateTag(region);
+  return `https://www.audible.${tld}/pd/${asin}?tag=${tag}`;
+}
+
 /**
  * 生成 canonical URL（用于 SEO）
  */

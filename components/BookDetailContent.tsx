@@ -18,7 +18,7 @@ import {
 } from 'lucide-react';
 import { ValueScoreBadge } from '@/components/ValueScoreBadge';
 import { isCreditWorth } from '@/lib/calc/value-score';
-import { buildRedirectUrl, buildAudibleTrialUrl } from '@/lib/utils/affiliate';
+import { buildAudibleProductUrl, buildAudibleTrialUrl } from '@/lib/utils/affiliate';
 import {
   formatDuration,
   formatPrice,
@@ -42,7 +42,7 @@ export function BookDetailContent({ book, relatedBooks }: BookDetailContentProps
   const { t } = useI18n();
   const { region } = useRegion();
 
-  const redirectUrl = buildRedirectUrl(book.asin, region);
+  const redirectUrl = buildAudibleProductUrl(book.asin, region);
   const worthUsingCredit = isCreditWorth(book.price);
   const savingsVsCredit = book.price - AUDIBLE_CREDIT_VALUE;
   const savingsPercent = (savingsVsCredit / book.price) * 100;

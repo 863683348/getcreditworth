@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { ExternalLink, Star } from 'lucide-react';
 import type { Book } from '@/lib/types';
 import { ValueScoreBadge } from '@/components/ValueScoreBadge';
-import { buildRedirectUrl } from '@/lib/utils/affiliate';
+import { buildAudibleProductUrl } from '@/lib/utils/affiliate';
 import { formatDuration, formatPrice, formatRating, formatNumber } from '@/lib/utils/format';
 import { useI18n } from '@/lib/i18n';
 import { useRegion } from '@/components/RegionProvider';
@@ -110,7 +110,7 @@ export function BookTable({ books, showRank = true, startRank = 1 }: BookTablePr
               </td>
               <td className="py-2 px-2 sm:px-3 text-right">
                 <a
-                  href={buildRedirectUrl(book.asin, region)}
+                  href={buildAudibleProductUrl(book.asin, region)}
                   target="_blank"
                   rel="noopener noreferrer sponsored"
                   className="inline-flex items-center gap-0.5 text-xs text-primary hover:text-primary-hover font-medium whitespace-nowrap"
