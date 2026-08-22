@@ -7989,6 +7989,31 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+  'washington-ron-chernow-audiobook': {
+    slug: 'washington-ron-chernow-audiobook',
+    title: 'Washington by Ron Chernow: The Ultimate Founding Father Bio',
+    description: 'Ron Chernow\'s Washington is the definitive audiobook biography of America\'s first president. Here\'s whether 38 hours of credits is worth it.',
+    keywords: ['washington ron chernow audiobook', 'american history audiobooks', 'best biographies', 'founding father audiobook'],
+    date: '2026-08-23',
+    readTime: '6 min read',
+    category: 'Biography',
+    content: (
+      <>
+        <p><strong>Ron Chernow\'s Washington</strong> is the magnum opus of American biographical writing. At over 1,200 pages and roughly 38 hours of narration, it is the most comprehensive single-volume biography of George Washington ever produced for audio.</p>
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Why This Audiobook Stands Out</h2>
+        <p>Most founding father books skim over Washington\'s military career or reduce him to marble-statue sainthood. Chernow does neither. He renders Washington as a calculating, ambitious, deeply complex man who happened to hold the most important office in the new republic.</p>
+        <p>The narration by full cast — including separate voices for Washington, Martha, Hamilton, and Jefferson — transforms what could be a dry history into something closer to immersive theater. You hear the tension in Washington\'s voice as he wrestles with the presidency. You hear Martha\'s quiet strength.</p>
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>The Credit Value Equation</h2>
+        <p>At 38 hours, Washington tests your commitment. But here\'s the math: a standard Audible credit gets you a book of any length. If you finish this in three weeks of commuting, you\'ve extracted 38 hours of high-density historical narrative for one credit. That\'s roughly $0.03 per hour of content — far below the per-minute cost of most podcast subscriptions.</p>
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Who Should Listen</h2>
+        <ul className='space-y-2'><li>History buffs who want the definitive Washington</li><li>Audible subscribers looking for a month-long project</li><li>Anyone who finished Chernow\'s Hamilton and wants the full arc</li><li>Teachers and students of American history</li></ul>
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>FAQ</h2>
+        <ul className='space-y-2'><li><strong>Is Washington better than Chernow\'s Hamilton?</strong> Hamilton is tighter and more dramatic. Washington is deeper and more balanced. Listen to both — they complement each other.</li><li><strong>How long does it take to finish?</strong> At 38 hours, most listeners complete it in 2-4 weeks of regular listening.</li><li><strong>Is the full cast distracting?</strong> Some find it immersive. Others prefer single narrator. Chernow\'s prose is strong enough that even the ensemble cast never overshadows the story.</li></ul>
+        <p>Visit <a href='/' className='text-brand hover:underline'>getcreditworth.com</a> to find the best value audiobooks for your credits, or check our <a href='/category/biography' className='text-brand hover:underline'>biography category</a> for more recommendations.</p>
+      </>
+    ),
+  },
+
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
