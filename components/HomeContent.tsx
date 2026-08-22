@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { Trophy, Info, TrendingUp, BookOpen, ArrowRight, Star, Clock } from "lucide-react";
-import type { Book } from "@/lib/types";
+import { Trophy, Info, TrendingUp, BookOpen, ArrowRight, Star, Clock, ListChecks } from "lucide-react";
+import type { Book, CuratedList } from "@/lib/types";
 import { BookExplorer } from "@/components/BookExplorer";
 import {
   ItemListJsonLd,
@@ -20,6 +20,7 @@ import { buildAudibleTrialUrl, buildAudibleProductUrl } from "@/lib/utils/affili
 interface HomeContentProps {
   topBooks: Book[];
   totalBooks: number;
+  featuredLists: CuratedList[];
 }
 
 const FAQ_ITEMS = [
@@ -47,7 +48,7 @@ const FAQ_ITEMS = [
   },
 ];
 
-export function HomeContent({ topBooks, totalBooks }: HomeContentProps) {
+export function HomeContent({ topBooks, totalBooks, featuredLists }: HomeContentProps) {
   const { t } = useI18n();
   const { region } = useRegion();
 
@@ -173,7 +174,7 @@ export function HomeContent({ topBooks, totalBooks }: HomeContentProps) {
                       </span>
                     </div>
                     <a
-                      href={buildAudibleProductUrl(book.asin, region)}
+                      href={buildAudibleProductUrl(book.asin, region, book.title)}
                       target="_blank"
                       rel="noopener noreferrer sponsored"
                       className="btn btn-primary text-[11px] sm:text-xs py-1.5 px-2 mt-2.5"
@@ -280,6 +281,54 @@ export function HomeContent({ topBooks, totalBooks }: HomeContentProps) {
             </p>
           </Link>
         </div>
+
+        {/* Featured Collections Section — 精选合集推荐 */}
+        {featuredLists && featuredLists.length > 0 && (
+          <div className="mt-12">
+            <div className="flex items-center justify-between mb-6">
+              <div className="flex items-center gap-2">
+                <ListChecks className="h-5 w-5 text-primary" />
+                <h2 className="text-lg sm:text-xl font-bold text-text-primary">
+                  {t.home.featuredCollectionsTitle}
+                </h2>
+              </div>
+              <Link
+                href="/curated"
+                className="text-sm text-primary hover:text-primary-hover font-medium"
+              >
+                {t.home.viewAllCollections}
+              </Link>
+            </div>
+            <p className="text-sm text-text-secondary mb-4">
+              {t.home.featuredCollectionsSubtitle}
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {featuredLists.map((list) => (
+                <Link
+                  key={list.slug}
+                  href={`/curated/${list.slug}`}
+                  className="card p-4 group hover:border-primary-200 transition-colors"
+                >
+                  <div className="flex items-start justify-between gap-2 mb-2">
+                    <span className="text-xs font-medium text-primary bg-primary-50 px-2 py-0.5 rounded">
+                      {list.category}
+                    </span>
+                    <ArrowRight className="h-4 w-4 text-text-muted group-hover:text-primary transition-colors" />
+                  </div>
+                  <h3 className="font-serif text-base font-semibold text-text-primary group-hover:text-primary mb-1 line-clamp-2">
+                    {list.title}
+                  </h3>
+                  <p className="text-xs text-text-secondary line-clamp-2 mb-2">
+                    {list.description}
+                  </p>
+                  <p className="text-xs text-text-muted">
+                    {t.home.booksInCollection.replace('{count}', String(list.bookAsins.length))}
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </>
   );

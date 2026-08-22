@@ -99,7 +99,7 @@ export function PaginatedBookTable({
                   </td>
                   <td className="p-3">
                     <a
-                      href={buildAudibleProductUrl(book.asin, region)}
+                      href={buildAudibleProductUrl(book.asin, region, book.title)}
                       rel="nofollow sponsored"
                       className="inline-block px-3 py-1 bg-primary text-white text-xs rounded-md hover:bg-primary-dark transition-colors"
                     >

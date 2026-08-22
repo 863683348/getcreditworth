@@ -110,7 +110,7 @@ export function BookTable({ books, showRank = true, startRank = 1 }: BookTablePr
               </td>
               <td className="py-2 px-2 sm:px-3 text-right">
                 <a
-                  href={buildAudibleProductUrl(book.asin, region)}
+                  href={buildAudibleProductUrl(book.asin, region, book.title)}
                   target="_blank"
                   rel="noopener noreferrer sponsored"
                   className="inline-flex items-center gap-0.5 text-xs text-primary hover:text-primary-hover font-medium whitespace-nowrap"

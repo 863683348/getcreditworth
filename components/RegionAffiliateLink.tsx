@@ -15,15 +15,16 @@ import { buildAudibleProductUrl } from "@/lib/utils/affiliate";
 
 interface RegionAffiliateLinkProps {
   asin: string;
+  title?: string;
   className?: string;
   children: ReactNode;
 }
 
-export function RegionAffiliateLink({ asin, className, children }: RegionAffiliateLinkProps) {
+export function RegionAffiliateLink({ asin, title, className, children }: RegionAffiliateLinkProps) {
   const { region } = useRegion();
   return (
     <a
-      href={buildRedirectUrl(asin, region)}
+      href={buildAudibleProductUrl(asin, region, title)}
       rel="nofollow sponsored"
       className={className}
     >

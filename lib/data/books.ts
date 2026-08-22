@@ -100,6 +100,21 @@ export function getCuratedLists(): CuratedList[] {
   return curatedListsRaw as CuratedList[];
 }
 
+/** 首页精选合集 — 按价值评分和覆盖面选择 6 个代表性合集 */
+export function getFeaturedCuratedLists(): CuratedList[] {
+  const featuredSlugs = [
+    'best-fantasy-for-credits',
+    'best-science-fiction-for-credits',
+    'best-long-audiobooks-for-credits',
+    'best-history-for-credits',
+    'best-biography-for-credits',
+    'best-self-help-audiobooks',
+  ];
+  return (curatedListsRaw as CuratedList[]).filter((l) =>
+    featuredSlugs.includes(l.slug)
+  );
+}
+
 export function getCuratedList(slug: string): CuratedList | undefined {
   return (curatedListsRaw as CuratedList[]).find((list) => list.slug === slug);
 }

@@ -42,7 +42,7 @@ export function BookDetailContent({ book, relatedBooks }: BookDetailContentProps
   const { t } = useI18n();
   const { region } = useRegion();
 
-  const redirectUrl = buildAudibleProductUrl(book.asin, region);
+  const redirectUrl = buildAudibleProductUrl(book.asin, region, book.title);
   const worthUsingCredit = isCreditWorth(book.price);
   const savingsVsCredit = book.price - AUDIBLE_CREDIT_VALUE;
   const savingsPercent = (savingsVsCredit / book.price) * 100;

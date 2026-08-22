@@ -89,6 +89,10 @@ export const en = {
     topPicksTitle: 'Top 5 Books to Use Your Credit On',
     topPicksSubtitle: 'The highest-value audiobooks right now, ranked by our Value Score formula — listen hours, rating, and price.',
     topPicksUseCredit: 'Use Credit on Audible',
+    featuredCollectionsTitle: 'Featured Collections',
+    featuredCollectionsSubtitle: 'Hand-picked audiobooks by genre — each curated for maximum credit value.',
+    viewAllCollections: 'View All Collections →',
+    booksInCollection: '{count} audiobooks',
   },
 
   // Books list page

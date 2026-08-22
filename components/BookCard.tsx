@@ -27,7 +27,7 @@ export function BookCard({ book, rank, variant = "default" }: BookCardProps) {
   const { t } = useI18n();
   const { region } = useRegion();
   const { toggleFavorite, isFavorite } = useFavorites();
-  const redirectUrl = buildAudibleProductUrl(book.asin, region);
+  const redirectUrl = buildAudibleProductUrl(book.asin, region, book.title);
 
   return (
     <article className="card p-3 sm:p-4 flex gap-2 sm:gap-4">

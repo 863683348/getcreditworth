@@ -102,26 +102,35 @@ const AUDIBLE_TLD: Record<AmazonRegion, string> = {
 };
 
 /**
+ * 从书名生成 Audible URL slug
+ * Audible 使用 URL-safe 的 slug + "-audiobook" 后缀
+ */
+function generateAudibleSlug(title: string): string {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '') + '-audiobook';
+}
+
+/**
  * 生成 Audible 产品页直链（少一跳、转化路径最短）
  *
- * 竞品 audiobookvalue.com 用 amazon.com/dp/{amazonAsin} 直达商品页。
- * 我们的 books.json ASIN 来自 Audible API，amazon.com/dp/{audibleAsin} 会 404
- * （实测），但 audible.com/pd/{audibleAsin} 可直接重定向到该书产品页（实测 200，
- * tag 参数被保留）。
+ * Audible URL 格式：/pd/{slug}-audiobook/{asin}
+ * 例如：https://www.audible.com/pd/the-crash-audiobook/B0H6PQNZJQ
  *
- * 用于书页/卡片的主 CTA：用户点击直达"这本书"的 Audible 产品页（试听/购买/用积分），
- * 而不是搜索结果页，省去二次点击。
- *
- * 注意：audible.com 上的 tag 归因需在 Amazon Associates 后台验证；若 24-48h 无点击
- * 归因，可回退到 buildRedirectUrl（Amazon 搜索链接，归因确定）。
+ * 注意：旧格式 /pd/{asin} 已返回 405，需使用新格式
+ * tag 参数会被 Audible 保留用于联盟归因
  */
 export function buildAudibleProductUrl(
   asin: string,
-  region: AmazonRegion = DEFAULT_REGION
+  region: AmazonRegion = DEFAULT_REGION,
+  title?: string
 ): string {
   const tld = AUDIBLE_TLD[region] || AUDIBLE_TLD.us;
   const tag = getAffiliateTag(region);
-  return `https://www.audible.${tld}/pd/${asin}?tag=${tag}`;
+  const slug = title ? generateAudibleSlug(title) : '';
+  const path = slug ? `/pd/${slug}/${asin}` : `/pd/${asin}`;
+  return `https://www.audible.${tld}${path}?tag=${tag}`;
 }
 
 /**

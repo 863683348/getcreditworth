@@ -1,4 +1,4 @@
-import { getTopBooks, toListBook, getBookCount } from "@/lib/data/books";
+import { getTopBooks, toListBook, getBookCount, getFeaturedCuratedLists } from "@/lib/data/books";
 import { HomeContent } from "@/components/HomeContent";
 import { SITE_CONFIG } from "@/lib/config";
 import type { Metadata } from "next";
@@ -65,7 +65,8 @@ export default function HomePage() {
   // 原实现 getAllBooks() 全量内联进 RSC payload ~2.3MB，每次回源都是大 FOT。
   const topBooks = getTopBooks(30).map(toListBook);
   const bookCount = getBookCount();
+  const featuredLists = getFeaturedCuratedLists();
 
-  return <HomeContent topBooks={topBooks} totalBooks={bookCount} />;
+  return <HomeContent topBooks={topBooks} totalBooks={bookCount} featuredLists={featuredLists} />;
 }
 

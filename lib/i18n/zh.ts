@@ -75,6 +75,10 @@ export const zh = {
     topPicksTitle: "最适合使用积分的前 5 本书",
     topPicksSubtitle: "当前价值最高的有声书——按价值评分公式（收听时长、评分、价格）排名。",
     topPicksUseCredit: "在 Audible 使用积分",
+    featuredCollectionsTitle: "精选合集",
+    featuredCollectionsSubtitle: "按流派精选的有声书——每一本都经过价值评分筛选，最大化您的积分价值。",
+    viewAllCollections: "查看全部合集 →",
+    booksInCollection: "{count} 本有声书",
   },
   booksPage: {
     title: "全部有声书",
