@@ -25,6 +25,7 @@ export const zh = {
     ctaPrimary: "开始您的免费30天试用",
     ctaSecondary: "免费获得1本书",
     ctaNote: "随时取消。即使取消，您也可以保留有声书。",
+    ctaViewBooks: "查看最适合使用积分的好书",
     statBooksLabel: "已分析书籍",
     statCategoriesLabel: "分类数量",
     statBountyLabel: "每推荐佣金",
@@ -71,6 +72,9 @@ export const zh = {
     bullet3: "一本$35、4.8星、45小时的有声书，评分远高于$15的短篇书籍",
     rankedList: "排名 #1 至 #{limit}（共 #{total} 本）",
     emptyMessage: "没有符合筛选条件的书籍。请尝试调整筛选条件。",
+    topPicksTitle: "最适合使用积分的前 5 本书",
+    topPicksSubtitle: "当前价值最高的有声书——按价值评分公式（收听时长、评分、价格）排名。",
+    topPicksUseCredit: "在 Audible 使用积分",
   },
   booksPage: {
     title: "全部有声书",

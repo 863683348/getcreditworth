@@ -1,7 +1,8 @@
 ﻿"use client";
 
 import Link from "next/link";
-import { Trophy, Info, TrendingUp, BookOpen, ArrowRight } from "lucide-react";
+import Image from "next/image";
+import { Trophy, Info, TrendingUp, BookOpen, ArrowRight, Star, Clock } from "lucide-react";
 import type { Book } from "@/lib/types";
 import { BookExplorer } from "@/components/BookExplorer";
 import {
@@ -12,9 +13,9 @@ import {
 import { useI18n } from "@/lib/i18n";
 import { useRegion } from "@/components/RegionProvider";
 import { RegionSwitcher } from "@/components/RegionSwitcher";
-import { formatPrice } from "@/lib/utils/format";
+import { formatPrice, formatRating, formatNumber, formatDuration } from "@/lib/utils/format";
 import { AUDIBLE_CREDIT_VALUE } from "@/lib/config";
-import { buildAudibleTrialUrl } from "@/lib/utils/affiliate";
+import { buildAudibleTrialUrl, buildRedirectUrl } from "@/lib/utils/affiliate";
 
 interface HomeContentProps {
   topBooks: Book[];
@@ -68,15 +69,24 @@ export function HomeContent({ topBooks, totalBooks }: HomeContentProps) {
           <p className="text-xs sm:text-sm md:text-base text-text-secondary max-w-2xl mx-auto mb-6">
             {t.home.subtitle}
           </p>
-          <a
-            href={buildAudibleTrialUrl(region)}
-            target="_blank"
-            rel="noopener noreferrer sponsored"
-            className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 text-xs sm:text-sm md:text-base font-semibold rounded-md bg-primary text-white hover:bg-primary-hover transition-colors duration-150 shadow-sm"
-          >
-            {t.hero.ctaPrimary}
-            {t.hero.ctaSecondary}
-          </a>
+          <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3">
+            <a
+              href={buildAudibleTrialUrl(region)}
+              target="_blank"
+              rel="noopener noreferrer sponsored"
+              className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 text-xs sm:text-sm md:text-base font-semibold rounded-md bg-primary text-white hover:bg-primary-hover transition-colors duration-150 shadow-sm"
+            >
+              {t.hero.ctaPrimary}
+              {t.hero.ctaSecondary}
+            </a>
+            <Link
+              href="/books"
+              className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 text-xs sm:text-sm md:text-base font-semibold rounded-md bg-bg-base text-primary border border-primary hover:bg-primary-50 transition-colors duration-150"
+            >
+              {t.hero.ctaViewBooks}
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
           <p className="text-xs text-text-muted mt-3">
             {t.hero.ctaNote}
           </p>
@@ -110,6 +120,72 @@ export function HomeContent({ topBooks, totalBooks }: HomeContentProps) {
 
         {/* Region switcher (Data source) */}
         <RegionSwitcher />
+
+        {/* Top 5 books to use your credit on — 会员视角兑换入口 */}
+        {topBooks.length > 0 && (
+          <div className="mb-6 p-4 sm:p-6 rounded-xl bg-bg-surface border border-border">
+            <div className="flex items-center gap-2 mb-1">
+              <Trophy className="h-5 w-5 text-accent flex-shrink-0" />
+              <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-text-primary">
+                {t.home.topPicksTitle}
+              </h2>
+            </div>
+            <p className="text-xs sm:text-sm text-text-secondary mb-4">
+              {t.home.topPicksSubtitle}
+            </p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+              {topBooks.slice(0, 5).map((book) => (
+                <article
+                  key={book.asin}
+                  className="flex flex-col rounded-lg border border-border bg-bg-base overflow-hidden hover:border-primary-200 transition-colors"
+                >
+                  <Link
+                    href={`/books/${book.asin}`}
+                    className="block relative w-full overflow-hidden bg-bg-surface"
+                    style={{ aspectRatio: "3/5" }}
+                  >
+                    <Image
+                      src={book.coverImageUrl}
+                      alt={`${book.title} cover`}
+                      fill
+                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
+                      className="object-cover"
+                      unoptimized
+                    />
+                  </Link>
+                  <div className="flex flex-col flex-1 p-2.5 sm:p-3">
+                    <Link href={`/books/${book.asin}`}>
+                      <h3 className="font-serif text-xs sm:text-sm font-semibold text-text-primary hover:text-primary line-clamp-2 min-h-[2.5em]">
+                        {book.title}
+                      </h3>
+                    </Link>
+                    <p className="text-[11px] sm:text-xs text-text-secondary mt-0.5 truncate">
+                      {book.author}
+                    </p>
+                    <div className="flex items-center gap-2 text-[11px] sm:text-xs text-text-secondary mt-1.5">
+                      <span className="flex items-center gap-1">
+                        <Star className="h-3 w-3 text-accent fill-accent" />
+                        {formatRating(book.starRating)}
+                      </span>
+                      <span className="flex items-center gap-1">
+                        <Clock className="h-3 w-3" />
+                        {formatDuration(book.runtimeMinutes)}
+                      </span>
+                    </div>
+                    <a
+                      href={buildRedirectUrl(book.asin, region)}
+                      target="_blank"
+                      rel="noopener noreferrer sponsored"
+                      className="btn btn-primary text-[11px] sm:text-xs py-1.5 px-2 mt-2.5"
+                    >
+                      {t.home.topPicksUseCredit}
+                    </a>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* Ranked list header */}
         <div className="mb-6 flex items-center gap-2">

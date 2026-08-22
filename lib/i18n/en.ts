@@ -31,6 +31,7 @@ export const en = {
     ctaPrimary: 'Start Your Free 30-Day Trial',
     ctaSecondary: 'Get 1 Free Book',
     ctaNote: 'Cancel anytime. Keep the audiobook even if you cancel.',
+    ctaViewBooks: 'View Best Books to Use Credit On',
     statBooksLabel: 'Books Analyzed',
     statCategoriesLabel: 'Categories',
     statBountyLabel: 'Earned per Referral',
@@ -85,6 +86,9 @@ export const en = {
     bullet3: 'A $35 audiobook with 4.8 stars and 45 hours scores much higher than a $15 short book',
     rankedList: 'Ranked #1 to #{limit} of #{total}',
     emptyMessage: 'No books match your filters. Try adjusting them.',
+    topPicksTitle: 'Top 5 Books to Use Your Credit On',
+    topPicksSubtitle: 'The highest-value audiobooks right now, ranked by our Value Score formula — listen hours, rating, and price.',
+    topPicksUseCredit: 'Use Credit on Audible',
   },
 
   // Books list page
