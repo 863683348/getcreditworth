@@ -988,12 +988,11 @@ const POSTS: Record<string, BlogPostData> = {
   },
   'audible-gift-audiobooks-guide': {
     slug: 'audible-gift-audiobooks-guide',
-    title: 'How to Gift Audible in 2026: Specific Book vs Membership ($20–$150)',
-    description:
-      'Gift Audible audiobooks in 2026: 5-step guide. Send a specific title or membership ($20–$150). Email delivery in minutes. Full cost breakdown.',
-    keywords: ['gift audible audiobooks', 'how to gift audible books', 'send audible book as gift'],
+    title: 'How to Gift Audible in 2026: Books, Credits & Memberships',
+    description: 'Complete guide to gifting Audible audiobooks. Send a specific title, credits, or membership. Step-by-step instructions, pricing, and best gift ideas for 2026.',
+    keywords: ['gift audible audiobooks', 'how to gift audible books', 'audible gift card', 'send audible book as gift', 'audible gift membership'],
     date: '2026-07-25',
-    readTime: '8 min read',
+    readTime: '10 min read',
     category: 'Guide',
     faq: [
       {
@@ -1011,6 +1010,10 @@ const POSTS: Record<string, BlogPostData> = {
       {
         question: 'How much does it cost to gift Audible?',
         answer: 'A specific audiobook costs its retail price or one credit. Gifting a membership runs $20 for a 1-credit gift, ~$45 for 3 months, or ~$150 for 12 months of Premium Plus.',
+      },
+      {
+        question: 'What are the best Audible gifts for different people?',
+        answer: 'For fantasy fans, gift epic series like The Stormlight Archive (100+ hours). For thriller lovers, Project Hail Mary or The Last Thing He Told Me are crowd-pleasers. For business readers, atomic habits or deep work make excellent gifts.',
       },
     ],
     content: (
@@ -1060,32 +1063,34 @@ const POSTS: Record<string, BlogPostData> = {
           <Link href="/" className="text-primary underline"> top-rated audiobooks</Link>
           to find the perfect gift by Value Score and genre.
         </p>
-      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How Gifting Audiobooks Works</h2>
-        <p>Audible makes it easy to gift audiobooks. You can send any audiobook from the catalog as a gift, even without an active subscription. The recipient receives an email to claim their audiobook.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Gifting With Credits vs Cash</h2>
-        <p>You have two options: use a credit or pay cash. Gifting with a credit is ideal for spare credits about to expire. Cash gifting works for non-members or when you want to keep your credits.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Best Audiobook Gifts by Category</h2>
+        <p>Choosing the right gift depends on the recipient&apos;s tastes. Here are our top picks across popular categories:</p>
         <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
-              <tr className="border-b border-border"><th className="text-left py-2 pr-4">Method</th><th className="text-left py-2 pr-4">Cost</th><th className="text-left py-2 pr-4">Best For</th></tr>
+              <tr className="border-b border-border"><th className="text-left py-2 pr-4">Category</th><th className="text-left py-2 pr-4">Top Pick</th><th className="text-left py-2 pr-4">Hours</th><th className="text-left py-2">Value Score</th></tr>
             </thead>
             <tbody>
-              <tr className="border-b border-border"><td className="py-2 pr-4">Credit</td><td className="py-2 pr-4">1 credit</td><td className="py-2 pr-4">Spare/expiring credits</td></tr>
-              <tr className="border-b border-border"><td className="py-2 pr-4">Cash</td><td className="py-2 pr-4">Retail price</td><td className="py-2">Non-members gifting</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Epic Fantasy</td><td className="py-2 pr-4">The Stormlight Archive</td><td className="py-2 pr-4">120h+</td><td className="py-2">10.5+</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Sci-Fi</td><td className="py-2 pr-4">Project Hail Mary</td><td className="py-2 pr-4">17h</td><td className="py-2">9.8</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Crime Thriller</td><td className="py-2 pr-4">Dune</td><td className="py-2 pr-4">17h</td><td className="py-2">8.7</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Historical Fiction</td><td className="py-2 pr-4">The Four Winds</td><td className="py-2 pr-4">13h</td><td className="py-2">8.2</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Self-Help</td><td className="py-2 pr-4">Atomic Habits</td><td className="py-2 pr-4">6h</td><td className="py-2">7.5</td></tr>
+              <tr className="border-b border-border"><td className="py-2 pr-4">Biography</td><td className="py-2 pr-4">Greenlights</td><td className="py-2 pr-4">14h</td><td className="py-2">8.9</td></tr>
             </tbody>
           </table>
         </div>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Gift an Audiobook</h2>
-        <ol className="space-y-2 list-decimal pl-5">
-          <li>Find the audiobook on Audible</li>
-          <li>Click <strong>Give as a Gift</strong></li>
-          <li>Enter recipient email and a personal message</li>
-          <li>Choose delivery date</li>
-          <li>Complete purchase with credit or cash</li>
-        </ol>
-        <p>The recipient claims the book by creating or logging into their Audible account. They cannot exchange the gifted audiobook for another title.</p>
-      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Advanced Gifting: Scheduling and Bundling</h2>
-        <p>Audible allows you to schedule gift delivery for future dates, which is perfect for birthdays, holidays, or other occasions. When scheduling, you can choose the exact delivery date and include a personalized message. The recipient receives an email notification on that date with instructions to claim their audiobook. Unfortunately, Audible does not currently offer gift bundles — each audiobook must be sent individually. For heavy gift-givers, this means planning ahead to send multiple books as separate transactions.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Gift Card vs Direct Gift</h2>
+        <p>While Audible doesn&apos;t offer physical gift cards, you can gift an audiobook directly or send a membership. Direct gifting is better because the recipient gets exactly what you chose, and you can include a personal message. Gift cards (via third-party retailers) give flexibility but lose the personal touch.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Holiday Gifting Tips</h2>
+        <p>Audible runs its best deals in November–December. Black Friday and holiday sales can save 30–50% on memberships. If you&apos;re gifting a membership, schedule delivery for the morning of the special day so it arrives on time. For audiobooks, consider gifting longer titles (40+ hours) for maximum perceived value.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Related Guides</h2>
+        <ul className="space-y-2">
+          <li><Link href="/blog/audible-return-refund-policy" className="text-primary hover:underline">Return policy</Link> — know your rights before gifting</li>
+          <li><Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">Credit expiration</Link> — don&apos;t let credits go to waste</li>
+          <li><Link href="/blog/how-to-use-audible-credits" className="text-primary hover:underline">Using credits</Link> — maximize every credit</li>
+        </ul>
+        </>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What the Recipient Experiences</h2>
         <p>When someone receives an Audible gift, they get an email with a personalized message and a link to claim the audiobook. The recipient needs to create or log into their Audible account — they do not need an active membership to receive and keep gifted audiobooks. Once claimed, the audiobook is added to their library permanently, just like any purchased title. If the recipient already owns the book or does not want it, they can decline the gift, and the credit or payment is refunded to the sender.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Gifting Etiquette: Choosing the Right Book</h2>
@@ -1942,16 +1947,16 @@ const POSTS: Record<string, BlogPostData> = {
 
   'audible-return-refund-policy': {
     slug: 'audible-return-refund-policy',
-    title: 'Audible Return & Refund Policy: Full Guide (365 Days, 2026)',
-    description: 'Learn Audible return policy: 365-day window, credit vs cash refund, step-by-step return process. Full guide to your rights.',
-    keywords: ['audible return policy', 'audible refund process', 'how to return audible audiobooks'],
+    title: 'Audible Return & Refund Policy 2026: 365-Day Guide to Full Refunds',
+    description: 'Audible return policy explained: 365-day window, credit vs cash refund, step-by-step process, how to avoid account flags. Complete 2026 guide.',
+    keywords: ['audible return policy', 'audible refund process', 'audible return audiobook', 'how to return audible', 'audible refund credit'],
     date: '2026-07-27',
-    readTime: '7 min read',
+    readTime: '9 min read',
     category: 'Guide',
     faq: [
       {
         question: 'Can I return an Audible audiobook after listening to it?',
-        answer: 'Yes. Audible allows you to return audiobooks within 365 days of purchase, even after you have listened to them. Credits are restored instantly and cash purchases are refunded to your card within 5-7 business days.',
+        answer: 'Yes. Audible allows you to return audiobooks within 365 days of purchase, even after you have finished listening. Credits are restored instantly and cash purchases are refunded to your card within 5-7 business days.',
       },
       {
         question: 'How many audiobooks can I return on Audible?',
@@ -1959,11 +1964,15 @@ const POSTS: Record<string, BlogPostData> = {
       },
       {
         question: 'Do I get my Audible credit back when I return a book?',
-        answer: 'Yes. When you return an audiobook purchased with a credit, the credit is restored to your account instantly and can be spent on another title.',
+        answer: 'Yes. When you return an audiobook purchased with a credit, the credit is restored to your account instantly and can be spent on another title. Cash purchases are refunded to your original payment method.',
       },
       {
-        question: 'Will Audible refund my annual membership if I cancel?',
-        answer: 'Yes, in many cases. If you cancel a Premium Plus Annual plan within the first year, Audible typically refunds the unused portion of your membership on a prorated basis, minus the retail value of any credits you have already used.',
+        question: 'What happens if my self-service return is blocked?',
+        answer: 'If Audible flags your account for excessive returns, you will see "This title is not eligible for return" on the book page. Contact Audible customer support via live chat — they can approve manual returns in most cases.',
+      },
+      {
+        question: 'Can I return an audiobook from the Plus Catalog?',
+        answer: 'No. Books from the Plus Catalog are free with your subscription and cannot be returned. Only audiobooks purchased with credits or cash are eligible for returns.',
       },
     ],
     content: (
@@ -2053,12 +2062,22 @@ const POSTS: Record<string, BlogPostData> = {
           or see whether pausing beats canceling in the{" "}
           <Link href="/blog/how-to-cancel-audible-subscription" className="text-primary underline">cancellation guide</Link>.
         </p>
-              <p className="mt-6">
+        <p className="mt-6">
           Once your credit comes back, spend it on a sure thing. Crowd favorites that justify a single credit include{ }
           <Link href="/books/B08G9PRS1K" className="text-primary underline">Project Hail Mary</Link>,{ }
           <Link href="/books/B002V0QCYU" className="text-primary underline">The Final Empire</Link>, and{ }
           <Link href="/books/B002V1OF70" className="text-primary underline">Dune</Link>.
         </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Regional Return Policies</h2>
+        <p>Return policies vary by region. UK and EU customers have additional consumer protection rights including the right to cancel within 14 days under distance selling regulations. US customers are covered by Audible voluntary return policy rather than statutory rights. Always check your local consumer rights for additional protections.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When Returns Won't Work</h2>
+        <p>Some audiobooks may not be eligible for return even within 365 days. This includes: books from the Plus Catalog (already free), audiobooks purchased with promotional credits, and titles where Audible has flagged your account for excessive returns. If you encounter this issue, contact Audible support directly.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Related Guides</h2>
+        <ul className="space-y-2">
+          <li><Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">Credit expiration policy</Link> — learn when credits expire</li>
+          <li><Link href="/blog/how-to-cancel-audible-subscription" className="text-primary hover:underline">Cancellation guide</li>
+          <li><Link href="/blog/audible-gift-audiobooks-guide" className="text-primary hover:underline">Gifting audiobooks</Link> — gift a title instead of returning</li>
+        </ul>
         </>
 
 
