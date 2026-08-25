@@ -1090,7 +1090,6 @@ const POSTS: Record<string, BlogPostData> = {
           <li><Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">Credit expiration</Link> — don&apos;t let credits go to waste</li>
           <li><Link href="/blog/how-to-use-audible-credits" className="text-primary hover:underline">Using credits</Link> — maximize every credit</li>
         </ul>
-        </>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What the Recipient Experiences</h2>
         <p>When someone receives an Audible gift, they get an email with a personalized message and a link to claim the audiobook. The recipient needs to create or log into their Audible account — they do not need an active membership to receive and keep gifted audiobooks. Once claimed, the audiobook is added to their library permanently, just like any purchased title. If the recipient already owns the book or does not want it, they can decline the gift, and the credit or payment is refunded to the sender.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Gifting Etiquette: Choosing the Right Book</h2>
@@ -2075,7 +2074,7 @@ const POSTS: Record<string, BlogPostData> = {
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Related Guides</h2>
         <ul className="space-y-2">
           <li><Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">Credit expiration policy</Link> — learn when credits expire</li>
-          <li><Link href="/blog/how-to-cancel-audible-subscription" className="text-primary hover:underline">Cancellation guide</li>
+          <li><Link href="/blog/how-to-cancel-audible-subscription" className="text-primary hover:underline">Cancellation guide</Link> — know your options</li>
           <li><Link href="/blog/audible-gift-audiobooks-guide" className="text-primary hover:underline">Gifting audiobooks</Link> — gift a title instead of returning</li>
         </ul>
         </>
