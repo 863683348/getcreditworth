@@ -7,7 +7,7 @@ import Link from "next/link";
 export function generateMetadata(): Metadata {
   const total = getBookCount().toLocaleString();
   return {
-    title: `Audible Audiobooks Dataset (${total}+ Books) - Free CSV Download | GetCreditWorth`,
+    title: `Audible Audiobooks Dataset (${total}+ Books) - Free CSV Download`,
     description:
       `Download our free open dataset of ${total}+ Audible audiobooks with Value Score, cost per hour, credit worth ratio, ratings, and runtime. CSV format, updated 2026, MIT licensed.`,
     keywords: [
