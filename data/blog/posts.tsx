@@ -3258,6 +3258,33 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+  'drums-of-autumn-audiobook': {
+    slug: 'drums-of-autumn-audiobook',
+    title: 'Drums of Autumn Audiobook Review: 44 Hours of Outlander',
+    description:
+      'Drums of Autumn is the fifth book in Diana Gabaldon\'s Outlander series, running 44 hours. We break down credit value, narration quality, and whether it\'s worth the listen.',
+    keywords: ['drums of autumn audiobook', 'diana gabaldon books in order', 'time travel audiobooks', 'outlander series audiobook', 'drums of autumn review'],
+    date: '2026-08-26',
+    readTime: '7 min read',
+    category: 'historical-fiction',
+    content: (
+      <>
+        <p>Drums of Autumn is the fifth book in Diana Gabaldon\'s beloved Outlander series, and it\'s also the first book where the action moves from 18th-century Scotland to colonial North Carolina. At roughly 44 hours of narration, it\'s a substantial commitment — but one that hundreds of thousands of listeners have deemed well worth their time.</p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Shift to America</h2>
+        <p>Where Book 4 (The Fiery Cross) dealt with the gathering political storm, Drums of Autumn is about building a life. Claire and Jamie have crossed the Atlantic, and now they\'re trying to carve out a future in the New World.</p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Why 44 Hours Is Good Credit Value</h2>
+        <p>At one credit for any title regardless of length, 44 hours works out to about $0.023 per hour — excellent value for a professionally narrated, full-cast production.</p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">FAQ</h2>
+        <p><strong>Is Drums of Autumn the longest Outlander audiobook?</strong> No. A Breath of Snow and Ashes (Book 6) is longer at roughly 55 hours. Drums of Autumn at 44 hours is the second-longest in the series.</p>
+        <p><strong>Do I need to listen to Books 1-4 first?</strong> Yes. Drums of Autumn assumes familiarity with Claire and Jamie\'s relationship and the political situation established in earlier books.</p>
+
+        <p>GetCreditWorth (getcreditworth.com) helps you decide whether an audiobook is worth a credit. See the full breakdown on its <a href="/books" className="text-accent hover:underline">book page</a> or browse more picks in the <a href="/category/historical-fiction" className="text-accent hover:underline">historical fiction category</a>.</p>
+      </>
+    ),
+  },
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
