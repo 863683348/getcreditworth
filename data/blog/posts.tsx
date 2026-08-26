@@ -992,7 +992,7 @@ const POSTS: Record<string, BlogPostData> = {
     slug: 'audible-gift-audiobooks-guide',
     title: 'How to Gift Audible in 2026: Books, Credits & Memberships',
     description: 'Complete guide to gifting Audible audiobooks. Send a specific title, credits, or membership. Step-by-step instructions, pricing, and best gift ideas for 2026.',
-    keywords: ['gift audible audiobooks', 'how to gift audible books', 'audible gift card', 'send audible book as gift', 'audible gift membership'],
+    keywords: ['gift audible audiobooks', 'how to gift audible books', 'audible gift card', 'send audible book as gift', 'audible gift membership', 'can you gift audible credits', 'how to gift an audible membership', 'gift audible book', 'gift audible subscription', 'audible gift'],
     date: '2026-07-25',
     updatedAt: '2026-08-24',
     readTime: '10 min read',
@@ -1017,6 +1017,18 @@ const POSTS: Record<string, BlogPostData> = {
       {
         question: 'What are the best Audible gifts for different people?',
         answer: 'For fantasy fans, gift epic series like The Stormlight Archive (100+ hours). For thriller lovers, Project Hail Mary or The Last Thing He Told Me are crowd-pleasers. For business readers, atomic habits or deep work make excellent gifts.',
+      },
+      {
+        question: 'Can you gift Audible credits to someone else?',
+        answer: 'Not directly. Audible does not have a "send a credit" button. The two workarounds are: (1) buy a specific audiobook and gift it with "Give as a Gift", or (2) gift a membership which delivers new credits to the recipient. Both achieve the same result as sending a credit.',
+      },
+      {
+        question: 'How do I gift an Audible membership to someone?',
+        answer: 'Go to audible.com/gift, pick a membership length (1, 3, 6, or 12 months), enter the recipient\'s email, and pay. The recipient gets an email with a redemption link and can start listening immediately. A 12-month Premium Plus gift is the best per-credit value.',
+      },
+      {
+        question: 'Can I gift an Audible book to someone without a membership?',
+        answer: 'Yes. The recipient only needs a free Audible account to claim a gifted audiobook. They never need to be a paying member to receive and keep the title forever.',
       },
     ],
     content: (
@@ -1821,10 +1833,32 @@ const POSTS: Record<string, BlogPostData> = {
     slug: 'how-to-cancel-audible-subscription',
     title: 'Cancel Audible in 2026: 5 Steps to Keep Credits & Full Refund',
     description: 'Cancel Audible in 2026: 5 easy steps. Keep your audiobooks forever, spend credits before they expire, avoid fees. Full walkthrough.',
-    keywords: ['how to cancel audible subscription', 'cancel audible subscription steps', 'audible cancellation guide 2026'],
+    keywords: ['how to cancel audible subscription', 'cancel audible subscription steps', 'audible cancellation guide 2026', 'how to cancel audible membership', 'cancel audible keep credits', 'how to cancel audible on iphone', 'do you lose credits if you cancel audible'],
     date: '2026-07-27',
     readTime: '8 min read',
     category: 'Guide',
+    faq: [
+      {
+        question: 'Can I cancel Audible and keep my audiobooks?',
+        answer: 'Yes. Any audiobook you purchase with a credit or cash is yours to keep forever, even after you cancel your membership. You can listen anytime, anywhere through the Audible app.',
+      },
+      {
+        question: 'What happens to my Audible credits if I cancel?',
+        answer: 'Unused credits are forfeited immediately when you cancel. Always spend your credits on books you want before canceling — each credit is worth roughly $14.95 in membership cost.',
+      },
+      {
+        question: 'How do I cancel my Audible subscription on iPhone?',
+        answer: 'On iOS, Apple requires you to cancel through your Apple ID subscription settings (Settings > Your Name > Subscriptions > Audible), not inside the Audible app. On Android and desktop, you cancel directly through the Audible website or app.',
+      },
+      {
+        question: 'Does Audible charge a cancellation fee?',
+        answer: 'No. Audible does not charge any fee to cancel on any plan. You can cancel your Premium or Premium Plus subscription at any time without penalty.',
+      },
+      {
+        question: 'How do I return audiobooks for a refund before canceling?',
+        answer: 'Go to Account Details > Purchase History > select the book > click Return. You can return within 365 days of purchase for either a credit or cash refund. Return unwanted books before you cancel, because canceling removes the ability to return for credit.',
+      },
+    ],
     content: (
       <>
         <p>Canceling your Audible subscription seems straightforward, but there are important steps to take to protect your credits and ensure you get a full refund if you've purchased books you want to return. This guide walks you through the entire process.</p>
@@ -1951,7 +1985,7 @@ const POSTS: Record<string, BlogPostData> = {
     slug: 'audible-return-refund-policy',
     title: 'Audible Return & Refund Policy 2026: 365-Day Guide to Full Refunds',
     description: 'Audible return policy explained: 365-day window, credit vs cash refund, step-by-step process, how to avoid account flags. Complete 2026 guide.',
-    keywords: ['audible return policy', 'audible refund process', 'audible return audiobook', 'how to return audible', 'audible refund credit'],
+    keywords: ['audible return policy', 'audible refund process', 'audible return audiobook', 'how to return audible', 'audible refund credit', 'audible return limit', 'get a refund on audible', 'audible subscription refund', 'how many books can you return on audible', 'audible returns'],
     date: '2026-07-27',
     updatedAt: '2026-08-24',
     readTime: '9 min read',
@@ -1976,6 +2010,22 @@ const POSTS: Record<string, BlogPostData> = {
       {
         question: 'Can I return an audiobook from the Plus Catalog?',
         answer: 'No. Books from the Plus Catalog are free with your subscription and cannot be returned. Only audiobooks purchased with credits or cash are eligible for returns.',
+      },
+      {
+        question: 'Can I get a refund for my Audible subscription?',
+        answer: 'Yes, but only within the first 30 days of a new subscription. After the trial period ends, monthly memberships are generally non-refundable, though Audible support will sometimes issue a goodwill credit if you contact them via live chat. Annual memberships have a different policy — you can cancel within the first 30 days for a full refund, and after that you keep the remaining months but do not get a prorated cash refund.',
+      },
+      {
+        question: 'How many books can I return on Audible per year?',
+        answer: 'Audible does not publish a fixed annual number. The unstated guideline is that returns should stay well under 20-30% of total purchases. Heavy returners see self-service returns disabled and are asked to contact support instead. If you want to protect your account, keep returns below 10% of your library.',
+      },
+      {
+        question: 'Why does my Audible return say "not eligible"?',
+        answer: 'The "This title is not eligible for return" message appears when your account has been flagged for excessive returns, or when a title was purchased more than 365 days ago. Self-service returns are disabled in both cases. Live chat support can often approve a one-off manual return.',
+      },
+      {
+        question: 'Can I return an Audible gift that someone sent me?',
+        answer: 'No. Gifted audiobooks are final sale and cannot be returned through the standard self-service flow. The person who purchased the gift may be able to get a refund if they contact Audible support directly, but the recipient cannot return a gifted title.',
       },
     ],
     content: (
@@ -2075,6 +2125,10 @@ const POSTS: Record<string, BlogPostData> = {
         <p>Return policies vary by region. UK and EU customers have additional consumer protection rights including the right to cancel within 14 days under distance selling regulations. US customers are covered by Audible voluntary return policy rather than statutory rights. Always check your local consumer rights for additional protections.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When Returns Won't Work</h2>
         <p>Some audiobooks may not be eligible for return even within 365 days. This includes: books from the Plus Catalog (already free), audiobooks purchased with promotional credits, and titles where Audible has flagged your account for excessive returns. If you encounter this issue, contact Audible support directly.</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Can I Get a Refund on My Audible Subscription?</h2>
+        <p><strong>Monthly plans:</strong> You can request a subscription refund within the first 30 days of a new membership. After that window, monthly fees are non-refundable — but if Audible charged you after you cancelled, or you never used the subscription, live chat support will usually issue a goodwill credit.</p>
+        <p><strong>Annual plans:</strong> Cancel within the first 30 days for a full refund. After 30 days, you keep access for the remaining period but do not receive a prorated cash refund for the unused months. Unused credits are forfeited at cancellation, so spend them first.</p>
+        <p><strong>Trial memberships:</strong> Audible&apos;s 30-day free trial can be cancelled at any time during the trial with no charge. If you were billed after the trial because you forgot to cancel, support will typically refund the charge if you ask within a reasonable window.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Related Guides</h2>
         <ul className="space-y-2">
           <li><Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">Credit expiration policy</Link> — learn when credits expire</li>
@@ -8111,6 +8165,38 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+
+  ,
+  "clear-and-present-danger-audiobook": {
+    date: "2026-08-27",
+    title: "Clear and Present Danger: Tom Clancy Audiobook Review",
+    slug: "clear-and-present-danger-audiobook",
+    category: "thriller",
+    content: (
+      <>
+        <h2>Why This Audiobook Deserves Your Attention</h2>
+        <p>Tom Clancy's Clear and Present Danger remains one of the best Jack Ryan thrillers ever written. The audiobook narration by Grover Gardner brings political intrigue to life.</p>
+        
+        <h2>The Story</h2>
+        <p>Jack Ryan, now Deputy Director of Central Intelligence, uncovers a covert CIA operation funding contras in Central America. When the operation spirals out of control, Ryan must choose between loyalty and truth.</p>
+        
+        <h2>Why Listen to This Audiobook</h2>
+        <ul>
+          <li>Grover Gardner's narration is excellent</li>
+          <li>Perfect for fans of political thrillers</li>
+          <li>18 hours of nonstop tension</li>
+          <li>Great value at one credit per title</li>
+        </ul>
+        
+        <h2>FAQ</h2>
+        <p><strong>Is this the best Jack Ryan book?</strong> Many fans consider it the emotional peak of the early series.</p>
+        <p><strong>How long is the audiobook?</strong> Approximately 18 hours.</p>
+        <p><strong>Do I need to read the previous books?</strong> Some familiarity helps, but it works as a standalone.</p>
+        
+        <p>GetCreditWorth (getcreditworth.com) helps you decide if this audiobook is worth your credit. Check our <a href="/books" className="text-accent hover:underline">book reviews</a> for more recommendations.</p>
+      </>
+    ),
+  }
 
 };
 
