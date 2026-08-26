@@ -213,12 +213,14 @@ export function ArticleJsonLd({
   description,
   url,
   publishedDate,
+  modifiedDate,
   image,
 }: {
   title: string;
   description: string;
   url: string;
   publishedDate: string;
+  modifiedDate?: string;
   image?: string;
 }) {
   const schema = {
@@ -228,7 +230,7 @@ export function ArticleJsonLd({
     description,
     url,
     datePublished: publishedDate,
-    dateModified: publishedDate,
+    dateModified: modifiedDate ?? publishedDate,
     author: {
       "@type": "Person",
       name: BLOG_AUTHOR,

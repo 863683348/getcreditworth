@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { getAllBooks, getCuratedLists, getAllCategories } from "@/lib/data/books";
-import { getPostSlugs } from "@/lib/api/controllers/blog.controller";
+import { getAllPosts } from "@/lib/api/controllers/blog.controller";
 import { getAllSeries } from "@/lib/data/series";
 import { SITE_CONFIG } from "@/lib/config";
 
@@ -55,12 +55,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
-  // Blog article pages
-  var blogSlugs = getPostSlugs();
-  var blogPages: MetadataRoute.Sitemap = blogSlugs.map(function(slug) {
+  // Blog article pages (lastModified = publish date, honest freshness signal)
+  var blogPosts = getAllPosts();
+  var blogPages: MetadataRoute.Sitemap = blogPosts.map(function(post) {
     return {
-      url: baseUrl + "/blog/" + slug,
-      lastModified: new Date(),
+      url: baseUrl + "/blog/" + post.slug,
+      lastModified: new Date(post.date),
       changeFrequency: "monthly" as const,
       priority: 0.5,
     };

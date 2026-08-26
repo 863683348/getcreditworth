@@ -2,59 +2,79 @@
 > Find the best audiobooks to spend your Audible credits on — data-driven Value Score rankings, credit calculator, and curated recommendations.
 
 ## Core Pages
-- [Home - Top Audiobooks Ranked](https://getcreditworth.com/): 338 audiobooks ranked by Value Score formula: (Duration × Rating) / Price
+- [Home - Top Audiobooks Ranked](https://getcreditworth.com/): 7,550 audiobooks ranked by Value Score formula: (Duration × Rating) / Price
 - [Credit Calculator](https://getcreditworth.com/calculator): Calculate how much your Audible credits are worth and get personalized recommendations
-- [All Books](https://getcreditworth.com/books): Browse all 338 scored audiobooks
+- [All Books](https://getcreditworth.com/books): Browse all 7,550 scored audiobooks with filters (duration, rating, category)
+- [Compare](https://getcreditworth.com/compare): Compare up to 4 audiobooks side by side on 9 dimensions
+- [Dataset](https://getcreditworth.com/dataset): Free open dataset of 7,550 Audible audiobooks, CSV, MIT licensed
 - [About](https://getcreditworth.com/about): About GetCreditWorth, Value Score methodology, and affiliate disclosure
-- [Blog](https://getcreditworth.com/blog): 21 guides on Audible credit strategy
+- [Blog](https://getcreditworth.com/blog): 139 guides on Audible credit strategy
 
 ## Curated Lists
-- [Best Epic Fantasy](https://getcreditworth.com/curated/best-epic-fantasy-for-credits): 5 top fantasy audiobooks for credit value
-- [Top Science Fiction](https://getcreditworth.com/curated/top-science-fiction-audiobooks): 4 best sci-fi audiobooks
+- [Best Epic Fantasy](https://getcreditworth.com/curated/best-epic-fantasy-for-credits): 13 epic fantasy audiobooks for credit value
+- [Top Science Fiction](https://getcreditworth.com/curated/top-science-fiction-audiobooks): 14 best sci-fi audiobooks
 - [Non-Fiction for Self-Improvement](https://getcreditworth.com/curated/non-fiction-for-self-improvement): 4 transformative non-fiction picks
 - [Gripping Thrillers and Mysteries](https://getcreditworth.com/curated/thrillers-and-mysteries): 6 page-turning thrillers
-- [Best Long Audiobooks (30h+)](https://getcreditworth.com/curated/best-long-audiobooks-for-credits): 27 epic listens with best credit value
+- [Best Long Audiobooks (30h+)](https://getcreditworth.com/curated/best-long-audiobooks-for-credits): 30 epic listens with best credit value
 - [Best History Audiobooks](https://getcreditworth.com/curated/best-history-audiobooks): 6 fascinating history titles
 - [Best Biography & Memoir](https://getcreditworth.com/curated/best-biography-memoir-audiobooks): 6 extraordinary life stories
 - [Best Business Audiobooks](https://getcreditworth.com/curated/best-business-audiobooks): 6 business and finance picks
 - [Best Classic Literature](https://getcreditworth.com/curated/best-classic-literature): 6 timeless classics with highest credit value
-- [Best Self-Help Audiobooks](https://getcreditworth.com/curated/best-self-help-audiobooks): 6 top self-improvement titles
+- [Best Self-Help Audiobooks](https://getcreditworth.com/curated/best-self-help-audiobooks): 30 top self-improvement titles
+- [Best Romance Audiobooks](https://getcreditworth.com/curated/best-romance-audiobooks): 18 romance picks worth credits
+- [Best Young Adult Audiobooks](https://getcreditworth.com/curated/best-young-adult-audiobooks): 14 YA titles worth credits
 
-## Category Pages (61 total, 13 with editorial content)
-- [Fantasy](https://getcreditworth.com/category/fantasy): Tips for maximizing credit value on fantasy audiobooks
-- [Science Fiction](https://getcreditworth.com/category/science-fiction): Sci-fi audiobooks guide
-- [Mystery](https://getcreditworth.com/category/mystery): Mystery audiobooks guide
-- [Thriller](https://getcreditworth.com/category/thriller): Thriller audiobooks guide
-- [Biography](https://getcreditworth.com/category/biography): Biography audiobooks guide
-- [Business](https://getcreditworth.com/category/business): Business audiobooks guide
-- [Self-Help](https://getcreditworth.com/category/self-help): Self-help audiobooks guide
-- [Romance](https://getcreditworth.com/category/romance): Romance audiobooks guide
-- [Horror](https://getcreditworth.com/category/horror): Horror audiobooks guide
-- [Young Adult](https://getcreditworth.com/category/young-adult): YA audiobooks guide
-- [Classic](https://getcreditworth.com/category/classic): Classic literature audiobooks guide
+## Category Pages (12 categories, full guides for each)
+- [Fantasy](https://getcreditworth.com/category/fantasy): 664 fantasy audiobooks
+- [Science Fiction](https://getcreditworth.com/category/science-fiction): 588 sci-fi audiobooks
+- [Mystery](https://getcreditworth.com/category/mystery): 940 mystery audiobooks
+- [Thriller](https://getcreditworth.com/category/thriller): 208 thriller audiobooks
+- [Biography](https://getcreditworth.com/category/biography): 605 biography & memoir audiobooks
+- [Business](https://getcreditworth.com/category/business): 357 business audiobooks
+- [Self-Help](https://getcreditworth.com/category/self-help): 156 personal development audiobooks
+- [Romance](https://getcreditworth.com/category/romance): 879 romance audiobooks
+- [Horror](https://getcreditworth.com/category/horror): 150 horror audiobooks
+- [Young Adult](https://getcreditworth.com/category/young-adult): 171 YA audiobooks
+- [Classic](https://getcreditworth.com/category/classic): 190 classic literature audiobooks
+
+## Series Pages (11 complete series)
+- [The Wheel of Time](https://getcreditworth.com/series/wheel-of-time): 14 books ranked by Value Score
+- [The Stormlight Archive](https://getcreditworth.com/series/stormlight-archive): 5 books, Sanderson's epic ranked
+- [Mistborn](https://getcreditworth.com/series/mistborn): 7 books, Era 1 & 2 ranked
+- [The Expanse](https://getcreditworth.com/series/the-expanse): 9 books, full space opera series
+- [A Song of Ice and Fire](https://getcreditworth.com/series/a-song-of-ice-and-fire): 5 books, Game of Thrones audiobooks
+- [Dune Chronicles](https://getcreditworth.com/series/dune): 6 books, Herbert's universe ranked
+- [Harry Potter](https://getcreditworth.com/series/harry-potter): 7 books, all titles ranked
+- [Farseer Trilogy](https://getcreditworth.com/series/farseer-trilogy): 3 books, Robin Hobb's classic
+- [Murderbot Diaries](https://getcreditworth.com/series/murderbot-diaries): 7 books, Martha Wells' award-winner
+- [The Kingkiller Chronicle](https://getcreditworth.com/series/kingkiller-chronicle): 2 books, Patrick Rothfuss ranked
+- [The Lord of the Rings](https://getcreditworth.com/series/the-lord-of-the-rings): 3 books, Tolkien ranked
 
 ## Blog Highlights
 - [How to Use Audible Credits: Complete Guide](https://getcreditworth.com/blog/how-to-use-audible-credits): Step-by-step guide to credits
+- [How Much Is an Audible Credit Worth in 2026?](https://getcreditworth.com/blog/how-much-is-audible-credit-worth-2026): Real math behind credit value
+- [How to Gift Audible in 2026](https://getcreditworth.com/blog/audible-gift-audiobooks-guide): Books, credits & memberships gifting
+- [Audible Return & Refund Policy 2026](https://getcreditworth.com/blog/audible-return-refund-policy): 365-day full refund guide
 - [Best Audiobooks for Credits](https://getcreditworth.com/blog/best-audiobooks-for-credits): Top 50 ranked recommendations
-- [How Much Is an Audible Credit Worth?](https://getcreditworth.com/blog/audible-credit-value): Real math behind credit value
+- [50 Best Audiobooks to Use a Credit On](https://getcreditworth.com/blog/50-best-audiobooks-to-use-credit-on): Curated top list
 - [Is Audible Worth It in 2026?](https://getcreditworth.com/blog/is-audible-worth-it-2026): Honest review with cost-benefit analysis
 - [Premium Plus vs Standard: Credits Explained](https://getcreditworth.com/blog/premium-plus-vs-standard-credits): Plan comparison
 - [How to Cancel Audible Subscription](https://getcreditworth.com/blog/how-to-cancel-audible-subscription): Step-by-step cancellation guide
-- [Audible Return & Refund Policy](https://getcreditworth.com/blog/audible-return-refund-policy): Complete return guide
+- [Audible Credits Expiration Policy](https://getcreditworth.com/blog/audible-credits-expiration-policy): Don't let credits go to waste
 
 ## Top Audiobooks by Value Score
-- [The Count of Monte Cristo](https://getcreditworth.com/books/B005GFQ5WQ): VS 14.3 — 53h, 5★, $18.47 — $0.35/h
-- [War and Peace](https://getcreditworth.com/books/B095TS6LLR): VS 13.6 — 60h, 4.5★, $19.99
-- [Gone with the Wind](https://getcreditworth.com/books/1603691634): VS 10.1 — 47h, 5★, $23.28
-- [The Shadow Rising](https://getcreditworth.com/books/B002UZML5K): VS 9.6 — 41h, 5★, $21.40
-- [Don Quixote](https://getcreditworth.com/books/0241429536): VS 9.4 — 39h, 4.5★, $18.82
-- [The Eye of the World](https://getcreditworth.com/books/B0036NAYIQ): VS 8.0 — 33h, 5★, $20.49
-- [The Emperor of All Maladies](https://getcreditworth.com/books/B0FBCXZ6YK): VS 8.0 — 27h, 5★, $18.47
-- [Steve Jobs](https://getcreditworth.com/books/B005V0QI82): VS 4.8 — 25h, 4.5★
-- [Thinking, Fast and Slow](https://getcreditworth.com/books/B005TKKCWC): VS 4.3 — 20h, 4.5★
-- [The Stand](https://getcreditworth.com/books/B0077DEH7A): VS 6.1 — 48h, 4.6★
+- [The Ultimate Modern Classics Collection - Volume One](https://getcreditworth.com/books/B0DD8FDBKS): VS 65.1 — 191h, 5★, $14.66
+- [The Ultimate Classics Collection – Volume One](https://getcreditworth.com/books/B0DD5S2BD6): VS 55.2 — 272h, 3★, $14.78
+- [The Crash](https://getcreditworth.com/books/B0H6PQNZJQ): VS 50.2 — 193h, 5★, $19.24
+- [The Leo Tolstoy Complete Collection](https://getcreditworth.com/books/B0C94NZQLP): VS 49.2 — 187h, 4.5★, $17.08
+- [The Complete Brontë Sisters and Jane Austen Collection](https://getcreditworth.com/books/B0DD7X9Y6D): VS 48.4 — 203h, 5★, $21.01
+- [All DEAD](https://getcreditworth.com/books/B07YF3XH93): VS 34.8 — 143h, 4.5★, $18.51
+- [The American Classics Collection - Volume One](https://getcreditworth.com/books/B0DD8V1D79): VS 33.5 — 120h, 4.5★, $16.14
+- [Speak Spanish Like Crazy](https://getcreditworth.com/books/B0GYGB8YY6): VS 32.6 — 106h, 5★, $16.30
+- [Accidental Champion: Books 1-5](https://getcreditworth.com/books/B0H7XR2Y24): VS 28.9 — 95h, 4.8★, $15.85
+- [The Decline and Fall of the Roman Empire](https://getcreditworth.com/books/B00VXXUFYO): VS 28.0 — 127h, 4.5★, $20.34
 
 ## Technical
-- [Sitemap](https://getcreditworth.com/sitemap.xml): XML sitemap (436 URLs)
+- [Sitemap](https://getcreditworth.com/sitemap.xml): XML sitemap (7,600+ URLs)
 - [Robots.txt](https://getcreditworth.com/robots.txt): Robots exclusion file
 - [GitHub Repository](https://github.com/863683348/getcreditworth): Open source codebase

@@ -11,6 +11,8 @@ export interface BlogPost {
   description: string;
   keywords: string[];
   date: string;
+  /** Optional last-updated date for freshness signals (Article JSON-LD dateModified, sitemap lastmod) */
+  updatedAt?: string;
   readTime: string;
   category: string;
   /** Optional FAQ for rich-result eligibility (FAQPage JSON-LD + visible block) */
@@ -992,6 +994,7 @@ const POSTS: Record<string, BlogPostData> = {
     description: 'Complete guide to gifting Audible audiobooks. Send a specific title, credits, or membership. Step-by-step instructions, pricing, and best gift ideas for 2026.',
     keywords: ['gift audible audiobooks', 'how to gift audible books', 'audible gift card', 'send audible book as gift', 'audible gift membership'],
     date: '2026-07-25',
+    updatedAt: '2026-08-24',
     readTime: '10 min read',
     category: 'Guide',
     faq: [
@@ -1950,6 +1953,7 @@ const POSTS: Record<string, BlogPostData> = {
     description: 'Audible return policy explained: 365-day window, credit vs cash refund, step-by-step process, how to avoid account flags. Complete 2026 guide.',
     keywords: ['audible return policy', 'audible refund process', 'audible return audiobook', 'how to return audible', 'audible refund credit'],
     date: '2026-07-27',
+    updatedAt: '2026-08-24',
     readTime: '9 min read',
     category: 'Guide',
     faq: [

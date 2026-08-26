@@ -17,9 +17,9 @@ export function Footer() {
   return (
     <footer className="border-t border-border bg-bg-surface mt-12 sm:mt-16">
       <div className="container-content py-8 sm:py-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
 
-          {/* Links */}
+          {/* Explore */}
           <div>
             <h3 className="text-sm font-semibold text-text-primary mb-3">{t.footer.explore}</h3>
             <ul className="space-y-2 text-sm">
@@ -41,7 +41,44 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* Legal */}
+          {/* Guides */}
+          <div>
+            <h3 className="text-sm font-semibold text-text-primary mb-3">{t.footer.guides}</h3>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link href="/blog" className="text-text-secondary hover:text-primary">
+                  {t.footer.blog}
+                </Link>
+              </li>
+              <li>
+                <Link href="/curated" className="text-text-secondary hover:text-primary">
+                  {t.footer.curatedLists}
+                </Link>
+              </li>
+              <li>
+                <Link href="/category" className="text-text-secondary hover:text-primary">
+                  {t.footer.categories}
+                </Link>
+              </li>
+              <li>
+                <Link href="/series" className="text-text-secondary hover:text-primary">
+                  {t.footer.series}
+                </Link>
+              </li>
+              <li>
+                <Link href="/compare" className="text-text-secondary hover:text-primary">
+                  {t.footer.compare}
+                </Link>
+              </li>
+              <li>
+                <Link href="/dataset" className="text-text-secondary hover:text-primary">
+                  {t.footer.dataset}
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Disclosure */}
           <div>
             <h3 className="text-sm font-semibold text-text-primary mb-3">{t.footer.disclosure}</h3>
             <p className="text-xs text-text-secondary leading-relaxed">

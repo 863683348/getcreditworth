@@ -75,6 +75,7 @@ export default function BlogPostPage({ params }: PageProps) {
         description={post.description}
         url={buildCanonicalUrl("/blog/" + post.slug)}
         publishedDate={post.date}
+        modifiedDate={post.updatedAt}
       />
       {post.faq && post.faq.length > 0 && (
         <FaqPageJsonLd questions={post.faq} />

@@ -1,47 +1,50 @@
-import { getAllBooks } from "@/lib/data/books";
+import { getAllBooks, getBookCount } from "@/lib/data/books";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import { AUDIBLE_CREDIT_VALUE, SITE_CONFIG } from "@/lib/config";
 import type { Metadata } from "next";
 import Link from "next/link";
 
-export const metadata: Metadata = {
-  title: 'Audible Audiobooks Dataset (3,900+ Books) - Free CSV Download | GetCreditWorth',
-  description:
-    'Download our free open dataset of 3,900+ Audible audiobooks with Value Score, cost per hour, credit worth ratio, ratings, and runtime. CSV format, updated 2026, MIT licensed.',
-  keywords: [
-    'audible books dataset csv',
-    'audible audiobook data download',
-    'audible value score dataset',
-    'audiobook credit value data',
-    'audible books open dataset',
-    'audible credit worth csv',
-    'best audiobooks dataset',
-    'audiobook cost per hour data',
-  ],
-  alternates: { canonical: buildCanonicalUrl("/dataset") },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
+export function generateMetadata(): Metadata {
+  const total = getBookCount().toLocaleString();
+  return {
+    title: `Audible Audiobooks Dataset (${total}+ Books) - Free CSV Download | GetCreditWorth`,
+    description:
+      `Download our free open dataset of ${total}+ Audible audiobooks with Value Score, cost per hour, credit worth ratio, ratings, and runtime. CSV format, updated 2026, MIT licensed.`,
+    keywords: [
+      'audible books dataset csv',
+      'audible audiobook data download',
+      'audible value score dataset',
+      'audiobook credit value data',
+      'audible books open dataset',
+      'audible credit worth csv',
+      'best audiobooks dataset',
+      'audiobook cost per hour data',
+    ],
+    alternates: { canonical: buildCanonicalUrl("/dataset") },
+    robots: {
       index: true,
       follow: true,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
     },
-  },
-  openGraph: {
-    title: 'Audible Audiobooks Dataset (3,900+ Books) - Free CSV Download',
-    description:
-      'Free open dataset of 3,900+ Audible audiobooks with Value Score, cost per hour, and credit worth. CSV format, MIT licensed.',
-    type: 'website',
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'Audible Audiobooks Dataset (3,900+ Books) - Free CSV Download',
-    description:
-      '3,900+ Audible audiobooks with Value Score, cost per hour, and credit worth. Free CSV download, MIT licensed.',
-  },
-};
+    openGraph: {
+      title: `Audible Audiobooks Dataset (${total}+ Books) - Free CSV Download`,
+      description:
+        `Free open dataset of ${total}+ Audible audiobooks with Value Score, cost per hour, and credit worth. CSV format, MIT licensed.`,
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `Audible Audiobooks Dataset (${total}+ Books) - Free CSV Download`,
+      description:
+        `${total}+ Audible audiobooks with Value Score, cost per hour, and credit worth. Free CSV download, MIT licensed.`,
+    },
+  };
+}
 
 export default function DatasetPage() {
   const books = getAllBooks();
@@ -81,7 +84,7 @@ export default function DatasetPage() {
       <header className="mb-8">
         <p className="text-sm text-text-secondary mb-2">Open Dataset</p>
         <h1 className="text-3xl md:text-4xl font-bold text-text-primary mb-3">
-          Audible Audiobooks Dataset (3,900+ Books)
+          Audible Audiobooks Dataset ({totalBooks.toLocaleString()}+ Books)
         </h1>
         <p className="text-lg text-text-secondary leading-relaxed">
           A free, open dataset of {totalBooks} Audible audiobooks with Value Score, cost per hour,
@@ -94,7 +97,7 @@ export default function DatasetPage() {
         <div>
           <h2 className="text-xl font-semibold text-text-primary mb-1">Download the dataset</h2>
           <p className="text-sm text-text-secondary">
-            CSV file, ~70 KB, {totalBooks} rows x 16 columns. Updated July 2026.
+            CSV file, ~70 KB, {totalBooks} rows x 16 columns. Updated August 2026.
           </p>
         </div>
         <a
