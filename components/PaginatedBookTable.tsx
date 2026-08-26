@@ -7,7 +7,7 @@ import { ValueScoreBadge } from '@/components/ValueScoreBadge';
 import { formatDuration, formatPrice, formatRating } from '@/lib/utils/format';
 import { useI18n } from '@/lib/i18n';
 import { useRegion } from '@/components/RegionProvider';
-import { buildRedirectUrl } from '@/lib/utils/affiliate';
+import { buildAudibleProductUrl } from '@/lib/utils/affiliate';
 import type { Book } from '@/lib/types';
 
 interface PaginatedBookTableProps {
@@ -99,7 +99,7 @@ export function PaginatedBookTable({
                   </td>
                   <td className="p-3">
                     <a
-                      href={buildRedirectUrl(book.asin, region)}
+                      href={buildAudibleProductUrl(book.asin, region, book.title)}
                       rel="nofollow sponsored"
                       className="inline-block px-3 py-1 bg-primary text-white text-xs rounded-md hover:bg-primary-dark transition-colors"
                     >

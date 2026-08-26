@@ -91,6 +91,48 @@ export function buildRedirectUrl(
   return `/api/redirect/${asin}?region=${region}`;
 }
 
+/** Audible 站点域名后缀（与 Amazon TLD 一一对应） */
+const AUDIBLE_TLD: Record<AmazonRegion, string> = {
+  us: "com",
+  uk: "co.uk",
+  de: "de",
+  fr: "fr",
+  it: "it",
+  es: "es",
+};
+
+/**
+ * 从书名生成 Audible URL slug
+ * Audible 使用 URL-safe 的 slug + "-audiobook" 后缀
+ */
+function generateAudibleSlug(title: string): string {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '') + '-audiobook';
+}
+
+/**
+ * 生成 Audible 产品页直链（少一跳、转化路径最短）
+ *
+ * Audible URL 格式：/pd/{slug}-audiobook/{asin}
+ * 例如：https://www.audible.com/pd/the-crash-audiobook/B0H6PQNZJQ
+ *
+ * 注意：旧格式 /pd/{asin} 已返回 405，需使用新格式
+ * tag 参数会被 Audible 保留用于联盟归因
+ */
+export function buildAudibleProductUrl(
+  asin: string,
+  region: AmazonRegion = DEFAULT_REGION,
+  title?: string
+): string {
+  const tld = AUDIBLE_TLD[region] || AUDIBLE_TLD.us;
+  const tag = getAffiliateTag(region);
+  const slug = title ? generateAudibleSlug(title) : '';
+  const path = slug ? `/pd/${slug}/${asin}` : `/pd/${asin}`;
+  return `https://www.audible.${tld}${path}?tag=${tag}`;
+}
+
 /**
  * 生成 canonical URL（用于 SEO）
  */

@@ -1,0 +1,62 @@
+name: Update Curated Lists
+
+on:
+  schedule:
+    # 每 2 天运行一次（UTC 时间凌晨 2 点）
+    - cron: "0 2 */2 * *"
+  workflow_dispatch:
+
+env:
+  NODE_VERSION: "20"
+
+jobs:
+  update-lists:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Run regenerate script
+        run: node scripts/regenerate-curated-lists.mjs
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet data/curated-lists.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Changes detected"
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "getcreditworth-bot"
+          git config user.email "bot@getcreditworth.com"
+          git add data/curated-lists.json
+          git commit -m "chore: update curated lists ($(date +'%Y-%m-%d'))"
+          git push
+          echo "Pushed changes to origin"
+
+      - name: Trigger ISR revalidation
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          if [ -n "${{ vars.SITE_URL }}" ]; then
+            curl -s -X POST "${{ vars.SITE_URL }}/api/revalidate" \
+              -H "Content-Type: application/json" \
+              -d '{"secret":"${{ secrets.REVALIDATE_SECRET }}"}'
+          fi
+        continue-on-error: true

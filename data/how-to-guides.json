@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "how-to-get-a-free-30-day-audible-trial",
+    "title": "How to Get a Free 30-Day Audible Trial in 2026",
+    "description": "Step-by-step guide to signing up for Audible's free 30-day trial. Get 1 free audiobook plus access to the Plus Catalog.",
+    "keywords": [
+      "audible free trial",
+      "audible 30 day trial",
+      "how to get audible free"
+    ],
+    "contentLines": [
+      "<>",
+      "  <p>Audible's free 30-day trial gives you <strong>1 free audiobook</strong> of your choice plus full access to the <strong>Plus Catalog</strong>.</p>",
+      "  <h2 className=\"text-xl font-semibold text-text-primary mt-6 mb-3\">What You Get</h2>",
+      "  <ul className=\"space-y-2\">",
+      "    <li>1 free audiobook (keep it even if you cancel)</li>",
+      "    <li>Full access to the Plus Catalog for 30 days</li>",
+      "    <li>No commitment — cancel anytime</li>",
+      "  </ul>",
+      "  <h2 className=\"text-xl font-semibold text-text-primary mt-6 mb-3\">How to Sign Up</h2>",
+      "  <ol className=\"list-decimal ml-5 space-y-1\">",
+      "    <li>Go to audible.com and click \"Start Your Free Trial\"</li>",
+      "    <li>Create your account or sign in</li>",
+      "    <li>Pick your free book from the catalog</li>",
+      "    <li>Confirm your trial — no payment upfront</li>",
+      "  </ol>",
+      "  <div className=\"bg-bg-surface p-4 rounded-md border border-border my-4\">",
+      "    <p className=\"text-sm\"><strong>Pro tip:</strong> Use your free book on one of our highest Value Score picks. Check our <a href=\"/books\" className=\"text-primary hover:underline\">best books for credits</a> list.</p>",
+      "  </div>",
+      "</>"
+    ]
+  },
+  {
+    "slug": "how-to-cancel-audible-and-keep-your-books",
+    "title": "How to Cancel Audible and Keep Your Books",
+    "description": "Cancel your Audible subscription without losing your purchased audiobooks. Complete guide with steps and FAQs.",
+    "keywords": [
+      "cancel audible",
+      "audible cancellation",
+      "keep audible books after cancel"
+    ],
+    "contentLines": [
+      "<>",
+      "  <p>Canceling Audible is easy — and <strong>you keep all your purchased audiobooks forever</strong>.</p>",
+      "  <h2 className=\"text-xl font-semibold text-text-primary mt-6 mb-3\">Steps to Cancel</h2>",
+      "  <ol className=\"list-decimal ml-5 space-y-1\">",
+      "    <li>Go to audible.com/my_member_central</li>",
+      "    <li>Click \"Change Plan\" or \"Cancel Membership\"</li>",
+      "    <li>Follow the prompts to confirm cancellation</li>",
+      "    <li>You'll keep all previously purchased titles</li>",
+      "  </ol>",
+      "  <h2 className=\"text-xl font-semibold text-text-primary mt-6 mb-3\">What Happens After Cancellation</h2>",
+      "  <ul className=\"space-y-2\">",
+      "    <li>You lose access to the Plus Catalog</li>",
+      "    <li>Your credits expire — use them before canceling!</li>",
+      "    <li>All purchased books stay in your library</li>",
+      "  </ul>",
+      "</>"
+    ]
+  },
+  {
+    "slug": "how-to-maximize-audible-credits-2026",
+    "title": "How to Maximize Your Audible Credits in 2026",
+    "description": "Strategic guide to getting the most listening time per credit. Tips on book selection, timing, and avoiding waste.",
+    "keywords": [
+      "maximize audible credits",
+      "audible credit value tips",
+      "get more from audible"
+    ],
+    "contentLines": [
+      "<>",
+      "  <p>Not all Audible credits are created equal. Some books give you 3x more listening time per dollar than others.</p>",
+      "  <h2 className=\"text-xl font-semibold text-text-primary mt-6 mb-3\">Rule #1: Pick Long Books</h2>",
+      "  <p>A 20-hour epic fantasy costs the same credit as a 6-hour self-help book. The fantasy gives you 3x the value.</p>",
+      "  <h2 className=\"text-xl font-semibold text-text-primary mt-6 mb-3\">Rule #2: Check the Rating</h2>",
+      "  <p>A 5-star 15-hour book is better than a 3-star 30-hour book. Use our Value Score which factors in both length and rating.</p>",
+      "  <h2 className=\"text-xl font-semibold text-text-primary mt-6 mb-3\">Rule #3: Time Your Purchases</h2>",
+      "  <p>Watch for sales and promotional credits that stretch your budget further.</p>",
+      "</>"
+    ]
+  }
+]

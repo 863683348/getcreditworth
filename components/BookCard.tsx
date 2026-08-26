@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Star, Clock, DollarSign, Headphones, ExternalLink } from "lucide-react";
 import type { Book } from "@/lib/types";
 import { ValueScoreBadge } from "@/components/ValueScoreBadge";
-import { buildRedirectUrl } from "@/lib/utils/affiliate";
+import { buildAudibleProductUrl } from "@/lib/utils/affiliate";
 import {
   formatDuration,
   formatPrice,
@@ -27,7 +27,7 @@ export function BookCard({ book, rank, variant = "default" }: BookCardProps) {
   const { t } = useI18n();
   const { region } = useRegion();
   const { toggleFavorite, isFavorite } = useFavorites();
-  const redirectUrl = buildRedirectUrl(book.asin, region);
+  const redirectUrl = buildAudibleProductUrl(book.asin, region, book.title);
 
   return (
     <article className="card p-3 sm:p-4 flex gap-2 sm:gap-4">

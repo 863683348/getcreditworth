@@ -113,15 +113,53 @@ const calc = (b, avgPrice) => {
 
 const genDesc = (b) => {
   const h = b.runtimeHours || 0, r = b.starRating || 0, rv = b.reviewCount || 0, p = b.price || 0;
-  if (h >= 30 && r >= 4.5 && rv > 5000)
-    return `At ${Math.round(h)} hours with ${r.toFixed(1)} stars from ${rv.toLocaleString()} reviews, "${b.title}" by ${b.author} delivers exceptional credit value. This ${b.categories[0] || 'audiobook'} costs $${b.costPerHour.toFixed(2)}/hour. Narrated by ${b.narrator || 'a professional narrator'}. Value Score: ${b.valueScore.toFixed(1)}.`;
-  if (r >= 4.7 && rv > 1000)
-    return `${r.toFixed(1)} stars from ${rv.toLocaleString()} reviewers make "${b.title}" one of the highest-rated audiobooks. ${b.author} delivers ${Math.round(h)} hours at $${b.costPerHour.toFixed(2)}/hour. Priced at $${p.toFixed(2)}. Value Score: ${b.valueScore.toFixed(1)}.`;
-  if (h >= 20)
-    return `"${b.title}" by ${b.author} scores ${b.valueScore.toFixed(1)} on our Value Score system. This ${Math.round(h)}-hour ${b.categories[0] || 'audiobook'} costs $${b.costPerHour.toFixed(2)}/hour. ${r.toFixed(1)} stars. ${p > 14.95 ? 'Using a credit saves you money.' : 'Consider buying directly.'}`;
-  if (h <= 8)
-    return `${Math.round(h)} hours: "${b.title}" by ${b.author} is a shorter ${b.categories[0] || 'audiobook'}. Rated ${r.toFixed(1)}/5. Cost: $${b.costPerHour.toFixed(2)}/hour. ${p > 14.95 ? 'A credit works well here.' : 'Buy directly for $' + p.toFixed(2) + '.'}`;
-  return `Best ${b.categories[0] || 'audiobook'} for your Audible credit? "${b.title}" by ${b.author} runs ${Math.round(h)} hours at $${b.costPerHour.toFixed(2)}/hour. Rated ${r.toFixed(1)}/5. ${p > 14.95 ? 'Save with a credit.' : 'Buy for $' + p.toFixed(2) + '.'}`;
+  const cat = (b.categories && b.categories[0]) || 'audiobook';
+  const auth = b.author ? ` by ${b.author}` : '';
+
+  const timeDesc = h >= 20 ? `a ${Math.round(h)}-hour ${cat} epic` : h > 0 ? `a ${h.toFixed(1)}-hour ${cat} listen` : `a ${cat} listen`;
+
+  const parts = [];
+  const ratingParts = [];
+  if (r > 0 && r <= 5) {
+    ratingParts.push(`rated ${r.toFixed(1)}/5`);
+    if (rv > 0) ratingParts.push(`${rv.toLocaleString()} listener reviews`);
+  }
+  if (ratingParts.length) parts.push(ratingParts.join(' with '));
+
+  if (p > 0) {
+    const cph = h > 0 ? `$${(p / h).toFixed(2)}/hour` : '';
+    if (p > CREDIT_VALUE) {
+      parts.push(`priced at $${p.toFixed(2)} — above a single credit${cph ? ' (' + cph + ')' : ''}, so a credit saves you money`);
+    } else {
+      parts.push(`priced at $${p.toFixed(2)}${cph ? ' (' + cph + ')' : ''} — cheaper than spending a credit`);
+    }
+  }
+
+  const detail = parts.length ? '. ' + parts.join('. ') + '.' : '.';
+  const who = genWhoShouldListen(cat, h, r);
+  const vs = Number(b.valueScore);
+  const scoreTxt = isFinite(vs) && vs > 0 && vs <= 10
+    ? ` Our Value Score of ${vs.toFixed(1)}/10 weighs all of this for you.`
+    : '';
+
+  return (
+    `"${b.title}"${auth} is ${timeDesc}${detail}` +
+    ` ${who}.${scoreTxt} See the full credit-value breakdown on getcreditworth.com before you decide.`
+  );
+};
+
+const genWhoShouldListen = (cat, h, r) => {
+  const c = (cat || '').toLowerCase();
+  if (/(sci-?fi|fantasy|space|epic)/.test(c)) return 'A natural fit for sci-fi and fantasy fans who want maximum immersion per credit';
+  if (/(thriller|mystery|crime|suspense|detective)/.test(c)) return 'Thriller and mystery listeners will find plenty of pull here';
+  if (/(romance|love|contemporary)/.test(c)) return 'Romance listeners who enjoy character-driven stories will feel at home';
+  if (/(biograph|memoir|history|non-?fiction|business|self-help|science)/.test(c)) return 'A strong pick for nonfiction listeners who want substance for their credit';
+  if (/(classic|literature|literary)/.test(c)) return 'Classics and literary fiction readers will appreciate the depth on offer';
+  if (/(horror|paranormal|supernatural)/.test(c)) return 'Horror and paranormal fans will get plenty of atmosphere';
+  if (/(young adult|ya)/.test(c)) return 'A compelling listen for younger audiences and YA fans';
+  if (r >= 4.5 && h >= 15) return 'With strong ratings and serious runtime, this one rewards committed listeners';
+  if (h <= 6) return 'A quick, focused listen — good for squeezing value from a spare credit';
+  return 'A dependable choice worth checking against your own listening taste';
 };
 
 async function main() {
@@ -184,11 +222,23 @@ async function main() {
   console.log('已备份到:', bak);
 
   const merged = [...existing, ...fresh].sort((a, b) => (b.valueScore || 0) - (a.valueScore || 0));
-  fs.writeFileSync(BOOKS_PATH, JSON.stringify(merged, null, 2) + '\n', 'utf8');
 
-  const asinCount = new Set(merged.map((b) => String(b.asin).trim())).size;
+  // 防御性去重：即使 existing 本身含重复（如历史合并残留），写回前也按 ASIN 去重，
+  // 保留每组最后一条（后插入通常字段更全），杜绝 sitemap 重复 URL 与权重稀释
+  const seenAsin = new Set();
+  const deduped = merged.filter((b) => {
+    const k = String(b.asin).trim();
+    if (seenAsin.has(k)) return false;
+    seenAsin.add(k);
+    return true;
+  });
+  const removedDup = merged.length - deduped.length;
+
+  fs.writeFileSync(BOOKS_PATH, JSON.stringify(deduped, null, 2) + '\n', 'utf8');
+
+  const asinCount = new Set(deduped.map((b) => String(b.asin).trim())).size;
   console.log('\n=== 完成 ===');
-  console.log(`Day ${day} 新增 ${fresh.length} 本 → 总数 ${merged.length}（唯一 ASIN ${asinCount}）`);
+  console.log(`Day ${day} 新增 ${fresh.length} 本 → 总数 ${deduped.length}（唯一 ASIN ${asinCount}${removedDup ? `，防御去重 ${removedDup} 条` : ''}）`);
 }
 
 main().catch((e) => { console.error('失败:', e.message); process.exit(1); });

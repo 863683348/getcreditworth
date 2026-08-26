@@ -55,6 +55,22 @@ export function BlogDetailContent({ post }: BlogDetailContentProps) {
         {post.content}
       </div>
 
+      {post.faq && post.faq.length > 0 && (
+        <section className="mt-10 pt-8 border-t border-border" aria-label="Frequently asked questions">
+          <h2 className="text-xl font-semibold text-text-primary mb-5">
+            Frequently Asked Questions
+          </h2>
+          <div className="space-y-4">
+            {post.faq.map((item, i) => (
+              <div key={i} className="bg-bg-surface rounded-lg border border-border p-4">
+                <h3 className="font-semibold text-text-primary mb-1.5">{item.question}</h3>
+                <p className="text-sm text-text-secondary">{item.answer}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
       <div className="mt-12 p-6 bg-bg-surface rounded-lg border border-border text-center">
         <h3 className="font-semibold text-text-primary mb-2">
           {t.blogDetail.readyToFind}

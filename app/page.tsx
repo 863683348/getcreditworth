@@ -1,4 +1,4 @@
-import { getTopBooks, toListBook } from "@/lib/data/books";
+import { getTopBooks, toListBook, getBookCount, getFeaturedCuratedLists } from "@/lib/data/books";
 import { HomeContent } from "@/components/HomeContent";
 import { SITE_CONFIG } from "@/lib/config";
 import type { Metadata } from "next";
@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: 'How Much Is an Audible Credit Worth? ($14.95 Real Value)',
   description:
-    'How much is an Audible credit worth? Find out with our free calculator — see which 300+ audiobooks are worth a credit and which to buy directly.',
+    'How much is an Audible credit worth? Find out with our free calculator — see which 3,900+ audiobooks are worth a credit and which to buy directly.',
   keywords: [
     'how much is an audible credit worth',
     'audible credit value',
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'How Much Is an Audible Credit Worth? ($14.95 Real Value)',
     description:
-      'Find out the real value of an Audible credit with our free calculator. 300+ audiobooks ranked by Value Score, cost per hour, and credit worth.',
+      'Find out the real value of an Audible credit with our free calculator. 3,900+ audiobooks ranked by Value Score, cost per hour, and credit worth.',
     type: 'website',
     url: SITE_CONFIG.url,
     siteName: SITE_CONFIG.name,
@@ -54,17 +54,19 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'How Much Is an Audible Credit Worth? ($14.95 Real Value)',
     description:
-      'Free Audible credit value calculator. 300+ audiobooks ranked by Value Score to help you stop wasting credits.',
+      'Free Audible credit value calculator. 3,900+ audiobooks ranked by Value Score to help you stop wasting credits.',
     images: ['/og-image.svg'],
   },
 };
 
 export default function HomePage() {
   // Fast Origin Transfer 优化：首页仅渲染 Top 30（排行展示），
-  // 全量 300+ 本由 BookExplorer 通过 /api/books/list 客户端懒加载（搜索功能不受影响）。
+  // 全量 3,900+ 本由 BookExplorer 通过 /api/books/list 客户端懒加载（搜索功能不受影响）。
   // 原实现 getAllBooks() 全量内联进 RSC payload ~2.3MB，每次回源都是大 FOT。
   const topBooks = getTopBooks(30).map(toListBook);
+  const bookCount = getBookCount();
+  const featuredLists = getFeaturedCuratedLists();
 
-  return <HomeContent topBooks={topBooks} />;
+  return <HomeContent topBooks={topBooks} totalBooks={bookCount} featuredLists={featuredLists} />;
 }
 

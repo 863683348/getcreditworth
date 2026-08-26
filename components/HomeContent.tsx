@@ -1,25 +1,26 @@
 ﻿"use client";
 
 import Link from "next/link";
-import { Trophy, Info, TrendingUp, BookOpen, ArrowRight } from "lucide-react";
-import type { Book } from "@/lib/types";
+import Image from "next/image";
+import { Trophy, Info, TrendingUp, BookOpen, ArrowRight, Star, Clock, ListChecks } from "lucide-react";
+import type { Book, CuratedList } from "@/lib/types";
 import { BookExplorer } from "@/components/BookExplorer";
 import {
   ItemListJsonLd,
-  WebsiteJsonLd,
-  OrganizationJsonLd,
   SoftwareApplicationJsonLd,
   FaqPageJsonLd,
 } from "@/components/seo/JsonLd";
 import { useI18n } from "@/lib/i18n";
 import { useRegion } from "@/components/RegionProvider";
 import { RegionSwitcher } from "@/components/RegionSwitcher";
-import { formatPrice } from "@/lib/utils/format";
+import { formatPrice, formatRating, formatNumber, formatDuration } from "@/lib/utils/format";
 import { AUDIBLE_CREDIT_VALUE } from "@/lib/config";
-import { buildAudibleTrialUrl } from "@/lib/utils/affiliate";
+import { buildAudibleTrialUrl, buildAudibleProductUrl } from "@/lib/utils/affiliate";
 
 interface HomeContentProps {
   topBooks: Book[];
+  totalBooks: number;
+  featuredLists: CuratedList[];
 }
 
 const FAQ_ITEMS = [
@@ -47,14 +48,12 @@ const FAQ_ITEMS = [
   },
 ];
 
-export function HomeContent({ topBooks }: HomeContentProps) {
+export function HomeContent({ topBooks, totalBooks, featuredLists }: HomeContentProps) {
   const { t } = useI18n();
   const { region } = useRegion();
 
   return (
     <>
-      <WebsiteJsonLd />
-      <OrganizationJsonLd />
       <SoftwareApplicationJsonLd />
       <FaqPageJsonLd questions={FAQ_ITEMS} />
       <ItemListJsonLd
@@ -71,22 +70,31 @@ export function HomeContent({ topBooks }: HomeContentProps) {
           <p className="text-xs sm:text-sm md:text-base text-text-secondary max-w-2xl mx-auto mb-6">
             {t.home.subtitle}
           </p>
-          <a
-            href={buildAudibleTrialUrl(region)}
-            target="_blank"
-            rel="noopener noreferrer sponsored"
-            className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 text-xs sm:text-sm md:text-base font-semibold rounded-md bg-primary text-white hover:bg-primary-hover transition-colors duration-150 shadow-sm"
-          >
-            {t.hero.ctaPrimary}
-            {t.hero.ctaSecondary}
-          </a>
+          <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3">
+            <a
+              href={buildAudibleTrialUrl(region)}
+              target="_blank"
+              rel="noopener noreferrer sponsored"
+              className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 text-xs sm:text-sm md:text-base font-semibold rounded-md bg-primary text-white hover:bg-primary-hover transition-colors duration-150 shadow-sm"
+            >
+              {t.hero.ctaPrimary}
+              {t.hero.ctaSecondary}
+            </a>
+            <Link
+              href="/books"
+              className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 text-xs sm:text-sm md:text-base font-semibold rounded-md bg-bg-base text-primary border border-primary hover:bg-primary-50 transition-colors duration-150"
+            >
+              {t.hero.ctaViewBooks}
+              <ArrowRight className="h-4 w-4" />
+            </Link>
+          </div>
           <p className="text-xs text-text-muted mt-3">
             {t.hero.ctaNote}
           </p>
           <div className="grid grid-cols-3 gap-2 sm:gap-4 mt-6 pt-6 border-t border-border">
             <div>
               <div className="font-mono font-bold text-lg sm:text-2xl md:text-3xl text-primary">
-                {topBooks.length}
+                {totalBooks}
               </div>
               <div className="text-xs sm:text-sm text-text-muted mt-1">
                 {t.hero.statBooksLabel}
@@ -114,11 +122,79 @@ export function HomeContent({ topBooks }: HomeContentProps) {
         {/* Region switcher (Data source) */}
         <RegionSwitcher />
 
+        {/* Top 5 books to use your credit on — 会员视角兑换入口 */}
+        {topBooks.length > 0 && (
+          <div className="mb-6 p-4 sm:p-6 rounded-xl bg-bg-surface border border-border">
+            <div className="flex items-center gap-2 mb-1">
+              <Trophy className="h-5 w-5 text-accent flex-shrink-0" />
+              <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-text-primary">
+                {t.home.topPicksTitle}
+              </h2>
+            </div>
+            <p className="text-xs sm:text-sm text-text-secondary mb-4">
+              {t.home.topPicksSubtitle}
+            </p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+              {topBooks.slice(0, 5).map((book) => (
+                <article
+                  key={book.asin}
+                  className="flex flex-col rounded-lg border border-border bg-bg-base overflow-hidden hover:border-primary-200 transition-colors"
+                >
+                  <Link
+                    href={`/books/${book.asin}`}
+                    className="block relative w-full overflow-hidden bg-bg-surface"
+                    style={{ aspectRatio: "3/5" }}
+                  >
+                    <Image
+                      src={book.coverImageUrl}
+                      alt={`${book.title} cover`}
+                      fill
+                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 20vw"
+                      className="object-cover"
+                      unoptimized
+                    />
+                  </Link>
+                  <div className="flex flex-col flex-1 p-2.5 sm:p-3">
+                    <Link href={`/books/${book.asin}`}>
+                      <h3 className="font-serif text-xs sm:text-sm font-semibold text-text-primary hover:text-primary line-clamp-2 min-h-[2.5em]">
+                        {book.title}
+                      </h3>
+                    </Link>
+                    <p className="text-[11px] sm:text-xs text-text-secondary mt-0.5 truncate">
+                      {book.author}
+                    </p>
+                    <div className="flex items-center gap-2 text-[11px] sm:text-xs text-text-secondary mt-1.5">
+                      <span className="flex items-center gap-1">
+                        <Star className="h-3 w-3 text-accent fill-accent" />
+                        {formatRating(book.starRating)}
+                      </span>
+                      <span className="flex items-center gap-1">
+                        <Clock className="h-3 w-3" />
+                        {formatDuration(book.runtimeMinutes)}
+                      </span>
+                    </div>
+                    <a
+                      href={buildAudibleProductUrl(book.asin, region, book.title)}
+                      target="_blank"
+                      rel="noopener noreferrer sponsored"
+                      className="btn btn-primary text-[11px] sm:text-xs py-1.5 px-2 mt-2.5"
+                    >
+                      {t.home.topPicksUseCredit}
+                    </a>
+                  </div>
+                </article>
+              ))}
+            </div>
+          </div>
+        )}
+
         {/* Ranked list header */}
         <div className="mb-6 flex items-center gap-2">
           <Trophy className="h-5 w-5 text-accent flex-shrink-0" />
-          <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-text-primary">
-            {t.home.rankedList.replace("{limit}", String(topBooks.length))}
+              <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-text-primary">
+            {t.home.rankedList
+              .replace("{limit}", String(topBooks.length))
+              .replace("{total}", String(totalBooks))}
           </h2>
         </div>
 
@@ -187,7 +263,7 @@ export function HomeContent({ topBooks }: HomeContentProps) {
               </span>
             </div>
             <p className="text-xs text-text-secondary">
-              The 2026 breakdown with real numbers from 300+ audiobooks.
+              The 2026 breakdown with real numbers from 3,900+ audiobooks.
             </p>
           </Link>
           <Link
@@ -205,6 +281,54 @@ export function HomeContent({ topBooks }: HomeContentProps) {
             </p>
           </Link>
         </div>
+
+        {/* Featured Collections Section — 精选合集推荐 */}
+        {featuredLists && featuredLists.length > 0 && (
+          <div className="mt-12">
+            <div className="flex items-center justify-between mb-6">
+              <div className="flex items-center gap-2">
+                <ListChecks className="h-5 w-5 text-primary" />
+                <h2 className="text-lg sm:text-xl font-bold text-text-primary">
+                  {t.home.featuredCollectionsTitle}
+                </h2>
+              </div>
+              <Link
+                href="/curated"
+                className="text-sm text-primary hover:text-primary-hover font-medium"
+              >
+                {t.home.viewAllCollections}
+              </Link>
+            </div>
+            <p className="text-sm text-text-secondary mb-4">
+              {t.home.featuredCollectionsSubtitle}
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {featuredLists.map((list) => (
+                <Link
+                  key={list.slug}
+                  href={`/curated/${list.slug}`}
+                  className="card p-4 group hover:border-primary-200 transition-colors"
+                >
+                  <div className="flex items-start justify-between gap-2 mb-2">
+                    <span className="text-xs font-medium text-primary bg-primary-50 px-2 py-0.5 rounded">
+                      {list.category}
+                    </span>
+                    <ArrowRight className="h-4 w-4 text-text-muted group-hover:text-primary transition-colors" />
+                  </div>
+                  <h3 className="font-serif text-base font-semibold text-text-primary group-hover:text-primary mb-1 line-clamp-2">
+                    {list.title}
+                  </h3>
+                  <p className="text-xs text-text-secondary line-clamp-2 mb-2">
+                    {list.description}
+                  </p>
+                  <p className="text-xs text-text-muted">
+                    {t.home.booksInCollection.replace('{count}', String(list.bookAsins.length))}
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </>
   );

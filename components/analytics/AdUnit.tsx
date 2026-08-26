@@ -13,9 +13,19 @@ interface AdUnitProps {
   /** 是否开启全宽自适应 */
   fullWidthResponsive?: boolean;
   className?: string;
-  /** 容器最小高度，避免广告加载前布局抖动（CLS） */
+  /** 容器最小高度，避免广告加载前布局抖动（CLS）。
+   *  默认按格式预留合理空间：auto 280 / rectangle 250 / vertical 600 / horizontal 100，
+   *  减少广告异步注入导致的累积布局偏移（Core Web Vitals - CLS）。 */
   minHeight?: number;
 }
+
+// 不同格式广告的典型高度，用于预留空间降低 CLS
+const FORMAT_MIN_HEIGHT: Record<NonNullable<AdUnitProps["format"]>, number> = {
+  auto: 280,
+  rectangle: 250,
+  vertical: 600,
+  horizontal: 100,
+};
 
 /**
  * 手动广告位组件。
@@ -31,7 +41,7 @@ export function AdUnit({
   format = "auto",
   fullWidthResponsive = true,
   className,
-  minHeight = 100,
+  minHeight = FORMAT_MIN_HEIGHT[format],
 }: AdUnitProps) {
   const insRef = useRef<HTMLModElement>(null);
 
