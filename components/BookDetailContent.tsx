@@ -181,8 +181,8 @@ export function BookDetailContent({ book, relatedBooks, categoryRank }: BookDeta
             </div>
           )}
 
-          {/* Editor's Pick — shown for high-value books (valueScore >= 8) */}
-          {book.valueScore >= 8 && categoryRank && (
+          {/* Editor's Pick — shown for high-value books (valueScore >= 6) */}
+          {book.valueScore >= 6 && categoryRank && (
             <div className="mb-6 p-5 rounded-lg bg-gradient-to-br from-primary-50 to-amber-50 border border-primary-200">
               <div className="flex items-center gap-2 mb-2">
                 <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold bg-primary text-white">
