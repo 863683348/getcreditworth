@@ -992,7 +992,16 @@ const POSTS: Record<string, BlogPostData> = {
     slug: 'audible-gift-audiobooks-guide',
     title: 'How to Gift Audible in 2026: Books, Credits & Memberships',
     description: 'Complete guide to gifting Audible audiobooks. Send a specific title, credits, or membership. Step-by-step instructions, pricing, and best gift ideas for 2026.',
-    keywords: ['gift audible audiobooks', 'how to gift audible books', 'audible gift card', 'send audible book as gift', 'audible gift membership'],
+    keywords: [
+      'gift audible audiobooks',
+      'how to gift audible books',
+      'audible gift card',
+      'send audible book as gift',
+      'audible gift membership',
+      'can you gift audible credits',
+      'how to gift an audible membership',
+      'gift audible book',
+    ],
     date: '2026-07-25',
     updatedAt: '2026-08-24',
     readTime: '10 min read',
@@ -1001,6 +1010,21 @@ const POSTS: Record<string, BlogPostData> = {
       {
         question: 'Can I gift an Audible audiobook with a credit?',
         answer: 'Yes. When you click "Give as a Gift" on an audiobook page, you can pay with a credit instead of cash. The recipient claims the title and it is added to their library permanently.',
+      },
+      {
+        question: 'Can you gift Audible credits?',
+        answer:
+          'Not directly. Audible does not offer a standalone "gift credits" product. Instead, you have two alternatives: gift a specific audiobook paid for with your own credit, or buy a 1-credit gift (~$20) or membership gift that lets the recipient pick their own title.',
+      },
+      {
+        question: 'How do I gift an Audible membership?',
+        answer:
+          'Go to Audible.com, choose "Give a gift" from the menu, pick a membership length (1-credit ~$20, 3 months ~$45, or 12 months ~$150), enter the recipient email and a message, then pay. The recipient redeems the membership link and the plan activates on their account.',
+      },
+      {
+        question: 'Can I gift an Audible book to someone without a membership?',
+        answer:
+          'Yes. The recipient only needs a free Audible account to claim the gift. They can keep gifted audiobooks permanently without ever subscribing — a membership is only required to buy new titles with credits.',
       },
       {
         question: 'Does the recipient need an Audible membership to receive a gifted audiobook?',
@@ -1821,10 +1845,43 @@ const POSTS: Record<string, BlogPostData> = {
     slug: 'how-to-cancel-audible-subscription',
     title: 'Cancel Audible in 2026: 5 Steps to Keep Credits & Full Refund',
     description: 'Cancel Audible in 2026: 5 easy steps. Keep your audiobooks forever, spend credits before they expire, avoid fees. Full walkthrough.',
-    keywords: ['how to cancel audible subscription', 'cancel audible subscription steps', 'audible cancellation guide 2026'],
+    keywords: [
+      'how to cancel audible subscription',
+      'cancel audible membership',
+      'cancel audible keep credits',
+      'how to cancel audible on iphone',
+      'do you lose credits if you cancel audible',
+    ],
     date: '2026-07-27',
     readTime: '8 min read',
     category: 'Guide',
+    faq: [
+      {
+        question: 'Can I cancel my Audible subscription and keep my audiobooks?',
+        answer:
+          'Yes. Any audiobook you purchased with credits or cash remains in your library forever, even after cancellation. You can keep downloading and listening through the Audible app — your membership is only needed for new credits and Plus Catalog access.',
+      },
+      {
+        question: 'Do I lose my credits if I cancel Audible?',
+        answer:
+          'Yes. Unused credits are forfeited immediately when you cancel your membership, even if they were issued within the last 12 months. Spend all remaining credits on books you want to keep before starting the cancellation flow.',
+      },
+      {
+        question: 'How do I cancel Audible on my iPhone?',
+        answer:
+          'On iOS you cannot cancel inside the Audible app — you must cancel through Apple ID subscription settings: Settings > Your Name > Subscriptions > Audible > Cancel Subscription. This applies to anyone who subscribed via Apple in-app purchase.',
+      },
+      {
+        question: 'Is there a cancellation fee for Audible?',
+        answer:
+          'No. Audible does not charge a cancellation fee. Your membership ends at the end of the current billing period and you keep your purchased audiobooks. Just remember to spend credits and process any returns before you cancel.',
+      },
+      {
+        question: 'Can I return audiobooks before canceling my Audible membership?',
+        answer:
+          'Yes, and you should. Audible allows returns within 365 days of purchase. Returning books you do not want before canceling restores credits instantly (for credit purchases) or refunds cash to your card, so you never lose value at cancellation.',
+      },
+    ],
     content: (
       <>
         <p>Canceling your Audible subscription seems straightforward, but there are important steps to take to protect your credits and ensure you get a full refund if you've purchased books you want to return. This guide walks you through the entire process.</p>
@@ -1951,7 +2008,16 @@ const POSTS: Record<string, BlogPostData> = {
     slug: 'audible-return-refund-policy',
     title: 'Audible Return & Refund Policy 2026: 365-Day Guide to Full Refunds',
     description: 'Audible return policy explained: 365-day window, credit vs cash refund, step-by-step process, how to avoid account flags. Complete 2026 guide.',
-    keywords: ['audible return policy', 'audible refund process', 'audible return audiobook', 'how to return audible', 'audible refund credit'],
+    keywords: [
+      'audible return policy',
+      'audible refund process',
+      'audible return audiobook',
+      'how to return audible',
+      'audible refund credit',
+      'get a refund on audible',
+      'audible subscription refund',
+      'how many books can you return on audible',
+    ],
     date: '2026-07-27',
     updatedAt: '2026-08-24',
     readTime: '9 min read',
@@ -1976,6 +2042,16 @@ const POSTS: Record<string, BlogPostData> = {
       {
         question: 'Can I return an audiobook from the Plus Catalog?',
         answer: 'No. Books from the Plus Catalog are free with your subscription and cannot be returned. Only audiobooks purchased with credits or cash are eligible for returns.',
+      },
+      {
+        question: 'Can I get a refund on my Audible subscription?',
+        answer:
+          'If you cancel within the first month, Audible typically refunds your membership fee in full. After that, cancellation stops future billing but does not refund past months. Contact Audible customer service to request a goodwill refund — they often approve one-time exceptions for annual plans.',
+      },
+      {
+        question: 'Can you return a gifted audiobook on Audible?',
+        answer:
+          'Gifted audiobooks cannot be returned or exchanged by the recipient. However, if the recipient already owns the title or declines the gift, the sender gets the credit or payment automatically refunded.',
       },
     ],
     content: (
@@ -2071,6 +2147,14 @@ const POSTS: Record<string, BlogPostData> = {
           <Link href="/books/B002V0QCYU" className="text-primary underline">The Final Empire</Link>, and{ }
           <Link href="/books/B002V1OF70" className="text-primary underline">Dune</Link>.
         </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Can I Get a Refund on My Audible Subscription?</h2>
+        <p>Refunding the subscription itself works differently from refunding individual audiobooks:</p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
+          <p><strong>Monthly plan:</strong> Cancel within the first billing period for a full refund; otherwise cancellation just stops future charges.</p>
+          <p><strong>Annual plan:</strong> Audible typically refunds the unused portion of an annual membership if you cancel within the first year — prorated from your billing date.</p>
+          <p><strong>Free trial:</strong> Cancel before the trial ends and you are never charged. If billed accidentally, contact support for an instant refund.</p>
+        </div>
+        <p>For anything beyond the standard window, contact Audible customer service via live chat. They regularly approve one-time goodwill refunds, especially for annual plans where a full 12 months was charged up front. When requesting a refund, mention you did not use the service — most agents will process it immediately.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Regional Return Policies</h2>
         <p>Return policies vary by region. UK and EU customers have additional consumer protection rights including the right to cancel within 14 days under distance selling regulations. US customers are covered by Audible voluntary return policy rather than statutory rights. Always check your local consumer rights for additional protections.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When Returns Won't Work</h2>
