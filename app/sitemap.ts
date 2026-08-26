@@ -55,12 +55,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
-  // Blog article pages (lastModified = publish date, honest freshness signal)
+  // Blog article pages (lastModified = publish date, or updatedAt if freshened)
   var blogPosts = getAllPosts();
   var blogPages: MetadataRoute.Sitemap = blogPosts.map(function(post) {
     return {
       url: baseUrl + "/blog/" + post.slug,
-      lastModified: new Date(post.date),
+      lastModified: new Date(post.updatedAt || post.date),
       changeFrequency: "monthly" as const,
       priority: 0.5,
     };
