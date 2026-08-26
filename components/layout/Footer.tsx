@@ -75,6 +75,21 @@ export function Footer() {
                   {t.footer.dataset}
                 </Link>
               </li>
+              <li>
+                <Link href="/blog/audible-return-refund-policy" className="text-text-secondary hover:text-primary">
+                  {t.footer.refundGuide}
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog/audible-gift-audiobooks-guide" className="text-text-secondary hover:text-primary">
+                  {t.footer.giftGuide}
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog/how-to-cancel-audible-subscription" className="text-text-secondary hover:text-primary">
+                  {t.footer.cancelGuide}
+                </Link>
+              </li>
             </ul>
           </div>
 

@@ -8,6 +8,7 @@ import { AdUnit } from '@/components/analytics/AdUnit';
 import { buildAudibleTrialUrl } from '@/lib/utils/affiliate';
 import { useI18n } from '@/lib/i18n';
 import { useRegion } from '@/components/RegionProvider';
+import { RelatedArticles } from '@/components/RelatedArticles';
 
 import type { BlogPostData } from '@/data/blog/posts';
 
@@ -110,6 +111,10 @@ export function BlogDetailContent({ post }: BlogDetailContentProps) {
         slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT_BLOG_POST || ""}
         className="mt-12"
       />
-</article>
+
+      {/* Related Articles - 内链增强 */}
+      <RelatedArticles post={post} />
+
+    </article>
   );
 }

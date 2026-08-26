@@ -12,6 +12,7 @@ import {
 } from "@/components/seo/JsonLd";
 import { useI18n } from "@/lib/i18n";
 import { useRegion } from "@/components/RegionProvider";
+import { trackAffiliateClick } from "@/components/analytics/GoogleAnalytics";
 import { RegionSwitcher } from "@/components/RegionSwitcher";
 import { formatPrice, formatRating, formatNumber, formatDuration } from "@/lib/utils/format";
 import { AUDIBLE_CREDIT_VALUE } from "@/lib/config";
@@ -76,6 +77,7 @@ export function HomeContent({ topBooks, totalBooks, featuredLists }: HomeContent
               target="_blank"
               rel="noopener noreferrer sponsored"
               className="inline-flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 text-xs sm:text-sm md:text-base font-semibold rounded-md bg-primary text-white hover:bg-primary-hover transition-colors duration-150 shadow-sm"
+              onClick={() => trackAffiliateClick({ linkType: "trial", region })}
             >
               {t.hero.ctaPrimary}
               {t.hero.ctaSecondary}
@@ -178,6 +180,7 @@ export function HomeContent({ topBooks, totalBooks, featuredLists }: HomeContent
                       target="_blank"
                       rel="noopener noreferrer sponsored"
                       className="btn btn-primary text-[11px] sm:text-xs py-1.5 px-2 mt-2.5"
+                      onClick={() => trackAffiliateClick({ linkType: "product", region, asin: book.asin })}
                     >
                       {t.home.topPicksUseCredit}
                     </a>

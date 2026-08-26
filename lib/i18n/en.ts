@@ -70,6 +70,9 @@ export const en = {
     series: 'Series',
     compare: 'Compare',
     dataset: 'Dataset',
+    refundGuide: 'Return & Refund Policy',
+    giftGuide: 'How to Gift Audible',
+    cancelGuide: 'Cancel Audible Subscription',
     disclosure: 'Disclosure',
     disclosureText: 'As an Amazon Associate, {name} earns from qualifying purchases. Audible is a trademark of Amazon.com, Inc. or its affiliates. This site is not affiliated with or endorsed by Amazon. Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates in the United States and other countries.',
     privacy: 'Privacy Policy',
@@ -314,6 +317,10 @@ export const en = {
     lowValueDesc: 'Value Score {vs} is below 2. This book is short relative to its price, so spending a credit here wastes {waste} of credit value. Buy it directly on Amazon and save your credit for a longer book.',
     lowValueAction: 'Buy on Amazon directly',
     lowValueAlt: 'Browse high-value books instead',
+    editorPick: 'Editor\'s Pick',
+    editorPickDesc: 'Ranked #{rank} in {category} by Value Score. This book delivers exceptional value — {runtime} hours of listening at {costPerHour}/hour with a {rating}★ rating.',
+    categoryRank: 'Ranked #{rank} of {total} in {category}',
+    topRank: 'Top {category} pick',
   },
   // FAQ
   faq: {

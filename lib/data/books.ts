@@ -174,3 +174,48 @@ export function filterBooks(
     return true;
   });
 }
+
+/**
+ * 获取某本书在其主分类中的 Value Score 排名（从 1 开始）
+ * 返回 null 表示未找到或无分类
+ */
+export function findCategoryRank(asin: string): { rank: number; total: number; category: string } | null {
+  const cat = allBooks.find(b => b.asin === asin)?.categories?.[0];
+  if (!cat) return null;
+  const ranked = [...allBooks].sort((a, b) => b.valueScore - a.valueScore);
+  const idx = ranked.findIndex(b => b.asin === asin);
+  if (idx < 0) return null;
+  return { rank: idx + 1, total: ranked.length, category: cat };
+}
+
+/**
+ * 获取作者 slug（URL 友好格式）
+ */
+export function getAuthorSlug(author: string): string {
+  return author.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+/**
+ * 获取某作者的所有书籍
+ */
+export function getAuthorBooks(authorName: string): Book[] {
+  return allBooks.filter(b =>
+    b.author.toLowerCase() === authorName.toLowerCase()
+  );
+}
+
+/**
+ * 获取旁白 slug（URL 友好格式）
+ */
+export function getNarratorSlug(narrator: string): string {
+  return narrator.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+/**
+ * 获取某旁白朗读了的所有书籍
+ */
+export function getNarratorBooks(narratorName: string): Book[] {
+  return allBooks.filter(b =>
+    b.narrator && b.narrator.toLowerCase() === narratorName.toLowerCase()
+  );
+}
