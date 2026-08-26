@@ -31,6 +31,7 @@ import { Breadcrumb } from '@/components/Breadcrumb';
 import { AdUnit } from '@/components/analytics/AdUnit';
 import { useI18n } from '@/lib/i18n';
 import { useRegion } from '@/components/RegionProvider';
+import { trackAffiliateClick } from '@/components/analytics/GoogleAnalytics';
 import type { Book } from '@/lib/types';
 
 interface BookDetailContentProps {
@@ -69,6 +70,7 @@ export function BookDetailContent({ book, relatedBooks, categoryRank }: BookDeta
           rel="noopener noreferrer sponsored"
           title="Start your free 30-day Audible trial"
           className="inline-flex items-center gap-1 px-3 md:px-4 py-1.5 md:py-2 text-xs md:text-sm font-semibold rounded-md bg-primary text-white hover:bg-primary-hover transition-colors duration-150 whitespace-nowrap"
+          onClick={() => trackAffiliateClick({ linkType: 'trial', region, asin: book.asin })}
         >
           {t.trialBanner.cta}
           <ExternalLink className="h-3 w-3 md:h-4 md:w-4" />
@@ -252,6 +254,7 @@ export function BookDetailContent({ book, relatedBooks, categoryRank }: BookDeta
               target="_blank"
               rel="noopener noreferrer sponsored"
               className="btn btn-primary"
+              onClick={() => trackAffiliateClick({ linkType: 'product', region, asin: book.asin })}
             >
               {worthUsingCredit ? t.bookDetail.useCredit : t.bookDetail.buyDirectly}
               <ExternalLink className="h-4 w-4" />
@@ -263,6 +266,7 @@ export function BookDetailContent({ book, relatedBooks, categoryRank }: BookDeta
                 rel="noopener noreferrer sponsored"
                 title="Start your free 30-day Audible trial and get this book"
                 className="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold rounded-md border border-primary-300 text-primary hover:bg-primary-50 transition-colors"
+                onClick={() => trackAffiliateClick({ linkType: 'trial', region, asin: book.asin })}
               >
                 {t.bookDetail.getFreeWithTrial}
                 <ExternalLink className="h-4 w-4" />
@@ -293,6 +297,7 @@ export function BookDetailContent({ book, relatedBooks, categoryRank }: BookDeta
                 rel="noopener noreferrer sponsored"
                 title="Claim your free Audible trial credit"
                 className="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold rounded-md bg-primary text-white hover:bg-primary-hover transition-colors duration-150"
+                onClick={() => trackAffiliateClick({ linkType: 'trial', region, asin: book.asin })}
               >
                 {t.trialRecommend.cta}
                 <ExternalLink className="h-4 w-4" />

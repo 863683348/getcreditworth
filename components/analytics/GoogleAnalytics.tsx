@@ -29,6 +29,27 @@ function GaPageViewTracker() {
   return null;
 }
 
+/**
+ * GA4 event tracking helper for affiliate clicks.
+ * Events tracked:
+ * - affiliate_click: when user clicks an Amazon/Audible affiliate link
+ *   params: link_type (product/trial/coupon), region, asin
+ * - page_view: enhanced page view with additional params
+ */
+export function trackAffiliateClick(params: {
+  linkType: "product" | "trial" | "coupon";
+  region?: string;
+  asin?: string;
+}) {
+  if (typeof window === "undefined" || !(window as any).gtag) return;
+  (window as any).gtag("event", "affiliate_click", {
+    link_type: params.linkType,
+    region: params.region || "us",
+    asin: params.asin || "",
+    engagement_time_msec: 1,
+  });
+}
+
 export function GoogleAnalytics() {
   if (!GA_MEASUREMENT_ID) return null;
 
