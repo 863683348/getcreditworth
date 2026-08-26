@@ -174,3 +174,16 @@ export function filterBooks(
     return true;
   });
 }
+
+/**
+ * 获取某本书在其主分类中的 Value Score 排名（从 1 开始）
+ * 返回 null 表示未找到或无分类
+ */
+export function findCategoryRank(asin: string): { rank: number; total: number; category: string } | null {
+  const cat = allBooks.find(b => b.asin === asin)?.categories?.[0];
+  if (!cat) return null;
+  const ranked = [...allBooks].sort((a, b) => b.valueScore - a.valueScore);
+  const idx = ranked.findIndex(b => b.asin === asin);
+  if (idx < 0) return null;
+  return { rank: idx + 1, total: ranked.length, category: cat };
+}

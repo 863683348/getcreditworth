@@ -317,6 +317,10 @@ export const en = {
     lowValueDesc: 'Value Score {vs} is below 2. This book is short relative to its price, so spending a credit here wastes {waste} of credit value. Buy it directly on Amazon and save your credit for a longer book.',
     lowValueAction: 'Buy on Amazon directly',
     lowValueAlt: 'Browse high-value books instead',
+    editorPick: 'Editor\'s Pick',
+    editorPickDesc: 'Ranked #{rank} in {category} by Value Score. This book delivers exceptional value — {runtime} hours of listening at {costPerHour}/hour with a {rating}★ rating.',
+    categoryRank: 'Ranked #{rank} of {total} in {category}',
+    topRank: 'Top {category} pick',
   },
   // FAQ
   faq: {

@@ -12,7 +12,7 @@ import { AUDIBLE_CREDIT_VALUE } from "@/lib/config";
 import { getBooksByCategoryList } from "@/lib/api/controllers/book.controller";
 import { findBookSeries } from "@/lib/data/series";
 import { SeriesNav } from "@/components/SeriesNav";
-import { getAllBooks } from "@/lib/data/books";
+import { getAllBooks, findCategoryRank } from "@/lib/data/books";
 import type { Metadata } from "next";
 
 interface PageProps {
@@ -101,6 +101,7 @@ export default function BookDetailPage({ params }: PageProps) {
   const savingsVsCredit = book.price - AUDIBLE_CREDIT_VALUE;
   const worthUsingCredit = savingsVsCredit > 0;
   const canonicalUrl = buildCanonicalUrl(`/books/${book.asin}`);
+  const categoryRank = findCategoryRank(book.asin);
 
   // FAQ structured data for rich snippets — 差异化每本书的 FAQ
   const faqQuestions: { question: string; answer: string }[] = [
@@ -129,7 +130,7 @@ export default function BookDetailPage({ params }: PageProps) {
 
   return (
     <>
-      <BookDetailContent book={book} relatedBooks={relatedBooks} />
+      <BookDetailContent book={book} relatedBooks={relatedBooks} categoryRank={categoryRank} />
       {function () {
         var info = findBookSeries(book.title);
         if (!info) return null;

@@ -36,9 +36,10 @@ import type { Book } from '@/lib/types';
 interface BookDetailContentProps {
   book: Book;
   relatedBooks?: Book[];
+  categoryRank?: { rank: number; total: number; category: string } | null;
 }
 
-export function BookDetailContent({ book, relatedBooks }: BookDetailContentProps) {
+export function BookDetailContent({ book, relatedBooks, categoryRank }: BookDetailContentProps) {
   const { t } = useI18n();
   const { region } = useRegion();
 
@@ -174,6 +175,36 @@ export function BookDetailContent({ book, relatedBooks }: BookDetailContentProps
             <div className="mb-6 p-5 rounded-lg bg-bg-surface border border-border">
               <p className="text-sm text-text-primary leading-relaxed">
                 {book.description}
+              </p>
+            </div>
+          )}
+
+          {/* Editor's Pick — shown for high-value books (valueScore >= 8) */}
+          {book.valueScore >= 8 && categoryRank && (
+            <div className="mb-6 p-5 rounded-lg bg-gradient-to-br from-primary-50 to-amber-50 border border-primary-200">
+              <div className="flex items-center gap-2 mb-2">
+                <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold bg-primary text-white">
+                  {t.bookDetail.editorPick}
+                </span>
+                {categoryRank.rank <= 3 && (
+                  <span className="text-xs font-semibold text-primary">
+                    {t.bookDetail.topRank.replace('{category}', categoryRank.category)}
+                  </span>
+                )}
+              </div>
+              <p className="text-sm text-text-primary leading-relaxed">
+                {t.bookDetail.editorPickDesc
+                  .replace('{rank}', String(categoryRank.rank))
+                  .replace('{category}', categoryRank.category)
+                  .replace('{runtime}', `${book.runtimeHours.toFixed(1)}h`)
+                  .replace('{costPerHour}', formatPrice(book.costPerHour))
+                  .replace('{rating}', book.starRating.toFixed(1))}
+              </p>
+              <p className="text-xs text-text-muted mt-2">
+                {t.bookDetail.categoryRank
+                  .replace('{rank}', String(categoryRank.rank))
+                  .replace('{total}', String(categoryRank.total))
+                  .replace('{category}', categoryRank.category)}
               </p>
             </div>
           )}

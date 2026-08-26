@@ -224,6 +224,10 @@ export const zh = {
     lowValueDesc: "价值评分{vs}低于2。这本书时长相对较短，使用积分会浪费{waste}的积分价值。建议在亚马逊直接购买，把积分留给更长的书。",
     lowValueAction: "在亚马逊直接购买",
     lowValueAlt: "浏览高价值书籍",
+    editorPick: "编辑精选",
+    editorPickDesc: "在 {category} 类别中排名第 {rank} 位。这本书提供卓越的积分价值——{runtime} 小时收听时长，每 hour 成本 {costPerHour}，评分 {rating}★。",
+    categoryRank: "{category} 类别第 {rank} 名（共 {total} 本）",
+    topRank: "品类精选",
   },
   faq: {
     q1: "Audible积分价值评分是如何计算的？",
