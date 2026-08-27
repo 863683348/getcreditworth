@@ -29,12 +29,23 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
 
-      - name: Check for new seed files
+      - name: Check seed library health
         id: seed-check
         run: |
-          SEEDS=$(ls data/seeds-*.json 2>/dev/null | wc -l)
-          echo "seeds=$SEEDS" >> $GITHUB_OUTPUT
-          echo "Found $SEEDS seed files"
+          SEEDS=$(node -e "const fs=require('fs'); const seeds=new Set(); fs.readdirSync('data').filter(f=>f.startsWith('seeds-')&&f.endsWith('.json')).forEach(f=>{const d=require('./data/'+f); Object.keys(d).forEach(k=>seeds.add(k))}); console.log(seeds.size)")
+          THRESHOLD=300
+          echo "seed_count=$SEEDS" >> $GITHUB_OUTPUT
+          echo "Seed count: $SEEDS (threshold: $THRESHOLD)"
+          if [ "$SEEDS" -lt "$THRESHOLD" ]; then
+            echo "seed_low=true" >> $GITHUB_OUTPUT
+            echo "⚠️  Seed library is LOW, will regenerate"
+          else
+            echo "seed_low=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Regenerate seeds if low
+        if: steps.seed-check.outputs.seed_low == 'true'
+        run: node scripts/seed-healthcheck.mjs
 
       - name: Merge seed books
         if: steps.seed-check.outputs.seeds > 0
