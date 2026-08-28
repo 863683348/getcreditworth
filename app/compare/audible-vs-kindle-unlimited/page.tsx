@@ -183,7 +183,7 @@ export default function ComparePage() {
         <h2 className="text-xl font-bold text-text-primary mb-3">Bottom Line</h2>
         <p className="text-text-secondary">
           <strong>Audible</strong> is better for dedicated audiobook listeners who want to own their books and have access to the largest catalog.
-          <strong> Kindle Unlimited</strong> is better if you want both ebooks and audiobooks at a lower monthly price, and don't mind borrowing rather than owning.
+          <strong> Kindle Unlimited</strong> is better if you want both ebooks and audiobooks at a lower monthly price, and don&apos;t mind borrowing rather than owning.
         </p>
       </div>
 
