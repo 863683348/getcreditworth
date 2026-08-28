@@ -275,6 +275,17 @@ export const en = {
     readyToFind: 'Ready to find your next audiobook?',
     browseData: 'Browse our data-driven rankings to maximize your credit value.',
     viewTopBooks: 'View Top Books',
+    // Trial CTA copy (placed top / mid / bottom of articles)
+    trialCtaTopTitle: 'Start listening free',
+    trialCtaTopSub: 'Get 1 audiobook free ($14.95 value) with a 30-day Audible trial. Cancel anytime.',
+    trialCtaTopButton: 'Try Audible Free',
+    trialCtaMidTitle: 'Ready to start this audiobook?',
+    trialCtaMidSub: 'Start a free trial and use your first credit on any book — keep it forever.',
+    trialCtaMidButton: 'Get Your Free Book',
+    trialDisclaimer: 'Affiliate link — we may earn a commission at no extra cost to you.',
+    // Recommended books block (blog -> book detail internal links)
+    recommendTitle: "Editor's top picks for your credits",
+    recommendSub: 'Data-ranked by value score — the longest, highest-rated books per dollar.',
   },
 
   // Curated lists page

@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import { getPost, getPostSlugs } from "@/lib/api/controllers/blog.controller";
+import { getTopBooks } from "@/lib/data/books";
 import { ArticleJsonLd, BreadcrumbListJsonLd, FaqPageJsonLd } from "@/components/seo/JsonLd";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import { SITE_CONFIG } from "@/lib/config";
@@ -59,6 +60,7 @@ export const dynamicParams = false;
 export default function BlogPostPage({ params }: PageProps) {
   const post = getPost(params.slug);
   if (!post) notFound();
+  const relatedBooks = getTopBooks(4);
   return (
     <>
       <Breadcrumb
@@ -68,7 +70,7 @@ export default function BlogPostPage({ params }: PageProps) {
           { label: post.title },
         ]}
       />
-      <BlogDetailContent post={post} />
+      <BlogDetailContent post={post} relatedBooks={relatedBooks} />
       <RelatedArticles post={{ ...post }} />
       <ArticleJsonLd
         title={post.title}
