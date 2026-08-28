@@ -12,7 +12,10 @@ export function generateStaticParams() {
   const narrators = new Set<string>();
   for (const book of getAllBooks()) {
     if (book.narrator) {
-      narrators.add(getNarratorSlug(book.narrator));
+      const slug = getNarratorSlug(book.narrator);
+      if (slug && slug.length > 0) {
+        narrators.add(slug);
+      }
     }
   }
   return Array.from(narrators).map((slug) => ({ slug }));

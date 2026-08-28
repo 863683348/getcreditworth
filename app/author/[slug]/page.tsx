@@ -9,9 +9,10 @@ interface PageProps {
 }
 
 export function generateStaticParams() {
-  return getAllBooks().map((book) => ({
-    slug: getAuthorSlug(book.author),
-  }));
+  return getAllBooks()
+    .map((book) => getAuthorSlug(book.author))
+    .filter((slug) => slug && slug.length > 0)
+    .map((slug) => ({ slug }));
 }
 
 export function generateMetadata({ params }: PageProps): Metadata {
