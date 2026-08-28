@@ -45,3 +45,7 @@ public/data/books-*.json
 
 # Temporary fresh clone used for l'x-path git repair (never commit)
 getcreditworth-fresh/
+
+# generate-content 脚本运行时产生的备份/干跑产物（非源码）
+data/blog/posts.tsx.bak
+data/blog/posts.tsx.dryrun

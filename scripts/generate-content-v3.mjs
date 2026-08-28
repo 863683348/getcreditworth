@@ -4,15 +4,24 @@
  */
 
 import { readFileSync, writeFileSync } from 'fs';
+import { validatePostsSource } from './validate-posts.mjs';
 
 const books = JSON.parse(readFileSync('data/books.json', 'utf8'));
 const postsContent = readFileSync('data/blog/posts.tsx', 'utf8');
 
 const existingSlugs = new Set();
-const slugRegex = /slug:\s*'([^']+)'/g;
+// 仅匹配 POSTS 对象内的帖子条目（2 空格缩进的键），避免误匹配 content 内文本
+const slugRegex = /^  '([^']+)':\s*\{/gm;
 let m;
 while ((m = slugRegex.exec(postsContent)) !== null) {
   existingSlugs.add(m[1]);
+}
+// 运行内去重：防止同一批生成里出现重复 slug（例如两本书 slug 撞车）
+const addedSlugs = new Set();
+function alreadyUsed(slug) {
+  if (existingSlugs.has(slug) || addedSlugs.has(slug)) return true;
+  addedSlugs.add(slug);
+  return false;
 }
 
 const qualityBooks = books
@@ -49,7 +58,7 @@ for (const book of qualityBooks) {
   if (reviewCount >= 60) break;
   const titleSafe = esc(book.title);
   const slug = `${book.title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}-review`;
-  if (existingSlugs.has(slug) || slug.length < 5) continue;
+  if (alreadyUsed(slug) || slug.length < 5) continue;
   reviewCount++;
 
   const runtimeHrs = (book.runtimeMinutes / 60).toFixed(1);
@@ -116,6 +125,7 @@ for (let i = 0; i < top50.length && vsCount < 20; i++) {
     if (!catsA.some(c => catsB.includes(c))) {
       vsCount++;
       const slug = 'vs-' + top50[i].asin + '-' + top50[j].asin;
+      if (alreadyUsed(slug)) continue;
       const winner = top50[i].valueScore >= top50[j].valueScore ? top50[i] : top50[j];
       const loser = top50[i].valueScore >= top50[j].valueScore ? top50[j] : top50[i];
 
@@ -200,6 +210,7 @@ const HOW_TOS = [
 ];
 
 for (const ht of HOW_TOS) {
+  if (alreadyUsed(ht.slug)) continue;
   lines.push("  '" + ht.slug + "': {");
   lines.push("    slug: '" + ht.slug + "',");
   lines.push("    title: '" + ht.title + "',");
@@ -217,8 +228,56 @@ for (const ht of HOW_TOS) {
 }
 console.log('how-to:', HOW_TOS.length, '篇');
 
-// 保存追加内容
-const appendContent = '\n' + lines.join('\n') + '\n';
-writeFileSync('data/blog/append-posts.txt', appendContent, 'utf8');
-console.log('\n已写入 data/blog/append-posts.txt (' + appendContent.length + ' 字符)');
-console.log('总计新增博客:', reviewCount + vsCount + HOW_TOS.length, '篇');
+// ============ 直接重写 posts.tsx（消灭人工粘贴环节，避免重复/漏字段/孤立逗号） ============
+if (lines.length === 0) {
+  console.log('\n没有需要新增的博客（slug 均已存在）。未修改 posts.tsx。');
+  process.exit(0);
+}
+
+// 保留原文件换行风格（posts.tsx 为 CRLF）
+const EOL = postsContent.includes('\r\n') ? '\r\n' : '\n';
+const newBlock = lines.join(EOL);
+
+// 定位 POSTS 对象的闭合 `}；（其后紧跟 export function getBlogPost），兼容 CRLF
+const CLOSING = /\r?\n};\r?\n\r?\nexport function getBlogPost/;
+if (!CLOSING.test(postsContent)) {
+  console.error('ERROR: 无法在 posts.tsx 中定位 POSTS 闭合标记，已中止写入以防破坏文件。');
+  process.exit(1);
+}
+
+const updated = postsContent.replace(
+  CLOSING,
+  newBlock + EOL + EOL + '};' + EOL + EOL + 'export function getBlogPost'
+);
+
+const DRY_RUN = process.argv.includes('--dry-run');
+if (DRY_RUN) {
+  // 干跑：只写到临时文件并自检，不触碰真实 posts.tsx
+  writeFileSync('data/blog/posts.tsx.dryrun', updated, 'utf8');
+  writeFileSync('data/blog/append-posts.txt', '\n' + newBlock + '\n', 'utf8');
+  const issues = validatePostsSource(updated);
+  if (issues.length > 0) {
+    console.error('ERROR: 干跑生成的文件未通过自检。问题:');
+    for (const i of issues) console.error('  - ' + i);
+    process.exit(1);
+  }
+  console.log('\n✅ [DRY-RUN] 校验通过，将新增 ' + addedSlugs.size + ' 篇，已写入 posts.tsx.dryrun（未改动真实文件）');
+  process.exit(0);
+}
+
+// 写前备份（保留上一份完好版本）
+writeFileSync('data/blog/posts.tsx.bak', postsContent, 'utf8');
+// 同时保留一份新增片段日志，便于审计
+writeFileSync('data/blog/append-posts.txt', '\n' + newBlock + '\n', 'utf8');
+
+// 自检：写入后立刻校验，失败则回滚到备份
+const issues = validatePostsSource(updated);
+if (issues.length > 0) {
+  writeFileSync('data/blog/posts.tsx', postsContent); // 回滚
+  console.error('ERROR: 生成的 posts.tsx 未通过自检，已回滚。问题:');
+  for (const i of issues) console.error('  - ' + i);
+  process.exit(1);
+}
+
+writeFileSync('data/blog/posts.tsx', updated, 'utf8');
+console.log('\n✅ 已直接写入 data/blog/posts.tsx（新增 ' + addedSlugs.size + ' 篇，已通过自检）');

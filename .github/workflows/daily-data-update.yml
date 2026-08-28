@@ -29,6 +29,10 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
 
+      - name: Validate posts.tsx integrity
+        run: node scripts/validate-posts.mjs
+        continue-on-error: false
+
       - name: Check seed library health
         id: seed-check
         run: |
