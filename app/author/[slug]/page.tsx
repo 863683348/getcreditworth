@@ -1,4 +1,4 @@
-import { getAllAuthorSlugs, getAuthorBooks } from "@/lib/data/books";
+import { getAuthorBooks } from "@/lib/data/books";
 import { BookTable } from "@/components/BookTable";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { BookJsonLd, WebsiteJsonLd } from "@/components/seo/JsonLd";
@@ -8,9 +8,9 @@ interface PageProps {
   params: { slug: string };
 }
 
-export function generateStaticParams() {
-  return getAllAuthorSlugs().map((slug) => ({ slug }));
-}
+// ISR: 不预渲染全部作者页（曾因 ~6k 页 + 超长 slug 撞 Vercel 导出上限）。
+// 改为按需生成并缓存 1 天，命中 CDN 边缘缓存后与预渲染页同速。
+export const revalidate = 86400;
 
 export function generateMetadata({ params }: PageProps): Metadata {
   const authorName = decodeURIComponent(params.slug.replace(/-/g, " "));
