@@ -109,7 +109,7 @@
       "B0F2NF164Y",
       "B085LRBBXJ"
     ],
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-29"
   },
   {
     "slug": "best-history-audiobooks",
@@ -179,6 +179,7 @@
     "bookAsins": [
       "B012BHP112",
       "B002UZZCJW",
+      "B0GYZVCBZW",
       "B07YCS34V9",
       "B07P5G663R",
       "B0H3M91RWV",
@@ -205,10 +206,9 @@
       "B079YWXKZ7",
       "B06VX4GHHG",
       "B002VA9U0S",
-      "PENDING_8f2ajpma",
-      "B002V5HAL4"
+      "PENDING_8f2ajpma"
     ],
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-29"
   },
   {
     "slug": "best-romance-audiobooks",
@@ -297,7 +297,7 @@
       "B0CYHY66HW",
       "B0BXBJYZW5"
     ],
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-29"
   },
   {
     "slug": "best-science-fiction-for-credits",
@@ -336,7 +336,7 @@
       "B0DN39DRZ3",
       "B09LMJSXTX"
     ],
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-29"
   },
   {
     "slug": "best-mystery-for-credits",
@@ -375,7 +375,7 @@
       "B0DT34WSTZ",
       "B0H8ZJ48C2"
     ],
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-29"
   },
   {
     "slug": "best-romance-for-credits",
@@ -414,7 +414,7 @@
       "1603691634",
       "B0GWFGNX3H"
     ],
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-29"
   },
   {
     "slug": "best-history-for-credits",
@@ -453,7 +453,7 @@
       "B00CJD3K08",
       "B01H41BUZG"
     ],
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-29"
   },
   {
     "slug": "best-biography-for-credits",
@@ -492,7 +492,7 @@
       "B002UZLEFS",
       "B004U74OZQ"
     ],
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-29"
   },
   {
     "slug": "best-business-for-credits",
@@ -531,7 +531,7 @@
       "059339402X",
       "1638410240"
     ],
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-29"
   },
   {
     "slug": "best-thriller-for-credits",
@@ -570,7 +570,7 @@
       "B0DT34WSTZ",
       "B0H8ZJ48C2"
     ],
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-29"
   },
   {
     "slug": "best-classic-for-credits",
@@ -590,6 +590,7 @@
       "B0CL7W1WNR",
       "B0FW6NVNQK",
       "B0FH5L9DZT",
+      "B0GS3JVM4M",
       "B00H86K5AE",
       "B0D8C2FRDN",
       "B0H2S8HVQ6",
@@ -606,9 +607,8 @@
       "B0H2SC2XSS",
       "B0CJFNKFHT",
       "B0CMV6ZB5T",
-      "024142254X",
-      "B08PL3HYTR"
+      "024142254X"
     ],
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-29"
   }
 ]
