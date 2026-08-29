@@ -87,7 +87,7 @@ export function BlogDetailContent({ post, relatedBooks }: BlogDetailContentProps
           rel="noopener noreferrer sponsored"
           title="Start your free 30-day Audible trial"
           className="inline-flex items-center gap-1 px-3 md:px-4 py-1.5 md:py-2 text-xs md:text-sm font-semibold rounded-md bg-primary text-white hover:bg-primary-hover transition-colors duration-150 whitespace-nowrap"
-          onClick={() => trackAffiliateClick({ linkType: 'trial', region })}
+          onClick={() => trackAffiliateClick({ linkType: 'trial', region, placement: 'blog_top' })}
         >
           {t.blogDetail.trialCtaTopButton}
           <ExternalLink className="h-3 w-3 md:h-4 md:w-4" />
@@ -113,7 +113,7 @@ export function BlogDetailContent({ post, relatedBooks }: BlogDetailContentProps
           rel="noopener noreferrer sponsored"
           title="Start your free 30-day Audible trial"
           className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold rounded-md bg-primary text-white hover:bg-primary-hover transition-colors"
-          onClick={() => trackAffiliateClick({ linkType: 'trial', region })}
+          onClick={() => trackAffiliateClick({ linkType: 'trial', region, placement: 'blog_mid' })}
         >
           {t.blogDetail.trialCtaMidButton}
           <ExternalLink className="h-4 w-4" />
@@ -165,7 +165,7 @@ export function BlogDetailContent({ post, relatedBooks }: BlogDetailContentProps
           rel="noopener noreferrer sponsored"
           title="Start your free 30-day Audible trial"
           className="inline-flex items-center gap-2 px-5 py-2.5 text-sm font-semibold rounded-md bg-primary text-white hover:bg-primary-hover transition-colors"
-          onClick={() => trackAffiliateClick({ linkType: 'trial', region })}
+          onClick={() => trackAffiliateClick({ linkType: 'trial', region, placement: 'blog_bottom' })}
         >
           Try Audible Free for 30 Days
           <ExternalLink className="h-4 w-4" />

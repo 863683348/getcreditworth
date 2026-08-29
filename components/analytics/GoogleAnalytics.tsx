@@ -33,19 +33,25 @@ function GaPageViewTracker() {
  * GA4 event tracking helper for affiliate clicks.
  * Events tracked:
  * - affiliate_click: when user clicks an Amazon/Audible affiliate link
- *   params: link_type (product/trial/coupon), region, asin
+ *   params: link_type (product/trial/coupon), region, asin, placement, page_path
  * - page_view: enhanced page view with additional params
+ *
+ * placement / page_path 用于定位「哪个页面哪个位置的 CTA 真正带来了点击」，
+ * 以及在 GA4 里统计真实浏览器点击数，与 Amazon 后台的点击数做对比来评估流量质量。
  */
 export function trackAffiliateClick(params: {
   linkType: "product" | "trial" | "coupon";
   region?: string;
   asin?: string;
+  placement?: string;
 }) {
   if (typeof window === "undefined" || !(window as any).gtag) return;
   (window as any).gtag("event", "affiliate_click", {
     link_type: params.linkType,
     region: params.region || "us",
     asin: params.asin || "",
+    placement: params.placement || "",
+    page_path: window.location.pathname || "",
     engagement_time_msec: 1,
   });
 }

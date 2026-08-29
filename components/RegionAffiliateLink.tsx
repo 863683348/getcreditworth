@@ -12,20 +12,24 @@
 import type { ReactNode } from "react";
 import { useRegion } from "@/components/RegionProvider";
 import { buildAudibleProductUrl } from "@/lib/utils/affiliate";
+import { trackAffiliateClick } from "@/components/analytics/GoogleAnalytics";
 
 interface RegionAffiliateLinkProps {
   asin: string;
   title?: string;
   className?: string;
   children: ReactNode;
+  /** 埋点位置标识，用于在 GA4 中区分不同页面的 CTA 表现 */
+  placement?: string;
 }
 
-export function RegionAffiliateLink({ asin, title, className, children }: RegionAffiliateLinkProps) {
+export function RegionAffiliateLink({ asin, title, className, children, placement }: RegionAffiliateLinkProps) {
   const { region } = useRegion();
   return (
     <a
       href={buildAudibleProductUrl(asin, region, title)}
       rel="nofollow sponsored"
+      onClick={() => trackAffiliateClick({ linkType: "product", region, asin, placement: placement || "region_link" })}
       className={className}
     >
       {children}

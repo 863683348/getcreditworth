@@ -115,7 +115,7 @@ export function BookTable({ books, showRank = true, startRank = 1 }: BookTablePr
                   target="_blank"
                   rel="noopener noreferrer sponsored"
                   className="inline-flex items-center gap-0.5 text-xs text-primary hover:text-primary-hover font-medium whitespace-nowrap"
-                  onClick={() => trackAffiliateClick({ linkType: "product", region, asin: book.asin })}
+                  onClick={() => trackAffiliateClick({ linkType: "product", region, asin: book.asin, placement: "book_table" })}
                 >
                   {t.table.buy}
                   <ExternalLink className="h-3 w-3" />

@@ -8,6 +8,7 @@ import { formatDuration, formatPrice, formatRating } from '@/lib/utils/format';
 import { useI18n } from '@/lib/i18n';
 import { useRegion } from '@/components/RegionProvider';
 import { buildAudibleProductUrl } from '@/lib/utils/affiliate';
+import { trackAffiliateClick } from '@/components/analytics/GoogleAnalytics';
 import type { Book } from '@/lib/types';
 
 interface PaginatedBookTableProps {
@@ -101,6 +102,7 @@ export function PaginatedBookTable({
                     <a
                       href={buildAudibleProductUrl(book.asin, region, book.title)}
                       rel="nofollow sponsored"
+                      onClick={() => trackAffiliateClick({ linkType: "product", region, asin: book.asin, placement: "book_table_paged" })}
                       className="inline-block px-3 py-1 bg-primary text-white text-xs rounded-md hover:bg-primary-dark transition-colors"
                     >
                       {t.table.buy}

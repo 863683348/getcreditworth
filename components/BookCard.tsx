@@ -126,7 +126,7 @@ export function BookCard({ book, rank, variant = "default" }: BookCardProps) {
             target="_blank"
             rel="noopener noreferrer sponsored"
             className="btn btn-primary text-xs py-1.5 px-2.5 sm:px-3 min-h-[32px] sm:min-h-[36px]"
-            onClick={() => trackAffiliateClick({ linkType: "product", region, asin: book.asin })}
+            onClick={() => trackAffiliateClick({ linkType: "product", region, asin: book.asin, placement: "book_card" })}
           >
             {t.bookCard.useCredit}
             <ExternalLink className="h-3 w-3" />
