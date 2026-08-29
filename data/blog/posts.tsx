@@ -8282,3 +8282,42 @@ export function getAllBlogPosts(): BlogPost[] {
     .map(({ content, ...meta }) => meta)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
+  'the-neutronium-alchemist': {
+    slug: 'the-neutronium-alchemist',
+    title: 'The Neutronium Alchemist: Peter F. Hamilton Review',
+    description: 'Review of The Neutronium Alchemist by Peter F. Hamilton, the epic conclusion to the Night\'s Dawn Trilogy. 25 hours of space opera at one Audible credit.',
+    keywords: ['neutronium alchemist audiobook', 'night\'s dawn trilogy', 'space opera series', 'peter f hamilton audiobook'],
+    date: '2026-08-30',
+    readTime: '12 min read',
+    category: 'Review',
+    content: (
+      <>
+        <p>The Neutronium Alchemist by Peter F. Hamilton is the third and final installment in the Night\'s Dawn Trilogy, a space opera epic that spans centuries and explores humanity\'s expansion across the galaxy. This audiobook, narrated by the talented Stephen Fuller, runs approximately 25 hours and delivers the satisfying conclusion to one of science fiction\'s most ambitious trilogies.</p>
+        
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Story</h2>
+        <p>Set in the far future where humanity has spread across the stars, The Neutronium Alchemist follows multiple storylines as Earth faces an existential crisis. The novel introduces the Churn, a phenomenon that destroys matter at the quantum level, threatening all life in the galaxy. The characters — from soldiers and politicians to scientists and common citizens — must confront this unprecedented threat while dealing with personal struggles and moral dilemmas.</p>
+        <p>Hamilton\'s signature strength lies in world-building. The Neutronium Alchemist expands on the established universe with new technologies, alien species, and political factions that feel lived-in and realistic. The quantum physics concepts are woven into the narrative without becoming inaccessible, making hard science fiction approachable for general readers.</p>
+        
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What Makes This Audiobook Stand Out</h2>
+        <p>Stephen Fuller\'s narration brings depth to Hamilton\'s large cast of characters. Each voice is distinct, and the pacing matches the story\'s tension perfectly. The audiobook format allows listeners to immerse themselves in the galaxy-spanning narrative without the intimidation of a 900+ page novel.</p>
+        <p>The themes of sacrifice, survival, and what it means to be human in an expanded universe resonate throughout. Hamilton doesn\'t shy away from difficult questions about consciousness, mortality, and the cost of progress.</p>
+        
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Should You Credit This Book?</h2>
+        <p><strong>For Audible Credit Value:</strong> ★★★★☆ (4/5) — At 25 hours, this is excellent value for one credit. The Night\'s Dawn Trilogy as a whole offers over 70 hours of content, making it one of the best credit-to-hours ratios in science fiction.</p>
+        <p><strong>For New Listeners:</strong> The trilogy works best in order (Pandora\'s Star, Ephemia\'s Gold, The Neutronium Alchemist). Starting with book three means missing crucial setup, but the story still stands on its own for listeners who prefer jumping into complex narratives.</p>
+        <p><strong>For Space Opera Fans:</strong> Essential listening. This trilogy represents some of the best space opera writing from the early 2000s, and The Neutronium Alchemist delivers a satisfying conclusion to the epic.</p>
+        
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">FAQ</h2>
+        <p><strong>Q: Do I need to read the first two books to enjoy The Neutronium Alchemist?</strong></p>
+        <p>A: While the trilogy is designed to be read in order, The Neutronium Alchemist does a decent job of recapping key events. However, you\'ll miss emotional payoffs and character development from the earlier books.</p>
+        <p><strong>Q: How does Stephen Fuller\'s narration compare to previous Night\'s Dawn audiobooks?</strong></p>
+        <p>A: Fuller maintains consistency across all three books, providing reliable narration that serves Hamilton\'s complex narrative structure well.</p>
+        <p><strong>Q: Is this book suitable for casual sci-fi listeners?</strong></p>
+        <p>A: The Neutronium Alchemist is dense with technical detail and political intrigue. Casual listeners should be prepared for a commitment, but those who enjoy deep world-building will find it rewarding.</p>
+        
+        <p>---</p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">About getcreditworth.com</h2>
+        <p>Looking for more audiobook reviews and credit-value analysis? Visit [getcreditworth.com](/) to find out which Audible books are actually worth your credits. Our [calculator](/calculator) helps you maximize every credit, and our [blog](/blog) has hundreds of reviews across every genre.</p>
+      </>
+    ),
+  },
