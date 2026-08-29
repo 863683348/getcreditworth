@@ -8264,24 +8264,7 @@ const POSTS: Record<string, BlogPostData> = {
         <p>**Q: How long is the audiobook?**</p>
         </>,
   },
-};
 
-export function getBlogPost(slug: string): BlogPostData | undefined {
-  return POSTS[slug];
-}
-
-export function getBlogSlugs(): string[] {
-  return Object.keys(POSTS);
-}
-
-/**
- * 获取全部博客文章元数据（不含 content），按日期倒序（最新在前）
- */
-export function getAllBlogPosts(): BlogPost[] {
-  return Object.values(POSTS)
-    .map(({ content, ...meta }) => meta)
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-}
   'the-neutronium-alchemist': {
     slug: 'the-neutronium-alchemist',
     title: 'The Neutronium Alchemist: Peter F. Hamilton Review',
@@ -8321,3 +8304,22 @@ export function getAllBlogPosts(): BlogPost[] {
       </>
     ),
   },
+
+};
+
+export function getBlogPost(slug: string): BlogPostData | undefined {
+  return POSTS[slug];
+}
+
+export function getBlogSlugs(): string[] {
+  return Object.keys(POSTS);
+}
+
+/**
+ * 获取全部博客文章元数据（不含 content），按日期倒序（最新在前）
+ */
+export function getAllBlogPosts(): BlogPost[] {
+  return Object.values(POSTS)
+    .map(({ content, ...meta }) => meta)
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+}
