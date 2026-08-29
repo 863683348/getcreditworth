@@ -1,8 +1,12 @@
 ﻿import type { Book } from "@/lib/types";
+import { splitNames, nameToSlug } from "@/lib/utils/slug";
+import { SITE_CONFIG } from "@/lib/config";
 
 // Blog author name (pending multi-author support)
 const BLOG_AUTHOR = "GetCreditWorth";
 const BLOG_AUTHOR_URL = "https://getcreditworth.com/about";
+
+const SITE_URL = SITE_CONFIG.url;
 
 interface JsonLdProps {
   data: Record<string, unknown>;
@@ -18,34 +22,59 @@ export function JsonLd({ data }: JsonLdProps) {
 }
 
 export function BookJsonLd({ book }: { book: Book }) {
+  // 作者可能含多人（"A, B & C"），拆分成多个 Person 并各自链接到作者页 @id
+  const authors = splitNames(book.author);
+  const authorSchema = authors.length
+    ? authors.map((name) => ({
+        "@type": "Person",
+        name,
+        "@id": `${SITE_URL}/author/${nameToSlug(name)}`,
+      }))
+    : { "@type": "Person", name: book.author };
+
+  const narrators = splitNames(book.narrator);
+  const readBySchema = narrators.length
+    ? narrators.map((name) => ({
+        "@type": "Person",
+        name,
+        "@id": `${SITE_URL}/narrator/${nameToSlug(name)}`,
+      }))
+    : book.narrator
+      ? { "@type": "Person", name: book.narrator }
+      : undefined;
+
   const schema = {
     "@context": "https://schema.org",
     "@type": "Book",
     name: book.title,
-    author: {
-      "@type": "Person",
-      name: book.author,
-    },
+    author: authorSchema,
     bookFormat: "https://schema.org/AudiobookFormat",
-    ...(book.narrator && {
-      readBy: {
-        "@type": "Person",
-        name: book.narrator,
+    ...(readBySchema && { readBy: readBySchema }),
+    // reviewCount 为 0 时不输出 aggregateRating（避免触发 Google 结构化数据告警）
+    ...(book.reviewCount > 0 && {
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: book.starRating.toString(),
+        reviewCount: book.reviewCount.toString(),
       },
     }),
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: book.starRating.toString(),
-      reviewCount: book.reviewCount.toString(),
-    },
     offers: {
       "@type": "Offer",
       price: book.price.toString(),
       priceCurrency: book.currency,
+      availability: "https://schema.org/InStock",
     },
     ...(book.publisher && { publisher: book.publisher }),
     ...(book.releaseDate && { datePublished: book.releaseDate }),
     url: book.detailPageUrl,
+    image: {
+      "@type": "ImageObject",
+      url: book.coverImageUrl,
+    },
+    brand: {
+      "@type": "Brand",
+      name: "Audible",
+    },
   };
   return <JsonLd data={schema} />;
 }
@@ -103,9 +132,16 @@ export function OrganizationJsonLd() {
     description:
       "Audible credit value optimizer — find the best audiobooks to spend your credits on with data-driven value scores.",
     foundingDate: "2024",
+   sameAs: [
+      "https://twitter.com/getcreditworth",
+      "https://www.linkedin.com/company/getcreditworth",
+    ],
+    knowsAbout: ["Audible", "audiobooks", "credit optimization", "value scoring", "personal finance"],
     logo: {
       "@type": "ImageObject",
       url: "https://getcreditworth.com/favicon.svg",
+      width: 64,
+      height: 64,
     },
   };
   return <JsonLd data={schema} />;

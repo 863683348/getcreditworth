@@ -17,6 +17,7 @@ import { useRegion } from "@/components/RegionProvider";
 import { useFavorites } from "@/lib/hooks/useFavorites";
 import { Heart } from "lucide-react";
 import { trackAffiliateClick } from "@/components/analytics/GoogleAnalytics";
+import { splitNames, nameToSlug } from "@/lib/utils/slug";
 
 interface BookCardProps {
   book: Book;
@@ -67,7 +68,18 @@ export function BookCard({ book, rank, variant = "default" }: BookCardProps) {
               </h3>
             </Link>
             <p className="text-xs sm:text-sm text-text-secondary mt-0.5 truncate">
-              {t.bookCard.by} {book.author}
+              {t.bookCard.by}{" "}
+              {splitNames(book.author).map((name, i, arr) => (
+                <span key={name}>
+                  <Link
+                    href={`/author/${nameToSlug(name)}`}
+                    className="hover:text-primary hover:underline"
+                  >
+                    {name}
+                  </Link>
+                  {i < arr.length - 1 ? ", " : ""}
+                </span>
+              ))}
             </p>
           </div>
           <button

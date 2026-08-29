@@ -121,6 +121,32 @@ export function HomeContent({ topBooks, totalBooks, featuredLists }: HomeContent
           </div>
         </div>
 
+        {/* Definition / Cheat Sheet — 可被 AI 直接引用的定义块 (Citability) */}
+        <section
+          id="what-is-audible-credit"
+          className="mb-8 p-4 sm:p-6 rounded-xl bg-bg-surface border border-border"
+        >
+          <div className="flex items-center gap-2 mb-3">
+            <Info className="h-5 w-5 text-primary flex-shrink-0" />
+            <h2 className="text-lg sm:text-xl font-bold text-text-primary">
+              What Is an Audible Credit Worth?
+            </h2>
+          </div>
+          <p className="text-sm text-text-secondary leading-relaxed mb-3">
+            An Audible credit is worth{" "}
+            <strong className="text-text-primary">${AUDIBLE_CREDIT_VALUE}</strong> — the price
+            of one credit on the US Premium Plus plan. A credit is the better deal whenever an
+            audiobook&apos;s list price is above that amount, especially for long, highly-rated
+            titles.
+          </p>
+          <div className="p-3 rounded-lg bg-bg-base border border-border">
+            <p className="text-xs text-text-muted mb-1">Value Score formula</p>
+            <div className="font-mono text-sm text-text-primary overflow-x-auto">
+              Value Score = (hours &times; rating) &divide; price
+            </div>
+          </div>
+        </section>
+
         {/* Region switcher (Data source) */}
         <RegionSwitcher />
 

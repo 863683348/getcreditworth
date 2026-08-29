@@ -321,6 +321,7 @@ export const en = {
     similarAudiobooksTitle: 'Similar Audiobooks Worth Your Credit',
     recommendedCredit: 'Recommended: Use a credit.',
     considerBuying: 'Consider buying directly.',
+    creditVerdict: 'Credit Verdict',
     recommendedDesc: 'This book costs {price} ({percent}% more than a credit\'s {creditValue} value). You save {savings} by using a credit.',
     considerBuyingDesc: 'This book costs {price} which is less than a credit\'s value ({creditValue}). Save your credit for a more expensive book.',
     coverAlt: 'Cover of {title}',

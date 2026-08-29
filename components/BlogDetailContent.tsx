@@ -56,6 +56,16 @@ export function BlogDetailContent({ post, relatedBooks }: BlogDetailContentProps
             {post.readTime}
           </span>
         </div>
+        {/* 作者署名 + 更新时间（E-E-A-T 信任信号） */}
+        <div className="mt-2 text-xs text-text-muted">
+          By{" "}
+          <span className="text-text-secondary font-medium">
+            GetCreditWorth Editorial Team
+          </span>
+          {post.updatedAt && post.updatedAt !== post.date && (
+            <span> · Updated {formatDate(post.updatedAt)}</span>
+          )}
+        </div>
       </header>
 
       {/* Top inline trial banner — 顶部显眼 CTA（A2） */}

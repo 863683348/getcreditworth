@@ -9,6 +9,7 @@ import curatedListsRaw from '@/data/curated-lists.json';
 import categoriesRaw from '@/data/categories.json';
 import type { Book, BookRawData, CompareBook, CuratedList, ListBook } from '@/lib/types';
 import { calculateAllScores } from '@/lib/calc/value-score';
+import { getAuthorSlug, getNarratorSlug, splitNames } from '@/lib/utils/slug';
 
 // 过滤占位符书籍：PENDING_*/FINAL_* 为数据管道未处理完成的标记，
 // 不应出现在站点或 sitemap 中（防止定时任务或脏数据污染线上）
@@ -191,21 +192,7 @@ export function findCategoryRank(asin: string): { rank: number; total: number; c
 /**
  * 获取作者 slug（URL 友好格式）
  */
-export function getAuthorSlug(author: string): string {
-  return author.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-}
-
-/**
- * 拆分可能含多个作者/旁白的字段（逗号 / & / and 分隔）
- * 例如 "A, B & C" -> ["A", "B", "C"]
- */
-function splitNames(field?: string): string[] {
-  if (!field) return [];
-  return field
-    .split(/,|&|\band\b/i)
-    .map((s) => s.trim())
-    .filter((s) => s.length > 0);
-}
+export { getAuthorSlug, splitNames };
 
 /**
  * 获取所有作者 slug（按个体拆分，避免超长 slug 导致构建失败）
@@ -234,9 +221,7 @@ export function getAuthorBooks(authorName: string): Book[] {
 /**
  * 获取旁白 slug（URL 友好格式）
  */
-export function getNarratorSlug(narrator: string): string {
-  return narrator.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-}
+export { getNarratorSlug };
 
 /**
  * 获取所有旁白 slug（按个体拆分，避免超长 slug 导致构建失败）

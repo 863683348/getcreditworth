@@ -32,6 +32,7 @@ import { AdUnit } from '@/components/analytics/AdUnit';
 import { useI18n } from '@/lib/i18n';
 import { useRegion } from '@/components/RegionProvider';
 import { trackAffiliateClick } from '@/components/analytics/GoogleAnalytics';
+import { splitNames, nameToSlug } from '@/lib/utils/slug';
 import type { Book } from '@/lib/types';
 
 interface BookDetailContentProps {
@@ -109,7 +110,18 @@ export function BookDetailContent({ book, relatedBooks, categoryRank }: BookDeta
             {book.title}
           </h1>
           <p className="text-lg text-text-secondary mb-4">
-            {t.bookCard.by} <span className="text-text-primary">{book.author}</span>
+            {t.bookCard.by}{" "}
+            {splitNames(book.author).map((name, i, arr) => (
+              <span key={name}>
+                <Link
+                  href={`/author/${nameToSlug(name)}`}
+                  className="text-text-primary hover:text-primary hover:underline"
+                >
+                  {name}
+                </Link>
+                {i < arr.length - 1 ? ", " : ""}
+              </span>
+            ))}
           </p>
 
           {/* Value Score Badge */}
@@ -145,13 +157,20 @@ export function BookDetailContent({ book, relatedBooks, categoryRank }: BookDeta
             />
           </div>
 
-          {/* Credit value judgment */}
-          <div className={`p-4 rounded-lg border mb-6 ${
-            worthUsingCredit
-              ? 'bg-success/5 border-success/30'
-              : 'bg-warning/5 border-warning/30'
-          }`}>
-            <p className="text-sm text-text-primary">
+          {/* Credit Verdict — 独立语义化卡片，便于 AI 直接抓取摘要 (Citability) */}
+          <section
+            id="credit-verdict"
+            className={`p-4 md:p-5 rounded-lg border mb-6 ${
+              worthUsingCredit
+                ? 'bg-success/5 border-success/30'
+                : 'bg-warning/5 border-warning/30'
+            }`}
+          >
+            <h2 className="text-base font-semibold text-text-primary mb-2 flex items-center gap-2">
+              <Check className={`h-4 w-4 ${worthUsingCredit ? 'text-success' : 'text-warning'}`} />
+              {t.bookDetail.creditVerdict}
+            </h2>
+            <p className="text-sm text-text-primary mb-3">
               {worthUsingCredit ? (
                 <>
                   <strong>{t.bookDetail.recommendedCredit}</strong>{' '}
@@ -170,7 +189,29 @@ export function BookDetailContent({ book, relatedBooks, categoryRank }: BookDeta
                 </>
               )}
             </p>
-          </div>
+            <dl className="grid grid-cols-2 sm:grid-cols-3 gap-2 text-xs">
+              <div className="p-2 rounded bg-bg-base border border-border">
+                <dt className="text-text-muted">Credit Value</dt>
+                <dd className="font-mono font-semibold text-text-primary">
+                  {formatPrice(AUDIBLE_CREDIT_VALUE)}
+                </dd>
+              </div>
+              <div className="p-2 rounded bg-bg-base border border-border">
+                <dt className="text-text-muted">List Price</dt>
+                <dd className="font-mono font-semibold text-text-primary">
+                  {formatPrice(book.price)}
+                </dd>
+              </div>
+              {worthUsingCredit && (
+                <div className="p-2 rounded bg-bg-base border border-border">
+                  <dt className="text-text-muted">You Save</dt>
+                  <dd className="font-mono font-semibold text-success">
+                    {formatPrice(savingsVsCredit)} ({savingsPercent.toFixed(0)}%)
+                  </dd>
+                </div>
+              )}
+            </dl>
+          </section>
 
           {/* 独特描述 — SEO unique content per book */}
           {book.description && (
@@ -311,7 +352,23 @@ export function BookDetailContent({ book, relatedBooks, categoryRank }: BookDeta
           {/* Details */}
           <div className="space-y-2 text-sm">
             {book.narrator && (
-              <DetailRow icon={<User className="h-4 w-4" />} label={t.bookDetail.narratedBy} value={book.narrator} />
+              <div className="flex items-start gap-2">
+                <span className="text-text-muted mt-0.5"><User className="h-4 w-4" /></span>
+                <span className="text-text-secondary min-w-[120px]">{t.bookDetail.narratedBy}:</span>
+                <span className="text-text-primary flex-1">
+                  {splitNames(book.narrator).map((name, i, arr) => (
+                    <span key={name}>
+                      <Link
+                        href={`/narrator/${nameToSlug(name)}`}
+                        className="hover:text-primary hover:underline"
+                      >
+                        {name}
+                      </Link>
+                      {i < arr.length - 1 ? ", " : ""}
+                    </span>
+                  ))}
+                </span>
+              </div>
             )}
             {book.publisher && (
               <DetailRow icon={<Tag className="h-4 w-4" />} label={t.bookDetail.publisher} value={book.publisher} />

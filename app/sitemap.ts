@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllBooks, getCuratedLists, getAllCategories } from "@/lib/data/books";
+import { getAllBooks, getCuratedLists, getAllCategories, getAllAuthorSlugs, getAllNarratorSlugs } from "@/lib/data/books";
 import { getAllPosts } from "@/lib/api/controllers/blog.controller";
 import { getAllSeries } from "@/lib/data/series";
 import { SITE_CONFIG } from "@/lib/config";
@@ -89,5 +89,27 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
-  return [...staticPages, ...bookPages, ...curatedPages, ...blogPages, ...categoryPages, ...seriesPages];
+  // Author pages (ISR, 不增加页面数，仅提升可发现性)
+  var authorSlugs = getAllAuthorSlugs();
+  var authorPages: MetadataRoute.Sitemap = authorSlugs.map(function(slug) {
+    return {
+      url: baseUrl + "/author/" + slug,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.4,
+    };
+  });
+
+  // Narrator pages (ISR)
+  var narratorSlugs = getAllNarratorSlugs();
+  var narratorPages: MetadataRoute.Sitemap = narratorSlugs.map(function(slug) {
+    return {
+      url: baseUrl + "/narrator/" + slug,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.4,
+    };
+  });
+
+  return [...staticPages, ...bookPages, ...curatedPages, ...blogPages, ...categoryPages, ...seriesPages, ...authorPages, ...narratorPages];
 }

@@ -225,7 +225,7 @@ export const zh = {
     creditWorth: "积分价值", reviews: "{count}条评论", useCredit: "在Audible上使用积分",
     buyDirectly: "在亚马逊购买这本有声书", getFreeWithTrial: "免费试听获得这本书",
     narratedBy: "朗读者", publisher: "出版商", released: "发布日期", categories: "分类",
-    recommendedCredit: "推荐：使用积分。", similarAudiobooksTitle: "值得用积分的相似有声书", considerBuying: "建议：直接购买。",
+    recommendedCredit: "推荐：使用积分。", similarAudiobooksTitle: "值得用积分的相似有声书", creditVerdict: "积分结论", considerBuying: "建议：直接购买。",
     recommendedDesc: "本书价格为{price}（比积分价值{creditValue}高出{percent}%）。使用积分可节省{savings}。",
     considerBuyingDesc: "本书价格为{price}，低于积分价值（{creditValue}）。建议为更贵的书保留积分。",
     coverAlt: "{title}的封面",
