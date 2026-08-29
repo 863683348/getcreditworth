@@ -196,11 +196,38 @@ export function getAuthorSlug(author: string): string {
 }
 
 /**
- * 获取某作者的所有书籍
+ * 拆分可能含多个作者/旁白的字段（逗号 / & / and 分隔）
+ * 例如 "A, B & C" -> ["A", "B", "C"]
+ */
+function splitNames(field?: string): string[] {
+  if (!field) return [];
+  return field
+    .split(/,|&|\band\b/i)
+    .map((s) => s.trim())
+    .filter((s) => s.length > 0);
+}
+
+/**
+ * 获取所有作者 slug（按个体拆分，避免超长 slug 导致构建失败）
+ */
+export function getAllAuthorSlugs(): string[] {
+  const slugs = new Set<string>();
+  for (const book of allBooks) {
+    for (const name of splitNames(book.author)) {
+      const slug = getAuthorSlug(name);
+      if (slug) slugs.add(slug);
+    }
+  }
+  return Array.from(slugs);
+}
+
+/**
+ * 获取某作者的所有书籍（支持多作者拆分配对）
  */
 export function getAuthorBooks(authorName: string): Book[] {
-  return allBooks.filter(b =>
-    b.author.toLowerCase() === authorName.toLowerCase()
+  const target = authorName.toLowerCase();
+  return allBooks.filter((b) =>
+    splitNames(b.author).some((n) => n.toLowerCase() === target)
   );
 }
 
@@ -212,10 +239,25 @@ export function getNarratorSlug(narrator: string): string {
 }
 
 /**
- * 获取某旁白朗读了的所有书籍
+ * 获取所有旁白 slug（按个体拆分，避免超长 slug 导致构建失败）
+ */
+export function getAllNarratorSlugs(): string[] {
+  const slugs = new Set<string>();
+  for (const book of allBooks) {
+    for (const name of splitNames(book.narrator)) {
+      const slug = getNarratorSlug(name);
+      if (slug) slugs.add(slug);
+    }
+  }
+  return Array.from(slugs);
+}
+
+/**
+ * 获取某旁白朗读了的所有书籍（支持多旁白拆分配对）
  */
 export function getNarratorBooks(narratorName: string): Book[] {
-  return allBooks.filter(b =>
-    b.narrator && b.narrator.toLowerCase() === narratorName.toLowerCase()
+  const target = narratorName.toLowerCase();
+  return allBooks.filter((b) =>
+    b.narrator && splitNames(b.narrator).some((n) => n.toLowerCase() === target)
   );
 }

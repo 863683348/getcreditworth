@@ -1,4 +1,4 @@
-import { getAllBooks, getAuthorBooks, getAuthorSlug } from "@/lib/data/books";
+import { getAllAuthorSlugs, getAuthorBooks } from "@/lib/data/books";
 import { BookTable } from "@/components/BookTable";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { BookJsonLd, WebsiteJsonLd } from "@/components/seo/JsonLd";
@@ -9,10 +9,7 @@ interface PageProps {
 }
 
 export function generateStaticParams() {
-  return getAllBooks()
-    .map((book) => getAuthorSlug(book.author))
-    .filter((slug) => slug && slug.length > 0)
-    .map((slug) => ({ slug }));
+  return getAllAuthorSlugs().map((slug) => ({ slug }));
 }
 
 export function generateMetadata({ params }: PageProps): Metadata {

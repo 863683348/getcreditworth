@@ -1,4 +1,4 @@
-import { getAllBooks, getNarratorBooks, getNarratorSlug } from "@/lib/data/books";
+import { getAllNarratorSlugs, getNarratorBooks } from "@/lib/data/books";
 import { BookTable } from "@/components/BookTable";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { WebsiteJsonLd } from "@/components/seo/JsonLd";
@@ -9,16 +9,7 @@ interface PageProps {
 }
 
 export function generateStaticParams() {
-  const narrators = new Set<string>();
-  for (const book of getAllBooks()) {
-    if (book.narrator) {
-      const slug = getNarratorSlug(book.narrator);
-      if (slug && slug.length > 0) {
-        narrators.add(slug);
-      }
-    }
-  }
-  return Array.from(narrators).map((slug) => ({ slug }));
+  return getAllNarratorSlugs().map((slug) => ({ slug }));
 }
 
 export function generateMetadata({ params }: PageProps): Metadata {
