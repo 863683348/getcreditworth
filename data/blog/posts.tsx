@@ -8323,3 +8323,21 @@ export function getAllBlogPosts(): BlogPost[] {
     .map(({ content, ...meta }) => meta)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
+  'dragonfly-in-amber-outlander-book-2-review': {
+    slug: 'dragonfly-in-amber-outlander-book-2-review',
+    title: 'Dragonfly in Amber: Outlander Book 2 Review',
+    description: 'Review of Dragonfly in Amber, the second book in Diana Gabaldon\'s Outlander series.',
+    keywords: ['dragonfly in amber audiobook', 'outlander book 2', 'best romance audiobooks'],
+    date: '2026-08-31',
+    readTime: '10 min read',
+    category: 'Audiobook Review',
+    faq: [
+      { question: 'Do I need to read the first Outlander book?', answer: 'Yes, strongly recommended.' },
+      { question: 'How long is the audiobook?', answer: 'Approximately 24 hours.' },
+    ],
+    content: (
+      <>
+        
+      </>
+    ),
+  },};
