@@ -1,1 +1,15 @@
-﻿.next
+﻿# Build output — never upload
+.next
+node_modules
+
+# Duplicate/legacy repo copy — must never be uploaded or built
+getcreditworth-fresh/
+
+# Dev-only helpers (not referenced by the production build)
+dev/
+
+# CI config & local test fixtures
+.github/
+test-real.jpg
+test-cover.jpg
+tsconfig.tsbuildinfo
