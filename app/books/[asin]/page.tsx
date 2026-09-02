@@ -8,7 +8,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { BookJsonLd, BreadcrumbListJsonLd, FaqPageJsonLd } from "@/components/seo/JsonLd";
 import { buildCanonicalUrl } from "@/lib/utils/affiliate";
 import { formatPrice } from "@/lib/utils/format";
-import { AUDIBLE_CREDIT_VALUE } from "@/lib/config";
+import { AUDIBLE_CREDIT_VALUE, LOW_QUALITY_BOOK } from "@/lib/config";
 import { getBooksByCategoryList } from "@/lib/api/controllers/book.controller";
 import { findBookSeries } from "@/lib/data/series";
 import { SeriesNav } from "@/components/SeriesNav";
@@ -26,6 +26,13 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: PageProps): Metadata {
   const book = getBookDetail(params.asin);
   if (!book) return { title: "Book Not Found" };
+
+  // P0-2: 低质量书籍页 noindex（集中信号、对抗 spam update 薄内容判定）
+  const isLowQuality =
+    (LOW_QUALITY_BOOK.requireDescription && !book.description?.trim()) ||
+    book.starRating < LOW_QUALITY_BOOK.minStarRating ||
+    (LOW_QUALITY_BOOK.zeroReviewIsLowQuality && book.reviewCount < 1);
+  const indexable = !isLowQuality;
 
   const isTopPick = book.starRating >= 4.5 && book.runtimeHours >= 20;
   const title = `${book.title} Audiobook by ${book.author} - ${isTopPick ? "Top Pick" : "Worth a Credit?"} (Score ${book.valueScore.toFixed(1)})`;
@@ -55,10 +62,10 @@ export function generateMetadata({ params }: PageProps): Metadata {
     keywords,
     alternates: { canonical: buildCanonicalUrl(`/books/${book.asin}`) },
     robots: {
-      index: true,
+      index: indexable,
       follow: true,
       googleBot: {
-        index: true,
+        index: indexable,
         follow: true,
         'max-image-preview': 'large',
         'max-snippet': -1,

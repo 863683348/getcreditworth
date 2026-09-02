@@ -67,6 +67,21 @@ export function AboutContent() {
           {t.aboutPage.dataSourcesDesc}
         </p>
 
+        <h2 className="text-xl font-semibold text-text-primary">{t.aboutPage.editorialTitle}</h2>
+        <p>
+          {t.aboutPage.editorialDesc}
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary">{t.aboutPage.methodologyTitle}</h2>
+        <p>
+          {t.aboutPage.methodologyDesc}
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary">{t.aboutPage.contactTitle}</h2>
+        <p>
+          {t.aboutPage.contactDesc}
+        </p>
+
         <div className="flex flex-wrap gap-3 mt-6">
           <Link href="/" className="btn btn-primary">
             <Trophy className="h-4 w-4" />

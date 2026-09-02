@@ -15,6 +15,21 @@ export const SITE_CONFIG = {
 
 export const AUDIBLE_CREDIT_VALUE = 14.95; // 1 积分等价美元
 
+/**
+ * P0-2: 低质量书籍页 noindex 门禁（对抗 2026-08-18 spam update 薄内容判定）
+ * 仅对「真正低质」页 noindex，避免误伤整站信号：
+ *  - requireDescription: 缺独特编辑描述（模板薄内容）→ noindex
+ *  - minStarRating: 星标低于阈值（劣质书）→ noindex
+ *  - zeroReviewIsLowQuality: 评价数为 0（占位/未抓取数据）→ noindex
+ * 阈值可配置；默认保守，仅约 1.6% 书籍（缺描述 82 + 星标<3 的 53）命中，
+ * 不会把整站误判为薄内容。需要更激进收紧时改此处即可。
+ */
+export const LOW_QUALITY_BOOK = {
+  requireDescription: true,
+  minStarRating: 3,
+  zeroReviewIsLowQuality: true,
+} as const;
+
 export const NAV_ITEMS = [
   { label: 'Top Books', href: '/', icon: 'Trophy' as const },
   { label: 'All Books', href: '/books', icon: 'BookOpen' as const },

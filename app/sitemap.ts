@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllBooks, getCuratedLists, getAllCategories, getAllAuthorSlugs, getAllNarratorSlugs } from "@/lib/data/books";
 import { getAllPosts } from "@/lib/api/controllers/blog.controller";
 import { getAllSeries } from "@/lib/data/series";
-import { SITE_CONFIG } from "@/lib/config";
+import { SITE_CONFIG, LOW_QUALITY_BOOK } from "@/lib/config";
 
 // Fast Origin Transfer 优化:爬虫高频请求 sitemap,缓存 24h 避免反复执行函数
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -23,7 +23,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   // Book detail pages with adaptive priority
-  var allBooks = getAllBooks();
+  // P0-2: 排除低质量书籍（与书籍详情页 noindex 门禁一致），避免 sitemap 含 noindex URL
+  var allBooks = getAllBooks().filter(function(book) {
+    const lowQuality =
+      (LOW_QUALITY_BOOK.requireDescription && !book.description?.trim()) ||
+      book.starRating < LOW_QUALITY_BOOK.minStarRating ||
+      (LOW_QUALITY_BOOK.zeroReviewIsLowQuality && book.reviewCount < 1);
+    return !lowQuality;
+  });
   var bookPages: MetadataRoute.Sitemap = allBooks.map(function(book) {
     // Higher priority for high-value books and series books
     var priority = 0.8;

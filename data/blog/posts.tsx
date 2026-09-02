@@ -24,6 +24,114 @@ export interface BlogPostData extends BlogPost {
 }
 
 const POSTS: Record<string, BlogPostData> = {
+  'gift-audiobooks-guide': {
+    slug: 'gift-audiobooks-guide',
+    title: 'How to Gift Audiobooks on Audible in 2026: Books, Credits, or Membership',
+    description: 'Gift an Audible audiobook, credits, or membership in 2026. Step-by-step: how to buy an audiobook as a gift, gift a book with a credit, send an Audible gift membership or gift certificate, and avoid common mistakes.',
+    keywords: ['gift audible audiobooks', 'how to gift an audiobook on audible', 'gift audible credits', 'can you gift audible credits', 'audible gift membership', 'audible gift subscription', 'audible gift certificate', 'buy an audiobook as a gift', 'gift an audible book with credit', 'audible as a gift', 'how to gift a book on audible', 'send audible as a gift'],
+    date: '2026-09-02',
+    readTime: '8 min read',
+    category: 'Guide',
+    faq: [
+      {
+        question: 'Can you gift Audible credits?',
+        answer: 'You cannot transfer raw credits to another account, but you can use your own credit to gift a specific audiobook to someone. Open the book, choose "Give as a gift," and the recipient receives the title — your credit is spent, theirs is untouched.',
+      },
+      {
+        question: 'How do I gift an audiobook on Audible?',
+        answer: 'On the audiobook page, click "Give as a gift" (or "Send as a gift"). Enter the recipient’s email, pick a delivery date, add a message, and pay with a credit or your card. They get an email with a redeem link.',
+      },
+      {
+        question: 'How to purchase an audiobook as a gift?',
+        answer: 'Search the title, open its product page, and choose the gift option instead of "Buy with 1 Credit." You can pay with a card even if you have credits, which keeps your credits for yourself.',
+      },
+      {
+        question: 'Can you gift an Audible membership or subscription?',
+        answer: 'Yes. Audible sells gift memberships (Premium Plus) in 1, 3, 6, or 12-month lengths. The recipient gets the membership plus monthly credits to spend on any audiobook they choose.',
+      },
+      {
+        question: 'What is an Audible gift certificate or gift card?',
+        answer: 'Audible gift certificates (sometimes called gift cards) are prepaid credit bundles you email to someone. They redeem into their account and can be used toward audiobooks or a membership.',
+      },
+      {
+        question: 'Can you gift a book on Audible using a credit?',
+        answer: 'Yes. When you select "Give as a gift" on a title, you can apply one of your own credits to cover the cost. The recipient receives the book; your credit is consumed and theirs remains.',
+      },
+      {
+        question: 'Can you buy Audible credits as a gift?',
+        answer: 'Not directly as "credits," but a gift certificate or gift membership delivers equivalent value. A gift membership is the closest way to hand someone Audible credits to spend.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          Audible makes a genuinely great gift — a great narrator turns a long commute or
+          chore into something to look forward to. In 2026 there are three ways to give: a
+          specific audiobook, your credits spent on someone else&apos;s book, or a full
+          membership. This guide covers each method and the mistakes that trip people up.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          How to gift a specific audiobook
+        </h2>
+        <p>
+          Open the audiobook&apos;s page and choose <strong>Give as a gift</strong> (or
+          <strong> Send as a gift</strong>). Enter the recipient&apos;s email, pick a delivery
+          date, add a short note, and pay with a card or one of your credits. They receive an
+          email with a redeem link — no Audible account required to accept.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Can you gift Audible credits?
+        </h2>
+        <p>
+          You can&apos;t transfer raw credits between accounts, but you can spend your credit to
+          send someone a book. The result is the same for them: they get a free audiobook, while
+          your credit is consumed instead of theirs. It&apos;s the easiest way to "gift a credit"
+          in practice.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Audible gift membership &amp; subscription
+        </h2>
+        <p>
+          A gift membership (Premium Plus) is the most flexible present: the recipient gets the
+          membership plus monthly credits to pick their own audiobooks. Gift lengths run 1, 3, 6,
+          or 12 months. This is the best option when you aren&apos;t sure which title they&apos;d
+          want.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Gift certificate &amp; gift card
+        </h2>
+        <p>
+          Audible gift certificates are prepaid balances you email to someone. They redeem into the
+          recipient&apos;s account and can be used toward any audiobook or a membership. Hand one
+          over when you want them to choose exactly what they listen to.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Tips to avoid gift mistakes
+        </h2>
+        <ul className="list-disc pl-6 space-y-2">
+          <li><strong>Region lock:</strong> gifts must be redeemed in the same store region where they were purchased (e.g., audible.com vs audible.co.uk).</li>
+          <li><strong>Delivery date:</strong> schedule it for the occasion, or send immediately and let them redeem whenever.</li>
+          <li><strong>Credits vs cash:</strong> gifting with a card keeps your own credits; gifting with a credit spends one of yours.</li>
+          <li><strong>Expiration:</strong> gifted titles and memberships have their own redemption windows — redeem promptly.</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Which gift should you pick?
+        </h2>
+        <p>
+          Know the exact title they want? Gift that audiobook. Want them to explore? A gift
+          membership or certificate gives them freedom. Either way, an Audible gift is one of the
+          highest-value presents for a reader or commuter — and it never goes out of size.
+        </p>
+      </>
+    ),
+  },
+
   'how-to-use-audible-credits': {
     slug: 'how-to-use-audible-credits',
     title: 'How to Use Audible Credits: A Complete Guide for 2026',
@@ -541,10 +649,10 @@ const POSTS: Record<string, BlogPostData> = {
   },
   'is-audible-worth-it-2026': {
     slug: 'is-audible-worth-it-2026',
-    title: 'Is Audible Worth It in 2026? An Honest Review',
+    title: 'Is Audible Worth It in 2026? Honest Review + Do Credits Expire & When',
     description:
-      'Thinking about an Audible subscription? We break down the costs, benefits, and credit value to help you decide.',
-    keywords: ['is audible worth it', 'audible membership review', 'audible premium plus worth it'],
+      'Is Audible worth it in 2026? Honest review of costs, benefits, and credit value — plus when Audible credits expire, how to check your expiration date, and whether you lose credits if you cancel.',
+    keywords: ['is audible worth it', 'audible membership review', 'audible premium plus worth it', 'when do audible credits expire', 'do audible credits expire', 'audible credit expiration', 'how long do audible credits last', 'how to check audible credit expiration date'],
     date: '2026-07-25',
     readTime: '9 min read',
     category: 'Analysis',
@@ -656,235 +764,6 @@ const POSTS: Record<string, BlogPostData> = {
         <p>The break-even point for Audible Premium Plus is approximately one book every two months. If you listen to one audiobook per month, the effective cost is $14.95 per book — competitive with buying individual audiobooks at retail. If you listen to two books per month (using rolled-over credits or the 2-credit plan), your effective cost drops to $11.48 per book or less. The break-even versus buying books individually depends on the retail prices of your chosen books. A subscriber who strategically uses credits on expensive, long books consistently achieves a 50-60% discount compared to buying the same books at retail.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Hidden Costs of Audible Cancellation</h2>
         <p>When evaluating whether Audible is worth it, consider the switching costs of cancellation. If you cancel and want to rejoin later, you lose any accumulated credits and your listening history may reset for recommendation purposes. Additionally, former members are often offered promotional deals to return, but these deals may not match your original plan. The inconvenience of rebuilding your library from scratch — even though purchased books remain — means that frequent cancellation and rejoining is not recommended. A better approach is to pause your membership (Audible allows up to 3 months of pausing) rather than canceling, keeping your credits and settings intact.</p>
-      </>
-    ),
-  },
-  'audible-return-policy-guide': {
-    slug: 'audible-return-policy-guide',
-    title: 'Audible Return Policy 2026: 365-Day Free Returns',
-    description:
-      'Can you return Audible audiobooks? Yes — get a full refund or credit within 365 days. Our 2026 guide shows the 5-step process and return limits.',
-    keywords: ['audible return policy', 'can you return audiobooks on audible', 'audible refund policy'],
-    date: '2026-07-25',
-    readTime: '8 min read',
-    category: 'Guide',
-    faq: [
-      {
-        question: 'Can you return audiobooks on Audible?',
-        answer: 'Yes. Active Audible members can return audiobooks purchased with credits or cash within 365 days of purchase. Credits are restored instantly; cash purchases are refunded to the original payment method.',
-      },
-      {
-        question: 'How many Audible books can you return?',
-        answer: 'Audible does not publish a fixed limit, but a safe rule is to return no more than 20% of your total purchases. Excessive returns can trigger account restrictions and remove self-service returns.',
-      },
-      {
-        question: 'Do you lose your credits when you return an Audible book?',
-        answer: 'No. When you return a book bought with a credit, that credit is returned to your account instantly and can be used on any other audiobook.',
-      },
-      {
-        question: 'How long does an Audible refund take?',
-        answer: 'Credit purchases are refunded instantly. Cash purchases take 5-7 business days to appear back on your payment method.',
-      },
-    ],
-    content: (
-      <>
-        <p>
-          Audible allows you to return audiobooks within 365 days of purchase &mdash; one of the
-          most generous return policies in digital media. Most retailers offer just 7&ndash;30 days;
-          Audible gives you a full year. This means you can try almost any audiobook risk-free.
-        </p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Return an Audiobook</h2>
-        <p>Follow these steps to return a title and get your credit or refund back:</p>
-        <ol className="space-y-3 list-decimal list-inside">
-          <li>Go to <strong>Account Details</strong> &rarr; <strong>Purchase History</strong> on the Audible website.</li>
-          <li>Find the audiobook you want to return.</li>
-          <li>Click <strong>&ldquo;Return&rdquo;</strong> next to the title.</li>
-          <li>Select a reason from the dropdown (optional but recommended).</li>
-          <li>Confirm &mdash; the credit or refund is typically processed instantly.</li>
-        </ol>
-        <p className="mt-4">
-          Returned credits go back to your account immediately. Refunds to your payment method take
-          5&ndash;7 business days to appear.
-        </p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Credit Returns vs Cash Refunds</h2>
-        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="border-b border-border">
-                <th className="text-left py-2 pr-4">Purchase Method</th>
-                <th className="text-left py-2 pr-4">What You Get Back</th>
-                <th className="text-left py-2">Timeline</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr className="border-b border-border">
-                <td className="py-2 pr-4">Credit purchase</td>
-                <td className="py-2 pr-4">Credit restored</td>
-                <td className="py-2">Instant</td>
-              </tr>
-              <tr className="border-b border-border">
-                <td className="py-2 pr-4">Cash purchase</td>
-                <td className="py-2 pr-4">Refund to card</td>
-                <td className="py-2">5&ndash;7 days</td>
-              </tr>
-              <tr>
-                <td className="py-2 pr-4">Plus Catalog listen</td>
-                <td className="py-2 pr-4">Nothing (free)</td>
-                <td className="py-2">N/A</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Return Limits &amp; Best Practices</h2>
-        <p>
-          Audible does not publish a hard limit, but excessive returns can trigger restrictions on
-          your account. A safe rule: return no more than 20% of your total purchases. The policy
-          exists for genuine dissatisfaction &mdash; a book you couldn&apos;t finish, poor narration,
-          or a misleading description &mdash; not for &ldquo;renting&rdquo; books.
-        </p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Smart Ways to Use the Policy</h2>
-        <ul className="space-y-2">
-          <li><strong>Try before committing:</strong> Sample a narrator you&apos;re unsure about, then return if the performance doesn&apos;t land.</li>
-          <li><strong>Recover a wasted credit:</strong> If you spent a credit on a dud, return it and spend on a higher Value Score title.</li>
-          <li><strong>Pre-cancellation cleanup:</strong> Return everything you can before closing your account &mdash; see our <Link href="/blog/how-to-cancel-audible-subscription" className="text-primary underline"> cancellation guide</Link>.</li>
-        </ul>
-        <p className="mt-6">
-          Use the generous return policy to explore fearlessly. Check our
-          <Link href="/" className="text-primary underline"> Value Score rankings</Link>
-          to find books you&apos;ll actually love before you spend a credit.
-        </p>
-      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Audible Return Policy Explained in Detail</h2>
-        <p>Audible's return policy is one of the most generous among digital media platforms. Active subscribers can return audiobooks they purchased with credits or cash, subject to certain conditions. This guide covers everything you need to know.</p>
-        <p>The core policy is: if you have an active Audible membership, you can return audiobooks you did not enjoy. Credits are refunded to your account instantly, while cash purchases take 3-5 business days to process back to your payment method.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Return Limits and the "Great Return Policy Change"</h2>
-        <p>In 2022, Audible changed its return policy to prevent abuse. Users who returned too many books relative to their purchases lost the ability to do self-service returns and had to contact customer support. This was in response to some users treating Audible as a rental service. As of 2026, Audible shows your return limit in Account Settings.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Return an Audiobook</h2>
-        <ol className="space-y-2 list-decimal pl-5">
-          <li>Go to the Audible website and log in</li>
-          <li>Navigate to <strong>Account Details</strong> &rarr; <strong>Purchase History</strong></li>
-          <li>Find the book and click <strong>Return this title</strong></li>
-          <li>Select your reason and confirm the return</li>
-        </ol>
-        <p>If self-service is unavailable, contact Audible support via chat or phone. They can manually process the return.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Smart Return Tips</h2>
-        <ul className="space-y-2">
-          <li><strong>Check value before buying:</strong> Use our <a href="https://getcreditworth.com" className="text-primary hover:underline">Value Score tool</a> to ensure a book is worth your credit before purchasing</li>
-          <li><strong>Don't abuse returns:</strong> Returning more than 20% of purchases may flag your account</li>
-          <li><strong>Use returns for quality issues:</strong> Poor narration, audio quality problems, or misleading descriptions are valid reasons</li>
-        </ul>
-      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Science of Audiobook Satisfaction</h2>
-        <p>Returns often happen because of a mismatch between listener expectations and the actual audiobook experience. Common causes: the narrator's voice does not match what the listener imagined, the production quality is poor, the book's pacing is slower than expected, or the content does not match the description. To minimize returns, listen to the Audible sample before purchasing — this is the single most effective way to avoid disappointment. Also read recent reviews focusing on the audiobook version specifically (not the print edition), as narration quality can make or break the experience.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Audible vs. Other Retailers: Return Policy Comparison</h2>
-        <p>How does Audible's return policy compare to other digital content platforms? Apple Books allows returns of audiobooks within 90 days, but only if unlistened. Google Play Books offers a 7-day return window for audiobooks. Amazon's Kindle books have a 7-day return policy. Audible's policy — no fixed window, case-by-case for active members — is actually the most flexible, though the lack of transparency about return limits creates uncertainty. The key advantage of Audible is that you can return listened books, which no major competitor allows. This flexibility is worth keeping in mind when deciding where to buy your audiobooks.</p>
-      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Great Return Policy of 2022: What Changed and Why</h2>
-        <p>In 2022, Audible revised its return policy after discovering that a small number of users were systematically returning audiobooks after listening — effectively using the service as a free rental platform. The policy change introduced return limits based on the ratio of books returned versus books purchased. While Audible does not publish the exact threshold, internal reports suggest the limit triggers when returns exceed 20-30% of total purchases. This change primarily affected heavy returners (those returning more than 5 books per year) while leaving the vast majority of members unaffected. Understanding this history helps contextualize the current policy.</p>
-        <p className="mt-6">
-          For the step-by-step return process with credits vs cash, see our{" "}
-          <Link href="/blog/audible-return-refund-policy" className="text-primary underline">Audible return &amp; refund guide</Link>,
-          and if you are leaving Audible entirely, check the{" "}
-          <Link href="/blog/audible-cancellation-fees" className="text-primary underline">cancellation fee breakdown</Link>.
-        </p>
-      </>
-    ),
-  },
-  'best-fantasy-audiobooks-for-credits': {
-    slug: 'best-fantasy-audiobooks-for-credits',
-    title: 'Best Fantasy Audiobooks to Spend Audible Credits On',
-    description:
-      'Epic fantasy audiobooks that maximize your credit value. 30+ hour sagas with incredible cost-per-hour ratios.',
-    keywords: ['best fantasy audiobooks', 'fantasy audible books worth credits', 'epic fantasy audiobooks audible'],
-    date: '2026-07-25',
-    readTime: '11 min read',
-    category: 'Recommendations',
-    content: (
-      <>
-        <p>
-          Fantasy is the single best genre for credit value on Audible. Epic series routinely clock
-          30&ndash;60 hours with 4.6&ndash;4.8 star ratings and premium $25&ndash;$40 pricing. When you
-          spend a $14.95 credit on a 50-hour novel, your cost-per-hour drops below $0.30 &mdash; the
-          cheapest quality entertainment you can buy.
-        </p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Stormlight Archive (Brandon Sanderson)</h2>
-        <p>
-          Each book runs 45&ndash;60 hours and rates 4.6&ndash;4.8 stars. Narrators Kate Reading and
-          Michael Kramer deliver a performance many consider the gold standard of fantasy audio. At
-          ~$35 retail, using a credit saves you roughly $20 per book &mdash; an exceptional return.
-        </p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Wheel of Time (Robert Jordan)</h2>
-        <p>
-          Fourteen books averaging 30&ndash;40 hours each &mdash; the longest completed fantasy series
-          ever published. That&apos;s 400+ hours of listening for 14 credits. If you enjoy sprawling
-          worldbuilding, no catalog delivers more value per credit.
-        </p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Mistborn &amp; The First Law</h2>
-        <p>
-          Sanderson&apos;s <em>Mistborn</em> trilogy (each ~25 hours) and Joe Abercrombie&apos;s
-          <em>First Law</em> trilogy offer tighter, faster-paced entry points if 50-hour doorstops
-          feel intimidating. Both rate above 4.5 stars and sit comfortably above the credit&apos;s
-          $14.95 value.
-        </p>
-        <p>
-          Start with <em>The Final Empire</em>, the first Mistborn book &mdash; 24.7 hours, a 5-star
-          rating from 5,000+ reviews, and a Value Score of 8.7. See the full analysis on its <a href="/books/B002V0QCYU" className="text-accent hover:underline">The Final Empire book page</a>.
-        </p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Top Fantasy Picks by Value Score</h2>
-        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="border-b border-border">
-                <th className="text-left py-2 pr-4">Series / Book</th>
-                <th className="text-left py-2 pr-4">Hours</th>
-                <th className="text-left py-2 pr-4">Rating</th>
-                <th className="text-left py-2">Credit Verdict</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr className="border-b border-border"><td className="py-2 pr-4">The Way of Kings</td><td className="py-2 pr-4">48h</td><td className="py-2 pr-4">4.7</td><td className="py-2 text-primary font-medium">Use a credit</td></tr>
-              <tr className="border-b border-border"><td className="py-2 pr-4">Words of Radiance</td><td className="py-2 pr-4">52h</td><td className="py-2 pr-4">4.8</td><td className="py-2 text-primary font-medium">Use a credit</td></tr>
-              <tr className="border-b border-border"><td className="py-2 pr-4">The Name of the Wind</td><td className="py-2 pr-4">25h</td><td className="py-2 pr-4">4.6</td><td className="py-2 text-primary font-medium">Use a credit</td></tr>
-              <tr className="border-b border-border"><td className="py-2 pr-4">The Lies of Locke Lamora</td><td className="py-2 pr-4">22h</td><td className="py-2 pr-4">4.5</td><td className="py-2 text-primary font-medium">Use a credit</td></tr>
-              <tr><td className="py-2 pr-4">A Game of Thrones</td><td className="py-2 pr-4">33h</td><td className="py-2 pr-4">4.5</td><td className="py-2 text-primary font-medium">Use a credit</td></tr>
-            </tbody>
-          </table>
-        </div>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Credit Strategy for Fantasy</h2>
-        <p>
-          Spend credits on the long epics (Wheel of Time, Stormlight) and let the Plus Catalog cover
-          shorter standalone fantasies you&apos;re less sure about. This combination maximizes both
-          savings and discovery. Use our
-          <Link href="/calculator" className="text-primary underline"> Credit Calculator</Link> to
-          confirm the exact savings before you spend.
-        </p>
-        <p className="mt-6">
-          Browse our
-          <Link href="/curated/best-epic-fantasy-for-credits" className="text-primary underline"> curated fantasy list</Link>
-          for the full ranked recommendations.
-        </p>
-      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Why Fantasy Audiobooks Are Perfect for Credits</h2>
-        <p>Fantasy audiobooks are arguably the best value for your Audible credits. Here is why: fantasy novels tend to be longer (20-60 hours), have higher production values (full casts, sound effects), and cost more at retail ($30-$60). This makes them exceptional candidates for credit spending.</p>
-        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="border-b border-border"><th className="text-left py-2 pr-4">Book</th><th className="text-left py-2 pr-4">Runtime</th><th className="text-left py-2 pr-4">Retail Price</th><th className="text-left py-2">Value Score</th></tr>
-            </thead>
-            <tbody>
-              <tr className="border-b border-border"><td className="py-2 pr-4">The Way of Kings</td><td className="py-2 pr-4">45 hrs</td><td className="py-2 pr-4">$45.99</td><td className="py-2">6.2</td></tr>
-              <tr className="border-b border-border"><td className="py-2 pr-4">The Name of the Wind</td><td className="py-2 pr-4">28 hrs</td><td className="py-2 pr-4">$34.99</td><td className="py-2">5.8</td></tr>
-              <tr className="border-b border-border"><td className="py-2 pr-4">A Game of Thrones</td><td className="py-2 pr-4">33 hrs</td><td className="py-2 pr-4">$39.99</td><td className="py-2">5.5</td></tr>
-              <tr className="border-b border-border"><td className="py-2 pr-4">The Fellowship of the Ring</td><td className="py-2 pr-4">19 hrs</td><td className="py-2 pr-4">$34.99</td><td className="py-2">4.8</td></tr>
-            </tbody>
-          </table>
-        </div>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Series vs Standalone: What to Prioritize</h2>
-        <p>Epic fantasy series offer the best credit value because a single credit buys a 30+ hour experience. Popular series like Stormlight Archive, Wheel of Time, and Malazan Book of the Fallen each offer hundreds of hours of content across multiple books. Spending credits on series books ensures you get maximum entertainment per dollar.</p>
-      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Fantasy Advantage: Why This Genre Dominates Credit Value</h2>
-        <p>Fantasy audiobooks consistently top the Value Score charts for several structural reasons. First, fantasy novels are typically longer than any other genre — epic fantasy series routinely exceed 30 hours per book, with some titles like The Way of Kings (45 hours) and Words of Radiance (48 hours) approaching the length of entire short audiobook collections. Second, fantasy audiobooks often feature full cast productions, sound design, and exceptional narration that justifies premium pricing. Third, the genre has a dedicated fan base that drives high ratings through passionate (but fair) reviews. Together, these factors create an ideal environment for credit value.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Top Fantasy Series for Maximum Credit Value</h2>
-        <p>Beyond individual books, fantasy series offer the best cumulative credit value. The Stormlight Archive (4 books, 180+ hours), Wheel of Time (14 books, 460+ hours), Malazan Book of the Fallen (10 books, 350+ hours), and The First Law (9 books, 200+ hours) represent thousands of hours of entertainment for the cost of your monthly credits. Spending credits on these series gives you a cost-per-hour that rivals streaming services. A complete series like Wheel of Time at $14.95 per credit gives you approximately 33 hours of content per dollar — cheaper than any subscription service.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Hidden Gem Fantasy Audiobooks</h2>
-        <p>Beyond the obvious blockbusters, several underrated fantasy audiobooks offer exceptional Value Scores. The Lies of Locke Lamora (21 hours, 4.6 rating) by Scott Lynch delivers heist-caper storytelling with outstanding narration. The Blade Itself (23 hours, 4.5 rating) by Joe Abercrombie features Steven Pacey's legendary narration. The Name of the Wind (28 hours, 4.6 rating) by Patrick Rothfuss is narrated by Nick Podehl, widely considered one of the best audiobook performances ever. Each of these books offers a Value Score above 5.0, placing them in the top tier of credit efficiency.</p>
-      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Narration Quality: The Fantasy Advantage</h2>
-        <p>Fantasy audiobooks benefit disproportionately from excellent narration. The genre requires narrators to create distinct voices for diverse characters, pronounce invented names and languages consistently, and convey the emotional weight of epic storytelling. Narrators like Michael Kramer (The Stormlight Archive), Steven Pacey (The First Law), and Nick Podehl (The Kingkiller Chronicle) have achieved legendary status for their performances. A great narrator can elevate a good book to an unforgettable experience, while poor narration can ruin even the best story. The investment in top-tier narration is one reason fantasy audiobooks command premium prices, making them excellent credit targets.</p>
       </>
     ),
   },
@@ -1110,7 +989,7 @@ const POSTS: Record<string, BlogPostData> = {
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Gifting Etiquette: Choosing the Right Book</h2>
         <p>The key to a successful Audible gift is choosing a book the recipient will actually enjoy. Consider their interests, favorite genres, and whether they have listened to audiobooks before. For first-time listeners, shorter books (8-12 hours) with engaging narration are ideal. For experienced audiobook fans, check if they already own the book before gifting. A thoughtful approach: combine a book gift with a recommendation or personal note explaining why you chose it. This personal touch makes the gift more meaningful and increases the likelihood it will be enjoyed.</p>
       <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Using Credits for Gifting Strategy</h2>
-        <p>Using a credit to gift an audiobook is a strategic decision. If you have credits approaching expiration and no books you personally want, gifting is an excellent way to extract value. The math: a gifted credit costs you $14.95 but delivers a book worth $20-40 to the recipient. Plan your credit usage around gifts during holiday seasons to maximize membership value.</p>
+        <p>Using a credit to gift an audiobook is a strategic decision. If you have credits approaching expiration and no books you personally want, gifting is an excellent way to extract value. The math: a gifted credit costs you $14.95 but delivers a book worth $20-40 to the recipient. Plan your credit usage around gifts during holiday seasons to maximize membership value. For the full walkthrough, see our <Link href="/blog/gift-audiobooks-guide" className="text-primary hover:underline">Audible gifting guide</Link>.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Gift Receiving: What Happens on the Other Side</h2>
         <p>When someone receives an Audible gift, they get an email with a personalized message and a link to claim the audiobook. The recipient needs an Audible account (free to create) and does not need an active membership. Once claimed, the audiobook is added permanently. If the recipient already owns the book, they can decline and the credit is refunded to you. This makes Audible gifting low-risk and user-friendly for both parties.</p>
         <p className="mt-6">
@@ -1225,7 +1104,7 @@ const POSTS: Record<string, BlogPostData> = {
           Debating between the Plus Catalog and credits? See how much a credit is actually worth in our{" "}
           <Link href="/blog/audible-credits-expiration-policy" className="text-primary underline">credit expiration guide</Link>,
           check what happens to credits if you{" "}
-          <Link href="/blog/audible-cancellation-fees" className="text-primary underline">cancel your subscription</Link>,
+          <Link href="/blog/how-to-cancel-audible-subscription" className="text-primary underline">cancel your subscription</Link>,
           or run your own numbers with the{" "}
           <Link href="/calculator" className="text-primary underline">credit calculator</Link>.
         </p>
@@ -1831,9 +1710,9 @@ const POSTS: Record<string, BlogPostData> = {
 
   'how-to-cancel-audible-subscription': {
     slug: 'how-to-cancel-audible-subscription',
-    title: 'Cancel Audible in 2026: 5 Steps to Keep Credits & Full Refund',
-    description: 'Cancel Audible in 2026: 5 easy steps. Keep your audiobooks forever, spend credits before they expire, avoid fees. Full walkthrough.',
-    keywords: ['how to cancel audible subscription', 'cancel audible subscription steps', 'audible cancellation guide 2026', 'how to cancel audible membership', 'cancel audible keep credits', 'how to cancel audible on iphone', 'do you lose credits if you cancel audible'],
+    title: 'How to Cancel Audible in 2026: Cancel a Purchase, Keep Credits & Get a Full Refund',
+    description: 'How to cancel Audible or a single audiobook purchase in 2026: 5 steps to keep your audiobooks forever, avoid being charged after you cancel, spend credits before they expire, and get a full refund. Full walkthrough.',
+    keywords: ['how to cancel audible subscription', 'cancel audible subscription steps', 'audible cancellation guide 2026', 'how to cancel audible membership', 'cancel audible keep credits', 'how to cancel audible on iphone', 'do you lose credits if you cancel audible', 'how to cancel audible purchase', 'cancel audible book purchase', 'how do i cancel an audible purchase', 'audible charged me after i cancelled', 'audible still charged me after i cancelled'],
     date: '2026-07-27',
     readTime: '8 min read',
     category: 'Guide',
@@ -1881,20 +1760,94 @@ const POSTS: Record<string, BlogPostData> = {
             <li>4. Keep the books you purchased with credits (yours to keep forever)</li>
           </ul>
         </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Cancellation Policy by Plan</h2>
+        <p>
+          Audible charges <strong>no cancellation fee</strong> on any plan. The real cost of canceling is
+          forfeited credits, and that cost differs by plan:
+        </p>
+        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
+          <table className="w-full text-sm">
+            <thead>
+              <tr className="border-b border-border">
+                <th className="text-left py-2 pr-4">Plan</th>
+                <th className="text-left py-2 pr-4">Price</th>
+                <th className="text-left py-2 pr-4">Cancellation Fee</th>
+                <th className="text-left py-2">Credits on Cancel</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="border-b border-border">
+                <td className="py-2 pr-4">Premium Plus</td>
+                <td className="py-2 pr-4">$14.95/mo</td>
+                <td className="py-2 pr-4">$0</td>
+                <td className="py-2">Forfeited immediately</td>
+              </tr>
+              <tr className="border-b border-border">
+                <td className="py-2 pr-4">Premium Plus 2</td>
+                <td className="py-2 pr-4">$22.95/mo</td>
+                <td className="py-2 pr-4">$0</td>
+                <td className="py-2">Forfeited immediately</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-4">Premium Plus Annual</td>
+                <td className="py-2 pr-4">$149.50/yr</td>
+                <td className="py-2 pr-4">$0 (partial refund possible)</td>
+                <td className="py-2">Forfeited immediately</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Partial Refunds on Annual Plans</h2>
+        <p>
+          The annual plan is the only one where canceling can put money back in your pocket. If you cancel a
+          Premium Plus Annual plan mid-cycle, Audible may refund the unused portion minus the retail value of
+          credits you already spent.
+        </p>
+        <p>
+          <strong>Worked example:</strong> cancel after 3 months having used 4 credits. The prorated unused
+          portion is about $112.13; Audible subtracts roughly $59.80 (4 &times; $14.95), leaving an estimated
+          refund of about <strong>$52.33</strong>. Audible handles this case-by-case through customer support.
+        </p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What Happens to Your Credits?</h2>
-        <p>If you have unused credits when you cancel them, <strong>you will lose them</strong>. Credits expire 12 months after issue, and canceling your membership immediately forfeits any remaining credits. Spend them on books you want before canceling.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Frequently Asked Questions</h2>
-        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">Can I cancel and keep my audiobooks?</h3>
-        <p>Yes. Any audiobook you purchase with a credit or cash is yours to keep forever, even after you cancel your membership. You can listen anytime, anywhere.</p>
-        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">What happens to my credits if I cancel?</h3>
-        <p>Unused credits are forfeited when you cancel. Always spend them before closing your account. If you have credits from a free trial, those also expire upon cancellation.</p>
-        <h3 className="text-lg font-semibold text-text-primary mt-4 mb-2">How do I return audiobooks for a refund?</h3>
-        <p>Go to Account Details &rarr; Purchase History &rarr; Select the book &rarr; Click Return. You can return within 365 days of purchase for either a credit or cash refund.</p>
-        <p className="mt-6 text-text-secondary">Need more help? Check our <a href="/blog/audible-return-policy-guide" className="text-primary underline">complete return policy guide</a> for details on the 365-day return window.</p>
-      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What Happens After You Cancel?</h2>
-        <p>After canceling, you immediately lose access to the Plus Catalog and member discounts. However, all audiobooks you purchased with credits or cash remain in your library permanently. You can still download and listen to them through the Audible app. Any unused credits are forfeited immediately upon cancellation, so spend them first.</p>
+        <p>If you have unused credits when you cancel, <strong>you will lose them</strong>. Credits expire 12 months after issue, and canceling your membership immediately forfeits any remaining credits. Spend them on books you want before canceling.</p>
+        <p>
+          Before you spend them, pick titles that actually justify a credit &mdash; our{" "}
+          <Link href="/" className="text-primary underline">Value Score rankings</Link>{" "}
+          sort 8,000+ audiobooks by hours, rating and price so a 45-hour epic never gets traded for a 6-hour dud.
+        </p>
+        <p className="mt-6 text-text-secondary">
+          Want money back instead of a swap? See the{" "}
+          <Link href="/blog/audible-return-refund-policy" className="text-primary underline">Audible return &amp; refund policy</Link>{" "}
+          for the 365-day return window and how credit vs cash refunds differ.
+        </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What Happens After You Cancel?</h2>
+        <p>
+          Access to the Plus Catalog and member discounts ends immediately. Everything you bought with a credit
+          or cash stays in your library permanently &mdash; you can keep downloading and listening through the
+          Audible app.
+        </p>
+        <p>
+          <strong>Plus Catalog saves are the exception.</strong> Titles you saved from the Plus Catalog become
+          unplayable until you resubscribe. Your wishlist, listening history and preferences are preserved, so
+          if you return within a few months everything looks as you left it &mdash; except expired credits,
+          which are gone for good.
+        </p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Retention Offers: What Audible Might Offer</h2>
-        <p>When you go through the cancellation flow, Audible often presents retention offers. These can include: one free credit to stay, a discounted membership rate for 3 months, or a free month of Premium Plus. Even if you intend to cancel, it is worth seeing what retention offer you receive — you might decide to stay for another month at a discount.</p>
+        <p>
+          Retention offers are one of the most common outcomes of starting the cancellation flow, especially
+          for long-time members. Typical offers include:
+        </p>
+        <ul className="space-y-2">
+          <li>One free credit to stay on your current plan</li>
+          <li>50% off the next 3 months of membership</li>
+          <li>A free month of Premium Plus</li>
+          <li>A discounted upgrade to the 2-credit plan</li>
+        </ul>
+        <p>
+          These appear during the online flow before you finalize. Even if you intend to leave, it is worth
+          seeing what you are offered &mdash; and if the deal is good, accepting it and canceling later is
+          usually allowed.
+        </p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Canceling via Mobile vs Desktop</h2>
         <p>The cancellation process is slightly different on mobile. On iOS, Apple requires that you cancel through your Apple ID subscription settings, not the Audible app. On Android, you can cancel directly through the Audible app. The desktop website offers the most straightforward experience with the clearest information about what you lose and gain by canceling.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Rejoining After Cancellation</h2>
@@ -1983,9 +1936,9 @@ const POSTS: Record<string, BlogPostData> = {
 
   'audible-return-refund-policy': {
     slug: 'audible-return-refund-policy',
-    title: 'Audible Return & Refund Policy 2026: 365-Day Guide to Full Refunds',
-    description: 'Audible return policy explained: 365-day window, credit vs cash refund, step-by-step process, how to avoid account flags. Complete 2026 guide.',
-    keywords: ['audible return policy', 'audible refund process', 'audible return audiobook', 'how to return audible', 'audible refund credit', 'audible return limit', 'get a refund on audible', 'audible subscription refund', 'how many books can you return on audible', 'audible returns'],
+    title: 'Audible Return & Refund Policy 2026: How to Get a Full Refund or Credit Back (365-Day Guide)',
+    description: 'How to get an Audible refund or return a book and get your credit back. 365-day return window, credit vs cash refund, return limits, and how to avoid account flags. Complete 2026 guide.',
+    keywords: ['audible return policy', 'audible refund', 'get audible refund', 'refund audible', 'audible returns', 'audible return audiobook', 'how to return audible', 'audible refund credit', 'audible return limit', 'audible returns policy', 'audible subscription refund', 'how many books can you return on audible', 'how many returns does audible allow', 'can i return an audiobook and get my credit back', 'audible refunds'],
     date: '2026-07-27',
     updatedAt: '2026-08-24',
     readTime: '9 min read',
@@ -2040,18 +1993,6 @@ const POSTS: Record<string, BlogPostData> = {
           <li>Confirm - credit or refund is processed</li>
         </ol>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Credit Returns vs Cash Refunds</h2>
-        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
-          <p><strong>Credit purchase:</strong> Credit restored instantly</p>
-          <p><strong>Cash purchase:</strong> Refund to card in 5-7 business days</p>
-          <p><strong>Plus Catalog:</strong> No return possible (already free)</p>
-        </div>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Best Practices</h2>
-        <ul className="space-y-1">
-          <li>Return within 365 days - that&apos;s your window</li>
-          <li>Don&apos;t overuse returns (excessive returns may trigger account review)</li>
-          <li>Use returns to recover credits for better books</li>
-        </ul>
-      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How Returns Work With Credits vs Cash</h2>
         <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
@@ -2067,13 +2008,19 @@ const POSTS: Record<string, BlogPostData> = {
                 <td className="py-2 pr-4">Credit Purchase</td>
                 <td className="py-2 pr-4">Credit returned</td>
                 <td className="py-2 pr-4">Instant</td>
-                <td className="py-2">Exchanging books</td>
+                <td className="py-2">Exchanging for a better book</td>
               </tr>
               <tr className="border-b border-border">
                 <td className="py-2 pr-4">Cash Purchase</td>
                 <td className="py-2 pr-4">Refund to card</td>
-                <td className="py-2 pr-4">3-5 days</td>
+                <td className="py-2 pr-4">3-5 business days</td>
                 <td className="py-2">Getting money back</td>
+              </tr>
+              <tr>
+                <td className="py-2 pr-4">Plus Catalog listen</td>
+                <td className="py-2 pr-4">Nothing to refund</td>
+                <td className="py-2 pr-4">N/A</td>
+                <td className="py-2">Not eligible &mdash; already free</td>
               </tr>
             </tbody>
           </table>
@@ -2081,20 +2028,10 @@ const POSTS: Record<string, BlogPostData> = {
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Great Return Policy Change</h2>
         <p>In 2022, Audible introduced a policy that limited frequent returners. Users who returned too many audiobooks relative to purchases lost self-service returns and had to contact support instead. This was to prevent abuse where some users effectively rented audiobooks by purchasing and returning them repeatedly.</p>
         <p>As of 2026, Audible displays a return limit in your account settings showing how many returns you have remaining. Most active members can return several books per year without issue.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Return an Audiobook</h2>
-        <ol className="space-y-2 list-decimal pl-5">
-          <li>Go to Audible website and log in</li>
-          <li>Click <strong>Account Details</strong> &rarr; <strong>Purchase History</strong></li>
-          <li>Find the book and click <strong>Return this title</strong></li>
-          <li>Select a reason and confirm</li>
-        </ol>
-        <p>If self-service return is not available, contact Audible customer support via chat.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Tips for Smart Returns</h2>
-        <ul className="space-y-2">
-          <li>Use returns for genuine quality issues, not as a rental service</li>
-          <li>Check our <a href="https://getcreditworth.com" className="text-primary hover:underline">Value Score rankings</a> before buying to avoid disappointment</li>
-          <li>Returning more than 20% of purchases may flag your account</li>
-        </ul>
+        <p>
+          If the self-service option is missing, your account has likely been flagged &mdash; contact Audible
+          customer support via live chat, which can usually approve a one-off manual return.
+        </p>
       <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The 365-Day Return Policy for Annual Members</h2>
         <p>An often overlooked detail: if you purchased an annual membership and are dissatisfied, you may be eligible for a refund within 365 days of purchase. This applies to the membership fee itself, not to individual audiobooks. Annual members who cancel within the first year can receive a prorated refund for the unused portion of their membership. This is more generous than the standard 30-day window for other purchases and is worth knowing about if you are considering switching plans.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How Audible Detects Return Abuse</h2>
@@ -2108,7 +2045,6 @@ const POSTS: Record<string, BlogPostData> = {
           <li>Check reviews and ratings on GetCreditWorth before purchasing to reduce return likelihood</li>
         </ul>
       
-<p><strong>Important:</strong> Return policies vary by region. UK and EU customers have additional consumer protection rights including the right to cancel within 14 days of purchase under distance selling regulations. US customers are covered by Audible voluntary return policy rather than statutory rights.</p>
         <p>
           Returning a book frees up a credit &mdash; learn how to spend it before it expires in our{" "}
           <Link href="/blog/audible-credits-expiration-policy" className="text-primary underline">credit expiration guide</Link>,
@@ -2129,251 +2065,9 @@ const POSTS: Record<string, BlogPostData> = {
         <p><strong>Monthly plans:</strong> You can request a subscription refund within the first 30 days of a new membership. After that window, monthly fees are non-refundable — but if Audible charged you after you cancelled, or you never used the subscription, live chat support will usually issue a goodwill credit.</p>
         <p><strong>Annual plans:</strong> Cancel within the first 30 days for a full refund. After 30 days, you keep access for the remaining period but do not receive a prorated cash refund for the unused months. Unused credits are forfeited at cancellation, so spend them first.</p>
         <p><strong>Trial memberships:</strong> Audible&apos;s 30-day free trial can be cancelled at any time during the trial with no charge. If you were billed after the trial because you forgot to cancel, support will typically refund the charge if you ask within a reasonable window.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Related Guides</h2>
-        <ul className="space-y-2">
-          <li><Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">Credit expiration policy</Link> — learn when credits expire</li>
-          <li><Link href="/blog/how-to-cancel-audible-subscription" className="text-primary hover:underline">Cancellation guide</Link> — know your options</li>
-          <li><Link href="/blog/audible-gift-audiobooks-guide" className="text-primary hover:underline">Gifting audiobooks</Link> — gift a title instead of returning</li>
-        </ul>
-        </>
-
-
-    ),
-  },
-
-  'audible-cancellation-fees': {
-    slug: 'audible-cancellation-fees',
-    title: 'Audible Cancellation Fee 2026: $0 — But You Lose Credits',
-    description: 'No, Audible charges $0 to cancel. But unused credits are forfeited immediately. Here is exactly what you keep, lose, and how to cancel in 5 steps.',
-    keywords: ['audible cancellation fee', 'does audible charge to cancel', 'cancel audible subscription without fee'],
-    date: '2026-07-27',
-    readTime: '4 min read',
-    category: 'FAQ',
-    faq: [
-      {
-        question: 'Does Audible charge a cancellation fee?',
-        answer: 'No. Audible does not charge any cancellation fee on any plan. You can cancel your Premium or Premium Plus subscription at any time without penalty.',
-      },
-      {
-        question: 'Do I lose my unused credits when I cancel Audible?',
-        answer: 'Yes. Any unused credits are forfeited immediately upon cancellation. Spend them before you cancel — each credit is worth roughly $14.95 in membership cost.',
-      },
-      {
-        question: 'Do I keep my audiobooks after canceling Audible?',
-        answer: 'Yes. All audiobooks you purchased remain in your library forever. You only lose access to the Plus Catalog, member discounts, and unused credits.',
-      },
-      {
-        question: 'Can I get a partial refund on an Audible annual plan?',
-        answer: 'Yes. If you cancel a Premium Plus Annual plan mid-cycle, Audible may issue a prorated refund for the unused portion, minus the retail value of any credits you have already used. This is handled case-by-case by support.',
-      },
-    ],
-    content: (
-      <>
-        <p><strong>No, Audible does not charge a cancellation fee.</strong> You can cancel your Premium or Premium Plus subscription at any time without penalty.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What Happens When You Cancel?</h2>
-        <ul className="space-y-2">
-          <li><strong>Audiobooks you bought:</strong> You keep them forever</li>
-          <li><strong>Unused credits:</strong> They are forfeited (lose them)</li>
-          <li><strong>Plus Catalog access:</strong> Ends immediately</li>
-          <li><strong>Discounts on purchases:</strong> Ends immediately</li>
-        </ul>
-        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
-          <p className="font-semibold text-text-primary mb-2">Key Tip:</p>
-          <p className="text-sm">Spend all unused credits before canceling - they expire immediately upon cancellation.</p>
-        </div>
-      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Audible Cancellation Policy by Plan Type</h2>
-        <p>Audible offers several subscription tiers, and the cancellation process differs slightly depending on your plan. Here is how each plan handles cancellations:</p>
-        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="border-b border-border">
-                <th className="text-left py-2 pr-4">Plan</th>
-                <th className="text-left py-2 pr-4">Monthly Price</th>
-                <th className="text-left py-2 pr-4">Cancellation Fee</th>
-                <th className="text-left py-2">Credit Upon Cancel</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr className="border-b border-border">
-                <td className="py-2 pr-4">Premium Plus</td>
-                <td className="py-2 pr-4">$14.95</td>
-                <td className="py-2 pr-4">$0</td>
-                <td className="py-2">Forfeited immediately</td>
-              </tr>
-              <tr className="border-b border-border">
-                <td className="py-2 pr-4">Premium Plus 2</td>
-                <td className="py-2 pr-4">$22.95</td>
-                <td className="py-2 pr-4">$0</td>
-                <td className="py-2">Forfeited immediately</td>
-              </tr>
-              <tr className="border-b border-border">
-                <td className="py-2 pr-4">Premium Plus Annual</td>
-                <td className="py-2 pr-4">$149.50/year</td>
-                <td className="py-2 pr-4">$0 (partial refund)</td>
-                <td className="py-2">Forfeited immediately</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <p>The annual plan is the only plan where you may receive a partial refund upon cancellation. Audible typically refunds the unused portion of your annual membership if you cancel within the first year. Any credits used will be deducted from the refund amount at standard credit price.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Cancel Your Audible Membership</h2>
-        <ol className="space-y-2 list-decimal pl-5">
-          <li>Go to the <strong>Audible website</strong> and log into your account</li>
-          <li>Click on <strong>Account Details</strong> then <strong>Cancel Membership</strong></li>
-          <li>Follow the prompts — Audible often offers a retention deal</li>
-          <li>Confirm cancellation</li>
-        </ol>
-        <p>You can also cancel through the Audible mobile app. The process takes about 2 minutes.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Will You Lose Your Audiobooks?</h2>
-        <p><strong>No.</strong> All audiobooks you purchased remain in your library permanently, even after cancellation. You can still access and download them. The only thing you lose is access to the Plus Catalog, member discounts, and unused credits.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Rejoining After Cancellation</h2>
-        <p>Your purchase history and library remain intact. Former members are often offered promotional deals to rejoin. Check the promotions page before resubscribing at full price.</p>
-      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What About Partial Refunds on Annual Plans?</h2>
-        <p>If you are on the Premium Plus Annual plan ($149.50/year, 12 credits upfront) and cancel mid-cycle, Audible may issue a partial refund. The refund is calculated based on the unused portion of your annual membership minus the retail value of any credits you have already spent. For example, if you cancel after 3 months and have used 4 credits, Audible subtracts approximately $59.80 (4 x $14.95) from the prorated refund of $112.13, potentially leaving you with a refund of around $52.33. This is handled case-by-case by customer support.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What Happens to Your Plus Catalog Saves?</h2>
-        <p>When you cancel, any books you have saved to your library from the Plus Catalog become inaccessible until you resubscribe. Your wishlist, listening history, and preferences are all preserved. If you resubscribe within several months, everything will be exactly as you left it — except for expired credits, which are gone permanently.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Does Audible Offer Retention Deals When You Cancel?</h2>
-        <p>Yes, this is one of the most common outcomes of attempting to cancel. Audible's cancellation flow frequently offers retention incentives, especially for long-time members. Common offers include: one free credit to stay on the plan, 50% off the next 3 months of membership, a free month of Premium Plus, or a discounted upgrade to the 2-credit plan. These offers appear during the online cancellation process before you finalize. If you receive a good retention offer and were planning to cancel anyway, it is often worth accepting and then canceling later.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Using Your Remaining Credits Before Canceling</h2>
-        <p>Before you cancel, use every remaining credit. Each credit represents $14.95 in membership cost and potentially $30-50 in audiobook retail value. Check our <a href="https://getcreditworth.com" className="text-primary hover:underline">GetCreditWorth rankings</a> to find the highest Value Score books for your remaining credits. A credit spent on a 45-hour epic fantasy delivers far more value than one lost to cancellation. Prioritize books with long runtimes and high ratings to maximize your final credit spend.</p>
-      
-<p><strong>Summary:</strong> Audible does not charge cancellation fees on any plan. The key financial impact is losing unused credits and the 30% member discount. If you plan to resubscribe within a few months, consider pausing instead.</p>
         <p>
-          Before you cancel, return any books you want to swap via the{" "}
-          <Link href="/blog/audible-return-refund-policy" className="text-primary underline">return &amp; refund guide</Link>,
-          and learn exactly how far your credits stretch in our{" "}
-          <Link href="/blog/audible-credits-expiration-policy" className="text-primary underline">credit expiration guide</Link>.
-        </p>
-      </>
-
-
-    ),
-  },
-
-  'how-to-use-audible-credits-more-than-one': {
-    slug: 'how-to-use-audible-credits-more-than-one',
-    title: 'How to Use Multiple Audible Credits at Once',
-    description: 'Learn about Audible credit rollover, stacking, and maximizing your credits with Premium Plus 2 and annual plans.',
-    keywords: ['use multiple audible credits', 'audible credit rollover', 'how to stack audible credits'],
-    date: '2026-07-27',
-    readTime: '5 min read',
-    category: 'Guide',
-    content: (
-      <>
-        <p>Can you use multiple Audible credits at once? The answer depends on your plan and whether you have rolled over credits from previous months.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Credit Rollover Rules</h2>
-        <p><strong>Premium Plus (1 credit/month):</strong> You can roll over up to 6 credits to the next billing cycle. This means you could have 7 credits total (1 new + 6 rolled over).</p>
-        <p><strong>Premium Plus 2 (2 credits/month):</strong> You can roll over credits, but the exact limit isn&apos;t published. Typically you can accumulate several credits.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Using Multiple Credits</h2>
-        <p>Audible allows you to spend multiple credits in a single transaction. When purchasing a book, you can choose to pay with credits instead of cash. If you have multiple credits available, you can use them all at once.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Strategy for Maximum Value</h2>
-        <p>The key to maximizing multiple credits is spending them on expensive, long audiobooks. A single $35+ audiobook uses one credit and saves you ~$20. Using 3 credits on 3 such books saves you ~$60.</p>
-        <p>Tip: Consider the <strong>Premium Plus 2 plan</strong> ($22.95/month for 2 credits) if you regularly use more than one credit per month. The per-credit cost drops from $14.95 to $11.48.</p>
-      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How Credit Rollover Works</h2>
-        <p>Credit rollover allows you to accumulate unused credits from month to month. The rules depend on your plan:</p>
-        <ul className="space-y-2">
-          <li><strong>Premium Plus (1 credit/mo):</strong> Roll over up to 6 credits. This means if you skip using credits for 6 months, you will have 6 credits available at once.</li>
-          <li><strong>Premium Plus 2 (2 credits/mo):</strong> Higher rollover limits. You can accumulate credits faster with this plan.</li>
-          <li><strong>Premium Plus Annual (12 upfront):</strong> All credits are available immediately. Spend them strategically before they expire 12 months from issuance.</li>
-        </ul>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Using Multiple Credits in One Purchase</h2>
-        <p>Audible allows you to use multiple credits in a single transaction. When checking out, you can select "Use X credits" instead of paying cash. This is particularly useful for box sets and multi-book collections that cost more than one credit.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Best Strategies for Multiple Credits</h2>
-        <p>When you have accumulated multiple credits, the best strategy is to spend them on expensive, long audiobooks. A $50, 45-hour epic fantasy series gives you an effective cost-per-hour of $0.33 per credit — exceptional value. Short books under 8 hours are better purchased with cash (especially with the 30% member discount) rather than credits.</p>
-        <p>Use our <a href="https://getcreditworth.com" className="text-primary hover:underline">Cost Per Hour calculator</a> to compare which books give you the best listening value for your credits.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Can You Share Multiple Credits?</h2>
-        <p>Audible credits are non-transferable. You cannot gift a credit to another person (though you can gift specific audiobooks). If you have excess credits about to expire, your best option is to find books you will enjoy rather than losing them entirely.</p>
-      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Real Examples of Multi-Credit Strategies</h2>
-        <p>Here are practical scenarios for using multiple credits effectively. Scenario A: You have 6 credits saved over 6 months. Instead of spending them all at once on random books, create a prioritized list: spend 2 credits on two 40+ hour fantasy epics (80+ hours of entertainment), 2 credits on 20-hour bestsellers you have been wanting to read, and reserve 2 credits for new releases from your favorite authors. This balanced approach maximizes both immediate enjoyment and future options. Scenario B: You have 3 credits and a 10-hour flight coming up. Spend 1 credit on a 30-hour epic for the flight, and save 2 credits for books under 15 hours that you can finish in a week.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Psychology of Credit Hoarding</h2>
-        <p>Many subscribers fall into the trap of hoarding credits — saving them for a "perfect" book that never comes. This is suboptimal for two reasons: credits expire after 12 months, and unused credits represent frozen value that could be generating enjoyment. The optimal strategy is to maintain a rolling balance of 2-4 credits for flexibility while spending 1-2 credits per month consistently. Use our <a href="https://getcreditworth.com" className="text-primary hover:underline">Value Score tool</a> to quickly identify credit-worthy books in your preferred genres, reducing the decision paralysis that leads to hoarding.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Multiple Credits and the Annual Plan Advantage</h2>
-        <p>The Annual Premium Plus plan gives you 12 credits upfront. This is the ultimate multi-credit scenario. With all 12 credits available immediately, you can: binge an entire series in one purchase, stock up on long books for months of listening, take advantage of sales that require credit spending, and never worry about monthly credit limits. The Annual plan effectively solves the "multiple credits" question by giving you maximum flexibility. The cost per credit at $12.46 is also lower than the monthly plan, making it the best option for committed listeners who want to use multiple credits strategically.</p>
-      
-<p><strong>Bottom line:</strong> Using multiple credits effectively comes down to planning. Track your credit balance, know your expiration dates, and always spend credits on books with the highest Value Score. With Premium Plus 2 offering credits at $11.48 each, stacking credits before strategic purchases is an excellent way to build your library.</p></>
-
-
-    ),
-  },
-
-  'audible-credits-expiration-policy': {
-    slug: 'audible-credits-expiration-policy',
-    title: 'Audible Credit Expiration: When Do Credits Expire?',
-    description: 'Credits expire 12 months after issuance. Learn how to track your credits and use them before they expire.',
-    keywords: ['audible credits expire', 'when do audible credits expire', 'credit expiration policy audible'],
-    date: '2026-07-27',
-    readTime: '5 min read',
-    category: 'Analysis',
-    faq: [
-      {
-        question: 'When do Audible credits expire?',
-        answer:
-          'Audible credits expire 12 months after the date they are issued. A credit received on January 1 expires on December 31 of the same year. Canceling your membership immediately forfeits all remaining credits.',
-      },
-      {
-        question: 'Do rolled-over credits expire at the same time?',
-        answer:
-          'No. Each credit keeps its original issuance date for expiration purposes. If you accumulate credits over several months, they expire on a rolling basis — the oldest credit expires first, not all at once.',
-      },
-      {
-        question: 'Can I get an expired credit back?',
-        answer:
-          'Audible does not reinstate expired credits as a rule. You can contact support before expiration and they may grant a one-time extension for a valid reason, but never rely on this. Spend credits proactively.',
-      },
-      {
-        question: 'Do credits survive a plan change?',
-        answer:
-          'Upgrading (e.g. to Premium Plus 2) keeps your existing credits and their original expiration dates. Downgrading to a non-credit plan (Audible Plus) forfeits all unused credits immediately — spend them first.',
-      },
-    ],
-    content: (
-      <>
-        <p><strong>Audible credits expire 12 months after they are issued.</strong> This applies to both monthly credits and any credits you've rolled over from previous months.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Expiration Rule</h2>
-        <p>If you receive a credit on January 1st, it expires on December 31st of the same year (12 months later). Canceling your membership immediately forfeits all remaining credits.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Check Your Expiration Dates</h2>
-        <p>Go to <strong>Account Details</strong> &rarr; <strong>Your Membership</strong> &rarr; <strong>Premium Plus Credits</strong> to see your current credits and their expiration dates.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Expiration Strategy</h2>
-        <ul className="space-y-2">
-          <li>Set calendar reminders 30 days before expiration</li>
-          <li>Spend credits on books with high Value Scores</li>
-          <li>Don&apos;t let credits pile up - spend them before they expire</li>
-          <li>Before canceling, spend all remaining credits</li>
-        </ul>
-        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
-          <p className="text-sm"><strong>Warning:</strong> An expired credit is worth $0. Better to spend on a decent book than lose it entirely.</p>
-        </div>
-      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Credit Expiration by Plan Type</h2>
-        <p>Different Audible plans have different credit expiration rules. Here is a breakdown:</p>
-        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="border-b border-border"><th className="text-left py-2 pr-4">Plan</th><th className="text-left py-2 pr-4">Credit Issuance</th><th className="text-left py-2 pr-4">Expiration</th><th className="text-left py-2">Rollover Limit</th></tr>
-            </thead>
-            <tbody>
-              <tr className="border-b border-border"><td className="py-2 pr-4">Premium Plus</td><td className="py-2 pr-4">1 per month</td><td className="py-2 pr-4">12 months</td><td className="py-2">6 credits</td></tr>
-              <tr className="border-b border-border"><td className="py-2 pr-4">Premium Plus 2</td><td className="py-2 pr-4">2 per month</td><td className="py-2 pr-4">12 months</td><td className="py-2">Up to 12</td></tr>
-              <tr className="border-b border-border"><td className="py-2 pr-4">Premium Plus Annual</td><td className="py-2 pr-4">12 upfront</td><td className="py-2 pr-4">12 months from issuance</td><td className="py-2">N/A</td></tr>
-            </tbody>
-          </table>
-        </div>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Never Lose a Credit</h2>
-        <p>The golden rule: always know your expiration dates. Log into your Audible account and check your credit balance. Each credit shows its expiration date. Set calendar reminders 30 days before expiration so you have time to choose a book wisely rather than panic-spending on a mediocre title.</p>
-        <p>Our recommendation: use credits on books with a Value Score above 4.0. These are audiobooks that offer the best combination of length, rating, and price. Check our <a href="https://getcreditworth.com" className="text-primary hover:underline">top-rated audiobooks</a> for inspiration.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What Happens to Expired Credits?</h2>
-        <p>An expired credit is gone permanently. Audible does not reinstate expired credits under any circumstances. However, you can contact customer support before expiration and they may offer an extension if you have a valid reason. Do not rely on this — always spend your credits proactively.</p>
-      <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Credit Expiration: Detailed Examples</h2>
-        <p>To make the expiration rules concrete, here are real-world scenarios: You join Premium Plus on March 15, 2026 and receive your first credit. That credit expires on March 14, 2027. If you roll over credits by not using them for several months, each credit retains its original issuance date for expiration purposes. Your April credit expires in April 2027, your May credit in May 2027, and so on. This means if you accumulate 6 credits over 6 months, they expire on a rolling basis — not all at once. The oldest credit expires first.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What Happens During a Plan Change?</h2>
-        <p>If you upgrade from Premium Plus to Premium Plus 2, your existing credits keep their original expiration dates. Downgrading is more complicated: if you move from a credit plan to a non-credit plan (Audible Plus), all unused credits are forfeited immediately. This is why you should always spend your credits before changing plans. If you are considering a plan change, use our <a href="https://getcreditworth.com" className="text-primary hover:underline">Credit Value Calculator</a> to identify the best books for your remaining credits before making the switch.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Comparing Audible to Competitor Credit Systems</h2>
-        <p>Other audiobook services handle credits differently. Scribd offers unlimited access with a monthly cap rather than individual credits. Kobo Plus uses a similar credit model but with shorter expiration windows. Spotify audiobooks offer 15 hours of listening per month as part of a Premium subscription. Audible's 12-month expiration window is actually one of the most generous in the industry — the key is simply tracking your credits and using them before they expire.</p>
-      
-<p><strong>Pro tip:</strong> If you have credits about to expire but cannot find a book you want, consider buying a book you know you will listen to eventually. Even a book you are only moderately interested in is better than letting a credit expire to zero value. Every credit saved is $14.95 in membership value preserved.</p><p>Audible does occasionally run promotions where they offer bonus credits or extend expiration dates. Check your account periodically for these offers, especially during holiday seasons.</p>        <p className="mt-6">
-          If your credits are about to expire, spend them on titles with real staying power. Epic-length books like{ }
-          <Link href="/books/B003ZWFO7E" className="text-primary underline">The Way of Kings</Link> (45.5 hours),{ }
-          <Link href="/books/B002V0QCYU" className="text-primary underline">The Final Empire</Link> (24.7 hours), and{ }
-          <Link href="/books/B002V1OF70" className="text-primary underline">Dune</Link> (21.5 hours) turn one credit into weeks of listening.
+          If you would rather pass a title on than return it, see our{" "}
+          <Link href="/blog/audible-gift-audiobooks-guide" className="text-primary underline">guide to gifting audiobooks</Link>.
         </p>
         </>
 
@@ -2381,184 +2075,6 @@ const POSTS: Record<string, BlogPostData> = {
     ),
   },
 
-  'do-audible-credits-expire': {
-    slug: 'do-audible-credits-expire',
-    title: 'Do Audible Credits Expire? The 12-Month Rule, Explained (2026)',
-    description:
-      'Yes — Audible credits expire 12 months after they are issued. Here is exactly how the expiration clock works and what it means for your unused credits.',
-    keywords: ['do audible credits expire', 'when do audible credits expire', 'audible credit expiration rule'],
-    date: '2026-08-14',
-    readTime: '4 min read',
-    category: 'Analysis',
-    faq: [
-      {
-        question: 'Do Audible credits expire?',
-        answer:
-          'Yes. Every Audible credit expires 12 months after the date it was issued, regardless of which plan you are on. Spend it before then or it becomes worthless.',
-      },
-      {
-        question: 'Is there a grace period after expiration?',
-        answer:
-          'No automatic grace period. Once a credit passes its 12-month mark it is gone. Audible support may grant a one-time extension only if you contact them before it expires.',
-      },
-    ],
-    content: (
-      <>
-        <p><strong>Yes, Audible credits expire — 12 months after they are issued.</strong> This is the single most misunderstood part of the Audible membership, and it is where most subscribers quietly lose money.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How the 12-Month Clock Works</h2>
-        <p>The expiration date is tied to when the credit was <em>issued</em>, not when your membership started. A credit that lands in your account on March 1, 2026 expires on February 28, 2027. Monthly credits therefore expire on a rolling, staggered schedule rather than all at once.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Why People Think Credits Never Expire</h2>
-        <p>Audible lets you &ldquo;roll over&rdquo; a limited number of unused credits (6 on standard Premium Plus). Because those credits stay visible in your account for months, it is easy to assume they last forever. They do not — each one is still ticking toward its own 12-month deadline.</p>
-        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
-          <p className="text-sm"><strong>Bottom line:</strong> an expired credit is worth $0. Spend it on any title, even a mediocre one, rather than let it vanish.</p>
-        </div>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What Happens to Rolled-Over Credits?</h2>
-        <p>Rollover does not pause the clock. Each rolled-over credit keeps its original issuance date, so your oldest credits are always the first to expire. For the full breakdown of expiration by plan type, read our <Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">complete Audible credit expiration policy guide</Link>.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Never Lose a Credit</h2>
-        <ul className="space-y-2">
-          <li>Check <strong>Account Details &rarr; Your Membership &rarr; Premium Plus Credits</strong> monthly</li>
-          <li>Set a calendar reminder 30 days before each credit&apos;s expiration</li>
-          <li>Spend credits on books with a Value Score above 4.0 for the best return</li>
-          <li>Before canceling, use every remaining credit — cancellation forfeits them instantly</li>
-        </ul>
-        <p>Already near a deadline? Here is <Link href="/blog/how-to-spend-audible-credits-before-expiry" className="text-primary hover:underline">how to spend a credit before it expires for maximum value</Link>.</p>
-      </>
-    ),
-  },
-
-  'stop-audible-credits-expiring': {
-    slug: 'stop-audible-credits-expiring',
-    title: 'How to Stop Audible Credits from Expiring (5 Working Methods)',
-    description:
-      'Five practical ways to keep your Audible credits from expiring — from calendar reminders to strategic plan choices. Stop losing $14.95 per credit.',
-    keywords: ['how to stop audible credits from expiring', 'keep audible credits from expiring', 'audible credits expiring fix'],
-    date: '2026-08-14',
-    readTime: '6 min read',
-    category: 'Analysis',
-    faq: [
-      {
-        question: 'Can I stop Audible credits from expiring?',
-        answer:
-          'You cannot freeze the 12-month expiration clock, but you can avoid losing credits: spend them before they expire, set reminders, or choose a plan whose rollover limit fits your listening pace.',
-      },
-      {
-        question: 'Does pausing Audible stop credit expiration?',
-        answer:
-          'No. Pausing only stops billing and keeps your account active, but credits already issued continue to expire on their original schedule. See our pause-vs-cancel breakdown for details.',
-      },
-    ],
-    content: (
-      <>
-        <p><strong>You can&apos;t freeze the 12-month clock, but you can stop losing credits to it.</strong> Here are five methods that actually work, ranked by effort.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">1. Set a 30-Day Expiration Reminder</h2>
-        <p>The simplest fix: every month, open <strong>Account Details &rarr; Premium Plus Credits</strong> and note the earliest expiration date. Drop a reminder 30 days out. This alone eliminates most accidental losses.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">2. Spend on High Value-Score Books</h2>
-        <p>A credit spent on a 40-hour, 4.8-star epic returns far more than one spent on a 2-hour short story. Use our <Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">expiration strategy guide</Link> to prioritize before the deadline.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">3. Match Your Plan to Your Pace</h2>
-        <p>If you only listen to one book every two months, a single-credit plan with a 6-credit rollover is plenty. Heavy listeners should pick Premium Plus 2 (up to 12 rollover). Over- or under-provisioning is what causes pile-ups that expire.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">4. &ldquo;Use It or Lose It&rdquo; Spending</h2>
-        <p>About to lose a credit with no title you love? Spend it on a book you&apos;ll probably listen to eventually. A decent book you half-want beats a credit worth exactly $0.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">5. Contact Support Before — Not After</h2>
-        <p>If a credit is about to expire and you have a genuine reason, Audible support can sometimes grant a one-time extension. The request must happen <em>before</em> expiration; never after.</p>
-        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
-          <p className="text-sm"><strong>Rule of thumb:</strong> track dates aggressively, spend proactively, and treat every credit as a $14.95 bill coming due.</p>
-        </div>
-        <p>Once you have a system, the final step is actually spending the credit well — see our <Link href="/blog/how-to-spend-audible-credits-before-expiry" className="text-primary hover:underline">guide to spending credits for maximum value before they lapse</Link>.</p>
-      </>
-    ),
-  },
-
-  'audible-pause-membership-keep-credits': {
-    slug: 'audible-pause-membership-keep-credits',
-    title: 'Does Pausing Audible Keep Your Credits? Pause vs Cancel in 2026',
-    description:
-      'Pausing Audible stops billing but keeps your account active — yet your credits still expire. Learn exactly what pause protects and what it does not.',
-    keywords: ['pause audible keep credits', 'pausing audible credits', 'audible pause membership'],
-    date: '2026-08-14',
-    readTime: '5 min read',
-    category: 'Analysis',
-    faq: [
-      {
-        question: 'Does pausing Audible keep your credits?',
-        answer:
-          'Pausing keeps your account and your already-redeemed library, but it does NOT stop issued credits from expiring. The 12-month clock keeps running while paused.',
-      },
-      {
-        question: 'Is pause better than cancel for keeping credits?',
-        answer:
-          'Yes — cancel immediately forfeits all unused credits, while pause preserves them (until they expire). But neither pauses the expiration timer. Spend credits before pausing if a deadline is near.',
-      },
-    ],
-    content: (
-      <>
-        <p><strong>Pausing Audible keeps your account and your downloaded books — but it does not stop your credits from expiring.</strong> This distinction trips up a lot of subscribers.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What Pausing Actually Does</h2>
-        <p>When you pause, billing stops for up to three months and your membership benefits (like the Plus Catalog) are suspended. Your account stays open, your redeemed audiobooks remain yours, and you can resume anytime. What does <em>not</em> change: any credit already in your balance keeps its original 12-month expiration date.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Pause vs Cancel: The Credit Difference</h2>
-        <div className="bg-bg-surface p-4 rounded-md border border-border my-6 overflow-x-auto">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="border-b border-border"><th className="text-left py-2 pr-4">Action</th><th className="text-left py-2 pr-4">Unused Credits</th><th className="text-left py-2">Expiration Clock</th></tr>
-            </thead>
-            <tbody>
-              <tr className="border-b border-border"><td className="py-2 pr-4">Pause</td><td className="py-2 pr-4">Kept (until they expire)</td><td className="py-2">Keeps running</td></tr>
-              <tr className="border-b border-border"><td className="py-2 pr-4">Cancel</td><td className="py-2 pr-4">Forfeited immediately</td><td className="py-2">N/A</td></tr>
-            </tbody>
-          </table>
-        </div>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When Pause Makes Sense</h2>
-        <p>Pause is ideal for a listening break — a few months off, then back. It protects you from the worst outcome (instant forfeiture) while you are away. Just remember to spend any credit nearing its deadline <em>before</em> you pause.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Expiration Catch</h2>
-        <p>Because the 12-month timer never pauses, a credit issued in January still expires the following January even if you paused from March to June. For the full plan-by-plan expiration rules, see our <Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">Audible credit expiration policy guide</Link>.</p>
-        <p>And if a credit is near its deadline while you are paused, spend it first — here is <Link href="/blog/how-to-spend-audible-credits-before-expiry" className="text-primary hover:underline">how to spend a credit for maximum value before it expires</Link>.</p>
-      </>
-    ),
-  },
-
-  'audible-credit-expiration-extension': {
-    slug: 'audible-credit-expiration-extension',
-    title: 'Can You Extend Expired Audible Credits? What Support Will (and Won\'t) Do',
-    description:
-      'Expired Audible credits are usually gone for good. Here is when support can grant an extension, and the steps to maximize your odds of recovery.',
-    keywords: ['extend expired audible credits', 'audible credit grace period', 'audible expired credit recovery'],
-    date: '2026-08-14',
-    readTime: '4 min read',
-    category: 'Analysis',
-    faq: [
-      {
-        question: 'Can you extend an already-expired Audible credit?',
-        answer:
-          'Rarely. Audible does not reinstate expired credits as policy. Support may make a one-time exception if you contact them before expiration with a valid reason — almost never after.',
-      },
-      {
-        question: 'Is there a grace period for expired credits?',
-        answer:
-          'No standard grace period exists. Treat the 12-month date as a hard deadline. The only lever is a discretionary extension granted by support before the credit lapses.',
-      },
-    ],
-    content: (
-      <>
-        <p><strong>Once an Audible credit expires, it is almost always gone for good.</strong> Understanding exactly when support can help — and when they cannot — saves you from false hope.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Hard Rule</h2>
-        <p>Audible&apos;s policy is clear: expired credits are not reinstated. There is no automated grace period and no &ldquo;reactivate&rdquo; button in your account. The moment a credit passes its 12-month mark, its value drops to $0.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">When Support Might Extend</h2>
-        <p>In practice, Audible support has limited discretion to grant a <em>one-time</em> extension — but only under specific conditions:</p>
-        <ul className="space-y-2">
-          <li>You contact them <strong>before</strong> the credit expires</li>
-          <li>You have a credible reason (billing error, medical leave, account compromise)</li>
-          <li>You are a long-term, in-good-standing member</li>
-        </ul>
-        <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
-          <p className="text-sm"><strong>Reality check:</strong> asking after expiration almost never works. The request must land while the credit is still live.</p>
-        </div>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">How to Maximize Recovery Odds</h2>
-        <p>If a deadline is imminent, open a chat with support, explain the situation calmly, and ask specifically for a &ldquo;credit expiration extension.&rdquo; Pair this with proactive spending: our <Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">expiration policy guide</Link> shows how to check each credit&apos;s exact date so nothing slips by.</p>
-        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">The Better Strategy: Don&apos;t Rely on Exceptions</h2>
-        <p>Discretionary extensions are a safety net, not a plan. The subscribers who never lose value are the ones who track dates and spend ahead of time — not the ones who negotiate with support after the fact.</p>
-        <p>The real win is spending each credit well before the deadline — our <Link href="/blog/how-to-spend-audible-credits-before-expiry" className="text-primary hover:underline">maximum-value spending guide</Link> shows exactly how.</p>
-      </>
-    ),
-  },
 
   'how-to-spend-audible-credits-before-expiry': {
     slug: 'how-to-spend-audible-credits-before-expiry',
@@ -8305,6 +7821,28 @@ const POSTS: Record<string, BlogPostData> = {
     ),
   },
 
+  'dragonfly-in-amber-outlander-book-2-review': {
+    slug: 'dragonfly-in-amber-outlander-book-2-review',
+    title: 'Dragonfly in Amber: Outlander Book 2 Review',
+    description: 'Review of Dragonfly in Amber, the second book in Diana Gabaldon\'s Outlander series.',
+    keywords: ['dragonfly in amber audiobook', 'outlander book 2', 'best romance audiobooks'],
+    date: '2026-08-31',
+    readTime: '10 min read',
+    category: 'Audiobook Review',
+    faq: [
+      { question: 'Do I need to read the first Outlander book?', answer: 'Yes, strongly recommended.' },
+      { question: 'How long is the audiobook?', answer: 'Approximately 24 hours.' },
+    ],
+    content: (
+      <>
+        <p>Dragonfly in Amber is the second book in Diana Gabaldon\'s epic Outlander series.</p>
+        <h2>Plot Summary</h2>
+        <p>After escaping France, Claire and Jamie return to Scotland, caught in the aftermath of the Jacobite rising.</p>
+        <h2>Listen Now</h2>
+        <p>Available on Audible with a credit.</p>
+      </>
+    ),
+  },
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
@@ -8323,21 +7861,3 @@ export function getAllBlogPosts(): BlogPost[] {
     .map(({ content, ...meta }) => meta)
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
-  'dragonfly-in-amber-outlander-book-2-review': {
-    slug: 'dragonfly-in-amber-outlander-book-2-review',
-    title: 'Dragonfly in Amber: Outlander Book 2 Review',
-    description: 'Review of Dragonfly in Amber, the second book in Diana Gabaldon\'s Outlander series.',
-    keywords: ['dragonfly in amber audiobook', 'outlander book 2', 'best romance audiobooks'],
-    date: '2026-08-31',
-    readTime: '10 min read',
-    category: 'Audiobook Review',
-    faq: [
-      { question: 'Do I need to read the first Outlander book?', answer: 'Yes, strongly recommended.' },
-      { question: 'How long is the audiobook?', answer: 'Approximately 24 hours.' },
-    ],
-    content: (
-      <>
-        
-      </>
-    ),
-  },};

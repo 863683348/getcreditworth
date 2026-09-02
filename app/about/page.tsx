@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "About GetCreditWorth - Audible Credit Value Optimizer",
   description:
-    "Free tool to maximize your Audible credits. Transparent Value Score formula, credit calculator, and curated book lists.",
+    "Free tool to maximize your Audible credits. Transparent Value Score methodology, editorial independence, data sources, and credit calculator — how we rank every audiobook.",
   keywords: [
     "audible credit optimizer",
     "audible value score tool",
