@@ -2096,6 +2096,32 @@
     "description": "\"The Complete Sherlock Holmes\" by Sir Arthur Conan Doyle is a 58-hour Mystery epic. rated 4.5/5 with 650 listener reviews. priced at $15.15 — above a single credit ($0.26/hour), so a credit saves you money. Thriller and mystery listeners will find plenty of pull here. See the full credit-value breakdown on getcreditworth.com before you decide."
   },
   {
+    "asin": "B09312MBGR",
+    "title": "The Eurynome Code",
+    "author": "K. Gorman",
+    "narrator": "Andrea Emmes",
+    "runtimeMinutes": 3849,
+    "price": 14.9,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 64,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/519j29LQ4fS._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09312MBGR",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Military"
+    ],
+    "releaseDate": "2021-05-18",
+    "publisher": "Aethon Audio",
+    "description": "\"The Eurynome Code\" by K. Gorman is a 64-hour Science Fiction & Fantasy epic. rated 4.0/5 with 64 listener reviews. priced at $14.90 ($0.23/hour) — cheaper than spending a credit. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 64.2,
+    "valueScore": 17.22,
+    "costPerHour": 0.23,
+    "creditWorth": 1,
+    "adjustedValueScore": 71.88
+  },
+  {
     "asin": "B0036NQDM2",
     "title": "Audio Bible - New Century Version, NCV: Complete Bible",
     "author": "Thomas Nelson",
@@ -3336,6 +3362,32 @@
     "costPerHour": 0.35,
     "creditWorth": 1,
     "adjustedValueScore": 9.77
+  },
+  {
+    "asin": "B0BGJKP34L",
+    "title": "Spells & Caramels Magical Mysteries: The Complete Series",
+    "author": "Erin Johnson",
+    "narrator": "Hannah Somerville",
+    "runtimeMinutes": 3837,
+    "price": 20.42,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 193,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51j76HES-+L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0BGJKP34L",
+    "categories": [
+      "Mystery, Thriller & Suspense",
+      "Mystery",
+      "Anthologies & Short Stories"
+    ],
+    "releaseDate": "2022-09-26",
+    "publisher": "Charmed Pages Publishing",
+    "description": "\"Spells & Caramels Magical Mysteries: The Complete Series\" by Erin Johnson is a 64-hour Mystery, Thriller & Suspense epic. rated 4.5/5 with 193 listener reviews. priced at $20.42 — above a single credit ($0.32/hour), so a credit saves you money. Thriller and mystery listeners will find plenty of pull here. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 64,
+    "valueScore": 14.09,
+    "costPerHour": 0.32,
+    "creditWorth": 1.37,
+    "adjustedValueScore": 74.22
   },
   {
     "asin": "B00UO410TW",
@@ -5897,6 +5949,32 @@
     "costPerHour": 0.45,
     "creditWorth": 1.41,
     "adjustedValueScore": 12.24
+  },
+  {
+    "asin": "B0G3YJ7TVN",
+    "title": "The Last Ballad of Hope",
+    "author": "Philip C. Quaintrell",
+    "narrator": "Steven Brand",
+    "runtimeMinutes": 1843,
+    "price": 13.79,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 31,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51IO-c-ChLL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0G3YJ7TVN",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2026-03-03",
+    "publisher": "Podium Audio",
+    "description": "\"The Last Ballad of Hope\" by Philip C. Quaintrell is a 31-hour Science Fiction & Fantasy epic. rated 5.0/5 with 31 listener reviews. priced at $13.79 ($0.45/hour) — cheaper than spending a credit. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 30.7,
+    "valueScore": 11.14,
+    "costPerHour": 0.45,
+    "creditWorth": 0.92,
+    "adjustedValueScore": 38.61
   },
   {
     "asin": "B0G6FYNWKT",
@@ -9839,6 +9917,32 @@
     "adjustedValueScore": 5.83
   },
   {
+    "asin": "B088G1R4JZ",
+    "title": "The Magic Mountain",
+    "author": "Thomas Mann",
+    "narrator": "David Rintoul",
+    "runtimeMinutes": 2247,
+    "price": 20.07,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 180,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/5158cF8oJgL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B088G1R4JZ",
+    "categories": [
+      "Literature & Fiction",
+      "Classics",
+      "Genre Fiction"
+    ],
+    "releaseDate": "2020-05-14",
+    "publisher": "Ukemi Audiobooks from W. F. Howes Ltd",
+    "description": "\"The Magic Mountain\" by Thomas Mann is a 38-hour Literature & Fiction epic. rated 4.5/5 with 180 listener reviews. priced at $20.07 — above a single credit ($0.54/hour), so a credit saves you money. Classics and literary fiction readers will appreciate the depth on offer. Our Value Score of 8.4/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 37.5,
+    "valueScore": 8.4,
+    "costPerHour": 0.54,
+    "creditWorth": 1.34,
+    "adjustedValueScore": 43.67
+  },
+  {
     "asin": "B01N23SWSX",
     "title": "Covenant College",
     "author": "Amanda M. Lee",
@@ -10097,6 +10201,32 @@
     "costPerHour": 0.54,
     "creditWorth": 0.98,
     "adjustedValueScore": 30.33
+  },
+  {
+    "asin": "B0DT2FPTQM",
+    "title": "Bubbles in Space: Complete Series, Books 1-5",
+    "author": "S.C. Jensen",
+    "narrator": "Jennifer Blom",
+    "runtimeMinutes": 2564,
+    "price": 20.64,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51oisCwafHL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DT2FPTQM",
+    "categories": [
+      "Mystery, Thriller & Suspense",
+      "Thriller & Suspense",
+      "Technothrillers"
+    ],
+    "releaseDate": "2025-01-15",
+    "publisher": "Northern Edge Publishing",
+    "description": "\"Bubbles in Space: Complete Series, Books 1-5\" by S.C. Jensen is a 43-hour Mystery, Thriller & Suspense epic. rated 4.0/5 with 2 listener reviews. priced at $20.64 — above a single credit ($0.48/hour), so a credit saves you money. Thriller and mystery listeners will find plenty of pull here. Our Value Score of 8.3/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 42.7,
+    "valueScore": 8.28,
+    "costPerHour": 0.48,
+    "creditWorth": 1.38,
+    "adjustedValueScore": 9.1
   },
   {
     "asin": "B07LFHB1KS",
@@ -11490,6 +11620,32 @@
     "adjustedValueScore": 35.38
   },
   {
+    "asin": "B0GDVLF8CT",
+    "title": "Shadow Walker Complete Series: Box Set Collection (Books 1-4(",
+    "author": "Jina S. Bazzar",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 1831,
+    "price": 17.85,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41ntZ6lBu1L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GDVLF8CT",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2026-01-03",
+    "publisher": "Jina S. Bazzar",
+    "description": "\"Shadow Walker Complete Series: Box Set Collection (Books 1-4(\" by Jina S. Bazzar is a 31-hour Science Fiction & Fantasy epic. rated 4.5/5 with 1 listener reviews. priced at $17.85 — above a single credit ($0.59/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 7.7/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 30.5,
+    "valueScore": 7.69,
+    "costPerHour": 0.58,
+    "creditWorth": 1.19,
+    "adjustedValueScore": 5.33
+  },
+  {
     "asin": "B0GF9P3D1X",
     "title": "Learn Spanish While Driving in Your Car: Master Basic Spanish Plus Interactive Exercises",
     "author": "Patrick Jackson",
@@ -12853,6 +13009,32 @@
     "costPerHour": 0.62,
     "creditWorth": 1.03,
     "adjustedValueScore": 35.35
+  },
+  {
+    "asin": "B013KRSVQY",
+    "title": "Space",
+    "author": "James A. Michener",
+    "narrator": "Larry McKeever",
+    "runtimeMinutes": 2252,
+    "price": 23.31,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 38,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61+WapM00wL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B013KRSVQY",
+    "categories": [
+      "Literature & Fiction",
+      "Action & Adventure",
+      "Historical Fiction"
+    ],
+    "releaseDate": "2015-08-25",
+    "publisher": "Random House Audio",
+    "description": "\"Space\" by James A. Michener is a 38-hour Literature & Fiction epic. rated 4.5/5 with 38 listener reviews. priced at $23.31 — above a single credit ($0.62/hour), so a credit saves you money. Classics and literary fiction readers will appreciate the depth on offer. Our Value Score of 7.3/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 37.5,
+    "valueScore": 7.25,
+    "costPerHour": 0.62,
+    "creditWorth": 1.56,
+    "adjustedValueScore": 26.56
   },
   {
     "asin": "B0DK282SYV",
@@ -14936,6 +15118,32 @@
     "adjustedValueScore": 16.6
   },
   {
+    "asin": "B0GLRQSCMK",
+    "title": "Space Punks, Books 1-3",
+    "author": "Anna Mocikat",
+    "narrator": "David Reimer, Jess Welch",
+    "runtimeMinutes": 1762,
+    "price": 19.77,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/612IwJIY+PL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GLRQSCMK",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "releaseDate": "2026-02-06",
+    "publisher": "Anna Mocikat",
+    "description": "\"Space Punks, Books 1-3\" by Anna Mocikat is a 29-hour Science Fiction & Fantasy epic. rated 4.5/5 with 1 listener reviews. priced at $19.77 — above a single credit ($0.67/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 6.7/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 29.4,
+    "valueScore": 6.68,
+    "costPerHour": 0.67,
+    "creditWorth": 1.32,
+    "adjustedValueScore": 4.63
+  },
+  {
     "asin": "B005ZTQ4RY",
     "title": "Ghost Wars",
     "author": "Steve Coll",
@@ -15193,6 +15401,32 @@
     "adjustedValueScore": 43.02
   },
   {
+    "asin": "B0CLLC6797",
+    "title": "Once There Were Heroes",
+    "author": "Philip C. Quaintrell",
+    "narrator": "Steven Brand",
+    "runtimeMinutes": 1552,
+    "price": 17.54,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 91,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51UF93qLADL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CLLC6797",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2024-01-30",
+    "publisher": "Podium Audio",
+    "description": "\"Once There Were Heroes\" by Philip C. Quaintrell is a 26-hour Science Fiction & Fantasy epic. rated 4.5/5 with 91 listener reviews. priced at $17.54 — above a single credit ($0.68/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 6.6/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 25.9,
+    "valueScore": 6.64,
+    "costPerHour": 0.68,
+    "creditWorth": 1.17,
+    "adjustedValueScore": 30.02
+  },
+  {
     "asin": "B002V8KOHI",
     "title": "Doomsday Book",
     "author": "Connie Willis",
@@ -15400,6 +15634,32 @@
     "adjustedValueScore": 25.91
   },
   {
+    "asin": "B091J3RQNX",
+    "title": "Cerberus Series",
+    "author": "Andy Peloquin",
+    "narrator": "Bronson Pinchot",
+    "runtimeMinutes": 1685,
+    "price": 19.22,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 13,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61aa62QVzBL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B091J3RQNX",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Military"
+    ],
+    "releaseDate": "2021-04-20",
+    "publisher": "Aethon Audio",
+    "description": "\"Cerberus Series\" by Andy Peloquin is a 28-hour Science Fiction & Fantasy epic. rated 4.5/5 with 13 listener reviews. priced at $19.22 — above a single credit ($0.68/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 6.6/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 28.1,
+    "valueScore": 6.58,
+    "costPerHour": 0.68,
+    "creditWorth": 1.29,
+    "adjustedValueScore": 17.36
+  },
+  {
     "asin": "B0036N2C7M",
     "title": "A Fire Upon The Deep",
     "author": "Vernor Vinge",
@@ -15579,6 +15839,32 @@
     "costPerHour": 0.76,
     "creditWorth": 0.93,
     "description": "\"Dark Tower III\" by Stephen King is a 18.2-hour Fiction listen. rated 5.0/5 with 802 listener reviews. priced at $13.94 ($0.77/hour) — cheaper than spending a credit. With strong ratings and serious runtime, this one rewards committed listeners. Our Value Score of 6.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide."
+  },
+  {
+    "asin": "B0F8D4W41J",
+    "title": "The Excalibur Knights Saga Omnibus: Books 1-3 of the Arthurian Space Opera Adventure",
+    "author": "Luke Mitchell",
+    "narrator": "Gary Tiedemann",
+    "runtimeMinutes": 2837,
+    "price": 21.7,
+    "currency": "USD",
+    "starRating": 3,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51l1099Rn+L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F8D4W41J",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "First Contact"
+    ],
+    "releaseDate": "2025-05-13",
+    "publisher": "Whale Press Books",
+    "description": "\"The Excalibur Knights Saga Omnibus: Books 1-3 of the Arthurian Space Opera Adventure\" by Luke Mitchell is a 47-hour Science Fiction & Fantasy epic. rated 3.0/5 with 3 listener reviews. priced at $21.70 — above a single credit ($0.46/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 6.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 47.3,
+    "valueScore": 6.54,
+    "costPerHour": 0.46,
+    "creditWorth": 1.45,
+    "adjustedValueScore": 9.07
   },
   {
     "asin": "1774249162",
@@ -17289,6 +17575,32 @@
     "description": "\"Skeleton Crew\" by Stephen King is a 23-hour Horror epic. rated 4.5/5 with 337 listener reviews. priced at $16.31 — above a single credit ($0.72/hour), so a credit saves you money. Horror and paranormal fans will get plenty of atmosphere. Our Value Score of 6.2/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide."
   },
   {
+    "asin": "B089DKM5CD",
+    "title": "Empire Earth: A Space Opera Boxed Set",
+    "author": "Chris Pourteau, David Bruns",
+    "narrator": "Bronson Pinchot",
+    "runtimeMinutes": 1583,
+    "price": 19.14,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 11,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61K1VwaZHXL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B089DKM5CD",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Science Fiction"
+    ],
+    "releaseDate": "2020-06-30",
+    "publisher": "Aethon Audio",
+    "description": "\"Empire Earth: A Space Opera Boxed Set\" by Chris Pourteau, David Bruns is a 26-hour Science Fiction & Fantasy epic. rated 4.5/5 with 11 listener reviews. priced at $19.14 — above a single credit ($0.73/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 6.2/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 26.4,
+    "valueScore": 6.2,
+    "costPerHour": 0.73,
+    "creditWorth": 1.28,
+    "adjustedValueScore": 15.41
+  },
+  {
     "asin": "B002V5GVGO",
     "title": "Phantom",
     "author": "Terry Goodkind",
@@ -18190,6 +18502,32 @@
     "costPerHour": 0.66,
     "creditWorth": 0.98,
     "adjustedValueScore": 6.64
+  },
+  {
+    "asin": "B0DNKSR7PB",
+    "title": "Daughter of the Dragon",
+    "author": "Michael G. Manning",
+    "narrator": "Tim Gerard Reynolds",
+    "runtimeMinutes": 1004,
+    "price": 13.85,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 80,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51W-BINccrL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DNKSR7PB",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2025-02-18",
+    "publisher": "Podium Audio",
+    "description": "\"Daughter of the Dragon\" by Michael G. Manning is a 16.7-hour Science Fiction & Fantasy listen. rated 5.0/5 with 80 listener reviews. priced at $13.85 ($0.83/hour) — cheaper than spending a credit. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 6.0/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 16.7,
+    "valueScore": 6.04,
+    "costPerHour": 0.83,
+    "creditWorth": 0.93,
+    "adjustedValueScore": 26.54
   },
   {
     "asin": "B009GLC5ES",
@@ -21330,6 +21668,58 @@
     "adjustedValueScore": 14.62
   },
   {
+    "asin": "B0GQ17H942",
+    "title": "Jack Mac Paidin Series Box Set #1 (Books 1-3)",
+    "author": "Tracy Partridge-Johnson",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 989,
+    "price": 14.87,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51cgUe3ySPL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GQ17H942",
+    "categories": [
+      "Children's Audiobooks",
+      "Science Fiction & Fantasy",
+      "Fantasy & Magic"
+    ],
+    "releaseDate": "2026-02-27",
+    "publisher": "Mac Paidin Publishing",
+    "description": "\"Jack Mac Paidin Series Box Set #1 (Books 1-3)\" by Tracy Partridge-Johnson is a 16.5-hour Children's Audiobooks listen. rated 5.0/5 with 2 listener reviews. priced at $14.87 ($0.90/hour) — cheaper than spending a credit. With strong ratings and serious runtime, this one rewards committed listeners. Our Value Score of 5.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 16.5,
+    "valueScore": 5.54,
+    "costPerHour": 0.9,
+    "creditWorth": 0.99,
+    "adjustedValueScore": 6.09
+  },
+  {
+    "asin": "B08M3WT583",
+    "title": "Agent of Magic Box Set",
+    "author": "Melissa Hawke, Drake Mason",
+    "narrator": "Heather Costa, John Pirhalla",
+    "runtimeMinutes": 1246,
+    "price": 16.91,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 11,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61d+FqF4U7L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B08M3WT583",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Paranormal & Urban"
+    ],
+    "releaseDate": "2020-10-28",
+    "publisher": "Urban Epics",
+    "description": "\"Agent of Magic Box Set\" by Melissa Hawke, Drake Mason is a 21-hour Science Fiction & Fantasy epic. rated 4.5/5 with 11 listener reviews. priced at $16.91 — above a single credit ($0.81/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 5.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 20.8,
+    "valueScore": 5.53,
+    "costPerHour": 0.81,
+    "creditWorth": 1.13,
+    "adjustedValueScore": 13.74
+  },
+  {
     "asin": "B004QISZN6",
     "title": "The Wise Man's Fear",
     "author": "Patrick Rothfuss",
@@ -22331,6 +22721,32 @@
     "adjustedValueScore": 25.58
   },
   {
+    "asin": "B01N9V499O",
+    "title": "A Conjuring of Light",
+    "author": "V. E. Schwab",
+    "narrator": "Kate Reading, Michael Kramer",
+    "runtimeMinutes": 1143,
+    "price": 15.86,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 234,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61iFtrNPRkL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01N9V499O",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2017-02-21",
+    "publisher": "Macmillan Audio",
+    "description": "\"A Conjuring of Light\" by V. E. Schwab is a 19.1-hour Science Fiction & Fantasy listen. rated 4.5/5 with 234 listener reviews. priced at $15.86 — above a single credit ($0.83/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 5.4/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 19.1,
+    "valueScore": 5.41,
+    "costPerHour": 0.83,
+    "creditWorth": 1.06,
+    "adjustedValueScore": 29.54
+  },
+  {
     "asin": "B005HR40BG",
     "title": "The Beginning of Infinity",
     "author": "David Deutsch",
@@ -22795,6 +23211,32 @@
     "costPerHour": 0.94,
     "creditWorth": 0.98,
     "adjustedValueScore": 5.86
+  },
+  {
+    "asin": "B0GFFDLYFT",
+    "title": "Settle",
+    "author": "Sean Oswald, Joshua Mason - editor",
+    "narrator": "Giancarlo Herrera, Hannah Schooner",
+    "runtimeMinutes": 1074,
+    "price": 15.11,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 25,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51FXzN7CutL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GFFDLYFT",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2026-01-07",
+    "publisher": "Royal Guard Publishing LLC",
+    "description": "\"Settle\" by Sean Oswald, Joshua Mason - editor is a 17.9-hour Science Fiction & Fantasy listen. rated 4.5/5 with 25 listener reviews. priced at $15.11 — above a single credit ($0.84/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 5.3/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 17.9,
+    "valueScore": 5.33,
+    "costPerHour": 0.84,
+    "creditWorth": 1.01,
+    "adjustedValueScore": 17.37
   },
   {
     "asin": "B0H66LF2KW",
@@ -23444,6 +23886,32 @@
     "adjustedValueScore": 17.07
   },
   {
+    "asin": "B0H4Q7RBMT",
+    "title": "The Academy of Ambrosia: An Epic Fantasy Adventure",
+    "author": "T. J. Campbell",
+    "narrator": "Caleb Summers",
+    "runtimeMinutes": 1116,
+    "price": 17.74,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/517FTL3-IAL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H4Q7RBMT",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2026-07-21",
+    "publisher": "Podium Audio",
+    "description": "\"The Academy of Ambrosia: An Epic Fantasy Adventure\" by T. J. Campbell is a 18.6-hour Science Fiction & Fantasy listen. rated 5.0/5 with 3 listener reviews. priced at $17.74 — above a single credit ($0.95/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 5.2/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 18.6,
+    "valueScore": 5.24,
+    "costPerHour": 0.95,
+    "creditWorth": 1.19,
+    "adjustedValueScore": 7.26
+  },
+  {
     "asin": "B0759X8K2X",
     "title": "Tower of Dawn",
     "author": "Sarah J. Maas",
@@ -24061,6 +24529,32 @@
     "adjustedValueScore": 24.35
   },
   {
+    "asin": "B0FMYVS7PS",
+    "title": "Mage by Mistake Omnibus: Books 1-3",
+    "author": "Jin Holland",
+    "narrator": "JD Tanner, Kitty Perrelli",
+    "runtimeMinutes": 1353,
+    "price": 19.71,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 20,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51CBSyW0ohL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FMYVS7PS",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2025-09-09",
+    "publisher": "Royal Guard Publishing LLC",
+    "description": "\"Mage by Mistake Omnibus: Books 1-3\" by Jin Holland is a 23-hour Science Fiction & Fantasy epic. rated 4.5/5 with 20 listener reviews. priced at $19.71 — above a single credit ($0.87/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 5.2/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 22.6,
+    "valueScore": 5.15,
+    "costPerHour": 0.87,
+    "creditWorth": 1.32,
+    "adjustedValueScore": 15.68
+  },
+  {
     "asin": "B002UZKIBO",
     "title": "A Clash of Kings",
     "author": "George R.R. Martin",
@@ -24551,6 +25045,32 @@
     "adjustedValueScore": 5.61
   },
   {
+    "asin": "B0CP9ZL4KL",
+    "title": "Captured by a Dragon-Shifter Series (The Complete Box Set)",
+    "author": "Michelle M. Pillow",
+    "narrator": "David Brenin, Connor Brown, Sarah Pavelec",
+    "runtimeMinutes": 1405,
+    "price": 20.63,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 32,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51b0UgzDE4L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CP9ZL4KL",
+    "categories": [
+      "Romance",
+      "Fantasy",
+      "Paranormal"
+    ],
+    "releaseDate": "2023-12-03",
+    "publisher": "The Raven Books LLC",
+    "description": "\"Captured by a Dragon-Shifter Series (The Complete Box Set)\" by Michelle M. Pillow is a 23-hour Romance epic. rated 4.5/5 with 32 listener reviews. priced at $20.63 — above a single credit ($0.88/hour), so a credit saves you money. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 5.1/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 23.4,
+    "valueScore": 5.11,
+    "costPerHour": 0.88,
+    "creditWorth": 1.38,
+    "adjustedValueScore": 17.87
+  },
+  {
     "asin": "B002V5BLEQ",
     "title": "Memoirs of a Geisha",
     "author": "Arthur Golden",
@@ -25039,6 +25559,32 @@
     "costPerHour": 0.79,
     "creditWorth": 1.15,
     "adjustedValueScore": 20.84
+  },
+  {
+    "asin": "B0FH5P99TT",
+    "title": "The Dragon Factory",
+    "author": "Jonathan Maberry",
+    "narrator": "Ray Porter",
+    "runtimeMinutes": 974,
+    "price": 14.41,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 6,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Tkl38EVDL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FH5P99TT",
+    "categories": [
+      "Literature & Fiction",
+      "Horror",
+      "Mystery, Thriller & Suspense"
+    ],
+    "releaseDate": "2025-10-14",
+    "publisher": "Macmillan Audio",
+    "description": "\"The Dragon Factory\" by Jonathan Maberry is a 16.2-hour Literature & Fiction listen. rated 4.5/5 with 6 listener reviews. priced at $14.41 ($0.89/hour) — cheaper than spending a credit. Classics and literary fiction readers will appreciate the depth on offer. Our Value Score of 5.1/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 16.2,
+    "valueScore": 5.07,
+    "costPerHour": 0.89,
+    "creditWorth": 0.96,
+    "adjustedValueScore": 9.87
   },
   {
     "asin": "1665108150",
@@ -25965,6 +26511,32 @@
     "costPerHour": 0.91,
     "creditWorth": 1.45,
     "adjustedValueScore": 6.88
+  },
+  {
+    "asin": "B0GC8KM639",
+    "title": "A Druid's Wrath: An Apocalypse LitRPG",
+    "author": "Nicholas Searcy",
+    "narrator": "Eric Jason Martin",
+    "runtimeMinutes": 1278,
+    "price": 21.46,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 24,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Zfgn8B+EL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GC8KM639",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2026-05-05",
+    "publisher": "Podium Audio",
+    "description": "\"A Druid's Wrath: An Apocalypse LitRPG\" by Nicholas Searcy is a 21-hour Science Fiction & Fantasy epic. rated 5.0/5 with 24 listener reviews. priced at $21.46 — above a single credit ($1.01/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 5.0/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 21.3,
+    "valueScore": 4.96,
+    "costPerHour": 1.01,
+    "creditWorth": 1.44,
+    "adjustedValueScore": 15.97
   },
   {
     "asin": "B09CS5KBV1",
@@ -27202,6 +27774,32 @@
     "costPerHour": 0.93,
     "creditWorth": 1.01,
     "adjustedValueScore": 8.69
+  },
+  {
+    "asin": "B0BWKB8D3H",
+    "title": "The Dragon Twins: The Complete Series",
+    "author": "Michelle Madow",
+    "narrator": "Patricia Santomasso",
+    "runtimeMinutes": 1390,
+    "price": 21.48,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 71,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51STzgGM-fL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0BWKB8D3H",
+    "categories": [
+      "Teen & Young Adult",
+      "Mystery, Thriller & Suspense",
+      "Paranormal"
+    ],
+    "releaseDate": "2023-02-28",
+    "publisher": "Michelle Madow",
+    "description": "\"The Dragon Twins: The Complete Series\" by Michelle Madow is a 23-hour Teen & Young Adult epic. rated 4.5/5 with 71 listener reviews. priced at $21.48 — above a single credit ($0.93/hour), so a credit saves you money. A compelling listen for younger audiences and YA fans. Our Value Score of 4.8/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 23.2,
+    "valueScore": 4.85,
+    "costPerHour": 0.93,
+    "creditWorth": 1.44,
+    "adjustedValueScore": 20.74
   },
   {
     "title": "The Mindset Mentor",
@@ -28617,6 +29215,32 @@
     "costPerHour": 1.06,
     "creditWorth": 0.98,
     "adjustedValueScore": 3.28
+  },
+  {
+    "asin": "0062865870",
+    "title": "American Moonshot",
+    "author": "Douglas Brinkley",
+    "narrator": "Stephen Graybill",
+    "runtimeMinutes": 1034,
+    "price": 16.38,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 36,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41sMozsYOsL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0062865870",
+    "categories": [
+      "Biographies & Memoirs",
+      "Politics & Activism",
+      "Presidents & Heads of State"
+    ],
+    "releaseDate": "2019-04-02",
+    "publisher": "Harper",
+    "description": "\"American Moonshot\" by Douglas Brinkley is a 17.2-hour Biographies & Memoirs listen. rated 4.5/5 with 36 listener reviews. priced at $16.38 — above a single credit ($0.95/hour), so a credit saves you money. A strong pick for nonfiction listeners who want substance for their credit. Our Value Score of 4.7/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 17.2,
+    "valueScore": 4.73,
+    "costPerHour": 0.95,
+    "creditWorth": 1.1,
+    "adjustedValueScore": 17.08
   },
   {
     "asin": "B0GX56DXDW",
@@ -30992,6 +31616,32 @@
     "adjustedValueScore": 7.31
   },
   {
+    "asin": "B00AWBG2ZY",
+    "title": "Dragons of Winter Night",
+    "author": "Tracy Hickman, Margaret Weis",
+    "narrator": "Paul Boehmer",
+    "runtimeMinutes": 1072,
+    "price": 17.69,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 125,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51gkr2ZsOpL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00AWBG2ZY",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2013-01-07",
+    "publisher": "Audible Studios",
+    "description": "\"Dragons of Winter Night\" by Tracy Hickman, Margaret Weis is a 17.9-hour Science Fiction & Fantasy listen. rated 4.5/5 with 125 listener reviews. priced at $17.69 — above a single credit ($0.99/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 4.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 17.9,
+    "valueScore": 4.54,
+    "costPerHour": 0.99,
+    "creditWorth": 1.18,
+    "adjustedValueScore": 21.96
+  },
+  {
     "asin": "B09T3ZMNQX",
     "title": "American Apocalypse Box Set",
     "author": "AJ Newman",
@@ -31842,6 +32492,32 @@
     "costPerHour": 1.12,
     "creditWorth": 0.92,
     "adjustedValueScore": 6.2
+  },
+  {
+    "asin": "B003MXR26W",
+    "title": "Anatomy of an Epidemic",
+    "author": "Robert Whitaker",
+    "narrator": "Ken Kliban",
+    "runtimeMinutes": 837,
+    "price": 14.03,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 69,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/515zTe+eGEL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B003MXR26W",
+    "categories": [
+      "Health & Wellness",
+      "Medicine & Health Care Industry",
+      "History & Commentary"
+    ],
+    "releaseDate": "2010-05-18",
+    "publisher": "Audible Studios",
+    "description": "\"Anatomy of an Epidemic\" by Robert Whitaker is a 14.0-hour Health & Wellness listen. rated 4.5/5 with 69 listener reviews. priced at $14.03 ($1.00/hour) — cheaper than spending a credit. A dependable choice worth checking against your own listening taste. Our Value Score of 4.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 14,
+    "valueScore": 4.47,
+    "costPerHour": 1.01,
+    "creditWorth": 0.94,
+    "adjustedValueScore": 18.99
   },
   {
     "asin": "B007ZF71L4",
@@ -34925,6 +35601,32 @@
     "adjustedValueScore": 4.71
   },
   {
+    "asin": "B0HDVMBBTZ",
+    "title": "The Path of Balance",
+    "author": "Kyle West",
+    "narrator": "Tess Irondale",
+    "runtimeMinutes": 1053,
+    "price": 20.44,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/513-wIM6tTL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HDVMBBTZ",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2026-08-12",
+    "publisher": "Kyle West",
+    "description": "\"The Path of Balance\" by Kyle West is a 17.6-hour Science Fiction & Fantasy listen. rated 5.0/5 with 1 listener reviews. priced at $20.44 — above a single credit ($1.16/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 4.3/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 17.6,
+    "valueScore": 4.29,
+    "costPerHour": 1.16,
+    "creditWorth": 1.37,
+    "adjustedValueScore": 2.97
+  },
+  {
     "asin": "B0B6JPQXR6",
     "title": "Mark of the Fool",
     "author": "J.M. Clarke",
@@ -37606,6 +38308,32 @@
     "adjustedValueScore": 15.68
   },
   {
+    "asin": "B0GD2FW833",
+    "title": "Proportional Response",
+    "author": "M. Tress",
+    "narrator": "Jack Smith, Anne Marie Lebeaur",
+    "runtimeMinutes": 936,
+    "price": 18.94,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 22,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51g0hZ+1IdL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GD2FW833",
+    "categories": [
+      "Romance",
+      "Science Fiction",
+      "Science Fiction & Fantasy"
+    ],
+    "releaseDate": "2025-12-29",
+    "publisher": "Royal Guard Publishing LLC",
+    "description": "\"Proportional Response\" by M. Tress is a 15.6-hour Romance listen. rated 5.0/5 with 22 listener reviews. priced at $18.94 — above a single credit ($1.21/hour), so a credit saves you money. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 4.1/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 15.6,
+    "valueScore": 4.12,
+    "costPerHour": 1.21,
+    "creditWorth": 1.27,
+    "adjustedValueScore": 12.92
+  },
+  {
     "asin": "1549119737",
     "title": "The City We Became",
     "author": "N. K. Jemisin",
@@ -39924,6 +40652,32 @@
     "adjustedValueScore": 7.11
   },
   {
+    "asin": "B0H6PHHL1W",
+    "title": "The Bargain of Dragons",
+    "author": "Samantha Amstutz",
+    "narrator": "Amanda Dolan, Soren Gray",
+    "runtimeMinutes": 1040,
+    "price": 19.66,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51xW-hp0fkL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H6PHHL1W",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Epic"
+    ],
+    "releaseDate": "2026-08-25",
+    "publisher": "Podium Audio",
+    "description": "\"The Bargain of Dragons\" by Samantha Amstutz is a 17.3-hour Science Fiction & Fantasy listen. rated 4.5/5 with 1 listener reviews. priced at $19.66 — above a single credit ($1.14/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 4.0/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 17.3,
+    "valueScore": 3.97,
+    "costPerHour": 1.13,
+    "creditWorth": 1.32,
+    "adjustedValueScore": 2.75
+  },
+  {
     "asin": "B07FYMZCTK",
     "title": "Babylon's Ashes - Il destino",
     "author": "James S. A. Corey",
@@ -41545,6 +42299,32 @@
     "costPerHour": 1.15,
     "creditWorth": 1.21,
     "adjustedValueScore": 4.28
+  },
+  {
+    "asin": "B0FV5TC4FP",
+    "title": "Blueprints for Tomorrow: A Space Opera Adventure",
+    "author": "M.J. Markgraf",
+    "narrator": "Corey M. Snow",
+    "runtimeMinutes": 798,
+    "price": 15.33,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 14,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/514REl8NWBL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FV5TC4FP",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "releaseDate": "2025-11-11",
+    "publisher": "Podium Audio",
+    "description": "\"Blueprints for Tomorrow: A Space Opera Adventure\" by M.J. Markgraf is a 13.3-hour Science Fiction & Fantasy listen. rated 4.5/5 with 14 listener reviews. priced at $15.33 — above a single credit ($1.15/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 3.9/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 13.3,
+    "valueScore": 3.9,
+    "costPerHour": 1.15,
+    "creditWorth": 1.03,
+    "adjustedValueScore": 10.56
   },
   {
     "title": "Trunk Music: Harry Bosch Series, Book 5",
@@ -43974,6 +44754,32 @@
     "adjustedValueScore": 10.54
   },
   {
+    "asin": "B0BHFCV43Q",
+    "title": "This Must Be the Place",
+    "author": "Jesse Rifkin",
+    "narrator": "Sean Patrick Hopkins",
+    "runtimeMinutes": 1007,
+    "price": 19.89,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/518dI4eTWJL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0BHFCV43Q",
+    "categories": [
+      "Arts & Entertainment",
+      "Music",
+      "History & Criticism"
+    ],
+    "releaseDate": "2023-07-11",
+    "publisher": "Hanover Square Press",
+    "description": "\"This Must Be the Place\" by Jesse Rifkin is a 16.8-hour Arts & Entertainment listen. rated 4.5/5 with 5 listener reviews. priced at $19.89 — above a single credit ($1.18/hour), so a credit saves you money. With strong ratings and serious runtime, this one rewards committed listeners. Our Value Score of 3.8/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 16.8,
+    "valueScore": 3.8,
+    "costPerHour": 1.19,
+    "creditWorth": 1.33,
+    "adjustedValueScore": 6.81
+  },
+  {
     "asin": "B09NQKQRWL",
     "title": "The Golden Enclaves",
     "author": "Naomi Novik",
@@ -44956,6 +45762,32 @@
     "costPerHour": 1.06,
     "creditWorth": 1.51,
     "adjustedValueScore": 2.61
+  },
+  {
+    "asin": "1549124137",
+    "title": "A Tale of Magic...",
+    "author": "Chris Colfer",
+    "narrator": "Chris Colfer",
+    "runtimeMinutes": 683,
+    "price": 15.14,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 134,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51nzcnv2OzL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1549124137",
+    "categories": [
+      "Children's Audiobooks",
+      "Education & Learning",
+      "Books & Libraries"
+    ],
+    "releaseDate": "2019-10-01",
+    "publisher": "Little, Brown Young Readers",
+    "description": "\"A Tale of Magic...\" by Chris Colfer is a 11.4-hour Children's Audiobooks listen. rated 5.0/5 with 134 listener reviews. priced at $15.14 — above a single credit ($1.33/hour), so a credit saves you money. A dependable choice worth checking against your own listening taste. Our Value Score of 3.8/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 11.4,
+    "valueScore": 3.76,
+    "costPerHour": 1.33,
+    "creditWorth": 1.01,
+    "adjustedValueScore": 18.44
   },
   {
     "asin": "B002V5A0BG",
@@ -46370,6 +47202,32 @@
     "costPerHour": 1.22,
     "creditWorth": 1.02,
     "adjustedValueScore": 16.26
+  },
+  {
+    "asin": "B00TRMNIPQ",
+    "title": "Avilon",
+    "author": "Jasper T. Scott",
+    "narrator": "William Dufris",
+    "runtimeMinutes": 1024,
+    "price": 20.77,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 9,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61JsUcYqnoL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00TRMNIPQ",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Post-Apocalyptic"
+    ],
+    "releaseDate": "2015-03-31",
+    "publisher": "Audible Studios",
+    "description": "\"Avilon\" by Jasper T. Scott is a 17.1-hour Science Fiction & Fantasy listen. rated 4.5/5 with 9 listener reviews. priced at $20.77 — above a single credit ($1.21/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 3.7/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 17.1,
+    "valueScore": 3.7,
+    "costPerHour": 1.22,
+    "creditWorth": 1.39,
+    "adjustedValueScore": 8.52
   },
   {
     "asin": "B00DJ6K6KG",
@@ -47893,6 +48751,32 @@
     "adjustedValueScore": 13.9
   },
   {
+    "asin": "B01LZ1PUB6",
+    "title": "Magic Binds",
+    "author": "Ilona Andrews",
+    "narrator": "Renee Raudman",
+    "runtimeMinutes": 781,
+    "price": 17.94,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 171,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51F60jCXTIL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01LZ1PUB6",
+    "categories": [
+      "Literature & Fiction",
+      "Action & Adventure",
+      "Romance"
+    ],
+    "releaseDate": "2016-10-04",
+    "publisher": "Brilliance Audio",
+    "description": "\"Magic Binds\" by Ilona Andrews is a 13.0-hour Literature & Fiction listen. rated 5.0/5 with 171 listener reviews. priced at $17.94 — above a single credit ($1.38/hour), so a credit saves you money. Classics and literary fiction readers will appreciate the depth on offer. Our Value Score of 3.6/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 13,
+    "valueScore": 3.63,
+    "costPerHour": 1.38,
+    "creditWorth": 1.2,
+    "adjustedValueScore": 18.69
+  },
+  {
     "asin": "0062865781",
     "title": "War of the Wolf",
     "author": "Bernard Cornwell",
@@ -48073,6 +48957,32 @@
     "costPerHour": 1.24,
     "creditWorth": 1.28,
     "adjustedValueScore": 12.06
+  },
+  {
+    "asin": "B0CBW5MRTW",
+    "title": "Hoofin' It",
+    "author": "R.J. Blain",
+    "narrator": "Wesley Nelson",
+    "runtimeMinutes": 818,
+    "price": 16.93,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 20,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/612Cwn-fDnL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CBW5MRTW",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Paranormal & Urban"
+    ],
+    "releaseDate": "2023-07-17",
+    "publisher": "Pen & Page Publishing, R.J. Blain",
+    "description": "\"Hoofin' It\" by R.J. Blain is a 13.6-hour Science Fiction & Fantasy listen. rated 4.5/5 with 20 listener reviews. priced at $16.93 — above a single credit ($1.24/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 3.6/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 13.6,
+    "valueScore": 3.62,
+    "costPerHour": 1.24,
+    "creditWorth": 1.13,
+    "adjustedValueScore": 11.02
   },
   {
     "asin": "B0FQQPVCDN",
@@ -50521,6 +51431,32 @@
     "adjustedValueScore": 6.32
   },
   {
+    "asin": "B0FG9SWNJR",
+    "title": "Revolutionizing the Magical World One Sorceress at a Time",
+    "author": "Alex Prone, Marcus Sloss",
+    "narrator": "Jim Swanson, Raya Kane",
+    "runtimeMinutes": 789,
+    "price": 16.74,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 23,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51bokeMhEFL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FG9SWNJR",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2025-07-15",
+    "publisher": "Royal Guard Publishing LLC",
+    "description": "\"Revolutionizing the Magical World One Sorceress at a Time\" by Alex Prone, Marcus Sloss is a 13.2-hour Science Fiction & Fantasy listen. rated 4.5/5 with 23 listener reviews. priced at $16.74 — above a single credit ($1.27/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 3.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 13.2,
+    "valueScore": 3.53,
+    "costPerHour": 1.27,
+    "creditWorth": 1.12,
+    "adjustedValueScore": 11.22
+  },
+  {
     "asin": "B002V0QUJC",
     "title": "The Shadow of the Wind",
     "author": "Carlos Ruiz Zafón",
@@ -52040,6 +52976,58 @@
     "costPerHour": 1.44,
     "creditWorth": 0.95,
     "adjustedValueScore": 3.82
+  },
+  {
+    "asin": "1549120654",
+    "title": "The Rage of Dragons",
+    "author": "Evan Winter",
+    "narrator": "Prentice Onayemi",
+    "runtimeMinutes": 975,
+    "price": 21.04,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 946,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/610vL-lsa4L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1549120654",
+    "categories": [
+      "Literature & Fiction",
+      "African American",
+      "Science Fiction & Fantasy"
+    ],
+    "releaseDate": "2019-07-16",
+    "publisher": "Orbit",
+    "description": "\"The Rage of Dragons\" by Evan Winter is a 16.3-hour Literature & Fiction listen. rated 4.5/5 with 946 listener reviews. priced at $21.04 — above a single credit ($1.29/hour), so a credit saves you money. Classics and literary fiction readers will appreciate the depth on offer. Our Value Score of 3.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 16.3,
+    "valueScore": 3.48,
+    "costPerHour": 1.29,
+    "creditWorth": 1.41,
+    "adjustedValueScore": 23.85
+  },
+  {
+    "asin": "B0DB6CW9FD",
+    "title": "The Dragon's Prophecy",
+    "author": "Jonathan Cahn",
+    "narrator": "Lawrence Richardson",
+    "runtimeMinutes": 579,
+    "price": 13.86,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 282,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51vzwoFZ81L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DB6CW9FD",
+    "categories": [
+      "Religion & Spirituality",
+      "Christianity",
+      "Bibles & Bible Study"
+    ],
+    "releaseDate": "2024-09-03",
+    "publisher": "Frontline",
+    "description": "\"The Dragon's Prophecy\" by Jonathan Cahn is a 9.7-hour Religion & Spirituality listen. rated 5.0/5 with 282 listener reviews. priced at $13.86 ($1.43/hour) — cheaper than spending a credit. A dependable choice worth checking against your own listening taste. Our Value Score of 3.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 9.7,
+    "valueScore": 3.48,
+    "costPerHour": 1.44,
+    "creditWorth": 0.93,
+    "adjustedValueScore": 19.65
   },
   {
     "asin": "B002V0K6D8",
@@ -54098,6 +55086,32 @@
     "adjustedValueScore": 11.74
   },
   {
+    "asin": "B00BW9JQYE",
+    "title": "Blood of Dragons",
+    "author": "Robin Hobb",
+    "narrator": "Anne Flosnik",
+    "runtimeMinutes": 969,
+    "price": 21.23,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 67,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/512Cwhssq+L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00BW9JQYE",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Fairy Tales"
+    ],
+    "releaseDate": "2013-04-09",
+    "publisher": "Harper Voyager",
+    "description": "\"Blood of Dragons\" by Robin Hobb is a 16.2-hour Science Fiction & Fantasy listen. rated 4.5/5 with 67 listener reviews. priced at $21.23 — above a single credit ($1.31/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 3.4/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 16.2,
+    "valueScore": 3.42,
+    "costPerHour": 1.31,
+    "creditWorth": 1.42,
+    "adjustedValueScore": 14.43
+  },
+  {
     "asin": "1797105582",
     "title": "The Book of Lost Names",
     "author": "Kristin Harmel",
@@ -54901,6 +55915,32 @@
     "adjustedValueScore": 8.97
   },
   {
+    "asin": "B0GNCGVB9B",
+    "title": "Starships in the Abyss Box Set Volume Two (Books 9-11)",
+    "author": "Sean Robins",
+    "narrator": "CJ Grey",
+    "runtimeMinutes": 846,
+    "price": 20.71,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61ilooKrK9L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GNCGVB9B",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Space Opera"
+    ],
+    "releaseDate": "2026-02-16",
+    "publisher": "Sean Robins",
+    "description": "\"Starships in the Abyss Box Set Volume Two (Books 9-11)\" by Sean Robins is a 14.1-hour Science Fiction & Fantasy listen. rated 5.0/5 with 1 listener reviews. priced at $20.71 — above a single credit ($1.47/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 3.4/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 14.1,
+    "valueScore": 3.4,
+    "costPerHour": 1.47,
+    "creditWorth": 1.39,
+    "adjustedValueScore": 2.36
+  },
+  {
     "asin": "B00Y1HN2QC",
     "title": "To Kill a Mockingbird",
     "author": "Harper Lee",
@@ -55359,6 +56399,32 @@
     "costPerHour": 1.33,
     "creditWorth": 1.24,
     "adjustedValueScore": 10.16
+  },
+  {
+    "asin": "B0GZ7B6ZYX",
+    "title": "Mercenary's March",
+    "author": "Christopher G. Nuttall",
+    "narrator": "Jennifer Jill Araya",
+    "runtimeMinutes": 910,
+    "price": 20.12,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51GJ1l6+RAL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GZ7B6ZYX",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2026-06-02",
+    "publisher": "Podium Audio",
+    "description": "\"Mercenary's March\" by Christopher G. Nuttall is a 15.2-hour Science Fiction & Fantasy listen. rated 4.5/5 with 4 listener reviews. priced at $20.12 — above a single credit ($1.32/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 3.4/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 15.2,
+    "valueScore": 3.39,
+    "costPerHour": 1.33,
+    "creditWorth": 1.35,
+    "adjustedValueScore": 5.46
   },
   {
     "asin": "B018SQNZ4U",
@@ -57141,6 +58207,32 @@
     "adjustedValueScore": 12.48
   },
   {
+    "asin": "1094165271",
+    "title": "Magic Required",
+    "author": "Obert Skye",
+    "narrator": "Kirby Heyborne",
+    "runtimeMinutes": 594,
+    "price": 14.82,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 247,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61WjoQZbDiL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1094165271",
+    "categories": [
+      "Children's Audiobooks",
+      "Growing Up & Facts of Life",
+      "Social & Life Skills"
+    ],
+    "releaseDate": "2020-04-07",
+    "publisher": "Shadow Mountain",
+    "description": "\"Magic Required\" by Obert Skye is a 9.9-hour Children's Audiobooks listen. rated 5.0/5 with 247 listener reviews. priced at $14.82 ($1.50/hour) — cheaper than spending a credit. A dependable choice worth checking against your own listening taste. Our Value Score of 3.3/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 9.9,
+    "valueScore": 3.34,
+    "costPerHour": 1.5,
+    "creditWorth": 0.99,
+    "adjustedValueScore": 18.41
+  },
+  {
     "asin": "B002V0KKHK",
     "title": "A Confederacy of Dunces",
     "author": "John Kennedy Toole",
@@ -57934,6 +59026,32 @@
     "costPerHour": 1.35,
     "creditWorth": 1.01,
     "adjustedValueScore": 11.71
+  },
+  {
+    "asin": "B00KMCB04G",
+    "title": "Sally Ride",
+    "author": "Lynn Sherr",
+    "narrator": "Pam Ward",
+    "runtimeMinutes": 806,
+    "price": 18.19,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 16,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51hs0C0LQ-L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00KMCB04G",
+    "categories": [
+      "Biographies & Memoirs",
+      "Adventurers, Explorers & Survival",
+      "Professionals & Academics"
+    ],
+    "releaseDate": "2014-06-03",
+    "publisher": "Tantor Audio",
+    "description": "\"Sally Ride\" by Lynn Sherr is a 13.4-hour Biographies & Memoirs listen. rated 4.5/5 with 16 listener reviews. priced at $18.19 — above a single credit ($1.36/hour), so a credit saves you money. A strong pick for nonfiction listeners who want substance for their credit. Our Value Score of 3.3/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 13.4,
+    "valueScore": 3.32,
+    "costPerHour": 1.35,
+    "creditWorth": 1.22,
+    "adjustedValueScore": 9.41
   },
   {
     "asin": "B00BY9IUEY",
@@ -59999,6 +61117,32 @@
     "costPerHour": 1.54,
     "creditWorth": 0.94,
     "adjustedValueScore": 10.22
+  },
+  {
+    "asin": "B0DSJVF2FF",
+    "title": "War of the Smartasses: A LitRPG Apocalypse Series",
+    "author": "Dmitry Dornichev, Nathan Klausner - translator",
+    "narrator": "Kevin T. Collins",
+    "runtimeMinutes": 800,
+    "price": 20.47,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51MPWU9cuFL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DSJVF2FF",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2025-03-11",
+    "publisher": "Tantor Media",
+    "description": "\"War of the Smartasses: A LitRPG Apocalypse Series\" by Dmitry Dornichev, Nathan Klausner - translator is a 13.3-hour Science Fiction & Fantasy listen. rated 5.0/5 with 1 listener reviews. priced at $20.47 — above a single credit ($1.54/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 3.3/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 13.3,
+    "valueScore": 3.26,
+    "costPerHour": 1.54,
+    "creditWorth": 1.37,
+    "adjustedValueScore": 2.26
   },
   {
     "asin": "B00354ZSS2",
@@ -62242,6 +63386,32 @@
     "costPerHour": 1.56,
     "creditWorth": 1.34,
     "adjustedValueScore": 5.17
+  },
+  {
+    "asin": "B0D8RQDZB5",
+    "title": "A Dark and Secret Magic",
+    "author": "Wallis Kinney",
+    "narrator": "Abigail Reno",
+    "runtimeMinutes": 660,
+    "price": 15.44,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 68,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51jfx5mBBlL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0D8RQDZB5",
+    "categories": [
+      "Romance",
+      "Fantasy",
+      "Paranormal"
+    ],
+    "releaseDate": "2024-10-08",
+    "publisher": "Dreamscape Media",
+    "description": "\"A Dark and Secret Magic\" by Wallis Kinney is a 11.0-hour Romance listen. rated 4.5/5 with 68 listener reviews. priced at $15.44 — above a single credit ($1.40/hour), so a credit saves you money. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 3.2/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 11,
+    "valueScore": 3.21,
+    "costPerHour": 1.4,
+    "creditWorth": 1.03,
+    "adjustedValueScore": 13.59
   },
   {
     "asin": "B00ANPX7IE",
@@ -65681,6 +66851,32 @@
     "costPerHour": 1.43,
     "creditWorth": 1.1,
     "adjustedValueScore": 11.42
+  },
+  {
+    "asin": "1772309966",
+    "title": "Reign of Dragons",
+    "author": "Olivia Ash",
+    "narrator": "Erin Bennett",
+    "runtimeMinutes": 835,
+    "price": 19.96,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 402,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51FnaWjeh8L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1772309966",
+    "categories": [
+      "Romance",
+      "Fantasy",
+      "Paranormal"
+    ],
+    "releaseDate": "2019-07-30",
+    "publisher": "Podium Audio",
+    "description": "\"Reign of Dragons\" by Olivia Ash is a 13.9-hour Romance listen. rated 4.5/5 with 402 listener reviews. priced at $19.96 — above a single credit ($1.44/hour), so a credit saves you money. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 3.1/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 13.9,
+    "valueScore": 3.14,
+    "costPerHour": 1.43,
+    "creditWorth": 1.34,
+    "adjustedValueScore": 18.84
   },
   {
     "asin": "0593398629",
@@ -71538,6 +72734,32 @@
     "adjustedValueScore": 3.3
   },
   {
+    "asin": "B0BF785YYS",
+    "title": "Hoodoo for Everyone",
+    "author": "Sherry Shone",
+    "narrator": "Sherry Shone",
+    "runtimeMinutes": 732,
+    "price": 16.26,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51e8z7o4EXL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0BF785YYS",
+    "categories": [
+      "History",
+      "Americas",
+      "United States"
+    ],
+    "releaseDate": "2022-09-13",
+    "publisher": "North Atlantic Books",
+    "description": "\"Hoodoo for Everyone\" by Sherry Shone is a 12.2-hour History listen. rated 4.0/5 with 2 listener reviews. priced at $16.26 — above a single credit ($1.33/hour), so a credit saves you money. A strong pick for nonfiction listeners who want substance for their credit. Our Value Score of 3.0/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 12.2,
+    "valueScore": 3,
+    "costPerHour": 1.33,
+    "creditWorth": 1.09,
+    "adjustedValueScore": 3.3
+  },
+  {
     "asin": "0062992503",
     "title": "It Happened One Autumn",
     "author": "Lisa Kleypas",
@@ -74291,6 +75513,32 @@
     "adjustedValueScore": 2.04
   },
   {
+    "asin": "B0F96CV2J2",
+    "title": "Into the Void: Adventures of the Spacewalkers",
+    "author": "John Youskauskas, Melvin Croft, Jerry Ross - foreword",
+    "narrator": "Paul Bellantoni",
+    "runtimeMinutes": 804,
+    "price": 22.81,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41UWH0H+BTL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F96CV2J2",
+    "categories": [
+      "History",
+      "Modern",
+      "21st Century"
+    ],
+    "releaseDate": "2025-08-12",
+    "publisher": "Tantor Media",
+    "description": "\"Into the Void: Adventures of the Spacewalkers\" by John Youskauskas, Melvin Croft, Jerry Ross - foreword is a 13.4-hour History listen. rated 5.0/5 with 1 listener reviews. priced at $22.81 — above a single credit ($1.70/hour), so a credit saves you money. A strong pick for nonfiction listeners who want substance for their credit. Our Value Score of 2.9/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 13.4,
+    "valueScore": 2.94,
+    "costPerHour": 1.7,
+    "creditWorth": 1.53,
+    "adjustedValueScore": 2.04
+  },
+  {
     "asin": "0062939505",
     "title": "The Killer Across the Table",
     "author": "John E. Douglas, Mark Olshaker",
@@ -74809,6 +76057,58 @@
     "costPerHour": 1.53,
     "creditWorth": 1.34,
     "adjustedValueScore": 8.47
+  },
+  {
+    "asin": "B0H51FJRFG",
+    "title": "The Anatomy of Magic",
+    "author": "Alexis L. Menard",
+    "narrator": "Savannah Thomas, Sean Masters",
+    "runtimeMinutes": 894,
+    "price": 22.85,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 12,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/512LMu7M0jL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H51FJRFG",
+    "categories": [
+      "Romance",
+      "Fantasy",
+      "Science Fiction & Fantasy"
+    ],
+    "releaseDate": "2026-06-30",
+    "publisher": "Hachette UK - Second Sky",
+    "description": "\"The Anatomy of Magic\" by Alexis L. Menard is a 14.9-hour Romance listen. rated 4.5/5 with 12 listener reviews. priced at $22.85 — above a single credit ($1.53/hour), so a credit saves you money. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 2.9/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 14.9,
+    "valueScore": 2.93,
+    "costPerHour": 1.53,
+    "creditWorth": 1.53,
+    "adjustedValueScore": 7.52
+  },
+  {
+    "asin": "B0D34GDDK2",
+    "title": "Arcane Pathfinder",
+    "author": "Mashton XX, Mashton XY",
+    "narrator": "Azur Studios/Erin Neil",
+    "runtimeMinutes": 867,
+    "price": 22.16,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 39,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51C9XvJNc+L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0D34GDDK2",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2024-05-03",
+    "publisher": "Hidden Infinity",
+    "description": "\"Arcane Pathfinder\" by Mashton XX, Mashton XY is a 14.5-hour Science Fiction & Fantasy listen. rated 4.5/5 with 39 listener reviews. priced at $22.16 — above a single credit ($1.53/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 2.9/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 14.5,
+    "valueScore": 2.93,
+    "costPerHour": 1.53,
+    "creditWorth": 1.48,
+    "adjustedValueScore": 10.81
   },
   {
     "asin": "B01N2PF84R",
@@ -75480,6 +76780,32 @@
     "costPerHour": 1.37,
     "creditWorth": 0.97,
     "adjustedValueScore": 3.2
+  },
+  {
+    "asin": "B08BPLH1JN",
+    "title": "Bones of the Witch: A Young Adult Fae Fantasy",
+    "author": "A.L. Knorr",
+    "narrator": "Marni Penning",
+    "runtimeMinutes": 493,
+    "price": 14.14,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 27,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/515I6ev2CyL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B08BPLH1JN",
+    "categories": [
+      "Teen & Young Adult",
+      "Mystery, Thriller & Suspense",
+      "Paranormal"
+    ],
+    "releaseDate": "2020-06-26",
+    "publisher": "A&B Abilities Inc.",
+    "description": "\"Bones of the Witch: A Young Adult Fae Fantasy\" by A.L. Knorr is a 8.2-hour Teen & Young Adult listen. rated 5.0/5 with 27 listener reviews. priced at $14.14 ($1.72/hour) — cheaper than spending a credit. A compelling listen for younger audiences and YA fans. Our Value Score of 2.9/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 8.2,
+    "valueScore": 2.91,
+    "costPerHour": 1.72,
+    "creditWorth": 0.95,
+    "adjustedValueScore": 9.7
   },
   {
     "asin": "B00NUA927Y",
@@ -80874,6 +82200,58 @@
     "adjustedValueScore": 14.11
   },
   {
+    "asin": "B07XTQD895",
+    "title": "Space Team: The Hunt for Reduk Topa",
+    "author": "Barry J. Hutchison",
+    "narrator": "Phil Thron",
+    "runtimeMinutes": 661,
+    "price": 19.51,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 64,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61VnV1LeFSL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07XTQD895",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "releaseDate": "2019-09-16",
+    "publisher": "Zertex Media Ltd",
+    "description": "\"Space Team: The Hunt for Reduk Topa\" by Barry J. Hutchison is a 11.0-hour Science Fiction & Fantasy listen. rated 5.0/5 with 64 listener reviews. priced at $19.51 — above a single credit ($1.77/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 2.8/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 11,
+    "valueScore": 2.82,
+    "costPerHour": 1.77,
+    "creditWorth": 1.31,
+    "adjustedValueScore": 11.77
+  },
+  {
+    "asin": "B0HFNMB7NV",
+    "title": "Untouched by Magic",
+    "author": "J.R. Cross",
+    "narrator": "James Blackmore",
+    "runtimeMinutes": 685,
+    "price": 20.21,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51YlYodKsGL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HFNMB7NV",
+    "categories": [
+      "Mystery, Thriller & Suspense",
+      "Mystery",
+      "Hard-Boiled"
+    ],
+    "releaseDate": "2026-08-18",
+    "publisher": "Trenchcoat Press",
+    "description": "\"Untouched by Magic\" by J.R. Cross is a 11.4-hour Mystery, Thriller & Suspense listen. rated 5.0/5 with 5 listener reviews. priced at $20.21 — above a single credit ($1.77/hour), so a credit saves you money. Thriller and mystery listeners will find plenty of pull here. Our Value Score of 2.8/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 11.4,
+    "valueScore": 2.82,
+    "costPerHour": 1.77,
+    "creditWorth": 1.35,
+    "adjustedValueScore": 5.05
+  },
+  {
     "asin": "B00BR1TWMS",
     "title": "Entwined with You",
     "author": "Sylvia Day",
@@ -81416,6 +82794,32 @@
     "costPerHour": 1.6,
     "creditWorth": 1.28,
     "adjustedValueScore": 3.09
+  },
+  {
+    "asin": "B09NVTXGMQ",
+    "title": "Dragon's Justice",
+    "author": "Bruce Sentar",
+    "narrator": "Jessica Threet, Jack Douglas",
+    "runtimeMinutes": 600,
+    "price": 17.77,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 274,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51jYGGdrI3L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09NVTXGMQ",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Paranormal & Urban"
+    ],
+    "releaseDate": "2021-12-22",
+    "publisher": "Bruce Sentar",
+    "description": "\"Dragon's Justice\" by Bruce Sentar is a 10.0-hour Science Fiction & Fantasy listen. rated 5.0/5 with 274 listener reviews. priced at $17.77 — above a single credit ($1.78/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 2.8/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 10,
+    "valueScore": 2.81,
+    "costPerHour": 1.78,
+    "creditWorth": 1.19,
+    "adjustedValueScore": 15.78
   },
   {
     "asin": "0241988292",
@@ -82115,6 +83519,32 @@
     "adjustedValueScore": 5.02
   },
   {
+    "asin": "B0HCW767TQ",
+    "title": "Tides of Magic and Memory",
+    "author": "E.E. Holmes",
+    "narrator": "Caitlin Kelly",
+    "runtimeMinutes": 702,
+    "price": 20.92,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51bRwxNY14L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HCW767TQ",
+    "categories": [
+      "Literature & Fiction",
+      "Horror",
+      "Occult"
+    ],
+    "releaseDate": "2026-08-05",
+    "publisher": "Fairhaven Press",
+    "description": "\"Tides of Magic and Memory\" by E.E. Holmes is a 11.7-hour Literature & Fiction listen. rated 5.0/5 with 5 listener reviews. priced at $20.92 — above a single credit ($1.79/hour), so a credit saves you money. Classics and literary fiction readers will appreciate the depth on offer. Our Value Score of 2.8/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 11.7,
+    "valueScore": 2.8,
+    "costPerHour": 1.79,
+    "creditWorth": 1.4,
+    "adjustedValueScore": 5.02
+  },
+  {
     "asin": "B07L3B3D6G",
     "title": "The Pioneers",
     "author": "David McCullough",
@@ -82525,6 +83955,32 @@
     "costPerHour": 1.61,
     "creditWorth": 1.26,
     "adjustedValueScore": 17.19
+  },
+  {
+    "asin": "B0CT5KMKGT",
+    "title": "Swords Will Cross [In Space] - Human Sexuality the Full Series",
+    "author": "Kristin Lance, Kaylee Pike",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 654,
+    "price": 17.6,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/511vcVZ2+dL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CT5KMKGT",
+    "categories": [
+      "Erotica",
+      "Literature & Fiction",
+      "tandem"
+    ],
+    "releaseDate": "2024-01-25",
+    "publisher": "Independently Published",
+    "description": "\"Swords Will Cross [In Space] - Human Sexuality the Full Series\" by Kristin Lance, Kaylee Pike is a 10.9-hour Erotica listen. rated 4.5/5 with 2 listener reviews. priced at $17.60 — above a single credit ($1.61/hour), so a credit saves you money. A dependable choice worth checking against your own listening taste. Our Value Score of 2.8/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 10.9,
+    "valueScore": 2.79,
+    "costPerHour": 1.61,
+    "creditWorth": 1.18,
+    "adjustedValueScore": 3.07
   },
   {
     "asin": "B019NOBKVQ",
@@ -86759,6 +88215,32 @@
     "adjustedValueScore": 7.37
   },
   {
+    "asin": "B0F4LSH68M",
+    "title": "Severing Time & Space: Volume 1 (Light Novel)",
+    "author": "Brandon Varnell",
+    "narrator": "Aurora Bliss, Boise Blue",
+    "runtimeMinutes": 745,
+    "price": 22.85,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51OyvZii1XL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F4LSH68M",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Teen & Young Adult"
+    ],
+    "releaseDate": "2025-07-15",
+    "publisher": "Royal Guard Publishing LLC",
+    "description": "\"Severing Time & Space: Volume 1 (Light Novel)\" by Brandon Varnell is a 12.4-hour Science Fiction & Fantasy listen. rated 5.0/5 with 4 listener reviews. priced at $22.85 — above a single credit ($1.84/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 2.7/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 12.4,
+    "valueScore": 2.72,
+    "costPerHour": 1.84,
+    "creditWorth": 1.53,
+    "adjustedValueScore": 4.38
+  },
+  {
     "asin": "B014LLCT7A",
     "title": "Shadows of Self",
     "author": "Brandon Sanderson",
@@ -87817,6 +89299,58 @@
     "costPerHour": 1.85,
     "creditWorth": 1.02,
     "adjustedValueScore": 13.44
+  },
+  {
+    "asin": "B0CGRSYMXJ",
+    "title": "Mind Magic",
+    "author": "James R. Doty MD",
+    "narrator": "James R. Doty MD",
+    "runtimeMinutes": 572,
+    "price": 14.11,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 80,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41mvcFRHo7L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CGRSYMXJ",
+    "categories": [
+      "Relationships, Parenting & Personal Development",
+      "Personal Development",
+      "Personal Success"
+    ],
+    "releaseDate": "2024-05-07",
+    "publisher": "Penguin Audio",
+    "description": "\"Mind Magic\" by James R. Doty MD is a 9.5-hour Relationships, Parenting & Personal Development listen. rated 4.0/5 with 80 listener reviews. priced at $14.11 ($1.49/hour) — cheaper than spending a credit. A dependable choice worth checking against your own listening taste. Our Value Score of 2.7/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 9.5,
+    "valueScore": 2.7,
+    "costPerHour": 1.48,
+    "creditWorth": 0.94,
+    "adjustedValueScore": 11.87
+  },
+  {
+    "asin": "B0CLLB8Q67",
+    "title": "The Hat Trick",
+    "author": "Madi Danielle",
+    "narrator": "Avery Caris, Patrick Zeller",
+    "runtimeMinutes": 705,
+    "price": 19.61,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 120,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51sygZNfHDL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CLLB8Q67",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "Romantic Comedy"
+    ],
+    "releaseDate": "2023-11-28",
+    "publisher": "Podium Audio",
+    "description": "\"The Hat Trick\" by Madi Danielle is a 11.8-hour Romance listen. rated 4.5/5 with 120 listener reviews. priced at $19.61 — above a single credit ($1.66/hour), so a credit saves you money. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 2.7/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 11.8,
+    "valueScore": 2.7,
+    "costPerHour": 1.67,
+    "creditWorth": 1.31,
+    "adjustedValueScore": 12.95
   },
   {
     "title": "A Wretched Folly",
@@ -93605,6 +95139,32 @@
     "adjustedValueScore": 1.8
   },
   {
+    "asin": "B0H6PCR2VS",
+    "title": "Court of Lust",
+    "author": "Lacey Carter Andersen",
+    "narrator": "Kristin Condon, Jonathan Lake",
+    "runtimeMinutes": 458,
+    "price": 14.72,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 12,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51w9BX2vzRL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H6PCR2VS",
+    "categories": [
+      "Romance",
+      "Action & Adventure",
+      "Fantasy"
+    ],
+    "releaseDate": "2026-07-28",
+    "publisher": "Podium Audio",
+    "description": "\"Court of Lust\" by Lacey Carter Andersen is a 7.6-hour Romance listen. rated 5.0/5 with 12 listener reviews. priced at $14.72 ($1.94/hour) — cheaper than spending a credit. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 2.6/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 7.6,
+    "valueScore": 2.59,
+    "costPerHour": 1.93,
+    "creditWorth": 0.98,
+    "adjustedValueScore": 6.64
+  },
+  {
     "asin": "B01G49TI62",
     "title": "The Woman in Cabin 10",
     "author": "Ruth Ware",
@@ -95498,6 +97058,58 @@
     "adjustedValueScore": 12.91
   },
   {
+    "asin": "197734092X",
+    "title": "Race Across Spacetime",
+    "author": "M. D. Cooper",
+    "narrator": "Cris Dukehart",
+    "runtimeMinutes": 427,
+    "price": 13.92,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61DjXDHSBwL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/197734092X",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Hard Science Fiction"
+    ],
+    "releaseDate": "2020-03-17",
+    "publisher": "Tantor Audio",
+    "description": "\"Race Across Spacetime\" by M. D. Cooper is a 7.1-hour Science Fiction & Fantasy listen. rated 5.0/5 with 3 listener reviews. priced at $13.92 ($1.96/hour) — cheaper than spending a credit. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 2.6/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 7.1,
+    "valueScore": 2.56,
+    "costPerHour": 1.96,
+    "creditWorth": 0.93,
+    "adjustedValueScore": 3.55
+  },
+  {
+    "asin": "B0H5RLNNND",
+    "title": "The Sea Dragon King's Diplomat",
+    "author": "Amy Sumida",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 463,
+    "price": 15.08,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41K3Xa7uZ-L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H5RLNNND",
+    "categories": [
+      "LGBTQ+",
+      "Romance",
+      "Science Fiction & Fantasy"
+    ],
+    "releaseDate": "2026-06-17",
+    "publisher": "Independently Published",
+    "description": "\"The Sea Dragon King's Diplomat\" by Amy Sumida is a 7.7-hour LGBTQ+ listen. rated 5.0/5 with 2 listener reviews. priced at $15.08 — above a single credit ($1.96/hour), so a credit saves you money. A dependable choice worth checking against your own listening taste. Our Value Score of 2.6/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 7.7,
+    "valueScore": 2.56,
+    "costPerHour": 1.95,
+    "creditWorth": 1.01,
+    "adjustedValueScore": 2.81
+  },
+  {
     "asin": "B003D8W5VS",
     "title": "Foundation",
     "author": "Isaac Asimov",
@@ -96119,6 +97731,32 @@
     "costPerHour": 1.76,
     "creditWorth": 1.1,
     "adjustedValueScore": 4.96
+  },
+  {
+    "asin": "1705235220",
+    "title": "The Ninth Sorceress",
+    "author": "Bonnie Wynne",
+    "narrator": "Elizabeth Klett",
+    "runtimeMinutes": 664,
+    "price": 17.39,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61A+J5iwuyL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1705235220",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Epic"
+    ],
+    "releaseDate": "2020-06-16",
+    "publisher": "Tantor Audio",
+    "description": "\"The Ninth Sorceress\" by Bonnie Wynne is a 11.1-hour Science Fiction & Fantasy listen. rated 4.0/5 with 2 listener reviews. priced at $17.39 — above a single credit ($1.57/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 2.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 11.1,
+    "valueScore": 2.55,
+    "costPerHour": 1.57,
+    "creditWorth": 1.16,
+    "adjustedValueScore": 2.8
   },
   {
     "asin": "B002V5CW08",
@@ -98010,6 +99648,32 @@
     "costPerHour": 1.78,
     "creditWorth": 1.39,
     "adjustedValueScore": 1.75
+  },
+  {
+    "asin": "0310120071",
+    "title": "The Sacred Overlap",
+    "author": "J.R. Briggs, Skye Jethani - introduction",
+    "narrator": "Josh Childs",
+    "runtimeMinutes": 498,
+    "price": 16.44,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 7,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41q2PwAx6OL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0310120071",
+    "categories": [
+      "Religion & Spirituality",
+      "Christianity",
+      "Christian Living"
+    ],
+    "releaseDate": "2020-09-08",
+    "publisher": "Zondervan",
+    "description": "\"The Sacred Overlap\" by J.R. Briggs, Skye Jethani - introduction is a 8.3-hour Religion & Spirituality listen. rated 5.0/5 with 7 listener reviews. priced at $16.44 — above a single credit ($1.98/hour), so a credit saves you money. A dependable choice worth checking against your own listening taste. Our Value Score of 2.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 8.3,
+    "valueScore": 2.52,
+    "costPerHour": 1.98,
+    "creditWorth": 1.1,
+    "adjustedValueScore": 5.24
   },
   {
     "asin": "B00B28TI48",
@@ -101735,6 +103399,32 @@
     "adjustedValueScore": 5.14
   },
   {
+    "asin": "B0H8TQNG9Z",
+    "title": "The Infirmary for Dragon Burns and Midair Mishaps",
+    "author": "Elizabeth Hrib",
+    "narrator": "Laurel Lefkow, Norma Butikofer",
+    "runtimeMinutes": 507,
+    "price": 17.12,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51vVAR5vo2L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H8TQNG9Z",
+    "categories": [
+      "Romance",
+      "Fantasy",
+      "Science Fiction & Fantasy"
+    ],
+    "releaseDate": "2026-08-28",
+    "publisher": "Boldwood Books",
+    "description": "\"The Infirmary for Dragon Burns and Midair Mishaps\" by Elizabeth Hrib is a 8.5-hour Romance listen. rated 5.0/5 with 1 listener reviews. priced at $17.12 — above a single credit ($2.01/hour), so a credit saves you money. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 2.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 8.5,
+    "valueScore": 2.47,
+    "costPerHour": 2.03,
+    "creditWorth": 1.15,
+    "adjustedValueScore": 1.71
+  },
+  {
     "asin": "B00QZP2OSA",
     "title": "The New Gold Standard: 5 Leadership Principles for Creating a Legendary Customer Experience Courtesy of the Ritz-Carlton Hotel Company",
     "author": "Joseph A. Michelli",
@@ -102838,6 +104528,58 @@
     "costPerHour": 1.63,
     "creditWorth": 1.17,
     "adjustedValueScore": 2.69
+  },
+  {
+    "asin": "B0FXN5PQ3S",
+    "title": "The Magic of Us",
+    "author": "Beth Merlin, Danielle Modafferi",
+    "narrator": "Caroline Hewitt",
+    "runtimeMinutes": 517,
+    "price": 15.81,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/516syQtvk8L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FXN5PQ3S",
+    "categories": [
+      "Literature & Fiction",
+      "Genre Fiction",
+      "Magical Realism"
+    ],
+    "releaseDate": "2026-06-01",
+    "publisher": "Brilliance Audio",
+    "description": "\"The Magic of Us\" by Beth Merlin, Danielle Modafferi is a 8.6-hour Literature & Fiction listen. rated 4.5/5 with 5 listener reviews. priced at $15.81 — above a single credit ($1.84/hour), so a credit saves you money. Classics and literary fiction readers will appreciate the depth on offer. Our Value Score of 2.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 8.6,
+    "valueScore": 2.45,
+    "costPerHour": 1.83,
+    "creditWorth": 1.06,
+    "adjustedValueScore": 4.39
+  },
+  {
+    "asin": "B0GR1Q69QC",
+    "title": "A Little Princess: An Enchanting Coming-of-Age Novel",
+    "author": "Frances Hodgson Burnett",
+    "narrator": "Elizabeth Ruelas",
+    "runtimeMinutes": 429,
+    "price": 14.57,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 49,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/510hM+zsKsL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GR1Q69QC",
+    "categories": [
+      "Literature & Fiction",
+      "Classics",
+      "literature-and-fiction"
+    ],
+    "releaseDate": "2026-03-04",
+    "publisher": "Audrey Keaton",
+    "description": "\"A Little Princess: An Enchanting Coming-of-Age Novel\" by Frances Hodgson Burnett is a 7.2-hour Literature & Fiction listen. rated 5.0/5 with 49 listener reviews. priced at $14.57 ($2.02/hour) — cheaper than spending a credit. Classics and literary fiction readers will appreciate the depth on offer. Our Value Score of 2.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 7.2,
+    "valueScore": 2.45,
+    "costPerHour": 2.04,
+    "creditWorth": 0.97,
+    "adjustedValueScore": 9.58
   },
   {
     "asin": "1797108263",
@@ -104365,6 +106107,58 @@
     "adjustedValueScore": 3.37
   },
   {
+    "asin": "B0B2CF2X12",
+    "title": "August Kitko and the Mechas from Space",
+    "author": "Alex White",
+    "narrator": "Hayden Bishop",
+    "runtimeMinutes": 755,
+    "price": 23.33,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 7,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Tp9C4e20L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0B2CF2X12",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "releaseDate": "2022-07-12",
+    "publisher": "Orbit",
+    "description": "\"August Kitko and the Mechas from Space\" by Alex White is a 12.6-hour Science Fiction & Fantasy listen. rated 4.5/5 with 7 listener reviews. priced at $23.33 — above a single credit ($1.85/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 2.4/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 12.6,
+    "valueScore": 2.43,
+    "costPerHour": 1.85,
+    "creditWorth": 1.56,
+    "adjustedValueScore": 5.05
+  },
+  {
+    "asin": "B0HF5FQDFW",
+    "title": "Ink, Magic, & Unexpected Spells",
+    "author": "Melody DeLeon",
+    "narrator": "Kate Clover",
+    "runtimeMinutes": 564,
+    "price": 17.38,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/514sAOqAQ-L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HF5FQDFW",
+    "categories": [
+      "Teen & Young Adult",
+      "Science Fiction & Fantasy",
+      "Fantasy"
+    ],
+    "releaseDate": "2026-08-14",
+    "publisher": "Melody DeLeon",
+    "description": "\"Ink, Magic, & Unexpected Spells\" by Melody DeLeon is a 9.4-hour Teen & Young Adult listen. rated 4.5/5 with 2 listener reviews. priced at $17.38 — above a single credit ($1.85/hour), so a credit saves you money. A compelling listen for younger audiences and YA fans. Our Value Score of 2.4/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 9.4,
+    "valueScore": 2.43,
+    "costPerHour": 1.85,
+    "creditWorth": 1.16,
+    "adjustedValueScore": 2.67
+  },
+  {
     "asin": "B0F5YKPFKP",
     "title": "It's Not Her",
     "author": "Mary Kubica",
@@ -104908,6 +106702,32 @@
     "costPerHour": 1.86,
     "creditWorth": 1.27,
     "adjustedValueScore": 1.68
+  },
+  {
+    "asin": "B0F6NWBJZT",
+    "title": "How I Built a Magic Empire, Book 1",
+    "author": "Konstantin Zubov, Ben Hooson - translator",
+    "narrator": "Hannibal Hills",
+    "runtimeMinutes": 728,
+    "price": 22.55,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 35,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51GqOPC4I1L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F6NWBJZT",
+    "categories": [
+      "Literature & Fiction",
+      "Historical Fiction",
+      "Science Fiction & Fantasy"
+    ],
+    "releaseDate": "2025-04-29",
+    "publisher": "Tantor Media",
+    "description": "\"How I Built a Magic Empire, Book 1\" by Konstantin Zubov, Ben Hooson - translator is a 12.1-hour Literature & Fiction listen. rated 4.5/5 with 35 listener reviews. priced at $22.55 — above a single credit ($1.86/hour), so a credit saves you money. Classics and literary fiction readers will appreciate the depth on offer. Our Value Score of 2.4/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 12.1,
+    "valueScore": 2.42,
+    "costPerHour": 1.86,
+    "creditWorth": 1.51,
+    "adjustedValueScore": 8.67
   },
   {
     "asin": "B073QYWTR7",
@@ -109480,6 +111300,58 @@
     "adjustedValueScore": 4.57
   },
   {
+    "asin": "B0CT7DTMGV",
+    "title": "Hades",
+    "author": "Jamie Waggoner, Morpheus Ravenna (Foreword By) - introduction",
+    "narrator": "Tegan Ashton Cohan",
+    "runtimeMinutes": 559,
+    "price": 19.8,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51+D82NJ4lL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CT7DTMGV",
+    "categories": [
+      "Religion & Spirituality",
+      "Occult",
+      "Other Religions, Practices & Sacred Texts"
+    ],
+    "releaseDate": "2024-02-08",
+    "publisher": "Tantor Media",
+    "description": "\"Hades\" by Jamie Waggoner, Morpheus Ravenna (Foreword By) - introduction is a 9.3-hour Religion & Spirituality listen. rated 5.0/5 with 3 listener reviews. priced at $19.80 — above a single credit ($2.13/hour), so a credit saves you money. A dependable choice worth checking against your own listening taste. Our Value Score of 2.4/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 9.3,
+    "valueScore": 2.35,
+    "costPerHour": 2.13,
+    "creditWorth": 1.32,
+    "adjustedValueScore": 3.26
+  },
+  {
+    "asin": "B00V3YG5OC",
+    "title": "Boundary Crossed",
+    "author": "Melissa F. Olson",
+    "narrator": "Kate Rudd",
+    "runtimeMinutes": 559,
+    "price": 17.84,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 125,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/516-sUXeTiL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00V3YG5OC",
+    "categories": [
+      "Literature & Fiction",
+      "Horror",
+      "Ghosts"
+    ],
+    "releaseDate": "2015-05-01",
+    "publisher": "Brilliance Audio",
+    "description": "\"Boundary Crossed\" by Melissa F. Olson is a 9.3-hour Literature & Fiction listen. rated 4.5/5 with 125 listener reviews. priced at $17.84 — above a single credit ($1.92/hour), so a credit saves you money. Classics and literary fiction readers will appreciate the depth on offer. Our Value Score of 2.4/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 9.3,
+    "valueScore": 2.35,
+    "costPerHour": 1.91,
+    "creditWorth": 1.19,
+    "adjustedValueScore": 11.37
+  },
+  {
     "asin": "B0030MV7MU",
     "title": "The Happiness Project",
     "author": "Gretchen Rubin",
@@ -111705,6 +113577,32 @@
     "costPerHour": 2.15,
     "creditWorth": 1.47,
     "adjustedValueScore": 13.31
+  },
+  {
+    "asin": "B0H2K9L91P",
+    "title": "The Dragon 1",
+    "author": "Kenya Wright",
+    "narrator": "Pete Malone, Lennox Louis",
+    "runtimeMinutes": 453,
+    "price": 14.65,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 17,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51U9c9oVyOL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H2K9L91P",
+    "categories": [
+      "Romance",
+      "Multicultural",
+      "literature-and-fiction"
+    ],
+    "releaseDate": "2026-05-22",
+    "publisher": "Kenya Wright",
+    "description": "\"The Dragon 1\" by Kenya Wright is a 7.6-hour Romance listen. rated 4.5/5 with 17 listener reviews. priced at $14.65 ($1.93/hour) — cheaper than spending a credit. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 2.3/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 7.6,
+    "valueScore": 2.32,
+    "costPerHour": 1.94,
+    "creditWorth": 0.98,
+    "adjustedValueScore": 6.71
   },
   {
     "asin": "B01GGKQVFU",
@@ -114883,6 +116781,32 @@
     "adjustedValueScore": 3.15
   },
   {
+    "asin": "B0HF6NDCCR",
+    "title": "The Resonance Mage's Harem",
+    "author": "Marko Duskborn",
+    "narrator": "Mike Peterman",
+    "runtimeMinutes": 456,
+    "price": 15.07,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 10,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51iyIgtZYnL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HF6NDCCR",
+    "categories": [
+      "Romance",
+      "Science Fiction",
+      "Science Fiction & Fantasy"
+    ],
+    "releaseDate": "2026-08-15",
+    "publisher": "Mithril Axe Publishing LLC",
+    "description": "\"The Resonance Mage's Harem\" by Marko Duskborn is a 7.6-hour Romance listen. rated 4.5/5 with 10 listener reviews. priced at $15.07 — above a single credit ($1.98/hour), so a credit saves you money. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 2.3/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 7.6,
+    "valueScore": 2.27,
+    "costPerHour": 1.98,
+    "creditWorth": 1.01,
+    "adjustedValueScore": 5.44
+  },
+  {
     "asin": "B07HMJSJG5",
     "title": "Red, White & Royal Blue",
     "author": "Casey McQuiston",
@@ -115584,6 +117508,32 @@
     "adjustedValueScore": 6.65
   },
   {
+    "asin": "B0H761SXMG",
+    "title": "Calculated Whisk",
+    "author": "Lindsay Buroker",
+    "narrator": "Vivienne Leheny",
+    "runtimeMinutes": 562,
+    "price": 18.61,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51tvwibd3iL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H761SXMG",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Dragons & Mythical Creatures"
+    ],
+    "releaseDate": "2026-07-01",
+    "publisher": "Lindsay Buroker",
+    "description": "\"Calculated Whisk\" by Lindsay Buroker is a 9.4-hour Science Fiction & Fantasy listen. rated 4.5/5 with 8 listener reviews. priced at $18.61 — above a single credit ($1.98/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 2.3/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 9.4,
+    "valueScore": 2.26,
+    "costPerHour": 1.99,
+    "creditWorth": 1.24,
+    "adjustedValueScore": 4.97
+  },
+  {
     "asin": "B0F1NK1X5W",
     "title": "Love, Rebooted",
     "author": "Katy Summers",
@@ -116074,6 +118024,32 @@
     "costPerHour": 2,
     "creditWorth": 1.58,
     "adjustedValueScore": 13.1
+  },
+  {
+    "asin": "B08QR8Z5CC",
+    "title": "Touched by Fire: Magic Wars",
+    "author": "Kel Carpenter",
+    "narrator": "Savannah Gilmore, Adam Gold",
+    "runtimeMinutes": 425,
+    "price": 14.15,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 55,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51PvFvKM4AL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B08QR8Z5CC",
+    "categories": [
+      "Romance",
+      "Paranormal",
+      "Science Fiction & Fantasy"
+    ],
+    "releaseDate": "2020-12-16",
+    "publisher": "Kel Carpenter LLC",
+    "description": "\"Touched by Fire: Magic Wars\" by Kel Carpenter is a 7.1-hour Romance listen. rated 4.5/5 with 55 listener reviews. priced at $14.15 ($1.99/hour) — cheaper than spending a credit. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 2.3/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 7.1,
+    "valueScore": 2.25,
+    "costPerHour": 2,
+    "creditWorth": 0.95,
+    "adjustedValueScore": 9.06
   },
   {
     "asin": "B0FNDTVTNR",
@@ -117758,6 +119734,32 @@
     "costPerHour": 2.02,
     "creditWorth": 1.03,
     "adjustedValueScore": 2.45
+  },
+  {
+    "asin": "B0H6PHG352",
+    "title": "Magic Betrayed",
+    "author": "Kenley Davidson",
+    "narrator": "Amelia Hugh",
+    "runtimeMinutes": 570,
+    "price": 21.26,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51O0zbhl5UL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H6PHG352",
+    "categories": [
+      "Romance",
+      "Fantasy",
+      "Paranormal"
+    ],
+    "releaseDate": "2026-08-04",
+    "publisher": "Podium Audio",
+    "description": "\"Magic Betrayed\" by Kenley Davidson is a 9.5-hour Romance listen. rated 5.0/5 with 1 listener reviews. priced at $21.26 — above a single credit ($2.24/hour), so a credit saves you money. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 2.2/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 9.5,
+    "valueScore": 2.23,
+    "costPerHour": 2.24,
+    "creditWorth": 1.42,
+    "adjustedValueScore": 1.55
   },
   {
     "asin": "B09K2MCS1P",
@@ -120784,6 +122786,32 @@
     "adjustedValueScore": 3.92
   },
   {
+    "asin": "B075B1ZM1Q",
+    "title": "Ripples in Spacetime",
+    "author": "Govert Schilling, Martin Rees",
+    "narrator": "Joel Richards",
+    "runtimeMinutes": 690,
+    "price": 23.59,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 34,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61DnhlAdt5L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B075B1ZM1Q",
+    "categories": [
+      "Science & Engineering",
+      "Engineering",
+      "Power Resources"
+    ],
+    "releaseDate": "2017-09-12",
+    "publisher": "Tantor Audio",
+    "description": "\"Ripples in Spacetime\" by Govert Schilling, Martin Rees is a 11.5-hour Science & Engineering listen. rated 4.5/5 with 34 listener reviews. priced at $23.59 — above a single credit ($2.05/hour), so a credit saves you money. A strong pick for nonfiction listeners who want substance for their credit. Our Value Score of 2.2/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 11.5,
+    "valueScore": 2.19,
+    "costPerHour": 2.05,
+    "creditWorth": 1.58,
+    "adjustedValueScore": 7.79
+  },
+  {
     "asin": "B002V0GCE0",
     "title": "Predictably Irrational",
     "author": "Dan Ariely",
@@ -123653,6 +125681,32 @@
     "valueScore": 2.15,
     "costPerHour": 2.33,
     "creditWorth": 0.95,
+    "adjustedValueScore": 1.49
+  },
+  {
+    "asin": "B0HCCSQRJH",
+    "title": "Demeter-9",
+    "author": "Shamon Harper",
+    "narrator": "Anthony Aiello",
+    "runtimeMinutes": 583,
+    "price": 22.57,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51AsURO8CVL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HCCSQRJH",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Military"
+    ],
+    "releaseDate": "2026-07-31",
+    "publisher": "Shamon Writes",
+    "description": "\"Demeter-9\" by Shamon Harper is a 9.7-hour Science Fiction & Fantasy listen. rated 5.0/5 with 1 listener reviews. priced at $22.57 — above a single credit ($2.33/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 2.1/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 9.7,
+    "valueScore": 2.15,
+    "costPerHour": 2.32,
+    "creditWorth": 1.51,
     "adjustedValueScore": 1.49
   },
   {
@@ -126660,6 +128714,32 @@
     "adjustedValueScore": 3.78
   },
   {
+    "asin": "B0CQ93CXZH",
+    "title": "The Rings of Grissom",
+    "author": "Julia Huni",
+    "narrator": "Rachel Music",
+    "runtimeMinutes": 410,
+    "price": 14.57,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 9,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51HfzZE0wUL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CQ93CXZH",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Humorous"
+    ],
+    "releaseDate": "2023-12-15",
+    "publisher": "IPH Media, LLC",
+    "description": "\"The Rings of Grissom\" by Julia Huni is a 6.8-hour Science Fiction & Fantasy listen. rated 4.5/5 with 9 listener reviews. priced at $14.57 ($2.14/hour) — cheaper than spending a credit. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 2.1/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 6.8,
+    "valueScore": 2.11,
+    "costPerHour": 2.13,
+    "creditWorth": 0.97,
+    "adjustedValueScore": 4.86
+  },
+  {
     "asin": "B0BDGKCJX2",
     "title": "Expectations Investing: Reading Stock Prices for Better Returns",
     "author": "Michael J. Mauboussin, Alfred Rappaport",
@@ -127407,6 +129487,32 @@
     "costPerHour": 2.14,
     "creditWorth": 1.15,
     "adjustedValueScore": 6.58
+  },
+  {
+    "asin": "B0GPRFHYP3",
+    "title": "How I Built a Magic Empire",
+    "author": "Konstantin Zubov, Ben Hooson - Translator - translator",
+    "narrator": "Hannibal Hills",
+    "runtimeMinutes": 538,
+    "price": 21.31,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 16,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51aAFezGohL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GPRFHYP3",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2026-08-25",
+    "publisher": "Tantor Media",
+    "description": "\"How I Built a Magic Empire\" by Konstantin Zubov, Ben Hooson - Translator - translator is a 9.0-hour Science Fiction & Fantasy listen. rated 5.0/5 with 16 listener reviews. priced at $21.31 — above a single credit ($2.37/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 2.1/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 9,
+    "valueScore": 2.1,
+    "costPerHour": 2.38,
+    "creditWorth": 1.43,
+    "adjustedValueScore": 5.95
   },
   {
     "asin": "B01KBM825G",
@@ -129056,6 +131162,32 @@
     "adjustedValueScore": 5.49
   },
   {
+    "asin": "B0CRLC47HP",
+    "title": "Midnight of Ashes",
+    "author": "Tessa Hale",
+    "narrator": "Vanessa Moyen, Joe Arden, Jason Clarke, Connor Crais, Teddy Hamilton, Jacob Morgan",
+    "runtimeMinutes": 394,
+    "price": 14.19,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 64,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61HW0+2+a1L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CRLC47HP",
+    "categories": [
+      "Romance",
+      "Fantasy",
+      "Paranormal"
+    ],
+    "releaseDate": "2024-04-19",
+    "publisher": "Tessa Hale",
+    "description": "\"Midnight of Ashes\" by Tessa Hale is a 6.6-hour Romance listen. rated 4.5/5 with 64 listener reviews. priced at $14.19 ($2.15/hour) — cheaper than spending a credit. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 2.1/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 6.6,
+    "valueScore": 2.08,
+    "costPerHour": 2.16,
+    "creditWorth": 0.95,
+    "adjustedValueScore": 8.68
+  },
+  {
     "asin": "1473579724",
     "title": "Wintering",
     "author": "Katherine May",
@@ -129827,6 +131959,32 @@
     "costPerHour": 1.69,
     "creditWorth": 1,
     "adjustedValueScore": 3.33
+  },
+  {
+    "asin": "B002V9ZCYM",
+    "title": "Nine Dragons",
+    "author": "Michael Connelly",
+    "narrator": "Len Cariou",
+    "runtimeMinutes": 655,
+    "price": 23.77,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 258,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51qzSC4qxyL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V9ZCYM",
+    "categories": [
+      "Mystery, Thriller & Suspense",
+      "Crime Fiction",
+      "Mystery"
+    ],
+    "releaseDate": "2009-10-13",
+    "publisher": "Little, Brown & Company",
+    "description": "\"Nine Dragons\" by Michael Connelly is a 10.9-hour Mystery, Thriller & Suspense listen. rated 4.5/5 with 258 listener reviews. priced at $23.77 — above a single credit ($2.18/hour), so a credit saves you money. Thriller and mystery listeners will find plenty of pull here. Our Value Score of 2.1/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 10.9,
+    "valueScore": 2.07,
+    "costPerHour": 2.18,
+    "creditWorth": 1.59,
+    "adjustedValueScore": 11.5
   },
   {
     "asin": "B00XWTPUW4",
@@ -135124,6 +137282,32 @@
     "adjustedValueScore": 1.38
   },
   {
+    "asin": "B09WST6L37",
+    "title": "Mastering Magic",
+    "author": "Jaime Castle, Troy Osgood",
+    "narrator": "Nick Podehl",
+    "runtimeMinutes": 629,
+    "price": 23.69,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 29,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61LcwNabP0L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09WST6L37",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2022-06-07",
+    "publisher": "Podium Audio",
+    "description": "\"Mastering Magic\" by Jaime Castle, Troy Osgood is a 10.5-hour Science Fiction & Fantasy listen. rated 4.5/5 with 29 listener reviews. priced at $23.69 — above a single credit ($2.26/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 2.0/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 10.5,
+    "valueScore": 1.99,
+    "costPerHour": 2.26,
+    "creditWorth": 1.58,
+    "adjustedValueScore": 6.77
+  },
+  {
     "asin": "197869167X",
     "title": "Rich Dad Poor Dad",
     "author": "Robert T. Kiyosaki",
@@ -135944,6 +138128,32 @@
     "costPerHour": 2.27,
     "creditWorth": 0.96,
     "adjustedValueScore": 6.8
+  },
+  {
+    "asin": "B096T4866P",
+    "title": "The Derelict Duty: A Space Adventure",
+    "author": "James Haddock",
+    "narrator": "Daniel Wisniewski, Rebecca Woods",
+    "runtimeMinutes": 557,
+    "price": 21.06,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 28,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51pYtgqbQTS._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B096T4866P",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "releaseDate": "2021-06-08",
+    "publisher": "James Haddock",
+    "description": "\"The Derelict Duty: A Space Adventure\" by James Haddock is a 9.3-hour Science Fiction & Fantasy listen. rated 4.5/5 with 28 listener reviews. priced at $21.06 — above a single credit ($2.26/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 2.0/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 9.3,
+    "valueScore": 1.98,
+    "costPerHour": 2.27,
+    "creditWorth": 1.41,
+    "adjustedValueScore": 6.67
   },
   {
     "asin": "B002V08GGC",
@@ -138999,6 +141209,32 @@
     "adjustedValueScore": 3.78
   },
   {
+    "asin": "B0GJTNPLJN",
+    "title": "Dead in the Water: A Space Team Universe Novel",
+    "author": "Barry J. Hutchison",
+    "narrator": "Phil Thron",
+    "runtimeMinutes": 543,
+    "price": 21.02,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51j89-S7S3L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GJTNPLJN",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "releaseDate": "2026-01-26",
+    "publisher": "Zertex Horizons",
+    "description": "\"Dead in the Water: A Space Team Universe Novel\" by Barry J. Hutchison is a 9.1-hour Science Fiction & Fantasy listen. rated 4.5/5 with 2 listener reviews. priced at $21.02 — above a single credit ($2.31/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 1.9/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 9.1,
+    "valueScore": 1.94,
+    "costPerHour": 2.32,
+    "creditWorth": 1.41,
+    "adjustedValueScore": 2.13
+  },
+  {
     "asin": "B00IWZ6XGA",
     "title": "Essentialism",
     "author": "Greg McKeown",
@@ -140603,6 +142839,58 @@
     "adjustedValueScore": 6.02
   },
   {
+    "asin": "B0H2N9VJ3M",
+    "title": "Magic Maker",
+    "author": "Kazuki Kaburagi",
+    "narrator": "Mark Sanderlin",
+    "runtimeMinutes": 546,
+    "price": 23.64,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51o9rIb0uoL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H2N9VJ3M",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2026-05-22",
+    "publisher": "Seven Seas Entertainment, Seven Seas Siren",
+    "description": "\"Magic Maker\" by Kazuki Kaburagi is a 9.1-hour Science Fiction & Fantasy listen. rated 5.0/5 with 1 listener reviews. priced at $23.64 — above a single credit ($2.60/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 1.9/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 9.1,
+    "valueScore": 1.92,
+    "costPerHour": 2.6,
+    "creditWorth": 1.58,
+    "adjustedValueScore": 1.33
+  },
+  {
+    "asin": "B0BFJLXSD7",
+    "title": "Unexpected Shift",
+    "author": "Sedona Ashe",
+    "narrator": "Lessa Lamb, Gregory Salinas, Greg Boudreaux",
+    "runtimeMinutes": 361,
+    "price": 14.09,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 115,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51kSib+enlL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0BFJLXSD7",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "Paranormal"
+    ],
+    "releaseDate": "2022-09-16",
+    "publisher": "Sedona Ashe",
+    "description": "\"Unexpected Shift\" by Sedona Ashe is a 6.0-hour Romance listen. rated 4.5/5 with 115 listener reviews. priced at $14.09 ($2.35/hour) — cheaper than spending a credit. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 1.9/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 6,
+    "valueScore": 1.92,
+    "costPerHour": 2.34,
+    "creditWorth": 0.94,
+    "adjustedValueScore": 9.13
+  },
+  {
     "asin": "B002V5J47W",
     "title": "1st To Die",
     "author": "James Patterson",
@@ -141224,6 +143512,32 @@
     "costPerHour": 2.35,
     "creditWorth": 1.05,
     "adjustedValueScore": 1.32
+  },
+  {
+    "asin": "B0G4245W7K",
+    "title": "Kiki and the New Magic",
+    "author": "Eiko Kadono, Emily Balistrieri - translator",
+    "narrator": "Kim Mai Guest",
+    "runtimeMinutes": 415,
+    "price": 18.08,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51zTOOKkKgL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0G4245W7K",
+    "categories": [
+      "Children's Audiobooks",
+      "Literature & Fiction",
+      "Classics"
+    ],
+    "releaseDate": "2026-08-25",
+    "publisher": "Listening Library",
+    "description": "\"Kiki and the New Magic\" by Eiko Kadono, Emily Balistrieri - translator is a 6.9-hour Children's Audiobooks listen. rated 5.0/5 with 4 listener reviews. priced at $18.08 — above a single credit ($2.62/hour), so a credit saves you money. A dependable choice worth checking against your own listening taste. Our Value Score of 1.9/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 6.9,
+    "valueScore": 1.91,
+    "costPerHour": 2.61,
+    "creditWorth": 1.21,
+    "adjustedValueScore": 3.07
   },
   {
     "asin": "B007VEWUWY",
@@ -142588,6 +144902,32 @@
     "creditWorth": 1.55
   },
   {
+    "asin": "B0HBD6GQ1M",
+    "title": "Easygoing Territory Defense by the Optimistic Lord: Production Magic Turns a Nameless Village into the Strongest Fortified City, Vol. 2",
+    "author": "Sou Akaike",
+    "narrator": "Eric O'Keeffe",
+    "runtimeMinutes": 482,
+    "price": 21.27,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51IrHrohDpL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HBD6GQ1M",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2026-07-24",
+    "publisher": "Seven Seas Entertainment, Seven Seas Siren",
+    "description": "\"Easygoing Territory Defense by the Optimistic Lord: Production Magic Turns a Nameless Village into the Strongest Fortified City, Vol. 2\" by Sou Akaike is a 8.0-hour Science Fiction & Fantasy listen. rated 5.0/5 with 3 listener reviews. priced at $21.27 — above a single credit ($2.66/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 1.9/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 8,
+    "valueScore": 1.89,
+    "costPerHour": 2.65,
+    "creditWorth": 1.42,
+    "adjustedValueScore": 2.62
+  },
+  {
     "asin": "1797111566",
     "title": "In a Holidaze",
     "author": "Christina Lauren",
@@ -143178,6 +145518,32 @@
     "valueScore": 1.88,
     "costPerHour": 2.13,
     "creditWorth": 1.36,
+    "adjustedValueScore": 4.13
+  },
+  {
+    "asin": "B0CWSZVF97",
+    "title": "Cosmic Voyager",
+    "author": "Tyler Bowman",
+    "narrator": "Mandy McCullough",
+    "runtimeMinutes": 575,
+    "price": 22.98,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Z3t+mjAvL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CWSZVF97",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "releaseDate": "2024-03-15",
+    "publisher": "Royal Guard Publishing LLC",
+    "description": "\"Cosmic Voyager\" by Tyler Bowman is a 9.6-hour Science Fiction & Fantasy listen. rated 4.5/5 with 8 listener reviews. priced at $22.98 — above a single credit ($2.39/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 1.9/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 9.6,
+    "valueScore": 1.88,
+    "costPerHour": 2.4,
+    "creditWorth": 1.54,
     "adjustedValueScore": 4.13
   },
   {
@@ -144633,6 +146999,32 @@
     "adjustedValueScore": 3.33
   },
   {
+    "asin": "B0HFTLY3Y4",
+    "title": "All of Us Monsters",
+    "author": "E. Barbee",
+    "narrator": "Nicole Marcelle, Scott Barbee",
+    "runtimeMinutes": 588,
+    "price": 23.68,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51EKHRe7wOL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HFTLY3Y4",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Dragons & Mythical Creatures"
+    ],
+    "releaseDate": "2026-08-20",
+    "publisher": "E. Barbee",
+    "description": "\"All of Us Monsters\" by E. Barbee is a 9.8-hour Science Fiction & Fantasy listen. rated 4.5/5 with 2 listener reviews. priced at $23.68 — above a single credit ($2.42/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 1.9/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 9.8,
+    "valueScore": 1.86,
+    "costPerHour": 2.42,
+    "creditWorth": 1.58,
+    "adjustedValueScore": 2.04
+  },
+  {
     "asin": "B007T7U0RK",
     "title": "Let's Pretend This Never Happened",
     "author": "Jenny Lawson",
@@ -145852,6 +148244,32 @@
     "adjustedValueScore": 5.77
   },
   {
+    "asin": "1774246473",
+    "title": "Resurgence",
+    "author": "Z. D. Dean",
+    "narrator": "Michael Braun",
+    "runtimeMinutes": 549,
+    "price": 22.43,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 23,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/514Wopp1R6L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1774246473",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Military"
+    ],
+    "releaseDate": "2020-11-17",
+    "publisher": "Podium Audio",
+    "description": "\"Resurgence\" by Z. D. Dean is a 9.2-hour Science Fiction & Fantasy listen. rated 4.5/5 with 23 listener reviews. priced at $22.43 — above a single credit ($2.44/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 1.8/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 9.2,
+    "valueScore": 1.84,
+    "costPerHour": 2.45,
+    "creditWorth": 1.5,
+    "adjustedValueScore": 5.85
+  },
+  {
     "asin": "B0CYNPSBNG",
     "title": "Man's Search for Meaning",
     "author": "Viktor E. Frankl",
@@ -146730,6 +149148,58 @@
     "adjustedValueScore": 1.27
   },
   {
+    "asin": "B09ZBMWZKQ",
+    "title": "Deep Space Warfare",
+    "author": "John C. Wright",
+    "narrator": "John C. Wright",
+    "runtimeMinutes": 481,
+    "price": 19.75,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41bZjFL7-2L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09ZBMWZKQ",
+    "categories": [
+      "History",
+      "Military",
+      "Military Science"
+    ],
+    "releaseDate": "2022-05-02",
+    "publisher": "John C. Wright",
+    "description": "\"Deep Space Warfare\" by John C. Wright is a 8.0-hour History listen. rated 4.5/5 with 3 listener reviews. priced at $19.75 — above a single credit ($2.47/hour), so a credit saves you money. A strong pick for nonfiction listeners who want substance for their credit. Our Value Score of 1.8/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 8,
+    "valueScore": 1.83,
+    "costPerHour": 2.46,
+    "creditWorth": 1.32,
+    "adjustedValueScore": 2.54
+  },
+  {
+    "asin": "B00K7105ES",
+    "title": "Spacesuit: Fashioning Apollo",
+    "author": "Nicholas de Monchaux",
+    "narrator": "Bronson Pinchot",
+    "runtimeMinutes": 618,
+    "price": 22.56,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 21,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/418o2pPbgAL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00K7105ES",
+    "categories": [
+      "Arts & Entertainment",
+      "Art",
+      "Decorative Arts & Design"
+    ],
+    "releaseDate": "2014-05-13",
+    "publisher": "Audible Studios",
+    "description": "\"Spacesuit: Fashioning Apollo\" by Nicholas de Monchaux is a 10.3-hour Arts & Entertainment listen. rated 4.0/5 with 21 listener reviews. priced at $22.56 — above a single credit ($2.19/hour), so a credit saves you money. A dependable choice worth checking against your own listening taste. Our Value Score of 1.8/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 10.3,
+    "valueScore": 1.83,
+    "costPerHour": 2.19,
+    "creditWorth": 1.51,
+    "adjustedValueScore": 5.66
+  },
+  {
     "asin": "B002V8KNLK",
     "title": "Lord of the Flies",
     "author": "William Golding",
@@ -147483,6 +149953,32 @@
     "adjustedValueScore": 6.97
   },
   {
+    "asin": "B01J2ABCTQ",
+    "title": "The Unknown Universe",
+    "author": "Stuart Clark",
+    "narrator": "Stephen Hoye",
+    "runtimeMinutes": 502,
+    "price": 20.71,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 78,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61gwmiZGb7L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01J2ABCTQ",
+    "categories": [
+      "Science & Engineering",
+      "Science",
+      "Astronomy & Space Science"
+    ],
+    "releaseDate": "2016-09-06",
+    "publisher": "Audible Studios",
+    "description": "\"The Unknown Universe\" by Stuart Clark is a 8.4-hour Science & Engineering listen. rated 4.5/5 with 78 listener reviews. priced at $20.71 — above a single credit ($2.47/hour), so a credit saves you money. A strong pick for nonfiction listeners who want substance for their credit. Our Value Score of 1.8/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 8.4,
+    "valueScore": 1.82,
+    "costPerHour": 2.48,
+    "creditWorth": 1.39,
+    "adjustedValueScore": 7.95
+  },
+  {
     "asin": "B06XX3X8RX",
     "title": "A Stranger in the House",
     "author": "Shari Lapena",
@@ -148023,6 +150519,58 @@
     "costPerHour": 2.49,
     "creditWorth": 1.12,
     "adjustedValueScore": 2.51
+  },
+  {
+    "asin": "B0DV65GM5M",
+    "title": "Breathing Space",
+    "author": "Kristen Painter",
+    "narrator": "Robyn Maryke",
+    "runtimeMinutes": 393,
+    "price": 16.31,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 28,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51ocKuDR9uL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DV65GM5M",
+    "categories": [
+      "Mystery, Thriller & Suspense",
+      "Mystery",
+      "Cozy"
+    ],
+    "releaseDate": "2025-01-31",
+    "publisher": "Sugar Skull Books LLC",
+    "description": "\"Breathing Space\" by Kristen Painter is a 6.6-hour Mystery, Thriller & Suspense listen. rated 4.5/5 with 28 listener reviews. priced at $16.31 — above a single credit ($2.47/hour), so a credit saves you money. Thriller and mystery listeners will find plenty of pull here. Our Value Score of 1.8/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 6.6,
+    "valueScore": 1.81,
+    "costPerHour": 2.49,
+    "creditWorth": 1.09,
+    "adjustedValueScore": 6.09
+  },
+  {
+    "asin": "B089NZR79Z",
+    "title": "Black Sheep",
+    "author": "Rachel Aukes",
+    "narrator": "Emily Woo Zeller",
+    "runtimeMinutes": 544,
+    "price": 22.53,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 42,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51yB9111i8L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B089NZR79Z",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "First Contact"
+    ],
+    "releaseDate": "2020-06-16",
+    "publisher": "Aethon Audio",
+    "description": "\"Black Sheep\" by Rachel Aukes is a 9.1-hour Science Fiction & Fantasy listen. rated 4.5/5 with 42 listener reviews. priced at $22.53 — above a single credit ($2.48/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 1.8/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 9.1,
+    "valueScore": 1.81,
+    "costPerHour": 2.48,
+    "creditWorth": 1.51,
+    "adjustedValueScore": 6.81
   },
   {
     "asin": "B0BPBCW1DV",
@@ -150324,6 +152872,32 @@
     "costPerHour": 2.52,
     "creditWorth": 1.28,
     "adjustedValueScore": 5.73
+  },
+  {
+    "asin": "B0H1B6Z96P",
+    "title": "Of Mages and Matcha",
+    "author": "Shari L. Tapscott",
+    "narrator": "Natalie Duke",
+    "runtimeMinutes": 446,
+    "price": 20.87,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51djWRdN6jL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H1B6Z96P",
+    "categories": [
+      "Romance",
+      "Fantasy",
+      "Science Fiction & Fantasy"
+    ],
+    "releaseDate": "2026-08-25",
+    "publisher": "Simon Maverick",
+    "description": "\"Of Mages and Matcha\" by Shari L. Tapscott is a 7.4-hour Romance listen. rated 5.0/5 with 1 listener reviews. priced at $20.87 — above a single credit ($2.82/hour), so a credit saves you money. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 1.8/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 7.4,
+    "valueScore": 1.78,
+    "costPerHour": 2.81,
+    "creditWorth": 1.4,
+    "adjustedValueScore": 1.23
   },
   {
     "asin": "B0F9LMYQ7C",
@@ -158142,6 +160716,32 @@
     "adjustedValueScore": 1.83
   },
   {
+    "asin": "B073GJZMCJ",
+    "title": "Universe",
+    "author": "Jasper T. Scott",
+    "narrator": "William Dufris",
+    "runtimeMinutes": 490,
+    "price": 22.06,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 6,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61of7x8nThL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B073GJZMCJ",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "releaseDate": "2017-06-29",
+    "publisher": "Audible Studios",
+    "description": "\"Universe\" by Jasper T. Scott is a 8.2-hour Science Fiction & Fantasy listen. rated 4.5/5 with 6 listener reviews. priced at $22.06 — above a single credit ($2.69/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 1.7/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 8.2,
+    "valueScore": 1.67,
+    "costPerHour": 2.7,
+    "creditWorth": 1.48,
+    "adjustedValueScore": 3.25
+  },
+  {
     "title": "The Little Book of Common Sense Investing, Updated and Revised",
     "author": "John C. Bogle",
     "narrator": "Barry Abrams",
@@ -159976,6 +162576,32 @@
     "costPerHour": 2.75,
     "creditWorth": 1.44,
     "adjustedValueScore": 5.34
+  },
+  {
+    "asin": "B0GG7PYS5G",
+    "title": "Space Rodeo",
+    "author": "Jenny Schwartz",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 357,
+    "price": 18.19,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41OY9qQtzHL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0GG7PYS5G",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "releaseDate": "2026-01-11",
+    "publisher": "Independently Published",
+    "description": "\"Space Rodeo\" by Jenny Schwartz is a 6.0-hour Science Fiction & Fantasy listen. rated 5.0/5 with 1 listener reviews. priced at $18.19 — above a single credit ($3.03/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 1.6/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 6,
+    "valueScore": 1.64,
+    "costPerHour": 3.06,
+    "creditWorth": 1.22,
+    "adjustedValueScore": 1.14
   },
   {
     "asin": "1524779261",
@@ -162151,6 +164777,32 @@
     "adjustedValueScore": 4
   },
   {
+    "asin": "B0HFKYLGJG",
+    "title": "Dragon Heir",
+    "author": "Alexa B. James",
+    "narrator": "Gregory Salinas, Nikki Grey",
+    "runtimeMinutes": 421,
+    "price": 21.76,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51xgVuXMJSL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HFKYLGJG",
+    "categories": [
+      "Romance",
+      "Fantasy",
+      "Science Fiction & Fantasy"
+    ],
+    "releaseDate": "2026-08-18",
+    "publisher": "Speak Now Publishings LLC",
+    "description": "\"Dragon Heir\" by Alexa B. James is a 7.0-hour Romance listen. rated 5.0/5 with 2 listener reviews. priced at $21.76 — above a single credit ($3.11/hour), so a credit saves you money. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 1.6/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 7,
+    "valueScore": 1.61,
+    "costPerHour": 3.1,
+    "creditWorth": 1.46,
+    "adjustedValueScore": 1.77
+  },
+  {
     "asin": "B0045KX2HY",
     "title": "The Haunting of Hill House",
     "author": "Shirley Jackson",
@@ -162975,6 +165627,58 @@
     "costPerHour": 2.81,
     "creditWorth": 1.24,
     "adjustedValueScore": 2.22
+  },
+  {
+    "asin": "B0FSG59NM8",
+    "title": "Cut to the Feeling",
+    "author": "M. A. Wardell, A. J. Truman",
+    "narrator": "Greg Boudreaux, Kevin Earlywine",
+    "runtimeMinutes": 424,
+    "price": 22.15,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 20,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41Q8pV2SX3L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FSG59NM8",
+    "categories": [
+      "LGBTQ+",
+      "Romance",
+      "Literature & Fiction"
+    ],
+    "releaseDate": "2025-09-25",
+    "publisher": "A. J. Truman & M. A. Wardell",
+    "description": "\"Cut to the Feeling\" by M. A. Wardell, A. J. Truman is a 7.1-hour LGBTQ+ listen. rated 5.0/5 with 20 listener reviews. priced at $22.15 — above a single credit ($3.12/hour), so a credit saves you money. A dependable choice worth checking against your own listening taste. Our Value Score of 1.6/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 7.1,
+    "valueScore": 1.6,
+    "costPerHour": 3.13,
+    "creditWorth": 1.48,
+    "adjustedValueScore": 4.87
+  },
+  {
+    "asin": "B0HF11VZKR",
+    "title": "The Wizard who Dumped a Dragon",
+    "author": "Joshua C. Cook",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 325,
+    "price": 16.93,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/415V1vhMriL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HF11VZKR",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Humorous"
+    ],
+    "releaseDate": "2026-08-12",
+    "publisher": "Independently Published",
+    "description": "\"The Wizard who Dumped a Dragon\" by Joshua C. Cook is a 5.4-hour Science Fiction & Fantasy listen. rated 5.0/5 with 1 listener reviews. priced at $16.93 — above a single credit ($3.14/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 1.6/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 5.4,
+    "valueScore": 1.6,
+    "costPerHour": 3.13,
+    "creditWorth": 1.13,
+    "adjustedValueScore": 1.11
   },
   {
     "asin": "177230882X",
@@ -164993,6 +167697,32 @@
     "adjustedValueScore": 3.06
   },
   {
+    "asin": "0655691421",
+    "title": "A Healing Space",
+    "author": "Matt Licata",
+    "narrator": "Susie Godfrey",
+    "runtimeMinutes": 490,
+    "price": 23.45,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41e0rdgNcfL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/0655691421",
+    "categories": [
+      "Business & Careers",
+      "Career Success",
+      "Motivation & Self-Improvement"
+    ],
+    "releaseDate": "2020-11-03",
+    "publisher": "Bolinda audio",
+    "description": "\"A Healing Space\" by Matt Licata is a 8.2-hour Business & Careers listen. rated 4.5/5 with 4 listener reviews. priced at $23.45 — above a single credit ($2.86/hour), so a credit saves you money. A strong pick for nonfiction listeners who want substance for their credit. Our Value Score of 1.6/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 8.2,
+    "valueScore": 1.57,
+    "costPerHour": 2.87,
+    "creditWorth": 1.57,
+    "adjustedValueScore": 2.53
+  },
+  {
     "asin": "B0BMQTDD76",
     "title": "Fierce King",
     "author": "Sadie Kincaid",
@@ -166232,6 +168962,32 @@
     "adjustedValueScore": 3.02
   },
   {
+    "asin": "B0H12RTHKV",
+    "title": "Sassy Witch",
+    "author": "Danielle Garrett",
+    "narrator": "Amanda Ronconi",
+    "runtimeMinutes": 359,
+    "price": 19.36,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/516WDPZfmNL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H12RTHKV",
+    "categories": [
+      "Mystery, Thriller & Suspense",
+      "Mystery",
+      "Cozy"
+    ],
+    "releaseDate": "2026-05-26",
+    "publisher": "Roots & Wings Press",
+    "description": "\"Sassy Witch\" by Danielle Garrett is a 6.0-hour Mystery, Thriller & Suspense listen. rated 5.0/5 with 8 listener reviews. priced at $19.36 — above a single credit ($3.23/hour), so a credit saves you money. Thriller and mystery listeners will find plenty of pull here. Our Value Score of 1.6/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 6,
+    "valueScore": 1.55,
+    "costPerHour": 3.24,
+    "creditWorth": 1.29,
+    "adjustedValueScore": 3.41
+  },
+  {
     "asin": "B002V0KRP0",
     "title": "Along Came a Spider",
     "author": "James Patterson",
@@ -166617,6 +169373,32 @@
     "costPerHour": 3.25,
     "creditWorth": 1.29,
     "adjustedValueScore": 4.69
+  },
+  {
+    "asin": "B0HC45VTFH",
+    "title": "Physics of the Future Gods",
+    "author": "John Stoddard",
+    "narrator": "Joel Richards",
+    "runtimeMinutes": 264,
+    "price": 14.24,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 26,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41+7bIZGH6L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HC45VTFH",
+    "categories": [
+      "Computers & Technology",
+      "Computer Science",
+      "History"
+    ],
+    "releaseDate": "2026-07-29",
+    "publisher": "John Stoddard",
+    "description": "\"Physics of the Future Gods\" by John Stoddard is a 4.4-hour Computers & Technology listen. rated 5.0/5 with 26 listener reviews. priced at $14.24 ($3.24/hour) — cheaper than spending a credit. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 1.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 4.4,
+    "valueScore": 1.54,
+    "costPerHour": 3.24,
+    "creditWorth": 0.95,
+    "adjustedValueScore": 5.08
   },
   {
     "asin": "B003AOIJI8",
@@ -167239,6 +170021,31 @@
     "costPerHour": 1.97,
     "creditWorth": 1.03,
     "adjustedValueScore": 1.06
+  },
+  {
+    "asin": "B0B29G96TX",
+    "title": "Beyond the Wand",
+    "author": "Tom Felton",
+    "narrator": "Tom Felton",
+    "runtimeMinutes": 418,
+    "price": 22.82,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1557,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51B8e3tCr4L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0B29G96TX",
+    "categories": [
+      "Biographies & Memoirs",
+      "Entertainment & Celebrities"
+    ],
+    "releaseDate": "2022-10-18",
+    "publisher": "Grand Central Publishing",
+    "description": "\"Beyond the Wand\" by Tom Felton is a 7.0-hour Biographies & Memoirs listen. rated 5.0/5 with 1,557 listener reviews. priced at $22.82 — above a single credit ($3.26/hour), so a credit saves you money. A strong pick for nonfiction listeners who want substance for their credit. Our Value Score of 1.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 7,
+    "valueScore": 1.53,
+    "costPerHour": 3.28,
+    "creditWorth": 1.53,
+    "adjustedValueScore": 11.25
   },
   {
     "asin": "B0BBY76WP4",
@@ -167884,6 +170691,32 @@
     "adjustedValueScore": 4.95
   },
   {
+    "asin": "B00H3R2LPU",
+    "title": "The Enchanted Wood",
+    "author": "Enid Blyton",
+    "narrator": "Kate Winslet",
+    "runtimeMinutes": 290,
+    "price": 14.35,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51dMcLG0QfL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00H3R2LPU",
+    "categories": [
+      "Children's Audiobooks",
+      "Literature & Fiction",
+      "Chapter Books & Readers"
+    ],
+    "releaseDate": "2013-12-05",
+    "publisher": "Hodder Children's Books",
+    "description": "\"The Enchanted Wood\" by Enid Blyton is a 4.8-hour Children's Audiobooks listen. rated 4.5/5 with 1 listener reviews. priced at $14.35 ($2.99/hour) — cheaper than spending a credit. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 1.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 4.8,
+    "valueScore": 1.52,
+    "costPerHour": 2.97,
+    "creditWorth": 0.96,
+    "adjustedValueScore": 1.05
+  },
+  {
     "asin": "B0GXGRQMSV",
     "title": "Culture First: 9 Leadership Practices That Build Elite Teams",
     "author": "Jon B. Becker",
@@ -168501,6 +171334,32 @@
     "costPerHour": 3.3,
     "creditWorth": 1.56,
     "adjustedValueScore": 1.05
+  },
+  {
+    "asin": "B0D5ZJW962",
+    "title": "Murder Most Owl",
+    "author": "Sarah Fox",
+    "narrator": "Hallie Bee Bard",
+    "runtimeMinutes": 474,
+    "price": 23.61,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 9,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51FLL3VOq4L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0D5ZJW962",
+    "categories": [
+      "Mystery, Thriller & Suspense",
+      "Mystery",
+      "Amateur Sleuths"
+    ],
+    "releaseDate": "2024-09-03",
+    "publisher": "Dreamscape Media",
+    "description": "\"Murder Most Owl\" by Sarah Fox is a 7.9-hour Mystery, Thriller & Suspense listen. rated 4.5/5 with 9 listener reviews. priced at $23.61 — above a single credit ($2.99/hour), so a credit saves you money. Thriller and mystery listeners will find plenty of pull here. Our Value Score of 1.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 7.9,
+    "valueScore": 1.51,
+    "costPerHour": 2.99,
+    "creditWorth": 1.58,
+    "adjustedValueScore": 3.48
   },
   {
     "asin": "B00M27LBU2",
@@ -170176,6 +173035,58 @@
     "costPerHour": 3.39,
     "creditWorth": 1.05,
     "adjustedValueScore": 5.9
+  },
+  {
+    "asin": "B0FMZTLVFH",
+    "title": "The Spaces That Make Us",
+    "author": "Danish Kurani",
+    "narrator": "Omar Maskati",
+    "runtimeMinutes": 406,
+    "price": 22.89,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41PYiIPLhWL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FMZTLVFH",
+    "categories": [
+      "Arts & Entertainment",
+      "Architecture",
+      "Home & Garden"
+    ],
+    "releaseDate": "2026-02-10",
+    "publisher": "Harper Celebrate",
+    "description": "\"The Spaces That Make Us\" by Danish Kurani is a 6.8-hour Arts & Entertainment listen. rated 5.0/5 with 2 listener reviews. priced at $22.89 — above a single credit ($3.37/hour), so a credit saves you money. A dependable choice worth checking against your own listening taste. Our Value Score of 1.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 6.8,
+    "valueScore": 1.48,
+    "costPerHour": 3.38,
+    "creditWorth": 1.53,
+    "adjustedValueScore": 1.63
+  },
+  {
+    "asin": "B0H5SMBX6T",
+    "title": "Magic Diary",
+    "author": "Leena Maria",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 375,
+    "price": 14.83,
+    "currency": "USD",
+    "starRating": 3.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51EqtQYARNL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H5SMBX6T",
+    "categories": [
+      "Literature & Fiction",
+      "Women's Fiction",
+      "Mystery, Thriller & Suspense"
+    ],
+    "releaseDate": "2026-06-18",
+    "publisher": "Leenasbooks",
+    "description": "\"Magic Diary\" by Leena Maria is a 6.3-hour Literature & Fiction listen. rated 3.5/5 with 2 listener reviews. priced at $14.83 ($2.35/hour) — cheaper than spending a credit. Classics and literary fiction readers will appreciate the depth on offer. Our Value Score of 1.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 6.3,
+    "valueScore": 1.48,
+    "costPerHour": 2.37,
+    "creditWorth": 0.99,
+    "adjustedValueScore": 1.63
   },
   {
     "asin": "B002V5GT02",
@@ -172818,6 +175729,32 @@
     "adjustedValueScore": 2.99
   },
   {
+    "asin": "B0HF4KHV8M",
+    "title": "Ariss: Spacecraft Commander",
+    "author": "Ayla Jones",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 376,
+    "price": 21.73,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51igQKyKD4L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HF4KHV8M",
+    "categories": [
+      "Romance",
+      "Action & Adventure",
+      "Science Fiction"
+    ],
+    "releaseDate": "2026-08-13",
+    "publisher": "Independently Published",
+    "description": "\"Ariss: Spacecraft Commander\" by Ayla Jones is a 6.3-hour Romance listen. rated 5.0/5 with 1 listener reviews. priced at $21.73 — above a single credit ($3.45/hour), so a credit saves you money. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 1.4/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 6.3,
+    "valueScore": 1.44,
+    "costPerHour": 3.47,
+    "creditWorth": 1.45,
+    "adjustedValueScore": 1
+  },
+  {
     "asin": "B07CGTWKX3",
     "title": "The Cabin at the End of the World",
     "author": "Paul Tremblay",
@@ -173438,6 +176375,58 @@
     "costPerHour": 3.15,
     "creditWorth": 1.39,
     "adjustedValueScore": 2.3
+  },
+  {
+    "asin": "B0G67C2N8B",
+    "title": "Delphi Mirror",
+    "author": "Bob Blanton",
+    "narrator": "Jessica Gurd",
+    "runtimeMinutes": 280,
+    "price": 14.66,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51C00wY7fsL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0G67C2N8B",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "releaseDate": "2025-12-10",
+    "publisher": "Delphi Publishing inc.",
+    "description": "\"Delphi Mirror\" by Bob Blanton is a 4.7-hour Science Fiction & Fantasy listen. rated 4.5/5 with 2 listener reviews. priced at $14.66 ($3.12/hour) — cheaper than spending a credit. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 1.4/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 4.7,
+    "valueScore": 1.43,
+    "costPerHour": 3.14,
+    "creditWorth": 0.98,
+    "adjustedValueScore": 1.57
+  },
+  {
+    "asin": "B0HGSFWYQX",
+    "title": "Dragon's Reign",
+    "author": "X. Aratare",
+    "narrator": "Edward Fox, X. Aratare",
+    "runtimeMinutes": 349,
+    "price": 16.28,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51XqRQuAj-L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HGSFWYQX",
+    "categories": [
+      "LGBTQ+",
+      "Romance",
+      "Fantasy"
+    ],
+    "releaseDate": "2026-08-28",
+    "publisher": "Raythe Reign Publishing",
+    "description": "\"Dragon's Reign\" by X. Aratare is a 5.8-hour LGBTQ+ listen. rated 4.0/5 with 1 listener reviews. priced at $16.28 — above a single credit ($2.81/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 1.4/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 5.8,
+    "valueScore": 1.43,
+    "costPerHour": 2.8,
+    "creditWorth": 1.09,
+    "adjustedValueScore": 0.99
   },
   {
     "asin": "B081GLHNF3",
@@ -175352,6 +178341,58 @@
     "costPerHour": 3.21,
     "creditWorth": 1.54,
     "adjustedValueScore": 5.36
+  },
+  {
+    "asin": "1974930947",
+    "title": "Uncluttered",
+    "author": "Courtney Ellis",
+    "narrator": "Courtney Ellis",
+    "runtimeMinutes": 304,
+    "price": 16.27,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 8,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Dnz+MTgdL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1974930947",
+    "categories": [
+      "Religion & Spirituality",
+      "Christianity",
+      "Christian Living"
+    ],
+    "releaseDate": "2019-02-01",
+    "publisher": "Dreamscape Media, LLC",
+    "description": "\"Uncluttered\" by Courtney Ellis is a 5.1-hour Religion & Spirituality listen. rated 4.5/5 with 8 listener reviews. priced at $16.27 — above a single credit ($3.19/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 1.4/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 5.1,
+    "valueScore": 1.4,
+    "costPerHour": 3.21,
+    "creditWorth": 1.09,
+    "adjustedValueScore": 3.08
+  },
+  {
+    "asin": "B0FSTHS6XM",
+    "title": "We Love You",
+    "author": "Andy Min, Thomas Sullivan",
+    "narrator": "Andy Min, Thomas Sullivan",
+    "runtimeMinutes": 355,
+    "price": 21.17,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41lEzggIXlL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FSTHS6XM",
+    "categories": [
+      "Relationships, Parenting & Personal Development",
+      "Personal Development",
+      "Personal Success"
+    ],
+    "releaseDate": "2025-10-28",
+    "publisher": "DK",
+    "description": "\"We Love You\" by Andy Min, Thomas Sullivan is a 5.9-hour Relationships, Parenting & Personal Development listen. rated 5.0/5 with 4 listener reviews. priced at $21.17 — above a single credit ($3.59/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 1.4/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 5.9,
+    "valueScore": 1.4,
+    "costPerHour": 3.58,
+    "creditWorth": 1.42,
+    "adjustedValueScore": 2.25
   },
   {
     "asin": "B002V5H3AW",
@@ -177736,6 +180777,32 @@
     "adjustedValueScore": 0.94
   },
   {
+    "asin": "B01GQO4WBQ",
+    "title": "Space at the Table",
+    "author": "Brad Harper, Drew Harper",
+    "narrator": "Brad Harper, Drew Harper",
+    "runtimeMinutes": 346,
+    "price": 21.27,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 19,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51DcnVAq+iL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01GQO4WBQ",
+    "categories": [
+      "Erotica",
+      "Sex Instruction",
+      "Relationships, Parenting & Personal Development"
+    ],
+    "releaseDate": "2016-06-08",
+    "publisher": "Oasis Audio",
+    "description": "\"Space at the Table\" by Brad Harper, Drew Harper is a 5.8-hour Erotica listen. rated 5.0/5 with 19 listener reviews. priced at $21.27 — above a single credit ($3.67/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 1.4/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 5.8,
+    "valueScore": 1.36,
+    "costPerHour": 3.69,
+    "creditWorth": 1.42,
+    "adjustedValueScore": 4.07
+  },
+  {
     "asin": "B01M293BL5",
     "title": "How to Manage Your Home Without Losing Your Mind",
     "author": "Dana K. White",
@@ -179132,6 +182199,32 @@
     "adjustedValueScore": 2.61
   },
   {
+    "asin": "B0B1RQWWBK",
+    "title": "Space: 1969",
+    "author": "Bill Oakley",
+    "narrator": "Natasha Lyonne, full cast",
+    "runtimeMinutes": 335,
+    "price": 18.79,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1144,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/513WQBdTz6L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0B1RQWWBK",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Humorous"
+    ],
+    "releaseDate": "2022-06-30",
+    "publisher": "Audible Originals",
+    "description": "\"Space: 1969\" by Bill Oakley is a 5.6-hour Science Fiction & Fantasy listen. rated 4.5/5 with 1,144 listener reviews. priced at $18.79 — above a single credit ($3.36/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 1.3/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 5.6,
+    "valueScore": 1.34,
+    "costPerHour": 3.37,
+    "creditWorth": 1.26,
+    "adjustedValueScore": 9.44
+  },
+  {
     "asin": "B006LPK3WS",
     "title": "A Wrinkle in Time",
     "author": "Madeleine L'Engle",
@@ -180194,6 +183287,32 @@
     "costPerHour": 3.4,
     "creditWorth": 1.41,
     "adjustedValueScore": 1.45
+  },
+  {
+    "asin": "B0DJWHXRFN",
+    "title": "Julia Child’s Kitchen",
+    "author": "Paula J. Johnson, Jacques Pépin - foreword",
+    "narrator": "Elizabeth Wiley, Jacques Pépin",
+    "runtimeMinutes": 347,
+    "price": 19.77,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51HWvwHkq6L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DJWHXRFN",
+    "categories": [
+      "Biographies & Memoirs",
+      "Professionals & Academics",
+      "Culinary"
+    ],
+    "releaseDate": "2024-10-22",
+    "publisher": "Tantor Media",
+    "description": "\"Julia Child’s Kitchen\" by Paula J. Johnson, Jacques Pépin - foreword is a 5.8-hour Biographies & Memoirs listen. rated 4.5/5 with 3 listener reviews. priced at $19.77 — above a single credit ($3.41/hour), so a credit saves you money. A strong pick for nonfiction listeners who want substance for their credit. Our Value Score of 1.3/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 5.8,
+    "valueScore": 1.32,
+    "costPerHour": 3.42,
+    "creditWorth": 1.32,
+    "adjustedValueScore": 1.83
   },
   {
     "asin": "B0H2BL3MP1",
@@ -182318,6 +185437,32 @@
     "adjustedValueScore": 4.12
   },
   {
+    "asin": "B0FHBWB2MZ",
+    "title": "Modern Homesteading for Sustainable Self-Sufficient Living",
+    "author": "Isabelle Reed",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 279,
+    "price": 18.2,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Rwo8lXyGL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FHBWB2MZ",
+    "categories": [
+      "Home & Garden",
+      "Gardening & Horticulture",
+      "Science & Engineering"
+    ],
+    "releaseDate": "2025-07-11",
+    "publisher": "Pinnacle Publishing",
+    "description": "\"Modern Homesteading for Sustainable Self-Sufficient Living\" by Isabelle Reed is a 4.7-hour Home & Garden listen. rated 5.0/5 with 2 listener reviews. priced at $18.20 — above a single credit ($3.87/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 1.3/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 4.7,
+    "valueScore": 1.28,
+    "costPerHour": 3.91,
+    "creditWorth": 1.22,
+    "adjustedValueScore": 1.41
+  },
+  {
     "asin": "B0C4VK7FFY",
     "title": "Build the Life You Want",
     "author": "Arthur C. Brooks, Oprah Winfrey",
@@ -182833,6 +185978,32 @@
     "costPerHour": 2.75,
     "creditWorth": 1.47,
     "adjustedValueScore": 1.76
+  },
+  {
+    "asin": "B0DYKCGKG1",
+    "title": "Dragon Day",
+    "author": "Bob Proehl",
+    "narrator": "Hayley Atwell, Michael Chiklis, Aldis Hodge, Greta Lee, Jimmi Simpson, Christian Coulson, Laura Kai Chen, Brady Jenness, Zeke Alton, Christiane Seidel, Allison Wick, Sera Heywood-Rakhimova, Al Piper, Anna Dillon, Lydia Kendall Dye",
+    "runtimeMinutes": 389,
+    "price": 22.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1341,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51nGr7t9bPL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0DYKCGKG1",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Fantasy",
+      "Action & Adventure"
+    ],
+    "releaseDate": "2025-03-27",
+    "publisher": "Audible Originals",
+    "description": "\"Dragon Day\" by Bob Proehl is a 6.5-hour Science Fiction & Fantasy listen. rated 4.5/5 with 1,341 listener reviews. priced at $22.99 — above a single credit ($3.54/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 1.3/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 6.5,
+    "valueScore": 1.27,
+    "costPerHour": 3.55,
+    "creditWorth": 1.54,
+    "adjustedValueScore": 9.15
   },
   {
     "asin": "B00ENI4SS0",
@@ -183689,6 +186860,32 @@
     "adjustedValueScore": 4.7
   },
   {
+    "asin": "B0H1F434VK",
+    "title": "Sacred Spaces. Modern Production.",
+    "author": "Toby Walters",
+    "narrator": "Toby Walters",
+    "runtimeMinutes": 268,
+    "price": 17.82,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41tOd8erorL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H1F434VK",
+    "categories": [
+      "Religion & Spirituality",
+      "Christianity",
+      "Christian Living"
+    ],
+    "releaseDate": "2026-05-12",
+    "publisher": "ChurchGear",
+    "description": "\"Sacred Spaces. Modern Production.\" by Toby Walters is a 4.5-hour Religion & Spirituality listen. rated 5.0/5 with 1 listener reviews. priced at $17.82 — above a single credit ($3.96/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 1.3/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 4.5,
+    "valueScore": 1.25,
+    "costPerHour": 3.99,
+    "creditWorth": 1.19,
+    "adjustedValueScore": 0.87
+  },
+  {
     "asin": "B07BB2QD6Y",
     "title": "My Year of Rest and Relaxation",
     "author": "Ottessa Moshfegh",
@@ -184205,6 +187402,32 @@
     "costPerHour": 2.83,
     "creditWorth": 1.37,
     "adjustedValueScore": 2.41
+  },
+  {
+    "asin": "B08W8T7BQ2",
+    "title": "Space Rogues",
+    "author": "John Wilker",
+    "narrator": "KC Johnston",
+    "runtimeMinutes": 353,
+    "price": 21.27,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61yO1cml+yL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B08W8T7BQ2",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Adventure"
+    ],
+    "releaseDate": "2021-02-12",
+    "publisher": "Rogue Publishing ltd.",
+    "description": "\"Space Rogues\" by John Wilker is a 5.9-hour Science Fiction & Fantasy listen. rated 4.5/5 with 2 listener reviews. priced at $21.27 — above a single credit ($3.61/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 1.2/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 5.9,
+    "valueScore": 1.24,
+    "costPerHour": 3.62,
+    "creditWorth": 1.42,
+    "adjustedValueScore": 1.36
   },
   {
     "asin": "B0FP5TP5VK",
@@ -184878,6 +188101,32 @@
     "costPerHour": 3.26,
     "creditWorth": 1.11,
     "adjustedValueScore": 2.56
+  },
+  {
+    "asin": "B09S297SJN",
+    "title": "Blackthorn's Protection Magic",
+    "author": "Amy Blackthorn",
+    "narrator": "Gail Shalan",
+    "runtimeMinutes": 294,
+    "price": 20,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61wTbXW22KL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B09S297SJN",
+    "categories": [
+      "Religion & Spirituality",
+      "Occult",
+      "Magic Studies"
+    ],
+    "releaseDate": "2022-03-01",
+    "publisher": "Red Wheel Weiser",
+    "description": "\"Blackthorn's Protection Magic\" by Amy Blackthorn is a 4.9-hour Religion & Spirituality listen. rated 5.0/5 with 1 listener reviews. priced at $20.00 — above a single credit ($4.08/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 1.2/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 4.9,
+    "valueScore": 1.23,
+    "costPerHour": 4.08,
+    "creditWorth": 1.34,
+    "adjustedValueScore": 0.85
   },
   {
     "asin": "B00X6BUUKA",
@@ -188188,6 +191437,58 @@
     "costPerHour": 3.85,
     "creditWorth": 1.16,
     "adjustedValueScore": 5.41
+  },
+  {
+    "asin": "B0F1ZFYHM6",
+    "title": "The Future of Space Exploration",
+    "author": "Ariel Ekblaw, The Great Courses",
+    "narrator": "Ariel Ekblaw, The Great Courses",
+    "runtimeMinutes": 327,
+    "price": 21.03,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 3,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51COCI0WpsL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F1ZFYHM6",
+    "categories": [
+      "Science & Engineering",
+      "Science",
+      "Astronomy & Space Science"
+    ],
+    "releaseDate": "2025-03-28",
+    "publisher": "The Great Courses",
+    "description": "\"The Future of Space Exploration\" by Ariel Ekblaw, The Great Courses is a 5.5-hour Science & Engineering listen. rated 4.5/5 with 3 listener reviews. priced at $21.03 — above a single credit ($3.82/hour), so a credit saves you money. A strong pick for nonfiction listeners who want substance for their credit. Our Value Score of 1.2/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 5.5,
+    "valueScore": 1.17,
+    "costPerHour": 3.86,
+    "creditWorth": 1.41,
+    "adjustedValueScore": 1.62
+  },
+  {
+    "asin": "B0CPKXJ7ZL",
+    "title": "Blitz",
+    "author": "M. Sinclair",
+    "narrator": "Brooke Daniels, Brandon Utah",
+    "runtimeMinutes": 369,
+    "price": 23.73,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 18,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Cl7EfCVKL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CPKXJ7ZL",
+    "categories": [
+      "Romance",
+      "Fantasy",
+      "Paranormal"
+    ],
+    "releaseDate": "2024-02-06",
+    "publisher": "Podium Audio",
+    "description": "\"Blitz\" by M. Sinclair is a 6.2-hour Romance listen. rated 4.5/5 with 18 listener reviews. priced at $23.73 — above a single credit ($3.83/hour), so a credit saves you money. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 1.2/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 6.2,
+    "valueScore": 1.17,
+    "costPerHour": 3.86,
+    "creditWorth": 1.59,
+    "adjustedValueScore": 3.44
   },
   {
     "asin": "0062346725",
@@ -193080,6 +196381,32 @@
     "adjustedValueScore": 1.5
   },
   {
+    "asin": "B00U1QG5K2",
+    "title": "French Sentence Magic",
+    "author": "Mark Frobose",
+    "narrator": "Mark Frobose",
+    "runtimeMinutes": 315,
+    "price": 21.91,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 5,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51SLI5hrvJL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00U1QG5K2",
+    "categories": [
+      "Education & Learning",
+      "Language Learning",
+      "French"
+    ],
+    "releaseDate": "2015-02-27",
+    "publisher": "Language Audiobooks Inc.",
+    "description": "\"French Sentence Magic\" by Mark Frobose is a 5.3-hour Education & Learning listen. rated 4.5/5 with 5 listener reviews. priced at $21.91 — above a single credit ($4.13/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 1.1/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 5.3,
+    "valueScore": 1.08,
+    "costPerHour": 4.17,
+    "creditWorth": 1.47,
+    "adjustedValueScore": 1.94
+  },
+  {
     "asin": "1508287058",
     "title": "This Is How You Lose The Time War",
     "author": "Amal El-Mohtar, Max Gladstone",
@@ -195017,6 +198344,32 @@
     "costPerHour": 4.79,
     "creditWorth": 1.4,
     "adjustedValueScore": 4.22
+  },
+  {
+    "asin": "B0761W5SZB",
+    "title": "Clutter Free",
+    "author": "Kathi Lipp",
+    "narrator": "Kathi Lipp",
+    "runtimeMinutes": 283,
+    "price": 20.48,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 30,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51yt955uXDL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0761W5SZB",
+    "categories": [
+      "Home & Garden",
+      "House & Home",
+      "Religion & Spirituality"
+    ],
+    "releaseDate": "2017-10-10",
+    "publisher": "Christian Audio",
+    "description": "\"Clutter Free\" by Kathi Lipp is a 4.7-hour Home & Garden listen. rated 4.5/5 with 30 listener reviews. priced at $20.48 — above a single credit ($4.36/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 1.0/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 4.7,
+    "valueScore": 1.04,
+    "costPerHour": 4.34,
+    "creditWorth": 1.37,
+    "adjustedValueScore": 3.57
   },
   {
     "asin": "B0FBS2CPR7",
@@ -198071,6 +201424,32 @@
     "valueScore": 0.97,
     "costPerHour": 3.61,
     "creditWorth": 1.32,
+    "adjustedValueScore": 1.07
+  },
+  {
+    "asin": "B00BPEANK2",
+    "title": "The King of Infinite Space",
+    "author": "David Berlinski",
+    "narrator": "Arthur Morey",
+    "runtimeMinutes": 234,
+    "price": 18.06,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 2,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51hgKuuHd5L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00BPEANK2",
+    "categories": [
+      "Biographies & Memoirs",
+      "Professionals & Academics",
+      "Philosophers"
+    ],
+    "releaseDate": "2013-04-15",
+    "publisher": "Tantor Media",
+    "description": "\"The King of Infinite Space\" by David Berlinski is a 3.9-hour Biographies & Memoirs listen. rated 4.5/5 with 2 listener reviews. priced at $18.06 — above a single credit ($4.63/hour), so a credit saves you money. A strong pick for nonfiction listeners who want substance for their credit. Our Value Score of 1.0/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 3.9,
+    "valueScore": 0.97,
+    "costPerHour": 4.63,
+    "creditWorth": 1.21,
     "adjustedValueScore": 1.07
   },
   {
@@ -202214,6 +205593,32 @@
     "adjustedValueScore": 1.22
   },
   {
+    "asin": "B07X7J8YJ3",
+    "title": "Dragon Planet",
+    "author": "Dan Wells",
+    "narrator": "Emily Woo Zeller, Steve Rimpici, Margaret Ying Drake, full cast",
+    "runtimeMinutes": 225,
+    "price": 19.28,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 375,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51uh6OvizhL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07X7J8YJ3",
+    "categories": [
+      "Children's Audiobooks",
+      "Science Fiction & Fantasy",
+      "Fantasy & Magic"
+    ],
+    "releaseDate": "2019-12-12",
+    "publisher": "Audible Originals",
+    "description": "\"Dragon Planet\" by Dan Wells is a 3.8-hour Children's Audiobooks listen. rated 4.5/5 with 375 listener reviews. priced at $19.28 — above a single credit ($5.07/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 0.9/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 3.8,
+    "valueScore": 0.88,
+    "costPerHour": 5.14,
+    "creditWorth": 1.29,
+    "adjustedValueScore": 5.22
+  },
+  {
     "asin": "B002V8L9MW",
     "title": "The Alienist",
     "author": "Caleb Carr",
@@ -204926,6 +208331,32 @@
     "costPerHour": 5.5,
     "creditWorth": 1.45,
     "adjustedValueScore": 2.27
+  },
+  {
+    "asin": "1400211301",
+    "title": "When Less Becomes More",
+    "author": "Emily Ley",
+    "narrator": "Emily Ley",
+    "runtimeMinutes": 207,
+    "price": 18.99,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 44,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51FU3IRt1RL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/1400211301",
+    "categories": [
+      "Home & Garden",
+      "House & Home",
+      "Relationships, Parenting & Personal Development"
+    ],
+    "releaseDate": "2019-11-12",
+    "publisher": "Thomas Nelson",
+    "description": "\"When Less Becomes More\" by Emily Ley is a 3.5-hour Home & Garden listen. rated 4.5/5 with 44 listener reviews. priced at $18.99 — above a single credit ($5.43/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 0.8/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 3.5,
+    "valueScore": 0.82,
+    "costPerHour": 5.5,
+    "creditWorth": 1.27,
+    "adjustedValueScore": 3.12
   },
   {
     "title": "Kristy and the Walking Disaster",
@@ -209889,6 +213320,32 @@
     "adjustedValueScore": 1.48
   },
   {
+    "asin": "B00GTWY5FY",
+    "title": "How to Train Your Dragon: How to Be a Pirate",
+    "author": "Cressida Cowell",
+    "narrator": "David Tennant",
+    "runtimeMinutes": 174,
+    "price": 20.51,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 66,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51ANoXkG8OL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00GTWY5FY",
+    "categories": [
+      "Children's Audiobooks",
+      "Action & Adventure",
+      "Historical"
+    ],
+    "releaseDate": "2013-12-10",
+    "publisher": "Little, Brown Books for Young Readers",
+    "description": "\"How to Train Your Dragon: How to Be a Pirate\" by Cressida Cowell is a 2.9-hour Children's Audiobooks listen. rated 5.0/5 with 66 listener reviews. priced at $20.51 — above a single credit ($7.07/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 0.7/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 2.9,
+    "valueScore": 0.71,
+    "costPerHour": 7.07,
+    "creditWorth": 1.37,
+    "adjustedValueScore": 2.99
+  },
+  {
     "asin": "B006WRE30S",
     "title": "The Tao of Pooh",
     "author": "Benjamin Hoff",
@@ -211797,6 +215254,32 @@
     "costPerHour": 6.7,
     "creditWorth": 1.42,
     "adjustedValueScore": 1.08
+  },
+  {
+    "asin": "B00HMAGAH8",
+    "title": "How to Train Your Dragon",
+    "author": "Cressida Cowell",
+    "narrator": "David Tennant",
+    "runtimeMinutes": 210,
+    "price": 23.54,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 318,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61B8r-M96+L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B00HMAGAH8",
+    "categories": [
+      "Children's Audiobooks",
+      "Action & Adventure",
+      "Historical"
+    ],
+    "releaseDate": "2014-01-02",
+    "publisher": "Little, Brown Young Readers",
+    "description": "\"How to Train Your Dragon\" by Cressida Cowell is a 3.5-hour Children's Audiobooks listen. rated 4.5/5 with 318 listener reviews. priced at $23.54 — above a single credit ($6.73/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 0.7/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 3.5,
+    "valueScore": 0.67,
+    "costPerHour": 6.73,
+    "creditWorth": 1.57,
+    "adjustedValueScore": 3.86
   },
   {
     "asin": "B09CFWTLVC",
@@ -215945,6 +219428,32 @@
     "adjustedValueScore": 0.63
   },
   {
+    "asin": "B0CDFC62QT",
+    "title": "Hearth, Home, and Havoc",
+    "author": "R.J. Blain",
+    "narrator": "Courtney Holly",
+    "runtimeMinutes": 124,
+    "price": 16.18,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 12,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/6186A4-TdVL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0CDFC62QT",
+    "categories": [
+      "Romance",
+      "Romantic Comedy",
+      "Science Fiction & Fantasy"
+    ],
+    "releaseDate": "2023-08-02",
+    "publisher": "Pen & Page Publishing, R.J. Blain",
+    "description": "\"Hearth, Home, and Havoc\" by R.J. Blain is a 2.1-hour Romance listen. rated 4.5/5 with 12 listener reviews. priced at $16.18 — above a single credit ($7.70/hour), so a credit saves you money. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 0.6/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 2.1,
+    "valueScore": 0.57,
+    "costPerHour": 7.83,
+    "creditWorth": 1.08,
+    "adjustedValueScore": 1.46
+  },
+  {
     "asin": "B083MVZ91Y",
     "title": "Caffeine",
     "author": "Michael Pollan",
@@ -216383,6 +219892,32 @@
     "costPerHour": 8.01,
     "creditWorth": 1.04,
     "adjustedValueScore": 0.78
+  },
+  {
+    "asin": "B0HBRN64QJ",
+    "title": "Guess It in 3! Space Riddles",
+    "author": "Paco Barker",
+    "narrator": "Jon Mills's voice replica",
+    "runtimeMinutes": 121,
+    "price": 18.11,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 49,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51KhJM7N9IL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HBRN64QJ",
+    "categories": [
+      "Children's Audiobooks",
+      "Activities & Hobbies",
+      "Science & Technology"
+    ],
+    "releaseDate": "2026-07-28",
+    "publisher": "Paco Barker Books",
+    "description": "\"Guess It in 3! Space Riddles\" by Paco Barker is a 2.0-hour Children's Audiobooks listen. rated 5.0/5 with 49 listener reviews. priced at $18.11 — above a single credit ($9.05/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 0.6/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 2,
+    "valueScore": 0.56,
+    "costPerHour": 8.98,
+    "creditWorth": 1.21,
+    "adjustedValueScore": 2.19
   },
   {
     "asin": "B002V8KWRK",
@@ -217445,6 +220980,32 @@
     "costPerHour": 8.36,
     "creditWorth": 1.34,
     "adjustedValueScore": 0.59
+  },
+  {
+    "asin": "B0FH7JDHPC",
+    "title": "ADHD Organization & Cleaning Made Simple",
+    "author": "G.K. Victoria",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 168,
+    "price": 23.17,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41XFmF0A7jL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FH7JDHPC",
+    "categories": [
+      "Health & Wellness",
+      "Hygiene & Healthy Living",
+      "Home & Garden"
+    ],
+    "releaseDate": "2025-07-10",
+    "publisher": "Independently Published",
+    "description": "\"ADHD Organization & Cleaning Made Simple\" by G.K. Victoria is a 2.8-hour Health & Wellness listen. rated 4.5/5 with 4 listener reviews. priced at $23.17 — above a single credit ($8.28/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 0.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 2.8,
+    "valueScore": 0.54,
+    "costPerHour": 8.28,
+    "creditWorth": 1.55,
+    "adjustedValueScore": 0.87
   },
   {
     "asin": "B002UZL7XW",
@@ -219080,6 +222641,32 @@
     "adjustedValueScore": 0.55
   },
   {
+    "asin": "B01K5JT13W",
+    "title": "Earthlight",
+    "author": "Arthur C. Clarke",
+    "narrator": "Ralph Lister",
+    "runtimeMinutes": 121,
+    "price": 18.14,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51jg18T3VrL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B01K5JT13W",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "Anthologies & Short Stories"
+    ],
+    "releaseDate": "2016-08-16",
+    "publisher": "Audible Studios",
+    "description": "\"Earthlight\" by Arthur C. Clarke is a 2.0-hour Science Fiction & Fantasy listen. rated 4.5/5 with 1 listener reviews. priced at $18.14 — above a single credit ($9.07/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 0.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 2,
+    "valueScore": 0.5,
+    "costPerHour": 9,
+    "creditWorth": 1.21,
+    "adjustedValueScore": 0.35
+  },
+  {
     "asin": "B08Z4F7PFJ",
     "title": "How It Ends",
     "author": "Rachel Howzell Hall",
@@ -220184,6 +223771,31 @@
     "costPerHour": 9.62,
     "creditWorth": 1.13,
     "adjustedValueScore": 1.27
+  },
+  {
+    "asin": "B0HFL755HS",
+    "title": "Inexplicable Magic",
+    "author": "Susan Piver",
+    "narrator": "Susan Piver",
+    "runtimeMinutes": 120,
+    "price": 21.18,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/31viKimW9gL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HFL755HS",
+    "categories": [
+      "Religion & Spirituality",
+      "Buddhism"
+    ],
+    "releaseDate": "2026-08-18",
+    "publisher": "Lionheart Press",
+    "description": "\"Inexplicable Magic\" by Susan Piver is a 2.0-hour Religion & Spirituality listen. rated 5.0/5 with 1 listener reviews. priced at $21.18 — above a single credit ($10.59/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 0.5/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 2,
+    "valueScore": 0.47,
+    "costPerHour": 10.59,
+    "creditWorth": 1.42,
+    "adjustedValueScore": 0.33
   },
   {
     "title": "He Put Her in First Class I Flew Private With His Boss",
@@ -223836,6 +227448,32 @@
     "adjustedValueScore": 0.26
   },
   {
+    "asin": "B0FPRHLS9T",
+    "title": "Space Vampire",
+    "author": "Ruby Dixon",
+    "narrator": "Beth Roeg, Ryan West",
+    "runtimeMinutes": 110,
+    "price": 19.46,
+    "currency": "USD",
+    "starRating": 4,
+    "reviewCount": 94,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/41SQlyTNxHL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0FPRHLS9T",
+    "categories": [
+      "Romance",
+      "Contemporary",
+      "Paranormal"
+    ],
+    "releaseDate": "2025-09-23",
+    "publisher": "Amazon Original Stories",
+    "description": "\"Space Vampire\" by Ruby Dixon is a 1.8-hour Romance listen. rated 4.0/5 with 94 listener reviews. priced at $19.46 — above a single credit ($10.81/hour), so a credit saves you money. Romance listeners who enjoy character-driven stories will feel at home. Our Value Score of 0.4/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 1.8,
+    "valueScore": 0.38,
+    "costPerHour": 10.61,
+    "creditWorth": 1.3,
+    "adjustedValueScore": 1.73
+  },
+  {
     "asin": "B07F77R461",
     "title": "Who Moved My Cheese?",
     "author": "Spencer Johnson, Kenneth Blanchard - introduction",
@@ -224296,6 +227934,32 @@
     "costPerHour": 13.74,
     "creditWorth": 1.41,
     "adjustedValueScore": 0.25
+  },
+  {
+    "asin": "B0HFXLWRP6",
+    "title": "Awake the Dragon Within",
+    "author": "Reginald W. Zephyrin",
+    "narrator": "Reginald W. Zephyrin",
+    "runtimeMinutes": 91,
+    "price": 21.06,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 4,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51gTKRzggHL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HFXLWRP6",
+    "categories": [
+      "Politics & Social Sciences",
+      "Philosophy",
+      "Eastern"
+    ],
+    "releaseDate": "2026-08-21",
+    "publisher": "Reginald W. Zephyrin",
+    "description": "\"Awake the Dragon Within\" by Reginald W. Zephyrin is a 1.5-hour Politics & Social Sciences listen. rated 5.0/5 with 4 listener reviews. priced at $21.06 — above a single credit ($14.04/hour), so a credit saves you money. A strong pick for nonfiction listeners who want substance for their credit. Our Value Score of 0.4/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 1.5,
+    "valueScore": 0.36,
+    "costPerHour": 13.89,
+    "creditWorth": 1.41,
+    "adjustedValueScore": 0.58
   },
   {
     "asin": "B092R5GGQN",
@@ -227092,6 +230756,32 @@
     "adjustedValueScore": 0.31
   },
   {
+    "asin": "B077Z8S58Y",
+    "title": "Exactly What to Say",
+    "author": "Phil M. Jones",
+    "narrator": "Phil M. Jones",
+    "runtimeMinutes": 74,
+    "price": 20.17,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1157,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51R6B8Gj6GL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B077Z8S58Y",
+    "categories": [
+      "Business & Careers",
+      "Management & Leadership",
+      "Negotiating"
+    ],
+    "releaseDate": "2017-12-01",
+    "publisher": "Lantern Audio",
+    "description": "\"Exactly What to Say\" by Phil M. Jones is a 1.2-hour Business & Careers listen. rated 4.5/5 with 1,157 listener reviews. priced at $20.17 — above a single credit ($16.81/hour), so a credit saves you money. A strong pick for nonfiction listeners who want substance for their credit. Our Value Score of 0.3/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 1.2,
+    "valueScore": 0.28,
+    "costPerHour": 16.35,
+    "creditWorth": 1.35,
+    "adjustedValueScore": 1.98
+  },
+  {
     "asin": "B002V5CUIC",
     "title": "Deep Sleep Every Night",
     "author": "Glenn Harrold",
@@ -228286,6 +231976,32 @@
     "adjustedValueScore": 0.99
   },
   {
+    "asin": "B077JD1M1L",
+    "title": "Veil of Darkness",
+    "author": "Nick Kyme",
+    "narrator": "Gareth Armstrong, Tim Bentinck, Chris Fairbank, Luke Thompson",
+    "runtimeMinutes": 69,
+    "price": 20.53,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 6,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Gk525dAFL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B077JD1M1L",
+    "categories": [
+      "Science Fiction & Fantasy",
+      "Science Fiction",
+      "la_confidential"
+    ],
+    "releaseDate": "2017-11-17",
+    "publisher": "Black Library",
+    "description": "\"Veil of Darkness\" by Nick Kyme is a 1.2-hour Science Fiction & Fantasy listen. rated 4.5/5 with 6 listener reviews. priced at $20.53 — above a single credit ($17.11/hour), so a credit saves you money. A natural fit for sci-fi and fantasy fans who want maximum immersion per credit. Our Value Score of 0.3/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 1.2,
+    "valueScore": 0.25,
+    "costPerHour": 17.85,
+    "creditWorth": 1.37,
+    "adjustedValueScore": 0.49
+  },
+  {
     "title": "The Future of Leadership Begins at Home — with Soraiya Bodhi & Nishma Karim",
     "author": "Bill Bryson",
     "narrator": "",
@@ -228647,6 +232363,58 @@
     "costPerHour": 18.78,
     "creditWorth": 1.24,
     "adjustedValueScore": 0.5
+  },
+  {
+    "asin": "B0F3B3T4XQ",
+    "title": "Clear Your Clutter & Change Your Life",
+    "author": "Aoife Gaffney",
+    "narrator": "Virtual Voice",
+    "runtimeMinutes": 61,
+    "price": 14.79,
+    "currency": "USD",
+    "starRating": 3.5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51L4hswq3lL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0F3B3T4XQ",
+    "categories": [
+      "Home & Garden",
+      "House & Home",
+      "Relationships, Parenting & Personal Development"
+    ],
+    "releaseDate": "2025-04-01",
+    "publisher": "Prudence Moneypenny Publishing",
+    "description": "\"Clear Your Clutter & Change Your Life\" by Aoife Gaffney is a 1.0-hour Home & Garden listen. rated 3.5/5 with 1 listener reviews. priced at $14.79 ($14.79/hour) — cheaper than spending a credit. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 0.2/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 1,
+    "valueScore": 0.24,
+    "costPerHour": 14.55,
+    "creditWorth": 0.99,
+    "adjustedValueScore": 0.17
+  },
+  {
+    "asin": "B002V0QN3A",
+    "title": "The Ice Dragon",
+    "author": "George R. R. Martin",
+    "narrator": "Maggi-Meg Reed",
+    "runtimeMinutes": 47,
+    "price": 14.69,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 116,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/61q7IwUscgL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V0QN3A",
+    "categories": [
+      "Children's Audiobooks",
+      "Science Fiction & Fantasy",
+      "Fantasy & Magic"
+    ],
+    "releaseDate": "2006-10-10",
+    "publisher": "Macmillan Audio",
+    "description": "\"The Ice Dragon\" by George R. R. Martin is a 0.8-hour Children's Audiobooks listen. rated 4.5/5 with 116 listener reviews. priced at $14.69 ($18.36/hour) — cheaper than spending a credit. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 0.2/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 0.8,
+    "valueScore": 0.24,
+    "costPerHour": 18.75,
+    "creditWorth": 0.98,
+    "adjustedValueScore": 1.14
   },
   {
     "asin": "B00URXOQ1E",
@@ -230590,6 +234358,32 @@
     "adjustedValueScore": 0.13
   },
   {
+    "asin": "B002V080R2",
+    "title": "The Reluctant Dragon",
+    "author": "Kenneth Grahame",
+    "narrator": "Anton Lesser",
+    "runtimeMinutes": 53,
+    "price": 20.72,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 154,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51N-mTSGZML._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B002V080R2",
+    "categories": [
+      "Children's Audiobooks",
+      "Fairy Tales, Folk Tales & Myths",
+      "Growing Up & Facts of Life"
+    ],
+    "releaseDate": "2007-05-15",
+    "publisher": "Audible Studios",
+    "description": "\"The Reluctant Dragon\" by Kenneth Grahame is a 0.9-hour Children's Audiobooks listen. rated 4.5/5 with 154 listener reviews. priced at $20.72 — above a single credit ($23.02/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 0.2/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 0.9,
+    "valueScore": 0.19,
+    "costPerHour": 23.46,
+    "creditWorth": 1.39,
+    "adjustedValueScore": 0.96
+  },
+  {
     "asin": "B07B1GBSSW",
     "title": "Consulting Business Startup Success: Capitalize on the New Trends & Niches of Today’s Consulting Business - Million Dollar Startup Solution",
     "author": "Robert R. Sullivan",
@@ -231317,6 +235111,32 @@
     "adjustedValueScore": 0.12
   },
   {
+    "asin": "B0HGG7JVHH",
+    "title": "The Library of Lost Laughs",
+    "author": "John Miller",
+    "narrator": "John Eckerle",
+    "runtimeMinutes": 39,
+    "price": 19.09,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51CDhai7ICL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0HGG7JVHH",
+    "categories": [
+      "Children's Audiobooks",
+      "Science Fiction & Fantasy",
+      "Fantasy & Magic"
+    ],
+    "releaseDate": "2026-08-25",
+    "publisher": "John C. Miller",
+    "description": "\"The Library of Lost Laughs\" by John Miller is a 0.7-hour Children's Audiobooks listen. rated 5.0/5 with 1 listener reviews. priced at $19.09 — above a single credit ($27.27/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 0.2/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 0.7,
+    "valueScore": 0.17,
+    "costPerHour": 29.37,
+    "creditWorth": 1.28,
+    "adjustedValueScore": 0.12
+  },
+  {
     "asin": "B0CYDH8N66",
     "title": "Cuckold Cleanup Chronicles - Housing Swap",
     "author": "Raven Merlot",
@@ -231677,6 +235497,32 @@
     "valueScore": 0.16,
     "costPerHour": 15.91,
     "creditWorth": 1.56,
+    "adjustedValueScore": 0.11
+  },
+  {
+    "asin": "B007KBKL56",
+    "title": "Beyond the Thinking Mind",
+    "author": "Eckhart Tolle",
+    "narrator": "Eckhart Tolle",
+    "runtimeMinutes": 36,
+    "price": 16.38,
+    "currency": "USD",
+    "starRating": 4.5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51pzJlLrrkL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B007KBKL56",
+    "categories": [
+      "Business & Careers",
+      "Career Success",
+      "Motivation & Self-Improvement"
+    ],
+    "releaseDate": "2012-03-15",
+    "publisher": "Macmillan Audio From Sounds True",
+    "description": "\"Beyond the Thinking Mind\" by Eckhart Tolle is a 0.6-hour Business & Careers listen. rated 4.5/5 with 1 listener reviews. priced at $16.38 — above a single credit ($27.30/hour), so a credit saves you money. A strong pick for nonfiction listeners who want substance for their credit. Our Value Score of 0.2/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 0.6,
+    "valueScore": 0.16,
+    "costPerHour": 27.3,
+    "creditWorth": 1.1,
     "adjustedValueScore": 0.11
   },
   {
@@ -233182,6 +237028,32 @@
     "costPerHour": 42.05,
     "creditWorth": 1.13,
     "adjustedValueScore": 0.18
+  },
+  {
+    "asin": "B07W862JB7",
+    "title": "The Magic Door Under Your Bed",
+    "author": "Amba Brown",
+    "narrator": "Amba Brown",
+    "runtimeMinutes": 22,
+    "price": 16.83,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 12,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51Lr5nKBw5L._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B07W862JB7",
+    "categories": [
+      "Children's Audiobooks",
+      "Literature & Fiction",
+      "Bedtime & Dreaming"
+    ],
+    "releaseDate": "2019-08-13",
+    "publisher": "Marla Publishing",
+    "description": "\"The Magic Door Under Your Bed\" by Amba Brown is a 0.4-hour Children's Audiobooks listen. rated 5.0/5 with 12 listener reviews. priced at $16.83 — above a single credit ($42.07/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 0.1/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 0.4,
+    "valueScore": 0.11,
+    "costPerHour": 45.9,
+    "creditWorth": 1.13,
+    "adjustedValueScore": 0.28
   },
   {
     "asin": "B0HDN2FPJ2",
@@ -238624,6 +242496,32 @@
     "valueScore": 0.02,
     "costPerHour": 257.4,
     "creditWorth": 1.43
+  },
+  {
+    "asin": "B0H6QVVMHZ",
+    "title": "Raya and the Last Dragon: Training Tuk Tuk",
+    "author": "Disney Books",
+    "narrator": "Samantha Tan, Buena Vista Books",
+    "runtimeMinutes": 6,
+    "price": 22.07,
+    "currency": "USD",
+    "starRating": 5,
+    "reviewCount": 1,
+    "coverImageUrl": "https://m.media-amazon.com/images/I/51IGU-qnVOL._SL500_.jpg",
+    "detailPageUrl": "https://www.amazon.com/dp/B0H6QVVMHZ",
+    "categories": [
+      "Children's Audiobooks",
+      "Growing Up & Facts of Life",
+      "Social & Life Skills"
+    ],
+    "releaseDate": "2026-08-20",
+    "publisher": "Disney Press",
+    "description": "\"Raya and the Last Dragon: Training Tuk Tuk\" by Disney Books is a 0.1-hour Children's Audiobooks listen. rated 5.0/5 with 1 listener reviews. priced at $22.07 — above a single credit ($220.70/hour), so a credit saves you money. A quick, focused listen — good for squeezing value from a spare credit. Our Value Score of 0.0/10 weighs all of this for you. See the full credit-value breakdown on getcreditworth.com before you decide.",
+    "runtimeHours": 0.1,
+    "valueScore": 0.02,
+    "costPerHour": 220.7,
+    "creditWorth": 1.48,
+    "adjustedValueScore": 0.01
   },
   {
     "asin": "B0HB7BPWRK",
