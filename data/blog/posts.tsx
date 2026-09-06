@@ -8136,6 +8136,218 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+
+  'best-biography-audiobooks': {
+    slug: 'best-biography-audiobooks',
+    title: 'Best Biography Audiobooks Worth an Audible Credit',
+    description:
+      'A practical shortlist of the best biography audiobooks to spend an Audible credit on in 2026: long runtimes, strong narration, and the political and presidential titles that give one credit the most listening hours.',
+    keywords: [
+      'best biography audiobooks',
+      'best political biographies audiobooks',
+      'presidential audiobooks',
+      'best memoir audiobooks audible',
+      'long biography audiobooks',
+      'audible credit biography',
+    ],
+    date: '2026-09-06',
+    readTime: '9 min read',
+    category: 'Biography',
+    faq: [
+      {
+        question: 'Which biography audiobooks are best for an Audible credit?',
+        answer: 'Look for titles that run 18+ hours and are read by a strong narrator, not a flat voice. Political memoirs and presidential biographies tend to be the longest, so a single credit buys more hours than it would on a short novel.',
+      },
+      {
+        question: 'Are political biographies worth a credit?',
+        answer: 'Often, yes. The best political biographies audiobooks run 20 to 35 hours and retail near $35, so the cost per listening hour lands well under a dollar. Pick the ones with a narrator you already like.',
+      },
+      {
+        question: 'Do presidential audiobooks hold up over a long runtime?',
+        answer: 'The strong ones do. A well-paced presidential audiobook with archival detail and a seasoned narrator can carry 30 hours easily. The weak ones drag, so check the Value Score and sample the first chapter before spending.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          Spending a credit on the best biography audiobooks is one of the safest moves on
+          Audible. A memoir or a political life story often runs 15 to 30 hours, which means one
+          $14.95 credit can buy you weeks of commute listening. The trick is choosing titles that
+          are both long and well narrated, though a flat reading of a great life still wastes the
+          credit. This guide covers the political biographies worth a credit, the presidential
+          audiobooks that hold up, and a few memoirs that quietly overdeliver.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Why biographies stretch a credit further
+        </h2>
+        <p>
+          A credit is fixed price, so length is your friend. A 4-hour thriller and a 28-hour
+          biography cost the same credit, but the biography gives you seven times the listening.
+          Biographies also age well: you can pause one for a month and pick it back up without
+          losing the plot, which suits listeners who read in bursts.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Best political biographies audiobooks
+        </h2>
+        <p>
+          Political memoirs are where the runtime really piles up. Long-serving figures write
+          doorstoppers, and the audiobook versions are usually read with real energy. If you want
+          the most hours per credit, start with the heavy memoirs from former officials and
+          negotiators, since they tend to clear 25 hours and retail above $30, a strong value
+          trade.
+        </p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Favor narrators who performed the book on stage or in interviews; the rhythm shows.</li>
+          <li>Pick the unabridged version. Abridged political biographies cut exactly the parts that make them long.</li>
+          <li>Sample chapter one. If the narrator reads like they are billing hours, move on.</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Presidential audiobooks that earn the credit
+        </h2>
+        <p>
+          Presidential biographies are a sub-genre of their own. The best ones weave policy with
+          the personal life, which keeps a 30-hour book moving. They also pair well with road trips;
+          a single president can fill a long drive and then some. Check the narrator credit before
+          you commit, because a miscast voice on a 30-hour book is a real cost.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          A few memoirs that overdeliver
+        </h2>
+        <p>
+          Not every great listen is a politician. Musicians, athletes, and scientists write memoirs
+          that run long and read personal. These are the ones people finish and immediately
+          recommend, which is the real test of a credit well spent.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Quick comparison
+        </h2>
+        <table className="w-full text-sm border-collapse my-4">
+          <thead>
+            <tr className="border-b border-border">
+              <th className="text-left py-2 pr-4">Type</th>
+              <th className="text-left py-2 pr-4">Typical hours</th>
+              <th className="text-left py-2 pr-4">Credit value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="border-b border-border"><td className="py-2 pr-4">Political memoir</td><td className="py-2 pr-4">22–35</td><td className="py-2 pr-4">Excellent</td></tr>
+            <tr className="border-b border-border"><td className="py-2 pr-4">Presidential biography</td><td className="py-2 pr-4">25–32</td><td className="py-2 pr-4">Excellent</td></tr>
+            <tr className="border-b border-border"><td className="py-2 pr-4">Artist memoir</td><td className="py-2 pr-4">10–18</td><td className="py-2 pr-4">Good</td></tr>
+            <tr className="border-b border-border"><td className="py-2 pr-4">Short celebrity bio</td><td className="py-2 pr-4">5–9</td><td className="py-2 pr-4">Weak</td></tr>
+          </tbody>
+        </table>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          How to spot a good one before spending
+        </h2>
+        <p>
+          Two checks save most regrets. First, confirm the runtime is long enough that the credit
+          beats a cash buy. Second, listen to the sample. Narration makes or breaks a 30-hour
+          commitment, and no Value Score catches a sleepy voice.
+        </p>
+
+        <p className="mt-6">
+          Browse our <a href="/category/biography" className="text-primary underline">Biography category</a> to see live Value Scores, run a title through the <a href="/calculator" className="text-primary underline">Credit Calculator</a> before you redeem, and read our <a href="/blog/how-to-use-audible-credits" className="text-primary underline">credit guide</a> for the full strategy. It all starts at <a href="/" className="text-brand hover:underline">getcreditworth.com</a>.
+        </p>
+      </>
+    ),
+  },
+
+  'best-biography-audiobooks-zh': {
+    slug: 'best-biography-audiobooks-zh',
+    title: '2026 年最值得用 Audible 信用点兑换的传记有声书',
+    description:
+      '一份实用的传记有声书清单：哪些长篇、旁白扎实的传记最值得用一个 Audible 信用点兑换，重点看政治传记与总统传记能带来的收听时长。',
+    keywords: [
+      '最值得听的传记有声书',
+      '最佳政治传记有声书',
+      '总统传记有声书',
+      'Audible 信用点 传记',
+      '长篇传记有声书',
+      '信用点 传记 推荐',
+    ],
+    date: '2026-09-06',
+    readTime: '9 分钟阅读',
+    category: '传记',
+    faq: [
+      {
+        question: '哪类传记有声书最值得用一个 Audible 信用点？',
+        answer: '挑那些超过 18 小时、且由好旁白（而不是平淡念稿）读出来的书。政治回忆录和总统传记往往最长，所以一个信用点换来的小时数，比短篇小说的多得多。',
+      },
+      {
+        question: '政治传记值得花信用点吗？',
+        answer: '常常值得。最好的政治传记有声书有 20 到 35 小时，零售价靠近 35 美元，算下来每小时成本远低于一美元。挑你本来就喜欢的旁白即可。',
+      },
+      {
+        question: '总统传记在长时长下还站得住吗？',
+        answer: '站得住的确实可以。节奏稳、带史料细节、旁白老练的总统传记，轻松撑过 30 小时。弱的会拖，所以先看 Value Score、再听第一章样音再下叉。',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          把信用点花在最好的传记有声书上，是 Audible 里最稳的一步。一本回忆录或政治人物传记常常有 15 到 30 小时，也就是说一个 14.95 美元的信用点能换来好几周的通勤收听。关键在挑“又长又讲得好”的书，一个伟大的生命被读得平淡，照样浪费信用点。这篇指南覆盖值得花信用点的政治传记、站得住的总统传记，以及几本意外好听的回忆录。
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">为什么传记更“值”一个信用点</h2>
+        <p>
+          信用点是固定价格，所以长度就是你的朋友。一本 4 小时的悬疑和一本 28 小时的传记花同一个信用点，但传记给你的收听时长是它的七倍。传记还耐放：你停一个月再捡起来也不会丢剧情，适合“断断续续听”的人。
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">最值得听的政治传记有声书</h2>
+        <p>
+          政治回忆录是时长真正堆起来的地方。在位久的人物写的书像砖头，有声版通常也读得有劲。想让一个信用点换最多小时，就从卸任官员和谈判者的厚回忆录入手，因为它们常常超过 25 小时，零售价贴着 35 美元，换算下来非常划算。
+        </p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>优先选那些本人上过台、做过采访的旁白，节奏感会不一样。</li>
+          <li>选完整版。删节版政治传记恰恰砍掉了让它变长的内容。</li>
+          <li>听第一章样音。如果旁白像在按小时计费，换一本。</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">站得住的总统传记有声书</h2>
+        <p>
+          总统传记是自成一格的子类。最好的几本把政策和个人生活织在一起，让 30 小时的书也不拖。它们还很配长途驾驶，一位总统就能填满一整段长途，还有余。下叉前看一眼旁白署名：30 小时的书配错声音，代价是真金白银。
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">几本意外好听的回忆录</h2>
+        <p>
+          值得听的未必都是政客。音乐人、运动员、科学家的回忆录往往很长、也很私人。这类书人们听完会立刻推荐给别人，而“被主动推荐”才是一个信用点花得值的真正检验。
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">快速对比</h2>
+        <table className="w-full text-sm border-collapse my-4">
+          <thead>
+            <tr className="border-b border-border">
+              <th className="text-left py-2 pr-4">类型</th>
+              <th className="text-left py-2 pr-4">常见时长</th>
+              <th className="text-left py-2 pr-4">信用点价值</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="border-b border-border"><td className="py-2 pr-4">政治回忆录</td><td className="py-2 pr-4">22–35 小时</td><td className="py-2 pr-4">极佳</td></tr>
+            <tr className="border-b border-border"><td className="py-2 pr-4">总统传记</td><td className="py-2 pr-4">25–32 小时</td><td className="py-2 pr-4">极佳</td></tr>
+            <tr className="border-b border-border"><td className="py-2 pr-4">艺人回忆录</td><td className="py-2 pr-4">10–18 小时</td><td className="py-2 pr-4">不错</td></tr>
+            <tr className="border-b border-border"><td className="py-2 pr-4">短时名人传记</td><td className="py-2 pr-4">5–9 小时</td><td className="py-2 pr-4">偏弱</td></tr>
+          </tbody>
+        </table>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">下叉前怎么判断一本值不值</h2>
+        <p>
+          两个检查能挡掉大部分后悔。第一，确认时长足够长，让信用点比直接买现金更划算。第二，听样音。旁白决定了一本 30 小时书的成败，而任何 Value Score 都抓不出一个犯困的声音。
+        </p>
+
+        <p className="mt-6">
+          到我们的 <a href="/category/biography" className="text-primary underline">传记分类页</a> 看实时 Value Score，兑换前用 <a href="/calculator" className="text-primary underline">信用点计算器</a> 算一本，再读我们的 <a href="/blog/how-to-use-audible-credits" className="text-primary underline">信用点使用教程</a> 看完整策略。一切从 <a href="/" className="text-brand hover:underline">getcreditworth.com</a> 开始。
+        </p>
+      </>
+    ),
+  },
+
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
