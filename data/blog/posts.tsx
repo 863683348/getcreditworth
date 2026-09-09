@@ -1001,14 +1001,22 @@ const POSTS: Record<string, BlogPostData> = {
           <Link href="/blog/audible-return-refund-policy" className="text-primary underline">return &amp; refund guide</Link>{" "}
           covers what happens then.
         </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Related Guides</h2>
+        <ul className="space-y-2">
+          <li><Link href="/blog/audible-plus-catalog-vs-credits" className="text-primary hover:underline">Audible Plus Catalog vs Credits</Link> — when to spend a credit</li>
+          <li><Link href="/blog/audible-return-refund-policy" className="text-primary hover:underline">Audible Return and Refund Policy</Link> — get your credit back</li>
+          <li><Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">Credit Expiration Policy</Link> — avoid wasting credits</li>
+          <li><Link href="/blog/how-to-cancel-audible-subscription" className="text-primary hover:underline">How to Cancel Audible</Link> — pause vs cancel</li>
+          <li><Link href="/calculator" className="text-primary hover:underline">Credit Value Calculator</Link> — run your numbers</li>
+        </ul>
       </>
     ),
   },
   'audible-plus-catalog-vs-credits': {
     slug: 'audible-plus-catalog-vs-credits',
-    title: 'Audible Plus Catalog vs Credits: What to Use When',
+    title: 'Audible Plus Catalog vs Credits 2026: When to Spend a Credit (Max Value)',
     description:
-      'When to use the Plus Catalog vs spend credits. Maximize your membership value with this guide.',
+      'Not sure when to use the Audible Plus Catalog vs spend a credit? This 2026 guide shows exactly when a credit beats the Catalog and when streaming free saves money. Plus Catalog vs Premium Plus explained.',
     keywords: ['audible plus catalog vs credits', 'audible plus vs premium plus', 'what is audible plus catalog'],
     date: '2026-07-25',
     readTime: '9 min read',
@@ -1108,6 +1116,14 @@ const POSTS: Record<string, BlogPostData> = {
           or run your own numbers with the{" "}
           <Link href="/calculator" className="text-primary underline">credit calculator</Link>.
         </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Related Guides</h2>
+        <ul className="space-y-2">
+          <li><Link href="/blog/gift-audiobooks-guide" className="text-primary hover:underline">How to Gift Audible Audiobooks</Link> — books, credits, or membership</li>
+          <li><Link href="/blog/audible-return-refund-policy" className="text-primary hover:underline">Audible Return and Refund Policy</Link> — get your credit back</li>
+          <li><Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">Credit Expiration Policy</Link> — avoid wasting credits</li>
+          <li><Link href="/blog/how-to-cancel-audible-subscription" className="text-primary hover:underline">How to Cancel Audible</Link> — pause vs cancel</li>
+          <li><Link href="/calculator" className="text-primary hover:underline">Credit Value Calculator</Link> — run your numbers</li>
+        </ul>
       </>
     ),
   },
@@ -2069,6 +2085,14 @@ const POSTS: Record<string, BlogPostData> = {
           If you would rather pass a title on than return it, see our{" "}
           <Link href="/blog/audible-gift-audiobooks-guide" className="text-primary underline">guide to gifting audiobooks</Link>.
         </p>
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Related Guides</h2>
+        <ul className="space-y-2">
+          <li><Link href="/blog/gift-audiobooks-guide" className="text-primary hover:underline">How to Gift Audible Audiobooks</Link> — books, credits, or membership</li>
+          <li><Link href="/blog/audible-plus-catalog-vs-credits" className="text-primary hover:underline">Audible Plus Catalog vs Credits</Link> — when to spend a credit</li>
+          <li><Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">Credit Expiration Policy</Link> — avoid wasting credits</li>
+          <li><Link href="/blog/how-to-cancel-audible-subscription" className="text-primary hover:underline">How to Cancel Audible</Link> — pause vs cancel</li>
+          <li><Link href="/calculator" className="text-primary hover:underline">Credit Value Calculator</Link> — run your numbers</li>
+        </ul>
         </>
 
 
@@ -8343,6 +8367,186 @@ const POSTS: Record<string, BlogPostData> = {
 
         <p className="mt-6">
           到我们的 <a href="/category/biography" className="text-primary underline">传记分类页</a> 看实时 Value Score，兑换前用 <a href="/calculator" className="text-primary underline">信用点计算器</a> 算一本，再读我们的 <a href="/blog/how-to-use-audible-credits" className="text-primary underline">信用点使用教程</a> 看完整策略。一切从 <a href="/" className="text-brand hover:underline">getcreditworth.com</a> 开始。
+        </p>
+      </>
+    ),
+  },
+
+  'best-horror-audiobooks': {
+    slug: 'best-horror-audiobooks',
+    title: 'Best Horror Audiobooks That Are Actually Scary',
+    description:
+      'A curated list of horror audiobooks that deliver genuine dread in 2026: long runtimes, skilled narrators, and the psychological and supernatural titles that justify an Audible credit.',
+    keywords: [
+      'best horror audiobooks',
+      'scariest audiobooks 2026',
+      'gothic horror audiobooks',
+      'horror audiobook narrators',
+      'audible horror books',
+      'scaryst audiobook recommendations',
+    ],
+    date: '2026-09-08',
+    readTime: '8 min read',
+    category: 'Horror',
+    faq: [
+      {
+        question: 'What makes a horror audiobook scarier than the print version?',
+        answer: 'A strong narrator controls pacing, whispers, and silence in ways print cannot. Sound design in some Audible originals adds atmosphere, but even a single voice can make a room feel smaller and the story feel closer.',
+      },
+      {
+        question: 'Are gothic horror audiobooks worth a credit?',
+        answer: 'Often yes, because gothic titles tend to be long and immersive. A well-narrated gothic novel can run 20 to 30 hours, which gives you more listening time per credit than a short thriller.',
+      },
+      {
+        question: 'How do I know if a horror audiobook is too much for me?',
+        answer: 'Listen to the sample first. Horror narration can be intense, and some narrators lean into gore while others build slow dread. The sample tells you which approach the book uses before you spend a credit.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          Horror audiobooks are a risky credit. A flat narrator can turn a 30-hour psychological thriller into background noise, while a great voice can make a familiar ghost story feel like it is living in your hallway. This guide covers the horror audiobooks that actually scare, the gothic titles that earn a credit, and the narrators who make the difference between a good listen and a sleepless night.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Why horror works better on audio
+        </h2>
+        <p>
+          Horror is an intimate genre. Reading about a threat keeps you at a safe distance; hearing a narrator breathe the words pulls you inside the scene. The best horror audiobooks use silence as carefully as sound, and a skilled voice can make ordinary spaces feel dangerous. That is why a credit spent on a well-narrated horror book often feels more valuable than one spent on a loud action novel.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Best gothic horror audiobooks
+        </h2>
+        <p>
+          Gothic horror is where audiobooks truly shine. These books are long, atmospheric, and built around mood rather than plot twists. A strong narrator can sustain dread across 25 or 30 hours, which is exactly the kind of runtime that makes a credit feel generous.
+        </p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Pick unabridged editions. Gothic horror loses its rhythm in abridged versions.</li>
+          <li>Check the narrator credits. A gothic novel lives or dies on voice texture and pacing.</li>
+          <li>Prefer titles with sustained atmosphere over shock moments, which age poorly on audio.</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Psychological horror that earns the credit
+        </h2>
+        <p>
+          Psychological horror does not need monsters. It needs a narrator who can make paranoia feel contagious. The best titles in this category run long enough to trap you in the protagonist headspace, which is exactly where a credit goes furthest.
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          Quick comparison
+        </h2>
+        <table className="w-full text-sm border-collapse my-4">
+          <thead>
+            <tr className="border-b border-border">
+              <th className="text-left py-2 pr-4">Subgenre</th>
+              <th className="text-left py-2 pr-4">Typical hours</th>
+              <th className="text-left py-2 pr-4">Credit value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="border-b border-border"><td className="py-2 pr-4">Gothic horror</td><td className="py-2 pr-4">20–32</td><td className="py-2 pr-4">Excellent</td></tr>
+            <tr className="border-b border-border"><td className="py-2 pr-4">Psychological horror</td><td className="py-2 pr-4">12–24</td><td className="py-2 pr-4">Good</td></tr>
+            <tr className="border-b border-border"><td className="py-2 pr-4">Short horror anthology</td><td className="py-2 pr-4">4–8</td><td className="py-2 pr-4">Weak</td></tr>
+            <tr className="border-b border-border"><td className="py-2 pr-4">Modern supernatural</td><td className="py-2 pr-4">15–25</td><td className="py-2 pr-4">Good</td></tr>
+          </tbody>
+        </table>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">
+          How to avoid a wasteful credit
+        </h2>
+        <p>
+          Two habits prevent most horror credit mistakes. First, always listen to the sample before committing. Horror narration varies wildly, and a sample reveals pacing, intensity, and whether the voice matches the tone you want. Second, prefer long titles. Horror is immersive, and a 20-hour book gives you a credit value that a 5-hour novella cannot match.
+        </p>
+
+        <p className="mt-6">
+          Check live ratings and runtime on our <a href="/category/horror" className="text-primary underline">Horror category</a> page, compare titles with the <a href="/calculator" className="text-primary underline">Credit Calculator</a>, and read our <a href="/blog/how-to-sample-audible-books" className="text-primary underline">Audible sample guide</a> before redeeming. Start at <a href="/" className="text-brand hover:underline">getcreditworth.com</a>.
+        </p>
+      </>
+    ),
+  },
+
+  'best-horror-audiobooks-zh': {
+    slug: 'best-horror-audiobooks-zh',
+    title: '2026 年真正吓人值得用 Audible 信用点兑换的恐怖有声书',
+    description:
+      '一份精选恐怖有声书清单：哪些哥特恐怖、心理惊悚和超自然有声书真正值得用一个 Audible 信用点兑换，重点看旁白质量与收听时长。',
+    keywords: [
+      '最值得听的恐怖有声书',
+      '最佳哥特恐怖有声书',
+      'Audible 恐怖书推荐',
+      '恐怖有声书 旁白',
+      '吓人 有声书 2026',
+      '信用点 恐怖',
+    ],
+    date: '2026-09-08',
+    readTime: '8 分钟阅读',
+    category: '恐怖',
+    faq: [
+      {
+        question: '为什么恐怖有声书比文字版更吓人？',
+        answer: '旁白能控制节奏、耳语和沉默，让威胁感更贴近。有声书能把熟悉的场景变成走廊里的呼吸声，这是纸质书做不到的。',
+      },
+      {
+        question: '哥特恐怖有声书值得用一个信用点吗？',
+        answer: '往往值得。哥特类小说普遍较长，20-30小时很常见，一个信用点换来的收听时长比短篇小说多得多。',
+      },
+      {
+        question: '怎么判断一本恐怖有声书会不会太吓？',
+        answer: '先听样音。恐怖旁白风格差异很大，有些靠血腥细节，有些靠慢节奏心理压迫。样音能帮你提前判断。',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          恐怖有声书是信用点风险最高的类别之一。一个平淡的旁白能把 30 小时的心理惊悚变成背景噪音，而一个出色的声音能让熟悉的故事像住在你的走廊里。这篇指南覆盖真正吓人的恐怖有声书、值得信用点的哥特类作品，以及决定"好听"还是"煎熬"的旁白技巧。
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">为什么恐怖在音频里更强</h2>
+        <p>
+          恐怖是一个亲密的品类。读书时你保持在安全距离，听旁白时你被拉进场景。好的恐怖有声书会像使用声音一样使用沉默，而一个熟练的嗓音能让普通空间变得危险。这也是为什么一个信用点花在精心旁白的恐怖书上，往往比花在吵闹的动作小说上更有价值。
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">最值得听的哥特恐怖有声书</h2>
+        <p>
+          哥特恐怖是音频的优势品类。这类书长、氛围浓、靠情绪而非情节转折驱动。一个强旁白能维持 25-30 小时的恐惧感，这正是信用点最划算的收听时长。
+        </p>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>选完整版。哥特恐怖在删节版里会失去节奏感。</li>
+          <li>关注旁白资历。哥特小说的成败几乎全在声音质感和节奏控制上。</li>
+          <li>偏好持续营造氛围的作品，而不是靠惊吓瞬间驱动的故事。</li>
+        </ul>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">心理恐怖：不需要怪物也能吓人</h2>
+        <p>
+          心理恐怖不需要怪物。它需要一个能让偏执感传染的旁白。最好的作品能把你困在主角的思维里，这正是信用点能发挥最大价值的类型。
+        </p>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">快速对比</h2>
+        <table className="w-full text-sm border-collapse my-4">
+          <thead>
+            <tr className="border-b border-border">
+              <th className="text-left py-2 pr-4">子类型</th>
+              <th className="text-left py-2 pr-4">常见时长</th>
+              <th className="text-left py-2 pr-4">信用点价值</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr className="border-b border-border"><td className="py-2 pr-4">哥特恐怖</td><td className="py-2 pr-4">20–32</td><td className="py-2 pr-4">极佳</td></tr>
+            <tr className="border-b border-border"><td className="py-2 pr-4">心理恐怖</td><td className="py-2 pr-4">12–24</td><td className="py-2 pr-4">不错</td></tr>
+            <tr className="border-b border-border"><td className="py-2 pr-4">短篇恐怖集</td><td className="py-2 pr-4">4–8</td><td className="py-2 pr-4">偏弱</td></tr>
+            <tr className="border-b border-border"><td className="py-2 pr-4">现代超自然</td><td className="py-2 pr-4">15–25</td><td className="py-2 pr-4">不错</td></tr>
+          </tbody>
+        </table>
+
+        <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">如何避免浪费信用点</h2>
+        <p>
+          两个习惯能避免大部分恐怖信用点的浪费。第一，务必先听样音。恐怖旁白风格差异巨大，样音能揭示节奏、强度和声音是否符合你的口味。第二，优先选长篇作品。恐怖需要沉浸，20小时的书比5小时的薄 novella 更能让信用点物有所值。
+        </p>
+
+        <p className="mt-6">
+          在我们的 <a href="/category/horror" className="text-primary underline">恐怖分类页</a> 查看实时评分和时长，用 <a href="/calculator" className="text-primary underline">信用点计算器</a> 比较书名，再读我们的 <a href="/blog/how-to-sample-audible-books" className="text-primary underline">Audible 样音指南</a> 再兑换。一切从 <a href="/" className="text-brand hover:underline">getcreditworth.com</a> 开始。
         </p>
       </>
     ),
