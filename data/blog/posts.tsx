@@ -649,9 +649,9 @@ const POSTS: Record<string, BlogPostData> = {
   },
   'is-audible-worth-it-2026': {
     slug: 'is-audible-worth-it-2026',
-    title: 'Is Audible Worth It in 2026? Honest Review + Do Credits Expire & When',
+    title: 'Is Audible Worth It in 2026? The Real $14.95 Credit Math',
     description:
-      'Is Audible worth it in 2026? Honest review of costs, benefits, and credit value — plus when Audible credits expire, how to check your expiration date, and whether you lose credits if you cancel.',
+      'Is Audible worth it in 2026? We run the numbers on $14.95 credits vs cash prices across 300+ audiobooks — and who should cancel instead.',
     keywords: ['is audible worth it', 'audible membership review', 'audible premium plus worth it', 'when do audible credits expire', 'do audible credits expire', 'audible credit expiration', 'how long do audible credits last', 'how to check audible credit expiration date'],
     date: '2026-07-25',
     readTime: '9 min read',
@@ -771,7 +771,7 @@ const POSTS: Record<string, BlogPostData> = {
     slug: 'best-sci-fi-audiobooks-for-credits',
     title: 'Top Sci-Fi Audiobooks Worth Your Audible Credits',
     description:
-      'Best science fiction audiobooks ranked by credit value. From space operas to hard sci-fi.',
+      'Best sci-fi audiobooks by credit value — 30+ hour epics, under-$30 picks, and the ones actually worth spending a credit on in 2026.',
     keywords: ['best sci-fi audiobooks', 'science fiction audible books', 'sci fi audiobooks worth credits'],
     date: '2026-07-25',
     readTime: '10 min read',
@@ -981,7 +981,7 @@ const POSTS: Record<string, BlogPostData> = {
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Related Guides</h2>
         <ul className="space-y-2">
           <li><Link href="/blog/audible-return-refund-policy" className="text-primary hover:underline">Return policy</Link> — know your rights before gifting</li>
-          <li><Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">Credit expiration</Link> — don&apos;t let credits go to waste</li>
+          <li><Link href="/blog/how-to-spend-audible-credits-before-expiry" className="text-primary hover:underline">Credit expiration</Link> — don&apos;t let credits go to waste</li>
           <li><Link href="/blog/how-to-use-audible-credits" className="text-primary hover:underline">Using credits</Link> — maximize every credit</li>
         </ul>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">What the Recipient Experiences</h2>
@@ -996,7 +996,7 @@ const POSTS: Record<string, BlogPostData> = {
           Before you gift a credit, make sure you know its real value — see our{" "}
           <Link href="/blog/how-much-is-audible-credit-worth-2026" className="text-primary underline">Audible credit value breakdown</Link>{" "}
           and how to avoid wasting credits in the{" "}
-          <Link href="/blog/audible-credits-expiration-policy" className="text-primary underline">credit expiration guide</Link>.
+          <Link href="/blog/how-to-spend-audible-credits-before-expiry" className="text-primary underline">credit expiration guide</Link>.
           If the recipient already has the book, our{" "}
           <Link href="/blog/audible-return-refund-policy" className="text-primary underline">return &amp; refund guide</Link>{" "}
           covers what happens then.
@@ -1005,7 +1005,7 @@ const POSTS: Record<string, BlogPostData> = {
         <ul className="space-y-2">
           <li><Link href="/blog/audible-plus-catalog-vs-credits" className="text-primary hover:underline">Audible Plus Catalog vs Credits</Link> — when to spend a credit</li>
           <li><Link href="/blog/audible-return-refund-policy" className="text-primary hover:underline">Audible Return and Refund Policy</Link> — get your credit back</li>
-          <li><Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">Credit Expiration Policy</Link> — avoid wasting credits</li>
+          <li><Link href="/blog/how-to-spend-audible-credits-before-expiry" className="text-primary hover:underline">Credit Expiration Policy</Link> — avoid wasting credits</li>
           <li><Link href="/blog/how-to-cancel-audible-subscription" className="text-primary hover:underline">How to Cancel Audible</Link> — pause vs cancel</li>
           <li><Link href="/calculator" className="text-primary hover:underline">Credit Value Calculator</Link> — run your numbers</li>
         </ul>
@@ -1014,9 +1014,9 @@ const POSTS: Record<string, BlogPostData> = {
   },
   'audible-plus-catalog-vs-credits': {
     slug: 'audible-plus-catalog-vs-credits',
-    title: 'Audible Plus Catalog vs Credits 2026: When to Spend a Credit (Max Value)',
+    title: 'Audible Plus Catalog vs Credits: When a Credit Wins',
     description:
-      'Not sure when to use the Audible Plus Catalog vs spend a credit? This 2026 guide shows exactly when a credit beats the Catalog and when streaming free saves money. Plus Catalog vs Premium Plus explained.',
+      'Plus Catalog vs credits, decided. Exactly when streaming free beats spending a credit — and the titles where a credit saves you most.',
     keywords: ['audible plus catalog vs credits', 'audible plus vs premium plus', 'what is audible plus catalog'],
     date: '2026-07-25',
     readTime: '9 min read',
@@ -1110,7 +1110,7 @@ const POSTS: Record<string, BlogPostData> = {
         <p>While the Plus Catalog may not include the latest bestsellers, it contains several hidden gems that make the subscription worthwhile. Audible Originals are exclusive productions available only on the platform, spanning genres from thriller to romance to science fiction. Many of these are high-quality productions with professional casts. The catalog also includes complete series from established authors, making it perfect for binge-listening. Classic literature lovers will find extensive collections of public domain works with professional narration. By exploring the Plus Catalog thoroughly before reaching for credits, many subscribers discover they need fewer credits than expected.</p>
         <p className="mt-6">
           Debating between the Plus Catalog and credits? See how much a credit is actually worth in our{" "}
-          <Link href="/blog/audible-credits-expiration-policy" className="text-primary underline">credit expiration guide</Link>,
+          <Link href="/blog/how-to-spend-audible-credits-before-expiry" className="text-primary underline">credit expiration guide</Link>,
           check what happens to credits if you{" "}
           <Link href="/blog/how-to-cancel-audible-subscription" className="text-primary underline">cancel your subscription</Link>,
           or run your own numbers with the{" "}
@@ -1120,7 +1120,7 @@ const POSTS: Record<string, BlogPostData> = {
         <ul className="space-y-2">
           <li><Link href="/blog/gift-audiobooks-guide" className="text-primary hover:underline">How to Gift Audible Audiobooks</Link> — books, credits, or membership</li>
           <li><Link href="/blog/audible-return-refund-policy" className="text-primary hover:underline">Audible Return and Refund Policy</Link> — get your credit back</li>
-          <li><Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">Credit Expiration Policy</Link> — avoid wasting credits</li>
+          <li><Link href="/blog/how-to-spend-audible-credits-before-expiry" className="text-primary hover:underline">Credit Expiration Policy</Link> — avoid wasting credits</li>
           <li><Link href="/blog/how-to-cancel-audible-subscription" className="text-primary hover:underline">How to Cancel Audible</Link> — pause vs cancel</li>
           <li><Link href="/calculator" className="text-primary hover:underline">Credit Value Calculator</Link> — run your numbers</li>
         </ul>
@@ -1479,7 +1479,7 @@ const POSTS: Record<string, BlogPostData> = {
           Put this math to work: use our{" "}
           <Link href="/calculator" className="text-primary underline">credit value calculator</Link>{" "}
           to score any specific book, protect expiring credits with the{" "}
-          <Link href="/blog/audible-credits-expiration-policy" className="text-primary underline">expiration guide</Link>,
+          <Link href="/blog/how-to-spend-audible-credits-before-expiry" className="text-primary underline">expiration guide</Link>,
           and know your rights if a credit&apos;s purchase goes wrong in the{" "}
           <Link href="/blog/audible-return-refund-policy" className="text-primary underline">return &amp; refund guide</Link>.
         </p>
@@ -1952,8 +1952,8 @@ const POSTS: Record<string, BlogPostData> = {
 
   'audible-return-refund-policy': {
     slug: 'audible-return-refund-policy',
-    title: 'Audible Return & Refund Policy 2026: How to Get a Full Refund or Credit Back (365-Day Guide)',
-    description: 'How to get an Audible refund or return a book and get your credit back. 365-day return window, credit vs cash refund, return limits, and how to avoid account flags. Complete 2026 guide.',
+    title: 'Audible Refund Policy 2026: Return a Book, Get Your Credit',
+    description: 'How to get an Audible refund and return a book in 2026 — the real return window, credit vs cash back, and the limit that flags your account.',
     keywords: ['audible return policy', 'audible refund', 'get audible refund', 'refund audible', 'audible returns', 'audible return audiobook', 'how to return audible', 'audible refund credit', 'audible return limit', 'audible returns policy', 'audible subscription refund', 'how many books can you return on audible', 'how many returns does audible allow', 'can i return an audiobook and get my credit back', 'audible refunds'],
     date: '2026-07-27',
     updatedAt: '2026-08-24',
@@ -2063,7 +2063,7 @@ const POSTS: Record<string, BlogPostData> = {
       
         <p>
           Returning a book frees up a credit &mdash; learn how to spend it before it expires in our{" "}
-          <Link href="/blog/audible-credits-expiration-policy" className="text-primary underline">credit expiration guide</Link>,
+          <Link href="/blog/how-to-spend-audible-credits-before-expiry" className="text-primary underline">credit expiration guide</Link>,
           or see whether pausing beats canceling in the{" "}
           <Link href="/blog/how-to-cancel-audible-subscription" className="text-primary underline">cancellation guide</Link>.
         </p>
@@ -2089,7 +2089,7 @@ const POSTS: Record<string, BlogPostData> = {
         <ul className="space-y-2">
           <li><Link href="/blog/gift-audiobooks-guide" className="text-primary hover:underline">How to Gift Audible Audiobooks</Link> — books, credits, or membership</li>
           <li><Link href="/blog/audible-plus-catalog-vs-credits" className="text-primary hover:underline">Audible Plus Catalog vs Credits</Link> — when to spend a credit</li>
-          <li><Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">Credit Expiration Policy</Link> — avoid wasting credits</li>
+          <li><Link href="/blog/how-to-spend-audible-credits-before-expiry" className="text-primary hover:underline">Credit Expiration Policy</Link> — avoid wasting credits</li>
           <li><Link href="/blog/how-to-cancel-audible-subscription" className="text-primary hover:underline">How to Cancel Audible</Link> — pause vs cancel</li>
           <li><Link href="/calculator" className="text-primary hover:underline">Credit Value Calculator</Link> — run your numbers</li>
         </ul>
@@ -2125,15 +2125,15 @@ const POSTS: Record<string, BlogPostData> = {
       <>
         <p><strong>A credit about to expire is $14.95 walking out the door.</strong> The fix is not complicated — spend it — but spending it <em>well</em> is what separates subscribers who get full value from those who panic-buy a random short story.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Step 1: Check the Exact Deadline</h2>
-        <p>Open <strong>Account Details &rarr; Your Membership &rarr; Premium Plus Credits</strong>. Each credit shows its own expiration date. If you are unsure whether your credits even expire, start with our <Link href="/blog/do-audible-credits-expire" className="text-primary hover:underline">explainer on the 12-month rule</Link>.</p>
+        <p>Open <strong>Account Details &rarr; Your Membership &rarr; Premium Plus Credits</strong>. Each credit shows its own expiration date. If you are unsure whether your credits even expire, start with our <Link href="/blog/how-to-spend-audible-credits-before-expiry" className="text-primary hover:underline">when Audible credits expire</Link>.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Step 2: Pick a High Value-Score Title</h2>
-        <p>Spend on the longest, highest-rated audiobook you might actually listen to. A 40-hour, 4.8-star epic returns far more than a 2-hour short story bought on impulse. If you need a system, our <Link href="/blog/audible-credits-expiration-policy" className="text-primary hover:underline">expiration strategy guide</Link> shows how to rank titles by value.</p>
+        <p>Spend on the longest, highest-rated audiobook you might actually listen to. A 40-hour, 4.8-star epic returns far more than a 2-hour short story bought on impulse. If you need a system, our <Link href="/blog/how-to-spend-audible-credits-before-expiry" className="text-primary hover:underline">expiration strategy guide</Link> shows how to rank titles by value.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Step 3: Use It or Lose It</h2>
-        <p>About to lose a credit with no title you love? Buy a book you will probably listen to eventually. A decent book you half-want beats a credit worth exactly $0. This is the same logic behind our <Link href="/blog/stop-audible-credits-expiring" className="text-primary hover:underline">five methods to stop credits expiring</Link> — proactive spending is method #4.</p>
+        <p>About to lose a credit with no title you love? Buy a book you will probably listen to eventually. A decent book you half-want beats a credit worth exactly $0. This is the same logic behind our <Link href="/blog/how-to-spend-audible-credits-before-expiry" className="text-primary hover:underline">how to spend credits before they expire</Link> — proactive spending is method #4.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Step 4: Gift It If You Won&apos;t Listen</h2>
         <p>You cannot transfer a credit directly, but you can redeem it for a title and then <Link href="/blog/audible-gift-audiobooks-guide" className="text-primary hover:underline">gift that audiobook</Link> to someone else. The value leaves your account before the deadline instead of expiring to zero.</p>
         <h2 className="text-xl font-semibold text-text-primary mt-6 mb-3">Step 5: If the Deadline Is Today, Ask Support</h2>
-        <p>If a credit lapses within hours and you have a genuine reason, contact support and request a one-time extension — our <Link href="/blog/audible-credit-expiration-extension" className="text-primary hover:underline">extension guide</Link> covers exactly what they will and will not do. But treat this as a last resort, not a plan. Worried a paused membership changes the math? See our <Link href="/blog/audible-pause-membership-keep-credits" className="text-primary hover:underline">pause-vs-cancel credit breakdown</Link> first.</p>
+        <p>If a credit lapses within hours and you have a genuine reason, contact support and request a one-time extension — our <Link href="/blog/how-to-spend-audible-credits-before-expiry" className="text-primary hover:underline">credit expiry guide</Link> covers exactly what they will and will not do. But treat this as a last resort, not a plan. Worried a paused membership changes the math? See our <Link href="/blog/how-to-cancel-audible-and-keep-your-books" className="text-primary hover:underline">how to keep your credits when you cancel</Link> first.</p>
         <div className="bg-bg-surface p-4 rounded-md border border-border my-4">
           <p className="text-sm"><strong>Golden rule:</strong> a spent credit is always worth more than an expired one. When in doubt, spend.</p>
         </div>
@@ -2288,9 +2288,9 @@ const POSTS: Record<string, BlogPostData> = {
 
   'audible-credit-value-calculator-stop-wasting': {
     slug: 'audible-credit-value-calculator-stop-wasting',
-    title: 'Audible Credit Value Calculator: Stop Wasting Credits',
+    title: 'Audible Credit Calculator: Is This Book Worth a Credit?',
     description:
-      'Free Audible credit calculator. See if a book is worth a credit, compare cost per hour, and find the best audiobooks to spend credits on.',
+      'Free Audible credit calculator: see if a book is worth a credit, compare cost per hour, and get a verdict in 5 seconds. No signup.',
     keywords: ['audible credit value calculator', 'audible credit calculator tool', 'stop wasting audible credits'],
     date: '2026-07-26',
     readTime: '7 min read',
@@ -4783,7 +4783,7 @@ const POSTS: Record<string, BlogPostData> = {
         </p>
         <p className="mt-6">
           If you are still hunting for your next binge, our{ }
-          <Link href="/blog/best-fantasy-audiobooks-for-credits" className="text-primary underline">best fantasy audiobooks for credits</Link>{ }
+          <Link href="/blog/best-epic-fantasy-audiobooks-over-40-hours" className="text-primary underline">best epic fantasy audiobooks over 40 hours</Link>{ }
           roundup highlights more long-form series worth a single credit.
         </p>
       </>
@@ -4860,7 +4860,7 @@ const POSTS: Record<string, BlogPostData> = {
         </p>
         <p className="mt-6">
           If you are still hunting for your next binge, our{ }
-          <Link href="/blog/best-fantasy-audiobooks-for-credits" className="text-primary underline">best fantasy audiobooks for credits</Link>{ }
+          <Link href="/blog/best-epic-fantasy-audiobooks-over-40-hours" className="text-primary underline">best epic fantasy audiobooks over 40 hours</Link>{ }
           roundup highlights more long-form series worth a single credit.
         </p>
       </>
@@ -8461,7 +8461,7 @@ const POSTS: Record<string, BlogPostData> = {
         </p>
 
         <p className="mt-6">
-          Check live ratings and runtime on our <a href="/category/horror" className="text-primary underline">Horror category</a> page, compare titles with the <a href="/calculator" className="text-primary underline">Credit Calculator</a>, and read our <a href="/blog/how-to-sample-audible-books" className="text-primary underline">Audible sample guide</a> before redeeming. Start at <a href="/" className="text-brand hover:underline">getcreditworth.com</a>.
+          Check live ratings and runtime on our <a href="/category/horror" className="text-primary underline">Horror category</a> page, compare titles with the <a href="/calculator" className="text-primary underline">Credit Calculator</a>, and read our <a href="/blog/how-to-get-a-free-30-day-audible-trial" className="text-primary underline">free 30-day Audible trial</a> before redeeming. Start at <a href="/" className="text-brand hover:underline">getcreditworth.com</a>.
         </p>
       </>
     ),
@@ -8546,7 +8546,7 @@ const POSTS: Record<string, BlogPostData> = {
         </p>
 
         <p className="mt-6">
-          在我们的 <a href="/category/horror" className="text-primary underline">恐怖分类页</a> 查看实时评分和时长，用 <a href="/calculator" className="text-primary underline">信用点计算器</a> 比较书名，再读我们的 <a href="/blog/how-to-sample-audible-books" className="text-primary underline">Audible 样音指南</a> 再兑换。一切从 <a href="/" className="text-brand hover:underline">getcreditworth.com</a> 开始。
+          在我们的 <a href="/category/horror" className="text-primary underline">恐怖分类页</a> 查看实时评分和时长，用 <a href="/calculator" className="text-primary underline">信用点计算器</a> 比较书名，再读我们的 <a href="/blog/how-to-get-a-free-30-day-audible-trial" className="text-primary underline">Audible 30 天免费试用</a> 再兑换。一切从 <a href="/" className="text-brand hover:underline">getcreditworth.com</a> 开始。
         </p>
       </>
     ),

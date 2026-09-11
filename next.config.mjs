@@ -45,6 +45,46 @@ const nextConfig = {
         destination: "/blog/how-to-cancel-audible-subscription",
         permanent: true,
       },
+      // -----------------------------------------------------------------------
+      // 2026-09-11：清掉 7 个「站内被大量引用但已 404」的历史 slug（GSC 仍有残留
+      // 展示，如 /blog/audible-credits-expiration-policy 近 28 天 94 展示 / 排名
+      // 11.39，却返回 404）。全部 301 到现存最接近的正文，收回残留索引权重。
+      // -----------------------------------------------------------------------
+      {
+        source: "/blog/audible-credits-expiration-policy",
+        destination: "/blog/how-to-spend-audible-credits-before-expiry",
+        permanent: true,
+      },
+      {
+        source: "/blog/do-audible-credits-expire",
+        destination: "/blog/how-to-spend-audible-credits-before-expiry",
+        permanent: true,
+      },
+      {
+        source: "/blog/stop-audible-credits-expiring",
+        destination: "/blog/how-to-spend-audible-credits-before-expiry",
+        permanent: true,
+      },
+      {
+        source: "/blog/audible-credit-expiration-extension",
+        destination: "/blog/how-to-spend-audible-credits-before-expiry",
+        permanent: true,
+      },
+      {
+        source: "/blog/audible-pause-membership-keep-credits",
+        destination: "/blog/how-to-cancel-audible-and-keep-your-books",
+        permanent: true,
+      },
+      {
+        source: "/blog/best-fantasy-audiobooks-for-credits",
+        destination: "/blog/best-epic-fantasy-audiobooks-over-40-hours",
+        permanent: true,
+      },
+      {
+        source: "/blog/how-to-sample-audible-books",
+        destination: "/blog/how-to-get-a-free-30-day-audible-trial",
+        permanent: true,
+      },
     ];
   },
   async headers() {
