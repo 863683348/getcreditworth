@@ -9197,6 +9197,74 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+  // Day 41 — 2026-09-13
+  'best-audiobooks-long-flights': {
+    slug: 'best-audiobooks-long-flights',
+    title: 'Best Audiobooks for Long Flights: 20+ Hour Picks',
+    description: 'A long flight is a bad place to run out of book. These are the 20-hour-plus audiobooks that hold attention across a transatlantic or transpacific route, plus how to match length to your itinerary.',
+    keywords: ['best audiobooks for long flights', 'audiobooks for travel', 'long audiobooks for flights', 'what to listen to on a long flight'],
+    date: '2026-09-13',
+    readTime: '9 min',
+    category: 'Audiobooks',
+    faq: [
+      { question: 'How many hours of audiobook do I need for a long flight?', answer: 'Roughly one hour of listening per hour in the air, then add fifty percent. A ten-hour flight needs about fifteen hours of audio, because you will sleep, eat and talk to the person next to you.' },
+      { question: 'Is it better to bring one long book or several short ones?', answer: 'One long book for the flight, two short ones as backup. Finishing a book mid-flight and starting something new is harder than it sounds when you are tired.' },
+      { question: 'Do I need to download audiobooks before the flight?', answer: 'Yes. In-flight wifi is unreliable and often blocked for streaming audio. Download everything at home and check that each title plays offline before you leave.' },
+    ],
+    content: (
+      <>
+        <p>Choosing the best audiobooks for long flights is a different problem from choosing a good audiobook. On a five-hour flight almost anything works. Past ten hours, the constraints change: you will sleep, you will lose the thread, and a book that demanded your full attention on the ground becomes hard work at altitude.</p>
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Why length matters more than genre</h2>
+        <p>Passengers tend to overestimate how much they will listen. Real listening time on a long-haul flight runs closer to half the flight duration. That is the number to plan around, not the gate-to-gate time.</p>
+        <ul className='list-disc pl-5 space-y-2'>
+          <li>Under 8 hours: two or three short titles are safer than one long one.</li>
+          <li>8 to 12 hours: one 15 to 20 hour title covers the flight with room to spare.</li>
+          <li>Over 12 hours: one 30 hour title, or two 15 hour titles from different genres.</li>
+          <li>Overnight flights: pick something with a clear structure, not a plot you must follow minute by minute.</li>
+        </ul>
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What actually holds attention past the ten hour mark</h2>
+        <p>Narrative structure survives fatigue better than atmosphere. So do books where you can lose twenty minutes and rejoin without confusion. A few traits show up repeatedly in titles that people finish on a long flight.</p>
+        <ul className='list-disc pl-5 space-y-2'>
+          <li>A chronological spine. Going in order means a lapse costs you detail, not comprehension.</li>
+          <li>A narrator with a steady, unhurried pace. Fast narration is fine for a commute and tiring at hour twelve.</li>
+          <li>Chapter lengths under forty minutes. Long chapters are hard to resume after a sleep.</li>
+          <li>Subject matter you already care about. Curiosity carries you further than suspense when you are jet-lagged.</li>
+        </ul>
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Matching length to your route</h2>
+        <p>Route length is a decent proxy for how much book you can realistically get through. This is a planning starting point, not a rule.</p>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Route</th>
+              <th className='text-left py-2'>Air time</th>
+              <th className='text-left py-2'>Realistic listening</th>
+              <th className='text-left py-2'>What to bring</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Short-haul</td><td className='py-2'>1-3 h</td><td className='py-2'>1-2 h</td><td className='py-2'>Anything. A podcast series is enough.</td></tr>
+            <tr><td className='py-2'>Transatlantic</td><td className='py-2'>6-9 h</td><td className='py-2'>4-6 h</td><td className='py-2'>One 15 h title plus a short backup.</td></tr>
+            <tr><td className='py-2'>Transpacific</td><td className='py-2'>11-14 h</td><td className='py-2'>7-9 h</td><td className='py-2'>One 25-30 h title.</td></tr>
+            <tr><td className='py-2'>Multi-leg</td><td className='py-2'>18 h+</td><td className='py-2'>10 h+</td><td className='py-2'>Two long titles from different genres.</td></tr>
+          </tbody>
+        </table>
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Practical setup before you board</h2>
+        <p>Most audiobook problems on long flights are technical, not editorial. Ten minutes of preparation at home removes nearly all of them.</p>
+        <ul className='list-disc pl-5 space-y-2'>
+          <li>Download every title to the device, then switch to airplane mode and confirm each one starts.</li>
+          <li>Bring wired headphones if you have them. Bluetooth earbuds run out before a transpacific flight does.</li>
+          <li>Carry a power bank. Twelve hours of audio is a meaningful battery draw.</li>
+          <li>Set a sleep timer where the app supports it, so you do not lose your place at hour four.</li>
+          <li>Note your position manually at the start of each session. Bookmarks sync badly offline.</li>
+        </ul>
+        <div className='space-y-3'>
+          <div><h3 className='font-semibold text-text-primary'>How many hours of audiobook do I need for a long flight?</h3><p className='text-sm'>Roughly one hour of listening per hour in the air, then add fifty percent. A ten-hour flight needs about fifteen hours of audio, because you will sleep, eat and talk to the person next to you.</p></div>
+          <div><h3 className='font-semibold text-text-primary'>Is it better to bring one long book or several short ones?</h3><p className='text-sm'>One long book for the flight, two short ones as backup. Finishing a book mid-flight and starting something new is harder than it sounds when you are tired.</p></div>
+          <div><h3 className='font-semibold text-text-primary'>Do I need to download audiobooks before the flight?</h3><p className='text-sm'>Yes. In-flight wifi is unreliable and often blocked for streaming audio. Download everything at home and check that each title plays offline before you leave.</p></div>
+        </div>
+      </>
+    ),
+  },
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
