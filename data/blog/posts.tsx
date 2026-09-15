@@ -9139,6 +9139,64 @@ const POSTS: Record<string, BlogPostData> = {
       <p>我们替你实测有声书，别浪费 credit。去<a href='/category/self-help'>自助类书单</a>看完整榜单。</p>
     </>),
   },
+  // Day 43 — 2026-09-15
+  'best-business-audiobooks': {
+    slug: 'best-business-audiobooks',
+    title: 'Best Business Audiobooks for Entrepreneurs (2026)',
+    description: 'A credit-per-hour ranking of the best business audiobooks for founders, from Lean Startup to Shoe Dog, with runtimes and what each one is actually worth.',
+    keywords: ['best business audiobooks', 'entrepreneurship audiobooks', 'startup audiobooks', 'business books on audible'],
+    date: '2026-09-15',
+    readTime: '7 min read',
+    category: 'Business',
+    faq: [
+      { question: 'How long are the best business audiobooks?', answer: 'Most run 6 to 12 hours. Anything under 4 hours is usually a repackaged talk, and anything past 20 hours is a course wearing a book cover.' },
+      { question: 'Should I start with Lean Startup or Shoe Dog?', answer: 'Start with Shoe Dog if you want the story first. Start with Lean Startup if you already have a product and need a method.' },
+      { question: 'Are business audiobooks worth a credit?', answer: 'At roughly 8 hours per credit, yes. Below 5 hours you are usually better off buying the ebook.' },
+    ],
+    content: (
+      <>
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>How we ranked these</h2>
+        <p>Business audiobooks are the easiest category to waste a credit on. Every founder memoir is marketed as essential. So we ranked by value per hour: runtime divided by what you actually take away, measured against how often the ideas still come up in real work.</p>
+        <p>The list below is ordered by usefulness for someone running a company right now, not by sales rank.</p>
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>The shortlist</h2>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Title</th>
+              <th className='text-left py-2'>Runtime</th>
+              <th className='text-left py-2'>Best for</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>The Lean Startup</td><td className='py-2'>8h 12m</td><td className='py-2'>First method, pre product-market fit</td></tr>
+            <tr><td className='py-2'>Shoe Dog</td><td className='py-2'>13h 20m</td><td className='py-2'>Founders who need the honest version</td></tr>
+            <tr><td className='py-2'>The Hard Thing About Hard Things</td><td className='py-2'>7h 38m</td><td className='py-2'>Operators in year two or three</td></tr>
+            <tr><td className='py-2'>Thinking in Bets</td><td className='py-2'>6h 45m</td><td className='py-2'>Decision quality under uncertainty</td></tr>
+            <tr><td className='py-2'>Measure What Matters</td><td className='py-2'>7h 51m</td><td className='py-2'>Teams that lost their focus</td></tr>
+          </tbody>
+        </table>
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Where most lists go wrong</h2>
+        <p>They mix three different jobs into one ranking. A book that helps you choose what to build is not the same as a book that helps you fire a friend, and neither is a book about personal discipline.</p>
+        <ul className='list-disc pl-5 space-y-2'>
+          <li>Pick a book for the problem you have this quarter, not the founder you want to become.</li>
+          <li>Skip anything narrated by the author if the author is not a professional speaker. Bad narration turns an 8 hour book into a 20 hour chore.</li>
+          <li>Check the publication year. Advice about paid acquisition from 2014 is a history lesson now.</li>
+        </ul>
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>If you only listen to one</h2>
+        <p>Take The Hard Thing About Hard Things. It is the shortest of the group and the least sentimental. Almost every chapter maps to a decision you will face within a year, and Ben Horowitz keeps the war stories short enough that you can finish a chapter on a commute.</p>
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>A note on listening speed</h2>
+        <p>Most people settle at 1.25x after a week and never go higher. Pushing to 2x saves hours but flattens the parts where the argument actually matters. If a book is worth a credit, it is worth listening at a speed where you still catch the reasoning.</p>
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>FAQ</h2>
+        <div className='space-y-3'>
+          <div><h3 className='font-semibold text-text-primary'>How long are the best business audiobooks?</h3><p className='text-sm'>Most run 6 to 12 hours. Anything under 4 hours is usually a repackaged talk, and anything past 20 hours is a course wearing a book cover.</p></div>
+          <div><h3 className='font-semibold text-text-primary'>Should I start with Lean Startup or Shoe Dog?</h3><p className='text-sm'>Start with Shoe Dog if you want the story first. Start with Lean Startup if you already have a product and need a method.</p></div>
+          <div><h3 className='font-semibold text-text-primary'>Are business audiobooks worth a credit?</h3><p className='text-sm'>At roughly 8 hours per credit, yes. Below 5 hours you are usually better off buying the ebook.</p></div>
+        </div>
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Start here</h2>
+        <p>Every title above is scored on runtime and idea density on getcreditworth.com. Browse the <a href="/category/business">business category</a> for the full ranking, or read more breakdowns on the <a href="/blog">blog</a>.</p>
+      </>
+    ),
+  },
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
