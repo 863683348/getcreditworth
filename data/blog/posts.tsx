@@ -9276,7 +9276,7 @@ const POSTS: Record<string, BlogPostData> = {
     faq: [
       {
         question: 'What is the best dystopian audiobook for a single credit?',
-        answer: 'For a single credit, The Handmaid's Tale gives the longest return: over 11 hours of narration plus a sequel that keeps the story going. 1984 is the shorter option at about 10 hours with near-universal appeal.',
+        answer: 'For a single credit, The Handmaid\'s Tale gives the longest return: over 11 hours of narration plus a sequel that keeps the story going. 1984 is the shorter option at about 10 hours with near-universal appeal.',
       },
       {
         question: 'Are dystopian audiobooks worth an Audible credit?',
@@ -9284,7 +9284,7 @@ const POSTS: Record<string, BlogPostData> = {
       },
       {
         question: 'Which dystopian audiobook has the best narration?',
-        answer: 'The Handmaid's Tale (Claire Danes) and Parable of the Sower are consistently praised for casting that fits the material. Danes makes the prose feel immediate rather than read aloud.',
+        answer: 'The Handmaid\'s Tale (Claire Danes) and Parable of the Sower are consistently praised for casting that fits the material. Danes makes the prose feel immediate rather than read aloud.',
       },
       {
         question: 'Dystopian or post-apocalyptic: which should I pick?',
