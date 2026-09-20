@@ -9323,7 +9323,7 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
-};  'best-audiobooks-over-50-hours': {
+  'best-audiobooks-over-50-hours': {
     slug: 'best-audiobooks-over-50-hours',
     title: 'Best Audiobooks Over 50 Hours: The Ultimate Value Guide',
     description: 'Discover the longest and most valuable audiobooks on Audible. Get more listening time per credit with these epic titles.',
