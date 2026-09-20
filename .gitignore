@@ -57,3 +57,6 @@ data/books-merged.json
 data/seeds-*.json
 data/extra-seeds.json
 data/blog/append-posts.txt
+
+# 存储优化期间的临时备份目录（不得提交）
+_opt-backup-*/
