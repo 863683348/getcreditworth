@@ -93,7 +93,7 @@ if (!existsSync(outDir)) mkdirSync(outDir, { recursive: true });
 // ── 清理上一轮产物（文件名带哈希，不清理会无限累积） ──
 let cleaned = 0;
 for (const f of readdirSync(outDir)) {
-  if (/^(books-(index|chunk|idxchunk|cmpchunk)-\d+|books-(compare|manifest))(\.[0-9a-f]{8})?\.json$/.test(f)) {
+  if (/^(books-(index|chunk|idxchunk|cmpchunk)-\d+|books-(compare|manifest|descasins))(\.[0-9a-f]{8})?\.json$/.test(f)) {
     try { unlinkSync(join(outDir, f)); cleaned++; } catch {}
   }
 }
@@ -118,7 +118,7 @@ for (let i = 0; i < compare.length; i += CHUNK_SIZE) {
   compareChunks.push(compare.slice(i, i + CHUNK_SIZE));
 }
 
-// 索引分片 + 数据分片（同片号一一对应）
+// ── 索引分片 + 数据分片（同片号一一对应）
 const idxChunkRes = indexChunks.map((c, i) =>
   emit(`books-idxchunk-${String(i).padStart(3, '0')}`, c));
 const chunkRes = chunks.map((c, i) =>
@@ -126,12 +126,28 @@ const chunkRes = chunks.map((c, i) =>
 const cmpChunkRes = compareChunks.map((c, i) =>
   emit(`books-cmpchunk-${String(i).padStart(3, '0')}`, c));
 
+// ── 「有描述」ASIN 清单 ──
+// sitemap / 低质量判定需要「某本书是否有 description」，但**不需要描述正文**。
+// 直接 import books-desc.json（4.25MB）会把它带进 lib/data/books.ts 的依赖图，
+// 被 19 个模块共享，等于抵消 1-E 的收益。
+// 因此构建期派生一份纯 ASIN 数组（几百 KB），正文仍只在详情页按需加载。
+let descAsins = [];
+const descPath = join(ROOT, 'data/books-desc.json');
+if (existsSync(descPath)) {
+  const descMap = JSON.parse(readFileSync(descPath, 'utf8'));
+  descAsins = Object.entries(descMap)
+    .filter(([, v]) => typeof v === 'string' && v.trim())
+    .map(([k]) => k)
+    .sort();
+}
+const descRes = emit('books-descasins', descAsins);
+
 // ── manifest：客户端与 next.config 的唯一真值来源 ──
 // 1-B：**不使用 `new Date()`** —— 那会让 manifest 每次构建都变，破坏幂等性，
 //      使其永远无法被 Vercel 跨部署复用。改为从**内容本身**派生：
 //      dataVersion 取全部分片哈希拼接后的短哈希 → 内容相同则版本相同 → 文件可复用。
 const contentFingerprint = h(
-  [...idxChunkRes, ...chunkRes, ...cmpChunkRes].map((c) => c.hash).join(''),
+  [...idxChunkRes, ...chunkRes, ...cmpChunkRes, descRes].map((c) => c.hash).join(''),
 );
 const manifest = {
   // 内容指纹，非时间戳（保证幂等）
@@ -141,6 +157,13 @@ const manifest = {
   chunkCount: chunks.length,
   // 索引里 coverImageUrl 被裁成 o.i（相对路径），客户端用此前缀拼回
   imageBase: IMAGE_BASE,
+  // 「有描述」ASIN 清单（sitemap / 低质量门禁用，不含描述正文）
+  descAsins: {
+    url: `/data/${descRes.file}`,
+    bytes: descRes.bytes,
+    hash: descRes.hash,
+    count: descRes.count,
+  },
   // 对比数据：同样分片（与索引/数据片同号切片，便于按需加载）
   compare: {
     bytes: cmpChunkRes.reduce((a, c) => a + c.bytes, 0),
@@ -186,6 +209,7 @@ L0(`[generate-books-data] 清理旧产物 ${cleaned} 个`);
 L0(`[generate-books-data] 索引分片 ${chunks.length} 个, 合计 ${kb(idxBytes)}, 单片 ≈ ${kb(idxChunkRes[0].bytes)}`);
 L0(`[generate-books-data] 数据分片 ${chunks.length} 个, 合计 ${kb(dataBytes)}, 单片 ≈ ${kb(chunkRes[0].bytes)}`);
 L0(`[generate-books-data] 对比分片 ${cmpChunkRes.length} 个, 合计 ${kb(cmpBytes)}, 单片 ≈ ${kb(cmpChunkRes[0].bytes)}`);
+L0(`[generate-books-data] 描述ASIN清单 ${descRes.count} 条, ${kb(descRes.bytes)}`);
 L0(`[generate-books-data] manifest  books-manifest.json`);
 L0(`[generate-books-data] public/data 合计 ${(totalBytes / 1024 / 1024).toFixed(2)}MB`);
 const dailyDelta = idxChunkRes[0].bytes + chunkRes[0].bytes + cmpChunkRes[0].bytes + 8192;

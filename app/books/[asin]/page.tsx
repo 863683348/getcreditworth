@@ -12,7 +12,8 @@ import { AUDIBLE_CREDIT_VALUE, LOW_QUALITY_BOOK } from "@/lib/config";
 import { getBooksByCategoryList } from "@/lib/api/controllers/book.controller";
 import { findBookSeries } from "@/lib/data/series";
 import { SeriesNav } from "@/components/SeriesNav";
-import { getAllBooks, findCategoryRank, getBookDescription } from "@/lib/data/books";
+import { getAllBooks, findCategoryRank } from "@/lib/data/books";
+import { getBookDescription } from "@/lib/data/book-descriptions";
 import type { Metadata } from "next";
 
 interface PageProps {

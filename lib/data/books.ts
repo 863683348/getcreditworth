@@ -27,37 +27,11 @@ const VALID_BOOKS = (booksRaw as BookRawData[]).filter(
 // 注：类型仍为 Book（BookRawData 的 description 为可选，此处缺失属合法状态）
 const allBooks: Book[] = calculateAllScores(VALID_BOOKS);
 
-/**
- * 按需读取书籍描述（异步，避免大 JSON 进入静态 import 图）
- *
- * description 已拆到 data/books-desc.json（~4.06MB），**仅图书详情页调用**。
- * 使用动态 import 使 webpack 将其切成独立 chunk，不进主 bundle / 不内联到
- * 其余 18 个引用 @/lib/data/books 的模块。
- *
- * ⚠️ 必须在 **Server Component** 中 await（客户端组件请改为从接口取）。
- */
-export async function getBookDescription(asin: string): Promise<string | undefined> {
-  const mod = await import('@/data/books-desc.json');
-  const map = (mod.default ?? mod) as Record<string, string>;
-  return map[asin];
-}
-
-/**
- * 同步取得「有描述」的 ASIN 集合（供 sitemap / 构建期批量判定使用）
- *
- * ⚠️ 会同步加载整个 books-desc.json（~4MB）。仅允许在**构建期**或
- * 低频路径（sitemap 生成、generateStaticParams）调用，**禁止在页面渲染路径**中使用。
- * 页面级描述读取请用 getBookDescription（异步/按需）。
- */
-export function getAsinsWithDescription(): Set<string> {
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
-  const map = require('@/data/books-desc.json') as Record<string, string>;
-  const set = new Set<string>();
-  for (const [asin, desc] of Object.entries(map)) {
-    if (typeof desc === 'string' && desc.trim()) set.add(asin);
-  }
-  return set;
-}
+// ⚠️ 书籍描述（books-desc.json, 4.25MB）的读取在 lib/data/book-descriptions.ts。
+// 那个模块依赖 node:fs，而本模块被多个 'use client' 组件引用 —— 在此处
+// import node:fs 会让 webpack 在 client bundle 中解析 node 内置模块而报错。
+// 所以**不做 re-export**：需要描述请直接
+//   import { getBookDescription } from '@/lib/data/book-descriptions';
 
 export function getAllBooks(): Book[] {
   return allBooks;

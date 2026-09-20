@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
-import { getAllBooks, getCuratedLists, getAllCategories, getAllAuthorSlugs, getAllNarratorSlugs, getAsinsWithDescription } from "@/lib/data/books";
+import { getAllBooks, getCuratedLists, getAllCategories, getAllAuthorSlugs, getAllNarratorSlugs } from "@/lib/data/books";
+import { getAsinsWithDescription } from "@/lib/data/book-descriptions";
 import { getAllPosts } from "@/lib/api/controllers/blog.controller";
 import { getAllSeries } from "@/lib/data/series";
 import { SITE_CONFIG, LOW_QUALITY_BOOK } from "@/lib/config";
