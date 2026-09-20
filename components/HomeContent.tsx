@@ -259,7 +259,7 @@ export function HomeContent({ topBooks, totalBooks, featuredLists }: HomeContent
 
         <BookExplorer
           books={topBooks}
-          allBooksUrl="/data/books-list.json"
+          allBooksUrl
           showRank
           title=""
           emptyMessage={t.home.emptyMessage}

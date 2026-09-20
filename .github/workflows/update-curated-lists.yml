@@ -1,9 +1,15 @@
 name: Update Curated Lists
 
+# 1-C（2026-09-20 Vercel Deployment Storage 优化）：
+#   cron 已**停用** —— 本 workflow 的脚本已并入 book-expand.yml 的顺序阶段，
+#   与 books.json 变更攒成单个 commit，避免每天多一次生产部署。
+#   ⚠️ 保留此文件仅为手动补跑（workflow_dispatch）；如需恢复自动运行，
+#      取消下方 schedule 注释即可（但会重新引入额外部署）。
+
 on:
-  schedule:
-    # 每 2 天运行一次（UTC 时间凌晨 2 点）
-    - cron: "0 2 */2 * *"
+  # schedule:
+  #   # 每 2 天运行一次（UTC 时间凌晨 2 点）
+  #   - cron: "0 2 */2 * *"
   workflow_dispatch:
 
 env:

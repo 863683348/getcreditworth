@@ -24,8 +24,9 @@ export const metadata: Metadata = {
 
 export default function ComparePage() {
   // Fast Origin Transfer 优化：初始只渲染 Top 50（对比选择快速可用），
-  // 全量 3673 本由 CompareContent 通过 /api/books/compare 客户端懒加载（搜索/选择不受影响）。
+  // 全量由 CompareContent 经 books-manifest.json 客户端懒加载（搜索/选择不受影响）。
   // 原实现全量序列化进 RSC payload ~1MB。
+  // 1-B：数据文件带内容哈希，不再硬编码文件名，统一走 manifest 解析。
   const books = getTopBooks(50).map(toCompareBook);
-  return <CompareContent books={books} allBooksUrl="/data/books-compare.json" />;
+  return <CompareContent books={books} allBooksUrl />;
 }

@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllBooks, getCuratedLists, getAllCategories, getAllAuthorSlugs, getAllNarratorSlugs } from "@/lib/data/books";
+import { getAllBooks, getCuratedLists, getAllCategories, getAllAuthorSlugs, getAllNarratorSlugs, getAsinsWithDescription } from "@/lib/data/books";
 import { getAllPosts } from "@/lib/api/controllers/blog.controller";
 import { getAllSeries } from "@/lib/data/series";
 import { SITE_CONFIG, LOW_QUALITY_BOOK } from "@/lib/config";
@@ -24,9 +24,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Book detail pages with adaptive priority
   // P0-2: 排除低质量书籍（与书籍详情页 noindex 门禁一致），避免 sitemap 含 noindex URL
+  // 2026-09-20: description 已拆到 books-desc.json，此处用 ASIN 集合做同一判定（构建期路径，可接受同步读取）
+  var asinsWithDesc = getAsinsWithDescription();
   var allBooks = getAllBooks().filter(function(book) {
     const lowQuality =
-      (LOW_QUALITY_BOOK.requireDescription && !book.description?.trim()) ||
+      (LOW_QUALITY_BOOK.requireDescription && !asinsWithDesc.has(book.asin)) ||
       book.starRating < LOW_QUALITY_BOOK.minStarRating ||
       (LOW_QUALITY_BOOK.zeroReviewIsLowQuality && book.reviewCount < 1);
     return !lowQuality;

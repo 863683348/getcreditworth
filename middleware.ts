@@ -119,6 +119,8 @@ export const config = {
      *  - robots.txt、sitemap.xml：搜索引擎入口，必须可抓
      *  - 静态文件后缀：图片/字体/样式/脚本
      * 注意：未排除 .json，因此 /data/books-*.json 受本中间件保护，爬虫无法批量拉取。
+     *      1-B/1-D 后文件名带内容哈希（books-chunk-000.a1b2c3d4.json），
+     *      但匹配规则是「后缀 .json」而非固定文件名 → 保护依然生效。
      */
     "/((?!_next/static|_next/image|api/og|robots\\.txt|sitemap\\.xml|favicon\\.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp|ico|css|js|woff2?|txt|xml)$).*)",
   ],

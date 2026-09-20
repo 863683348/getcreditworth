@@ -12,7 +12,7 @@ import { AUDIBLE_CREDIT_VALUE, LOW_QUALITY_BOOK } from "@/lib/config";
 import { getBooksByCategoryList } from "@/lib/api/controllers/book.controller";
 import { findBookSeries } from "@/lib/data/series";
 import { SeriesNav } from "@/components/SeriesNav";
-import { getAllBooks, findCategoryRank } from "@/lib/data/books";
+import { getAllBooks, findCategoryRank, getBookDescription } from "@/lib/data/books";
 import type { Metadata } from "next";
 
 interface PageProps {
@@ -23,13 +23,16 @@ export function generateStaticParams() {
   return getBookAsins().map((asin) => ({ asin }));
 }
 
-export function generateMetadata({ params }: PageProps): Metadata {
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const book = getBookDetail(params.asin);
   if (!book) return { title: "Book Not Found" };
 
+  // description 已拆到独立文件，按需读取（低质量判定需要它）
+  const bookDescription = await getBookDescription(params.asin);
+
   // P0-2: 低质量书籍页 noindex（集中信号、对抗 spam update 薄内容判定）
   const isLowQuality =
-    (LOW_QUALITY_BOOK.requireDescription && !book.description?.trim()) ||
+    (LOW_QUALITY_BOOK.requireDescription && !bookDescription?.trim()) ||
     book.starRating < LOW_QUALITY_BOOK.minStarRating ||
     (LOW_QUALITY_BOOK.zeroReviewIsLowQuality && book.reviewCount < 1);
   const indexable = !isLowQuality;
@@ -89,9 +92,13 @@ export function generateMetadata({ params }: PageProps): Metadata {
 
 export const dynamicParams = false;
 
-export default function BookDetailPage({ params }: PageProps) {
+export default async function BookDetailPage({ params }: PageProps) {
   const book = getBookDetail(params.asin);
   if (!book) notFound();
+
+  // description 已剥离到 data/books-desc.json，按需加载（避免 4MB 大文本进入主 bundle）
+  const bookDescription = await getBookDescription(params.asin);
+  const bookWithDescription = { ...book, description: bookDescription };
 
   // Related books: same first category, exclude current, top 5 by value score
   const mainCategory = book.categories[0];
@@ -126,7 +133,7 @@ export default function BookDetailPage({ params }: PageProps) {
     },
     {
       question: `How does ${book.title} compare to other audiobooks on credit value?`,
-      answer: `${book.title} has a cost per hour of ${formatPrice(book.costPerHour)} when using an Audible credit. With a Value Score of ${book.valueScore.toFixed(1)} (${book.valueScore >= 8 ? 'excellent' : book.valueScore >= 5 ? 'good' : 'moderate'}), it ranks among ${book.categories[0] || 'popular'} audiobooks. ${book.description ? book.description.split('. ').slice(0, 1).join('. ') + '.' : ''}`,
+      answer: `${book.title} has a cost per hour of ${formatPrice(book.costPerHour)} when using an Audible credit. With a Value Score of ${book.valueScore.toFixed(1)} (${book.valueScore >= 8 ? 'excellent' : book.valueScore >= 5 ? 'good' : 'moderate'}), it ranks among ${book.categories[0] || 'popular'} audiobooks. ${bookDescription ? bookDescription.split('. ').slice(0, 1).join('. ') + '.' : ''}`,
     },
   ];
 
@@ -137,7 +144,7 @@ export default function BookDetailPage({ params }: PageProps) {
 
   return (
     <>
-      <BookDetailContent book={book} relatedBooks={relatedBooks} categoryRank={categoryRank} />
+      <BookDetailContent book={bookWithDescription} relatedBooks={relatedBooks} categoryRank={categoryRank} />
       {function () {
         var info = findBookSeries(book.title);
         if (!info) return null;

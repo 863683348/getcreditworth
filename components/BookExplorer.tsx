@@ -9,6 +9,7 @@ import { SearchBar } from '@/components/SearchBar';
 import { FilterBar } from '@/components/FilterBar';
 import { ViewToggle, type ViewMode } from '@/components/ViewToggle';
 import { filterBooks } from '@/lib/data/books';
+import { loadFullIndex } from '@/lib/data/manifest.client';
 import { useI18n } from '@/lib/i18n';
 
 interface BookExplorerProps {
@@ -16,9 +17,10 @@ interface BookExplorerProps {
   showRank?: boolean;
   title?: string;
   emptyMessage?: string;
-  /** 可选：全量数据 URL（如 /data/books-list.json）。提供时挂载后客户端懒加载替换数据，
-   *  搜索/筛选范围扩展为全量；不提供时行为不变（仅用传入 books）。 */
-  allBooksUrl?: string;
+  /** 可选：启用全量懒加载。true 时经 /data/books-manifest.json 拉取索引分片，
+   *  搜索/筛选范围扩展为全量；不传时行为不变（仅用传入 books）。
+   *  1-D 变更：不再接受硬编码 URL（文件名带内容哈希），统一走 manifest。 */
+  allBooksUrl?: string | boolean;
 }
 
 export function BookExplorer({
@@ -81,21 +83,21 @@ export function BookExplorer({
   }, [allBooks, keyword, duration, minRating, category, narrator]);
 
   // 懒加载全量数据：仅在用户首次搜索/筛选时才拉取（Fast Origin Transfer 优化）。
-  // 挂载时不下载，避免每个首页/列表页都回源 2MB+ JSON。
+  // 挂载时不下载，避免每个首页/列表页都回源。
+  // 1-D：改为经 manifest 拉取**索引分片**（合计 ≈3.2MB，且分片带内容哈希 → 可跨部署缓存命中）。
   const loadFull = useCallback(() => {
     if (loadedFull || !allBooksUrl) return;
     setLoadedFull(true);
-    fetch(allBooksUrl)
-      .then((res) => (res.ok ? res.json() : Promise.reject(new Error(`HTTP ${res.status}`))))
-      .then((data: Book[]) => {
-        if (Array.isArray(data) && data.length > 0) {
-          setAllBooks(data);
+    loadFullIndex()
+      .then((data) => {
+        if (data.length > 0) {
+          setAllBooks(data as unknown as Book[]);
           setCurrentPage(1);
         }
       })
       .catch((err) => {
         // 静默失败：保持初始数据可用（搜索范围缩小但不白屏）
-        console.error('BookExplorer: failed to load full list', err);
+        console.error('BookExplorer: failed to load full index', err);
       });
   }, [allBooksUrl, loadedFull]);
 

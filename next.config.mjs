@@ -89,12 +89,29 @@ const nextConfig = {
   },
   async headers() {
     return [
-      // 客户端懒加载的全量书籍 JSON（prebuild 生成，替代原 force-static API 路由）。
-      // 1 天新鲜 + 7 天 SWR；daily expand 每天更新时文件名不变，浏览器/CDN 最多拿 1 天前数据。
+      // 1-B/1-D（2026-09-20）：客户端懒加载的数据分片。
+      // 文件名带 8 位内容 md5（books-chunk-000.a1b2c3d4.json），内容变则文件名变，
+      // 因此可安全用 immutable —— 浏览器与 Vercel Edge 可永久缓存，永不回源。
+      // 这同时解决 Deployment Storage：文件名稳定 → 跨部署复用同一对象 → 不重复计入配额。
       {
-        source: "/data/books-:file(list|compare).json",
+        source: "/data/books-(chunk|idxchunk|cmpchunk)-:n([0-9]{3}).:hash([0-9a-f]{8}).json",
         headers: [
-          { key: "Cache-Control", value: "public, max-age=86400, stale-while-revalidate=604800" },
+          { key: "Cache-Control", value: "public, max-age=31536000, immutable" },
+        ],
+      },
+      // 兼容旧版单文件 compare（若某次回滚仍产出该文件名）
+      {
+        source: "/data/books-compare.:hash([0-9a-f]{8}).json",
+        headers: [
+          { key: "Cache-Control", value: "public, max-age=31536000, immutable" },
+        ],
+      },
+      // manifest 是唯一入口，文件名固定但内容每天变（8KB）→ 短缓存 + 长 SWR。
+      // 浏览器最长可容忍 1 天前清单（分片 URL 变化只影响是否拿到当天新增书）。
+      {
+        source: "/data/books-manifest.json",
+        headers: [
+          { key: "Cache-Control", value: "public, max-age=300, stale-while-revalidate=86400" },
         ],
       },
       {

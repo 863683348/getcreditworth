@@ -5,15 +5,17 @@ import Link from 'next/link';
 import { GitCompare, Search, X } from 'lucide-react';
 import type { CompareBook } from '@/lib/types';
 import { ValueScoreBadge } from '@/components/ValueScoreBadge';
+import { loadCompareAll } from '@/lib/data/manifest.client';
 import { formatDuration, formatPrice, formatRating } from '@/lib/utils/format';
 
 const MAX_COMPARE = 4;
 
 interface CompareContentProps {
   books: CompareBook[];
-  /** 可选：全量对比数据 URL（如 /data/books-compare.json）。提供时挂载后客户端懒加载替换数据，
-   *  搜索/选择范围扩展为全量；不提供时行为不变（仅用传入 books）。 */
-  allBooksUrl?: string;
+  /** 可选：启用全量对比数据懒加载。true 时经 /data/books-manifest.json 拉取
+   *  books-compare 分片，搜索/选择范围扩展为全量；不传时行为不变（仅用传入 books）。
+   *  1-B 变更：不再接受硬编码 URL（文件名带内容哈希），统一走 manifest。 */
+  allBooksUrl?: string | boolean;
 }
 
 function CompareRow({ label, books }: { label: string; books: CompareBook[] }) {
@@ -53,15 +55,15 @@ export function CompareContent({ books, allBooksUrl }: CompareContentProps) {
   const [loadedFull, setLoadedFull] = useState(false);
 
   // 懒加载全量对比数据：仅在用户搜索时才拉取（Fast Origin Transfer 优化）。
-  // 挂载时不下载，避免每个对比页都回源 ~1MB JSON。
+  // 挂载时不下载，避免每个对比页都回源。
+  // 1-B：文件名带内容哈希，经 manifest 解析；内容不变时浏览器/CDN 长缓存直接命中。
   const loadFull = useCallback(() => {
     if (loadedFull || !allBooksUrl) return;
     setLoadedFull(true);
-    fetch(allBooksUrl)
-      .then((res) => (res.ok ? res.json() : Promise.reject(new Error(`HTTP ${res.status}`))))
-      .then((data: CompareBook[]) => {
-        if (Array.isArray(data) && data.length > 0) {
-          setAllBooks(data);
+    loadCompareAll()
+      .then((data) => {
+        if (data.length > 0) {
+          setAllBooks(data as unknown as CompareBook[]);
         }
       })
       .catch((err) => {

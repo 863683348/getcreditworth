@@ -49,3 +49,6 @@ getcreditworth-fresh/
 # generate-content 脚本运行时产生的备份/干跑产物（非源码）
 data/blog/posts.tsx.bak
 data/blog/posts.tsx.dryrun
+
+# 2026-09-20 一次性数据归档（已移出构建路径，详见 data/_archive/README.md）
+data/_archive/

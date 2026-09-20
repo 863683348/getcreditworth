@@ -1,8 +1,17 @@
 ﻿name: Daily Data Update
 
+# 1-C（2026-09-20 Vercel Deployment Storage 优化）：
+#   cron 已**停用** —— 本 workflow 每天会写 data/books.json 并单独 push，
+#   与 book-expand.yml 形成两条独立提交 → 每天多一次生产部署。
+#   ⚠️ 保留此文件仅为手动补跑（workflow_dispatch）。
+#
+#   🔴 若需要恢复自动运行：注意它写 books.json 时是**全量重写**
+#      （fetch-audible.mjs 读 books-merged.json 后整体 writeFileSync），
+#      与 book-expand.yml 的 append 语义并存会导致互相覆盖，须先做互斥改造。
+
 on:
-  schedule:
-    - cron: "0 1 * * *"
+  # schedule:
+  #   - cron: "0 1 * * *"
   workflow_dispatch:
     inputs:
       skip_revalidate:
@@ -64,7 +73,7 @@ jobs:
         run: |
           git config user.name "getcreditworth-bot"
           git config user.email "bot@getcreditworth.com"
-          git add data/seeds-*.json data/books.json data/books-merged.json
+          git add data/books.json
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else

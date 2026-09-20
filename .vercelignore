@@ -13,3 +13,11 @@ dev/
 test-real.jpg
 test-cover.jpg
 tsconfig.tsbuildinfo
+
+# 2026-09-20 Vercel Deployment Storage 优化 — 一次性数据归档（每次部署省 ~10.58 MB）
+# 详见 data/_archive/README.md
+data/_archive/
+data/books-merged.json
+data/seeds-*.json
+data/extra-seeds.json
+data/blog/append-posts.txt

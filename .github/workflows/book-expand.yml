@@ -1,5 +1,21 @@
 name: Book Library Daily Expand (30-day plan)
 
+# 1-C（2026-09-20 Vercel Deployment Storage 优化）：
+#   本 workflow 是**唯一**的 books.json 写入方 + 唯一的数据提交点。
+#
+#   合并前（3 个 workflow 各自 push，3.13 次部署/天）：
+#     daily-data-update.yml   UTC 01:00  → "chore: daily book data update"
+#     update-curated-lists.yml UTC 02:00 → "chore: update curated lists"
+#     book-expand.yml         UTC 16:15  → "chore(books): daily expand"
+#
+#   合并后（1 次部署/天）：
+#     daily-data-update.yml / update-curated-lists.yml 的 cron 已注释，
+#     改为本 workflow 在写完 books.json 后**顺序执行**它们的脚本，
+#     所有产物（books.json / curated-lists.json）攒成**一个 commit** 一次 push
+#     → Vercel 只触发 1 次生产部署。
+#
+#   保留这两个 workflow 文件（含 workflow_dispatch）以便手动单独补跑。
+
 on:
   schedule:
     - cron: "15 16 * * *" # UTC 16:15 = 北京时间次日 00:15
@@ -13,6 +29,10 @@ on:
         description: "指定主题日(1-30)，留空按日期自动"
         required: false
         default: ""
+      skip_curated:
+        description: "跳过 curated-lists 重算（仅补书时用）"
+        required: false
+        default: "false"
 
 env:
   NODE_VERSION: "20"
@@ -32,6 +52,7 @@ jobs:
         with:
           node-version: ${{ env.NODE_VERSION }}
 
+      # ── 阶段 1：拉取新书（原 book-expand 的职责） ──
       - name: Run daily book expand
         id: expand
         run: |
@@ -42,17 +63,27 @@ jobs:
           fi
           node scripts/fetch-books-daily.mjs "$COUNT" $DAY_ARG
 
-      - name: Commit and push
+      # ── 阶段 2：重算 curated lists（原 update-curated-lists 的职责） ──
+      # 必须放在 books.json 写完之后，因为榜单是从 books.json 派生的。
+      # 逐日都跑（而非原 cron 的隔天），保证 books.json 变更当天榜单即同步，
+      # 不再产生「书籍已更新但榜单滞后一天」的第二个 commit。
+      - name: Regenerate curated lists
+        if: ${{ github.event.inputs.skip_curated != 'true' }}
+        run: node scripts/regenerate-curated-lists.mjs
+        continue-on-error: true
+
+      # ── 阶段 3：一次性提交全部数据产物 ──
+      - name: Commit and push (single commit)
         run: |
           git config user.name "getcreditworth-bot"
           git config user.email "bot@getcreditworth.com"
-          git add data/books.json
+          git add data/books.json data/curated-lists.json
           if git diff --cached --quiet; then
-            echo "No new books today, nothing to commit"
+            echo "No data changes today, nothing to commit"
           else
-            git commit -m "chore(books): daily expand $(date +'%Y-%m-%d')"
+            git commit -m "chore(books): daily expand + curated lists $(date +'%Y-%m-%d')"
             git push
-            echo "Pushed book expansion"
+            echo "Pushed single merged data commit"
           fi
 
       - name: Trigger ISR revalidation
@@ -63,3 +94,4 @@ jobs:
             -d '{"secret":"${{ secrets.REVALIDATE_SECRET }}"}' \
             || echo "revalidate skipped"
         continue-on-error: true
+
