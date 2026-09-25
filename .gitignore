@@ -34,6 +34,9 @@ pnpm-debug.log*
 # vercel
 .vercel
 
+# 本地 A2M 订单落盘（仅本地联调，不提交）
+.a2m-orders/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

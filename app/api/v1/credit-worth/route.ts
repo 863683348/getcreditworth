@@ -4,65 +4,72 @@
  *
  * 输入（application/json）：
  *   {
- *     "asins": ["B0CPMLBV5M", "..."],   // 必填，最多 50 个，10 位大写字母数字
+ *     "asins": ["B0CPMLBV5M", "..."],   // 必填，最多 50 个，10 位字母数字
  *     "monthly_credits": 1,             // 可选，本期手上的信用点数，默认 1
- *     "genre_filter": "business",       // 可选，只在命中该分类的书里做比较
- *     "payment_code": "..."             // 可选，付款凭据；带有效凭据则跳免费额度
+ *     "genre_filter": "business"        // 可选，只在命中该分类的书里做比较
  *   }
  *
- * 输出：见 CreditWorthResult。核心不是数据，是每条 verdict 与整体 swap 建议。
- *
- * 计费：每一身份每日免费 CREDITWORTH_FREE_DAILY 次（默认 5）。
- *       超出后返回 402，响应头携带一次性付款凭据。
- *       付款后把凭据回填到请求体 payment_code 重试即放行。
+ * 计费走支付宝 AI 按量付费（A2M）：
+ *   ① 无 `Payment-Proof` 头时，先扣本地免费额度（CREDITWORTH_FREE_DAILY，默认 5）。
+ *   ② 额度用尽返回 HTTP 402，账单放在 `Payment-Needed` 头。
+ *   ③ 用户付款后，客户端携 `Payment-Proof` 重试同一请求，服务端验付并交付。
+ *   ④ 交付成功后响应头回填 `Payment-Validation`。
  *
  * 说明：本端点只读 data/books.json 与既有的计分函数，不新增数据链路。
- *       公开的 /api/books 保持不变（SEE 与站点导流依赖它）。
+ *       公开的 /api/books 保持不变（SEO 与站点导流依赖它）。
  */
 
 import { NextResponse } from 'next/server';
 import { errorResponse, successResponse } from '@/lib/api/response';
 import { MAX_ASINS, analyzeCreditWorth, normalizeAsins } from '@/lib/api/controllers/credit-worth.controller';
 import {
-  X402_PROTOCOL,
-  X402_RESOURCE,
-  consumeQuota,
-  createOrder,
-  getIdentity,
-  paywallMessage,
-  peekQuota,
+  A2M_RESOURCE_PATH,
+  PAYMENT_NEEDED_HEADER,
+  PAYMENT_PROOF_HEADER,
+  PAYMENT_VALIDATION_HEADER,
+  authorizeWithProof,
+  buildRequestHash,
+  createPaymentRequired,
   unitPriceCny,
-  verifyPayment,
-} from '@/lib/payment/x402';
+} from '@/lib/payment/a2m';
+import { consumeQuota, getIdentity, peekQuota } from '@/lib/payment/quota';
+import type { CreditWorthResult } from '@/lib/api/controllers/credit-worth.controller';
 
 export const dynamic = 'force-dynamic';
+/** 账单签名与验付都要用 node:crypto，必须跑在 Node runtime。 */
+export const runtime = 'nodejs';
 
-const USAGE = {
-  endpoint: X402_RESOURCE,
-  method: 'POST',
-  protocol: X402_PROTOCOL,
-  price_cny: unitPriceCny(),
-  billing: 'per_call',
-  free_quota: 'CREDITWORTH_FREE_DAILY（默认 5 次/身份/日）',
-  request: {
-    asins: `string[]，必填，最多 ${MAX_ASINS} 个 ASIN`,
-    monthly_credits: 'number，可选，默认 1',
-    genre_filter: 'string，可选，分类关键词（小写子串匹配）',
-    payment_code: 'string，可选，付款凭据',
-  },
-  response: {
-    results: '逐本结论，含 percentile / rank / verdict / verdictLine',
-    recommendation: 'buy / skip / swap_candidates / lines',
-    pool: '比较集合的口径与中位数',
-  },
-  credit_value_usd: 14.95,
-};
+const A2M_PROTOCOL = 'alipay-ai-pay-a2m';
+
+/** 单次调用最多分析的 ASIN 数，用于账单里的商品名展示。 */
+const GOODS_BASE = 'Audible 信用值决策';
 
 export async function GET(request: Request) {
   const identity = getIdentity(request);
   return NextResponse.json(
     successResponse({
-      ...USAGE,
+      endpoint: A2M_RESOURCE_PATH,
+      method: 'POST',
+      protocol: A2M_PROTOCOL,
+      price_cny: unitPriceCny(),
+      billing: 'per_call',
+      payment_headers: {
+        bill: PAYMENT_NEEDED_HEADER,
+        proof: PAYMENT_PROOF_HEADER,
+        validation: PAYMENT_VALIDATION_HEADER,
+      },
+      free_quota: 'CREDITWORTH_FREE_DAILY（默认 5 次/身份/日）',
+      request: {
+        asins: `string[]，必填，最多 ${MAX_ASINS} 个 ASIN`,
+        monthly_credits: 'number，可选，默认 1',
+        genre_filter: 'string，可选，分类关键词（小写子串匹配）',
+      },
+      response: {
+        results: '逐本结论，含 percentile / rank / verdict / verdictLine',
+        recommendation: 'buy / skip / swap_candidates / lines',
+        pool: '比较集合的口径与中位数',
+      },
+      credit_value_usd: 14.95,
       quota: peekQuota(identity),
     })
   );
@@ -90,74 +97,126 @@ export async function POST(request: Request) {
   }
 
   const identity = getIdentity(request);
+  const goodsName = `${GOODS_BASE}（${asins.length} 本）`;
+  const requestHash = buildRequestHash({
+    asins,
+    monthly_credits: body.monthly_credits ?? 1,
+    genre_filter: body.genre_filter ?? null,
+  });
 
-  // ① 有付款凭据就先核销，核销通过则不受免费额度限制
-  let paidVia: 'quota' | 'payment' = 'quota';
-  const paymentCode = typeof body.payment_code === 'string' ? body.payment_code : null;
-  if (paymentCode) {
-    const verdict = await verifyPayment(paymentCode);
-    if (verdict.paid) {
-      paidVia = 'payment';
-    } else {
-      return NextResponse.json(
-        errorResponse('PAYMENT_INVALID', `付款凭据未通过核销：${verdict.reason}`),
-        { status: 402, headers: { 'WeixinPay-Required': paymentCode } }
-      );
-    }
-  }
-
-  // ② 没走付款就走免费额度
-  let quotaHeaders: Record<string, string> = {};
-  if (paidVia === 'quota') {
-    const { allowed, quota } = consumeQuota(identity);
-    quotaHeaders = {
-      'X-Credit-Worth-Quota-Limit': String(quota.limit),
-      'X-Credit-Worth-Quota-Remaining': String(quota.remaining),
-      'X-Credit-Worth-Quota-Reset': quota.resetAt,
-    };
-    if (!allowed) {
-      try {
-        const order = await createOrder({
-          identity,
-          quantity: 1,
-          summary: `credit-worth:${asins.length} asins`,
-        });
-        return NextResponse.json(
-          errorResponse('PAYMENT_REQUIRED', paywallMessage(quota, order.amount)),
-          {
-            status: 402,
-            headers: {
-              // 客户端识别到这个头即触发工程化支付；其值即 paymentCode
-              'WeixinPay-Required': order.payment_code,
-              'X-Payment-Protocol': X402_PROTOCOL,
-              'X-Payment-Order-Id': order.order_id,
-              'X-Payment-Amount': order.amount,
-              'X-Payment-Currency': order.currency,
-              'X-Payment-Expires': order.expires_at,
-              ...quotaHeaders,
-            },
-          }
-        );
-      } catch (err) {
-        return NextResponse.json(
-          errorResponse('PAYMENT_INIT_FAILED', err instanceof Error ? err.message : '预下单失败'),
-          { status: 503 }
-        );
-      }
-    }
-  }
-
-  try {
-    const result = analyzeCreditWorth({
+  const analyze = (): CreditWorthResult =>
+    analyzeCreditWorth({
       asins,
       monthly_credits: body.monthly_credits,
       genre_filter: body.genre_filter,
     });
+
+  const paidResponse = (result: CreditWorthResult, tradeNo: string, alreadyFulfilled: boolean, validation: string) =>
+    NextResponse.json(
+      successResponse(result, `分析 ${result.results.length} 本，未命中 ${result.notFound.length} 个 ASIN`),
+      {
+        headers: {
+          'X-Credit-Worth-Paid-Via': 'payment',
+          'X-Credit-Worth-Pool': `${result.pool.scope}:${result.pool.size}`,
+          [PAYMENT_VALIDATION_HEADER]: validation,
+          'X-Payment-Trade-No': tradeNo,
+          'X-Payment-Already-Fulfilled': String(alreadyFulfilled),
+        },
+      }
+    );
+
+  // ── 有 Payment-Proof：走支付宝验付与履约 ────────────────────────────────
+  const proofHeader = request.headers.get(PAYMENT_PROOF_HEADER);
+  if (proofHeader) {
+    const issueNewBill = async (): Promise<string> => {
+      const bill = await createPaymentRequired({ goodsName, requestHash, identity });
+      return bill.neededHeader;
+    };
+
+    const outcome = await authorizeWithProof({
+      proofHeader,
+      requestHash,
+      createResource: () => JSON.stringify(analyze()),
+      issueNewBill,
+    });
+
+    if (outcome.status === 'paid') {
+      return paidResponse(
+        JSON.parse(outcome.payload) as CreditWorthResult,
+        outcome.tradeNo,
+        outcome.alreadyFulfilled,
+        outcome.validationHeader
+      );
+    }
+
+    if (outcome.status === 'fulfillment_pending') {
+      return NextResponse.json(
+        errorResponse('FULFILLMENT_CONFIRM_FAILED', outcome.message),
+        {
+          status: 502,
+          headers: {
+            'X-Payment-Trade-No': outcome.tradeNo,
+            'X-Payment-Out-Trade-No': outcome.outTradeNo,
+            'Retry-After': '3',
+          },
+        }
+      );
+    }
+
+    return NextResponse.json(errorResponse('PAYMENT_INVALID', outcome.reason), {
+      status: 402,
+      headers: outcome.neededHeader ? { [PAYMENT_NEEDED_HEADER]: outcome.neededHeader } : {},
+    });
+  }
+
+  // ── 无 Payment-Proof：先扣免费额度 ──────────────────────────────────────
+  const { allowed, quota } = consumeQuota(identity);
+  const quotaHeaders = {
+    'X-Credit-Worth-Quota-Limit': String(quota.limit),
+    'X-Credit-Worth-Quota-Remaining': String(quota.remaining),
+    'X-Credit-Worth-Quota-Reset': quota.resetAt,
+  };
+
+  if (!allowed) {
+    try {
+      const bill = await createPaymentRequired({ goodsName, requestHash, identity });
+      return NextResponse.json(
+        errorResponse(
+          'PAYMENT_REQUIRED',
+          `今日 ${quota.limit} 次免费额度已用完。本次调用需支付 ¥${bill.amount}，` +
+            `请按 ${PAYMENT_NEEDED_HEADER} 头完成付款后，携 ${PAYMENT_PROOF_HEADER} 重试同一请求。`
+        ),
+        {
+          status: 402,
+          headers: {
+            [PAYMENT_NEEDED_HEADER]: bill.neededHeader,
+            'X-Payment-Order-Id': bill.outTradeNo,
+            'X-Payment-Amount': bill.amount,
+            'X-Payment-Currency': 'CNY',
+            'X-Payment-Service-Id': A2M_RESOURCE_PATH,
+            'X-Payment-Pay-Before': bill.payBefore,
+            ...quotaHeaders,
+          },
+        }
+      );
+    } catch (err) {
+      return NextResponse.json(
+        errorResponse(
+          'PAYMENT_INIT_FAILED',
+          err instanceof Error ? err.message : '账单生成失败，请检查服务端支付宝配置'
+        ),
+        { status: 503, headers: quotaHeaders }
+      );
+    }
+  }
+
+  try {
+    const result = analyze();
     return NextResponse.json(
       successResponse(result, `分析 ${result.results.length} 本，未命中 ${result.notFound.length} 个 ASIN`),
       {
         headers: {
-          'X-Credit-Worth-Paid-Via': paidVia,
+          'X-Credit-Worth-Paid-Via': 'quota',
           'X-Credit-Worth-Pool': `${result.pool.scope}:${result.pool.size}`,
           'X-Credit-Worth-Price': unitPriceCny(),
           ...quotaHeaders,
@@ -167,7 +226,7 @@ export async function POST(request: Request) {
   } catch (err) {
     return NextResponse.json(
       errorResponse('ANALYZE_ERROR', err instanceof Error ? err.message : 'Unknown error'),
-      { status: 500 }
+      { status: 500, headers: quotaHeaders }
     );
   }
 }
