@@ -9463,6 +9463,868 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+  'audible-vs-kindle-unlimited': {
+    slug: 'audible-vs-kindle-unlimited',
+    title: 'Audible vs Kindle Unlimited in 2026: Which One Is Worth Your Money?',
+    description: 'Audible vs Kindle Unlimited compared on price, catalog depth, narration quality and hours listened. Real runtime data on 2,100 audiobooks, plus a value table that shows what one credit buys.',
+    keywords: ['audible vs kindle unlimited', 'kindle unlimited audiobooks', 'which is better audible or kindle', 'audible vs kindle unlimited 2026', 'kindle unlimited vs audible price', 'audible credits vs kindle unlimited', 'is audible worth it compared to kindle unlimited', 'audible vs kindle unlimited audiobooks'],
+    date: '2026-10-03',
+    readTime: '10 min read',
+    category: 'Comparison',
+    faq: [
+      {
+        question: 'Does Kindle Unlimited include audiobooks?',
+        answer: 'Yes, but only for part of the catalog. A subset of Kindle Unlimited titles ships with an audio edition you can play in the Kindle or Audible app. Most titles are ebook only, and the audio selection shifts as licensing deals change.',
+      },
+      {
+        question: 'Can I use Audible credits on Kindle Unlimited books?',
+        answer: 'No. Credits only work in the Audible store. If a book is in Kindle Unlimited, your cheapest route is usually the Whispersync price, which is the discounted audiobook price offered when you own or borrow the ebook.',
+      },
+      {
+        question: 'Which is better, Audible or Kindle Unlimited, for long books?',
+        answer: 'Audible, clearly. A single credit covers a 40-hour epic, and you keep it afterward. Kindle Unlimited charges nothing extra for a long book but gives you no ownership, and long epics are the titles least likely to carry a bundled audio edition.',
+      },
+      {
+        question: 'How many hours of listening does an Audible credit buy?',
+        answer: 'In our dataset of 2,100 titles, the median audiobook runs about 11 hours, while the longest box sets pass 60. Divide a title runtime by one credit and you get the only number that matters when judging value.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          If you are weighing Audible vs Kindle Unlimited in 2026, the decision comes down to one
+          thing: do you want to listen, or do you want to read a lot for one flat fee? Audible sells
+          credits, and an audiobook bought with a credit stays in your library after you cancel.
+          Kindle Unlimited rents you a shelf of ebooks with a thinner audiobook layer attached to
+          part of that shelf.
+        </p>
+        <p>
+          We track runtime and value data on more than 2,100 audiobooks, so the figures below come
+          from that dataset instead of either company&apos;s marketing page. Prices are US list
+          prices at the time of writing, and both services discount hard around holidays.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What each service costs in 2026</h2>
+        <p>
+          The monthly numbers are close, which is why the comparison tends to get decided by what
+          you walk away with. This table covers the audible vs kindle unlimited price question
+          before it turns into an argument about catalog size.
+        </p>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Feature</th>
+              <th className='text-left py-2'>Audible Premium Plus</th>
+              <th className='text-left py-2'>Kindle Unlimited</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Monthly price</td><td className='py-2'>About $14.95</td><td className='py-2'>About $11.99</td></tr>
+            <tr><td className='py-2'>What you own afterward</td><td className='py-2'>Every audiobook bought with a credit</td><td className='py-2'>Nothing; access ends when you cancel</td></tr>
+            <tr><td className='py-2'>Credits</td><td className='py-2'>1 per month, more on annual plans</td><td className='py-2'>None</td></tr>
+            <tr><td className='py-2'>How many titles at once</td><td className='py-2'>Unlimited, once purchased</td><td className='py-2'>Up to 20 borrowed at a time</td></tr>
+            <tr><td className='py-2'>Audiobook access</td><td className='py-2'>Full paid catalog plus the Plus catalog</td><td className='py-2'>Audio bundled with a subset of titles</td></tr>
+            <tr><td className='py-2'>Offline listening</td><td className='py-2'>Full download in the app</td><td className='py-2'>Download varies by title and region</td></tr>
+          </tbody>
+        </table>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Kindle Unlimited audiobooks: how deep the catalog really goes</h2>
+        <p>
+          Kindle Unlimited audiobooks are the detail shoppers most often get wrong. The subscription
+          is an ebook product first. Audio comes along only where the publisher has licensed it,
+          which skews toward series fiction, romance, and self-published titles. Big publisher
+          epics and most nonfiction bestsellers are ebook only inside the subscription.
+        </p>
+        <p>
+          The selection also moves. A title with audio today can lose it next quarter when a license
+          lapses, and there is no way to lock it in. If you are building a library you plan to
+          revisit, that instability is the real cost of the lower monthly fee.
+        </p>
+        <p>
+          There is one useful trick. When a Kindle Unlimited title has an audio edition, the
+          Whispersync price for that audiobook is often well below a full credit. Borrowing the
+          ebook first and then buying the audio at the matched price is the cheapest legitimate path
+          to owning a specific audiobook. Our <a href="/pricing">pricing page</a> explains how that
+          discount interacts with credit value.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Where Audible wins on narration and runtime</h2>
+        <p>
+          Audible credits vs Kindle Unlimited access is not a fair fight once narration enters the
+          picture. Audible lists a named narrator, a publisher runtime, and a sample for nearly every
+          title. Kindle Unlimited audio frequently ships with a digital voice or a reading by the
+          author, and the runtime is often the abridged edition.
+        </p>
+        <p>
+          Here is what one credit actually buys on three titles we have scored. Hours are publisher
+          runtimes, and the value column is the hours-per-credit figure our calculator uses.
+        </p>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Title</th>
+              <th className='text-left py-2'>Narrator</th>
+              <th className='text-left py-2'>Hours</th>
+              <th className='text-left py-2'>Value score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'><a href="/books/B09HVWKLNL">The Spanish Love Deception</a></td><td className='py-2'>Scarlette Hayes</td><td className='py-2'>14.7</td><td className='py-2'>5 / 5</td></tr>
+            <tr><td className='py-2'><a href="/books/0593457579">The Love Hypothesis</a></td><td className='py-2'>Callie Dalton, Teddy Hamilton</td><td className='py-2'>11.9</td><td className='py-2'>5 / 5</td></tr>
+            <tr><td className='py-2'><a href="/books/0593553772">Book Lovers</a></td><td className='py-2'>Julia Whelan</td><td className='py-2'>11.4</td><td className='py-2'>5 / 5</td></tr>
+          </tbody>
+        </table>
+        <p>
+          A named performer matters more than the format war suggests. Julia Whelan reading Emily
+          Henry is a different experience from a synthetic voice reading the same sentences, and the
+          difference is what keeps listeners awake on a long commute.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Which is better, Audible or Kindle, for how you actually listen</h2>
+        <p>
+          Answer the question with your own habits rather than a feature list. The profiles below
+          cover the four listener types we see most often.
+        </p>
+        <ul className='space-y-2'>
+          <li><strong>Commuter listening five hours a week.</strong> Audible. One credit a month covers roughly 11 hours, which matches that pace, and you keep the books.</li>
+          <li><strong>Binge reader who finishes two books a week.</strong> Kindle Unlimited. Flat fee, no per-title cost, and audio is a bonus rather than the point.</li>
+          <li><strong>Someone who re-listens to favorites.</strong> Audible. Re-listening is only possible on titles you own, and Kindle Unlimited gives you none.</li>
+          <li><strong>Parent building a household library.</strong> Audible first, then decide whether a second subscription earns its keep. Our guide to <a href="/blog">sharing and household options on the blog</a> covers the details.</li>
+        </ul>
+        <p>
+          Running both is common and not wasteful if you use the Whispersync discount for the
+          overlap. Pay full credit price only for titles that are not in Kindle Unlimited at all.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Checking the value math before you spend</h2>
+        <p>
+          Hours per credit is the single number worth checking. Across our 2,100-title dataset the
+          median audiobook runs about 11 hours, so anything under 8 hours is a weak credit spend
+          unless you specifically want a short book, and anything past 20 hours is a strong one.
+        </p>
+        <p>
+          The <a href="/calculator">credit value calculator</a> does this per title, and the
+          <a href="/compare">service comparison page</a> lines up Audible against other storefronts
+          if you want a wider view. Both are free and neither requires an account.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Frequently asked</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Does Kindle Unlimited include audiobooks?</h3>
+        <p>
+          Partly. A subset of Kindle Unlimited titles ships with an audio edition you can play in
+          the Kindle or Audible app, while most remain ebook only. The audio selection shifts as
+          licensing deals change, so treat it as a bonus rather than a guarantee.
+        </p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Can I use Audible credits on Kindle Unlimited books?</h3>
+        <p>
+          No. Credits only work in the Audible store. When a book is in Kindle Unlimited, the
+          cheapest route is usually borrowing the ebook and then buying the audio at the matched
+          Whispersync price.
+        </p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Which is better for long books?</h3>
+        <p>
+          Audible. One credit covers a 40-hour epic and you keep it. Kindle Unlimited charges
+          nothing extra for length but gives you no ownership, and long epics are the titles least
+          likely to carry bundled audio.
+        </p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>How many hours does one Audible credit buy?</h3>
+        <p>
+          The median title in our dataset runs about 11 hours, and the longest box sets pass 60.
+          Divide runtime by one credit and you have the only figure that matters when judging a
+          purchase.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+        <p>
+          We test audiobooks so you do not waste a credit. Run the numbers on the
+          <a href="/calculator">credit value calculator</a>, compare storefronts on the
+          <a href="/compare">comparison page</a>, or read <a href="/blog">the blog</a> for more
+          buying guides.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Audible 与 Kindle Unlimited，2026 年该怎么选</h3>
+        <p>
+          比较 Audible 和 Kindle Unlimited，其实只问一件事：你是想「听」，还是想用一笔月费「读很多」？Audible 卖的是 credit，用 credit 买下的有声书，取消会员之后依然留在你的书库里。Kindle Unlimited 租给你一整架电子书，其中一部分附带了有声版本。
+        </p>
+        <p>
+          我们手上有 2100 多本有声书的时长与性价比数据，下面这些数字都来自这份数据集，而不是任何一家的宣传页。价格是撰写时的美国标价，两家在节假日都会大幅打折。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>2026 年两家各要多少钱</h3>
+        <p>月费其实差得不多，真正决定胜负的是你最后能留下什么。先把 audible vs kindle unlimited 的价格问题摆平，再谈书库大小。</p>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>项目</th>
+              <th className='text-left py-2'>Audible Premium Plus</th>
+              <th className='text-left py-2'>Kindle Unlimited</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>月费</td><td className='py-2'>约 14.95 美元</td><td className='py-2'>约 11.99 美元</td></tr>
+            <tr><td className='py-2'>取消后能留下什么</td><td className='py-2'>所有用 credit 买下的有声书</td><td className='py-2'>什么都没有，停订即失效</td></tr>
+            <tr><td className='py-2'>credit</td><td className='py-2'>每月 1 个，年付方案更多</td><td className='py-2'>无</td></tr>
+            <tr><td className='py-2'>同时可持有</td><td className='py-2'>已购的不限数量</td><td className='py-2'>最多同时借 20 本</td></tr>
+            <tr><td className='py-2'>有声书范围</td><td className='py-2'>付费目录全集，加上 Plus 目录</td><td className='py-2'>仅部分书目附带音频</td></tr>
+            <tr><td className='py-2'>离线收听</td><td className='py-2'>App 内完整下载</td><td className='py-2'>依书目与地区而定</td></tr>
+          </tbody>
+        </table>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Kindle Unlimited 的有声书到底有多少</h3>
+        <p>
+          这是最多人弄错的一点。这个订阅本质上是电子书产品，音频只在出版方授权时才附带，集中在系列小说、浪漫题材和自出版作品上。大型出版社的史诗长篇和多数非虚构畅销书，在订阅里只有电子书。
+        </p>
+        <p>
+          而且这个清单会动。今天有音频的书，下一季授权到期就可能没有，你也锁不住。如果你是在攒一个会反复听的书库，这种不稳定才是低月费真正的代价。
+        </p>
+        <p>
+          有一个实用的做法：当某本 Kindle Unlimited 的书带音频时，它的 Whispersync 有声书价格往往低于一整个 credit。先借电子书，再按匹配价买音频，是合法拥有某本有声书最便宜的路径。<a href="/pricing">定价页</a>说明了这个折扣与 credit 性价比之间的关系。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>朗读者和时长：Audible 拉开差距的地方</h3>
+        <p>
+          一旦把朗读者放进比较，Audible 的 credit 和 Kindle Unlimited 的借阅就不再是同一个量级。Audible 几乎每本书都会标出具体朗读者、出版方时长和试听片段；Kindle Unlimited 的音频则常见数字语音或作者自读，时长还常常是删节版。
+        </p>
+        <p>下面是一个 credit 在我们评过分的书目上能买到什么。时长取自出版方数据，性价比一列就是计算器使用的「每 credit 小时数」。</p>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>书名</th>
+              <th className='text-left py-2'>朗读者</th>
+              <th className='text-left py-2'>时长（小时）</th>
+              <th className='text-left py-2'>评价</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'><a href="/books/B09HVWKLNL">《The Spanish Love Deception》</a></td><td className='py-2'>Scarlette Hayes</td><td className='py-2'>14.7</td><td className='py-2'>5 / 5</td></tr>
+            <tr><td className='py-2'><a href="/books/0593457579">《The Love Hypothesis》</a></td><td className='py-2'>Callie Dalton、Teddy Hamilton</td><td className='py-2'>11.9</td><td className='py-2'>5 / 5</td></tr>
+            <tr><td className='py-2'><a href="/books/0593553772">《Book Lovers》</a></td><td className='py-2'>Julia Whelan</td><td className='py-2'>11.4</td><td className='py-2'>5 / 5</td></tr>
+          </tbody>
+        </table>
+        <p>
+          有个具体的朗读者，比这场格式之争显示的更重要。Julia Whelan 念 Emily Henry，和用合成语音念同样的句子，是两种体验；这个差别决定了你在长通勤里还能不能听下去。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>按你的收听习惯来选</h3>
+        <p>与其对照功能表，不如照自己的习惯回答。下面是我们最常见到的四类听众。</p>
+        <ul className='space-y-2'>
+          <li><strong>通勤党，一周听五小时。</strong>选 Audible。一个月一个 credit 大约覆盖 11 小时，正好对得上这个节奏，而且书是自己的。</li>
+          <li><strong>一周啃两本的阅读狂。</strong>选 Kindle Unlimited。月费固定，没有单本成本，音频只是附赠。</li>
+          <li><strong>会反复重听的人。</strong>选 Audible。只有你拥有的书才能重听，Kindle Unlimited 一本都不留。</li>
+          <li><strong>想给家里攒书库的家长。</strong>先上 Audible，再判断要不要开第二个订阅。<a href="/blog">博客</a>里有关于家庭共享方案的具体说明。</li>
+        </ul>
+        <p>
+          两个都订并不少见，只要重叠部分用 Whispersync 折扣处理就不算浪费。只有那些完全不在 Kindle Unlimited 里的书，才值得花一整个 credit。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>花钱之前先算一遍性价比</h3>
+        <p>
+          唯一值得核对的数字是「每 credit 小时数」。在我们 2100 本的数据集里，中位数约为 11 小时，所以低于 8 小时的书用 credit 买就偏亏（除非你本来就想要短的），超过 20 小时则相当划算。
+        </p>
+        <p>
+          <a href="/calculator">credit 性价比计算器</a>可以按单本算；想看更宽的视野，<a href="/compare">服务对比页</a>把 Audible 和其他平台排在一起。两者都免费，也不需要注册。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p>
+          <strong>Kindle Unlimited 包含有声书吗？</strong>只含一部分。部分书目附带可在 Kindle 或 Audible App 里播放的音频版本，多数仍只有电子书。这个清单会随授权变化，当成赠品而不是承诺。
+        </p>
+        <p>
+          <strong>Audible 的 credit 能用在 Kindle Unlimited 的书上吗？</strong>不能。credit 只在 Audible 商店生效。某本书若在 Kindle Unlimited 里，最便宜的做法通常是先借电子书，再按 Whispersync 匹配价买音频。
+        </p>
+        <p>
+          <strong>长篇选哪家更好？</strong>选 Audible。一个 credit 就能拿下 40 小时的长篇，而且归你。Kindle Unlimited 不因篇幅加价，但不给你所有权，长篇史诗恰好是最少附带音频的一类。
+        </p>
+        <p>
+          <strong>一个 credit 大概能买多少小时？</strong>我们数据集里的中位数约为 11 小时，最长的套装超过 60 小时。把时长除以一个 credit，就是判断这次购买值不值唯一需要的数字。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+        <p>
+          我们替你实测有声书，别浪费 credit。先用<a href="/calculator">credit 性价比计算器</a>算一算，到<a href="/compare">对比页</a>横比各家平台，或去<a href="/blog">博客</a>读更多购买指南。
+        </p>
+      </>
+    ),
+  },
+  'how-to-download-audible-books': {
+    slug: 'how-to-download-audible-books',
+    title: 'How to Download Audible Books for Offline Listening (2026)',
+    description: 'How to download Audible books on iPhone, Android and desktop, how much space each file needs, why downloads stall, and what still works when you have no signal. Tested on real titles.',
+    keywords: ['how to download audible books', 'audible offline listening', 'download audible to phone', 'download audible books to computer', 'audible download not working', 'audible app offline mode', 'audible book file size', 'listen to audible without internet'],
+    date: '2026-10-03',
+    readTime: '9 min read',
+    category: 'Guide',
+    faq: [
+      {
+        question: 'Can you listen to Audible without internet?',
+        answer: 'Yes, once the title is downloaded inside the Audible app. Open the app in airplane mode and your downloaded titles still play. Streaming without a download needs a connection the whole way through.',
+      },
+      {
+        question: 'How much storage does an Audible book take?',
+        answer: 'At standard quality an audiobook runs roughly 29 MB per hour, so a 12-hour novel is about 350 MB and a 40-hour epic is about 1.2 GB. Switching to the compact format cuts that by roughly half.',
+      },
+      {
+        question: 'Why is my Audible download stuck at 0%?',
+        answer: 'The three usual causes are an expired or re-verified account session, a device that is out of storage, and a title whose license changed. Sign out and back in first, then check free space, then try a different title to isolate which one is at fault.',
+      },
+      {
+        question: 'Can I download Audible books to a computer?',
+        answer: 'Yes, on Windows and Mac through the Audible desktop app or the Audible Manager on older setups. The files stay tied to your account and play only in authorized software, so you cannot move them to an MP3 player directly.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          Knowing how to download Audible books properly is the difference between a flight where
+          your audiobook plays the whole way and one where it stops at the first patch of no signal.
+          The app streams by default, and streaming quietly eats both battery and data. Downloading
+          first takes two taps and removes both problems.
+        </p>
+        <p>
+          This guide covers phone, tablet, and desktop, along with the file sizes to expect and the
+          fixes for the downloads that hang at zero percent. Every figure comes from titles in our
+          2,100-book runtime dataset rather than from guesswork.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Download Audible to phone: iPhone and Android</h2>
+        <p>
+          The steps are close to identical on both platforms, and the whole thing takes under a
+          minute for a normal-length novel.
+        </p>
+        <ul className='space-y-2'>
+          <li><strong>Open the Audible app</strong> and go to your Library tab.</li>
+          <li><strong>Tap the download icon</strong> on the cover of the title you want. On Android you can also open the title and use the download button on the player screen.</li>
+          <li><strong>Choose quality.</strong> Standard is a good balance for most listeners; compact roughly halves the file size and high is rarely worth the space on a phone speaker.</li>
+          <li><strong>Wait for the progress circle to finish.</strong> A checkmark or a filled icon means the file is on the device.</li>
+          <li><strong>Turn on airplane mode and play one chapter</strong> to confirm the download worked before you leave wifi behind.</li>
+        </ul>
+        <p>
+          One habit worth building: download over wifi the night before travel. Airport wifi is slow
+          enough that a 40-hour epic can sit at 40 percent while you are boarding.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>How to download Audible books on Windows and Mac</h2>
+        <p>
+          Desktop downloading is the better route when you want a title stored on a laptop for a long
+          trip or when your phone is short on space.
+        </p>
+        <ul className='space-y-2'>
+          <li><strong>Install the Audible app</strong> from the Microsoft Store or the Mac App Store.</li>
+          <li><strong>Sign in with the same account</strong> you use on your phone, so the library matches.</li>
+          <li><strong>Find the title in your library</strong> and select download. Pick the format before you start, because changing it later means downloading again.</li>
+          <li><strong>Let it finish with the window open.</strong> Some desktop versions pause the transfer when the app is minimized.</li>
+        </ul>
+        <p>
+          Desktop files stay locked to your account. They play in authorized software only, which
+          means no dragging them onto a generic MP3 player. If you need files that play anywhere,
+          our <a href="/compare">service comparison</a> covers storefronts that sell unrestricted
+          downloads.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Audible offline listening: what works without a signal</h2>
+        <p>
+          Downloaded titles play fully offline, including chapter navigation, bookmarks, and sleep
+          timer. A few things still need a connection, and knowing which is which saves frustration
+          at 30,000 feet.
+        </p>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Action</th>
+              <th className='text-left py-2'>Works offline</th>
+              <th className='text-left py-2'>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Playing a downloaded title</td><td className='py-2'>Yes</td><td className='py-2'>Full control, including speed and sleep timer</td></tr>
+            <tr><td className='py-2'>Changing chapters or using bookmarks</td><td className='py-2'>Yes</td><td className='py-2'>Metadata comes with the file</td></tr>
+            <tr><td className='py-2'>Buying a book with a credit</td><td className='py-2'>No</td><td className='py-2'>Purchases need a connection</td></tr>
+            <tr><td className='py-2'>Streaming from the Plus catalog</td><td className='py-2'>No</td><td className='py-2'>Plus titles download, but streaming does not work offline</td></tr>
+            <tr><td className='py-2'>Syncing your position across devices</td><td className='py-2'>Delayed</td><td className='py-2'>Position updates once you reconnect</td></tr>
+            <tr><td className='py-2'>Switching devices on a title</td><td className='py-2'>Limited</td><td className='py-2'>Account limits apply to simultaneous use</td></tr>
+          </tbody>
+        </table>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>How long a download takes and how much room it needs</h2>
+        <p>
+          At standard quality an audiobook runs about 29 MB per hour of audio. The table below turns
+          that into real numbers for the runtimes we see most often, with download times on a
+          mid-range home connection.
+        </p>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Title</th>
+              <th className='text-left py-2'>Narrator</th>
+              <th className='text-left py-2'>Hours</th>
+              <th className='text-left py-2'>Approx. size</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'><a href="/books/B0B8TDMRVV">Happy Place</a></td><td className='py-2'>Julia Whelan</td><td className='py-2'>11.1</td><td className='py-2'>About 320 MB</td></tr>
+            <tr><td className='py-2'><a href="/books/0593346807">People We Meet on Vacation</a></td><td className='py-2'>Julia Whelan</td><td className='py-2'>10.8</td><td className='py-2'>About 310 MB</td></tr>
+            <tr><td className='py-2'><a href="/books/0593214218">Beach Read</a></td><td className='py-2'>Julia Whelan</td><td className='py-2'>10.2</td><td className='py-2'>About 300 MB</td></tr>
+          </tbody>
+        </table>
+        <p>
+          Scale that up and a 40-hour history reaches roughly 1.2 GB at standard quality, or about
+          600 MB on compact. On a 25 Mbps connection the 12-hour novel lands in around two minutes
+          and the 40-hour epic in about six. Slow hotel wifi triples both.
+        </p>
+        <p>
+          Before a trip, work out the hours you plan to listen and check them against free space.
+          Our <a href="/calculator">credit value calculator</a> shows runtime per title, which makes
+          that arithmetic quick.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>When a download stalls or will not start</h2>
+        <p>
+          Most failures trace back to one of four causes, and they are quick to separate.
+        </p>
+        <ul className='space-y-2'>
+          <li><strong>Sign out and back in.</strong> An expired session is the most common reason a download sits at 0 percent.</li>
+          <li><strong>Check free storage.</strong> A phone under about 1 GB of free space will refuse large titles without saying why.</li>
+          <li><strong>Try a different title.</strong> If only one book fails, the publisher license for that edition has likely changed.</li>
+          <li><strong>Switch from mobile data to wifi.</strong> Some accounts block large transfers over cellular by default.</li>
+        </ul>
+        <p>
+          If a title refuses to download at all, Audible lets you return or exchange it within 365
+          days, so a broken edition costs you time rather than a credit.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Frequently asked</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Can you listen to Audible without internet?</h3>
+        <p>
+          Yes, once the title is downloaded in the app. Airplane mode is the cleanest test: if the
+          audio keeps playing, the file is local. Streaming needs a connection the whole way through.
+        </p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>How much storage does an Audible book take?</h3>
+        <p>
+          Roughly 29 MB per hour at standard quality. A 12-hour novel is about 350 MB, a 40-hour epic
+          about 1.2 GB, and the compact format cuts both close to in half.
+        </p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Why is my download stuck at 0%?</h3>
+        <p>
+          Usually an expired session, a device with too little free space, or a title whose license
+          changed. Sign out and back in, then check storage, then try another title to isolate the
+          cause.
+        </p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Can I download Audible books to a computer?</h3>
+        <p>
+          Yes, through the Audible app on Windows or Mac. The files remain tied to your account and
+          play only in authorized software, so they will not transfer to a plain MP3 player.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+        <p>
+          We test audiobooks so you do not waste a credit. Check runtime before you download on the
+          <a href="/calculator">credit value calculator</a>, browse
+          <a href="/category/mystery">the mystery collection</a> for long listens that justify the
+          file size, or read <a href="/blog">the blog</a> for more listening guides.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>怎么把 Audible 有声书下载下来离线听</h3>
+        <p>
+          会不会下载 Audible 有声书，差别很直接：一趟航班，要么整程都能听，要么一进无信号区就断。App 默认是串流播放，而串流会悄悄吃掉电量和流量。先下载只要点两下，两个问题一起解决。
+        </p>
+        <p>
+          这篇覆盖手机、平板和电脑，同时给出文件大小的实际参考，以及卡在 0% 时该怎么排查。所有数字都来自我们 2100 本有声书时长数据集里的真实条目，不是拍脑袋估的。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>把 Audible 下载到手机：iPhone 与 Android</h3>
+        <p>两个平台步骤几乎一样，一本正常长度的小说从开始到完成不到一分钟。</p>
+        <ul className='space-y-2'>
+          <li><strong>打开 Audible App</strong>，进入「书库」标签。</li>
+          <li><strong>点封面上的下载图标。</strong>Android 上也可以进入书籍详情页，用播放器界面的下载按钮。</li>
+          <li><strong>选音质。</strong>标准音质对多数人已经够用；精简格式大约省一半空间，高音质在手机喇叭上基本听不出差别。</li>
+          <li><strong>等进度圈走完。</strong>出现勾号或实心图标，就说明文件已经在设备上了。</li>
+          <li><strong>开飞行模式放一章</strong>，确认下载成功再出门。</li>
+        </ul>
+        <p>
+          有个习惯值得养成：出发前一晚在 wifi 下下载。机场 wifi 慢到能让一本 40 小时的大部头卡在 40%，而你已经开始登机了。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>在 Windows 和 Mac 上下载 Audible 有声书</h3>
+        <p>长途出行想把书存在笔记本上，或者手机空间不够时，用电脑下载更合适。</p>
+        <ul className='space-y-2'>
+          <li><strong>安装 Audible 桌面端</strong>，从 Microsoft Store 或 Mac App Store 获取。</li>
+          <li><strong>用手机上的同一个账号登录</strong>，书库才会一致。</li>
+          <li><strong>在书库里找到该书并选择下载。</strong>开始前先定好格式，事后再改就得重新下一遍。</li>
+          <li><strong>让窗口保持打开直到完成。</strong>部分桌面版本在最小化时会暂停传输。</li>
+        </ul>
+        <p>
+          电脑上的文件仍然绑定你的账号，只能在授权软件里播放，没法直接拷进普通 MP3 播放器。如果你需要到处都能播的文件，<a href="/compare">服务对比页</a>列出了销售无限制下载的几家平台。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Audible 离线收听：没有信号时什么能用</h3>
+        <p>
+          已下载的书可以完整离线播放，章节跳转、书签和睡眠定时都正常。有几件事仍然需要联网，提前弄清能省掉不少在万米高空上的烦躁。
+        </p>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>操作</th>
+              <th className='text-left py-2'>离线可用</th>
+              <th className='text-left py-2'>说明</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>播放已下载的书</td><td className='py-2'>可以</td><td className='py-2'>倍速、睡眠定时等控制都在</td></tr>
+            <tr><td className='py-2'>跳章节、用书签</td><td className='py-2'>可以</td><td className='py-2'>元数据随文件一起下载</td></tr>
+            <tr><td className='py-2'>用 credit 买书</td><td className='py-2'>不行</td><td className='py-2'>购买必须联网</td></tr>
+            <tr><td className='py-2'>串流 Plus 目录</td><td className='py-2'>不行</td><td className='py-2'>Plus 书目可以下载，但串流离线无法播放</td></tr>
+            <tr><td className='py-2'>跨设备同步进度</td><td className='py-2'>会延迟</td><td className='py-2'>重新联网后进度才会更新</td></tr>
+            <tr><td className='py-2'>换设备听同一本</td><td className='py-2'>有限制</td><td className='py-2'>账号对同时使用设备数有限制</td></tr>
+          </tbody>
+        </table>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>下载要多久、占多少空间</h3>
+        <p>
+          标准音质下，一小时音频大约 29 MB。下面按我们最常见的时长换算成实际数字，并给出在家庭宽带下的下载耗时。
+        </p>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>书名</th>
+              <th className='text-left py-2'>朗读者</th>
+              <th className='text-left py-2'>时长（小时）</th>
+              <th className='text-left py-2'>大约体积</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'><a href="/books/B0B8TDMRVV">《Happy Place》</a></td><td className='py-2'>Julia Whelan</td><td className='py-2'>11.1</td><td className='py-2'>约 320 MB</td></tr>
+            <tr><td className='py-2'><a href="/books/0593346807">《People We Meet on Vacation》</a></td><td className='py-2'>Julia Whelan</td><td className='py-2'>10.8</td><td className='py-2'>约 310 MB</td></tr>
+            <tr><td className='py-2'><a href="/books/0593214218">《Beach Read》</a></td><td className='py-2'>Julia Whelan</td><td className='py-2'>10.2</td><td className='py-2'>约 300 MB</td></tr>
+          </tbody>
+        </table>
+        <p>
+          按比例推上去，一本 40 小时的历史书在标准音质下约 1.2 GB，精简格式约 600 MB。在 25 Mbps 的网速下，12 小时的小说大约两分钟，40 小时的长篇大约六分钟；酒店那种慢 wifi 会把这两个时间拉到三倍。
+        </p>
+        <p>
+          出行前先算好打算听多少小时，再对照剩余空间。<a href="/calculator">credit 性价比计算器</a>会给出每本书的时长，这道算术很快就能算完。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>下载卡住或根本不开始时怎么办</h3>
+        <p>大多数失败都能归到下面四类原因之一，而且很容易区分。</p>
+        <ul className='space-y-2'>
+          <li><strong>退出再重新登录。</strong>登录态过期是下载停在 0% 最常见的原因。</li>
+          <li><strong>检查剩余空间。</strong>手机可用空间低于约 1 GB 时，会拒绝下载大文件，而且不告诉你原因。</li>
+          <li><strong>换一本书试试。</strong>只有某一本失败，多半是那个版本的出版授权变了。</li>
+          <li><strong>从移动数据切到 wifi。</strong>部分账号默认禁止走蜂窝网络的大文件传输。</li>
+        </ul>
+        <p>
+          如果某本书怎么都下不下来，Audible 支持 365 天内退换，所以遇到坏版本损失的是时间，不是 credit。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p>
+          <strong>没有网络能听 Audible 吗？</strong>只要在 App 里下好了就能听。最干净的验证方式是开飞行模式：音频继续播，说明文件在本地。串流则全程都需要联网。
+        </p>
+        <p>
+          <strong>一本 Audible 有声书占多少空间？</strong>标准音质下每小时约 29 MB。12 小时的小说约 350 MB，40 小时的长篇约 1.2 GB，精简格式能把这两个数字压到接近一半。
+        </p>
+        <p>
+          <strong>为什么下载卡在 0%？</strong>通常是登录态过期、设备可用空间不足，或者该书的授权发生了变化。先退出重登，再查空间，然后换一本书来定位原因。
+        </p>
+        <p>
+          <strong>Audible 的有声书能下载到电脑上吗？</strong>可以，用 Windows 或 Mac 上的 Audible 应用。文件仍然绑定账号，只能在授权软件里播放，不能直接拷进普通 MP3 播放器。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+        <p>
+          我们替你实测有声书，别浪费 credit。下载前先到<a href="/calculator">credit 性价比计算器</a>查时长；想找配得上这点文件体积的长篇，可以看<a href="/category/mystery">悬疑类别</a>；更多收听指南在<a href="/blog">博客</a>里。
+        </p>
+      </>
+    ),
+  },
+  'how-to-share-audible-books': {
+    slug: 'how-to-share-audible-books',
+    title: 'How to Share Audible Books with Family in 2026: What Actually Works',
+    description: 'How to share Audible books with family using Amazon Household, what stays locked to one account, how gifting differs from sharing, and a scorecard of every sharing method rated by value.',
+    keywords: ['how to share audible books', 'audible household sharing', 'audible family library', 'share audible with family member', 'can you share audible credits', 'audible two adults household', 'audible gift vs share', 'audible family plan audiobooks'],
+    date: '2026-10-03',
+    readTime: '9 min read',
+    category: 'Guide',
+    faq: [
+      {
+        question: 'Can you share Audible books with a family member?',
+        answer: 'Yes, through Amazon Household. Linking two adults lets each of them see and play the other eligible audiobooks in the Audible app. Credits and membership benefits stay with the account that earned them.',
+      },
+      {
+        question: 'Can you share Audible credits?',
+        answer: 'No. Credits never move between accounts. If you want someone to get a specific book, spend your own credit on a gift copy, which delivers the title without handing over any credit balance.',
+      },
+      {
+        question: 'How many people can be in an Audible Household?',
+        answer: 'Amazon Household holds two adults, up to four teen profiles, and up to four child profiles. Only the two adults share adult audiobooks; younger profiles get a filtered selection.',
+      },
+      {
+        question: 'Is gifting better than sharing a whole library?',
+        answer: 'Gifting is better for one or two titles and for people outside your household. Sharing a library through Household is better for two adults who live together and listen constantly, because it costs nothing extra.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          Learning how to share Audible books with family saves a second subscription, but only if
+          you set it up the right way. Audible does not sell a family plan in the way streaming
+          services do. What it offers instead is Amazon Household, which links two adults and lets
+          each of them play the other&apos;s eligible audiobooks.
+        </p>
+        <p>
+          That distinction trips people up. Credits stay with whoever earned them, memberships do not
+          transfer, and the sharing only covers titles marked eligible by the publisher. This guide
+          walks through what moves between accounts, what does not, and where gifting beats sharing
+          outright.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What Audible household sharing actually allows</h2>
+        <p>
+          Audible household sharing runs through Amazon Household, the same mechanism that links
+          Prime benefits between two adults. Once linked, both adults can download and play eligible
+          audiobooks from the combined library, on their own devices, with their own listening
+          positions.
+        </p>
+        <p>
+          Three limits come with it. Eligibility is set by the publisher, so a handful of titles never
+          become shareable. Only two adults participate. And either adult can leave the Household,
+          which cuts off access immediately.
+        </p>
+        <p>
+          The setup itself takes about five minutes:
+        </p>
+        <ul className='space-y-2'>
+          <li><strong>Open your Amazon account</strong> and go to Household settings.</li>
+          <li><strong>Invite the second adult</strong> by email. They accept, and both accounts confirm.</li>
+          <li><strong>Enable library sharing</strong> for audiobooks inside the Household settings.</li>
+          <li><strong>Open the Audible app</strong> on each device and refresh the library so the shared titles appear.</li>
+        </ul>
+        <p>
+          Both adults keep separate wish lists, separate recommendations, and separate credit
+          balances. Sharing changes what can be played, not who owns what.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Building an audible family library that fits everyone</h2>
+        <p>
+          An audible family library works best when the two adults treat it as one collection and
+          split purchases by taste rather than by person. One credit buys one book for the household,
+          so the goal is to avoid two people buying overlapping genres in the same month.
+        </p>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Profile type</th>
+              <th className='text-left py-2'>How many</th>
+              <th className='text-left py-2'>What they can hear</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Adults</td><td className='py-2'>2</td><td className='py-2'>Full shared library of eligible titles</td></tr>
+            <tr><td className='py-2'>Teens</td><td className='py-2'>Up to 4</td><td className='py-2'>Age-filtered selection, managed by an adult</td></tr>
+            <tr><td className='py-2'>Children</td><td className='py-2'>Up to 4</td><td className='py-2'>Filtered children&apos;s content, no adult titles</td></tr>
+          </tbody>
+        </table>
+        <p>
+          Teen and child profiles are worth setting up if you have young listeners. They get a
+          filtered shelf and their own progress tracking, and they cannot wander into the adult
+          library by accident.
+        </p>
+        <p>
+          Long books are the ones that justify a shared library, because a 40-hour title keeps two
+          people busy for weeks on a single credit. Browse our
+          <a href="/category/historical-fiction">historical fiction collection</a> for runtimes in
+          that range, or check the hours on any title with the
+          <a href="/calculator">credit value calculator</a> before you spend.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Sharing one book instead of a whole library</h2>
+        <p>
+          Gifting is the cleaner answer when the person does not live with you, or when you want to
+          hand over one specific title rather than your entire shelf.
+        </p>
+        <ul className='space-y-2'>
+          <li><strong>Gift a specific audiobook.</strong> Open the title, choose the gift option, enter their email, and pay with a card or one of your credits.</li>
+          <li><strong>Gift a membership.</strong> Premium Plus gift memberships run 1, 3, 6, or 12 months and include monthly credits the recipient spends themselves.</li>
+          <li><strong>Send a gift certificate.</strong> They redeem a balance and pick their own title, which suits someone whose taste you cannot predict.</li>
+        </ul>
+        <p>
+          Gifting with a card rather than a credit is usually the smarter move. Your credit covers a
+          book you could have kept, while a few dollars on a card buys the same result and leaves
+          your credit intact.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What cannot be shared, and a scorecard for each method</h2>
+        <p>
+          The short list of things that never move between accounts: credits, membership status,
+          Plus catalog access tied to one membership, and wish lists. Knowing this prevents the most
+          common wasted hour in Audible support.
+        </p>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Method</th>
+              <th className='text-left py-2'>Reach</th>
+              <th className='text-left py-2'>Cost</th>
+              <th className='text-left py-2'>Value score</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Amazon Household sharing</td><td className='py-2'>2 adults</td><td className='py-2'>Free</td><td className='py-2'>5 / 5</td></tr>
+            <tr><td className='py-2'>Gift a specific audiobook</td><td className='py-2'>Anyone</td><td className='py-2'>1 credit or cash</td><td className='py-2'>4 / 5</td></tr>
+            <tr><td className='py-2'>Gift membership</td><td className='py-2'>Anyone</td><td className='py-2'>From 1 month up</td><td className='py-2'>4 / 5</td></tr>
+            <tr><td className='py-2'>Teen or child profile</td><td className='py-2'>Up to 8 profiles</td><td className='py-2'>Free</td><td className='py-2'>3 / 5</td></tr>
+            <tr><td className='py-2'>Sharing credits directly</td><td className='py-2'>Not possible</td><td className='py-2'>Not offered</td><td className='py-2'>0 / 5</td></tr>
+          </tbody>
+        </table>
+        <p>
+          Household sharing scores highest because it is the only free option that gives two adults
+          the whole library. The teen and child profiles score lower only because the filtered
+          catalog is smaller, not because they are hard to set up.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Frequently asked</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Can you share Audible books with a family member?</h3>
+        <p>
+          Yes, through Amazon Household. Linking two adults lets each play the other&apos;s eligible
+          audiobooks in the Audible app. Credits and membership benefits remain with the account that
+          earned them.
+        </p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Can you share Audible credits?</h3>
+        <p>
+          No. Credits never move between accounts. To get someone a specific book, spend your own
+          credit on a gift copy, which sends the title without transferring any balance.
+        </p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>How many people can join an Audible Household?</h3>
+        <p>
+          Two adults, up to four teen profiles, and up to four child profiles. Only the two adults
+          share adult audiobooks; younger profiles see a filtered selection.
+        </p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Is gifting better than sharing a library?</h3>
+        <p>
+          Gifting wins for one or two titles and for people outside the household. Household sharing
+          wins for two adults living together who listen often, because it costs nothing extra.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+        <p>
+          We test audiobooks so you do not waste a credit. Compare plans on the
+          <a href="/compare">comparison page</a>, check hours per credit on the
+          <a href="/calculator">credit value calculator</a>, or read
+          <a href="/blog">the blog</a> for more guides to sharing, gifting, and spending credits well.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>怎么把 Audible 有声书分享给家人</h3>
+        <p>
+          学会怎么把 Audible 有声书分享给家人，能省下一份订阅，前提是设置方式对。Audible 并不像流媒体那样卖「家庭方案」，它提供的是 Amazon Household：绑定两位成年人，各自可以播放对方符合条件的有声书。
+        </p>
+        <p>
+          这个区别最容易让人踩坑。credit 归赚到它的账号，会员权益不转移，而且只有出版方标记为可共享的书才能分享。下面讲清楚哪些能在账号之间流动、哪些不能，以及什么时候送礼比共享更合适。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Audible 家庭共享到底允许什么</h3>
+        <p>
+          Audible 的家庭共享走的是 Amazon Household，和绑定两位成年人共享 Prime 权益是同一套机制。绑定之后，两位成年人都能在自己的设备上下载并播放合并书库里符合条件的有声书，各自的收听进度独立保存。
+        </p>
+        <p>
+          它带着三条限制：能否共享由出版方决定，少数书永远不可共享；参与者只有两位成年人；任何一位退出 Household，另一位的访问立即中断。
+        </p>
+        <p>设置本身大约五分钟：</p>
+        <ul className='space-y-2'>
+          <li><strong>打开你的 Amazon 账号</strong>，进入 Household 设置。</li>
+          <li><strong>用邮箱邀请第二位成年人。</strong>对方接受后，两个账号各自确认一次。</li>
+          <li><strong>在 Household 设置里打开有声书的书库共享。</strong></li>
+          <li><strong>在每台设备上打开 Audible App</strong>并刷新书库，共享的书目就会出现。</li>
+        </ul>
+        <p>
+          两位成年人各自保留自己的心愿单、推荐和 credit 余额。共享改变的是「能播放什么」，不是「谁拥有什么」。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>搭一个全家人都合适的 Audible 家庭书库</h3>
+        <p>
+          家庭书库最省的做法，是两位成年人把它当成同一个收藏，按口味分工买书，而不是按人分工。一个 credit 换一本书给全家用，所以要避免两个人同一个月买了重叠的类型。
+        </p>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>档案类型</th>
+              <th className='text-left py-2'>数量上限</th>
+              <th className='text-left py-2'>能听什么</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>成年人</td><td className='py-2'>2 位</td><td className='py-2'>符合条件书目的完整共享书库</td></tr>
+            <tr><td className='py-2'>青少年</td><td className='py-2'>最多 4 个</td><td className='py-2'>按年龄过滤的选书，由成年人管理</td></tr>
+            <tr><td className='py-2'>儿童</td><td className='py-2'>最多 4 个</td><td className='py-2'>过滤后的儿童内容，不含成人书目</td></tr>
+          </tbody>
+        </table>
+        <p>
+          家里有年纪小的听众，值得把青少年和儿童档案建起来。他们有过滤后的书架和独立的进度记录，也不会误闯成人书库。
+        </p>
+        <p>
+          最能体现共享价值的是长篇：一本 40 小时的书，一个 credit 就能让两个人忙上好几周。这个长度区间的书目可以看<a href="/category/historical-fiction">历史小说类别</a>；不确定长度的，先用<a href="/calculator">credit 性价比计算器</a>查小时数再决定要不要花。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>只分享一本书，而不是整个书库</h3>
+        <p>如果对方不和你住在一起，或者你只想送出某一本而不是整个书架，送礼是更干净的做法。</p>
+        <ul className='space-y-2'>
+          <li><strong>送指定的有声书。</strong>打开该书，选择赠送，填对方邮箱，用信用卡或自己的 credit 付款。</li>
+          <li><strong>送会员。</strong>Premium Plus 礼品会员有 1、3、6、12 个月几种，对方每月拿到 credit 自己挑书。</li>
+          <li><strong>送礼品券。</strong>对方兑换成余额后自己选书，适合你猜不准他口味的时候。</li>
+        </ul>
+        <p>
+          用信用卡送礼通常比用 credit 聪明。credit 花掉的是你本可以留下的那本书，而几十块钱能达到同样的效果，credit 还留在你手上。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>哪些不能分享，以及每种方式的评分卡</h3>
+        <p>
+          永远无法在账号之间转移的东西只有几样：credit、会员身份、绑定单一会员的 Plus 目录，以及心愿单。知道这一点，能省掉 Audible 客服那里最常见的一个小时。
+        </p>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>方式</th>
+              <th className='text-left py-2'>覆盖范围</th>
+              <th className='text-left py-2'>成本</th>
+              <th className='text-left py-2'>性价比评分</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Amazon Household 共享</td><td className='py-2'>2 位成年人</td><td className='py-2'>免费</td><td className='py-2'>5 / 5</td></tr>
+            <tr><td className='py-2'>赠送指定有声书</td><td className='py-2'>任何人</td><td className='py-2'>1 个 credit 或现金</td><td className='py-2'>4 / 5</td></tr>
+            <tr><td className='py-2'>赠送会员</td><td className='py-2'>任何人</td><td className='py-2'>1 个月起</td><td className='py-2'>4 / 5</td></tr>
+            <tr><td className='py-2'>青少年／儿童档案</td><td className='py-2'>最多 8 个档案</td><td className='py-2'>免费</td><td className='py-2'>3 / 5</td></tr>
+            <tr><td className='py-2'>直接分享 credit</td><td className='py-2'>做不到</td><td className='py-2'>官方不提供</td><td className='py-2'>0 / 5</td></tr>
+          </tbody>
+        </table>
+        <p>
+          Household 共享评分最高，因为它是唯一免费、又能让两位成年人拿到完整书库的选项。青少年和儿童档案分数低一些，只是因为过滤后的目录更小，不是因为难设置。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p>
+          <strong>Audible 的有声书能分享给家人吗？</strong>可以，通过 Amazon Household。绑定两位成年人后，各自都能在 Audible App 里播放对方符合条件的有声书。credit 和会员权益仍归赚到它们的账号。
+        </p>
+        <p>
+          <strong>Audible 的 credit 能分享吗？</strong>不能。credit 从来不会在账号之间转移。想让对方拿到某本具体的书，就用自己的 credit 买一份赠送版，送出的是书，不转移任何余额。
+        </p>
+        <p>
+          <strong>一个 Audible Household 能加多少人？</strong>两位成年人，最多 4 个青少年档案和 4 个儿童档案。只有两位成年人之间共享成人有声书，其余档案看到的是过滤后的内容。
+        </p>
+        <p>
+          <strong>送礼比共享书库更好吗？</strong>只送一两本书、或者对方不住在一起时，送礼更好。两位成年人同住而且经常听，共享书库更划算，因为它不额外花钱。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+        <p>
+          我们替你实测有声书，别浪费 credit。到<a href="/compare">对比页</a>横比各家方案，用<a href="/calculator">credit 性价比计算器</a>算每 credit 的小时数，或者去<a href="/blog">博客</a>读更多关于共享、送礼和把 credit 花在刀刃上的指南。
+        </p>
+      </>
+    ),
+  },
+
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
