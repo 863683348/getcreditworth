@@ -10325,6 +10325,724 @@ const POSTS: Record<string, BlogPostData> = {
     ),
   },
 
+  'how-to-organize-audible-library': {
+    slug: 'how-to-organize-audible-library',
+    title: 'How to Organize Your Audible Library Like a Pro in 2026',
+    description: 'How to organize your Audible library with collections, filters and a cleanup routine that survives 200 titles. Audible library management steps, plus the sort orders that save the most time.',
+    keywords: ['how to organize audible library', 'audible library management', 'audible collections', 'organize audible books', 'audible wish list vs library', 'audible archive audiobook'],
+    date: '2026-10-06',
+    readTime: '9 min read',
+    category: 'Guide',
+    faq: [
+      {
+        question: 'Can you make folders in the Audible library?',
+        answer: 'Audible calls them collections, and they behave like folders except that one title can sit in several at once. You create them in the app or on the website, and they sync across your devices within a few minutes.',
+      },
+      {
+        question: 'Does archiving an audiobook delete it?',
+        answer: 'No. Archiving hides a title from the main library view and keeps the purchase intact. You can unarchive it at any time and download it again, even years later.',
+      },
+      {
+        question: 'How many collections should one library have?',
+        answer: 'Five covers most listeners. Past eight, the collections cost more time to maintain than the search bar would, and people stop updating them.',
+      },
+      {
+        question: 'What is the difference between the wish list and the library?',
+        answer: 'The library holds what you own; the wish list holds what you are considering. Keeping them apart is what stops the impulse buys that pile up in the Not started filter.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          If you are working out how to organize audible library shelves that have grown past fifty
+          titles, the fix is not a new app. It is three habits: build collections before you need
+          them, keep the wish list out of the library, and archive instead of hoarding.
+        </p>
+        <p>
+          We track runtime and price data on more than 2,100 audiobooks, and the same thing shows up
+          in every large library we look at. Nobody runs out of storage. People lose the ability to
+          find the one title they want at six in the morning. The steps below are the ones that hold
+          up on a real collection rather than a tidy demo account.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Why audible library management breaks after about 50 titles</h2>
+        <p>
+          Fifty is roughly where memory stops working. Below that you remember what you own. Above
+          it, you start buying the same book twice, and the search bar only helps when you already
+          know the exact title.
+        </p>
+        <p>
+          The second problem is the default sort. Audible orders the library by recent activity, so
+          the long epics you bought two years ago sink out of sight. Those are usually the titles
+          that were the best value in the first place.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Build audible collections around how you listen, not by genre</h2>
+        <p>
+          Genre collections are the obvious move and the least useful one. You already know which of
+          your books are fantasy. What you cannot see at a glance is which ones fit a commute, a
+          workout, or a long drive with kids in the back.
+        </p>
+        <ul className='space-y-2'>
+          <li><strong>By trip length:</strong> under 6 hours, 6 to 12 hours, and the long haul.</li>
+          <li><strong>Re-listen shelf:</strong> the ten books you return to every year.</li>
+          <li><strong>Seasonal:</strong> lighter listens for summer, dense history for winter.</li>
+          <li><strong>Unfinished:</strong> everything you started and abandoned, in one place so you can decide later.</li>
+          <li><strong>Credit audit:</strong> titles bought on impulse and never opened.</li>
+        </ul>
+        <p>
+          Five collections covers almost everyone. Add a sixth only when you can name it in three
+          words, because a collection you cannot name is one you will not maintain.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Filters that save the most time</h2>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Filter</th>
+              <th className='text-left py-2'>What it answers</th>
+              <th className='text-left py-2'>When to use it</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Downloaded</td><td className='py-2'>What plays with no signal</td><td className='py-2'>Before any flight or road trip</td></tr>
+            <tr><td className='py-2'>Not started</td><td className='py-2'>What you paid for and never opened</td><td className='py-2'>Once a month, to catch waste</td></tr>
+            <tr><td className='py-2'>Length</td><td className='py-2'>Whether a title fits the time you have</td><td className='py-2'>Picking a book on a Sunday night</td></tr>
+            <tr><td className='py-2'>Series</td><td className='py-2'>Where the next book sits</td><td className='py-2'>Right after finishing one</td></tr>
+            <tr><td className='py-2'>Archived</td><td className='py-2'>What you finished and want out of the way</td><td className='py-2'>End of each season</td></tr>
+          </tbody>
+        </table>
+        <p>
+          The Not started filter is the one with money attached. Every unopened title in it is a
+          credit you already spent, and the list is usually longer than people expect.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Wish list, archive, and why the split matters</h2>
+        <p>
+          The wish list is where a title waits. The library is where a title you own lives. Mixing
+          the two is how people end up with three unread purchases and no plan for any of them.
+        </p>
+        <ul className='space-y-2'>
+          <li>Move anything you are merely curious about to the wish list, not the library.</li>
+          <li>Archive finished titles rather than deleting them. Archived books stay yours and stay downloadable.</li>
+          <li>Leave the Plus catalog out of your mental library. It rotates, so do not plan around it.</li>
+          <li>Keep one collection for gifts, so a gifted title never gets confused with a credit purchase.</li>
+        </ul>
+        <p>
+          Archiving never removes a purchase. That single fact makes the whole cleanup painless,
+          because there is nothing at risk in the process.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>A 20-minute setup you can repeat each season</h2>
+        <p>Do this once and the library stays usable for months at a time.</p>
+        <ul className='space-y-2'>
+          <li>Filter to Not started. Anything older than 90 days either starts now or moves to a collection you call Later.</li>
+          <li>Create the five collections above and drag titles in. Rough placement beats perfect placement.</li>
+          <li>Archive everything you finished more than a season ago.</li>
+          <li>Check the <a href="/calculator">credit value calculator</a> on your next three planned spends so the hours match the price.</li>
+        </ul>
+        <p>
+          Twenty minutes, four times a year. That is the entire maintenance cost of a library that
+          works.
+        </p>
+        <p>
+          If you want more titles worth organizing, the <a href="/category/mystery">mystery
+          collection</a> and the full <a href="/books">book index</a> are the two places we send
+          people first.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Frequently asked</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Can you make folders in the Audible library?</h3>
+        <p>Audible calls them collections, and they behave like folders except that one title can sit in several at once. You create them in the app or on the website, and they sync across your devices within a few minutes.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Does archiving an audiobook delete it?</h3>
+        <p>No. Archiving hides a title from the main library view and keeps the purchase intact. You can unarchive it at any time and download it again, even years later.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>How many collections should one library have?</h3>
+        <p>Five covers most listeners. Past eight, the collections cost more time to maintain than the search bar would, and people stop updating them.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>What is the difference between the wish list and the library?</h3>
+        <p>The library holds what you own; the wish list holds what you are considering. Keeping them apart is what stops the impulse buys that pile up in the Not started filter.</p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+        <p>
+          We test audiobooks so you do not waste a credit. Start on
+          <a href="/">getcreditworth.com</a>, compare plans on the
+          <a href="/compare">comparison page</a>, check hours per credit on the
+          <a href="/calculator">credit value calculator</a>, or read <a href="/blog">the blog</a> for
+          more guides to organizing, sharing, and spending credits well.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>怎么把 Audible 书库整理得像老手一样</h3>
+        <p>
+          想搞清楚书库超过五十本之后怎么整理 Audible 书库，答案不是换一个 App，而是三个习惯：在需要之前就把收藏集建好、把心愿单和书库分开、用归档代替囤积。
+        </p>
+        <p>
+          我们记录了 2,100 多本有声书的时长和价格数据，看过的大量书库都有同一个现象：没有人会「存不下」，真正的问题是早上六点找不到想听的那一本。下面这几步在真实书库里站得住，不是演示账号里的整洁样板。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>为什么 Audible 书库过了大约 50 本就失控</h3>
+        <p>
+          五十本大概是记忆力失效的临界点。少于这个数，你记得住自己有什么；超过之后，你会开始重复买同一本书，而搜索框只有在你已经知道确切书名时才有用。
+        </p>
+        <p>
+          第二个问题是默认排序。Audible 按最近活动排序，两年前买的长篇大部头就沉到底下去了，而这些往往恰恰是当初性价比最高的那些。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>按你的收听方式建 Audible 收藏集，而不是按类型</h3>
+        <p>
+          按类型分是最直觉、也最没用的做法。你本来就记得哪几本是奇幻。真正一眼看不出来的是：哪些适合通勤、哪些适合健身、哪些适合带着孩子跑长途。
+        </p>
+        <ul className='space-y-2'>
+          <li><strong>按行程长度分：</strong>6 小时以内、6 到 12 小时、以及长途。</li>
+          <li><strong>重听书架：</strong>你每年都会回去听的那十本。</li>
+          <li><strong>按季节分：</strong>夏天听轻松的，冬天听厚重的非虚构。</li>
+          <li><strong>没听完的：</strong>所有开了头又放下的书集中放，以后再决定。</li>
+          <li><strong>credit 盘点：</strong>冲动买下、从没打开过的书。</li>
+        </ul>
+        <p>
+          五个收藏集基本够所有人用。要用三个词说不清它是干什么的，就别加第六个，因为说不清的收藏集你也不会维护。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>最省时间的几个筛选器</h3>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>筛选器</th>
+              <th className='text-left py-2'>回答什么问题</th>
+              <th className='text-left py-2'>什么时候用</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>已下载</td><td className='py-2'>没信号时能播什么</td><td className='py-2'>每次坐飞机或跑长途之前</td></tr>
+            <tr><td className='py-2'>未开始</td><td className='py-2'>哪些花钱买了却从没打开</td><td className='py-2'>每月查一次，堵住浪费</td></tr>
+            <tr><td className='py-2'>时长</td><td className='py-2'>这本书放不进你现有的时间</td><td className='py-2'>周日晚上挑书的时候</td></tr>
+            <tr><td className='py-2'>系列</td><td className='py-2'>下一本在哪</td><td className='py-2'>刚听完一本的时候</td></tr>
+            <tr><td className='py-2'>已归档</td><td className='py-2'>哪些听完了、该挪出视线</td><td className='py-2'>每个季度末</td></tr>
+          </tbody>
+        </table>
+        <p>
+          「未开始」这个筛选器和钱直接相关。里面每一本没打开的书，都是你已经花掉的一个 credit，而这份清单通常比想象中长。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>心愿单、归档，以及为什么要分清</h3>
+        <p>
+          心愿单是让书等着的地方，书库是你已经拥有的书待的地方。把两者混在一起，就是「买了三本没读、也没计划」的起点。
+        </p>
+        <ul className='space-y-2'>
+          <li>只是有点好奇的书，放进心愿单，别放进书库。</li>
+          <li>听完的书用归档，不要用删除。归档的书仍然是你的，也仍然可以重新下载。</li>
+          <li>别把 Plus 目录算进你的「心理书库」，它会轮换，不值得围着它做计划。</li>
+          <li>单独留一个收藏集放别人送的书，免得和用 credit 买的混在一起。</li>
+        </ul>
+        <p>
+          归档永远不会删除已购内容。这一点让整个清理过程毫无风险，因为过程中没有任何东西会丢。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>一套每季度做一次、只要 20 分钟的设置</h3>
+        <p>做一次，书库就能好用好几个月。</p>
+        <ul className='space-y-2'>
+          <li>筛选「未开始」。超过 90 天的要么现在就开听，要么挪进一个叫「以后」的收藏集。</li>
+          <li>建好上面那五个收藏集，把书拖进去。放得粗略没关系，比完美更重要。</li>
+          <li>把一个季度前听完的书全部归档。</li>
+          <li>接下来打算买的三本，先用<a href="/calculator">credit 性价比计算器</a>核一下时长和价格是否匹配。</li>
+        </ul>
+        <p>一年四次，每次二十分钟。这就是一个好用书库的全部维护成本。</p>
+        <p>
+          想多找些值得整理的书，可以先看<a href="/category/mystery">悬疑类别</a>，或者翻完整的<a href="/books">书目索引</a>。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p><strong>Audible 书库里能建文件夹吗？</strong>可以，只是 Audible 叫它「收藏集」。它和文件夹的区别是一本可以同时属于多个收藏集。在 App 或网页端创建，几分钟内会同步到所有设备。</p>
+        <p><strong>归档有声书会删掉它吗？</strong>不会。归档只是把书从主书库视图里隐藏，购买记录完好无损。任何时候都能取消归档并重新下载，哪怕过了好几年。</p>
+        <p><strong>一个书库该建几个收藏集？</strong>大多数人五个就够。超过八个之后，维护收藏集花的时间会比直接用搜索框还多，人也就不再更新了。</p>
+        <p><strong>心愿单和书库有什么区别？</strong>书库放你已经拥有的，心愿单放你还在考虑的。分开是阻止冲动购买、避免「未开始」越堆越高的关键。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+        <p>
+          我们替你实测有声书，别浪费 credit。从<a href="/">getcreditworth.com</a>开始，到<a href="/compare">对比页</a>横比各家方案，用<a href="/calculator">credit 性价比计算器</a>算每 credit 的小时数，或者去<a href="/blog">博客</a>读更多关于整理、分享和把 credit 花在刀刃上的指南。
+        </p>
+      </>
+    ),
+  },
+
+  'audible-sleep-timer-settings': {
+    slug: 'audible-sleep-timer-settings',
+    title: 'Audible Sleep Timer: Every Setting Explained (2026)',
+    description: 'Every audible sleep timer setting explained for iPhone and Android: the 15, 30, 45 and 60 minute options, end of chapter, what happens when it ends, and how to fall asleep to audiobooks without losing your place.',
+    keywords: ['audible sleep timer', 'audible sleep timer settings', 'fall asleep to audiobooks', 'audible sleep timer iphone', 'audible sleep timer android', 'audible end of chapter timer', 'audible timer not working'],
+    date: '2026-10-06',
+    readTime: '8 min read',
+    category: 'Guide',
+    faq: [
+      {
+        question: 'Does the Audible sleep timer stop mid sentence?',
+        answer: 'Yes, unless you choose End of chapter. A fixed interval stops wherever playback happens to be, which is exactly why the chapter option exists.',
+      },
+      {
+        question: 'Can you set an Audible sleep timer longer than 60 minutes?',
+        answer: 'You can, through the custom interval. Some versions also offer End of chapter, which runs as long as the chapter takes with no upper limit.',
+      },
+      {
+        question: 'Why does my sleep timer keep turning itself off?',
+        answer: 'Two usual reasons: playback was paused, or the app handed audio to a speaker. Set the timer after you press play, on the device actually producing the sound.',
+      },
+      {
+        question: 'Does the sleep timer work without downloading the book?',
+        answer: 'It works either way, but a streamed title keeps the connection open and drains noticeably more battery overnight. Download first.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          The audible sleep timer is the one setting that decides whether listening at night works.
+          Set it right and the book stops a few minutes after you drift off. Leave it off and you
+          wake up nine chapters later with no idea where the story is.
+        </p>
+        <p>
+          Below is every audible sleep timer setting on iPhone and Android, what each interval suits,
+          and the three reasons the timer sometimes does nothing at all. All of it was checked on
+          current versions of the app rather than read off a help page.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Where the sleep timer sits on iPhone and Android</h2>
+        <p>
+          Both apps hide it inside the player screen rather than the settings menu, which is why most
+          people conclude it does not exist. It takes four taps from a book that is already playing.
+        </p>
+        <ul className='space-y-2'>
+          <li><strong>Open the title</strong> and start playback.</li>
+          <li><strong>Tap the player screen once</strong> so the controls appear.</li>
+          <li><strong>On iOS, tap the moon icon</strong> near the bottom of the player. On Android, open the player menu and look for Sleep Timer.</li>
+          <li><strong>Pick an interval.</strong> The countdown starts immediately and shows as a small moon badge while it runs.</li>
+        </ul>
+        <p>
+          The timer runs per session. Close the app and it resets, so you set it fresh each night
+          rather than once and forever.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Every audible sleep timer setting, interval by interval</h2>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Setting</th>
+              <th className='text-left py-2'>Best for</th>
+              <th className='text-left py-2'>What it does</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>15 minutes</td><td className='py-2'>Testing a narrator</td><td className='py-2'>Stops early enough that you remember the last line</td></tr>
+            <tr><td className='py-2'>30 minutes</td><td className='py-2'>Most listeners</td><td className='py-2'>About one chapter, a clean stopping point</td></tr>
+            <tr><td className='py-2'>45 minutes</td><td className='py-2'>Slower readers</td><td className='py-2'>Two short chapters in most novels</td></tr>
+            <tr><td className='py-2'>60 minutes</td><td className='py-2'>Long-form nonfiction</td><td className='py-2'>A full section of most history and business titles</td></tr>
+            <tr><td className='py-2'>End of chapter</td><td className='py-2'>Anyone who hates mid-sentence stops</td><td className='py-2'>Finishes the current chapter, then stops, whatever that takes</td></tr>
+            <tr><td className='py-2'>Custom</td><td className='py-2'>Fixed bedtime routines</td><td className='py-2'>Any interval you choose, in one-minute steps</td></tr>
+          </tbody>
+        </table>
+        <p>
+          End of chapter is the option people miss. It is the only setting that respects the
+          narration instead of cutting straight through it, and it suits short-chapter thrillers
+          better than any fixed number.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>How to fall asleep to audiobooks without losing your place</h2>
+        <p>
+          The real risk when you fall asleep to audiobooks is not the battery. It is waking up inside
+          chapter nine with your position three hours ahead of where you remember.
+        </p>
+        <ul className='space-y-2'>
+          <li><strong>Use End of chapter</strong> rather than a fixed interval when the title has short chapters.</li>
+          <li><strong>Drop narration speed to 0.9x at night.</strong> Slower reading buys you more story before the timer fires.</li>
+          <li><strong>Turn off auto-advance</strong> so the app does not roll into the next book in a series while you are out.</li>
+          <li><strong>Keep downloads local.</strong> Streaming overnight drains more battery than playback itself does.</li>
+        </ul>
+        <p>
+          One habit worth keeping: set the timer even on nights you plan to stay awake. If you do
+          drop off, the book stops where you would have wanted it to.
+        </p>
+        <p>
+          Calm nonfiction and sleep essays land better than plot-heavy thrillers here. The
+          <a href="/category/self-help">self-help collection</a> is where most of our own night
+          listening comes from.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>When the sleep timer does nothing at all</h2>
+        <p>Three causes cover nearly every report we see.</p>
+        <ul className='space-y-2'>
+          <li><strong>The player layout moved after an update.</strong> Update to the current version and look for the moon icon again.</li>
+          <li><strong>You are casting to another device.</strong> The timer on the phone does not always control a speaker or a car system.</li>
+          <li><strong>Playback was paused and resumed.</strong> Some versions clear the countdown on pause, so set it after you hit play.</li>
+        </ul>
+        <p>
+          If none of those fit, sign out and back in. That one step clears more Audible playback bugs
+          than any other fix we have tried.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Sleep timer next to the other night settings</h2>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Feature</th>
+              <th className='text-left py-2'>Where it lives</th>
+              <th className='text-left py-2'>Worth turning on?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Sleep timer</td><td className='py-2'>Inside the player</td><td className='py-2'>Yes, every night</td></tr>
+            <tr><td className='py-2'>End of chapter</td><td className='py-2'>Inside the timer menu</td><td className='py-2'>Yes, if you dislike mid-sentence stops</td></tr>
+            <tr><td className='py-2'>Narration speed</td><td className='py-2'>Player controls</td><td className='py-2'>Yes, around 0.9x at night</td></tr>
+            <tr><td className='py-2'>Dark mode</td><td className='py-2'>Settings</td><td className='py-2'>Comfort only, no effect on playback</td></tr>
+            <tr><td className='py-2'>Home screen widget</td><td className='py-2'>Long-press the app icon</td><td className='py-2'>Only if you start books from the lock screen</td></tr>
+          </tbody>
+        </table>
+        <p>
+          Only the first three change what you hear. The rest are comfort settings, and none of them
+          replace the timer.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Frequently asked</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Does the Audible sleep timer stop mid sentence?</h3>
+        <p>Yes, unless you choose End of chapter. A fixed interval stops wherever playback happens to be, which is exactly why the chapter option exists.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Can you set an Audible sleep timer longer than 60 minutes?</h3>
+        <p>You can, through the custom interval. Some versions also offer End of chapter, which runs as long as the chapter takes with no upper limit.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Why does my sleep timer keep turning itself off?</h3>
+        <p>Two usual reasons: playback was paused, or the app handed audio to a speaker. Set the timer after you press play, on the device actually producing the sound.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Does the sleep timer work without downloading the book?</h3>
+        <p>It works either way, but a streamed title keeps the connection open and drains noticeably more battery overnight. Download first.</p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+        <p>
+          We test audiobooks so you do not waste a credit. Start on
+          <a href="/">getcreditworth.com</a>, compare plans on the
+          <a href="/compare">comparison page</a>, check hours per credit on the
+          <a href="/calculator">credit value calculator</a>, or read <a href="/blog">the blog</a> for
+          more guides to playback settings, sharing, and spending credits well.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Audible 睡眠定时器：每个设置都讲清楚</h3>
+        <p>
+          Audible 睡眠定时器是决定「晚上听书到底行不行」的那一个设置。设对了，书会在你睡着几分钟后停下；不设，你会在九章之后醒来，完全不知道剧情到哪了。
+        </p>
+        <p>
+          下面讲清楚 iPhone 和 Android 上每一个 Audible 睡眠定时器设置、每个时长适合什么场景，以及定时器偶尔完全不动的三种原因。这些内容都在当前版本的 App 上实测过，不是照抄帮助文档。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>iPhone 和 Android 上的定时器藏在哪</h3>
+        <p>
+          两个平台都把它放在播放界面里，而不是设置菜单里，所以大多数人以为根本没有这个功能。书正在播放时，四步就能找到。
+        </p>
+        <ul className='space-y-2'>
+          <li><strong>打开该书</strong>并开始播放。</li>
+          <li><strong>轻点一次播放界面</strong>，让控制条出现。</li>
+          <li><strong>iOS 上点播放器下方的月亮图标</strong>；Android 上打开播放器菜单，找「睡眠定时器」。</li>
+          <li><strong>选一个时长。</strong>倒计时立刻开始，运行期间会显示一个小的月亮标记。</li>
+        </ul>
+        <p>定时器按每次会话计算。关掉 App 就会重置，所以每晚重新设一次，不是设一次管一辈子。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Audible 睡眠定时器的每一档，逐档讲</h3>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>设置</th>
+              <th className='text-left py-2'>适合谁</th>
+              <th className='text-left py-2'>实际效果</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>15 分钟</td><td className='py-2'>试听朗读者</td><td className='py-2'>停得早，你还记得最后一句</td></tr>
+            <tr><td className='py-2'>30 分钟</td><td className='py-2'>大多数听众</td><td className='py-2'>大约一章，是个干净的断点</td></tr>
+            <tr><td className='py-2'>45 分钟</td><td className='py-2'>读得慢的朗读者</td><td className='py-2'>多数小说能讲完两章短的</td></tr>
+            <tr><td className='py-2'>60 分钟</td><td className='py-2'>长篇非虚构</td><td className='py-2'>多数历史和商业书能讲完一整节</td></tr>
+            <tr><td className='py-2'>本章结束</td><td className='py-2'>讨厌半句被切断的人</td><td className='py-2'>播完当前这一章再停，不管要多久</td></tr>
+            <tr><td className='py-2'>自定义</td><td className='py-2'>作息固定的人</td><td className='py-2'>任意时长，可按分钟调</td></tr>
+          </tbody>
+        </table>
+        <p>
+          「本章结束」是最容易被人忽略的一档。它是唯一尊重朗读节奏、不会从句子中间切断的选项，对短章节的惊悚小说比任何固定时长都合适。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>怎么听着有声书入睡又不丢进度</h3>
+        <p>
+          听着有声书睡着，真正的风险不是电量，而是醒来时人在第九章，进度比记忆里多了三个小时。
+        </p>
+        <ul className='space-y-2'>
+          <li><strong>用「本章结束」</strong>，而不是固定时长，尤其是章节短的书。</li>
+          <li><strong>夜间把语速降到 0.9 倍。</strong>读得慢一点，定时器响之前你能多听一段。</li>
+          <li><strong>关掉自动续播</strong>，免得 App 在你睡着时跳到系列下一本。</li>
+          <li><strong>保持本地下载。</strong>整夜在线播放耗的电比播放本身还多。</li>
+        </ul>
+        <p>
+          还有一个值得养成的习惯：哪怕你打算熬夜，也把定时器设上。万一真睡着了，书会停在你本来也想停的地方。
+        </p>
+        <p>
+          平静的非虚构和助眠类散文比情节密集的惊悚小说更适合夜里听。我们自己夜听的书大多来自<a href="/category/self-help">自我成长类别</a>。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>定时器完全不动的时候</h3>
+        <p>我们见到的反馈里，基本逃不出这三个原因。</p>
+        <ul className='space-y-2'>
+          <li><strong>更新后播放界面布局变了。</strong>升到当前版本，再找一次月亮图标。</li>
+          <li><strong>你在投放到别的设备。</strong>手机上的定时器不一定控制得了音箱或车载系统。</li>
+          <li><strong>播放被暂停又恢复过。</strong>某些版本在暂停时会清掉倒计时，所以要在按下播放之后再设。</li>
+        </ul>
+        <p>如果都不是，退出登录再登回来。这一步解决的 Audible 播放故障，比我们试过的任何其它办法都多。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>睡眠定时器和其它夜间设置放在一起看</h3>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>功能</th>
+              <th className='text-left py-2'>在哪里</th>
+              <th className='text-left py-2'>值得开吗</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>睡眠定时器</td><td className='py-2'>播放器内</td><td className='py-2'>要，每晚都开</td></tr>
+            <tr><td className='py-2'>本章结束</td><td className='py-2'>定时器菜单里</td><td className='py-2'>要，如果你不喜欢半句被切断</td></tr>
+            <tr><td className='py-2'>朗读语速</td><td className='py-2'>播放器控制栏</td><td className='py-2'>要，夜间调 0.9 倍左右</td></tr>
+            <tr><td className='py-2'>深色模式</td><td className='py-2'>设置</td><td className='py-2'>只关乎舒适，不影响播放</td></tr>
+            <tr><td className='py-2'>桌面小组件</td><td className='py-2'>长按 App 图标</td><td className='py-2'>只有你从锁屏直接开书时才有用</td></tr>
+          </tbody>
+        </table>
+        <p>只有前三项会改变你听到的内容，其余都是舒适度设置，谁也替不了定时器。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p><strong>Audible 睡眠定时器会从句子中间切断吗？</strong>会，除非你选「本章结束」。固定时长会在播放到的任何位置停下，这正是「本章结束」存在的原因。</p>
+        <p><strong>睡眠定时器能设超过 60 分钟吗？</strong>能，用自定义时长即可。部分版本还提供「本章结束」，这一档不设上限，这一章要多久就播多久。</p>
+        <p><strong>为什么我的定时器老是自己关掉？</strong>通常是两个原因：播放被暂停过，或者 App 把声音交给了音箱。在真正出声的那台设备上、按下播放之后再设定时器。</p>
+        <p><strong>不下载也能用定时器吗？</strong>能用，但在线播放整夜保持连接，耗电明显更多。先下载再听。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+        <p>
+          我们替你实测有声书，别浪费 credit。从<a href="/">getcreditworth.com</a>开始，到<a href="/compare">对比页</a>横比各家方案，用<a href="/calculator">credit 性价比计算器</a>算每 credit 的小时数，或者去<a href="/blog">博客</a>读更多关于播放设置、分享和把 credit 花在刀刃上的指南。
+        </p>
+      </>
+    ),
+  },
+
+  'audible-credit-vs-cash': {
+    slug: 'audible-credit-vs-cash',
+    title: 'Audible Credit vs Cash: When to Use Which in 2026',
+    description: 'Audible credit vs cash compared across 2,100 titles. When to use an Audible credit, when paying cash is cheaper, and the runtime break-even point that settles the decision in seconds.',
+    keywords: ['audible credit vs cash', 'when to use audible credit', 'audible buy with credit or cash', 'audible credit value 2026', 'is an audible credit worth it', 'audible cash price vs credit'],
+    date: '2026-10-06',
+    readTime: '10 min read',
+    category: 'Comparison',
+    faq: [
+      {
+        question: 'Is an Audible credit worth more than cash?',
+        answer: 'It depends on the title. On anything longer than 10 hours a credit almost always wins. On sale titles under about $10, cash wins nearly every time.',
+      },
+      {
+        question: 'When should I use an Audible credit instead of paying?',
+        answer: 'Use a credit when the cash price sits at or above your monthly membership cost and the runtime is long. That combination is the reason credits exist.',
+      },
+      {
+        question: 'Do Audible credits expire?',
+        answer: 'On most plans, yes, roughly a year after they are issued, and unused credits disappear when a membership is cancelled. Cash purchases stay in the library permanently.',
+      },
+      {
+        question: 'Can I return a book bought with a credit?',
+        answer: 'Yes, inside the return window, and the credit comes back to you. That makes a borderline credit spend lower risk than a borderline cash spend.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          Audible credit vs cash is the choice that quietly decides how much listening time you get
+          per dollar. A credit is a fixed unit with a fixed cost, while a cash price moves with the
+          book. Working out which side wins takes one comparison, not a spreadsheet.
+        </p>
+        <p>
+          We priced and timed more than 2,100 audiobooks, so the break-even numbers below come out of
+          that dataset rather than out of a rule of thumb. Prices are US list prices at the time of
+          writing, and sales move them around holidays.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What one credit is actually worth in 2026</h2>
+        <p>
+          A Premium Plus credit costs roughly one month of membership. That means every title you buy
+          with one carries the same price tag, no matter what the sticker says. A 4-hour novella and a
+          45-hour epic cost you exactly one credit each.
+        </p>
+        <p>
+          Our dataset puts the median audiobook at about 11 hours. Spend a credit near the median and
+          you get ordinary value. Spend it on a 40-hour title and the same credit buys four times the
+          listening, which is the whole argument for saving credits for long books.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Audible credit vs cash: the break-even table</h2>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Title length</th>
+              <th className='text-left py-2'>Typical cash price</th>
+              <th className='text-left py-2'>Use a credit?</th>
+              <th className='text-left py-2'>Hours per credit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Under 5 hours</td><td className='py-2'>$8 to $15</td><td className='py-2'>Rarely</td><td className='py-2'>5 or fewer</td></tr>
+            <tr><td className='py-2'>5 to 10 hours</td><td className='py-2'>$15 to $25</td><td className='py-2'>Borderline</td><td className='py-2'>5 to 10</td></tr>
+            <tr><td className='py-2'>10 to 20 hours</td><td className='py-2'>$20 to $35</td><td className='py-2'>Yes</td><td className='py-2'>10 to 20</td></tr>
+            <tr><td className='py-2'>20 to 40 hours</td><td className='py-2'>$30 to $45</td><td className='py-2'>Yes, clearly</td><td className='py-2'>20 to 40</td></tr>
+            <tr><td className='py-2'>Over 40 hours</td><td className='py-2'>$40 to $60</td><td className='py-2'>Always</td><td className='py-2'>40 or more</td></tr>
+          </tbody>
+        </table>
+        <p>
+          The pattern is not subtle. The longer the book, the further a credit beats cash, because the
+          cost of a credit never moves while the cash price climbs with runtime.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>When to use an audible credit</h2>
+        <p>
+          Four situations favour a credit, and they overlap more often than you would expect.
+        </p>
+        <ul className='space-y-2'>
+          <li><strong>The title runs past 10 hours</strong> and its cash price sits at or above what a month of membership costs you.</li>
+          <li><strong>The book is new.</strong> New releases rarely discount, so cash buys you nothing extra.</li>
+          <li><strong>You already own the ebook</strong> and the Whispersync price is still higher than one credit.</li>
+          <li><strong>It is a box set.</strong> One credit can cover several novels at once, which no cash price matches.</li>
+        </ul>
+        <p>
+          Long books are the reason credits exist. Short ones are where paying cash pulls ahead, and
+          knowing the split is most of the work.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>When paying cash beats spending a credit</h2>
+        <p>
+          Cash wins in a shorter list of situations, but they come up constantly.
+        </p>
+        <ul className='space-y-2'>
+          <li><strong>Sale price under about $10.</strong> A credit spent there throws away most of its value.</li>
+          <li><strong>Short titles under five hours,</strong> where cash is cheaper almost every time.</li>
+          <li><strong>You hold more credits than you can use</strong> before they expire.</li>
+          <li><strong>The title sits in a bundle</strong> you can buy once instead of credit by credit.</li>
+        </ul>
+        <p>
+          Credits expire on most plans, so a credit held too long becomes a credit lost. Cash
+          purchases never expire, which is the quiet advantage on the cash side.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>How to check any title in about ten seconds</h2>
+        <p>You do not need to memorise the table. Run this instead.</p>
+        <ul className='space-y-2'>
+          <li><strong>Read the runtime</strong> on the title page.</li>
+          <li><strong>Divide the cash price by the hours</strong> to get a dollars-per-hour figure.</li>
+          <li><strong>Compare that against your own credit cost.</strong> Whichever is lower wins.</li>
+          <li><strong>Or skip the arithmetic</strong> and run the title through the <a href="/calculator">credit value calculator</a>.</li>
+        </ul>
+        <p>
+          The <a href="/compare">plan comparison</a> covers what a credit costs on each tier, and the
+          <a href="/books">book index</a> lists runtimes so you can check a title before you commit
+          either way.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Frequently asked</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Is an Audible credit worth more than cash?</h3>
+        <p>It depends on the title. On anything longer than 10 hours a credit almost always wins. On sale titles under about $10, cash wins nearly every time.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>When should I use an Audible credit instead of paying?</h3>
+        <p>Use a credit when the cash price sits at or above your monthly membership cost and the runtime is long. That combination is the reason credits exist.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Do Audible credits expire?</h3>
+        <p>On most plans, yes, roughly a year after they are issued, and unused credits disappear when a membership is cancelled. Cash purchases stay in the library permanently.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Can I return a book bought with a credit?</h3>
+        <p>Yes, inside the return window, and the credit comes back to you. That makes a borderline credit spend lower risk than a borderline cash spend.</p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+        <p>
+          We test audiobooks so you do not waste a credit. Start on
+          <a href="/">getcreditworth.com</a>, compare plans on the
+          <a href="/compare">comparison page</a>, check hours per credit on the
+          <a href="/calculator">credit value calculator</a>, or read <a href="/blog">the blog</a> for
+          more guides to credits, pricing, and spending well.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Audible 用 credit 还是付现金：2026 年该怎么选</h3>
+        <p>
+          Audible 用 credit 还是付现金，这个选择悄悄决定了你每一美元能换到多少收听时间。credit 是固定单位、成本固定；现金价格则跟着书在动。算出哪边划算只需要一次比较，不需要表格。
+        </p>
+        <p>
+          我们给 2,100 多本有声书做了定价和时长记录，下面这些盈亏平衡的数字来自这份数据集，不是拍脑袋的经验法则。价格是撰写时的美国标价，节假日促销会让它上下浮动。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>2026 年一个 credit 到底值多少</h3>
+        <p>
+          一个 Premium Plus credit 的成本大约是会员一个月的价格。这意味着你用 credit 买的每一本，成本都一样，标价多少都无所谓。4 小时的中篇和 45 小时的巨著，都各花你一个 credit。
+        </p>
+        <p>
+          我们的数据里，有声书时长中位数大约是 11 小时。在中位数附近花 credit，拿到的是普通水平；花在 40 小时的长篇上，同一个 credit 换来四倍的收听量，这就是「credit 要留给长篇」的全部理由。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Audible credit 与现金的盈亏平衡表</h3>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>时长</th>
+              <th className='text-left py-2'>常见现金价</th>
+              <th className='text-left py-2'>用 credit 吗</th>
+              <th className='text-left py-2'>每 credit 小时数</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>5 小时以内</td><td className='py-2'>8 到 15 美元</td><td className='py-2'>基本不用</td><td className='py-2'>5 小时或更少</td></tr>
+            <tr><td className='py-2'>5 到 10 小时</td><td className='py-2'>15 到 25 美元</td><td className='py-2'>看情况</td><td className='py-2'>5 到 10 小时</td></tr>
+            <tr><td className='py-2'>10 到 20 小时</td><td className='py-2'>20 到 35 美元</td><td className='py-2'>用</td><td className='py-2'>10 到 20 小时</td></tr>
+            <tr><td className='py-2'>20 到 40 小时</td><td className='py-2'>30 到 45 美元</td><td className='py-2'>明显该用</td><td className='py-2'>20 到 40 小时</td></tr>
+            <tr><td className='py-2'>40 小时以上</td><td className='py-2'>40 到 60 美元</td><td className='py-2'>一定用</td><td className='py-2'>40 小时或更多</td></tr>
+          </tbody>
+        </table>
+        <p>
+          这个规律一点都不微妙：书越长，credit 越划算，因为 credit 的成本不动，而现金价随时长往上走。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>什么时候该用 Audible credit</h3>
+        <p>有四种情况偏向用 credit，而且它们重合的频率比你以为的高。</p>
+        <ul className='space-y-2'>
+          <li><strong>时长超过 10 小时</strong>，而且现金价达到或超过你一个月的会员费。</li>
+          <li><strong>书是新的。</strong>新书很少打折，付现金也拿不到额外好处。</li>
+          <li><strong>你已经有了电子版</strong>，而 Whispersync 优惠价仍然高于一个 credit。</li>
+          <li><strong>这是套装书。</strong>一个 credit 能一次拿下好几本，现金价做不到。</li>
+        </ul>
+        <p>长篇是 credit 存在的理由，短篇是现金占优的地方。把这条分界记住，大部分判断就做完了。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>什么时候付现金比花 credit 划算</h3>
+        <p>现金占优的情况更少，但出现得非常频繁。</p>
+        <ul className='space-y-2'>
+          <li><strong>促销价低于约 10 美元。</strong>在这里花 credit，等于扔掉它大部分价值。</li>
+          <li><strong>5 小时以内的短书，</strong>几乎每次都是现金更便宜。</li>
+          <li><strong>手上的 credit 在到期前用不完。</strong></li>
+          <li><strong>这本书在某个捆绑包里，</strong>可以一次买下，不用一个一个 credit 花。</li>
+        </ul>
+        <p>
+          credit 在多数方案里会过期，握太久就变成了丢掉。现金购买永远不会过期，这是现金一侧不太显眼、但很实在的优势。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>怎么用大约十秒判断任意一本书</h3>
+        <p>不用背表格，按这个流程走就行。</p>
+        <ul className='space-y-2'>
+          <li><strong>看书页上的时长。</strong></li>
+          <li><strong>用现金价除以小时数，</strong>得到「每小时多少钱」。</li>
+          <li><strong>和你自己的 credit 成本比。</strong>哪个低用哪个。</li>
+          <li><strong>或者干脆不算，</strong>把这本书丢进<a href="/calculator">credit 性价比计算器</a>。</li>
+        </ul>
+        <p>
+          <a href="/compare">方案对比页</a>列出了每一档会员下一个 credit 的成本，<a href="/books">书目索引</a>列出了各书时长，决定之前可以先查一遍。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p><strong>Audible 的 credit 比现金更值吗？</strong>看具体是哪本书。10 小时以上的书，credit 几乎总是更划算；10 美元以下的促销书，现金几乎每次都赢。</p>
+        <p><strong>什么时候该用 credit 而不是付钱？</strong>当现金价达到或高于你一个月的会员费、而且书很长时，用 credit。这个组合正是 credit 存在的意义。</p>
+        <p><strong>Audible 的 credit 会过期吗？</strong>多数方案会，大约是发放后一年；会员取消时未使用的 credit 也会消失。现金买的书则永久留在书库里。</p>
+        <p><strong>用 credit 买的书能退吗？</strong>能，在退货窗口内退，credit 会退回到你手上。这让「拿不准要不要花 credit」比「拿不准要不要付现金」风险更低。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+        <p>
+          我们替你实测有声书，别浪费 credit。从<a href="/">getcreditworth.com</a>开始，到<a href="/compare">对比页</a>横比各家方案，用<a href="/calculator">credit 性价比计算器</a>算每 credit 的小时数，或者去<a href="/blog">博客</a>读更多关于 credit、定价和怎么花钱更值的指南。
+        </p>
+      </>
+    ),
+  },
+
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
