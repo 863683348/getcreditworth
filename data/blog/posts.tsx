@@ -11937,6 +11937,925 @@ const POSTS: Record<string, BlogPostData> = {
     ),
   },
 
+  'audible-vs-libro-fm': {
+    slug: 'audible-vs-libro-fm',
+    title: 'Audible vs Libro.fm: Which Is Better for Audiobook Lovers?',
+    description: 'Audible vs Libro.fm compared on price, catalogue, file ownership and app quality: what Libro.fm charges per hour, when a credit is cheaper, and which service suits listeners who want to keep their audiobooks.',
+    keywords: ['audible vs libro.fm', 'libro fm vs audible', 'audiobook service comparison', 'libro fm audiobooks review', 'drm free audiobooks', 'is libro fm better than audible', 'libro fm price vs audible credit', 'libro fm independent bookstores'],
+    date: '2026-10-12',
+    readTime: '9 min read',
+    category: 'Comparison',
+    faq: [
+      {
+        question: 'Is Libro.fm cheaper than Audible?',
+        answer: 'Usually not per hour. Libro.fm sells at or near list price with periodic sales, while an Audible credit covers any title for roughly $10 to $15. What Libro.fm offers instead is ownership: the download is a DRM-free file rather than a licence inside one app.',
+      },
+      {
+        question: 'Do you really own Libro.fm audiobooks?',
+        answer: 'Yes in the practical sense. You download MP3 files with no DRM, so you can play them on any device, back them up, and keep them regardless of what happens to your Libro.fm account.',
+      },
+      {
+        question: 'Can I use Libro.fm without a membership?',
+        answer: 'Yes. Libro.fm works as a normal store where you pay per title, and a membership is optional for listeners who want a monthly credit.',
+      },
+      {
+        question: 'Does Libro.fm have the same books as Audible?',
+        answer: 'Not the full set. Most mainstream releases overlap, but Audible carries exclusive narrations, long box sets and a much deeper backlist. If a title is obscure or unusually long, Audible is more likely to have it.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          Audible vs Libro.fm comes down to one question: do you want the biggest catalogue at the
+          lowest per-hour price, or do you want files you actually control? Audible sells membership
+          credits that work on any title. Libro.fm sells audiobooks one at a time, supports an
+          independent bookstore of your choosing, and hands you DRM-free files. Both have real
+          strengths, and this audiobook service comparison walks through price, catalogue, ownership
+          and app quality so you can pick the side that fits your listening.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>How each service charges you</h2>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'></th>
+              <th className='text-left py-2'>Audible</th>
+              <th className='text-left py-2'>Libro.fm</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Model</td><td className='py-2'>Membership with monthly credits</td><td className='py-2'>Pay per title, membership optional</td></tr>
+            <tr><td className='py-2'>Typical cost for one book</td><td className='py-2'>One credit, about $10 to $15 by plan</td><td className='py-2'>List price, often $15 to $30, with sales</td></tr>
+            <tr><td className='py-2'>Long books</td><td className='py-2'>One credit whether 5 or 40 hours</td><td className='py-2'>Price follows the title, so long books cost more</td></tr>
+            <tr><td className='py-2'>Files</td><td className='py-2'>Locked to the Audible app</td><td className='py-2'>DRM-free MP3 you can download and keep</td></tr>
+            <tr><td className='py-2'>If you stop listening</td><td className='py-2'>You keep paying, unused credits expire</td><td className='py-2'>You pay nothing at all</td></tr>
+          </tbody>
+        </table>
+        <p>
+          The fourth row is the one that matters most for a lot of listeners. A Libro.fm purchase is
+          yours in a way an Audible purchase is not: you get a plain audio file you can put on any
+          player, back up, or run through whatever software you like.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Where libro fm vs audible pricing lands per hour</h2>
+        <p>
+          Deal pricing moves, so the useful number is cost per hour. Here is the comparison using
+          typical Libro.fm prices against an Audible credit at about $12.
+        </p>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Book length</th>
+              <th className='text-left py-2'>Libro.fm typical price</th>
+              <th className='text-left py-2'>Cost per hour, Libro.fm</th>
+              <th className='text-left py-2'>Cost per hour, Audible credit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>8 hours</td><td className='py-2'>about $15</td><td className='py-2'>about $1.90</td><td className='py-2'>about $1.50</td></tr>
+            <tr><td className='py-2'>12 hours</td><td className='py-2'>about $18</td><td className='py-2'>about $1.50</td><td className='py-2'>about $1.00</td></tr>
+            <tr><td className='py-2'>20 hours</td><td className='py-2'>about $25</td><td className='py-2'>about $1.25</td><td className='py-2'>about $0.60</td></tr>
+            <tr><td className='py-2'>40 hours</td><td className='py-2'>about $30</td><td className='py-2'>about $0.75</td><td className='py-2'>about $0.30</td></tr>
+            <tr><td className='py-2'>60 hours and up</td><td className='py-2'>about $35</td><td className='py-2'>about $0.55</td><td className='py-2'>about $0.20</td></tr>
+          </tbody>
+        </table>
+        <p>
+          Audible wins on raw hourly cost at every length, and the gap widens as books get longer.
+          Libro.fm closes part of that gap during its regular sales, and for shorter titles the
+          difference is small enough that ownership is worth more than the cents.
+        </p>
+        <p>
+          Check the runtime before you compare prices. The
+          <a href="/calculator">credit value calculator</a> lists hours per title, which turns this
+          table into a decision about your own shelf rather than averages.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Catalogue and what you own afterwards</h2>
+        <ul className='space-y-2'>
+          <li><strong>Selection.</strong> Audible carries the larger library, including most exclusive narrations, long box sets and the titles that never appear anywhere else. Libro.fm is smaller but covers most current releases and backlist fiction.</li>
+          <li><strong>Ownership.</strong> Libro.fm gives you DRM-free MP3 files. Audible gives you a licence to listen inside its own app, and there is no supported way to export a plain audio file.</li>
+          <li><strong>Bookstore support.</strong> Libro.fm splits revenue with the independent bookstore you pick at signup. Audible keeps everything.</li>
+          <li><strong>After cancellation.</strong> Purchases stay in your library on both. On Audible, unused credits disappear when the membership ends.</li>
+          <li><strong>Region.</strong> Audible operates in far more markets. Libro.fm is strongest in the US and Canada.</li>
+        </ul>
+        <p>
+          If you want to understand exactly what survives a cancellation, our
+          <a href="/blog/how-to-cancel-audible-subscription">Audible cancellation guide</a> covers it
+          in detail.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>App quality and listening features</h2>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Feature</th>
+              <th className='text-left py-2'>Audible</th>
+              <th className='text-left py-2'>Libro.fm</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Offline downloads</td><td className='py-2'>Yes</td><td className='py-2'>Yes, plus files you can move yourself</td></tr>
+            <tr><td className='py-2'>Sleep timer</td><td className='py-2'>Yes, with end of chapter</td><td className='py-2'>Yes</td></tr>
+            <tr><td className='py-2'>CarPlay and Android Auto</td><td className='py-2'>Yes</td><td className='py-2'>Limited</td></tr>
+            <tr><td className='py-2'>Speed control</td><td className='py-2'>Up to 3.5x</td><td className='py-2'>Up to 3x</td></tr>
+            <tr><td className='py-2'>Position sync across devices</td><td className='py-2'>Yes</td><td className='py-2'>Yes</td></tr>
+            <tr><td className='py-2'>Play files outside the app</td><td className='py-2'>No</td><td className='py-2'>Yes, the download is a normal MP3</td></tr>
+          </tbody>
+        </table>
+        <p>
+          Audible has the more polished app, mostly in the car. Libro.fm trades polish for the fact
+          that you do not need its app at all once the file is downloaded.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Which service fits your listening habits</h2>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Listener</th>
+              <th className='text-left py-2'>Better option</th>
+              <th className='text-left py-2'>Reason</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Two or more books a month</td><td className='py-2'>Audible</td><td className='py-2'>Per-credit cost drops well below per-title pricing</td></tr>
+            <tr><td className='py-2'>Long epics and box sets</td><td className='py-2'>Audible</td><td className='py-2'>One credit covers any length</td></tr>
+            <tr><td className='py-2'>Listeners who archive their library</td><td className='py-2'>Libro.fm</td><td className='py-2'>DRM-free files survive any platform change</td></tr>
+            <tr><td className='py-2'>Anyone who wants to fund a local bookstore</td><td className='py-2'>Libro.fm</td><td className='py-2'>The purchase is routed through the store you pick</td></tr>
+            <tr><td className='py-2'>Mixed habits</td><td className='py-2'>Both</td><td className='py-2'>Audible for long titles, Libro.fm for what you want to keep</td></tr>
+          </tbody>
+        </table>
+        <p>
+          Running both is common and sensible. Use a low Audible tier for the 40-hour histories, buy
+          the titles you want permanent files for on Libro.fm, and you stop worrying about expiring
+          credits.
+        </p>
+        <p>
+          Start with the longest titles, since they are where a credit does the most work.
+          <a href="/category/history">The history collection</a> is full of them, and the
+          <a href="/compare">service comparison</a> lines up the other storefronts worth considering.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Frequently asked</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Is Libro.fm cheaper than Audible?</h3>
+        <p>Usually not per hour. Libro.fm sells at or near list price with periodic sales, while an Audible credit covers any title for roughly $10 to $15. What Libro.fm offers instead is ownership: the download is a DRM-free file rather than a licence inside one app.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Do you really own Libro.fm audiobooks?</h3>
+        <p>Yes in the practical sense. You download MP3 files with no DRM, so you can play them on any device, back them up, and keep them regardless of what happens to your Libro.fm account.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Can I use Libro.fm without a membership?</h3>
+        <p>Yes. Libro.fm works as a normal store where you pay per title, and a membership is optional for listeners who want a monthly credit.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Does Libro.fm have the same books as Audible?</h3>
+        <p>Not the full set. Most mainstream releases overlap, but Audible carries exclusive narrations, long box sets and a much deeper backlist. If a title is obscure or unusually long, Audible is more likely to have it.</p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+        <p>
+          We test audiobooks so you do not waste a credit. Start on
+          <a href="/">getcreditworth.com</a>, compare plans on the
+          <a href="/compare">comparison page</a>, check hours per credit on the
+          <a href="/calculator">credit value calculator</a>, or read <a href="/blog">the blog</a> for
+          more guides to pricing, services and getting value out of every audiobook.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Audible 对比 Libro.fm：有声书爱好者该选哪个？</h3>
+        <p>
+          Audible 对比 Libro.fm，其实只问一件事：你要的是最大的目录加上最低的每小时成本，还是你真正能掌控的音频文件？Audible 卖会员 credit，一个 credit 换任意一本书；Libro.fm 一本一本卖，让你指定一家独立书店分成，并且给的是无 DRM 的文件。两边都有实打实的优势，这篇有声书服务对比会从价格、目录、所有权和 App 体验四个角度拆开来看。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>两家分别怎么收钱</h3>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'></th>
+              <th className='text-left py-2'>Audible</th>
+              <th className='text-left py-2'>Libro.fm</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>模式</td><td className='py-2'>会员制，每月发 credit</td><td className='py-2'>按本付费，会员可选</td></tr>
+            <tr><td className='py-2'>一本书的典型成本</td><td className='py-2'>一个 credit，按方案约 10 到 15 美元</td><td className='py-2'>按定价，多在 15 到 30 美元，有促销</td></tr>
+            <tr><td className='py-2'>长篇</td><td className='py-2'>5 小时还是 40 小时，都是一个 credit</td><td className='py-2'>价格跟着书走，越长越贵</td></tr>
+            <tr><td className='py-2'>文件</td><td className='py-2'>锁在 Audible App 里</td><td className='py-2'>无 DRM 的 MP3，可下载自存</td></tr>
+            <tr><td className='py-2'>你不听了之后</td><td className='py-2'>仍然在扣费，没用的 credit 会过期</td><td className='py-2'>一分钱都不用付</td></tr>
+          </tbody>
+        </table>
+        <p>
+          对很多人来说第四行才是重点。在 Libro.fm 买到的书，是你「真的」拥有的：一个普通音频文件，可以放到任何播放器上、可以备份、可以随你用什么软件处理。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Libro.fm 与 Audible 折算到每小时的价格</h3>
+        <p>
+          价格会随促销变动，所以更有用的指标是每小时成本。下面 Libro.fm 用典型售价，Audible 按约 12 美元一个 credit 计算。
+        </p>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>时长</th>
+              <th className='text-left py-2'>Libro.fm 典型售价</th>
+              <th className='text-left py-2'>Libro.fm 每小时成本</th>
+              <th className='text-left py-2'>Audible credit 每小时成本</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>8 小时</td><td className='py-2'>约 15 美元</td><td className='py-2'>约 1.90 美元</td><td className='py-2'>约 1.50 美元</td></tr>
+            <tr><td className='py-2'>12 小时</td><td className='py-2'>约 18 美元</td><td className='py-2'>约 1.50 美元</td><td className='py-2'>约 1.00 美元</td></tr>
+            <tr><td className='py-2'>20 小时</td><td className='py-2'>约 25 美元</td><td className='py-2'>约 1.25 美元</td><td className='py-2'>约 0.60 美元</td></tr>
+            <tr><td className='py-2'>40 小时</td><td className='py-2'>约 30 美元</td><td className='py-2'>约 0.75 美元</td><td className='py-2'>约 0.30 美元</td></tr>
+            <tr><td className='py-2'>60 小时以上</td><td className='py-2'>约 35 美元</td><td className='py-2'>约 0.55 美元</td><td className='py-2'>约 0.20 美元</td></tr>
+          </tbody>
+        </table>
+        <p>
+          按小时算，Audible 在每个时长档都更便宜，而且书越长差距越大。Libro.fm 靠定期促销能追回一部分差距；对于短篇，那点差价往往还不如「拥有文件」这件事值钱。
+        </p>
+        <p>
+          比价之前先看时长。<a href="/calculator">credit 价值计算器</a>列出了每本书的小时数，能把上面这张表变成针对你自己的书架的决策，而不是平均值。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>目录规模与买完之后你拥有什么</h3>
+        <ul className='space-y-2'>
+          <li><strong>选书范围。</strong>Audible 目录更大，包括大部分独家朗读、超长合集，以及别处找不到的书。Libro.fm 更小，但覆盖了大部分新书和虚构类常销书。</li>
+          <li><strong>所有权。</strong>Libro.fm 给的是无 DRM 的 MP3 文件；Audible 给的是在自己 App 内收听的授权，官方没有导出普通音频文件的途径。</li>
+          <li><strong>支持书店。</strong>Libro.fm 会把收入分给你注册时选的那家独立书店；Audible 不会。</li>
+          <li><strong>取消之后。</strong>两边的已购内容都还在库里。Audible 那边，没用完的 credit 会在会员结束时消失。</li>
+          <li><strong>地区。</strong>Audible 覆盖的市场多得多；Libro.fm 在美国和加拿大最强。</li>
+        </ul>
+        <p>
+          想知道取消之后到底什么能留下，<a href="/blog/how-to-cancel-audible-subscription">Audible 取消订阅指南</a>里有详细说明。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>App 体验与收听功能</h3>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>功能</th>
+              <th className='text-left py-2'>Audible</th>
+              <th className='text-left py-2'>Libro.fm</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>离线下载</td><td className='py-2'>支持</td><td className='py-2'>支持，还能自己挪文件</td></tr>
+            <tr><td className='py-2'>睡眠定时</td><td className='py-2'>支持，可到章节结束</td><td className='py-2'>支持</td></tr>
+            <tr><td className='py-2'>CarPlay 与 Android Auto</td><td className='py-2'>支持</td><td className='py-2'>有限</td></tr>
+            <tr><td className='py-2'>倍速</td><td className='py-2'>最高 3.5 倍</td><td className='py-2'>最高 3 倍</td></tr>
+            <tr><td className='py-2'>多设备进度同步</td><td className='py-2'>支持</td><td className='py-2'>支持</td></tr>
+            <tr><td className='py-2'>用别的播放器打开</td><td className='py-2'>不支持</td><td className='py-2'>支持，下载下来就是普通 MP3</td></tr>
+          </tbody>
+        </table>
+        <p>
+          Audible 的 App 更成熟，尤其是在车上。Libro.fm 则用「文件下载完就不需要它的 App」这一点，换掉了那份成熟度。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>哪种服务适合你的收听习惯</h3>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>听书的人</th>
+              <th className='text-left py-2'>更合适的选择</th>
+              <th className='text-left py-2'>原因</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>一个月两本以上</td><td className='py-2'>Audible</td><td className='py-2'>每个 credit 的成本远低于按本购买</td></tr>
+            <tr><td className='py-2'>长篇大部头与合集</td><td className='py-2'>Audible</td><td className='py-2'>一个 credit 不看时长</td></tr>
+            <tr><td className='py-2'>想长期保存自己书库的人</td><td className='py-2'>Libro.fm</td><td className='py-2'>无 DRM 文件不受平台变动影响</td></tr>
+            <tr><td className='py-2'>想支持本地书店的人</td><td className='py-2'>Libro.fm</td><td className='py-2'>付款会分流到你指定的那家店</td></tr>
+            <tr><td className='py-2'>习惯混杂</td><td className='py-2'>两家都用</td><td className='py-2'>Audible 管长篇，Libro.fm 管想永久留存的书</td></tr>
+          </tbody>
+        </table>
+        <p>
+          两家一起用很常见也很合理：用低档位的 Audible 对付 40 小时的历史大部头，想在手里留一份文件的书就上 Libro.fm 买，也就不用再盯着 credit 会不会过期。
+        </p>
+        <p>
+          先从最长的书开始，因为那是 credit 最能发挥价值的地方。<a href="/category/history">历史类合集</a>里全是这类书，<a href="/compare">服务对比页</a>则列出了其他值得考虑的 storefront。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p><strong>Libro.fm 比 Audible 便宜吗？</strong>按小时算通常不便宜。Libro.fm 按定价或接近定价出售，只在促销时打折；而一个 Audible credit 大约 10 到 15 美元就能换任意一本书。Libro.fm 提供的是「所有权」：下载下来的是无 DRM 的文件，而不是某一个 App 里的授权。</p>
+        <p><strong>Libro.fm 的有声书是真的属于我吗？</strong>在实用意义上是。你下载到的是无 DRM 的 MP3，可以在任何设备上播放、可以备份，无论你的 Libro.fm 账号出什么事，文件都还在。</p>
+        <p><strong>不开会员能用 Libro.fm 吗？</strong>可以。Libro.fm 本身就是按本付费的普通商店，会员只是给想要每月 credit 的人的可选项。</p>
+        <p><strong>Libro.fm 的书和 Audible 一样全吗？</strong>不完全一样。主流新书大多重合，但 Audible 有独家朗读、超长合集和更深的常销书目。越是冷门或者超长的书，Audible 有的可能性越大。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+        <p>
+          我们替你试听，帮你不浪费 credit。从 <a href="/">getcreditworth.com</a> 开始，到<a href="/compare">对比页</a>比较各家方案，到 <a href="/calculator">credit 价值计算器</a>查看每个 credit 能换多少小时，或者到<a href="/blog">博客</a>读更多关于定价、服务和把每本有声书听回本的内容。
+        </p>
+      </>
+    ),
+  },
+
+  'audible-vs-spotify-audiobooks': {
+    slug: 'audible-vs-spotify-audiobooks',
+    title: 'Audible vs Spotify Audiobooks: Full 2026 Comparison',
+    description: 'Audible vs Spotify audiobooks compared on price, catalogue, ownership and app quality: how the Spotify Premium hour allowance works, when top-ups cost more than a credit, and which is the best audiobook app in 2026.',
+    keywords: ['audible vs spotify audiobooks', 'spotify audiobooks vs audible', 'best audiobook app', 'spotify premium audiobook hours', 'spotify audiobooks allowance', 'is spotify audiobooks worth it', 'audible credit vs spotify hours', 'audiobook subscription comparison 2026'],
+    date: '2026-10-12',
+    readTime: '9 min read',
+    category: 'Comparison',
+    faq: [
+      {
+        question: 'Are Spotify audiobooks included with Premium?',
+        answer: 'In most markets a monthly listening allowance is bundled into Spotify Premium, and hours beyond it can be bought as a top-up. The allowance size and the top-up price vary by country and plan, so check your own account page.',
+      },
+      {
+        question: 'Do you keep Spotify audiobooks if you cancel?',
+        answer: 'No. Audiobook access is part of the subscription. Once Premium ends, the titles stop playing, which is the main difference from buying a book with an Audible credit.',
+      },
+      {
+        question: 'Is Spotify cheaper than Audible?',
+        answer: 'Only if you stay inside the allowance and would pay for Premium regardless. Once you buy top-up hours, the cost per hour rises above what an Audible credit delivers on anything longer than about 10 hours.',
+      },
+      {
+        question: 'Which is the best audiobook app?',
+        answer: 'For library building and long books, Audible. For people who already pay for Spotify and listen lightly, Spotify removes a subscription from the monthly budget, which is hard to argue against.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          Audible vs Spotify audiobooks is a comparison between a dedicated audiobook store and a
+          music app that added audiobooks as a perk. Audible sells credits that buy a book outright.
+          Spotify Premium bundles a monthly allowance of listening hours into a subscription you may
+          already be paying for. The best audiobook app for you depends on whether you listen enough
+          to exhaust that allowance, and on how much you care about keeping titles permanently.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>How each service charges you</h2>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'></th>
+              <th className='text-left py-2'>Audible</th>
+              <th className='text-left py-2'>Spotify audiobooks</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Model</td><td className='py-2'>Membership with monthly credits</td><td className='py-2'>Included in Spotify Premium, measured in hours</td></tr>
+            <tr><td className='py-2'>What you pay</td><td className='py-2'>About $15 per month for one credit</td><td className='py-2'>Premium subscription, roughly $12 per month</td></tr>
+            <tr><td className='py-2'>Monthly limit</td><td className='py-2'>One credit per month on the base tier</td><td className='py-2'>An allowance of listening hours, commonly around 15 in the US</td></tr>
+            <tr><td className='py-2'>Extra listening</td><td className='py-2'>Buy additional credits</td><td className='py-2'>Buy hour top-ups, often around $10 for 10 hours</td></tr>
+            <tr><td className='py-2'>Do you keep the book</td><td className='py-2'>Yes, purchases stay in your library</td><td className='py-2'>No, access ends when the subscription ends</td></tr>
+            <tr><td className='py-2'>Files</td><td className='py-2'>Locked to the Audible app</td><td className='py-2'>Locked to the Spotify app</td></tr>
+          </tbody>
+        </table>
+        <p>
+          The middle row is where the two models diverge. Spotify sells hours, Audible sells titles.
+          A 30-hour book eats two months of a Spotify allowance but costs exactly one Audible credit.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Where spotify audiobooks vs audible pricing lands per hour</h2>
+        <p>
+          Because Spotify measures in hours rather than books, the hourly comparison is direct. Here
+          is how the two stack up at different listening volumes, using a Spotify Premium
+          subscription at about $12 with a 15-hour allowance and an Audible credit at about $12.
+        </p>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Monthly listening</th>
+              <th className='text-left py-2'>Spotify cost per hour</th>
+              <th className='text-left py-2'>Audible cost per hour</th>
+              <th className='text-left py-2'>Cheaper</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>5 hours</td><td className='py-2'>about $2.40</td><td className='py-2'>about $2.40 on a 5-hour book</td><td className='py-2'>Tie</td></tr>
+            <tr><td className='py-2'>10 hours</td><td className='py-2'>about $1.20</td><td className='py-2'>about $1.20 on a 10-hour book</td><td className='py-2'>Tie</td></tr>
+            <tr><td className='py-2'>15 hours</td><td className='py-2'>about $0.80</td><td className='py-2'>about $0.60 on a 25-hour book</td><td className='py-2'>Audible</td></tr>
+            <tr><td className='py-2'>25 hours</td><td className='py-2'>about $0.80 plus top-ups</td><td className='py-2'>about $0.48 on a 25-hour book</td><td className='py-2'>Audible</td></tr>
+            <tr><td className='py-2'>40 hours</td><td className='py-2'>top-ups dominate</td><td className='py-2'>about $0.30 on a 40-hour book</td><td className='py-2'>Audible</td></tr>
+          </tbody>
+        </table>
+        <p>
+          Spotify is competitive up to the allowance if you would pay for Premium anyway, and it is
+          genuinely free listening at the margin for people who already subscribe for music. Past the
+          allowance, buying top-up hours costs more per hour than a credit on anything longer than
+          about 10 hours.
+        </p>
+        <p>
+          Check the runtime before you decide. The
+          <a href="/calculator">credit value calculator</a> lists hours per title, which is what
+          tells you whether your monthly listening fits inside a Spotify allowance.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Catalogue and what you own afterwards</h2>
+        <ul className='space-y-2'>
+          <li><strong>Selection.</strong> Audible carries the deeper audiobook catalogue, including long box sets, exclusive narrations and older backlist titles. Spotify has a large but shallower audiobook shelf that leans toward current bestsellers.</li>
+          <li><strong>Ownership.</strong> An Audible credit buys a title permanently. Spotify audiobooks are part of the subscription, so access lapses when you stop paying.</li>
+          <li><strong>Discovery.</strong> Spotify folds audiobooks into an app you already open for music and podcasts, which makes browsing easier. Audible keeps everything in a purpose-built library.</li>
+          <li><strong>Region and plans.</strong> Audible runs in more markets. Spotify audiobook availability and allowance size vary by country and by plan tier.</li>
+          <li><strong>Family plans.</strong> Spotify family plans can be cheaper per person if several people listen, though allowances are tracked per account.</li>
+        </ul>
+        <p>
+          If you want to know exactly what survives a cancellation, the
+          <a href="/blog/how-to-cancel-audible-subscription">Audible cancellation guide</a> covers it
+          in detail.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>App quality and listening features</h2>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Feature</th>
+              <th className='text-left py-2'>Audible</th>
+              <th className='text-left py-2'>Spotify</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Offline downloads</td><td className='py-2'>Yes</td><td className='py-2'>Yes, within the allowance</td></tr>
+            <tr><td className='py-2'>Sleep timer</td><td className='py-2'>Yes, with end of chapter</td><td className='py-2'>Yes</td></tr>
+            <tr><td className='py-2'>CarPlay and Android Auto</td><td className='py-2'>Yes</td><td className='py-2'>Yes</td></tr>
+            <tr><td className='py-2'>Speed control</td><td className='py-2'>Up to 3.5x</td><td className='py-2'>Up to 3.5x</td></tr>
+            <tr><td className='py-2'>Position sync across devices</td><td className='py-2'>Yes</td><td className='py-2'>Yes</td></tr>
+            <tr><td className='py-2'>Switching between audio and text</td><td className='py-2'>Whispersync with Kindle</td><td className='py-2'>No</td></tr>
+            <tr><td className='py-2'>Music, podcasts and books in one app</td><td className='py-2'>No</td><td className='py-2'>Yes</td></tr>
+          </tbody>
+        </table>
+        <p>
+          Spotify wins on convenience for anyone who already lives in that app, and it is a
+          reasonable best audiobook app pick on that basis alone. Audible wins on the mechanics of
+          long-form listening, particularly Whispersync and the way it handles very long books.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Which one suits your listening habits</h2>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Listener</th>
+              <th className='text-left py-2'>Better option</th>
+              <th className='text-left py-2'>Reason</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Already pays for Spotify Premium</td><td className='py-2'>Spotify audiobooks first</td><td className='py-2'>The allowance costs nothing extra</td></tr>
+            <tr><td className='py-2'>Under about 12 hours a month</td><td className='py-2'>Spotify</td><td className='py-2'>Allowance covers it, no additional spend</td></tr>
+            <tr><td className='py-2'>20 hours or more a month</td><td className='py-2'>Audible</td><td className='py-2'>Top-up hours cost more than a credit</td></tr>
+            <tr><td className='py-2'>Listeners who keep a library</td><td className='py-2'>Audible</td><td className='py-2'>Purchases do not disappear with a subscription</td></tr>
+            <tr><td className='py-2'>Long epics and box sets</td><td className='py-2'>Audible</td><td className='py-2'>One credit covers any length</td></tr>
+          </tbody>
+        </table>
+        <p>
+          Most people land on a hybrid. Keep Spotify for music and use its audiobook allowance for
+          shorter titles, then keep a low Audible tier for the long books where a credit does the most
+          work.
+        </p>
+        <p>
+          The <a href="/compare">service comparison</a> lines up the other storefronts, and
+          <a href="/blog">the blog</a> has separate breakdowns for each one.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Frequently asked</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Are Spotify audiobooks included with Premium?</h3>
+        <p>In most markets a monthly listening allowance is bundled into Spotify Premium, and hours beyond it can be bought as a top-up. The allowance size and the top-up price vary by country and plan, so check your own account page.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Do you keep Spotify audiobooks if you cancel?</h3>
+        <p>No. Audiobook access is part of the subscription. Once Premium ends, the titles stop playing, which is the main difference from buying a book with an Audible credit.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Is Spotify cheaper than Audible?</h3>
+        <p>Only if you stay inside the allowance and would pay for Premium regardless. Once you buy top-up hours, the cost per hour rises above what an Audible credit delivers on anything longer than about 10 hours.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Which is the best audiobook app?</h3>
+        <p>For library building and long books, Audible. For people who already pay for Spotify and listen lightly, Spotify removes a subscription from the monthly budget, which is hard to argue against.</p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+        <p>
+          We test audiobooks so you do not waste a credit. Start on
+          <a href="/">getcreditworth.com</a>, compare plans on the
+          <a href="/compare">comparison page</a>, check hours per credit on the
+          <a href="/calculator">credit value calculator</a>, or read <a href="/blog">the blog</a> for
+          more guides to pricing, services and getting value out of every audiobook.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Audible 对比 Spotify 有声书：2026 完整对比</h3>
+        <p>
+          Audible 对比 Spotify 有声书，本质是「专门的有声书商店」和「把有声书当赠品的音乐 App」之间的比较。Audible 卖 credit，一个 credit 买断一本书；Spotify Premium 则把每月若干小时的收听额度打包进你可能本来就在付的订阅里。哪一个是适合你的最佳有声书 App，取决于你听的量会不会超出那个额度，以及你在不在意「永久拥有」这件事。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>两家分别怎么收钱</h3>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'></th>
+              <th className='text-left py-2'>Audible</th>
+              <th className='text-left py-2'>Spotify 有声书</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>模式</td><td className='py-2'>会员制，每月发 credit</td><td className='py-2'>包含在 Spotify Premium 里，按小时计</td></tr>
+            <tr><td className='py-2'>你付多少</td><td className='py-2'>约 15 美元一个月，给一个 credit</td><td className='py-2'>Premium 订阅，约 12 美元一个月</td></tr>
+            <tr><td className='py-2'>每月额度</td><td className='py-2'>基础档每月一个 credit</td><td className='py-2'>按小时计的额度，美国通常是 15 小时左右</td></tr>
+            <tr><td className='py-2'>额度之外</td><td className='py-2'>加购 credit</td><td className='py-2'>加购小时包，常见是约 10 美元 10 小时</td></tr>
+            <tr><td className='py-2'>书会不会留下</td><td className='py-2'>会，已购内容留在库里</td><td className='py-2'>不会，订阅一停就没了</td></tr>
+            <tr><td className='py-2'>文件</td><td className='py-2'>锁在 Audible App 里</td><td className='py-2'>锁在 Spotify App 里</td></tr>
+          </tbody>
+        </table>
+        <p>
+          中间那几行就是两种模式的分界线：Spotify 卖小时，Audible 卖书。一本 30 小时的书会吃掉 Spotify 两个月的额度，但在 Audible 那边正好就一个 credit。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Spotify 有声书与 Audible 折算到每小时的价格</h3>
+        <p>
+          因为 Spotify 按小时而不是按本计，每小时对比就很直接。下面按不同月听量对比，Spotify 按约 12 美元的 Premium 订阅加 15 小时额度计算，Audible 按约 12 美元一个 credit 计算。
+        </p>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>每月听量</th>
+              <th className='text-left py-2'>Spotify 每小时成本</th>
+              <th className='text-left py-2'>Audible 每小时成本</th>
+              <th className='text-left py-2'>更便宜的</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>5 小时</td><td className='py-2'>约 2.40 美元</td><td className='py-2'>5 小时的书约 2.40 美元</td><td className='py-2'>打平</td></tr>
+            <tr><td className='py-2'>10 小时</td><td className='py-2'>约 1.20 美元</td><td className='py-2'>10 小时的书约 1.20 美元</td><td className='py-2'>打平</td></tr>
+            <tr><td className='py-2'>15 小时</td><td className='py-2'>约 0.80 美元</td><td className='py-2'>25 小时的书约 0.60 美元</td><td className='py-2'>Audible</td></tr>
+            <tr><td className='py-2'>25 小时</td><td className='py-2'>约 0.80 美元，还要加购</td><td className='py-2'>25 小时的书约 0.48 美元</td><td className='py-2'>Audible</td></tr>
+            <tr><td className='py-2'>40 小时</td><td className='py-2'>加购成本占大头</td><td className='py-2'>40 小时的书约 0.30 美元</td><td className='py-2'>Audible</td></tr>
+          </tbody>
+        </table>
+        <p>
+          如果你本来就要付 Premium，那么在额度之内 Spotify 是有竞争力的，边际上甚至等于白送。一旦超出额度，加购小时在 10 小时以上的书上都会比一个 credit 更贵。
+        </p>
+        <p>
+          做决定前先看时长。<a href="/calculator">credit 价值计算器</a>列出了每本书的小时数，它能告诉你，你每月的听量到底装不装得进 Spotify 的额度。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>目录规模与听完（停订）之后你拥有什么</h3>
+        <ul className='space-y-2'>
+          <li><strong>选书范围。</strong>Audible 的有声书目录更深，包括超长合集、独家朗读和更早的常销书。Spotify 的书架数量不小但偏浅，明显倾向当下畅销书。</li>
+          <li><strong>所有权。</strong>一个 Audible credit 是永久买断；Spotify 有声书属于订阅的一部分，停付就看不了。</li>
+          <li><strong>发现新书。</strong>Spotify 把有声书塞进你本来就用来听音乐和播客的 App 里，浏览门槛更低。Audible 则全部收在一个专门的书库里。</li>
+          <li><strong>地区与方案。</strong>Audible 覆盖的市场更多；Spotify 有声书的上架情况和额度大小按国家和方案档位而变。</li>
+          <li><strong>家庭方案。</strong>如果好几个人都在听，Spotify 家庭方案的人均成本更低，不过额度是按账号各自计的。</li>
+        </ul>
+        <p>
+          想知道取消之后到底什么能留下，<a href="/blog/how-to-cancel-audible-subscription">Audible 取消订阅指南</a>里有详细说明。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>App 体验与收听功能</h3>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>功能</th>
+              <th className='text-left py-2'>Audible</th>
+              <th className='text-left py-2'>Spotify</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>离线下载</td><td className='py-2'>支持</td><td className='py-2'>支持，在额度内</td></tr>
+            <tr><td className='py-2'>睡眠定时</td><td className='py-2'>支持，可到章节结束</td><td className='py-2'>支持</td></tr>
+            <tr><td className='py-2'>CarPlay 与 Android Auto</td><td className='py-2'>支持</td><td className='py-2'>支持</td></tr>
+            <tr><td className='py-2'>倍速</td><td className='py-2'>最高 3.5 倍</td><td className='py-2'>最高 3.5 倍</td></tr>
+            <tr><td className='py-2'>多设备进度同步</td><td className='py-2'>支持</td><td className='py-2'>支持</td></tr>
+            <tr><td className='py-2'>音频与文字切换</td><td className='py-2'>支持 Kindle Whispersync</td><td className='py-2'>不支持</td></tr>
+            <tr><td className='py-2'>音乐、播客、书在一个 App 里</td><td className='py-2'>不支持</td><td className='py-2'>支持</td></tr>
+          </tbody>
+        </table>
+        <p>
+          对本来就住在 Spotify 里的人，便利性上 Spotify 赢，单凭这一点它就有资格被称作最佳有声书 App。而在长内容收听的机械细节上，Audible 赢，尤其是 Whispersync 和对超长书的处理方式。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>哪一种适合你的收听习惯</h3>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>听书的人</th>
+              <th className='text-left py-2'>更合适的选择</th>
+              <th className='text-left py-2'>原因</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>本来就在付 Spotify Premium</td><td className='py-2'>先用 Spotify 有声书</td><td className='py-2'>额度不用额外花钱</td></tr>
+            <tr><td className='py-2'>每月 12 小时以内</td><td className='py-2'>Spotify</td><td className='py-2'>额度够用，不用再多花</td></tr>
+            <tr><td className='py-2'>每月 20 小时以上</td><td className='py-2'>Audible</td><td className='py-2'>加购小时比一个 credit 贵</td></tr>
+            <tr><td className='py-2'>想攒书库的人</td><td className='py-2'>Audible</td><td className='py-2'>已购内容不会随订阅消失</td></tr>
+            <tr><td className='py-2'>长篇大部头与合集</td><td className='py-2'>Audible</td><td className='py-2'>一个 credit 不看时长</td></tr>
+          </tbody>
+        </table>
+        <p>
+          大多数人最后是混合方案：Spotify 继续听音乐，顺手用它的有声书额度对付短篇；同时留一个低档位的 Audible，专门对付 credit 最能发挥价值的长篇。
+        </p>
+        <p>
+          <a href="/compare">服务对比页</a>列出了其他 storefront，<a href="/blog">博客</a>里对每一家都有单独的拆解。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p><strong>Spotify 有声书包含在 Premium 里吗？</strong>在大多数市场，Premium 里打包了每月的收听额度，超出部分可以买小时包。额度大小和加购价格按国家和方案而变，具体以你自己账号页面为准。</p>
+        <p><strong>取消之后 Spotify 的有声书还在吗？</strong>不在。有声书访问权属于订阅的一部分，Premium 一结束，这些书就播不了了——这正是它和用 Audible credit 买下一本书最大的区别。</p>
+        <p><strong>Spotify 比 Audible 便宜吗？</strong>只有在不超出额度、而且你本来就要付 Premium 的前提下才便宜。一旦开始加购小时，在 10 小时以上的书上，每小时成本就会高过一个 Audible credit 的水平。</p>
+        <p><strong>哪个是最佳有声书 App？</strong>要建书库、听长篇，选 Audible；本来就付着 Spotify 而且听得不多，Spotify 能从你的月度预算里砍掉一份订阅，这一点很难反驳。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+        <p>
+          我们替你试听，帮你不浪费 credit。从 <a href="/">getcreditworth.com</a> 开始，到<a href="/compare">对比页</a>比较各家方案，到 <a href="/calculator">credit 价值计算器</a>查看每个 credit 能换多少小时，或者到<a href="/blog">博客</a>读更多关于定价、服务和把每本有声书听回本的内容。
+        </p>
+      </>
+    ),
+  },
+
+  'audible-vs-scribd': {
+    slug: 'audible-vs-scribd',
+    title: 'Audible vs Scribd: Which Subscription Wins?',
+    description: 'Audible vs Scribd compared on price, catalogue, throttling and what you actually keep: how the Scribd unlimited audiobook subscription works, when it beats a credit, and which plan suits heavy listeners.',
+    keywords: ['audible vs scribd', 'scribd audiobooks review', 'unlimited audiobook subscription', 'scribd vs audible price', 'is scribd worth it for audiobooks', 'scribd throttling explained', 'audible credit vs scribd unlimited', 'best unlimited audiobook service'],
+    date: '2026-10-12',
+    readTime: '9 min read',
+    category: 'Comparison',
+    faq: [
+      {
+        question: 'Is Scribd cheaper than Audible?',
+        answer: 'Per month, slightly, and per hour it is roughly a wash at moderate listening volumes. The real difference is that Scribd is access and Audible is ownership, so the cheaper option depends on whether you want to keep the books.',
+      },
+      {
+        question: 'Does Scribd really offer unlimited audiobooks?',
+        answer: 'It offers unlimited access to a catalogue rather than unlimited downloads. Heavy users find the selection narrows after sustained high usage, and some titles rotate out over time.',
+      },
+      {
+        question: 'Can I keep Scribd audiobooks if I cancel?',
+        answer: 'No. Nothing carries over once the subscription ends, which is the single biggest difference from buying a title with an Audible credit.',
+      },
+      {
+        question: 'Should I use Scribd and Audible together?',
+        answer: 'Yes, if you read as much as you listen. Scribd covers ebooks, magazines and casual listening, while a low Audible tier handles the long audiobooks you want to keep.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          Audible vs Scribd is a fight between two very different ideas of unlimited. Audible gives
+          you a credit each month that buys a title permanently. Scribd sells an unlimited audiobook
+          subscription that also covers ebooks and magazines, but throttles access for heavy users
+          and rotates part of its catalogue. If you listen a lot and expect to keep what you finish,
+          Audible wins. If you graze across several books a month and like reading in between, Scribd
+          is hard to beat on price.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>How each subscription works</h2>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'></th>
+              <th className='text-left py-2'>Audible</th>
+              <th className='text-left py-2'>Scribd</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Model</td><td className='py-2'>Monthly credits, one book per credit</td><td className='py-2'>Unlimited reading and listening for a flat fee</td></tr>
+            <tr><td className='py-2'>Typical price</td><td className='py-2'>About $15 per month</td><td className='py-2'>Roughly $12 per month</td></tr>
+            <tr><td className='py-2'>What you own</td><td className='py-2'>Every title bought with a credit</td><td className='py-2'>Nothing, access ends with the subscription</td></tr>
+            <tr><td className='py-2'>Formats</td><td className='py-2'>Audiobooks plus a limited streaming catalog</td><td className='py-2'>Audiobooks, ebooks, magazines, documents</td></tr>
+            <tr><td className='py-2'>Heavy usage</td><td className='py-2'>No limits on what you already own</td><td className='py-2'>Selection narrows for the heaviest users</td></tr>
+            <tr><td className='py-2'>Catalogue stability</td><td className='py-2'>Purchases never rotate out</td><td className='py-2'>Some titles rotate in and out</td></tr>
+          </tbody>
+        </table>
+        <p>
+          The last two rows matter more than the price difference. A Scribd subscription is a rental
+          on a shelf that changes shape, while an Audible credit is a purchase from a shelf that does
+          not.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What a scribd audiobooks review needs to measure</h2>
+        <p>
+          An honest scribd audiobooks review has to separate the headline feature from the actual
+          experience. The flat fee is real, and the audiobook selection is decent for mainstream
+          fiction and nonfiction. What changes the maths is how much you listen and whether the
+          specific book you want is available this month.
+        </p>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Monthly listening</th>
+              <th className='text-left py-2'>Scribd effective cost per hour</th>
+              <th className='text-left py-2'>Audible cost per hour</th>
+              <th className='text-left py-2'>Which wins</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>8 hours</td><td className='py-2'>about $1.50</td><td className='py-2'>about $1.50 on an 8-hour book</td><td className='py-2'>Tie</td></tr>
+            <tr><td className='py-2'>15 hours</td><td className='py-2'>about $0.80</td><td className='py-2'>about $0.80 on a 15-hour book</td><td className='py-2'>Tie</td></tr>
+            <tr><td className='py-2'>25 hours</td><td className='py-2'>about $0.48, if titles are available</td><td className='py-2'>about $0.48 on a 25-hour book</td><td className='py-2'>Tie</td></tr>
+            <tr><td className='py-2'>40 hours</td><td className='py-2'>about $0.30, subject to throttling</td><td className='py-2'>about $0.30 on a 40-hour book</td><td className='py-2'>Audible, because you keep it</td></tr>
+            <tr><td className='py-2'>60 hours</td><td className='py-2'>throttling likely</td><td className='py-2'>about $0.20 on a 60-hour book</td><td className='py-2'>Audible</td></tr>
+          </tbody>
+        </table>
+        <p>
+          At moderate volume the two cost roughly the same per hour. The difference is what you hold
+          at the end of the year: a shelf of owned audiobooks, or a receipt for access that stops the
+          month you cancel.
+        </p>
+        <p>
+          Check the runtime before trusting any of these numbers. The
+          <a href="/calculator">credit value calculator</a> lists hours per title, which is the only
+          way to turn a flat fee into a per-hour figure for your own list.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Catalogue, throttling and what you keep</h2>
+        <ul className='space-y-2'>
+          <li><strong>Selection.</strong> Audible has the larger audiobook catalogue and holds most long box sets and exclusive narrations. Scribd is a decent unlimited audiobook subscription for popular titles but thinner on backlist and on very long books.</li>
+          <li><strong>Throttling.</strong> Scribd restricts selection for the heaviest users after a period of high consumption. Audible has no equivalent limit once a title is bought.</li>
+          <li><strong>Rotation.</strong> Titles can leave Scribd. If you are halfway through a long book when it rotates out, you lose your place in it.</li>
+          <li><strong>Other formats.</strong> Scribd bundles ebooks, magazines and documents into the same fee, which is where it beats Audible outright.</li>
+          <li><strong>After cancellation.</strong> Audible purchases stay. Scribd access ends and nothing carries over.</li>
+        </ul>
+        <p>
+          If you want the detail on what survives a cancellation, the
+          <a href="/blog/how-to-cancel-audible-subscription">Audible cancellation guide</a> covers it.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>App quality and listening features</h2>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Feature</th>
+              <th className='text-left py-2'>Audible</th>
+              <th className='text-left py-2'>Scribd</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Offline downloads</td><td className='py-2'>Yes</td><td className='py-2'>Yes</td></tr>
+            <tr><td className='py-2'>Sleep timer</td><td className='py-2'>Yes, with end of chapter</td><td className='py-2'>Yes</td></tr>
+            <tr><td className='py-2'>CarPlay and Android Auto</td><td className='py-2'>Yes</td><td className='py-2'>Limited</td></tr>
+            <tr><td className='py-2'>Speed control</td><td className='py-2'>Up to 3.5x</td><td className='py-2'>Up to 3x</td></tr>
+            <tr><td className='py-2'>Position sync across devices</td><td className='py-2'>Yes</td><td className='py-2'>Yes</td></tr>
+            <tr><td className='py-2'>Ebooks and magazines alongside</td><td className='py-2'>No</td><td className='py-2'>Yes</td></tr>
+          </tbody>
+        </table>
+        <p>
+          Audible is the better listening app. Scribd is the better all-round reading app, and that
+          is the trade it is asking you to make.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Which subscription wins for your habits</h2>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Listener</th>
+              <th className='text-left py-2'>Winner</th>
+              <th className='text-left py-2'>Reason</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Grazer, several titles a month, few finished</td><td className='py-2'>Scribd</td><td className='py-2'>Flat fee across audio, ebooks and magazines</td></tr>
+            <tr><td className='py-2'>One or two long books a month</td><td className='py-2'>Audible</td><td className='py-2'>A credit covers any length and you keep it</td></tr>
+            <tr><td className='py-2'>Listeners building a permanent library</td><td className='py-2'>Audible</td><td className='py-2'>Purchases do not rotate or expire</td></tr>
+            <tr><td className='py-2'>Readers who also want ebooks and magazines</td><td className='py-2'>Scribd</td><td className='py-2'>One fee covers formats Audible does not sell</td></tr>
+            <tr><td className='py-2'>Heavy listeners above roughly 40 hours</td><td className='py-2'>Audible</td><td className='py-2'>Throttling makes unlimited less unlimited</td></tr>
+          </tbody>
+        </table>
+        <p>
+          Plenty of people run both for a few months: Scribd for browsing and reading, Audible for the
+          long titles worth owning. If you only keep one, decide by whether you want ownership or
+          breadth.
+        </p>
+        <p>
+          The <a href="/compare">service comparison</a> lines up the other storefronts, and the
+          <a href="/category/history">history collection</a> is a good place to find long titles
+          where a credit pays off.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Frequently asked</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Is Scribd cheaper than Audible?</h3>
+        <p>Per month, slightly, and per hour it is roughly a wash at moderate listening volumes. The real difference is that Scribd is access and Audible is ownership, so the cheaper option depends on whether you want to keep the books.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Does Scribd really offer unlimited audiobooks?</h3>
+        <p>It offers unlimited access to a catalogue rather than unlimited downloads. Heavy users find the selection narrows after sustained high usage, and some titles rotate out over time.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Can I keep Scribd audiobooks if I cancel?</h3>
+        <p>No. Nothing carries over once the subscription ends, which is the single biggest difference from buying a title with an Audible credit.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Should I use Scribd and Audible together?</h3>
+        <p>Yes, if you read as much as you listen. Scribd covers ebooks, magazines and casual listening, while a low Audible tier handles the long audiobooks you want to keep.</p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+        <p>
+          We test audiobooks so you do not waste a credit. Start on
+          <a href="/">getcreditworth.com</a>, compare plans on the
+          <a href="/compare">comparison page</a>, check hours per credit on the
+          <a href="/calculator">credit value calculator</a>, or read <a href="/blog">the blog</a> for
+          more guides to pricing, services and getting value out of every audiobook.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Audible 对比 Scribd：哪个订阅更划算？</h3>
+        <p>
+          Audible 对比 Scribd，是两种截然不同的「无限」在打架。Audible 每月给一个 credit，永久买下一本；Scribd 卖的是一份无限有声书订阅，同时还覆盖电子书和杂志，但对重度用户会限流，并且部分目录会轮换。如果你听得多、还希望听过的书留下来，Audible 赢；如果你一个月翻好几本、中间还想读点东西，Scribd 在价格上很难被打败。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>两种订阅分别怎么运作</h3>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'></th>
+              <th className='text-left py-2'>Audible</th>
+              <th className='text-left py-2'>Scribd</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>模式</td><td className='py-2'>每月 credit，一个 credit 一本书</td><td className='py-2'>固定月费，无限读与听</td></tr>
+            <tr><td className='py-2'>典型价格</td><td className='py-2'>约 15 美元一个月</td><td className='py-2'>约 12 美元一个月</td></tr>
+            <tr><td className='py-2'>你拥有什么</td><td className='py-2'>用 credit 买的每一本都归你</td><td className='py-2'>什么都不归你，订阅一停访问权就没了</td></tr>
+            <tr><td className='py-2'>内容形态</td><td className='py-2'>有声书，外加有限的畅听目录</td><td className='py-2'>有声书、电子书、杂志、文档</td></tr>
+            <tr><td className='py-2'>重度使用</td><td className='py-2'>已买的书没有限制</td><td className='py-2'>最重度用户可选范围会收窄</td></tr>
+            <tr><td className='py-2'>目录稳定性</td><td className='py-2'>已购内容不会下架</td><td className='py-2'>部分书目会轮换进出</td></tr>
+          </tbody>
+        </table>
+        <p>
+          最后两行比价格差更要紧。Scribd 的订阅，是租用一个形状会变的书架；Audible 的 credit，则是从一个不会变的书架里买走一本。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>一份 Scribd 有声书评测该衡量什么</h3>
+        <p>
+          一份诚实的 Scribd 有声书评测，必须把「宣传卖点」和「实际体验」分开。固定月费是真的，有声书选品对主流虚构和非虚构来说也够用。真正改变算式的是你听多少，以及你想要的那一本这个月还在不在。
+        </p>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>每月听量</th>
+              <th className='text-left py-2'>Scribd 折算每小时成本</th>
+              <th className='text-left py-2'>Audible 每小时成本</th>
+              <th className='text-left py-2'>谁赢</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>8 小时</td><td className='py-2'>约 1.50 美元</td><td className='py-2'>8 小时的书约 1.50 美元</td><td className='py-2'>打平</td></tr>
+            <tr><td className='py-2'>15 小时</td><td className='py-2'>约 0.80 美元</td><td className='py-2'>15 小时的书约 0.80 美元</td><td className='py-2'>打平</td></tr>
+            <tr><td className='py-2'>25 小时</td><td className='py-2'>约 0.48 美元，前提是书还在</td><td className='py-2'>25 小时的书约 0.48 美元</td><td className='py-2'>打平</td></tr>
+            <tr><td className='py-2'>40 小时</td><td className='py-2'>约 0.30 美元，但可能限流</td><td className='py-2'>40 小时的书约 0.30 美元</td><td className='py-2'>Audible，因为你能留下它</td></tr>
+            <tr><td className='py-2'>60 小时</td><td className='py-2'>大概率被限流</td><td className='py-2'>60 小时的书约 0.20 美元</td><td className='py-2'>Audible</td></tr>
+          </tbody>
+        </table>
+        <p>
+          中等听量下，两者每小时成本大致相当。真正的差别在一年结束时你手里剩下什么：是一整架属于你的有声书，还是一沓「曾经能访问」的账单。
+        </p>
+        <p>
+          要信这些数字，先看时长。<a href="/calculator">credit 价值计算器</a>列出了每本书的小时数，这是把固定月费折算成你自己书单每小时成本的唯一办法。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>目录、限流，以及你能留下什么</h3>
+        <ul className='space-y-2'>
+          <li><strong>选书范围。</strong>Audible 的有声书目录更大，拥有大部分超长合集和独家朗读。Scribd 作为无限有声书订阅，在热门书目上够用，但常销书和超长书偏薄。</li>
+          <li><strong>限流。</strong>Scribd 会在持续高强度使用后收窄最重度用户的可选范围；Audible 在书买到手之后没有对应的限制。</li>
+          <li><strong>轮换。</strong>Scribd 的书可能下架。如果你一本长篇听到一半它轮换走了，你的进度也就没了。</li>
+          <li><strong>其他形态。</strong>Scribd 把电子书、杂志和文档打包进同一份月费，这是它彻底胜过 Audible 的地方。</li>
+          <li><strong>取消之后。</strong>Audible 的已购内容还在；Scribd 的访问权终止，什么都带不走。</li>
+        </ul>
+        <p>
+          关于取消后到底什么能留下，细节在 <a href="/blog/how-to-cancel-audible-subscription">Audible 取消订阅指南</a>里。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>App 体验与收听功能</h3>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>功能</th>
+              <th className='text-left py-2'>Audible</th>
+              <th className='text-left py-2'>Scribd</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>离线下载</td><td className='py-2'>支持</td><td className='py-2'>支持</td></tr>
+            <tr><td className='py-2'>睡眠定时</td><td className='py-2'>支持，可到章节结束</td><td className='py-2'>支持</td></tr>
+            <tr><td className='py-2'>CarPlay 与 Android Auto</td><td className='py-2'>支持</td><td className='py-2'>有限</td></tr>
+            <tr><td className='py-2'>倍速</td><td className='py-2'>最高 3.5 倍</td><td className='py-2'>最高 3 倍</td></tr>
+            <tr><td className='py-2'>多设备进度同步</td><td className='py-2'>支持</td><td className='py-2'>支持</td></tr>
+            <tr><td className='py-2'>同时提供电子书与杂志</td><td className='py-2'>不支持</td><td className='py-2'>支持</td></tr>
+          </tbody>
+        </table>
+        <p>
+          Audible 是更好的收听 App，Scribd 是更好的综合阅读 App——它要你做的取舍就是这个。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>按习惯看，哪个订阅赢</h3>
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>听书的人</th>
+              <th className='text-left py-2'>赢家</th>
+              <th className='text-left py-2'>原因</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>翻书型，一个月碰好几本但少有听完</td><td className='py-2'>Scribd</td><td className='py-2'>一份月费覆盖有声书、电子书和杂志</td></tr>
+            <tr><td className='py-2'>每月一到两本长篇</td><td className='py-2'>Audible</td><td className='py-2'>一个 credit 不看时长，而且归你</td></tr>
+            <tr><td className='py-2'>想建永久书库的人</td><td className='py-2'>Audible</td><td className='py-2'>已购内容不轮换、不过期</td></tr>
+            <tr><td className='py-2'>还想要电子书和杂志的读者</td><td className='py-2'>Scribd</td><td className='py-2'>一份费用覆盖 Audible 不卖的形态</td></tr>
+            <tr><td className='py-2'>每月 40 小时以上的重度听众</td><td className='py-2'>Audible</td><td className='py-2'>限流会让「无限」没那么无限</td></tr>
+          </tbody>
+        </table>
+        <p>
+          不少人会两家同时开几个月：Scribd 用来浏览和阅读，Audible 用来买那些值得留下来的长篇。如果只留一家，就看你想要的是「所有权」还是「广度」。
+        </p>
+        <p>
+          <a href="/compare">服务对比页</a>列出了其他 storefront，<a href="/category/history">历史类合集</a>是找长篇的好去处——那正是 credit 最划算的地方。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p><strong>Scribd 比 Audible 便宜吗？</strong>按月算略便宜，按小时算在中等听量下基本打平。真正的区别是 Scribd 卖的是访问权、Audible 卖的是所有权，所以哪个更便宜取决于你想不想把书留下。</p>
+        <p><strong>Scribd 真的提供无限有声书吗？</strong>它提供的是对目录的无限访问，而不是无限下载。重度用户会发现，在持续高强度使用之后，可选范围会收窄，而且部分书目会随时间轮换出去。</p>
+        <p><strong>取消之后 Scribd 的有声书还在吗？</strong>不在。订阅一结束什么都带不走，这正是它和用 Audible credit 买下一本书最大的一处差别。</p>
+        <p><strong>Scribd 和 Audible 可以一起用吗？</strong>如果你读的和听的一样多，可以。Scribd 覆盖电子书、杂志和随便听听；低档位的 Audible 负责那些你想留下的长篇有声书。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+        <p>
+          我们替你试听，帮你不浪费 credit。从 <a href="/">getcreditworth.com</a> 开始，到<a href="/compare">对比页</a>比较各家方案，到 <a href="/calculator">credit 价值计算器</a>查看每个 credit 能换多少小时，或者到<a href="/blog">博客</a>读更多关于定价、服务和把每本有声书听回本的内容。
+        </p>
+      </>
+    ),
+  },
+
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
