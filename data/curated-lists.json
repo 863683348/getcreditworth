@@ -96,6 +96,7 @@
       "B0GYGB8YY6",
       "B0FLTBZ6Z8",
       "B0D5J5N2NX",
+      "B09WW25BN4",
       "B0CMRPWYMM",
       "B0DFDJ2WRH",
       "B0H7XR2Y24",
@@ -106,10 +107,9 @@
       "B0GWK15KL2",
       "B0FNNDF8HJ",
       "B0GS35W2K1",
-      "B0DW4LQ4SL",
-      "B0FBT21RQ4"
+      "B0DW4LQ4SL"
     ],
-    "updatedAt": "2026-10-12"
+    "updatedAt": "2026-10-13"
   },
   {
     "slug": "best-history-audiobooks",
@@ -177,6 +177,7 @@
     "description": "Transform your habits, mindset, and life with these top-rated self-help audiobooks. The ROI per credit is unmatched — knowledge that changes how you think and act.",
     "category": "Self-Help",
     "bookAsins": [
+      "B09WW25BN4",
       "B00906YT2K",
       "B012QGQSFG",
       "B005HWGF1Y",
@@ -189,6 +190,7 @@
       "B0HJJD2KD3",
       "B0GYZVCBZW",
       "B07D5L32G2",
+      "B0DJFWGKYH",
       "B07YCS34V9",
       "B00JJ6LHQM",
       "B0GYFNY3MM",
@@ -204,11 +206,9 @@
       "B0D2L25QJP",
       "B0DW661K4C",
       "B00SJIVE3W",
-      "B008TW5G3C",
-      "B005B1SO3I",
-      "B08JJQW9TR"
+      "B008TW5G3C"
     ],
-    "updatedAt": "2026-10-12"
+    "updatedAt": "2026-10-13"
   },
   {
     "slug": "best-romance-audiobooks",
@@ -297,7 +297,7 @@
       "B0F7539F5K",
       "B0GC7G2QNJ"
     ],
-    "updatedAt": "2026-10-12"
+    "updatedAt": "2026-10-13"
   },
   {
     "slug": "best-science-fiction-for-credits",
@@ -336,7 +336,7 @@
       "B0F495ZX7T",
       "B0F3XZ56R5"
     ],
-    "updatedAt": "2026-10-12"
+    "updatedAt": "2026-10-13"
   },
   {
     "slug": "best-mystery-for-credits",
@@ -375,7 +375,7 @@
       "B0DG612837",
       "B01C4K4KPO"
     ],
-    "updatedAt": "2026-10-12"
+    "updatedAt": "2026-10-13"
   },
   {
     "slug": "best-romance-for-credits",
@@ -414,7 +414,7 @@
       "B0HFT58DWG",
       "B004Y0IWL6"
     ],
-    "updatedAt": "2026-10-12"
+    "updatedAt": "2026-10-13"
   },
   {
     "slug": "best-history-for-credits",
@@ -436,6 +436,7 @@
       "B0044EMDEO",
       "B004W1ROSY",
       "B00DIHAN68",
+      "B01B1ZA7DM",
       "1705200265",
       "B00D3NK2PY",
       "B004QXW564",
@@ -450,10 +451,9 @@
       "B0HDRV67TJ",
       "B002V8HNTA",
       "B00IRG9ERO",
-      "170520080X",
-      "B08SJFHJFX"
+      "170520080X"
     ],
-    "updatedAt": "2026-10-12"
+    "updatedAt": "2026-10-13"
   },
   {
     "slug": "best-biography-for-credits",
@@ -492,7 +492,7 @@
       "B005CKGBY2",
       "B0DQ6CZV9V"
     ],
-    "updatedAt": "2026-10-12"
+    "updatedAt": "2026-10-13"
   },
   {
     "slug": "best-business-for-credits",
@@ -521,6 +521,7 @@
       "B0983Z1D2F",
       "B019JCNXK8",
       "B0D5RK2ZN6",
+      "B0G51D1YR9",
       "B00W354Y98",
       "B07KRNNLFF",
       "B08JJQW9TR",
@@ -528,10 +529,9 @@
       "B005V0QI82",
       "B075TDNBYW",
       "B00KVHWV3G",
-      "B0BX4SCV1V",
-      "B0GYG1XCYK"
+      "B0BX4SCV1V"
     ],
-    "updatedAt": "2026-10-12"
+    "updatedAt": "2026-10-13"
   },
   {
     "slug": "best-thriller-for-credits",
@@ -570,7 +570,7 @@
       "B01C4K4KPO",
       "B07F3MCHF4"
     ],
-    "updatedAt": "2026-10-12"
+    "updatedAt": "2026-10-13"
   },
   {
     "slug": "best-classic-for-credits",
@@ -609,6 +609,6 @@
       "B0D9YV7QKY",
       "B00H86K5AE"
     ],
-    "updatedAt": "2026-10-12"
+    "updatedAt": "2026-10-13"
   }
 ]
