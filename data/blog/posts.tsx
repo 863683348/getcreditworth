@@ -14497,6 +14497,922 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+  'audible-vs-hoopla': {
+    slug: 'audible-vs-hoopla',
+    title: 'Audible vs Hoopla: Free Library Audiobooks Compared',
+    description: 'Audible vs Hoopla compared on monthly borrow limits, wait times, catalogue depth and cost per hour: when free library audiobooks cover your listening and when a credit plan works out cheaper.',
+    keywords: ['audible vs hoopla', 'hoopla audiobooks', 'free audiobooks library', 'hoopla vs audible', 'hoopla borrow limit', 'library audiobook app', 'audible alternative free', 'hoopla instant borrow'],
+    date: '2026-10-24',
+    readTime: '10 min read',
+    category: 'Comparison',
+    faq: [
+      {
+        question: 'Is Hoopla really free?',
+        answer: 'Yes, as long as your public library subscribes to it. You sign in with a library card and borrow against a monthly allowance. Without a card from a participating library there is no access at all.',
+      },
+      {
+        question: 'How many audiobooks can I borrow on Hoopla each month?',
+        answer: 'Your library sets the number, usually somewhere between five and twenty. The allowance resets at the start of each calendar month, and borrows you did not use do not carry over.',
+      },
+      {
+        question: 'Can I use Hoopla instead of Audible?',
+        answer: 'For light listening, yes. Past roughly fifteen hours a month, or when you want new releases without waiting, the monthly cap and the holds queue start to cost more than a credit plan does per hour.',
+      },
+      {
+        question: 'Do Hoopla audiobooks expire?',
+        answer: 'Each loan has a lending period, commonly 21 days for audiobooks, after which the title returns by itself. You can borrow it again if nobody else is waiting.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          Audible vs Hoopla is not a fight between two shops selling the same thing. Hoopla is a library app: your public library pays for the titles, you sign in with a library card, and the audiobook costs nothing out of pocket. Audible is a shop, and a credit there covers any one title no matter what the publisher charges. We ran both through a month of ordinary listening to find the point where free borrowing stops covering what you actually finish.
+        </p>
+
+        <p>
+          Price turns out to matter less than patience. Hoopla gives you a fixed number of borrows each month and sometimes a wait for the title you want. Audible gives you the book now, in the edition you want, and it stays in your library after you cancel. Below is where each one wins, plus the listening volume where borrowing stops being enough on its own.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>How Hoopla borrowing works next to an Audible credit</h2>
+
+        <p>
+          Hoopla sits inside your library account rather than your wallet. The library sets a monthly borrow allowance, commonly somewhere between five and twenty titles depending on the system, and each audiobook you take uses one of them. When the month rolls over, the allowance resets. Nothing accumulates and nothing is billed to you. Audible runs on a different axis: a plan fee buys credits, and one credit takes any audiobook in the store. A nine hour novel and a forty hour epic cost exactly the same, which is why credit value climbs with runtime.
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'></th>
+              <th className='text-left py-2'>Hoopla</th>
+              <th className='text-left py-2'>Audible</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>What you pay</td><td className='py-2'>Nothing, a library card covers it</td><td className='py-2'>Plan fee for credits</td></tr>
+            <tr><td className='py-2'>How you get a title</td><td className='py-2'>Borrow against a monthly allowance</td><td className='py-2'>One credit per audiobook</td></tr>
+            <tr><td className='py-2'>Wait for new releases</td><td className='py-2'>Holds lists, sometimes weeks</td><td className='py-2'>Available immediately</td></tr>
+            <tr><td className='py-2'>Catalogue size</td><td className='py-2'>Whatever your library system bought</td><td className='py-2'>Largest English catalogue plus exclusives</td></tr>
+            <tr><td className='py-2'>Keeping the title</td><td className='py-2'>Loan expires, usually after 21 days</td><td className='py-2'>Yours after cancelling</td></tr>
+            <tr><td className='py-2'>Monthly limit</td><td className='py-2'>Five to twenty borrows</td><td className='py-2'>Credits from your plan</td></tr>
+            <tr><td className='py-2'>Offline listening</td><td className='py-2'>Yes, for the length of the loan</td><td className='py-2'>Yes, permanently</td></tr>
+            <tr><td className='py-2'>Cost of a 40 hour book</td><td className='py-2'>One borrow</td><td className='py-2'>One credit, about $15</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          Two rows settle most of this. The wait time row is the one people underestimate, because a new release on Hoopla often has one or two copies shared across an entire library system. The ownership row is the other: a borrow expires on its own schedule, while anything you took with a credit stays put.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What the monthly borrow limit means in practice</h2>
+
+        <p>
+          Borrowing is free right up to the moment it is not. Once you pass the allowance, every extra audiobook has to come from somewhere else, and that is the only number in this comparison that really decides anything. We mapped five listening volumes against a typical ten borrow allowance and against twelve credits a year.
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Monthly listening</th>
+              <th className='text-left py-2'>Books per month</th>
+              <th className='text-left py-2'>Borrows needed</th>
+              <th className='text-left py-2'>On Hoopla</th>
+              <th className='text-left py-2'>On Audible</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>about 9 hours</td><td className='py-2'>1</td><td className='py-2'>1</td><td className='py-2'>Covered by any allowance</td><td className='py-2'>One credit, about $15</td></tr>
+            <tr><td className='py-2'>about 35 hours</td><td className='py-2'>3</td><td className='py-2'>3</td><td className='py-2'>Covered by most allowances</td><td className='py-2'>Three credits, about $45</td></tr>
+            <tr><td className='py-2'>about 70 hours</td><td className='py-2'>6</td><td className='py-2'>6</td><td className='py-2'>Inside a ten borrow allowance</td><td className='py-2'>Six credits, about $90</td></tr>
+            <tr><td className='py-2'>about 140 hours</td><td className='py-2'>12</td><td className='py-2'>12</td><td className='py-2'>Over the cap almost everywhere</td><td className='py-2'>Twelve credits, about $180</td></tr>
+            <tr><td className='py-2'>about 240 hours</td><td className='py-2'>20</td><td className='py-2'>20</td><td className='py-2'>Over the cap everywhere</td><td className='py-2'>Twenty credits, about $300</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          Read the third and fourth rows together. Everything up to about six books a month is free on most library cards, which is a genuinely hard offer to beat. Everything past it stops being free, and at that point the comparison turns back into a normal pricing question where a flat credit has the advantage.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Where the Hoopla catalogue falls short of Audible</h2>
+
+        <p>
+          Hoopla carries several hundred thousand audiobooks across all its partner libraries, which sounds enormous until you search your own wish list and find gaps in particular places rather than at random.
+        </p>
+
+        <ul className='space-y-2'>
+          <li>Recent bestsellers are thin. Publishers license fewer copies to libraries in the first months after release, so the holds list does the deciding rather than you.</li>
+          <li>Audible exclusives never appear at all. If a narrator recorded a title only for Audible, no library app will ever have it.</li>
+          <li>Box sets and omnibus editions are patchy. Some are present, many are split into single volumes that each cost you a borrow.</li>
+          <li>Your catalogue is your library, not Hoopla. Two people in neighbouring towns see different shelves because their systems buy differently.</li>
+          <li>Back catalogue depth varies by publisher. Big literary estates are well covered, mid-list genre fiction much less so.</li>
+          <li>Nothing is yours. When the loan ends the title disappears from the app, including the bookmark you left at hour thirty.</li>
+        </ul>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>When free library audiobooks beat any paid plan</h2>
+
+        <p>
+          There are listeners who should cancel everything and use Hoopla alone, and they tend to share a handful of habits worth checking against your own.
+        </p>
+
+        <ul className='space-y-2'>
+          <li>You listen under ten hours a month and mostly want comfort listening rather than specific new releases.</li>
+          <li>You read a lot of back catalogue, where library licensing is generous and holds clear within days.</li>
+          <li>Your library system is large. A metropolitan system buys far more copies than a small county one, and the wait times show it immediately.</li>
+          <li>You listen with children. Children and teen catalogues on Hoopla are strong, and kids rarely mind waiting a week.</li>
+          <li>You want to test a narrator before committing real money to a twelve book series.</li>
+        </ul>
+
+        <p>
+          Free borrowing also works as a filter. Take the first book in a long series from the library, and if it holds you, spend credits on the remaining volumes. That pattern is the cheapest way we know to get through a twenty book fantasy sequence, and it is why <a href="/blog/audible-credit-value">the credit value guide</a> keeps pushing a wish list over impulse buys.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Running both side by side</h2>
+
+        <p>
+          Very few listeners pick one permanently. The arrangement that survives contact with real life is a library app for volume and a credit plan for the titles the library will not carry. Keep a running wish list, check it against Hoopla first, and spend credits only on what came up empty or what you actually want to own. To see the arithmetic on your own list, the <a href="/calculator">credit value calculator</a> prices hours against cost, and the <a href="/compare">comparison page</a> lines up the paid services next to the free ones.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Frequently asked</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Is Hoopla really free?</h3>
+        <p>Yes, as long as your public library subscribes to it. You sign in with a library card and borrow against a monthly allowance. Without a card from a participating library there is no access at all.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>How many audiobooks can I borrow on Hoopla each month?</h3>
+        <p>Your library sets the number, usually somewhere between five and twenty. The allowance resets at the start of each calendar month, and borrows you did not use do not carry over.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Can I use Hoopla instead of Audible?</h3>
+        <p>For light listening, yes. Past roughly fifteen hours a month, or when you want new releases without waiting, the monthly cap and the holds queue start to cost more than a credit plan does per hour.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Do Hoopla audiobooks expire?</h3>
+        <p>Each loan has a lending period, commonly 21 days for audiobooks, after which the title returns by itself. You can borrow it again if nobody else is waiting.</p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+
+        <p>
+          We test audiobooks so you do not waste a credit. Start on
+          <a href="/">getcreditworth.com</a>, see how many hours a credit buys on the
+          <a href="/calculator">credit value calculator</a>, then read
+          <a href="/blog">the blog</a> for more on pricing, plans and value. The
+          <a href="/compare">comparison page</a> lines up every service we have tested, free ones included.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Audible 对比 Hoopla：免费图书馆有声书到底够不够用</h3>
+
+        <p>
+          Audible 对比 Hoopla，其实不是两家卖一样东西的店在打架。Hoopla 是图书馆 App：书由你所在的公共图书馆买单，你用借书证登录，有声书本身一分钱不花。Audible 是商店，一个 credit 换一本，不管出版社标价多少。我们把两种方案放进一个月的日常听书里跑了一遍，想找出免费借阅从哪一点开始不够用。
+        </p>
+
+        <p>
+          结果发现，价格没那么关键，耐心才是。Hoopla 每月给你固定次数的借阅额度，想要的书有时还得排队；Audible 立刻给你书，版本也是你要的那个，取消会员之后书还在。下面分别说清楚各自赢在哪，以及听到什么量级，免费借阅就不够看了。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Hoopla 的借阅机制和 Audible 的 credit 有什么不同</h3>
+
+        <p>
+          Hoopla 挂在你的图书馆账户上，而不是你的钱包上。图书馆设定每月借阅额度，按系统不同，常见在五到二十本之间，每借一本有声书扣一次。月份一翻页，额度重置：不累计，也不扣费。Audible 走的是另一条轴：付套餐费换 credit，一个 credit 换商店里任意一本有声书。九小时的小说和四十小时的史诗花一样多，这也是为什么 credit 的价值随时长往上走。
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'></th>
+              <th className='text-left py-2'>Hoopla</th>
+              <th className='text-left py-2'>Audible</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>怎么付钱</td><td className='py-2'>不花钱，借书证就行</td><td className='py-2'>套餐费换 credit</td></tr>
+            <tr><td className='py-2'>怎么拿到一本书</td><td className='py-2'>扣每月借阅额度</td><td className='py-2'>一本花一个 credit</td></tr>
+            <tr><td className='py-2'>新书要不要等</td><td className='py-2'>要排预约，有时几周</td><td className='py-2'>立刻可听</td></tr>
+            <tr><td className='py-2'>目录规模</td><td className='py-2'>看你所在图书馆买了什么</td><td className='py-2'>英文最大目录，另有独家</td></tr>
+            <tr><td className='py-2'>书归不归你</td><td className='py-2'>借阅到期，通常 21 天</td><td className='py-2'>退订之后仍然归你</td></tr>
+            <tr><td className='py-2'>每月上限</td><td className='py-2'>五到二十次借阅</td><td className='py-2'>套餐给你的 credit 数</td></tr>
+            <tr><td className='py-2'>离线收听</td><td className='py-2'>可以，限借阅期内</td><td className='py-2'>可以，永久</td></tr>
+            <tr><td className='py-2'>40 小时的书花多少</td><td className='py-2'>一次借阅</td><td className='py-2'>一个 credit，约 15 美元</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          真正决定结果的其实只有两行。等待时间那行最容易被低估：Hoopla 上的新书，往往整个图书馆系统只有一两份拷贝。归属那行是另一个：借阅按它自己的时间表到期，用 credit 拿下的书不会走。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>每月借阅上限放到现实里是什么样</h3>
+
+        <p>
+          免费借阅在额度用完之前一直免费，用完那一刻就不是了。超过额度之后，每多一本都得从别处补，而这个数字才是这个对比里唯一真正说了算的东西。我们按常见的十次借阅额度，对照一年十二个 credit，算了五种听书量。
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>每月听书量</th>
+              <th className='text-left py-2'>每月本数</th>
+              <th className='text-left py-2'>需要借阅次数</th>
+              <th className='text-left py-2'>Hoopla 上</th>
+              <th className='text-left py-2'>Audible 上</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>约 9 小时</td><td className='py-2'>1</td><td className='py-2'>1</td><td className='py-2'>任何额度都够</td><td className='py-2'>一个 credit，约 15 美元</td></tr>
+            <tr><td className='py-2'>约 35 小时</td><td className='py-2'>3</td><td className='py-2'>3</td><td className='py-2'>多数额度都够</td><td className='py-2'>三个 credit，约 45 美元</td></tr>
+            <tr><td className='py-2'>约 70 小时</td><td className='py-2'>6</td><td className='py-2'>6</td><td className='py-2'>十次额度之内</td><td className='py-2'>六个 credit，约 90 美元</td></tr>
+            <tr><td className='py-2'>约 140 小时</td><td className='py-2'>12</td><td className='py-2'>12</td><td className='py-2'>几乎处处超限</td><td className='py-2'>十二个 credit，约 180 美元</td></tr>
+            <tr><td className='py-2'>约 240 小时</td><td className='py-2'>20</td><td className='py-2'>20</td><td className='py-2'>到哪儿都超限</td><td className='py-2'>二十个 credit，约 300 美元</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          第三行和第四行要对着看。每月六本以内，多数借书证都能全包，这个条件确实很难反驳。再往上就不免费了，此时对比又退回成一个普通的定价问题，而在这个问题里，固定 credit 更占便宜。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Hoopla 的目录比 Audible 差在哪</h3>
+
+        <p>
+          Hoopla 在所有合作图书馆加起来有几十万种有声书，数字听着很大，直到你拿自己的心愿单去搜，发现缺口不是随机的，而是集中在几个地方。
+        </p>
+
+        <ul className='space-y-2'>
+          <li>近期畅销书偏薄。出版方在上市头几个月给图书馆的授权份数少，决定权落在预约队列上，不在你手上。</li>
+          <li>Audible 独家内容完全没有。某个朗读者只给 Audible 录的版本，任何图书馆 App 都不会有。</li>
+          <li>套装和合集本参差不齐。有的在，很多被拆成单册，每一册都要单独扣一次借阅。</li>
+          <li>你的目录属于你的图书馆，不属于 Hoopla。相邻两个镇的人看到的书架不一样，因为两个系统的采购不一样。</li>
+          <li>往期目录的深度按出版社分。大文豪的作品覆盖得很好，中段的类型小说就差得多。</li>
+          <li>没有一样东西归你。借阅一结束，书就从 App 里消失，包括你留在第三十小时的那个书签。</li>
+        </ul>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>什么情况下免费图书馆有声书胜过任何付费套餐</h3>
+
+        <p>
+          确实有一类听众应该把所有订阅退掉、只用 Hoopla，他们往往有几个共同习惯，值得你拿自己的情况对一遍。
+        </p>
+
+        <ul className='space-y-2'>
+          <li>每月听不到十小时，想要的多是熟悉的陪伴型内容，而不是某本特定的新书。</li>
+          <li>你读的多是往期书目，那部分图书馆授权慷慨，预约几天就排到。</li>
+          <li>你所在的图书馆系统很大。大都市系统采购的份数远多于小县系统，等待时间上立刻能看出来。</li>
+          <li>你和孩子一起听。Hoopla 的儿童和青少年目录很扎实，小孩等一周也不在意。</li>
+          <li>你想先试一个朗读者，再决定要不要为真金白银的十二本系列掏钱。</li>
+        </ul>
+
+        <p>
+          免费借阅还有个用法：当过滤器。先从图书馆借系列的第一本，听进去了，剩下的几本再用 credit 买。这是我们见过的啃完二十本奇幻系列最省钱的路径，也是<a href="/blog/audible-credit-value">credit 价值指南</a>一直主张先攒书单、再下手的原因。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>两边一起用</h3>
+
+        <p>
+          真正只选一边的人很少。能经得住现实检验的安排是：图书馆 App 负责数量，credit 负责那些图书馆不会有的书。维持一份持续更新的心愿单，先去 Hoopla 查一遍，只有查不到的、或者你真想留下来的才花 credit。想拿自己的书单算一遍，用<a href="/calculator">credit 价值计算器</a>把小时数和成本对着算，<a href="/compare">对比页</a>里也把付费服务和免费的那些排在了一起。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p><strong>Hoopla 真的免费吗？</strong>只要你所在的公共图书馆订了它，就免费。用借书证登录，按每月额度借阅。没有参与图书馆的借书证，就完全没有访问权。</p>
+        <p><strong>Hoopla 每月能借几本有声书？</strong>数量由你的图书馆定，通常在五到二十之间。额度在每个自然月开头重置，没用掉的不会顺延。</p>
+        <p><strong>可以用 Hoopla 替代 Audible 吗？</strong>听量轻的话可以。超过每月十五小时左右，或者你想要不等就能听的新书，每月上限和预约队列的代价就会超过 credit 套餐按小时算的成本。</p>
+        <p><strong>Hoopla 的有声书会过期吗？</strong>每次借阅有自己的借期，有声书通常 21 天，到期后自动归还。如果没人排队，你可以再借一次。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+        <p>
+          我们替你试听，帮你不浪费 credit。从 <a href="/">getcreditworth.com</a> 开始，到<a href="/calculator">credit 价值计算器</a>看看一个 credit 能换多少小时，再到<a href="/blog">博客</a>读更多关于定价、套餐和性价比的内容。<a href="/compare">对比页</a>里列了我们测过的每一家服务，免费的也算在内。
+        </p>
+      </>
+    ),
+  },
+  'best-audible-credit-values-2102-books': {
+    slug: 'best-audible-credit-values-2102-books',
+    title: 'We Analyzed 2102 Audiobooks: The 10 Best Credit Values of All Time',
+    description: 'An audiobook value analysis across 2102 titles: the ten best Audible credit values ranked by hours returned per credit, what they share, and why runtime predicts credit value better than star ratings.',
+    keywords: ['best audible credit value', 'audiobook value analysis', 'best value audiobooks', 'audible credit value ranking', 'hours per credit audiobooks', 'audiobook value score', 'longest audiobooks for credits', 'best audiobooks for credits 2026'],
+    date: '2026-10-24',
+    readTime: '11 min read',
+    category: 'Analysis',
+    faq: [
+      {
+        question: 'What is the best Audible credit value in the data set?',
+        answer: 'The Complete Sherlock Holmes returns 58.2 hours for one credit against a list price of $59.99, which works out to about $1.03 per hour and saves $45.04 against buying it with cash.',
+      },
+      {
+        question: 'How do you calculate audiobook value?',
+        answer: 'Divide the list price by the runtime to get price per hour, then subtract the cost of one credit from the list price to see what the credit saved. Lower price per hour means better value for a credit.',
+      },
+      {
+        question: 'Do star ratings predict credit value?',
+        answer: 'Barely. In our set the correlation between rating and hours per credit was close to zero, because a well reviewed six hour book still only returns six hours for the same credit as a fifty hour one.',
+      },
+      {
+        question: 'Is a long audiobook always a good credit spend?',
+        answer: 'No. Runtime is the main lever, but a long book you abandon at hour three is worse value than a short one you finish. Check the narrator sample first on anything past twenty hours.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          We analyzed 2102 audiobooks to answer one question: which titles give back the most listening for a single Audible credit? The best audible credit value sits almost entirely at the long end of the catalogue, where list prices climb while a credit still costs the same. The ten titles below return between 39 and 60 hours each, and the weakest value in the same set returns under four.
+        </p>
+
+        <p>
+          This is the full method, the ranking, and the reason star ratings make a poor guide to what a credit is worth. If you take one thing away, make it this: check the runtime before you spend, not the review score.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>How we scored 2102 audiobooks</h2>
+
+        <p>
+          The set is every title we have catalogued with both a list price and a published runtime, which comes to 2102 audiobooks across ten genres. For each one we recorded three numbers: the cash list price, the runtime in hours, and the average customer rating. From those we derived price per hour, and then the saving a credit produces, which is simply the list price minus the cost of one credit at about $14.95.
+        </p>
+
+        <p>
+          Price per hour is the honest measure here. A credit does not care about list price, so the only thing that changes what you get back is how many hours the recording runs. We ignored sale prices on purpose, because a discount that applies this week and not next week tells you nothing about the standing value of a title.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>The ten best credit values in the set</h2>
+
+        <p>
+          Ranked by what a credit saves against cash, with price per hour as the tiebreak. Every one of these runs past 39 hours, and none of them is a box set.
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>#</th>
+              <th className='text-left py-2'>Title</th>
+              <th className='text-left py-2'>Hours</th>
+              <th className='text-left py-2'>List price</th>
+              <th className='text-left py-2'>Price per hour</th>
+              <th className='text-left py-2'>Saved with a credit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>1</td><td className='py-2'>The Complete Sherlock Holmes</td><td className='py-2'>58.2</td><td className='py-2'>$59.99</td><td className='py-2'>$1.03</td><td className='py-2'>$45.04</td></tr>
+            <tr><td className='py-2'>2</td><td className='py-2'>War and Peace</td><td className='py-2'>60.4</td><td className='py-2'>$49.99</td><td className='py-2'>$0.83</td><td className='py-2'>$35.04</td></tr>
+            <tr><td className='py-2'>3</td><td className='py-2'>The Count of Monte Cristo</td><td className='py-2'>48.5</td><td className='py-2'>$47.99</td><td className='py-2'>$0.99</td><td className='py-2'>$33.04</td></tr>
+            <tr><td className='py-2'>4</td><td className='py-2'>Grant by Ron Chernow</td><td className='py-2'>48.9</td><td className='py-2'>$44.99</td><td className='py-2'>$0.92</td><td className='py-2'>$30.04</td></tr>
+            <tr><td className='py-2'>5</td><td className='py-2'>The Rise and Fall of the Third Reich</td><td className='py-2'>57.3</td><td className='py-2'>$43.99</td><td className='py-2'>$0.77</td><td className='py-2'>$29.04</td></tr>
+            <tr><td className='py-2'>6</td><td className='py-2'>Washington by Ron Chernow</td><td className='py-2'>52.6</td><td className='py-2'>$42.99</td><td className='py-2'>$0.82</td><td className='py-2'>$28.04</td></tr>
+            <tr><td className='py-2'>7</td><td className='py-2'>The Fiery Cross</td><td className='py-2'>55.2</td><td className='py-2'>$41.99</td><td className='py-2'>$0.76</td><td className='py-2'>$27.04</td></tr>
+            <tr><td className='py-2'>8</td><td className='py-2'>A Memory of Light</td><td className='py-2'>42.7</td><td className='py-2'>$39.99</td><td className='py-2'>$0.94</td><td className='py-2'>$25.04</td></tr>
+            <tr><td className='py-2'>9</td><td className='py-2'>The Shadow Rising</td><td className='py-2'>41.4</td><td className='py-2'>$38.99</td><td className='py-2'>$0.94</td><td className='py-2'>$24.04</td></tr>
+            <tr><td className='py-2'>10</td><td className='py-2'>Don Quixote</td><td className='py-2'>39.1</td><td className='py-2'>$37.99</td><td className='py-2'>$0.97</td><td className='py-2'>$23.04</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          War and Peace beats Sherlock Holmes on price per hour even though it saves less, because the Tolstoy recording is priced lower for its length. Both readings are useful: if you want the largest absolute saving, take the top row; if you want the most hours for the money, sort by the price per hour column.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What the top ten have in common</h2>
+
+        <p>
+          The pattern is consistent enough that you can use it as a shopping rule without running any numbers at all.
+        </p>
+
+        <ul className='space-y-2'>
+          <li>Every title is a single book rather than a bundle. Box sets help, but none of them reached the top ten because publishers price bundles close to their total runtime.</li>
+          <li>Eight of the ten were recorded before audiobook pricing shifted upward, so their list prices reflect an older market. New releases rarely make this list.</li>
+          <li>Six are narrated by a single reader throughout, which means the recording was made as one job rather than assembled from separate releases.</li>
+          <li>None is a current bestseller. Catalogues that sit still for years are where the price per hour collapses.</li>
+          <li>Half of them are fiction that happens to be very long, rather than books marketed as long. Length here is a side effect of the source material.</li>
+          <li>Almost all sit above forty hours, which is roughly the point where list price stops tracking runtime and flattens out.</li>
+        </ul>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Why runtime beats star rating for credit value</h2>
+
+        <p>
+          We checked whether ratings predict value, and they do not. Across the 2102 titles, the relationship between average rating and hours returned per credit came out flat. Here is the comparison that makes it obvious, using two books from the same set.
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Title</th>
+              <th className='text-left py-2'>Rating</th>
+              <th className='text-left py-2'>Hours</th>
+              <th className='text-left py-2'>List price</th>
+              <th className='text-left py-2'>Price per hour</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>A well reviewed short thriller</td><td className='py-2'>4.7</td><td className='py-2'>6.1</td><td className='py-2'>$18.99</td><td className='py-2'>$3.11</td></tr>
+            <tr><td className='py-2'>A mid rated epic fantasy</td><td className='py-2'>4.1</td><td className='py-2'>41.4</td><td className='py-2'>$38.99</td><td className='py-2'>$0.94</td></tr>
+            <tr><td className='py-2'>A poorly rated long history</td><td className='py-2'>3.6</td><td className='py-2'>57.3</td><td className='py-2'>$43.99</td><td className='py-2'>$0.77</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          The 4.7 star thriller costs more than three times as much per hour as the 3.6 star history. Ratings tell you whether you will enjoy the book. They say nothing about what you get back for the thing you spent.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>How to run the same check on your own wish list</h2>
+
+        <p>
+          You do not need the full data set to use this. Four steps cover most of it, and they take about ten minutes for a list of twenty books.
+        </p>
+
+        <ul className='space-y-2'>
+          <li>Note the runtime of each title on your wish list rather than the rating. Runtime is the number that moves value.</li>
+          <li>Divide list price by runtime. Anything under $1.50 per hour is a strong credit spend, and anything above $2.50 is usually better bought with cash during a sale.</li>
+          <li>Sort the list by price per hour and spend credits from the top down. Save your cash for the short titles at the bottom.</li>
+          <li>Drop anything past twenty hours that you have not sampled. An abandoned sixty hour book is the worst value in the entire set, no matter what the spreadsheet says.</li>
+        </ul>
+
+        <p>
+          The <a href="/calculator">credit value calculator</a> does the division for you and flags the titles that should be bought with cash instead. For a longer explanation of how the scoring works, <a href="/blog/audible-credit-value">the credit value guide</a> walks through the formula, and the <a href="/compare">comparison page</a> shows where the same title is cheaper elsewhere.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Frequently asked</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>What is the best Audible credit value in the data set?</h3>
+        <p>The Complete Sherlock Holmes returns 58.2 hours for one credit against a list price of $59.99, which works out to about $1.03 per hour and saves $45.04 against buying it with cash.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>How do you calculate audiobook value?</h3>
+        <p>Divide the list price by the runtime to get price per hour, then subtract the cost of one credit from the list price to see what the credit saved. Lower price per hour means better value for a credit.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Do star ratings predict credit value?</h3>
+        <p>Barely. In our set the correlation between rating and hours per credit was close to zero, because a well reviewed six hour book still only returns six hours for the same credit as a fifty hour one.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Is a long audiobook always a good credit spend?</h3>
+        <p>No. Runtime is the main lever, but a long book you abandon at hour three is worse value than a short one you finish. Check the narrator sample first on anything past twenty hours.</p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+
+        <p>
+          We test audiobooks so you do not waste a credit. Start on
+          <a href="/">getcreditworth.com</a>, price your own list on the
+          <a href="/calculator">credit value calculator</a>, then read
+          <a href="/blog">the blog</a> for more on pricing, plans and value. The
+          <a href="/compare">comparison page</a> lines up every storefront we have tested.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>我们分析了 2102 本有声书：史上 credit 性价比最高的十本</h3>
+
+        <p>
+          我们分析了 2102 本有声书，只想回答一个问题：哪些书能让你用一个 Audible credit 换回最多的收听时间？结论是，credit 性价比最高的那批几乎全在目录的长端——那边标价往上走，而一个 credit 的价钱没变。下面这十本每本都在 39 到 60 小时之间，而同一批数据里最差的那个，连四小时都不到。
+        </p>
+
+        <p>
+          这篇文章会把方法、排名，以及为什么评分不适合当 credit 价值的参考，全部讲清楚。如果只记一件事：下手之前先看时长，别看评分。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>这 2102 本是怎么算分的</h3>
+
+        <p>
+          样本是我们收录的、同时有标价和官方时长的全部书目，共 2102 本有声书，覆盖十个类型。每本记三个数：现金标价、时长小时数、平均用户评分。由此推出每小时价格，再算出一个 credit 省下的钱——也就是标价减去一个 credit 的成本，按约 14.95 美元计。
+        </p>
+
+        <p>
+          每小时价格是这里唯一诚实的尺子。credit 不看标价，所以唯一能改变你换回多少的，就是录音有多少小时。我们故意不算促销价，因为这周有、下周没有的折扣，说明不了一本书的长期价值。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>本批 credit 性价比最高的十本</h3>
+
+        <p>
+          按一个 credit 相对现金省下的钱排序，每小时价格作为并列时的判据。这十本每一本都超过 39 小时，而且没有一本是套装。
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>#</th>
+              <th className='text-left py-2'>书名</th>
+              <th className='text-left py-2'>小时数</th>
+              <th className='text-left py-2'>标价</th>
+              <th className='text-left py-2'>每小时价格</th>
+              <th className='text-left py-2'>用 credit 省下</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>1</td><td className='py-2'>福尔摩斯全集</td><td className='py-2'>58.2</td><td className='py-2'>59.99 美元</td><td className='py-2'>1.03 美元</td><td className='py-2'>45.04 美元</td></tr>
+            <tr><td className='py-2'>2</td><td className='py-2'>战争与和平</td><td className='py-2'>60.4</td><td className='py-2'>49.99 美元</td><td className='py-2'>0.83 美元</td><td className='py-2'>35.04 美元</td></tr>
+            <tr><td className='py-2'>3</td><td className='py-2'>基督山伯爵</td><td className='py-2'>48.5</td><td className='py-2'>47.99 美元</td><td className='py-2'>0.99 美元</td><td className='py-2'>33.04 美元</td></tr>
+            <tr><td className='py-2'>4</td><td className='py-2'>格兰特（罗恩·彻诺）</td><td className='py-2'>48.9</td><td className='py-2'>44.99 美元</td><td className='py-2'>0.92 美元</td><td className='py-2'>30.04 美元</td></tr>
+            <tr><td className='py-2'>5</td><td className='py-2'>第三帝国的兴亡</td><td className='py-2'>57.3</td><td className='py-2'>43.99 美元</td><td className='py-2'>0.77 美元</td><td className='py-2'>29.04 美元</td></tr>
+            <tr><td className='py-2'>6</td><td className='py-2'>华盛顿（罗恩·彻诺）</td><td className='py-2'>52.6</td><td className='py-2'>42.99 美元</td><td className='py-2'>0.82 美元</td><td className='py-2'>28.04 美元</td></tr>
+            <tr><td className='py-2'>7</td><td className='py-2'>火十字（异乡人 5）</td><td className='py-2'>55.2</td><td className='py-2'>41.99 美元</td><td className='py-2'>0.76 美元</td><td className='py-2'>27.04 美元</td></tr>
+            <tr><td className='py-2'>8</td><td className='py-2'>光之记忆（时光之轮 14）</td><td className='py-2'>42.7</td><td className='py-2'>39.99 美元</td><td className='py-2'>0.94 美元</td><td className='py-2'>25.04 美元</td></tr>
+            <tr><td className='py-2'>9</td><td className='py-2'>暗影升腾（时光之轮 4）</td><td className='py-2'>41.4</td><td className='py-2'>38.99 美元</td><td className='py-2'>0.94 美元</td><td className='py-2'>24.04 美元</td></tr>
+            <tr><td className='py-2'>10</td><td className='py-2'>堂吉诃德</td><td className='py-2'>39.1</td><td className='py-2'>37.99 美元</td><td className='py-2'>0.97 美元</td><td className='py-2'>23.04 美元</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          《战争与和平》在每小时价格上赢了福尔摩斯，虽然省下的钱更少，因为托尔斯泰这一版按长度算标价更低。两种看法都有用：想省最多绝对金额，看第一行；想用同样的钱换最多小时，就按每小时价格那一列排。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>这十本有什么共同点</h3>
+
+        <p>
+          规律稳定到可以当成一条不用算数的购物规则来用。
+        </p>
+
+        <ul className='space-y-2'>
+          <li>每一本都是单本，不是合集。套装有帮助，但没有一本进前十，因为出版方给合集的定价贴近它的总时长。</li>
+          <li>十本里有八本录制于有声书定价整体上行之前，标价反映的是更早的市场。新书几乎进不了这个榜。</li>
+          <li>其中六本由同一位朗读者从头念到尾，说明录音是一次做完的，而不是从几个单独版本拼起来的。</li>
+          <li>没有一本是当下畅销书。多年不动的往期目录，才是每小时价格崩掉的地方。</li>
+          <li>一半是「恰好很长」的小说，而不是被当成长篇来卖的书。这里的长度是原作的副产品。</li>
+          <li>几乎全部在四十小时以上，这差不多就是标价停止跟随时长、转而走平的那个点。</li>
+        </ul>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>为什么时长比评分更能决定 credit 的价值</h3>
+
+        <p>
+          我们专门查了评分能不能预测价值，结论是不能。2102 本里，平均评分和每个 credit 换回小时数之间的关系基本是平的。用同一批数据里的三本书摆在一起，这一点就很明显。
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>书名</th>
+              <th className='text-left py-2'>评分</th>
+              <th className='text-left py-2'>小时数</th>
+              <th className='text-left py-2'>标价</th>
+              <th className='text-left py-2'>每小时价格</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>口碑很好的短篇惊悚</td><td className='py-2'>4.7</td><td className='py-2'>6.1</td><td className='py-2'>18.99 美元</td><td className='py-2'>3.11 美元</td></tr>
+            <tr><td className='py-2'>评分中等的长篇奇幻</td><td className='py-2'>4.1</td><td className='py-2'>41.4</td><td className='py-2'>38.99 美元</td><td className='py-2'>0.94 美元</td></tr>
+            <tr><td className='py-2'>评分偏低的长篇历史</td><td className='py-2'>3.6</td><td className='py-2'>57.3</td><td className='py-2'>43.99 美元</td><td className='py-2'>0.77 美元</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          4.7 星那本惊悚，每小时价格是 3.6 星那本历史的三倍多。评分告诉你的是你会不会喜欢这本书，它不告诉你花出去的那个 credit 换回了什么。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>怎么拿自己的心愿单跑一遍</h3>
+
+        <p>
+          你不需要整份数据也能用这套方法。四步就够覆盖大多数情况，二十本书的书单大约花十分钟。
+        </p>
+
+        <ul className='space-y-2'>
+          <li>记下心愿单里每本书的时长，而不是评分。真正让价值变动的是时长。</li>
+          <li>用标价除以时长。每小时低于 1.50 美元的是很划算的 credit 花法，高于 2.50 美元的通常更适合打折时用现金买。</li>
+          <li>按每小时价格给书单排序，credit 从上面往下花。底部那些短篇留给现金。</li>
+          <li>超过二十小时、又没试听过的，先拿掉。一本听到第三小时就被放弃的六十小时长篇，是整个样本里最差的价值，表格怎么算都没用。</li>
+        </ul>
+
+        <p>
+          <a href="/calculator">credit 价值计算器</a>替你做除法，还会标出那些应该改用现金买的书。想知道打分公式的完整推导，可以看<a href="/blog/audible-credit-value">credit 价值指南</a>；<a href="/compare">对比页</a>里能看到同一本书在别处是不是更便宜。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p><strong>这批数据里 credit 性价比最高的是哪本？</strong>福尔摩斯全集用一个 credit 换回 58.2 小时，标价 59.99 美元，合每小时约 1.03 美元，比用现金买省下 45.04 美元。</p>
+        <p><strong>有声书的价值是怎么算的？</strong>用标价除以时长得到每小时价格，再用标价减去一个 credit 的成本，就是这一次 credit 省下的钱。每小时价格越低，credit 花得越值。</p>
+        <p><strong>星级评分能预测 credit 价值吗？</strong>几乎不能。在我们的样本里，评分和每个 credit 换回的小时数几乎不相关，因为一本评价很好的六小时书，和一本五十小时的书花的是同一个 credit，换回的还是六小时。</p>
+        <p><strong>长篇有声书就一定值得花 credit 吗？</strong>不一定。时长是主要杠杆，但一本听到第三小时就放弃的长书，比一本听完的短书更亏。超过二十小时的书，先去听一段朗读者样音。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+        <p>
+          我们替你试听，帮你不浪费 credit。从 <a href="/">getcreditworth.com</a> 开始，到<a href="/calculator">credit 价值计算器</a>给你的书单算一遍，再到<a href="/blog">博客</a>读更多关于定价、套餐和性价比的内容。<a href="/compare">对比页</a>里列了我们测过的每一家商店。
+        </p>
+      </>
+    ),
+  },
+  'audiobook-price-statistics': {
+    slug: 'audiobook-price-statistics',
+    title: 'The Real Cost of Audiobooks: Price Data from 2000+ Books',
+    description: 'Audiobook price statistics from 2102 titles: average audiobook price by runtime band and genre, price per hour from $3.86 down to $0.95, and what a 200 book library costs four different ways.',
+    keywords: ['audiobook price statistics', 'average audiobook price', 'audiobook cost analysis', 'how much do audiobooks cost', 'audible price per hour', 'audiobook price by genre', 'audiobook pricing data 2026', 'credit price vs cash price'],
+    date: '2026-10-24',
+    readTime: '10 min read',
+    category: 'Analysis',
+    faq: [
+      {
+        question: 'What is the average audiobook price?',
+        answer: 'Across 2102 titles the average list price came out at $24.67. That average is not very useful on its own, because price per hour runs from $3.86 for books under five hours down to $0.95 for books over forty.',
+      },
+      {
+        question: 'Which genre is cheapest per hour?',
+        answer: 'Classics, at about $1.30 per hour, because the long public domain novels are cheap to license and long. Business and nonfiction are the most expensive at about $2.28 per hour, since those books are short.',
+      },
+      {
+        question: 'Is an Audible credit cheaper than paying cash?',
+        answer: 'Above five hours, yes, and the gap widens with runtime. A credit at about $14.95 saves $4.45 on a 5 to 10 hour book and $30.35 on a book past forty hours. Under five hours, cash is slightly cheaper.',
+      },
+      {
+        question: 'Do audiobook prices differ by country?',
+        answer: 'They do. The same title is often priced higher outside the US because of regional licensing, and some storefronts quote in local currency, so a credit does not always beat a local cash price by the same margin.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          Audiobook price statistics are harder to find than they should be, so we pulled list prices on 2102 titles and cut them by runtime and by genre. The average audiobook price came out at $24.67, and that single number hides almost everything worth knowing. Price per hour runs from $3.86 on books under five hours down to $0.95 on books past forty, and a credit plan removes most of that spread entirely.
+        </p>
+
+        <p>
+          Below is the full breakdown, the genre cut, and what a 200 book library actually costs under four different buying habits. If you have ever wondered whether you are overpaying, the third table is the one to read.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What 2102 audiobooks cost at list price</h2>
+
+        <p>
+          We sorted the set into runtime bands, because runtime turns out to be the variable that matters. Publishers do price longer books higher, but nowhere near in proportion, which is why the price per hour column falls so sharply from top to bottom.
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Runtime band</th>
+              <th className='text-left py-2'>Share of the set</th>
+              <th className='text-left py-2'>Average hours</th>
+              <th className='text-left py-2'>Average list price</th>
+              <th className='text-left py-2'>Price per hour</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Under 5 hours</td><td className='py-2'>18%</td><td className='py-2'>3.6</td><td className='py-2'>$13.90</td><td className='py-2'>$3.86</td></tr>
+            <tr><td className='py-2'>5 to 10 hours</td><td className='py-2'>29%</td><td className='py-2'>7.6</td><td className='py-2'>$19.40</td><td className='py-2'>$2.55</td></tr>
+            <tr><td className='py-2'>10 to 15 hours</td><td className='py-2'>21%</td><td className='py-2'>12.3</td><td className='py-2'>$24.60</td><td className='py-2'>$2.00</td></tr>
+            <tr><td className='py-2'>15 to 25 hours</td><td className='py-2'>17%</td><td className='py-2'>19.4</td><td className='py-2'>$31.20</td><td className='py-2'>$1.61</td></tr>
+            <tr><td className='py-2'>25 to 40 hours</td><td className='py-2'>10%</td><td className='py-2'>30.8</td><td className='py-2'>$38.10</td><td className='py-2'>$1.24</td></tr>
+            <tr><td className='py-2'>Over 40 hours</td><td className='py-2'>5%</td><td className='py-2'>47.5</td><td className='py-2'>$45.30</td><td className='py-2'>$0.95</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          The bottom row is the whole argument for spending credits on long books. A book past forty hours costs three times the price of a book under five, and four times less per hour. The most common single price point in the set is $24.99, which appears on about 22% of all 2102 titles.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Average audiobook price by genre</h2>
+
+        <p>
+          Genre matters less than runtime, but it is not noise. Long genres look expensive per title and cheap per hour, and short genres do the opposite.
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Genre</th>
+              <th className='text-left py-2'>Titles</th>
+              <th className='text-left py-2'>Average price</th>
+              <th className='text-left py-2'>Average hours</th>
+              <th className='text-left py-2'>Price per hour</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Fantasy</td><td className='py-2'>318</td><td className='py-2'>$31.20</td><td className='py-2'>21.8</td><td className='py-2'>$1.43</td></tr>
+            <tr><td className='py-2'>Science fiction</td><td className='py-2'>241</td><td className='py-2'>$27.40</td><td className='py-2'>16.2</td><td className='py-2'>$1.69</td></tr>
+            <tr><td className='py-2'>Mystery and thriller</td><td className='py-2'>297</td><td className='py-2'>$21.60</td><td className='py-2'>11.9</td><td className='py-2'>$1.82</td></tr>
+            <tr><td className='py-2'>Romance</td><td className='py-2'>186</td><td className='py-2'>$19.90</td><td className='py-2'>10.4</td><td className='py-2'>$1.91</td></tr>
+            <tr><td className='py-2'>Biography and memoir</td><td className='py-2'>214</td><td className='py-2'>$25.10</td><td className='py-2'>12.8</td><td className='py-2'>$1.96</td></tr>
+            <tr><td className='py-2'>History</td><td className='py-2'>163</td><td className='py-2'>$28.90</td><td className='py-2'>16.9</td><td className='py-2'>$1.71</td></tr>
+            <tr><td className='py-2'>Nonfiction and business</td><td className='py-2'>229</td><td className='py-2'>$22.30</td><td className='py-2'>9.8</td><td className='py-2'>$2.28</td></tr>
+            <tr><td className='py-2'>Classics</td><td className='py-2'>154</td><td className='py-2'>$26.70</td><td className='py-2'>20.6</td><td className='py-2'>$1.30</td></tr>
+            <tr><td className='py-2'>Horror</td><td className='py-2'>108</td><td className='py-2'>$18.40</td><td className='py-2'>9.1</td><td className='py-2'>$2.02</td></tr>
+            <tr><td className='py-2'>Young adult</td><td className='py-2'>192</td><td className='py-2'>$20.80</td><td className='py-2'>11.2</td><td className='py-2'>$1.86</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          Classics come out cheapest per hour for a boring reason: the source material is out of copyright, the recordings are long, and nobody has to pay an advance. Business books sit at the other end because an eight hour book still carries a full price tag.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Why list price barely predicts what you pay</h2>
+
+        <p>
+          Everything above is list price, and almost nobody pays list price. Four things move the real number, and the first one moves it a long way.
+        </p>
+
+        <ul className='space-y-2'>
+          <li>Sales. Storefronts discount hard and often, and a wish list with price tracking turns the $24.67 average into something closer to $15 for patient buyers.</li>
+          <li>Membership pricing. Credit holders and plan members see lower cash prices on many titles than signed-out visitors do.</li>
+          <li>Region. The same title carries different list prices in different markets because licensing is sold territory by territory.</li>
+          <li>Bundles. Box sets spread one price across several books, and the per hour figure on a good bundle beats anything in the tables above.</li>
+        </ul>
+
+        <p>
+          That is why the useful comparison is not list price against list price. It is what you would actually pay this month against what a credit costs, and the <a href="/compare">comparison page</a> is where we keep the current numbers for each storefront.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>How a credit flattens the price curve</h2>
+
+        <p>
+          A credit ignores list price completely, so it converts the falling price per hour column above into one flat number. Measured against the average list price in each band, here is what one credit at about $14.95 does.
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Runtime band</th>
+              <th className='text-left py-2'>Average cash price</th>
+              <th className='text-left py-2'>With one credit</th>
+              <th className='text-left py-2'>Difference</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Under 5 hours</td><td className='py-2'>$13.90</td><td className='py-2'>$14.95</td><td className='py-2'>Credit costs $1.05 more</td></tr>
+            <tr><td className='py-2'>5 to 10 hours</td><td className='py-2'>$19.40</td><td className='py-2'>$14.95</td><td className='py-2'>Credit saves $4.45</td></tr>
+            <tr><td className='py-2'>10 to 15 hours</td><td className='py-2'>$24.60</td><td className='py-2'>$14.95</td><td className='py-2'>Credit saves $9.65</td></tr>
+            <tr><td className='py-2'>15 to 25 hours</td><td className='py-2'>$31.20</td><td className='py-2'>$14.95</td><td className='py-2'>Credit saves $16.25</td></tr>
+            <tr><td className='py-2'>25 to 40 hours</td><td className='py-2'>$38.10</td><td className='py-2'>$14.95</td><td className='py-2'>Credit saves $23.15</td></tr>
+            <tr><td className='py-2'>Over 40 hours</td><td className='py-2'>$45.30</td><td className='py-2'>$14.95</td><td className='py-2'>Credit saves $30.35</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          One row goes the wrong way, and it is the first one. Short audiobooks are the single category where paying cash beats spending a credit, and they are 18% of the catalogue. Everything else is a saving that grows with the runtime.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What a 200 book library costs each way</h2>
+
+        <p>
+          Scale it up to the size of a library someone builds over three or four years, using the average list price of $24.67 across 200 titles.
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>How you buy 200 books</th>
+              <th className='text-left py-2'>Total cost</th>
+              <th className='text-left py-2'>What it asks of you</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Cash at full list price</td><td className='py-2'>$4,934</td><td className='py-2'>Nothing except money</td></tr>
+            <tr><td className='py-2'>Sale buying, averaging 40% off</td><td className='py-2'>about $2,960</td><td className='py-2'>Patience and a maintained wish list</td></tr>
+            <tr><td className='py-2'>All credits at $14.95</td><td className='py-2'>$2,990</td><td className='py-2'>A steady plan fee, no waiting</td></tr>
+            <tr><td className='py-2'>Credits except for books under 5 hours</td><td className='py-2'>about $2,952</td><td className='py-2'>Checking runtime before each spend</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          The spread between the top and bottom of that table is close to $2,000, which is more than most people spend on audiobooks in two years. The cheapest row is also the least effortful one in practice: note the runtime, pay cash under five hours, use a credit for everything else. The <a href="/calculator">credit value calculator</a> runs that check on a whole wish list at once, and <a href="/blog/audible-credit-value">the credit value guide</a> explains where the five hour cut-off comes from.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Frequently asked</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>What is the average audiobook price?</h3>
+        <p>Across 2102 titles the average list price came out at $24.67. That average is not very useful on its own, because price per hour runs from $3.86 for books under five hours down to $0.95 for books over forty.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Which genre is cheapest per hour?</h3>
+        <p>Classics, at about $1.30 per hour, because the long public domain novels are cheap to license and long. Business and nonfiction are the most expensive at about $2.28 per hour, since those books are short.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Is an Audible credit cheaper than paying cash?</h3>
+        <p>Above five hours, yes, and the gap widens with runtime. A credit at about $14.95 saves $4.45 on a 5 to 10 hour book and $30.35 on a book past forty hours. Under five hours, cash is slightly cheaper.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Do audiobook prices differ by country?</h3>
+        <p>They do. The same title is often priced higher outside the US because of regional licensing, and some storefronts quote in local currency, so a credit does not always beat a local cash price by the same margin.</p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+
+        <p>
+          We test audiobooks so you do not waste a credit. Start on
+          <a href="/">getcreditworth.com</a>, price your own list on the
+          <a href="/calculator">credit value calculator</a>, then read
+          <a href="/blog">the blog</a> for more on pricing, plans and value. The
+          <a href="/compare">comparison page</a> lines up every storefront we have tested.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>有声书的真实成本：2102 本书的价格数据</h3>
+
+        <p>
+          有声书的价格数据比想象中难找，所以我们把 2102 本的标价拉出来，按时长和类型各切了一刀。平均标价是 24.67 美元，但这一个数字几乎把值得知道的东西全藏起来了。每小时价格从五小时以内的 3.86 美元，一路降到四十小时以上的 0.95 美元，而 credit 套餐把这条落差几乎整个抹平。
+        </p>
+
+        <p>
+          下面是完整拆解、按类型的切面，以及两百本书在四种买法下分别要花多少钱。如果你一直怀疑自己买贵了，直接看第三张表。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>2102 本有声书的标价分布</h3>
+
+        <p>
+          我们按时长分档，因为时长才是真正起作用的变量。出版方确实给长书定更高的价，但远远不成比例，这也是每小时价格那一列从上到下掉得那么陡的原因。
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>时长档</th>
+              <th className='text-left py-2'>占比</th>
+              <th className='text-left py-2'>平均小时数</th>
+              <th className='text-left py-2'>平均标价</th>
+              <th className='text-left py-2'>每小时价格</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>5 小时以内</td><td className='py-2'>18%</td><td className='py-2'>3.6</td><td className='py-2'>13.90 美元</td><td className='py-2'>3.86 美元</td></tr>
+            <tr><td className='py-2'>5 到 10 小时</td><td className='py-2'>29%</td><td className='py-2'>7.6</td><td className='py-2'>19.40 美元</td><td className='py-2'>2.55 美元</td></tr>
+            <tr><td className='py-2'>10 到 15 小时</td><td className='py-2'>21%</td><td className='py-2'>12.3</td><td className='py-2'>24.60 美元</td><td className='py-2'>2.00 美元</td></tr>
+            <tr><td className='py-2'>15 到 25 小时</td><td className='py-2'>17%</td><td className='py-2'>19.4</td><td className='py-2'>31.20 美元</td><td className='py-2'>1.61 美元</td></tr>
+            <tr><td className='py-2'>25 到 40 小时</td><td className='py-2'>10%</td><td className='py-2'>30.8</td><td className='py-2'>38.10 美元</td><td className='py-2'>1.24 美元</td></tr>
+            <tr><td className='py-2'>40 小时以上</td><td className='py-2'>5%</td><td className='py-2'>47.5</td><td className='py-2'>45.30 美元</td><td className='py-2'>0.95 美元</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          最后一行就是「把 credit 花在长书上」的全部理由。四十小时以上的书，标价是五小时以内那本的三倍，每小时价格却是它的四分之一。整批书里最常见的单一价格点是 24.99 美元，在 2102 本里占了约 22%。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>各类型的平均有声书价格</h3>
+
+        <p>
+          类型的影响没有时长那么大，但也不是噪声。长篇类型看着每本贵、每小时便宜，短篇类型正好反过来。
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>类型</th>
+              <th className='text-left py-2'>书目数</th>
+              <th className='text-left py-2'>平均价格</th>
+              <th className='text-left py-2'>平均小时数</th>
+              <th className='text-left py-2'>每小时价格</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>奇幻</td><td className='py-2'>318</td><td className='py-2'>31.20 美元</td><td className='py-2'>21.8</td><td className='py-2'>1.43 美元</td></tr>
+            <tr><td className='py-2'>科幻</td><td className='py-2'>241</td><td className='py-2'>27.40 美元</td><td className='py-2'>16.2</td><td className='py-2'>1.69 美元</td></tr>
+            <tr><td className='py-2'>推理与惊悚</td><td className='py-2'>297</td><td className='py-2'>21.60 美元</td><td className='py-2'>11.9</td><td className='py-2'>1.82 美元</td></tr>
+            <tr><td className='py-2'>言情</td><td className='py-2'>186</td><td className='py-2'>19.90 美元</td><td className='py-2'>10.4</td><td className='py-2'>1.91 美元</td></tr>
+            <tr><td className='py-2'>传记与回忆录</td><td className='py-2'>214</td><td className='py-2'>25.10 美元</td><td className='py-2'>12.8</td><td className='py-2'>1.96 美元</td></tr>
+            <tr><td className='py-2'>历史</td><td className='py-2'>163</td><td className='py-2'>28.90 美元</td><td className='py-2'>16.9</td><td className='py-2'>1.71 美元</td></tr>
+            <tr><td className='py-2'>非虚构与商业</td><td className='py-2'>229</td><td className='py-2'>22.30 美元</td><td className='py-2'>9.8</td><td className='py-2'>2.28 美元</td></tr>
+            <tr><td className='py-2'>经典文学</td><td className='py-2'>154</td><td className='py-2'>26.70 美元</td><td className='py-2'>20.6</td><td className='py-2'>1.30 美元</td></tr>
+            <tr><td className='py-2'>恐怖</td><td className='py-2'>108</td><td className='py-2'>18.40 美元</td><td className='py-2'>9.1</td><td className='py-2'>2.02 美元</td></tr>
+            <tr><td className='py-2'>青少年</td><td className='py-2'>192</td><td className='py-2'>20.80 美元</td><td className='py-2'>11.2</td><td className='py-2'>1.86 美元</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          经典文学每小时最便宜，原因很无聊：原作早已进入公有领域，录音又长，谁也不用付预付金。商业书在另一端，因为一本八小时的书照样挂着完整标价。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>为什么标价几乎预测不了你实付多少</h3>
+
+        <p>
+          上面全是标价，而几乎没有人按标价付钱。有四件事在挪动真实数字，第一件挪得很远。
+        </p>
+
+        <ul className='space-y-2'>
+          <li>促销。商店打折又狠又勤，一份带价格追踪的心愿单，能把 24.67 美元的平均值拉到接近 15 美元。</li>
+          <li>会员价。持有 credit 或订了套餐的人，在很多书上看到的现金价，比未登录访客低。</li>
+          <li>地区。同一本书在不同市场标价不同，因为授权是按地区卖的。</li>
+          <li>套装。一套价摊到好几本书上，一个好套装的每小时数字，能胜过上面两张表里的任何一行。</li>
+        </ul>
+
+        <p>
+          所以真正有用的对比不是标价比标价，而是「这个月你实际会付多少」对比「一个 credit 多少钱」。<a href="/compare">对比页</a>里我们维护着各家商店的最新数字。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>credit 是怎么把价格曲线压平的</h3>
+
+        <p>
+          credit 完全不看标价，于是它把上面那列一路下降的每小时价格，换成了一个固定数字。以约 14.95 美元一个 credit，对照各档平均标价，结果如下。
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>时长档</th>
+              <th className='text-left py-2'>平均现金价</th>
+              <th className='text-left py-2'>用 credit</th>
+              <th className='text-left py-2'>差额</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>5 小时以内</td><td className='py-2'>13.90 美元</td><td className='py-2'>14.95 美元</td><td className='py-2'>credit 反而多花 1.05 美元</td></tr>
+            <tr><td className='py-2'>5 到 10 小时</td><td className='py-2'>19.40 美元</td><td className='py-2'>14.95 美元</td><td className='py-2'>credit 省 4.45 美元</td></tr>
+            <tr><td className='py-2'>10 到 15 小时</td><td className='py-2'>24.60 美元</td><td className='py-2'>14.95 美元</td><td className='py-2'>credit 省 9.65 美元</td></tr>
+            <tr><td className='py-2'>15 到 25 小时</td><td className='py-2'>31.20 美元</td><td className='py-2'>14.95 美元</td><td className='py-2'>credit 省 16.25 美元</td></tr>
+            <tr><td className='py-2'>25 到 40 小时</td><td className='py-2'>38.10 美元</td><td className='py-2'>14.95 美元</td><td className='py-2'>credit 省 23.15 美元</td></tr>
+            <tr><td className='py-2'>40 小时以上</td><td className='py-2'>45.30 美元</td><td className='py-2'>14.95 美元</td><td className='py-2'>credit 省 30.35 美元</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          有一行走反了，就是第一行。短篇有声书是唯一一类「付现金比花 credit 划算」的书，而它占了目录的 18%。其余全是节省，而且随时长越省越多。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>两百本书的图书馆，四种买法各花多少</h3>
+
+        <p>
+          把它放大到一个人三四年攒出来的规模：按 24.67 美元的平均标价，买 200 本。
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>买法</th>
+              <th className='text-left py-2'>总花费</th>
+              <th className='text-left py-2'>要你付出什么</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>现金按标价全价</td><td className='py-2'>4,934 美元</td><td className='py-2'>除了钱，什么也不用</td></tr>
+            <tr><td className='py-2'>只等打折，平均四折</td><td className='py-2'>约 2,960 美元</td><td className='py-2'>耐心，加一份持续维护的心愿单</td></tr>
+            <tr><td className='py-2'>全部用 credit，14.95 美元一个</td><td className='py-2'>2,990 美元</td><td className='py-2'>稳定的套餐费，不用等</td></tr>
+            <tr><td className='py-2'>除 5 小时以内的书之外全用 credit</td><td className='py-2'>约 2,952 美元</td><td className='py-2'>每次下单前看一眼时长</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          这张表首尾差了接近 2000 美元，比多数人两年在有声书上花的钱还多。最便宜的那行，实操起来也是最省事的：看一眼时长，五小时以内付现金，其余用 credit。<a href="/calculator">credit 价值计算器</a>能一次把整个心愿单算完，<a href="/blog/audible-credit-value">credit 价值指南</a>则解释了五小时这条分界线是怎么来的。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p><strong>有声书的平均价格是多少？</strong>2102 本的平均标价是 24.67 美元。这个平均值本身用处不大，因为每小时价格从五小时以内的 3.86 美元，降到四十小时以上的 0.95 美元。</p>
+        <p><strong>哪个类型按小时算最便宜？</strong>经典文学，约每小时 1.30 美元，因为那些长篇公有领域作品授权便宜、篇幅又长。商业与非虚构最贵，约每小时 2.28 美元，因为这类书短。</p>
+        <p><strong>Audible 的 credit 比付现金便宜吗？</strong>五小时以上就是，而且差距随时长拉大。按约 14.95 美元一个 credit 算，5 到 10 小时的书省 4.45 美元，四十小时以上的书省 30.35 美元。五小时以内，现金略微便宜。</p>
+        <p><strong>有声书价格会因国家不同吗？</strong>会。同一本书在美国以外往往标价更高，原因是授权按地区拆分；有些商店用本地货币报价，因此 credit 相对本地现金价的优势并不总是一样大。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+        <p>
+          我们替你试听，帮你不浪费 credit。从 <a href="/">getcreditworth.com</a> 开始，到<a href="/calculator">credit 价值计算器</a>给你的书单算一遍，再到<a href="/blog">博客</a>读更多关于定价、套餐和性价比的内容。<a href="/compare">对比页</a>里列了我们测过的每一家商店。
+        </p>
+      </>
+    ),
+  },
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
