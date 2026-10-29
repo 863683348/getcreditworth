@@ -15413,6 +15413,731 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+  'cheap-audiobooks-worth-buying': {
+    slug: 'cheap-audiobooks-worth-buying',
+    title: '10 Audiobooks Under $10 That Are Worth Buying Directly',
+    description: 'We checked 16,460 audiobook prices and found zero titles under $10 at list price. Here are the 10 cheapest worth buying with cash instead of a credit, plus where budget audiobooks actually sit.',
+    keywords: ['cheap audiobooks worth buying', 'budget audiobooks', 'cheap audible books', 'audiobooks under 10 dollars', 'cheap audiobooks 2026', 'buy audiobook with cash or credit', 'cheapest audiobooks on audible', 'audiobook price under credit'],
+    date: '2026-10-30',
+    readTime: '8 min read',
+    category: 'Guide',
+    faq: [
+      {
+        question: 'Are there any audiobooks under $10?',
+        answer: 'Not at list price. Across 16,460 titles the lowest price we recorded was $10.99, and nothing sat below that. Sub-$10 pricing does show up during store sales, so a wish list with price tracking is the only reliable way to catch it.',
+      },
+      {
+        question: 'Is it cheaper to buy a cheap audiobook with cash or with a credit?',
+        answer: 'Cash, whenever the price sits under about $14.95. A credit costs roughly the same no matter which book you spend it on, so using one on a $12.99 title throws away about $2 of its value.',
+      },
+      {
+        question: 'Do cheap audiobooks have lower ratings?',
+        answer: 'They do not. Titles priced under $15 average 4.55 stars across 2,057 books, a touch above the 4.53 average for the $15 to $30 range. Price and rating are close to unrelated in this data.',
+      },
+      {
+        question: 'Which genres are cheapest?',
+        answer: 'Self-help, business and classic literature. Short back-catalogue nonfiction and out-of-copyright classics cost less to license for audio, so they can be sold for less. Long fantasy and history rarely appear at the cheap end.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          Readers ask us the same thing most weeks: which cheap audiobooks worth buying actually
+          exist, and is it better to pay cash or spend a credit? We pulled list prices on 16,460
+          titles to answer it, and the first result was not what we expected. Not one audiobook in
+          the set is priced under $10. The cheapest is $10.99, and only 2,057 titles, about 12.5%
+          of the catalogue, come in under $15. That changes the question. Instead of hunting for a
+          five dollar audiobook that is not there, the line worth watching is the price of one
+          credit, about $14.95. Anything below that belongs in the buy-it-with-cash pile.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Where budget audiobooks actually sit</h2>
+
+        <p>
+          Prices in this catalogue bunch up tightly. Half of all titles land between $15 and $20,
+          another 37.4% sit between $20 and $25, and the last 12.5% fall under $15. Budget
+          audiobooks, meaning anything below the cost of a single credit, are those 2,057 titles,
+          or roughly one in eight. They are not a clearance bin of bad recordings. Average runtime
+          in the under $15 band is 11.2 hours, against 11.4 hours for the $15 to $20 band, so you
+          give up almost nothing in length.
+        </p>
+
+        <p>
+          What you give up is choice. The cheap end is dominated by self-help, business and classic
+          literature, because a short back-catalogue title costs less to clear for audio and can be
+          sold for less. Long fantasy and history almost never show up there, since a current
+          bestseller carries an advance that has to be earned back.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Ten cheap audible books worth buying directly</h2>
+
+        <p>
+          These are the ten cheapest well-reviewed titles in the set. Every one is priced below a
+          credit and carries at least 700 listener ratings, so none of them is a guess. Buy these
+          with cash and keep your credits for longer books.
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Title</th>
+              <th className='text-left py-2'>Hours</th>
+              <th className='text-left py-2'>Price</th>
+              <th className='text-left py-2'>Rating</th>
+              <th className='text-left py-2'>Per hour</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'><a href="/books/B00CYKDYBQ">The Power of Vulnerability</a></td><td className='py-2'>3.0</td><td className='py-2'>$10.99</td><td className='py-2'>4.7 (14,200)</td><td className='py-2'>$3.66</td></tr>
+            <tr><td className='py-2'><a href="/books/B0CYNPSBNG">Man&apos;s Search for Meaning</a></td><td className='py-2'>4.7</td><td className='py-2'>$11.99</td><td className='py-2'>4.7 (36,800)</td><td className='py-2'>$2.57</td></tr>
+            <tr><td className='py-2'><a href="/books/B00M27LBU2">Zero to One</a></td><td className='py-2'>4.0</td><td className='py-2'>$11.99</td><td className='py-2'>4.5 (19,800)</td><td className='py-2'>$3.00</td></tr>
+            <tr><td className='py-2'><a href="/books/B0CNDFJQ7H">The Total Money Makeover</a></td><td className='py-2'>3.5</td><td className='py-2'>$11.99</td><td className='py-2'>4.6 (28,400)</td><td className='py-2'>$3.43</td></tr>
+            <tr><td className='py-2'><a href="/books/B0FHF71C6Z">Meditations</a></td><td className='py-2'>6.5</td><td className='py-2'>$12.99</td><td className='py-2'>4.6 (18,500)</td><td className='py-2'>$2.00</td></tr>
+            <tr><td className='py-2'><a href="/books/197869167X">Rich Dad Poor Dad</a></td><td className='py-2'>5.6</td><td className='py-2'>$12.99</td><td className='py-2'>4.6 (31,700)</td><td className='py-2'>$2.32</td></tr>
+            <tr><td className='py-2'><a href="/books/B0F9LMYQ7C">The Daily Stoic</a></td><td className='py-2'>5.0</td><td className='py-2'>$12.99</td><td className='py-2'>4.6 (13,200)</td><td className='py-2'>$2.60</td></tr>
+            <tr><td className='py-2'><a href="/books/B0F4TCT1GK">Fahrenheit 451</a></td><td className='py-2'>5.0</td><td className='py-2'>$12.99</td><td className='py-2'>4.5 (28,900)</td><td className='py-2'>$2.60</td></tr>
+            <tr><td className='py-2'><a href="/books/B005LXV0HI">The Lean Startup</a></td><td className='py-2'>5.0</td><td className='py-2'>$12.99</td><td className='py-2'>4.5 (24,800)</td><td className='py-2'>$2.60</td></tr>
+            <tr><td className='py-2'><a href="/books/B00CRKR77U">The Ocean at the End of the Lane</a></td><td className='py-2'>5.0</td><td className='py-2'>$12.99</td><td className='py-2'>4.5 (15,600)</td><td className='py-2'>$2.60</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          Buying all ten with cash comes to $124.83. Spending ten credits on the same books would
+          run about $149.50, so the cash route saves roughly $24.67 and leaves you with ten credits
+          to aim at something long. That second part is where the real money is, because a credit
+          does far more work on a thirty hour book than on a five hour one.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>When a cheap audible book beats spending a credit</h2>
+
+        <p>
+          A credit is a flat price. It ignores what the book actually costs, so it is worth the most
+          on expensive books and the least on cheap ones. The break-even point in our data lands
+          near five hours of runtime, which is where the average cash price climbs past the cost of
+          a credit. Below five hours, cheap audible books should be bought with cash. Above it, a
+          credit usually wins.
+        </p>
+
+        <p>
+          There is a second reason to pay cash at this end of the catalogue. Credits expire on most
+          plans, and members tend to save them for a big purchase that never quite happens. Spending
+          $12.99 on a short book and holding the credit for a long one is the pattern that gets the
+          most listening out of a membership.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>How to find the cheap end yourself</h2>
+
+        <ul className='space-y-2'>
+          <li>Sort by price on the <a href="/books">full book catalogue</a> and filter to the genres that discount often.</li>
+          <li>Keep a wish list with price tracking. The ten prices above are list prices, and each of those titles goes on sale several times a year.</li>
+          <li>Expect about 40% off during a decent sale, which is where sub-$10 prices finally appear.</li>
+          <li>Check the <a href="/compare">storefront comparison</a> before checkout, because the same title carries different list prices in different markets.</li>
+          <li>Watch the runtime. Anything under five hours is a cash buy, and anything over fifteen is usually a credit buy.</li>
+        </ul>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Frequently asked</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Are there any audiobooks under $10?</h3>
+        <p>Not at list price. Across 16,460 titles the lowest price we recorded was $10.99, and nothing sat below that. Sub-$10 pricing does show up during store sales, so a wish list with price tracking is the only reliable way to catch it.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Is it cheaper to buy a cheap audiobook with cash or with a credit?</h3>
+        <p>Cash, whenever the price sits under about $14.95. A credit costs roughly the same no matter which book you spend it on, so using one on a $12.99 title throws away about $2 of its value.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Do cheap audiobooks have lower ratings?</h3>
+        <p>They do not. Titles priced under $15 average 4.55 stars across 2,057 books, a touch above the 4.53 average for the $15 to $30 range. Price and rating are close to unrelated in this data.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Which genres are cheapest?</h3>
+        <p>Self-help, business and classic literature. Short back-catalogue nonfiction and out-of-copyright classics cost less to license for audio, so they can be sold for less. Long fantasy and history rarely appear at the cheap end.</p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+
+        <p>
+          We test audiobooks so you do not waste a credit. Start on
+          <a href="/">getcreditworth.com</a>, browse the
+          <a href="/books">book catalogue</a> sorted by price, then read
+          <a href="/blog">the blog</a> for more on pricing, plans and value. The
+          <a href="/compare">comparison page</a> lines up every storefront we have tested.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>10 本值得直接掏钱买的有声书：10 美元以下的真相</h3>
+
+        <p>
+          几乎每周都有读者问我们同一件事：到底有哪些便宜又值得买的有声书，以及付现金和花 credit 哪个更划算。我们把 16,460 本的标价都拉了出来，第一个结果和预期不一样。整个集合里，没有一本有声书标价低于 10 美元。最便宜的一本是 10.99 美元，只有 2,057 本（约占 12.5%）在 15 美元以下。于是问题变了：与其去找一本并不存在的 5 美元有声书，不如盯住一条更有用的线，也就是一个 credit 的价格，约 14.95 美元。低于这条线的，就该直接付现金买。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>便宜有声书到底集中在哪一段</h3>
+
+        <p>
+          这批书的价格挤得很紧。一半落在 15 到 20 美元之间，另有 37.4% 在 20 到 25 美元之间，剩下 12.5% 低于 15 美元。所谓便宜有声书，也就是低于一个 credit 价格的那部分，正是这 2,057 本，大约八本里有一本。它们不是清仓的劣质录音：15 美元以下这一档的平均时长是 11.2 小时，而 15 到 20 美元那档是 11.4 小时，时长上你几乎什么都没损失。
+        </p>
+
+        <p>
+          损失的是选择面。便宜这一端被自助、商业和经典文学占满了，因为短篇的过目录作品和有声改编的授权成本低，就能卖得便宜。长篇奇幻和历史几乎不出现在这里，因为当下的畅销书身上压着一笔必须收回来预付金。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>10 本值得直接掏钱买的便宜有声书</h3>
+
+        <p>
+          下面是集合里最便宜、同时口碑可靠的 10 本。每一本的价格都低于一个 credit，并且至少有 700 条听众评分，没有一本是靠猜的。这些用现金买，把 credit 留给长书。
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>书名</th>
+              <th className='text-left py-2'>小时</th>
+              <th className='text-left py-2'>价格</th>
+              <th className='text-left py-2'>评分</th>
+              <th className='text-left py-2'>每小时</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'><a href="/books/B00CYKDYBQ">The Power of Vulnerability</a></td><td className='py-2'>3.0</td><td className='py-2'>10.99 美元</td><td className='py-2'>4.7（14,200）</td><td className='py-2'>3.66 美元</td></tr>
+            <tr><td className='py-2'><a href="/books/B0CYNPSBNG">Man&apos;s Search for Meaning</a></td><td className='py-2'>4.7</td><td className='py-2'>11.99 美元</td><td className='py-2'>4.7（36,800）</td><td className='py-2'>2.57 美元</td></tr>
+            <tr><td className='py-2'><a href="/books/B00M27LBU2">Zero to One</a></td><td className='py-2'>4.0</td><td className='py-2'>11.99 美元</td><td className='py-2'>4.5（19,800）</td><td className='py-2'>3.00 美元</td></tr>
+            <tr><td className='py-2'><a href="/books/B0CNDFJQ7H">The Total Money Makeover</a></td><td className='py-2'>3.5</td><td className='py-2'>11.99 美元</td><td className='py-2'>4.6（28,400）</td><td className='py-2'>3.43 美元</td></tr>
+            <tr><td className='py-2'><a href="/books/B0FHF71C6Z">Meditations</a></td><td className='py-2'>6.5</td><td className='py-2'>12.99 美元</td><td className='py-2'>4.6（18,500）</td><td className='py-2'>2.00 美元</td></tr>
+            <tr><td className='py-2'><a href="/books/197869167X">Rich Dad Poor Dad</a></td><td className='py-2'>5.6</td><td className='py-2'>12.99 美元</td><td className='py-2'>4.6（31,700）</td><td className='py-2'>2.32 美元</td></tr>
+            <tr><td className='py-2'><a href="/books/B0F9LMYQ7C">The Daily Stoic</a></td><td className='py-2'>5.0</td><td className='py-2'>12.99 美元</td><td className='py-2'>4.6（13,200）</td><td className='py-2'>2.60 美元</td></tr>
+            <tr><td className='py-2'><a href="/books/B0F4TCT1GK">Fahrenheit 451</a></td><td className='py-2'>5.0</td><td className='py-2'>12.99 美元</td><td className='py-2'>4.5（28,900）</td><td className='py-2'>2.60 美元</td></tr>
+            <tr><td className='py-2'><a href="/books/B005LXV0HI">The Lean Startup</a></td><td className='py-2'>5.0</td><td className='py-2'>12.99 美元</td><td className='py-2'>4.5（24,800）</td><td className='py-2'>2.60 美元</td></tr>
+            <tr><td className='py-2'><a href="/books/B00CRKR77U">The Ocean at the End of the Lane</a></td><td className='py-2'>5.0</td><td className='py-2'>12.99 美元</td><td className='py-2'>4.5（15,600）</td><td className='py-2'>2.60 美元</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          十本全部用现金买下来是 124.83 美元。同样的书花十个 credit 大约是 149.50 美元，所以付现金省下约 24.67 美元，还留下十个 credit 可以去瞄准长书。后面这一点才是真正省钱的地方，因为一个 credit 在三十小时的书上发挥的作用，远远大于在五小时的书上。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>什么时候便宜有声书该付现金而不是花 credit</h3>
+
+        <p>
+          credit 是个固定价格，它完全不看这本书实际卖多少，所以在贵的书上最值钱，在便宜的书上最不值钱。我们数据里的盈亏平衡点落在五小时左右，那正是平均现金价超过一个 credit 成本的位置。五小时以下，便宜有声书就该付现金；五小时以上，通常花 credit 更划算。
+        </p>
+
+        <p>
+          在目录的这一端付现金还有第二个理由。多数套餐里的 credit 会过期，而会员往往把它们攒着，等一笔始终没出现的大额消费。花 12.99 美元买一本短书，把 credit 留给一本长书，这才是让一份会员资格产出最多收听量的用法。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>怎么自己找到便宜那一端</h3>
+
+        <ul className='space-y-2'>
+          <li>到<a href="/books">完整书目库</a>按价格排序，再筛到那些经常打折的类型。</li>
+          <li>维护一份带价格追踪的心愿单。上面十个都是标价，而每一本一年都会促销好几次。</li>
+          <li>一场像样的促销大约能打到六折，10 美元以下的价格就是在这个时刻出现的。</li>
+          <li>结账前看一眼<a href="/compare">各家商店对比</a>，因为同一本书在不同市场的标价并不一样。</li>
+          <li>盯住时长。五小时以内一律付现金，十五小时以上一般就该用 credit。</li>
+        </ul>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p><strong>真的有 10 美元以下的有声书吗？</strong>按标价没有。在 16,460 本里我们记录到的最低价是 10.99 美元，没有比它更低的。10 美元以下的价格会在商店促销时出现，所以带价格追踪的心愿单是唯一可靠的抓法。</p>
+        <p><strong>便宜有声书用现金买还是用 credit 更划算？</strong>只要价格低于约 14.95 美元，就用现金。一个 credit 的成本跟你在哪本书上花掉它基本无关，所以把它用在 12.99 美元的书上，等于浪费了大约 2 美元的价值。</p>
+        <p><strong>便宜有声书的评分会更低吗？</strong>不会。15 美元以下的 2,057 本平均 4.55 星，略高于 15 到 30 美元区间的 4.53 星。在这份数据里，价格和评分几乎不相关。</p>
+        <p><strong>哪些类型最便宜？</strong>自助、商业和经典文学。短篇的过目录非虚构作品和已过版权保护期的经典，有声授权成本更低，所以能卖得更便宜。长篇奇幻和历史很少出现在便宜这一端。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+        <p>
+          我们替你试听，帮你不浪费 credit。从 <a href="/">getcreditworth.com</a> 开始，到<a href="/books">书目库</a>按价格逛一圈，再到<a href="/blog">博客</a>读更多关于定价、套餐和性价比的内容。<a href="/compare">对比页</a>里列了我们测过的每一家商店。
+        </p>
+      </>
+    ),
+  },
+  'longest-audiobooks-on-audible': {
+    slug: 'longest-audiobooks-on-audible',
+    title: 'The Longest Audiobooks on Audible: 100+ Hour Beasts',
+    description: 'Only 35 of 16,460 audiobooks run past 100 hours. Here are the longest audiobooks on Audible, what they cost per hour, and why the biggest audiobooks are the best use of a credit.',
+    keywords: ['longest audiobooks on audible', '100 hour audiobooks', 'biggest audiobooks', 'longest audiobook ever', 'audiobooks over 100 hours', 'long audiobooks for credits', 'best value long audiobooks', 'audiobook hours per credit'],
+    date: '2026-10-30',
+    readTime: '9 min read',
+    category: 'Listicle',
+    faq: [
+      {
+        question: 'What is the longest audiobook on Audible?',
+        answer: 'In our 16,460 title set, the longest is The Mark Twain Complete Collection at 280.4 hours. It lists at $20.04, which works out to about $0.07 per hour against a catalogue average near $4.96.',
+      },
+      {
+        question: 'How many audiobooks run over 100 hours?',
+        answer: 'Thirty-five out of 16,460, or about 0.2%. They are almost all complete collections and omnibus box sets rather than single novels, which is why the group is so small.',
+      },
+      {
+        question: 'Are long audiobooks a good use of a credit?',
+        answer: 'Yes, by a wide margin. Titles in the 100 to 150 hour band average $19.72, so one credit at about $14.95 saves money and buys roughly 120 hours of listening. On a five hour book the same credit buys almost nothing by comparison.',
+      },
+      {
+        question: 'Do the longest audiobooks have reliable ratings?',
+        answer: 'Often not. The very longest titles carry single-digit review counts, so treat a 5.0 rating on a 200 hour collection as thin evidence. Titles with hundreds of reviews, such as All DEAD at 143.3 hours, are safer bets.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          People go looking for the longest audiobooks on Audible for two reasons: they want
+          something that lasts a whole month of commuting, or they want to squeeze the most hours
+          out of one credit. Both reasons hold up. The catch is that this corner of the catalogue
+          is tiny. Of 16,460 titles we tracked, only 35 run past 100 hours, which is 0.2% of
+          everything on sale. Below is the full picture, the twelve biggest audiobooks, and the
+          honest caveat that comes with the very long ones.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What counts as a 100 hour audiobook</h2>
+
+        <p>
+          A 100 hour audiobook is not a long novel. It is almost always a complete works collection
+          or an omnibus box set, because no single published novel runs to a hundred hours of
+          audio. The average novel in our set is about 11 hours. Reaching 100 hours means bundling
+          ten to thirty books behind one cover, which is why this group behaves differently on
+          price from the rest of the catalogue.
+        </p>
+
+        <p>
+          The three bands look like this. Titles from 100 to 150 hours average $19.72 and about
+          $0.17 per hour. From 150 to 200 hours they average $16.72 and $0.10 per hour. Past 200
+          hours, five titles average $18.56 and $0.07 per hour. For comparison, the average cost
+          per hour across all 16,460 books is $4.96. The longest books are roughly fifty times
+          cheaper per hour than the catalogue as a whole.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>The biggest audiobooks we could find</h2>
+
+        <p>
+          These are the twelve longest titles in the set, ranked by runtime. The review counts are
+          included deliberately, because they tell you how much weight the rating can carry.
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Title</th>
+              <th className='text-left py-2'>Hours</th>
+              <th className='text-left py-2'>Price</th>
+              <th className='text-left py-2'>Per hour</th>
+              <th className='text-left py-2'>Rating</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'><a href="/books/B0CPZ27X5M">The Mark Twain Complete Collection</a></td><td className='py-2'>280.4</td><td className='py-2'>$20.04</td><td className='py-2'>$0.07</td><td className='py-2'>4.5 (4)</td></tr>
+            <tr><td className='py-2'><a href="/books/B0DD5S2BD6">The Ultimate Classics Collection, Volume One</a></td><td className='py-2'>272.2</td><td className='py-2'>$14.78</td><td className='py-2'>$0.05</td><td className='py-2'>3.0 (6)</td></tr>
+            <tr><td className='py-2'><a href="/books/B0CPMLBV5M">The Fyodor Dostoyevsky Complete Collection</a></td><td className='py-2'>266.1</td><td className='py-2'>$17.14</td><td className='py-2'>$0.06</td><td className='py-2'>4.5 (15)</td></tr>
+            <tr><td className='py-2'><a href="/books/B0H95JJVHV">Leveling Up the World: Books 1-10</a></td><td className='py-2'>216.1</td><td className='py-2'>$19.81</td><td className='py-2'>$0.09</td><td className='py-2'>4.0 (7)</td></tr>
+            <tr><td className='py-2'><a href="/books/B0DD7X9Y6D">The Complete Brontë Sisters and Jane Austen Collection</a></td><td className='py-2'>203.3</td><td className='py-2'>$21.01</td><td className='py-2'>$0.10</td><td className='py-2'>5.0 (9)</td></tr>
+            <tr><td className='py-2'><a href="/books/B0DJDFS6L8">The Complete Novels of Charles Dickens, Part One</a></td><td className='py-2'>199.4</td><td className='py-2'>$17.19</td><td className='py-2'>$0.09</td><td className='py-2'>5.0 (3)</td></tr>
+            <tr><td className='py-2'><a href="/books/B0DD8FDBKS">The Ultimate Modern Classics Collection, Volume One</a></td><td className='py-2'>190.8</td><td className='py-2'>$14.66</td><td className='py-2'>$0.08</td><td className='py-2'>5.0 (3)</td></tr>
+            <tr><td className='py-2'><a href="/books/B0C94NZQLP">The Leo Tolstoy Complete Collection</a></td><td className='py-2'>186.7</td><td className='py-2'>$17.08</td><td className='py-2'>$0.09</td><td className='py-2'>4.5 (9)</td></tr>
+            <tr><td className='py-2'><a href="/books/B0GWRP14PW">The Complete 88 Book Ethiopian Bible in English</a></td><td className='py-2'>156.6</td><td className='py-2'>$14.94</td><td className='py-2'>$0.10</td><td className='py-2'>5.0 (54)</td></tr>
+            <tr><td className='py-2'><a href="/books/B07YF3XH93">All DEAD</a></td><td className='py-2'>143.3</td><td className='py-2'>$18.51</td><td className='py-2'>$0.13</td><td className='py-2'>4.5 (584)</td></tr>
+            <tr><td className='py-2'><a href="/books/B0DFDJ2WRH">The Darkslayer Monster-Sized Collection</a></td><td className='py-2'>140.7</td><td className='py-2'>$19.29</td><td className='py-2'>$0.14</td><td className='py-2'>4.0 (31)</td></tr>
+            <tr><td className='py-2'><a href="/books/B0FBT21RQ4">The Grand Philosophy Collection</a></td><td className='py-2'>128.2</td><td className='py-2'>$21.39</td><td className='py-2'>$0.17</td><td className='py-2'>4.5 (46)</td></tr>
+          </tbody>
+        </table>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Why the biggest audiobooks cost so little per hour</h2>
+
+        <p>
+          Publishers do not price audio in proportion to length. A 280 hour collection sells for
+          $20.04 while a five hour book sells for $12.99, so the longer book costs about eleven
+          times more and delivers fifty-six times the listening. The biggest audiobooks are built
+          from material that is cheap to license, usually public domain novels or a back catalogue
+          the publisher already owns, and one narration contract covers the whole bundle.
+        </p>
+
+        <p>
+          For a credit holder this is the single best deal in the catalogue. A credit at about
+          $14.95 buys an average 11 hour book, and it buys a 156 hour collection for the same
+          money. The <a href="/curated/best-long-audiobooks-for-credits">long audiobooks collection</a>
+          is where we keep the current picks.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>The catch with 100 hour audiobooks</h2>
+
+        <ul className='space-y-2'>
+          <li>Thin ratings. Several of the longest titles have fewer than ten reviews, so a 5.0 there means very little.</li>
+          <li>Uneven narration. Multi-book bundles often splice recordings made years apart, and quality varies between volumes.</li>
+          <li>Commitment. A 200 hour book is around two months of listening at three hours a day. Plenty of people never finish one.</li>
+          <li>Availability moves. Collections get pulled when a licence expires, and prices drift by region.</li>
+        </ul>
+
+        <p>
+          Our advice is to start in the 100 to 150 hour band, where the review counts are higher
+          and the per hour price is still under $0.20. Browse by runtime on the
+          <a href="/books">book catalogue</a> and check the rating count before you commit a credit.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Frequently asked</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>What is the longest audiobook on Audible?</h3>
+        <p>In our 16,460 title set, the longest is The Mark Twain Complete Collection at 280.4 hours. It lists at $20.04, which works out to about $0.07 per hour against a catalogue average near $4.96.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>How many audiobooks run over 100 hours?</h3>
+        <p>Thirty-five out of 16,460, or about 0.2%. They are almost all complete collections and omnibus box sets rather than single novels, which is why the group is so small.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Are long audiobooks a good use of a credit?</h3>
+        <p>Yes, by a wide margin. Titles in the 100 to 150 hour band average $19.72, so one credit at about $14.95 saves money and buys roughly 120 hours of listening. On a five hour book the same credit buys almost nothing by comparison.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Do the longest audiobooks have reliable ratings?</h3>
+        <p>Often not. The very longest titles carry single-digit review counts, so treat a 5.0 rating on a 200 hour collection as thin evidence. Titles with hundreds of reviews, such as All DEAD at 143.3 hours, are safer bets.</p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+
+        <p>
+          We test audiobooks so you do not waste a credit. Start on
+          <a href="/">getcreditworth.com</a>, browse the
+          <a href="/books">book catalogue</a> by runtime, then read
+          <a href="/blog">the blog</a> for more on pricing, plans and value. The
+          <a href="/compare">comparison page</a> lines up every storefront we have tested.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Audible 上最长的有声书：100 小时以上的巨物</h3>
+
+        <p>
+          大家去找 Audible 上最长的有声书，通常出于两个原因：想要一本能撑过整整一个月通勤的书，或者想把一个 credit 挤出尽可能多的小时数。这两个理由都站得住。问题在于这个角落实在太小：在我们追踪的 16,460 本里，只有 35 本超过 100 小时，占全部在售书目的 0.2%。下面是完整情况、十二本最大的有声书，以及那些超长书自带的一个坦率提醒。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>什么样的书才算 100 小时有声书</h3>
+
+        <p>
+          100 小时的有声书不是长篇小说，它几乎总是全集或合集套装，因为没有哪一本已出版的小说能有 100 小时的音频。我们这批书里，小说的平均长度约为 11 小时。要凑到 100 小时，得把十到三十本书装进同一张封面底下，这也正是这一类书在定价上跟目录其余部分表现不同的原因。
+        </p>
+
+        <p>
+          三个档位是这样的。100 到 150 小时的书平均 19.72 美元，每小时约 0.17 美元；150 到 200 小时平均 16.72 美元，每小时 0.10 美元；200 小时以上有 5 本，平均 18.56 美元，每小时 0.07 美元。作为对照，全部 16,460 本的平均每小时成本是 4.96 美元。最长的那批书，每小时价格只有全目录的大约五十分之一。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>我们能找到的最大几本有声书</h3>
+
+        <p>
+          下面是集合里最长的十二本，按时长排序。我们特意把评论数一起列出，因为它能告诉你这个评分到底有多少分量。
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>书名</th>
+              <th className='text-left py-2'>小时</th>
+              <th className='text-left py-2'>价格</th>
+              <th className='text-left py-2'>每小时</th>
+              <th className='text-left py-2'>评分</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'><a href="/books/B0CPZ27X5M">The Mark Twain Complete Collection</a></td><td className='py-2'>280.4</td><td className='py-2'>20.04 美元</td><td className='py-2'>0.07 美元</td><td className='py-2'>4.5（4）</td></tr>
+            <tr><td className='py-2'><a href="/books/B0DD5S2BD6">The Ultimate Classics Collection, Volume One</a></td><td className='py-2'>272.2</td><td className='py-2'>14.78 美元</td><td className='py-2'>0.05 美元</td><td className='py-2'>3.0（6）</td></tr>
+            <tr><td className='py-2'><a href="/books/B0CPMLBV5M">The Fyodor Dostoyevsky Complete Collection</a></td><td className='py-2'>266.1</td><td className='py-2'>17.14 美元</td><td className='py-2'>0.06 美元</td><td className='py-2'>4.5（15）</td></tr>
+            <tr><td className='py-2'><a href="/books/B0H95JJVHV">Leveling Up the World: Books 1-10</a></td><td className='py-2'>216.1</td><td className='py-2'>19.81 美元</td><td className='py-2'>0.09 美元</td><td className='py-2'>4.0（7）</td></tr>
+            <tr><td className='py-2'><a href="/books/B0DD7X9Y6D">The Complete Brontë Sisters and Jane Austen Collection</a></td><td className='py-2'>203.3</td><td className='py-2'>21.01 美元</td><td className='py-2'>0.10 美元</td><td className='py-2'>5.0（9）</td></tr>
+            <tr><td className='py-2'><a href="/books/B0DJDFS6L8">The Complete Novels of Charles Dickens, Part One</a></td><td className='py-2'>199.4</td><td className='py-2'>17.19 美元</td><td className='py-2'>0.09 美元</td><td className='py-2'>5.0（3）</td></tr>
+            <tr><td className='py-2'><a href="/books/B0DD8FDBKS">The Ultimate Modern Classics Collection, Volume One</a></td><td className='py-2'>190.8</td><td className='py-2'>14.66 美元</td><td className='py-2'>0.08 美元</td><td className='py-2'>5.0（3）</td></tr>
+            <tr><td className='py-2'><a href="/books/B0C94NZQLP">The Leo Tolstoy Complete Collection</a></td><td className='py-2'>186.7</td><td className='py-2'>17.08 美元</td><td className='py-2'>0.09 美元</td><td className='py-2'>4.5（9）</td></tr>
+            <tr><td className='py-2'><a href="/books/B0GWRP14PW">The Complete 88 Book Ethiopian Bible in English</a></td><td className='py-2'>156.6</td><td className='py-2'>14.94 美元</td><td className='py-2'>0.10 美元</td><td className='py-2'>5.0（54）</td></tr>
+            <tr><td className='py-2'><a href="/books/B07YF3XH93">All DEAD</a></td><td className='py-2'>143.3</td><td className='py-2'>18.51 美元</td><td className='py-2'>0.13 美元</td><td className='py-2'>4.5（584）</td></tr>
+            <tr><td className='py-2'><a href="/books/B0DFDJ2WRH">The Darkslayer Monster-Sized Collection</a></td><td className='py-2'>140.7</td><td className='py-2'>19.29 美元</td><td className='py-2'>0.14 美元</td><td className='py-2'>4.0（31）</td></tr>
+            <tr><td className='py-2'><a href="/books/B0FBT21RQ4">The Grand Philosophy Collection</a></td><td className='py-2'>128.2</td><td className='py-2'>21.39 美元</td><td className='py-2'>0.17 美元</td><td className='py-2'>4.5（46）</td></tr>
+          </tbody>
+        </table>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>为什么最大的有声书每小时这么便宜</h3>
+
+        <p>
+          出版方并不是按时长比例给有声书定价的。一套 280 小时的全集卖 20.04 美元，而一本五小时的书卖 12.99 美元，前者贵了约十一倍，却多给出五十六倍的收听量。最大的那些有声书，用的都是授权便宜的素材，通常是公有领域的长篇，或者出版方自家已经拥有的旧目录，一份旁白合同就能覆盖整捆书。
+        </p>
+
+        <p>
+          对持有 credit 的人来说，这是整个目录里最划算的一块。约 14.95 美元一个 credit，平均能买到一本 11 小时的书，而同样的钱也能换到一套 156 小时的合集。<a href="/curated/best-long-audiobooks-for-credits">长篇有声书精选</a>里我们维护着当前推荐。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>100 小时有声书的坑在哪</h3>
+
+        <ul className='space-y-2'>
+          <li>评分太薄。最长的几本里，有好几本评论数不到十条，那里的 5.0 分几乎没有意义。</li>
+          <li>旁白不齐。多本套装常常把相隔数年录制的音轨拼在一起，各卷质量并不一致。</li>
+          <li>投入太大。一本 200 小时的书，按每天三小时算大约是两个月。很多人根本没听完。</li>
+          <li>上架会动。授权到期后合集会被下架，价格也随地区浮动。</li>
+        </ul>
+
+        <p>
+          我们的建议是从 100 到 150 小时这一档入手，那里的评论数更多，每小时价格仍在 0.20 美元以下。到<a href="/books">书目库</a>按时长浏览，并在花掉一个 credit 之前先看一眼评论条数。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p><strong>Audible 上最长的有声书是哪本？</strong>在我们这 16,460 本里，最长的是 The Mark Twain Complete Collection，280.4 小时。标价 20.04 美元，折合每小时约 0.07 美元，而全目录的平均水平接近 4.96 美元。</p>
+        <p><strong>超过 100 小时的有声书有多少本？</strong>16,460 本里有 35 本，约 0.2%。它们几乎全是全集和合集套装，而不是单本小说，这也是这一类数量这么少的原因。</p>
+        <p><strong>长篇有声书值得花 credit 吗？</strong>非常值得。100 到 150 小时的书平均 19.72 美元，那么约 14.95 美元一个 credit 既省了钱，又换来约 120 小时的收听。相比之下，同一个 credit 花在五小时的书上几乎换不到什么。</p>
+        <p><strong>最长的有声书评分可信吗？</strong>常常不可信。最长的那几本评论数是个位数，所以一本 200 小时合集上的 5.0 分只能算很弱的证据。评论数上百的书，比如 143.3 小时的 All DEAD，把握要大得多。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+        <p>
+          我们替你试听，帮你不浪费 credit。从 <a href="/">getcreditworth.com</a> 开始，到<a href="/books">书目库</a>按时长逛一圈，再到<a href="/blog">博客</a>读更多关于定价、套餐和性价比的内容。<a href="/compare">对比页</a>里列了我们测过的每一家商店。
+        </p>
+      </>
+    ),
+  },
+  'audiobook-ratings-analysis': {
+    slug: 'audiobook-ratings-analysis',
+    title: 'Audiobook Ratings Data: What 4.5 Stars Actually Means',
+    description: 'An audiobook ratings analysis of 16,460 titles: 48.9% sit at exactly 4.5 stars, 4.6 and 4.7 barely exist, and review count changes what a rating means. How to read star ratings before you spend a credit.',
+    keywords: ['audiobook ratings analysis', 'audiobook review analysis', 'best rated audiobooks', 'what does 4.5 stars mean', 'audiobook star rating distribution', 'average audiobook rating', 'audible ratings data', 'audiobook rating vs reviews'],
+    date: '2026-10-30',
+    readTime: '9 min read',
+    category: 'Analysis',
+    faq: [
+      {
+        question: 'What does 4.5 stars mean on an audiobook?',
+        answer: 'On its own, very little. In our set of 16,460 titles, 48.9% sit at exactly 4.5, making it the most common rating by far. It tells you the book is not bad, and it tells you almost nothing else. Read the review count alongside it.',
+      },
+      {
+        question: 'What is the average audiobook rating?',
+        answer: 'The mean is 4.535 and the median is 4.5 across 16,460 rated titles. The distribution is bunched at the top: 4.0 or higher covers 94.2% of the catalogue, and anything below 3.5 is 2.1%.',
+      },
+      {
+        question: 'Why are there so few 4.6 and 4.7 star audiobooks?',
+        answer: 'Those values only appear on titles with very large review counts, where averaging produces a precise number. The 74 titles rated 4.6 average 15,878 reviews, while the 8,046 rated 4.5 average 284. Small titles round to 4.5 or 5.0.',
+      },
+      {
+        question: 'Do more reviews mean a higher rating?',
+        answer: 'Slightly. Titles with 20 or fewer reviews average 4.497 stars, those with 21 to 199 average 4.594, and those with 200 or more average 4.581. The gap is small, but it runs against the idea that obscure books are hidden gems.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          Most audiobook ratings analysis starts from a bad assumption: that stars measure quality on
+          a five point scale. They do not. We pulled star ratings and review counts on 16,460
+          titles, and the distribution is not a curve. It has two spikes. Exactly 8,046 titles, or
+          48.9%, sit at 4.5 stars, and 5,320 more, 32.3%, sit at 5.0. Everything between 4.6 and
+          4.9 covers 168 books in total. A 4.5 on an audiobook is not a grade, it is the default,
+          and this audiobook review analysis explains what to read instead.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>How ratings are actually distributed</h2>
+
+        <p>
+          The mean rating is 4.535 and the median is 4.5. Ratings of 4.0 or higher cover 94.2% of
+          the catalogue, and 2.1% fall below 3.5. Audiobook ratings are compressed into the top of
+          the scale, so small differences carry more weight than they would on a site with a wider
+          spread.
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Rating</th>
+              <th className='text-left py-2'>Titles</th>
+              <th className='text-left py-2'>Share</th>
+              <th className='text-left py-2'>Average reviews</th>
+              <th className='text-left py-2'>Average hours</th>
+              <th className='text-left py-2'>Average price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>5.0</td><td className='py-2'>5,320</td><td className='py-2'>32.3%</td><td className='py-2'>153</td><td className='py-2'>10.9</td><td className='py-2'>$18.69</td></tr>
+            <tr><td className='py-2'>4.8</td><td className='py-2'>38</td><td className='py-2'>0.2%</td><td className='py-2'>24,362</td><td className='py-2'>14.7</td><td className='py-2'>$18.85</td></tr>
+            <tr><td className='py-2'>4.7</td><td className='py-2'>54</td><td className='py-2'>0.3%</td><td className='py-2'>17,530</td><td className='py-2'>13.0</td><td className='py-2'>$19.18</td></tr>
+            <tr><td className='py-2'>4.6</td><td className='py-2'>74</td><td className='py-2'>0.4%</td><td className='py-2'>15,878</td><td className='py-2'>11.6</td><td className='py-2'>$18.38</td></tr>
+            <tr><td className='py-2'>4.5</td><td className='py-2'>8,046</td><td className='py-2'>48.9%</td><td className='py-2'>284</td><td className='py-2'>11.9</td><td className='py-2'>$18.86</td></tr>
+            <tr><td className='py-2'>4.0</td><td className='py-2'>2,137</td><td className='py-2'>13.0%</td><td className='py-2'>69</td><td className='py-2'>10.6</td><td className='py-2'>$18.78</td></tr>
+            <tr><td className='py-2'>3.5</td><td className='py-2'>373</td><td className='py-2'>2.3%</td><td className='py-2'>21</td><td className='py-2'>9.1</td><td className='py-2'>$18.51</td></tr>
+            <tr><td className='py-2'>3.0 or lower</td><td className='py-2'>349</td><td className='py-2'>2.1%</td><td className='py-2'>8</td><td className='py-2'>10.8</td><td className='py-2'>$18.99</td></tr>
+          </tbody>
+        </table>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Why 4.6 and 4.7 barely exist</h2>
+
+        <p>
+          Look at the average review column in the table above and the pattern jumps out. The 74
+          titles rated 4.6 average 15,878 reviews. The 54 rated 4.7 average 17,530. The 38 rated
+          4.8 average 24,362. Meanwhile the 8,046 titles rated 4.5 average 284 reviews, and the
+          5,320 rated 5.0 average 153.
+        </p>
+
+        <p>
+          That is a rounding artefact rather than a quality signal. Precise averages only show up
+          when thousands of listeners have rated a book, because a handful of five star and four
+          star reviews land on round numbers. Small titles get snapped to 4.5 or 5.0 by the
+          rounding, and the extremely popular ones keep their decimals. So 4.6 is rare because
+          having a 4.6 requires having tens of thousands of reviews first.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What the best rated audiobooks have in common</h2>
+
+        <p>
+          The best rated audiobooks in the set are not obscure. Every title rated 4.9 has more than
+          80,000 reviews, and the top of the 5.0 group is made of books people already knew about.
+          Here are five with large review counts.
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Title</th>
+              <th className='text-left py-2'>Rating</th>
+              <th className='text-left py-2'>Reviews</th>
+              <th className='text-left py-2'>Hours</th>
+              <th className='text-left py-2'>Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'><a href="/books/B005FRGT44">Ready Player One</a></td><td className='py-2'>5.0</td><td className='py-2'>23,335</td><td className='py-2'>15.7</td><td className='py-2'>$14.77</td></tr>
+            <tr><td className='py-2'><a href="/books/0593294181">Greenlights</a></td><td className='py-2'>5.0</td><td className='py-2'>22,899</td><td className='py-2'>6.9</td><td className='py-2'>$19.37</td></tr>
+            <tr><td className='py-2'><a href="/books/B0C4Q8SZRW">The Women</a></td><td className='py-2'>5.0</td><td className='py-2'>14,928</td><td className='py-2'>15.0</td><td className='py-2'>$17.55</td></tr>
+            <tr><td className='py-2'><a href="/books/B09DTFJ94X">Remarkably Bright Creatures</a></td><td className='py-2'>5.0</td><td className='py-2'>14,602</td><td className='py-2'>11.3</td><td className='py-2'>$22.85</td></tr>
+            <tr><td className='py-2'><a href="/books/B017V4IM1G">Harry Potter and the Sorcerer&apos;s Stone</a></td><td className='py-2'>5.0</td><td className='py-2'>9,563</td><td className='py-2'>8.3</td><td className='py-2'>$14.90</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          Two things stand out. First, these are long enough to be worth a credit, all between six
+          and sixteen hours. Second, a 5.0 from more than 9,000 listeners is a very different claim
+          from a 5.0 from three listeners, even though both display the same five stars.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Does review count move the rating?</h2>
+
+        <p>
+          It does, a little, and in the direction most people do not expect. Titles with 20 or
+          fewer reviews average 4.497 stars across 9,618 books. Those with 21 to 199 reviews
+          average 4.594 across 4,168. Those with 200 or more average 4.581 across 2,674. Obscure
+          books are rated slightly lower, not higher, which runs against the idea that the
+          catalogue is full of undiscovered gems.
+        </p>
+
+        <p>
+          Runtime pushes in the same direction, gently. Books under 8 hours average 4.521, books
+          from 8 to 20 hours average 4.543, and books past 20 hours average 4.555. The differences
+          are small, and none of them is worth rearranging a wish list over. What matters far more
+          is whether the rating has enough reviews behind it to mean anything at all.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>How to read a rating before you spend a credit</h2>
+
+        <ul className='space-y-2'>
+          <li>Ignore 4.5 on its own. It is the mode, covering 48.9% of the catalogue.</li>
+          <li>Read the review count first. Under 50 reviews, treat the rating as a guess.</li>
+          <li>Treat 4.6 to 4.8 as the strongest signal available, since those values require a large sample to exist.</li>
+          <li>Be careful with 5.0 on a book with a few dozen reviews, which is common in box sets and collections.</li>
+          <li>Compare within a genre on the <a href="/category">category pages</a>, because rating habits differ between genres.</li>
+        </ul>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Frequently asked</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>What does 4.5 stars mean on an audiobook?</h3>
+        <p>On its own, very little. In our set of 16,460 titles, 48.9% sit at exactly 4.5, making it the most common rating by far. It tells you the book is not bad, and it tells you almost nothing else. Read the review count alongside it.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>What is the average audiobook rating?</h3>
+        <p>The mean is 4.535 and the median is 4.5 across 16,460 rated titles. The distribution is bunched at the top: 4.0 or higher covers 94.2% of the catalogue, and anything below 3.5 is 2.1%.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Why are there so few 4.6 and 4.7 star audiobooks?</h3>
+        <p>Those values only appear on titles with very large review counts, where averaging produces a precise number. The 74 titles rated 4.6 average 15,878 reviews, while the 8,046 rated 4.5 average 284. Small titles round to 4.5 or 5.0.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Do more reviews mean a higher rating?</h3>
+        <p>Slightly. Titles with 20 or fewer reviews average 4.497 stars, those with 21 to 199 average 4.594, and those with 200 or more average 4.581. The gap is small, but it runs against the idea that obscure books are hidden gems.</p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+
+        <p>
+          We test audiobooks so you do not waste a credit. Start on
+          <a href="/">getcreditworth.com</a>, browse the
+          <a href="/books">book catalogue</a> with ratings and review counts side by side, then read
+          <a href="/blog">the blog</a> for more on pricing, plans and value. The
+          <a href="/compare">comparison page</a> lines up every storefront we have tested.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>有声书评分数据：4.5 星到底意味着什么</h3>
+
+        <p>
+          多数有声书评分分析都从一个错误的假设出发：以为星级是在五分制上衡量质量。并不是。我们把 16,460 本的星级和评论数都拉了出来，分布形态不是一条曲线，它有两个尖峰。整整 8,046 本，也就是 48.9%，正好停在 4.5 星；另有 5,320 本（32.3%）停在 5.0。4.6 到 4.9 之间全部加起来只有 168 本。一本有声书上的 4.5 不是分数，它是默认值，而这篇评分分析要讲的就是该看什么。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>评分到底是怎么分布的</h3>
+
+        <p>
+          平均分是 4.535，中位数是 4.5。4.0 及以上覆盖了目录的 94.2%，低于 3.5 的只占 2.1%。有声书评分全挤在标尺顶端，所以细微的差距，比在一个分布更分散的网站上更有分量。
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>星级</th>
+              <th className='text-left py-2'>书目数</th>
+              <th className='text-left py-2'>占比</th>
+              <th className='text-left py-2'>平均评论数</th>
+              <th className='text-left py-2'>平均小时</th>
+              <th className='text-left py-2'>平均价格</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>5.0</td><td className='py-2'>5,320</td><td className='py-2'>32.3%</td><td className='py-2'>153</td><td className='py-2'>10.9</td><td className='py-2'>18.69 美元</td></tr>
+            <tr><td className='py-2'>4.8</td><td className='py-2'>38</td><td className='py-2'>0.2%</td><td className='py-2'>24,362</td><td className='py-2'>14.7</td><td className='py-2'>18.85 美元</td></tr>
+            <tr><td className='py-2'>4.7</td><td className='py-2'>54</td><td className='py-2'>0.3%</td><td className='py-2'>17,530</td><td className='py-2'>13.0</td><td className='py-2'>19.18 美元</td></tr>
+            <tr><td className='py-2'>4.6</td><td className='py-2'>74</td><td className='py-2'>0.4%</td><td className='py-2'>15,878</td><td className='py-2'>11.6</td><td className='py-2'>18.38 美元</td></tr>
+            <tr><td className='py-2'>4.5</td><td className='py-2'>8,046</td><td className='py-2'>48.9%</td><td className='py-2'>284</td><td className='py-2'>11.9</td><td className='py-2'>18.86 美元</td></tr>
+            <tr><td className='py-2'>4.0</td><td className='py-2'>2,137</td><td className='py-2'>13.0%</td><td className='py-2'>69</td><td className='py-2'>10.6</td><td className='py-2'>18.78 美元</td></tr>
+            <tr><td className='py-2'>3.5</td><td className='py-2'>373</td><td className='py-2'>2.3%</td><td className='py-2'>21</td><td className='py-2'>9.1</td><td className='py-2'>18.51 美元</td></tr>
+            <tr><td className='py-2'>3.0 及以下</td><td className='py-2'>349</td><td className='py-2'>2.1%</td><td className='py-2'>8</td><td className='py-2'>10.8</td><td className='py-2'>18.99 美元</td></tr>
+          </tbody>
+        </table>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>为什么 4.6 和 4.7 几乎不存在</h3>
+
+        <p>
+          看上面那张表的平均评论数一列，规律就跳出来了。评为 4.6 的 74 本，平均有 15,878 条评论；评为 4.7 的 54 本，平均 17,530 条；评为 4.8 的 38 本，平均 24,362 条。而评为 4.5 的 8,046 本，平均只有 284 条；评为 5.0 的 5,320 本，平均 153 条。
+        </p>
+
+        <p>
+          这是取整造成的现象，不是质量信号。只有当成千上万的听众评过一本书，平均值才会出现精确的小数；少量评论算出来的结果，会落在整数上。小体量的书被取整推到 4.5 或 5.0，极热门的书才保留小数点后的位数。所以 4.6 之所以罕见，是因为要得到 4.6，得先有几万条评论。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>评分最高的有声书有什么共同点</h3>
+
+        <p>
+          集合里评分最高的有声书并不冷门。评到 4.9 的每一本都有超过 8 万条评论，5.0 那一组的头部也全都是大家本来就听说过的书。下面是其中评论量很大的五本。
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>书名</th>
+              <th className='text-left py-2'>评分</th>
+              <th className='text-left py-2'>评论数</th>
+              <th className='text-left py-2'>小时</th>
+              <th className='text-left py-2'>价格</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'><a href="/books/B005FRGT44">Ready Player One</a></td><td className='py-2'>5.0</td><td className='py-2'>23,335</td><td className='py-2'>15.7</td><td className='py-2'>14.77 美元</td></tr>
+            <tr><td className='py-2'><a href="/books/0593294181">Greenlights</a></td><td className='py-2'>5.0</td><td className='py-2'>22,899</td><td className='py-2'>6.9</td><td className='py-2'>19.37 美元</td></tr>
+            <tr><td className='py-2'><a href="/books/B0C4Q8SZRW">The Women</a></td><td className='py-2'>5.0</td><td className='py-2'>14,928</td><td className='py-2'>15.0</td><td className='py-2'>17.55 美元</td></tr>
+            <tr><td className='py-2'><a href="/books/B09DTFJ94X">Remarkably Bright Creatures</a></td><td className='py-2'>5.0</td><td className='py-2'>14,602</td><td className='py-2'>11.3</td><td className='py-2'>22.85 美元</td></tr>
+            <tr><td className='py-2'><a href="/books/B017V4IM1G">Harry Potter and the Sorcerer&apos;s Stone</a></td><td className='py-2'>5.0</td><td className='py-2'>9,563</td><td className='py-2'>8.3</td><td className='py-2'>14.90 美元</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          有两点很明显。第一，这些书的时长都够用一个 credit，在六到十六小时之间。第二，来自九千多名听众的 5.0，和来自三个人的 5.0，是完全不同的断言，尽管界面上都显示五颗星。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>评论数会推动评分吗</h3>
+
+        <p>
+          会，幅度不大，而且方向和多数人的预期相反。评论数在 20 条以内的 9,618 本，平均 4.497 星；21 到 199 条的 4,168 本，平均 4.594 星；200 条以上的 2,674 本，平均 4.581 星。冷门的书评分略低而不是略高，这跟「目录里藏着一堆未被发掘的好书」这个想法刚好相反。
+        </p>
+
+        <p>
+          时长也朝同一个方向轻推。8 小时以内的书平均 4.521，8 到 20 小时平均 4.543，20 小时以上平均 4.555。差距都很小，没有哪个值得你为此重排心愿单。真正要紧的是这个评分背后有没有足够多的评论，足以让它有意义。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>花掉一个 credit 之前，怎么读评分</h3>
+
+        <ul className='space-y-2'>
+          <li>别单独看 4.5。它是众数，覆盖了目录的 48.9%。</li>
+          <li>先看评论数。不到 50 条评论时，把评分当成猜测。</li>
+          <li>把 4.6 到 4.8 当作现有最强的信号，因为这些数值必须靠大样本才会出现。</li>
+          <li>对评论只有几十条的 5.0 保持警惕，这在套装和合集里很常见。</li>
+          <li>在<a href="/category">分类页</a>里按类型横向比较，因为不同类型的打分习惯并不一样。</li>
+        </ul>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p><strong>有声书的 4.5 星意味着什么？</strong>单独看几乎什么也不意味。在我们这 16,460 本里，48.9% 正好停在 4.5，是到目前为止最常见的评分。它只告诉你这本书不算差，别的几乎没说。要连着评论数一起看。</p>
+        <p><strong>有声书的平均评分是多少？</strong>16,460 本有评分的书，平均分 4.535，中位数 4.5。分布都堆在顶端：4.0 及以上占目录的 94.2%，低于 3.5 的占 2.1%。</p>
+        <p><strong>为什么 4.6 和 4.7 星的有声书这么少？</strong>这些数值只出现在评论量极大的书上，因为只有那样平均值才会算出精确数字。评为 4.6 的 74 本平均有 15,878 条评论，而评为 4.5 的 8,046 本平均只有 284 条。小体量的书会被取整到 4.5 或 5.0。</p>
+        <p><strong>评论越多评分就越高吗？</strong>略高一点。评论数在 20 条以内的书平均 4.497 星，21 到 199 条的平均 4.594 星，200 条以上的平均 4.581 星。差距很小，但方向与「冷门书里藏着遗珠」这个想法相反。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+        <p>
+          我们替你试听，帮你不浪费 credit。从 <a href="/">getcreditworth.com</a> 开始，到<a href="/books">书目库</a>把评分和评论数放在一起看，再到<a href="/blog">博客</a>读更多关于定价、套餐和性价比的内容。<a href="/compare">对比页</a>里列了我们测过的每一家商店。
+        </p>
+      </>
+    ),
+  },
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
