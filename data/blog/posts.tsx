@@ -16138,6 +16138,898 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+  'value-score-explained': {
+    slug: 'value-score-explained',
+    title: 'Value Score Explained: Our Formula vs Simple Hour Count',
+    description: 'The audiobook value score is runtime times rating divided by price. We ran all 16,784 titles through it: the median score is 2.16, only 4.1% clear 8.0, and hour count alone predicts 95% of the ranking. What the other two inputs actually change.',
+    keywords: ['audiobook value score', 'how to calculate audiobook value', 'credit value formula', 'audiobook value formula', 'value score vs hour count', 'audible credit value score', 'audiobook cost per hour', 'audiobook value ranking'],
+    date: '2026-11-02',
+    readTime: '9 min read',
+    category: 'Analysis',
+    faq: [
+      {
+        question: 'How is the audiobook value score calculated?',
+        answer: 'Runtime in hours multiplied by the star rating, divided by the US list price. A 10 hour book rated 4.5 and priced at $18.00 scores 2.50. We also publish cost per hour, credit worth (price divided by $14.95) and an adjusted score that multiplies by the natural log of review count plus one.',
+      },
+      {
+        question: 'Is a higher audiobook value score always better?',
+        answer: 'No. The score rewards length above everything else, so a 200 hour public domain omnibus with four reviews outscores almost any single novel. The rank correlation between runtime and score across 16,784 titles is 0.953. Read the review count next to the score.',
+      },
+      {
+        question: 'What is a good value score for an audiobook?',
+        answer: '8.0 or higher is our Excellent band, reached by 689 of 16,784 titles, or 4.1%. The median title scores 2.16, so anything above 5.02 sits in the top 10% of the catalogue.',
+      },
+      {
+        question: 'Does a higher price mean a longer audiobook?',
+        answer: 'No. The rank correlation between price and runtime across 16,784 titles is 0.008. Titles listed from $14.95 to $20 average 11.3 hours, and titles from $20 to $25 average 11.2 hours.',
+      },
+    ],
+    content: (
+      <>
+
+        <p>
+          The audiobook value score on every book page here is three numbers put through one
+          division: runtime in hours, multiplied by the star rating, divided by the US list price.
+          That is the whole formula. We ran it over all 16,784 titles in the catalogue, and the
+          result is less mysterious than the name suggests. Hour count alone predicts 95% of the
+          ranking. The other two inputs matter, just less than people assume. This page breaks down
+          how much each one moves.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What the formula actually is</h2>
+
+        <p>
+          Value Score = (runtime in hours × star rating) ÷ list price in dollars. Three companion
+          numbers sit next to it. Cost per hour is price divided by runtime. Credit worth is price
+          divided by 14.95, the Audible credit value we use across this site, so anything above 1.0
+          means a credit beats cash. Adjusted value multiplies the score by the natural log of
+          review count plus one, which pulls down long titles resting on a handful of reviews.
+        </p>
+
+        <p>
+          Scores fall into four bands. The grades below are the same ones shown on the book pages
+          and in the catalogue.
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Band</th>
+              <th className='text-left py-2'>Score</th>
+              <th className='text-left py-2'>Titles</th>
+              <th className='text-left py-2'>Share</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Excellent</td><td className='py-2'>8.0 and up</td><td className='py-2'>689</td><td className='py-2'>4.1%</td></tr>
+            <tr><td className='py-2'>Good</td><td className='py-2'>5.0 to 7.9</td><td className='py-2'>1,002</td><td className='py-2'>6.0%</td></tr>
+            <tr><td className='py-2'>Fair</td><td className='py-2'>3.0 to 4.9</td><td className='py-2'>3,101</td><td className='py-2'>18.5%</td></tr>
+            <tr><td className='py-2'>Poor</td><td className='py-2'>below 3.0</td><td className='py-2'>11,992</td><td className='py-2'>71.4%</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          The median score is 2.16 and the mean is 2.79. The 90th percentile is 5.02, and the top
+          score in the whole set is 69.85. A score of 2.16 is not a failing grade, it is what a
+          normal 11 hour novel looks like at $18.79.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Hour count does most of the work</h2>
+
+        <p>
+          The rank correlation between runtime and score across all 16,784 titles is 0.953. Price
+          against runtime is 0.008, which is as close to nothing as this kind of measurement gets.
+          Paying more does not buy you a longer audiobook here. Titles listed from $14.95 to $20
+          average 11.3 hours, and titles from $20 to $25 average 11.2 hours.
+        </p>
+
+        <p>
+          That shows up bluntly in the grade bands. Out of 15,080 titles under 20 hours, none
+          reaches Excellent. Of the 455 titles past 40 hours, 435 do. The shortest Excellent title
+          in the catalogue runs 23.2 hours.
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Runtime band</th>
+              <th className='text-left py-2'>Titles</th>
+              <th className='text-left py-2'>Median score</th>
+              <th className='text-left py-2'>Excellent share</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Under 5 hours</td><td className='py-2'>3,498</td><td className='py-2'>0.65</td><td className='py-2'>0%</td></tr>
+            <tr><td className='py-2'>5 to 8 hours</td><td className='py-2'>3,506</td><td className='py-2'>1.59</td><td className='py-2'>0%</td></tr>
+            <tr><td className='py-2'>8 to 12 hours</td><td className='py-2'>5,077</td><td className='py-2'>2.39</td><td className='py-2'>0%</td></tr>
+            <tr><td className='py-2'>12 to 20 hours</td><td className='py-2'>2,999</td><td className='py-2'>3.55</td><td className='py-2'>0%</td></tr>
+            <tr><td className='py-2'>20 to 40 hours</td><td className='py-2'>1,249</td><td className='py-2'>6.34</td><td className='py-2'>20.3%</td></tr>
+            <tr><td className='py-2'>40 hours or more</td><td className='py-2'>455</td><td className='py-2'>13.44</td><td className='py-2'>95.6%</td></tr>
+          </tbody>
+        </table>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What the rating adds</h2>
+
+        <p>
+          Ratings are compressed at the top of the scale, so the rating term has limited room to
+          move. Going from 4.5 stars to 5.0 is a 1.111 multiplier, or about 11%. Measured on titles
+          between 8 and 14 hours, here is what each rating level produces.
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Rating</th>
+              <th className='text-left py-2'>Titles</th>
+              <th className='text-left py-2'>Median score</th>
+              <th className='text-left py-2'>Average price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>3.0</td><td className='py-2'>62</td><td className='py-2'>1.69</td><td className='py-2'>$18.72</td></tr>
+            <tr><td className='py-2'>3.5</td><td className='py-2'>129</td><td className='py-2'>1.98</td><td className='py-2'>$18.57</td></tr>
+            <tr><td className='py-2'>4.0</td><td className='py-2'>836</td><td className='py-2'>2.20</td><td className='py-2'>$18.83</td></tr>
+            <tr><td className='py-2'>4.5</td><td className='py-2'>3,423</td><td className='py-2'>2.52</td><td className='py-2'>$18.81</td></tr>
+            <tr><td className='py-2'>5.0</td><td className='py-2'>1,908</td><td className='py-2'>2.80</td><td className='py-2'>$18.69</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          The 4.5 to 5.0 gap is worth 0.28 points against a median of 2.52. It counts, but four
+          extra hours of runtime would count for more.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What the price adds</h2>
+
+        <p>
+          Price swings harder than rating does. The reason is that price and length are unrelated.
+          On titles from 8 to 14 hours rated 4.5 or better, the cheapest band scores 53% higher than
+          the most expensive one on the same length.
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Price band</th>
+              <th className='text-left py-2'>Titles</th>
+              <th className='text-left py-2'>Median score</th>
+              <th className='text-left py-2'>Average hours</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>$13 to $16</td><td className='py-2'>1,269</td><td className='py-2'>3.22</td><td className='py-2'>10.5</td></tr>
+            <tr><td className='py-2'>$16 to $19</td><td className='py-2'>1,560</td><td className='py-2'>2.73</td><td className='py-2'>10.5</td></tr>
+            <tr><td className='py-2'>$19 to $22</td><td className='py-2'>1,583</td><td className='py-2'>2.38</td><td className='py-2'>10.6</td></tr>
+            <tr><td className='py-2'>$22 and up</td><td className='py-2'>982</td><td className='py-2'>2.11</td><td className='py-2'>10.5</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          Average runtime is flat across all four rows. You are buying the same amount of audio for
+          $13 or for $22, and the score is the only thing on the page that says so.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Where hour count and the score disagree</h2>
+
+        <p>
+          We ranked the catalogue twice: once by runtime, once by score. Then we compared each
+          title in both lists. The median title moves 706 places. A total of 6,599 titles, 39.3%,
+          move more than 1,000 places.
+        </p>
+
+        <p>
+          The movers are long books held back by price or by a weak rating. A Dance with Dragons
+          runs 44 hours and scores 5.08 because it lists at $38.99. The Way of Kings runs 45.5 hours
+          and scores 5.60 at the same $38.99. Both land in Good rather than Excellent purely on
+          price, and 20 of the 455 titles past 40 hours miss the top band for that reason.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>When to ignore the score</h2>
+
+        <ul className='space-y-2'>
+          <li>Skip it on anything under 20 hours. None of the 15,080 titles in that range can reach Excellent, so the band tells you the book is short and nothing else.</li>
+          <li>Use cost per hour when you are choosing between two books you already want to read. It is the same division without the rating term.</li>
+          <li>Check the review count before trusting a high score. The adjusted value multiplies by the log of review count plus one, which drags a 200 hour public domain box set with three reviews back down.</li>
+          <li>Ignore credit worth below 1.0. Under $14.95, paying cash beats spending a credit.</li>
+        </ul>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Frequently asked</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>How is the audiobook value score calculated?</h3>
+        <p>Runtime in hours multiplied by the star rating, divided by the US list price. A 10 hour book rated 4.5 and priced at $18.00 scores 2.50. We also publish cost per hour, credit worth (price divided by $14.95) and an adjusted score that multiplies by the natural log of review count plus one.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Is a higher audiobook value score always better?</h3>
+        <p>No. The score rewards length above everything else, so a 200 hour public domain omnibus with four reviews outscores almost any single novel. The rank correlation between runtime and score across 16,784 titles is 0.953. Read the review count next to the score.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>What is a good value score for an audiobook?</h3>
+        <p>8.0 or higher is our Excellent band, reached by 689 of 16,784 titles, or 4.1%. The median title scores 2.16, so anything above 5.02 sits in the top 10% of the catalogue.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Does a higher price mean a longer audiobook?</h3>
+        <p>No. The rank correlation between price and runtime across 16,784 titles is 0.008. Titles listed from $14.95 to $20 average 11.3 hours, and titles from $20 to $25 average 11.2 hours.</p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+
+        <p>
+          We test audiobooks so you do not waste a credit. Start on <a href="/">getcreditworth.com</a>,
+          run any title through the <a href="/calculator">credit calculator</a>, then read
+          <a href="/blog/audible-credit-value">what an Audible credit is worth</a> before your next
+          pick.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>价值分是怎么算的：我们的公式对比单纯数小时</h3>
+
+        <p>
+          本站每本书页上的有声书价值分，就是三个数做一次除法：时长小时数乘以星级，再除以美元标价。公式就这么长。我们把它套在目录里全部 16,784 本上跑了一遍，结果没有名字听起来那么玄。单靠小时数就能解释 95% 的排名，另外两个输入项有影响，只是比多数人以为的小。这篇就把每一项到底能推动多少讲清楚。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>公式到底是什么</h3>
+
+        <p>
+          价值分 =（时长小时 × 星级）÷ 美元标价。旁边还有三个配套数值。每小时成本是标价除以时长。积分值是标价除以 14.95，也就是本站统一采用的 Audible 积分价值，大于 1.0 就代表用积分比付现金划算。调整价值分则是把价值分乘以（评论数加一）的自然对数，专门用来压低那些靠几条评论撑着的长篇。
+        </p>
+
+        <p>
+          分数分成四档，和书页、目录里显示的是同一套。
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>档位</th>
+              <th className='text-left py-2'>分数</th>
+              <th className='text-left py-2'>书目数</th>
+              <th className='text-left py-2'>占比</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>优秀</td><td className='py-2'>8.0 及以上</td><td className='py-2'>689</td><td className='py-2'>4.1%</td></tr>
+            <tr><td className='py-2'>良好</td><td className='py-2'>5.0 到 7.9</td><td className='py-2'>1,002</td><td className='py-2'>6.0%</td></tr>
+            <tr><td className='py-2'>一般</td><td className='py-2'>3.0 到 4.9</td><td className='py-2'>3,101</td><td className='py-2'>18.5%</td></tr>
+            <tr><td className='py-2'>不佳</td><td className='py-2'>低于 3.0</td><td className='py-2'>11,992</td><td className='py-2'>71.4%</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          中位数是 2.16，平均数是 2.79。第 90 百分位是 5.02，全库最高分是 69.85。2.16 不是不及格，它是一本普通 11 小时长篇在 18.79 美元价位上该有的样子。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>小时数干了绝大部分的活</h3>
+
+        <p>
+          全库 16,784 本里，时长与价值分的等级相关系数是 0.953。价格对时长是 0.008，在这种测量里基本等于零。花更多钱买不到更长的有声书。标价 14.95 到 20 美元的书平均 11.3 小时，20 到 25 美元的平均 11.2 小时。
+        </p>
+
+        <p>
+          这句话在分档上体现得很直白。20 小时以内的 15,080 本里，没有一本进得了优秀档。40 小时以上的 455 本里，有 435 本进了。全库最短的优秀档作品时长是 23.2 小时。
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>时长区间</th>
+              <th className='text-left py-2'>书目数</th>
+              <th className='text-left py-2'>分数中位数</th>
+              <th className='text-left py-2'>优秀占比</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>5 小时以内</td><td className='py-2'>3,498</td><td className='py-2'>0.65</td><td className='py-2'>0%</td></tr>
+            <tr><td className='py-2'>5 到 8 小时</td><td className='py-2'>3,506</td><td className='py-2'>1.59</td><td className='py-2'>0%</td></tr>
+            <tr><td className='py-2'>8 到 12 小时</td><td className='py-2'>5,077</td><td className='py-2'>2.39</td><td className='py-2'>0%</td></tr>
+            <tr><td className='py-2'>12 到 20 小时</td><td className='py-2'>2,999</td><td className='py-2'>3.55</td><td className='py-2'>0%</td></tr>
+            <tr><td className='py-2'>20 到 40 小时</td><td className='py-2'>1,249</td><td className='py-2'>6.34</td><td className='py-2'>20.3%</td></tr>
+            <tr><td className='py-2'>40 小时及以上</td><td className='py-2'>455</td><td className='py-2'>13.44</td><td className='py-2'>95.6%</td></tr>
+          </tbody>
+        </table>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>评分能加多少</h3>
+
+        <p>
+          评分全挤在标尺顶端，所以评分这一项能动的空间有限。4.5 星到 5.0 星是 1.111 倍，约合 11%。在 8 到 14 小时的书上实测，各星级对应的结果如下。
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>星级</th>
+              <th className='text-left py-2'>书目数</th>
+              <th className='text-left py-2'>分数中位数</th>
+              <th className='text-left py-2'>平均价格</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>3.0</td><td className='py-2'>62</td><td className='py-2'>1.69</td><td className='py-2'>18.72 美元</td></tr>
+            <tr><td className='py-2'>3.5</td><td className='py-2'>129</td><td className='py-2'>1.98</td><td className='py-2'>18.57 美元</td></tr>
+            <tr><td className='py-2'>4.0</td><td className='py-2'>836</td><td className='py-2'>2.20</td><td className='py-2'>18.83 美元</td></tr>
+            <tr><td className='py-2'>4.5</td><td className='py-2'>3,423</td><td className='py-2'>2.52</td><td className='py-2'>18.81 美元</td></tr>
+            <tr><td className='py-2'>5.0</td><td className='py-2'>1,908</td><td className='py-2'>2.80</td><td className='py-2'>18.69 美元</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          4.5 到 5.0 的差距是 0.28 分，对应中位数 2.52。它算得上数，但多出四个小时的时长会更算得上数。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>价格能加多少</h3>
+
+        <p>
+          价格的撬动力比评分大，原因恰恰是价格与时长互不相关。在 8 到 14 小时、评分 4.5 以上的书上，最便宜那一档比最贵那一档高出 53%，而时长是一样的。
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>价格区间</th>
+              <th className='text-left py-2'>书目数</th>
+              <th className='text-left py-2'>分数中位数</th>
+              <th className='text-left py-2'>平均小时</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>13 到 16 美元</td><td className='py-2'>1,269</td><td className='py-2'>3.22</td><td className='py-2'>10.5</td></tr>
+            <tr><td className='py-2'>16 到 19 美元</td><td className='py-2'>1,560</td><td className='py-2'>2.73</td><td className='py-2'>10.5</td></tr>
+            <tr><td className='py-2'>19 到 22 美元</td><td className='py-2'>1,583</td><td className='py-2'>2.38</td><td className='py-2'>10.6</td></tr>
+            <tr><td className='py-2'>22 美元及以上</td><td className='py-2'>982</td><td className='py-2'>2.11</td><td className='py-2'>10.5</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          四行的平均时长几乎一样。13 美元和 22 美元买到的是同样多的音频，而页面上只有价值分会告诉你这件事。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>小时数和价值分在哪些地方不一致</h3>
+
+        <p>
+          我们把目录排了两次，一次按时长，一次按分数，然后比对每本书在两个榜上的位置。中位数的书移动了 706 位。一共有 6,599 本，也就是 39.3%，移动超过 1,000 位。
+        </p>
+
+        <p>
+          移动的多半是被价格或低评分拖住的长篇。A Dance with Dragons 有 44 小时，分数 5.08，因为标价 38.99 美元。The Way of Kings 有 45.5 小时，同样是 38.99 美元，分数 5.60。两本都落在良好而非优秀，纯粹是价格造成的，40 小时以上的 455 本里有 20 本因为这个原因没进最高档。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>什么时候该无视这个分数</h3>
+
+        <ul className='space-y-2'>
+          <li>20 小时以内的书别看分数。这个区间里的 15,080 本没有一本能进优秀档，档位只能告诉你书很短，别的说不出什么。</li>
+          <li>在两本你都想读的书之间做选择时，改用每小时成本。它是去掉评分项的同一个除法。</li>
+          <li>相信高分之前先看评论数。调整价值分会乘以评论数加一的对数，能把一部靠三条评论撑着的 200 小时公有领域合集拉回原位。</li>
+          <li>积分值低于 1.0 时不用管。低于 14.95 美元，付现金比花积分划算。</li>
+        </ul>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p><strong>有声书价值分是怎么算的？</strong>时长小时数乘以星级，再除以美元标价。一本 10 小时、4.5 星、18.00 美元的书得分 2.50。我们同时给出每小时成本、积分值（标价除以 14.95）以及乘以评论数加一自然对数的调整价值分。</p>
+        <p><strong>价值分越高就一定越好吗？</strong>不一定。分数把时长放在最重的位置，所以一部只有四条评论的 200 小时公有领域合集，分数会压过几乎任何单本小说。全库 16,784 本里，时长与分数的等级相关系数是 0.953。看分数时要连着评论数一起看。</p>
+        <p><strong>有声书的价值分多少算好？</strong>8.0 及以上是我们的优秀档，16,784 本里有 689 本达到，占 4.1%。中位数的书得分 2.16，所以超过 5.02 就进了目录的前 10%。</p>
+        <p><strong>价格越高，有声书就越长吗？</strong>不是。全库 16,784 本里价格与时长（等级相关）是 0.008。标价 14.95 到 20 美元的书平均 11.3 小时，20 到 25 美元的平均 11.2 小时。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+
+        <p>
+          我们替你试听，帮你不浪费积分。从 <a href="/">getcreditworth.com</a> 开始，把任何一本书放进<a href="/calculator">积分计算器</a>里算一算，再读读<a href="/blog/audible-credit-value">一个 Audible 积分到底值多少</a>，然后决定下一本。
+        </p>
+      </>
+    ),
+  },
+
+  'high-value-score-audiobooks': {
+    slug: 'high-value-score-audiobooks',
+    title: '15 Audiobooks with Surprisingly High Value Scores',
+    description: 'Fifteen audiobooks that clear the 8.0 Excellent value score without being 200 hour box sets: all under 30 hours, every one with at least 200 reviews, averaging $15.18 and $0.55 per hour. Real ASINs with ratings and prices.',
+    keywords: ['high value score audiobooks', 'undervalued audiobooks', 'hidden gem audiobooks', 'best value audiobooks', 'audiobooks worth a credit', 'audiobook value score list', 'cheap long audiobooks', 'audiobook deals worth buying'],
+    date: '2026-11-02',
+    readTime: '8 min read',
+    category: 'List',
+    faq: [
+      {
+        question: 'What counts as a high value score for an audiobook?',
+        answer: '8.0 or above is our Excellent band, reached by 689 of 16,784 titles, or 4.1%. The median title in the catalogue scores 2.16, so 8.0 is roughly four times the typical result.',
+      },
+      {
+        question: 'Are long box sets always the best value?',
+        answer: 'They do top the raw score. They are also the titles with the fewest reviews. The 266.1 hour Dostoyevsky collection that ranks first in our catalogue has 15 reviews. Every title on this list has at least 200.',
+      },
+      {
+        question: 'Do these audiobooks have enough reviews to trust the rating?',
+        answer: 'Yes. The lowest review count here is 220, on Shogun, Part Two. Eight of the fifteen have more than 2,000. The Final Empire has 5,102.',
+      },
+      {
+        question: 'How much do these fifteen audiobooks cost together?',
+        answer: '$227.75 at list price for 414 hours of audio, or $0.55 per hour. The catalogue average is $18.79 per title and $1.66 per hour.',
+      },
+    ],
+    content: (
+      <>
+
+        <p>
+          Sort this catalogue by value score and the top of the list is useless. The first fifteen
+          entries are public domain omnibuses running between 130 and 280 hours, with review counts
+          from one to fifty four. High value score audiobooks worth your evening look nothing like
+          that. The fifteen below all clear 8.0, none runs past 30 hours, and every one has at least
+          200 reviews sitting behind its rating.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Why the top of the leaderboard is the wrong place to shop</h2>
+
+        <p>
+          The score is runtime times rating over price, so length wins by construction. The number
+          one title in our set is a 266.1 hour Dostoyevsky collection at $17.14 with 15 reviews.
+          Number two is a 190.8 hour modern classics bundle at $14.66 with 3 reviews. Both are real
+          listings, and neither is a good way to spend a night.
+        </p>
+
+        <p>
+          So we filtered the other way round. At least 200 reviews, so the rating means something.
+          Between 8 and 30 hours, so the score is not measuring length alone. Then ranked by score
+          and took the top fifteen.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>The fifteen</h2>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>#</th>
+              <th className='text-left py-2'>Title</th>
+              <th className='text-left py-2'>Author</th>
+              <th className='text-left py-2'>Hours</th>
+              <th className='text-left py-2'>Rating</th>
+              <th className='text-left py-2'>Price</th>
+              <th className='text-left py-2'>Score</th>
+              <th className='text-left py-2'>Per hour</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>1</td><td className='py-2'><a href="/books/B0CPZ1YNZW">Shōgun, Part Two</a></td><td className='py-2'>James Clavell</td><td className='py-2'>29.3</td><td className='py-2'>5</td><td className='py-2'>$14.38</td><td className='py-2'>10.18</td><td className='py-2'>$0.49</td></tr>
+            <tr><td className='py-2'>2</td><td className='py-2'><a href="/books/0525633723">A Promised Land</a></td><td className='py-2'>Barack Obama</td><td className='py-2'>29.2</td><td className='py-2'>5</td><td className='py-2'>$15.07</td><td className='py-2'>9.68</td><td className='py-2'>$0.52</td></tr>
+            <tr><td className='py-2'>3</td><td className='py-2'><a href="/books/B0F14P2632">Harry Potter and the Order of the Phoenix (Full-Cast Edition)</a></td><td className='py-2'>J.K. Rowling</td><td className='py-2'>26.7</td><td className='py-2'>5</td><td className='py-2'>$14.40</td><td className='py-2'>9.25</td><td className='py-2'>$0.54</td></tr>
+            <tr><td className='py-2'>4</td><td className='py-2'><a href="/books/B0HCRJ4R67">The Pachinko Girl</a></td><td className='py-2'>Vann Chow</td><td className='py-2'>28.2</td><td className='py-2'>4.7</td><td className='py-2'>$14.42</td><td className='py-2'>9.19</td><td className='py-2'>$0.51</td></tr>
+            <tr><td className='py-2'>5</td><td className='py-2'><a href="/books/B09MZPZ1WG">House of Sky and Breath</a></td><td className='py-2'>Sarah J. Maas</td><td className='py-2'>27.7</td><td className='py-2'>5</td><td className='py-2'>$15.16</td><td className='py-2'>9.14</td><td className='py-2'>$0.55</td></tr>
+            <tr><td className='py-2'>6</td><td className='py-2'><a href="/books/B0CGSXFQYY">House of Flame and Shadow</a></td><td className='py-2'>Sarah J. Maas</td><td className='py-2'>29.7</td><td className='py-2'>5</td><td className='py-2'>$16.87</td><td className='py-2'>8.8</td><td className='py-2'>$0.57</td></tr>
+            <tr><td className='py-2'>7</td><td className='py-2'><a href="/books/B0D1DPR1X3">He Who Fights with Monsters 11: A LitRPG Adventure</a></td><td className='py-2'>Shirtaloon, Travis Deverell</td><td className='py-2'>26.3</td><td className='py-2'>5</td><td className='py-2'>$14.97</td><td className='py-2'>8.79</td><td className='py-2'>$0.57</td></tr>
+            <tr><td className='py-2'>8</td><td className='py-2'><a href="/books/B002V0QCYU">The Final Empire</a></td><td className='py-2'>Brandon Sanderson</td><td className='py-2'>24.7</td><td className='py-2'>5</td><td className='py-2'>$14.10</td><td className='py-2'>8.74</td><td className='py-2'>$0.57</td></tr>
+            <tr><td className='py-2'>9</td><td className='py-2'><a href="/books/B0CDXWSS5D">The Eye of the Bedlam Bride</a></td><td className='py-2'>Matt Dinniman</td><td className='py-2'>26.8</td><td className='py-2'>5</td><td className='py-2'>$15.47</td><td className='py-2'>8.65</td><td className='py-2'>$0.58</td></tr>
+            <tr><td className='py-2'>10</td><td className='py-2'><a href="/books/B0776NGW2S">The David Wolf Mystery Thriller Series: Books 1-4</a></td><td className='py-2'>Jeff Carson</td><td className='py-2'>28.3</td><td className='py-2'>4.5</td><td className='py-2'>$14.77</td><td className='py-2'>8.61</td><td className='py-2'>$0.52</td></tr>
+            <tr><td className='py-2'>11</td><td className='py-2'><a href="/books/B01CRMRCK4">The City of Mirrors</a></td><td className='py-2'>Justin Cronin</td><td className='py-2'>29.5</td><td className='py-2'>4.5</td><td className='py-2'>$15.73</td><td className='py-2'>8.43</td><td className='py-2'>$0.53</td></tr>
+            <tr><td className='py-2'>12</td><td className='py-2'><a href="/books/B0DVH4ZRXL">For Whom the Belle Tolls</a></td><td className='py-2'>Jaysea Lynn</td><td className='py-2'>24</td><td className='py-2'>5</td><td className='py-2'>$14.57</td><td className='py-2'>8.22</td><td className='py-2'>$0.61</td></tr>
+            <tr><td className='py-2'>13</td><td className='py-2'><a href="/books/B0081IIZ6Y">Rise of Empire</a></td><td className='py-2'>Michael J. Sullivan</td><td className='py-2'>26.5</td><td className='py-2'>4.5</td><td className='py-2'>$14.55</td><td className='py-2'>8.18</td><td className='py-2'>$0.55</td></tr>
+            <tr><td className='py-2'>14</td><td className='py-2'><a href="/books/B01LW7OXWP">Death's End</a></td><td className='py-2'>Cixin Liu, Ken Liu - translator</td><td className='py-2'>28.9</td><td className='py-2'>4.5</td><td className='py-2'>$15.95</td><td className='py-2'>8.14</td><td className='py-2'>$0.55</td></tr>
+            <tr><td className='py-2'>15</td><td className='py-2'><a href="/books/B0BXTL5Y9C">The Will of the Many</a></td><td className='py-2'>James Islington</td><td className='py-2'>28.2</td><td className='py-2'>5</td><td className='py-2'>$17.34</td><td className='py-2'>8.14</td><td className='py-2'>$0.61</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          Every score in that table is at or above the 8.0 Excellent line, and the weakest one,
+          The Will of the Many at 8.14, still beats 95.9% of the catalogue.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What they have in common</h2>
+
+        <p>
+          Price first. The fifteen average $15.18 against a catalogue mean of $18.79, and only one
+          of them lists above $17. Length next, averaging 27.6 hours against a catalogue mean of
+          11.3. Together that is 414 hours for $227.75, or $0.55 per hour, against $1.66 for the
+          library as a whole.
+        </p>
+
+        <p>
+          The rating term is barely doing anything here. Twelve of the fifteen are rated 5.0 and the
+          other three sit at 4.5 or 4.7. Since 4.5 to 5.0 moves the score by about 11%, nearly all of
+          what you see in the table comes from runtime and a low price.
+        </p>
+
+        <p>
+          Two entries come from the same author. Sarah J. Maas places House of Sky and Breath at
+          9.14 and House of Flame and Shadow at 8.80, both read by Elizabeth Evans. Her Crescent City
+          books run long and list under $17, which is the whole trick.
+        </p>
+
+        <p>
+          The narration holds up too. Michael Kramer reads The Final Empire, and Scott Brick reads
+          The City of Mirrors. The full cast Harry Potter edition lists Hugh Laurie among its
+          voices, which is not something you normally get at $14.40.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>How to find more like them</h2>
+
+        <ul className='space-y-2'>
+          <li>Open the <a href="/books">catalogue</a> and sort by price ascending inside the 20 hour and longer band. Anything under $16 there lands near the Excellent line.</li>
+          <li>Check the review count before you commit. Under 50 reviews, treat the rating as a guess rather than a measurement.</li>
+          <li>Compare with cost per hour when you are choosing between two titles you already want. The score adds a rating term that moves less than you think.</li>
+          <li>Browse <a href="/curated/best-long-audiobooks-for-credits">the long audiobook list</a> if you want the box set end of the range, and <a href="/category">category pages</a> if you want to stay inside one genre.</li>
+        </ul>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Frequently asked</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>What counts as a high value score for an audiobook?</h3>
+        <p>8.0 or above is our Excellent band, reached by 689 of 16,784 titles, or 4.1%. The median title in the catalogue scores 2.16, so 8.0 is roughly four times the typical result.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Are long box sets always the best value?</h3>
+        <p>They do top the raw score. They are also the titles with the fewest reviews. The 266.1 hour Dostoyevsky collection that ranks first in our catalogue has 15 reviews. Every title on this list has at least 200.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Do these audiobooks have enough reviews to trust the rating?</h3>
+        <p>Yes. The lowest review count here is 220, on Shogun, Part Two. Eight of the fifteen have more than 2,000. The Final Empire has 5,102.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>How much do these fifteen audiobooks cost together?</h3>
+        <p>$227.75 at list price for 414 hours of audio, or $0.55 per hour. The catalogue average is $18.79 per title and $1.66 per hour.</p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+
+        <p>
+          We test audiobooks so you do not waste a credit. Start on <a href="/">getcreditworth.com</a>,
+          put any title through the <a href="/calculator">credit calculator</a>, and read
+          <a href="/blog/value-score-explained">how the value score is built</a> before you trust the
+          number on the page.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>15 本价值分意外之高的有声书</h3>
+
+        <p>
+          把这个目录按价值分排序，榜首是没法用的。前十五名都是公有领域合集，时长 130 到 280 小时，评论数从一条到五十四条。真正值得你花一晚上的高价值分有声书完全不长那样。下面这十五本全部超过 8.0，没有一本超过 30 小时，每一本的评分背后都至少有 200 条评论。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>为什么排行榜顶端不是你该逛的地方</h3>
+
+        <p>
+          分数是时长乘以星级再除以价格，长度从构造上就赢了。我们库里排第一的是一部 266.1 小时的陀思妥耶夫斯基合集，17.14 美元，15 条评论。排第二的是 190.8 小时的现代经典合装，14.66 美元，3 条评论。两条都是真实在售的商品，也都不是消磨一晚上的好选择。
+        </p>
+
+        <p>
+          所以我们反过来筛。评论数至少 200 条，让评分有意义；时长在 8 到 30 小时之间，让分数不只是量长度；然后按分数排，取前十五。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>这十五本</h3>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>#</th>
+              <th className='text-left py-2'>书名</th>
+              <th className='text-left py-2'>作者</th>
+              <th className='text-left py-2'>小时</th>
+              <th className='text-left py-2'>评分</th>
+              <th className='text-left py-2'>价格</th>
+              <th className='text-left py-2'>价值分</th>
+              <th className='text-left py-2'>每小时</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>1</td><td className='py-2'><a href="/books/B0CPZ1YNZW">Shōgun, Part Two</a></td><td className='py-2'>James Clavell</td><td className='py-2'>29.3</td><td className='py-2'>5</td><td className='py-2'>14.38 美元</td><td className='py-2'>10.18</td><td className='py-2'>0.49 美元</td></tr>
+            <tr><td className='py-2'>2</td><td className='py-2'><a href="/books/0525633723">A Promised Land</a></td><td className='py-2'>Barack Obama</td><td className='py-2'>29.2</td><td className='py-2'>5</td><td className='py-2'>15.07 美元</td><td className='py-2'>9.68</td><td className='py-2'>0.52 美元</td></tr>
+            <tr><td className='py-2'>3</td><td className='py-2'><a href="/books/B0F14P2632">Harry Potter and the Order of the Phoenix (Full-Cast Edition)</a></td><td className='py-2'>J.K. Rowling</td><td className='py-2'>26.7</td><td className='py-2'>5</td><td className='py-2'>14.40 美元</td><td className='py-2'>9.25</td><td className='py-2'>0.54 美元</td></tr>
+            <tr><td className='py-2'>4</td><td className='py-2'><a href="/books/B0HCRJ4R67">The Pachinko Girl</a></td><td className='py-2'>Vann Chow</td><td className='py-2'>28.2</td><td className='py-2'>4.7</td><td className='py-2'>14.42 美元</td><td className='py-2'>9.19</td><td className='py-2'>0.51 美元</td></tr>
+            <tr><td className='py-2'>5</td><td className='py-2'><a href="/books/B09MZPZ1WG">House of Sky and Breath</a></td><td className='py-2'>Sarah J. Maas</td><td className='py-2'>27.7</td><td className='py-2'>5</td><td className='py-2'>15.16 美元</td><td className='py-2'>9.14</td><td className='py-2'>0.55 美元</td></tr>
+            <tr><td className='py-2'>6</td><td className='py-2'><a href="/books/B0CGSXFQYY">House of Flame and Shadow</a></td><td className='py-2'>Sarah J. Maas</td><td className='py-2'>29.7</td><td className='py-2'>5</td><td className='py-2'>16.87 美元</td><td className='py-2'>8.8</td><td className='py-2'>0.57 美元</td></tr>
+            <tr><td className='py-2'>7</td><td className='py-2'><a href="/books/B0D1DPR1X3">He Who Fights with Monsters 11: A LitRPG Adventure</a></td><td className='py-2'>Shirtaloon, Travis Deverell</td><td className='py-2'>26.3</td><td className='py-2'>5</td><td className='py-2'>14.97 美元</td><td className='py-2'>8.79</td><td className='py-2'>0.57 美元</td></tr>
+            <tr><td className='py-2'>8</td><td className='py-2'><a href="/books/B002V0QCYU">The Final Empire</a></td><td className='py-2'>Brandon Sanderson</td><td className='py-2'>24.7</td><td className='py-2'>5</td><td className='py-2'>14.10 美元</td><td className='py-2'>8.74</td><td className='py-2'>0.57 美元</td></tr>
+            <tr><td className='py-2'>9</td><td className='py-2'><a href="/books/B0CDXWSS5D">The Eye of the Bedlam Bride</a></td><td className='py-2'>Matt Dinniman</td><td className='py-2'>26.8</td><td className='py-2'>5</td><td className='py-2'>15.47 美元</td><td className='py-2'>8.65</td><td className='py-2'>0.58 美元</td></tr>
+            <tr><td className='py-2'>10</td><td className='py-2'><a href="/books/B0776NGW2S">The David Wolf Mystery Thriller Series: Books 1-4</a></td><td className='py-2'>Jeff Carson</td><td className='py-2'>28.3</td><td className='py-2'>4.5</td><td className='py-2'>14.77 美元</td><td className='py-2'>8.61</td><td className='py-2'>0.52 美元</td></tr>
+            <tr><td className='py-2'>11</td><td className='py-2'><a href="/books/B01CRMRCK4">The City of Mirrors</a></td><td className='py-2'>Justin Cronin</td><td className='py-2'>29.5</td><td className='py-2'>4.5</td><td className='py-2'>15.73 美元</td><td className='py-2'>8.43</td><td className='py-2'>0.53 美元</td></tr>
+            <tr><td className='py-2'>12</td><td className='py-2'><a href="/books/B0DVH4ZRXL">For Whom the Belle Tolls</a></td><td className='py-2'>Jaysea Lynn</td><td className='py-2'>24</td><td className='py-2'>5</td><td className='py-2'>14.57 美元</td><td className='py-2'>8.22</td><td className='py-2'>0.61 美元</td></tr>
+            <tr><td className='py-2'>13</td><td className='py-2'><a href="/books/B0081IIZ6Y">Rise of Empire</a></td><td className='py-2'>Michael J. Sullivan</td><td className='py-2'>26.5</td><td className='py-2'>4.5</td><td className='py-2'>14.55 美元</td><td className='py-2'>8.18</td><td className='py-2'>0.55 美元</td></tr>
+            <tr><td className='py-2'>14</td><td className='py-2'><a href="/books/B01LW7OXWP">Death's End</a></td><td className='py-2'>Cixin Liu, Ken Liu - translator</td><td className='py-2'>28.9</td><td className='py-2'>4.5</td><td className='py-2'>15.95 美元</td><td className='py-2'>8.14</td><td className='py-2'>0.55 美元</td></tr>
+            <tr><td className='py-2'>15</td><td className='py-2'><a href="/books/B0BXTL5Y9C">The Will of the Many</a></td><td className='py-2'>James Islington</td><td className='py-2'>28.2</td><td className='py-2'>5</td><td className='py-2'>17.34 美元</td><td className='py-2'>8.14</td><td className='py-2'>0.61 美元</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          这张表里的分数都在 8.0 优秀线以上，最低的一本 The Will of the Many 拿到 8.14，仍然胜过目录里 95.9% 的书。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>它们有什么共同点</h3>
+
+        <p>
+          首先是价格。这十五本平均 15.18 美元，全库平均是 18.79 美元，其中只有一本标价超过 17 美元。其次是时长，平均 27.6 小时，全库平均是 11.3 小时。两项合起来是 414 小时、227.75 美元，折合每小时 0.55 美元，而整个库的水平是每小时 1.66 美元。
+        </p>
+
+        <p>
+          评分这一项在这里几乎没起作用。十五本里十二本是 5.0 星，另外三本落在 4.5 或 4.7。既然 4.5 到 5.0 只能把分数推动约 11%，你在表里看到的差距基本都来自时长和低价。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>怎么找到更多这一类的书</h3>
+
+        <ul className='space-y-2'>
+          <li>打开<a href="/books">书目库</a>，在 20 小时及以上的区间里按价格升序排。这个区间里低于 16 美元的书基本都贴着优秀线。</li>
+          <li>下手之前先看评论数。不到 50 条时，把评分当成猜测，别当成测量结果。</li>
+          <li>在两本你已经想读的书之间做选择时，用每小时成本来比。价值分多出来的那个评分项，影响比你以为的小。</li>
+          <li>想要合装那一端，去翻<a href="/curated/best-long-audiobooks-for-credits">长篇有声书清单</a>；想待在同一个类型里，就逛<a href="/category">分类页</a>。</li>
+        </ul>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p><strong>有声书的价值分多少算高？</strong>8.0 及以上是我们的优秀档，16,784 本里有 689 本达到，占 4.1%。目录里中位数的书得分 2.16，所以 8.0 大约是典型值的四倍。</p>
+        <p><strong>长篇合集总是最划算的吗？</strong>它们在原始分数上确实排最前，同时也是评论数最少的那一批。我们库里排第一的那部 266.1 小时陀思妥耶夫斯基合集只有 15 条评论。本清单里每一本都至少有 200 条。</p>
+        <p><strong>这十五本的评论数够撑起评分吗？</strong>够。清单里评论最少的是 Shogun, Part Two，220 条；十五本里有八本超过 2,000 条。The Final Empire 有 5,102 条。</p>
+        <p><strong>这十五本加起来要多少钱？</strong>标价合计 227.75 美元，换 414 小时音频，折合每小时 0.55 美元。全库的平均水平是每本 18.79 美元、每小时 1.66 美元。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+
+        <p>
+          我们替你试听，帮你不浪费积分。从 <a href="/">getcreditworth.com</a> 开始，把任何一本书放进<a href="/calculator">积分计算器</a>里算一算，也可以先读读<a href="/blog/value-score-explained">价值分是怎么搭起来的</a>，再决定要不要相信页面上那个数字。
+        </p>
+      </>
+    ),
+  },
+
+  'audiobook-library-value': {
+    slug: 'audiobook-library-value',
+    title: 'How Much Would 16,784 Audiobooks Cost at Full Price?',
+    description: 'Buying all 16,784 audiobooks we track at list price comes to $315,428.42, or 189,553 hours of audio. The same library paid with credits costs $250,920.80. Category totals and cost per hour, plus what the 689 best value titles cost together.',
+    keywords: ['audiobook library value', 'audible library worth', 'cost of audiobook collection', 'audiobook collection cost', 'how much do audiobooks cost', 'total audiobook collection price', 'audiobook price statistics', 'cost per hour audiobook'],
+    date: '2026-11-02',
+    readTime: '9 min read',
+    category: 'Analysis',
+    faq: [
+      {
+        question: 'How much does the average audiobook cost?',
+        answer: '$18.79 across the 16,784 titles we track, with a median of $18.78. The middle 80% of the catalogue sits between $14.78 and $22.84, and the full range runs from $10.99 to $44.99.',
+      },
+      {
+        question: 'How much would it cost to buy every audiobook in the catalogue?',
+        answer: 'On our tracked set of 16,784 titles, $315,428.42 at list price. Spending one credit per title at the $14.95 credit value brings the same shelf to $250,920.80.',
+      },
+      {
+        question: 'Is it cheaper to use a credit or to pay cash?',
+        answer: 'Cash is cheaper on the 1,971 titles priced at or below $14.95, which is 11.7% of the catalogue. On the other 14,813 titles, a credit is the better deal.',
+      },
+      {
+        question: 'What is the cost per hour of an audiobook?',
+        answer: 'Across the full library, $1.66 per hour. The 689 titles in the top value band average $0.33 per hour and contain 37,108 hours between them.',
+      },
+    ],
+    content: (
+      <>
+
+        <p>
+          We track 16,784 audiobooks. Buying every one of them at US list price costs $315,428.42,
+          which is a silly thing to do and a useful number to have, because it pins down what one
+          credit is really worth. This audiobook library value breakdown covers the total bill and
+          the 189,553 hours of audio it buys. It also gives the credit price for the same shelf,
+          plus which categories carry the biggest price tags.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>The total bill</h2>
+
+        <p>
+          Summed across every title in the set, the list prices come to $315,428.42. The mean price
+          is $18.79 and the median is $18.78, two numbers close enough to say the distribution is
+          not being dragged around by a few outliers. The cheapest title is $10.99 and the most
+          expensive is $44.99.
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Metric</th>
+              <th className='text-left py-2'>Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Titles tracked</td><td className='py-2'>16,784</td></tr>
+            <tr><td className='py-2'>Total list price</td><td className='py-2'>$315,428.42</td></tr>
+            <tr><td className='py-2'>Mean price</td><td className='py-2'>$18.79</td></tr>
+            <tr><td className='py-2'>Median price</td><td className='py-2'>$18.78</td></tr>
+            <tr><td className='py-2'>Cheapest title</td><td className='py-2'>$10.99</td></tr>
+            <tr><td className='py-2'>Most expensive title</td><td className='py-2'>$44.99</td></tr>
+            <tr><td className='py-2'>10th percentile</td><td className='py-2'>$14.78</td></tr>
+            <tr><td className='py-2'>90th percentile</td><td className='py-2'>$22.84</td></tr>
+          </tbody>
+        </table>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What the money buys in hours</h2>
+
+        <p>
+          The same 16,784 titles contain 189,553 hours of audio. Played back to back with no sleep,
+          that is 21.6 years. The average title runs 11.3 hours, and across the whole library the
+          cost works out to $1.66 per hour of listening.
+        </p>
+
+        <p>
+          Only 455 titles run past 40 hours, and 35 run past 100. Those are the ones that move the
+          per hour figure, which is why the tail of the catalogue matters more than the middle when
+          you are shopping on value.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Paying with credits instead of cash</h2>
+
+        <p>
+          At the $14.95 credit value used across this site, 16,784 credits cost $250,920.80. That is
+          $64,507.62 below the cash total, a 20.5% saving. Credits win on 14,813 of the 16,784
+          titles, the 88.3% priced above $14.95.
+        </p>
+
+        <p>
+          On the remaining 1,971 titles, priced at or below $14.95, cash is cheaper than spending a
+          credit. That is 11.7% of the catalogue, and it is where most of the sale priced back
+          catalogue sits.
+        </p>
+
+        <p>
+          At one credit per month, filling this library takes 1,399 years. Nobody will do that, and
+          the number is worth knowing only for the arithmetic it gives you: one credit, one title,
+          $14.95 of value whatever the sticker says.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>The categories that cost the most</h2>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Category</th>
+              <th className='text-left py-2'>Titles</th>
+              <th className='text-left py-2'>Total price</th>
+              <th className='text-left py-2'>Total hours</th>
+              <th className='text-left py-2'>Avg price</th>
+              <th className='text-left py-2'>Avg hours</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Literature and Fiction</td><td className='py-2'>3,416</td><td className='py-2'>$64,302</td><td className='py-2'>42,968</td><td className='py-2'>$18.82</td><td className='py-2'>12.6</td></tr>
+            <tr><td className='py-2'>Mystery, Thriller and Suspense</td><td className='py-2'>1,524</td><td className='py-2'>$28,705</td><td className='py-2'>15,684</td><td className='py-2'>$18.84</td><td className='py-2'>10.3</td></tr>
+            <tr><td className='py-2'>Biographies and Memoirs</td><td className='py-2'>1,425</td><td className='py-2'>$26,881</td><td className='py-2'>13,793</td><td className='py-2'>$18.86</td><td className='py-2'>9.7</td></tr>
+            <tr><td className='py-2'>Science Fiction and Fantasy</td><td className='py-2'>1,404</td><td className='py-2'>$26,273</td><td className='py-2'>24,610</td><td className='py-2'>$18.71</td><td className='py-2'>17.5</td></tr>
+            <tr><td className='py-2'>Romance</td><td className='py-2'>1,348</td><td className='py-2'>$25,285</td><td className='py-2'>17,756</td><td className='py-2'>$18.76</td><td className='py-2'>13.2</td></tr>
+            <tr><td className='py-2'>Business and Careers</td><td className='py-2'>877</td><td className='py-2'>$16,492</td><td className='py-2'>5,788</td><td className='py-2'>$18.80</td><td className='py-2'>6.6</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          Average price barely moves between categories, from $18.71 in science fiction and fantasy
+          up to $18.86 in biography. Average runtime moves a great deal, from 5.4 hours in children's
+          audiobooks to 17.5 hours in science fiction and fantasy. The value difference between
+          genres lives in length, and on the <a href="/category">category pages</a> you can sort for
+          it directly.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>The cheap way to assemble a large library</h2>
+
+        <p>
+          The 689 titles that score 8.0 or higher on value cost $12,404 in total and contain 37,108
+          hours. That is $0.33 per hour, one fifth of the $1.66 library average. Most of them are
+          collections and long single volumes rather than front list bestsellers, which is exactly
+          why they are cheap per hour.
+        </p>
+
+        <p>
+          Their average price is $18.00, slightly under the catalogue mean. Their average rating is
+          4.59, so the discount comes from length rather than from buying badly reviewed books.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What this means for one credit</h2>
+
+        <ul className='space-y-2'>
+          <li>A credit is worth $14.95 here, and the median title lists at $18.78, so a credit beats cash across most of the catalogue.</li>
+          <li>Do not spend a credit on the 1,971 titles at or below $14.95. Pay cash and keep the credit for something longer.</li>
+          <li>Cost per hour is the number worth comparing. The library average is $1.66, and the top value band runs at $0.33.</li>
+          <li>Twelve credits a year on an annual plan cost $179.40, which is $14.95 each. The per credit rate matches bulk buying, so membership only pays off if you finish what you redeem.</li>
+        </ul>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Frequently asked</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>How much does the average audiobook cost?</h3>
+        <p>$18.79 across the 16,784 titles we track, with a median of $18.78. The middle 80% of the catalogue sits between $14.78 and $22.84, and the full range runs from $10.99 to $44.99.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>How much would it cost to buy every audiobook in the catalogue?</h3>
+        <p>On our tracked set of 16,784 titles, $315,428.42 at list price. Spending one credit per title at the $14.95 credit value brings the same shelf to $250,920.80.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Is it cheaper to use a credit or to pay cash?</h3>
+        <p>Cash is cheaper on the 1,971 titles priced at or below $14.95, which is 11.7% of the catalogue. On the other 14,813 titles, a credit is the better deal.</p>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>What is the cost per hour of an audiobook?</h3>
+        <p>Across the full library, $1.66 per hour. The 689 titles in the top value band average $0.33 per hour and contain 37,108 hours between them.</p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+
+        <p>
+          We test audiobooks so you do not waste a credit. Start on <a href="/">getcreditworth.com</a>,
+          price any title in the <a href="/calculator">credit calculator</a>, then browse the
+          <a href="/books">full catalogue</a> and compare price with runtime and the review count.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>16,784 本有声书按原价全买下来要多少钱</h3>
+
+        <p>
+          我们跟踪 16,784 本有声书。按美国标价全买下来需要 315,428.42 美元。这件事本身很蠢，但这个数字有用，因为它把一个积分到底值多少钉死了。这篇拆解分成几块：总价、它换来的 189,553 小时音频、用积分买下同一个书架的价格，以及哪几个分类最花钱。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>总账单</h3>
+
+        <p>
+          把目录里每一本的标价加总，是 315,428.42 美元。平均价 18.79 美元，中位数 18.78 美元，两个数挨得这么近，说明分布没有被少数极端值拖走。最便宜的一本 10.99 美元，最贵的一本 44.99 美元。
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>指标</th>
+              <th className='text-left py-2'>数值</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>跟踪书目数</td><td className='py-2'>16,784</td></tr>
+            <tr><td className='py-2'>标价合计</td><td className='py-2'>315,428.42 美元</td></tr>
+            <tr><td className='py-2'>平均价格</td><td className='py-2'>18.79 美元</td></tr>
+            <tr><td className='py-2'>价格中位数</td><td className='py-2'>18.78 美元</td></tr>
+            <tr><td className='py-2'>最便宜的一本</td><td className='py-2'>10.99 美元</td></tr>
+            <tr><td className='py-2'>最贵的一本</td><td className='py-2'>44.99 美元</td></tr>
+            <tr><td className='py-2'>第 10 百分位</td><td className='py-2'>14.78 美元</td></tr>
+            <tr><td className='py-2'>第 90 百分位</td><td className='py-2'>22.84 美元</td></tr>
+          </tbody>
+        </table>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>这些钱买到了多少小时</h3>
+
+        <p>
+          同样这 16,784 本里有 189,553 小时音频。不睡觉连着放，是 21.6 年。平均每本 11.3 小时，整个库摊下来是每小时 1.66 美元。
+        </p>
+
+        <p>
+          只有 455 本超过 40 小时，超过 100 小时的 35 本。拉低每小时成本的正是这一小撮，所以按性价比淘书时，目录的尾巴比中间那堆更值得看。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>改用积分付账</h3>
+
+        <p>
+          按本站统一的 14.95 美元积分价值算，16,784 个积分要花 250,920.80 美元，比现金总价低 64,507.62 美元，省下 20.5%。全库有 14,813 本（88.3%）标价高于 14.95 美元，这些书用积分更划算。
+        </p>
+
+        <p>
+          剩下标价不高于 14.95 美元的 1,971 本，付现金比花积分便宜。这占目录的 11.7%，打折的旧目录书大多落在这里。
+        </p>
+
+        <p>
+          按每月一个积分算，填满这个书架要 1,399 年。没人会这么做，这个数字值得知道，只是因为它给了你一道算术：一个积分换一本书，无论标价写多少，价值都是 14.95 美元。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>最花钱的几个分类</h3>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>分类</th>
+              <th className='text-left py-2'>书目数</th>
+              <th className='text-left py-2'>总价</th>
+              <th className='text-left py-2'>总小时</th>
+              <th className='text-left py-2'>平均价格</th>
+              <th className='text-left py-2'>平均小时</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>文学与小说</td><td className='py-2'>3,416</td><td className='py-2'>64,302 美元</td><td className='py-2'>42,968</td><td className='py-2'>18.82 美元</td><td className='py-2'>12.6</td></tr>
+            <tr><td className='py-2'>悬疑惊悚</td><td className='py-2'>1,524</td><td className='py-2'>28,705 美元</td><td className='py-2'>15,684</td><td className='py-2'>18.84 美元</td><td className='py-2'>10.3</td></tr>
+            <tr><td className='py-2'>传记与回忆录</td><td className='py-2'>1,425</td><td className='py-2'>26,881 美元</td><td className='py-2'>13,793</td><td className='py-2'>18.86 美元</td><td className='py-2'>9.7</td></tr>
+            <tr><td className='py-2'>科幻与奇幻</td><td className='py-2'>1,404</td><td className='py-2'>26,273 美元</td><td className='py-2'>24,610</td><td className='py-2'>18.71 美元</td><td className='py-2'>17.5</td></tr>
+            <tr><td className='py-2'>言情</td><td className='py-2'>1,348</td><td className='py-2'>25,285 美元</td><td className='py-2'>17,756</td><td className='py-2'>18.76 美元</td><td className='py-2'>13.2</td></tr>
+            <tr><td className='py-2'>商业与职场</td><td className='py-2'>877</td><td className='py-2'>16,492 美元</td><td className='py-2'>5,788</td><td className='py-2'>18.80 美元</td><td className='py-2'>6.6</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          分类之间的平均价格几乎不动，从科幻奇幻的 18.71 美元到传记的 18.86 美元。平均时长差距很大，从儿童有声书的 5.4 小时到科幻奇幻的 17.5 小时。类型之间的性价比差别藏在时长里，在<a href="/category">分类页</a>上可以直接按它排序。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>攒一个大书库的便宜办法</h3>
+
+        <p>
+          价值分 8.0 及以上的那 689 本，总价 12,404 美元，合 37,108 小时。折合每小时 0.33 美元，是全库 1.66 美元的五分之一。其中多数是合集和长篇单本，而不是榜单前排的新书，这正是它们每小时便宜的原因。
+        </p>
+
+        <p>
+          它们的平均价格是 18.00 美元，略低于全库平均；平均评分 4.59。折扣来自时长，跟买一堆评分差的书无关。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>这些数字对单个积分意味着什么</h3>
+
+        <ul className='space-y-2'>
+          <li>本站按 14.95 美元计算积分价值，而价格中位数是 18.78 美元，所以在目录的大部分书上使用积分比付现金划算。</li>
+          <li>标价不高于 14.95 美元的那 1,971 本别用积分。付现金，把积分留给更长的书。</li>
+          <li>值得拿来横向比较的是每小时成本。全库平均 1.66 美元，最高价值档是 0.33 美元。</li>
+          <li>年付套餐一年十二个积分要 179.40 美元，折合每个 14.95 美元。单个积分的单价和批量买一样，所以会员划不划算只看你兑的书有没有听完。</li>
+        </ul>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p><strong>有声书平均多少钱一本？</strong>我们跟踪的 16,784 本平均 18.79 美元，中位数 18.78 美元。中间 80% 落在 14.78 到 22.84 美元之间，全距从 10.99 到 44.99 美元。</p>
+        <p><strong>把目录里每本有声书都买下来要多少钱？</strong>按我们跟踪的 16,784 本算，标价合计 315,428.42 美元。如果每本用一个 14.95 美元的积分换，同一个书架是 250,920.80 美元。</p>
+        <p><strong>用积分划算还是付现金划算？</strong>标价不高于 14.95 美元的 1,971 本付现金更便宜，占目录 11.7%。其余 14,813 本用积分更划算。</p>
+        <p><strong>有声书每小时成本是多少？</strong>全库平均每小时 1.66 美元。最高价值档的 689 本平均每小时 0.33 美元，合计 37,108 小时。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+
+        <p>
+          我们替你试听，帮你不浪费积分。从 <a href="/">getcreditworth.com</a> 开始，到<a href="/calculator">积分计算器</a>里给任何一本书算个价，再到<a href="/books">完整书目库</a>把价格、时长和评论数并排看。
+        </p>
+      </>
+    ),
+  },
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
