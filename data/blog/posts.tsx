@@ -17030,6 +17030,596 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+  'best-audiobooks-under-10-hours': {
+    slug: 'best-audiobooks-under-10-hours',
+    title: 'Best Audiobooks Under 10 Hours: When Short Is Right',
+    description: 'The best short audiobooks under 10 hours, and when a short listen beats a twenty hour epic. Which titles deserve a credit, which to buy with cash, and why runtime changes the math.',
+    keywords: ['best short audiobooks', 'short audiobooks worth a credit', 'novella audiobooks', 'best audiobooks under 10 hours', 'short audiobooks 2026', 'audiobooks under 10 hours', 'best novellas on audible', 'short book recommendations audio'],
+    date: '2026-11-08',
+    readTime: '7 min read',
+    category: 'Guide',
+    faq: [
+      {
+        question: 'Are short audiobooks worth a credit?',
+        answer: 'Usually yes. A credit is worth about $14.95, so any title you actually finish beats an unfinished epic. The exception is short books priced at or below $14.95 at list price, where paying cash keeps the credit for a more expensive title.',
+      },
+      {
+        question: 'What counts as a novella in audio?',
+        answer: 'Most listeners use the term for anything under about four hours, which lines up with 20,000 to 40,000 words. A ten hour audiobook is short by audiobook standards but not a novella.',
+      },
+      {
+        question: 'Do short audiobooks cost less money?',
+        answer: 'Not reliably. List price tracks demand and publishing format more than runtime, so a three hour classic can cost $10.99 while a nine hour bestseller costs $25.00. Check the price before assuming a short book is a cheap book.',
+      },
+      {
+        question: 'How do I find more short audiobooks?',
+        answer: 'Sort your genre list by runtime or look at the shortest titles first, browse the included catalogue for weekend length picks, and check curated short listen collections. Our comparison page shows where the same short title is cheaper elsewhere.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          The best short audiobooks solve a problem long books create: they finish. Under ten
+          hours is the band where one credit turns into something you complete in a weekend or
+          across a week of commutes, instead of a twenty hour project that dies in the middle.
+          This guide collects the short audiobooks worth a credit from the catalogue we track,
+          explains when a novella beats an epic, and walks through the arithmetic that decides
+          whether a short title deserves your credit or your cash.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Why under 10 hours is the sweet spot</h2>
+
+        <p>
+          Ten hours is roughly three commutes for a daily listener, or two gym weeks, or one long
+          drive. That length lets a book build momentum without asking for a month of your life.
+          It also matches how people actually abandon books: our cost per hour data shows the
+          average title runs 11.3 hours, and most listeners who stall do so somewhere past hour
+          six. A book you finish at hour eight beats a better book you quit at hour twelve.
+        </p>
+
+        <p>
+          Short does not mean light. Some of the densest books on audio land under ten hours
+          because the author cut everything that did not work. The best short audiobooks tend to
+          be older classics, essay collections, memoirs, and business books that front load their
+          ideas instead of repeating them.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Short audiobooks worth a credit</h2>
+
+        <p>
+          These are well known titles that regularly sit under ten hours in audio, with
+          approximate listening times so you can plan a weekend around them. Durations vary a
+          little by narrator edition, so treat them as ranges.
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Title</th>
+              <th className='text-left py-2'>Approx. runtime</th>
+              <th className='text-left py-2'>Typical list price</th>
+              <th className='text-left py-2'>Credit verdict</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Animal Farm, George Orwell</td><td className='py-2'>~3h 10m</td><td className='py-2'>$10.99 to $14.99</td><td className='py-2'>Cash, usually</td></tr>
+            <tr><td className='py-2'>The Ocean at the End of the Lane, Neil Gaiman</td><td className='py-2'>~5h 45m</td><td className='py-2'>$15 to $20</td><td className='py-2'>Credit</td></tr>
+            <tr><td className='py-2'>The Great Gatsby, F. Scott Fitzgerald</td><td className='py-2'>~7h 30m</td><td className='py-2'>$10.99 to $15</td><td className='py-2'>Depends on price</td></tr>
+            <tr><td className='py-2'>The Psychology of Money, Morgan Housel</td><td className='py-2'>~8h 15m</td><td className='py-2'>$20 to $25</td><td className='py-2'>Credit</td></tr>
+            <tr><td className='py-2'>The Midnight Library, Matt Haig</td><td className='py-2'>~9h</td><td className='py-2'>$22 to $27</td><td className='py-2'>Credit</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          The pattern in that table matters more than any single row. Cheap classics under about
+          $15 are usually better bought with cash, because a credit carries $14.95 of value and
+          you should not trade it away for less. Pricier new releases are where the credit wins,
+          and short titles are no exception. If you want the full method, the
+          <a href="/blog/audible-credit-value"> credit value guide</a> walks through the formula,
+          and the <a href="/compare">comparison page</a> shows where the same title is cheaper at
+          another storefront.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Novella audiobooks and other quick wins</h2>
+
+        <p>
+          Under four hours is novella territory, and these are the listens that rescue a stalled
+          month. A novella you finish on a Tuesday feels better than a novel you are still on in
+          three weeks, and finishing is the entire point of a listening habit. Good places to
+          look:
+        </p>
+
+        <ul className='list-disc pl-6 space-y-2'>
+          <li>Classic fiction from before the 1960s, which was written at novella length because serialization paid by the word and readers finished on a train ride.</li>
+          <li>Single topic nonfiction, the kind that takes one idea and goes deep instead of padding a book to a page count.</li>
+          <li>Speech collections and lecture series, which are often the cheapest per hour of insight on the whole catalogue.</li>
+          <li>Children&rsquo;s and middle grade audio when you listen with kids, since most run two to five hours and everyone finishes.</li>
+        </ul>
+
+        <p>
+          One caution: a three hour book at a $12 list price is a cash purchase, not a credit
+          purchase. Spend the credit on the $25 title and pay the $12 one with a card. That swap
+          alone stretches a two credit month into noticeably more listening.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>When a long book still wins</h2>
+
+        <p>
+          Short is a tool, not a rule. Immersive genres reward length: a space opera or a doorstop
+          fantasy series costs more hours but delivers a world you stay inside for weeks, and the
+          <a href="/curated/best-long-audiobooks-for-credits"> long audiobooks list</a> covers
+          that case. The honest framing is cost per finished hour against your own completion
+          rate. If you finish everything you start, long books are better value per hour. If you
+          stall on anything past twelve hours, short titles are not a compromise, they are the
+          correct purchase.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+
+        <p>
+          We test audiobooks so you do not waste a credit. Start on
+          <a href="/">getcreditworth.com</a>, run any title through the
+          <a href="/calculator"> credit value calculator</a>, then check
+          <a href="/compare"> the comparison page</a> before you buy. Short or long, the book that
+          earns its credit is the one you finish.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>十小时以内的有声书：什么时候短就是对的</h3>
+
+        <p>
+          最好的短篇有声书解决的是长篇制造的问题：它能听完。十小时以内，一个 credit 换来的东西一个周末就能消化完，而不是变成一个拖到第六集就弃了的二十小时工程。这篇整理我们目录里值得用 credit 换的短有声书，说说中篇小说的用法，以及什么情况下该付现金、什么情况下该刷卡。
+        </p>
+
+        <p>
+          十小时是个甜点位。它大约是三天的通勤、两周的健身房时间，或者一次长途自驾。平均一本有声书 11.3 小时，大多数人弃书发生在第六小时之后，所以一本你能在第八小时听完的书，胜过一本更好的但你在第十二小时放弃的书。短不等于浅，不少十小时以内的作品恰恰是因为删掉了所有不好听的段落才这么短。
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>书名</th>
+              <th className='text-left py-2'>大约时长</th>
+              <th className='text-left py-2'>常见标价</th>
+              <th className='text-left py-2'>建议</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>《动物农场》奥威尔</td><td className='py-2'>约 3 小时 10 分</td><td className='py-2'>$10.99–14.99</td><td className='py-2'>通常现金买</td></tr>
+            <tr><td className='py-2'>《摆渡人》尼尔·盖曼（The Ocean at the End of the Lane）</td><td className='py-2'>约 5 小时 45 分</td><td className='py-2'>$15–20</td><td className='py-2'>credit</td></tr>
+            <tr><td className='py-2'>《了不起的盖茨比》</td><td className='py-2'>约 7.5 小时</td><td className='py-2'>$10.99–15</td><td className='py-2'>看价格</td></tr>
+            <tr><td className='py-2'>《金钱心理学》</td><td className='py-2'>约 8 小时 15 分</td><td className='py-2'>$20–25</td><td className='py-2'>credit</td></tr>
+            <tr><td className='py-2'>《午夜图书馆》</td><td className='py-2'>约 9 小时</td><td className='py-2'>$22–27</td><td className='py-2'>credit</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          这张表的规律比任何一行都重要：十五美元以下的便宜经典，用现金买更划算，因为一个 credit 值 14.95 美元，别把它花在更低的价格上。贵的新书才是 credit 的战场，短书也不例外。完整算法见<a href="/blog/audible-credit-value">credit 价值指南</a>，同一家书在哪家店更便宜，看<a href="/compare">对比页</a>。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>四个小时以内的中篇怎么用</h3>
+
+        <p>
+          四小时以下是中篇小说的地盘，它们是抢救荒废月份的工具。周二就听完的中篇，比听三个星期还没完的长篇更让人有成就感，而「听完」才是听书习惯的全部意义。值得翻的方向：1960 年代以前的经典小说（那个年代按字数付稿费，读者在火车上就能读完）、只讲一件事的专题非虚构、演讲与讲座合集（单位小时的洞察密度全目录最高）、以及给孩子听时两到五小时的儿童与青少年书。
+        </p>
+
+        <p>
+          一个提醒：三小时、标价十二美元的书是现金单，不是 credit 单。把 credit 留给二十五美元的书，十二美元的刷卡。就这一下交换，两个 credit 的月份就能多听不少。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>什么时候长篇还是更赢</h3>
+
+        <p>
+          短是工具，不是纪律。沉浸型题材奖励长度：太空歌剧和堆头奇幻系列虽然贵几个小时，但给你一个能住几个星期世界。<a href="/curated/best-long-audiobooks-for-credits">长篇有声书清单</a>专门讲这个场景。诚实的算法是「每完成一小时的成本」乘上你自己的完读率：你什么书都能听完，长篇每小时更值；你听超过十二小时就弃，短书不是妥协，是正确答案。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p><strong>短有声书值得用一个 credit 吗？</strong>通常值得。credit 约值 14.95 美元，能听完的短书胜过听不完的大部头。例外是标价不高于 14.95 美元的短书，那种现金买，把 credit 留给更贵的。</p>
+        <p><strong>音频里的中篇小说指多长？</strong>大多数人指四小时以内，对应两万到四万词。十小时的有声书按听书标准算短，但不算中篇。</p>
+        <p><strong>短有声书更便宜吗？</strong>不一定。标价跟随需求和出版形态而非时长，三小时的经典可能 10.99 美元，九小时的畅销书可能 25 美元。买前先看价。</p>
+        <p><strong>怎么找到更多短有声书？</strong>在分类里按时长排序、翻 Plus 内含目录找周末长度、以及看策划好的短听清单。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+
+        <p>
+          我们替你试听，帮你不浪费积分。从 <a href="/">getcreditworth.com</a> 开始，把任何一本书放进<a href="/calculator">积分计算器</a>里算一算，买之前再到<a href="/compare">对比页</a>看一眼。短也好长也好，配得上 credit 的，是你能听完的那本。
+        </p>
+      </>
+    ),
+  },
+
+  'how-to-use-audible-credits-wisely': {
+    slug: 'how-to-use-audible-credits-wisely',
+    title: 'How to Use Audible Credits Wisely: The Complete Guide',
+    description: 'How to use Audible credits wisely in 2026: what a credit is worth, which price bands deserve a credit, ways to stretch one credit further, and the mistakes that quietly waste them.',
+    keywords: ['how to use audible credits', 'audible credits strategy', 'best way to use audible credits', 'use audible credits wisely', 'audible credit tips', 'when to use a credit on audible', 'audible credit value guide', 'stretch audible credits'],
+    date: '2026-11-08',
+    readTime: '8 min read',
+    category: 'Guide',
+    faq: [
+      {
+        question: 'How much is an Audible credit worth?',
+        answer: 'About $14.95 at the standard rate, which is what annual plans work out to per credit. Monthly plans cost more per credit, and any title priced above roughly $15 is where a credit saves you the most.',
+      },
+      {
+        question: 'Do Audible credits expire?',
+        answer: 'Membership credits stay valid while your membership is active. If you cancel, unused credits go with the cancellation, so spend down before you quit. Separately purchased credit bundles carry their own shorter window.',
+      },
+      {
+        question: 'Should I use a credit on a sale book?',
+        answer: 'Often not. A $6.99 sale title is better bought with cash, because spending a $14.95 credit on it throws away more than half the value. Save credits for full price and lightly discounted titles.',
+      },
+      {
+        question: 'Can I buy more credits without a membership?',
+        answer: 'Members can buy credit bundles from their account page, usually at a per credit price close to the plan rate. Non members cannot buy credits on their own; you need an active membership either way.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          Knowing how to use Audible credits well is the difference between a membership that
+          pays for itself and one that quietly fills a shelf you never open. A credit is not a
+          coupon, it is a $14.95 instrument, and every purchase either captures that value or
+          leaks it. This guide covers what a credit is worth, which price bands deserve one, the
+          habits that stretch a two credit month further, and the mistakes that waste credits
+          without you noticing.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What a credit is actually worth</h2>
+
+        <p>
+          The baseline is $14.95. Annual plans deliver twelve credits for $179.40, which is
+          exactly $14.95 each, and monthly plans cost a little more per credit. That number turns
+          every purchase into simple arithmetic: a $28.99 new release bought with a credit saves
+          you $14.04, while a $9.99 sale book bought with a credit throws away $4.96. Our
+          catalogue data makes the same point at scale: titles priced at or below $14.95 are the
+          11.7% of the store where cash beats a credit, and the other 88.3% belong to credits.
+        </p>
+
+        <p>
+          If you want per title numbers instead of rules of thumb, put the book into the
+          <a href="/calculator"> credit value calculator</a> and read the
+          <a href="/blog/audible-credit-value"> full credit value guide</a> for how the figure is
+          derived.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Spend credits where they win most</h2>
+
+        <p>
+          The price band decides the payment method before anything else about the book matters.
+          Here is the whole strategy on one screen:
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>List price</th>
+              <th className='text-left py-2'>Best payment</th>
+              <th className='text-left py-2'>Why</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Under $10</td><td className='py-2'>Cash, always</td><td className='py-2'>A credit here loses more than a third of its value</td></tr>
+            <tr><td className='py-2'>$10 to $14.95</td><td className='py-2'>Cash</td><td className='py-2'>You pay less than the credit is worth</td></tr>
+            <tr><td className='py-2'>$15 to $20</td><td className='py-2'>Credit, with a check</td><td className='py-2'>Modest savings; make sure you actually want this title</td></tr>
+            <tr><td className='py-2'>Over $20</td><td className='py-2'>Credit</td><td className='py-2'>Where credits earn their keep, often $8 to $14 saved</td></tr>
+            <tr><td className='py-2'>Long series box sets</td><td className='py-2'>Credit per volume</td><td className='py-2'>Highest total savings per membership year</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          Premium Plus members who buy extra books should adjust slightly: the 30% member
+          discount lowers cash prices, so the credit threshold moves up a few dollars. Our
+          <a href="/blog/premium-plus-vs-standard-credits"> Premium Plus comparison</a> has the
+          member priced version of this table.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Habits that stretch a credit further</h2>
+
+        <p>
+          None of these take more than a minute, and together they turn a standard two credit
+          month into noticeably more finished listening:
+        </p>
+
+        <ul className='list-disc pl-6 space-y-2'>
+          <li>Keep a wish list and buy from it. Credits spent on impulse picks have the highest regret rate of any purchase on the platform.</li>
+          <li>Use the included catalogue as your filter. Listen to something free first, and only spend a credit on authors or series that held you.</li>
+          <li>Check the compare page before every purchase. The same title is frequently cheaper at another storefront, which changes the credit versus cash call.</li>
+          <li>Save one credit as a buffer. A single unspent credit means you can start any new release the week it drops without changing plans.</li>
+          <li>Stack sales with credits, not instead of them. Buy the $6.99 deal with cash, keep the credit for the $25 book you actually wanted.</li>
+        </ul>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Mistakes that waste credits</h2>
+
+        <p>
+          Three patterns account for most wasted credits we see. First, spending down because a
+          credit is burning a hole: a credit does not reward urgency, it rewards patience, and a
+          held credit costs you nothing while you wait for the right title. Second, using credits
+          on short cheap classics, which is the cash band from the table above. Third, letting
+          the month roll over so often that credits pile up and then get abandoned at
+          cancellation, which is the most expensive mistake of all since unused credits are
+          forfeited when a membership ends. If your balance keeps growing, our guide on
+          <a href="/blog/how-to-spend-audible-credits-before-expiry"> spending credits down</a>
+          fixes that, and the
+          <a href="/blog/audible-return-refund-policy"> return and refund policy guide</a> covers
+          the cases where a bad pick can be undone.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>When cash beats a credit</h2>
+
+        <p>
+          Cash wins in three situations: the title is priced at or below $14.95, the store is
+          running a deep sale that undercuts the credit value, or you are a Premium Plus member
+          buying short books where the member discount stacks the gap further. None of this means
+          hoarding cash for everything. It means the credit is a tool for the expensive half of
+          the catalogue, and cash handles the cheap half. A simple audit works: open your
+          purchase history, check the last ten titles against the table above, and count how many
+          credits you spent under $15. Most people find one or two, which is one or two books of
+          value given away.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+
+        <p>
+          We test audiobooks so you do not waste a credit. Start on
+          <a href="/">getcreditworth.com</a>, run any book through the
+          <a href="/calculator"> credit value calculator</a>, then read
+          <a href="/blog"> the blog</a> for pricing, plans and value. Every credit you spend
+          wisely is a book you actually finish.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>怎么把 Audible credit 花在刀刃上：完整指南</h3>
+
+        <p>
+          会不会用 Audible credit，决定了你的会员是「物有所值」还是「默默攒了一书架听不动的书」。credit 不是优惠券，它是一张 14.95 美元的工具，每一次购买要么吃满这个价值，要么漏掉它。这篇讲清楚三件事：credit 到底值多少、什么价位该用 credit、以及哪些习惯在悄悄浪费你的额度。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>credit 的真实价值</h3>
+
+        <p>
+          基准是 14.95 美元：年付套餐十二个 credit 共 179.40 美元，平均每个恰好 14.95。于是每笔购买都变成了简单算术：28.99 美元的新书用 credit 买省 14.04 美元；9.99 美元的促销书用 credit 买等于白扔 4.96 美元。全目录的数据更直白：标价不高于 14.95 美元的书占 11.7%，那是现金的地盘；其余 88.3% 归 credit。想知道具体某本怎么算，把它放进<a href="/calculator">积分计算器</a>，或者读<a href="/blog/audible-credit-value">credit 价值指南</a>的完整推导。
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>标价</th>
+              <th className='text-left py-2'>支付方式</th>
+              <th className='text-left py-2'>原因</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>10 美元以下</td><td className='py-2'>现金</td><td className='py-2'>credit 会亏掉三分之一以上价值</td></tr>
+            <tr><td className='py-2'>10–14.95 美元</td><td className='py-2'>现金</td><td className='py-2'>现金价低于 credit 价值</td></tr>
+            <tr><td className='py-2'>15–20 美元</td><td className='py-2'>credit，先确认</td><td className='py-2'>省得不多，确定真想听再花</td></tr>
+            <tr><td className='py-2'>20 美元以上</td><td className='py-2'>credit</td><td className='py-2'>credit 的主场，常省 8–14 美元</td></tr>
+            <tr><td className='py-2'>长篇系列</td><td className='py-2'>每卷一个 credit</td><td className='py-2'>单位会员年省钱最多</td></tr>
+          </tbody>
+        </table>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>让 credit 更耐用的五个习惯</h3>
+
+        <ul className='list-disc pl-6 space-y-2'>
+          <li>先攒心愿单再花 credit。冲动下单的后悔率全平台最高。</li>
+          <li>拿免费内含目录当过滤器。先免费听，听进去了才给这个作者或系列花 credit。</li>
+          <li>每次购买前看一眼对比页，同一本书在别的店经常更便宜，这会改变 credit 与现金的选择。</li>
+          <li>留一个 credit 当机动额度，新书上市那周随时能开。</li>
+          <li>促销和 credit 搭着用，而不是二选一：6.99 美元的促销刷卡，credit 留给真正想要的 25 美元。</li>
+        </ul>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>三种最常见的浪费</h3>
+
+        <p>
+          一是「额度在烧手」式清仓：credit 奖励的是耐心不是急迫，攥着不花没有任何成本。二是把 credit 花在便宜短经典上，就是上面表格里的现金区。三是额度月月滚存，然后在取消会员时一并作废，这是最贵的一种浪费，因为退订后未用的 credit 直接没收。余额一直涨的话，看<a href="/blog/how-to-spend-audible-credits-before-expiry">credit 清尾指南</a>；选错了书还有没有救，看<a href="/blog/audible-return-refund-policy">退订与退款政策指南</a>。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>什么时候现金更划算</h3>
+
+        <p>
+          三种情况：标价不高于 14.95 美元；商店深度促销把现金价压到 credit 价值以下；或者你是 Premium Plus 会员又在买短书，会员折扣会进一步拉开差距。这不意味着什么都刷卡，而是 credit 负责目录里贵的那一半，现金负责便宜的那一半。做个简单审计：打开购买记录，对照上表看最近十本，数一数有多少个 credit 花在了十五美元以下。多数人会找到一两笔，那就是白送出去的一两本书。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p><strong>一个 Audible credit 值多少钱？</strong>标准折算约 14.95 美元。月付套餐单枚成本略高，标价大约 15 美元以上的书才是 credit 省得最多的区间。</p>
+        <p><strong>credit 会过期吗？</strong>会员有效期内存续。取消会员时未用的 credit 一并失效，退订前先清尾。单独购买的 credit 包有自己的更短有效期。</p>
+        <p><strong>促销书该用 credit 吗？</strong>多数不该。6.99 美元的促销刷卡等于扔掉一半以上价值，credit 留给原价和小折扣书。</p>
+        <p><strong>没有会员能单独买 credit 吗？</strong>不能。会员可以从账户页加购 credit 包，单价接近套餐价；非会员没有单独购买入口。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+
+        <p>
+          我们替你试听，帮你不浪费积分。从 <a href="/">getcreditworth.com</a> 开始，把任何一本书放进<a href="/calculator">积分计算器</a>里算一算，再到<a href="/blog">博客</a>把定价、套餐和价值的话题读全。每一笔花对的 credit，都是一本真正听完的书。
+        </p>
+      </>
+    ),
+  },
+
+  'audible-credits-expiring': {
+    slug: 'audible-credits-expiring',
+    title: 'Audible Credits Expiring? How to Stop Losing Money',
+    description: 'Do Audible credits expire? How membership credits, credit bundles and cancellations treat your balance in 2026, where to check the rules, and the steps that stop credits from going to waste.',
+    keywords: ['do audible credits expire', 'audible credit expiration', 'audible credits rollover', 'audible credits expiring', 'do audible credits roll over', 'audible credit bundle expiration', 'what happens to audible credits if i cancel', 'check audible credit balance'],
+    date: '2026-11-08',
+    readTime: '7 min read',
+    category: 'Guide',
+    faq: [
+      {
+        question: 'Do Audible credits expire?',
+        answer: 'Credits issued by an active membership stay valid as long as the membership remains active. They do not reset monthly in the way many people expect, but they do disappear if you cancel the membership.',
+      },
+      {
+        question: 'What happens to credits when you cancel Audible?',
+        answer: 'Unused membership credits are forfeited when the membership ends, including at the end of a paused or cancelled plan. Spend down before you cancel, or contact support quickly if you cancelled by mistake.',
+      },
+      {
+        question: 'Do purchased credit bundles expire?',
+        answer: 'Yes. Credit bundles bought separately from a membership carry their own expiry window, commonly around twelve months from purchase. Check the bundle details on your account page for the exact date.',
+      },
+      {
+        question: 'Can I get expired credits back?',
+        answer: 'Sometimes. Support restores credits in genuine mistake cases, especially recent cancellations, but there is no guarantee. The reliable fix is prevention: keep a buffer of one credit and audit your balance each month.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          Do Audible credits expire is a question worth answering before your balance gets
+          large, because the answer is less forgiving than most people assume. Membership credits
+          survive month to month while you stay subscribed, but cancellation takes every unused
+          credit with it, and separately purchased bundles run on their own clock. Here is how
+          the rules work in 2026, where to check them for your own account, and the handful of
+          habits that stop credits from quietly going to zero.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>How the credit rules actually work</h2>
+
+        <p>
+          Audible has run the same broad structure for years, and it is easiest to understand as
+          three separate buckets rather than one balance:
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Credit source</th>
+              <th className='text-left py-2'>While you are a member</th>
+              <th className='text-left py-2'>If membership ends</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Monthly / annual plan credits</td><td className='py-2'>Valid, they roll over month to month</td><td className='py-2'>Forfeited at cancellation</td></tr>
+            <tr><td className='py-2'>Purchased credit bundles</td><td className='py-2'>Valid until the bundle window closes</td><td className='py-2'>Bundle rules apply, window still runs</td></tr>
+            <tr><td className='py-2'>Promotional credits</td><td className='py-2'>Valid until their stated date</td><td className='py-2'>Usually forfeited, offer specific</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          The rollover part surprises people in a good way: credits from a monthly plan do not
+          vanish at each billing date, they accumulate. The cancellation part surprises people in
+          a bad way: quit the plan and everything unspent goes with it. Policies shift over time
+          and vary by store region, so treat this table as the shape of the rules and confirm the
+          details on your own membership page before acting on them.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Where to check your balance and dates</h2>
+
+        <p>
+          Your account page shows the current credit count, and tapping the credit detail line
+          reveals where each credit came from, which matters because plan credits and bundle
+          credits follow different clocks. Two minutes once a month is enough: look at the
+          balance, look at any bundle expiry dates, and glance at the membership status. If you
+          are on an annual plan, also note the renewal month, since that is when a year of
+          credits lands at once and the pile gets big enough that losing track becomes easy.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>The cancellation trap</h2>
+
+        <p>
+          Most lost credits are not lost to expiry at all, they are lost to cancellation. The
+          pattern is common: balance piles up during a busy stretch, listening slows, the
+          subscription feels wasteful, you cancel, and six credits disappear in one click. The
+          fix is an order of operations, not willpower:
+        </p>
+
+        <ul className='list-disc pl-6 space-y-2'>
+          <li>Before cancelling, spend down on wish list titles you were always going to buy, starting with the most expensive ones since credits earn the most there.</li>
+          <li>If listening slowed but you still listen at all, pause or downgrade the plan instead of cancelling, which keeps existing credits alive.</li>
+          <li>If you cancelled and realized the mistake quickly, contact support the same week; recent cancellations are the cases where restoration is realistic.</li>
+          <li>Keep a one credit buffer permanently so a balance never grows past the point where cancelling feels expensive.</li>
+        </ul>
+
+        <p>
+          For the refund side of bad purchases rather than the credit side, the
+          <a href="/blog/audible-return-refund-policy"> return and refund policy guide</a> covers
+          what can be returned and when.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Stopping the slow leak</h2>
+
+        <p>
+          A balance that only ever grows is a balance heading for the cancellation trap, so give
+          it a scheduled outlet. Once a month, pick the highest priced book on your wish list and
+          spend one credit on it, regardless of how busy the month is. Ten minutes of listening
+          that day is enough to confirm the pick was right, and the return policy exists for the
+          times it was not. Our guide on
+          <a href="/blog/how-to-spend-audible-credits-before-expiry"> spending credits down</a>
+          has the full playbook, and the
+          <a href="/blog/how-much-is-audible-credit-worth-2026"> credit worth breakdown</a> is a
+          useful reminder of what each unspent credit actually represents: about $14.95 of
+          listening, every time.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+
+        <p>
+          We test audiobooks so you do not waste a credit. Start on
+          <a href="/">getcreditworth.com</a>, check what any title is worth on the
+          <a href="/calculator"> credit value calculator</a>, and read
+          <a href="/blog"> the blog</a> before your next renewal. A credit spent on a book you
+          finish never expires, whatever the policy says.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Audible credit 会过期吗？别再白白亏钱</h3>
+
+        <p>
+          「Audible credit 会过期吗」这个问题要在余额变大之前搞清楚，因为答案比多数人以为的更不宽容：会员身份存续期间，套餐 credit 会逐月滚存；可一旦取消会员，所有没花掉的 credit 一起没收；单独购买的 credit 包则走自己的倒计时。这篇讲 2026 年的规则形状、去哪里核对自己账户的情况，以及几个防止额度悄悄归零的习惯。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>规则的三个池子</h3>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>credit 来源</th>
+              <th className='text-left py-2'>会员有效期内</th>
+              <th className='text-left py-2'>会员结束后</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>月付 / 年付套餐 credit</td><td className='py-2'>有效，逐月滚存</td><td className='py-2'>取消时没收</td></tr>
+            <tr><td className='py-2'>单独购买的 credit 包</td><td className='py-2'>在窗口期内有效</td><td className='py-2'>包规则照旧，倒计时不停</td></tr>
+            <tr><td className='py-2'>促销赠送 credit</td><td className='py-2'>按活动标注日期有效</td><td className='py-2'>通常没收，看活动条款</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          滚存这点让人安心：月付的 credit 不会在每个账单日清零，而是累积。取消这点让人心凉：退出套餐，没花的一并带走。政策会随时间和地区调整，所以把这张表当作规则形状，动手之前先在自己的会员页核对细节。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>去哪里查余额和日期</h3>
+
+        <p>
+          账户页显示当前 credit 数量，点进 credit 明细能看到每一枚的来源，这很重要，因为套餐 credit 和 credit 包走的不是同一口钟。每月花两分钟就够：看余额、看 credit 包的到期日、看会员状态。年付用户还要留意续费月份，那是十二枚 credit 一次性落账的时候，也是最容易数不清的时候。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>取消会员的坑</h3>
+
+        <p>
+          多数 credit 不是死于过期，而是死于取消。常见剧本：忙起来听书少了，余额越攒越多，订阅显得浪费，手一滑点了退订，六枚 credit 一次清空。解法是操作顺序，不是意志力：退订前先把心愿单里最贵的几本用 credit 清掉；听书少了但还听，就暂停或降档，保住存量 credit；刚取消就后悔，当周联系客服，近期案例才现实地有机会恢复；平时永久保留一枚机动 credit，让余额永远别涨到「退订好心疼」的程度。买错了书想退，看<a href="/blog/audible-return-refund-policy">退订与退款政策指南</a>。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>堵住慢性漏水</h3>
+
+        <p>
+          只涨不跌的余额就是在走向取消的坑，给它安排一个固定出口：每月从心愿单挑标价最高的一本，雷打不动花掉一枚 credit。当天听十分钟确认选得对，选错了还有退货政策兜底。完整打法见<a href="/blog/how-to-spend-audible-credits-before-expiry">credit 清尾指南</a>，而<a href="/blog/how-much-is-audible-credit-worth-2026">credit 价值拆解</a>能提醒你：每一枚没花掉的 credit，都是大约 14.95 美元的听书额度。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>常见问题</h3>
+        <p><strong>Audible credit 会过期吗？</strong>有效会员的套餐 credit 不过期，逐月滚存；取消会员时全部未用 credit 失效。</p>
+        <p><strong>取消 Audible 后 credit 怎么办？</strong>一并没收，包括暂停中的套餐。退订前先清尾；误操作就尽快联系客服。</p>
+        <p><strong>单独购买的 credit 包会过期吗？</strong>会。常见窗口是购买后约十二个月，准确日期在账户页的 credit 包详情里。</p>
+        <p><strong>过期的 credit 能找回吗？</strong>偶尔可以。真实误操作的近期案例，客服有恢复先例，但没有保证；可靠的方案是预防。</p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>关于 getcreditworth.com</h3>
+
+        <p>
+          我们替你试听，帮你不浪费积分。从 <a href="/">getcreditworth.com</a> 开始，在<a href="/calculator">积分计算器</a>里看看任何一本书值不值这个价，续费前再到<a href="/blog">博客</a>读一读。花在能听完的书上的 credit，永远不会过期。
+        </p>
+      </>
+    ),
+  },
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
