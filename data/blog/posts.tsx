@@ -17620,6 +17620,443 @@ const POSTS: Record<string, BlogPostData> = {
       </>
     ),
   },
+  'audible-free-trial-credit': {
+    slug: 'audible-free-trial-credit',
+    title: 'Can You Buy an Audiobook with a Credit After Free Trial? (2026 Answer)',
+    description: 'Can you buy an audiobook with a credit after your Audible free trial? How audible trial credits work during the 30-day window, what happens to unused trial credits when the trial ends, and how to spend them without losing money.',
+    keywords: ['audible free trial credit', 'can you buy an audiobook with a credit after free trial', 'audible trial credits', 'use credit after trial', 'do trial credits expire audible', 'audible free trial 2 credits', 'what happens to audible credits after trial ends', 'audible trial credit rules'],
+    date: '2026-11-11',
+    readTime: '6 min read',
+    category: 'Guide',
+    faq: [
+      {
+        question: 'Can you buy an audiobook with a credit during the Audible free trial?',
+        answer: 'Yes. Trial credits work exactly like regular membership credits at checkout. Open any audiobook, choose the "Buy with 1 Credit" option, and the trial credit is spent instead of cash. The book lands in your library permanently.',
+      },
+      {
+        question: 'What happens to unused trial credits when the free trial ends?',
+        answer: 'If the trial converts into a paid membership, the credits roll over and stay usable. If you cancel before the trial ends, any unspent trial credits are forfeited along with the membership. Spend them first, cancel second.',
+      },
+      {
+        question: 'Do trial credits expire before the trial is over?',
+        answer: 'No. Trial credits stay valid for the full trial window, usually 30 days. There is no earlier expiry inside the trial, so you have the whole month to pick a book worth spending one on.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          Can you buy an audiobook with a credit after free trial? The short answer: during the
+          trial, yes, and the audible free trial credit in your account behaves just like a
+          regular membership credit at checkout. The part people get wrong is what happens at the
+          end of the trial, because unused credits follow two completely different paths depending
+          on whether you keep the subscription or cancel it. Here is how trial credits work in
+          2026, and how to make sure none of them disappear on you.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What your audible trial credits actually are</h2>
+
+        <p>
+          A standard Audible free trial includes one credit, and seasonal promotions often bump
+          that to two. These are real credits, not vouchers or placeholders: you can open any
+          audiobook in the store, pick the credit option at checkout, and the title is yours
+          forever, trial or no trial. The only thing special about them is where they came from.
+          Audible does not label them differently in your account, does not restrict which books
+          they work on, and does not make you wait until you are a paying member to use them.
+        </p>
+
+        <p>
+          If you are still deciding whether to start one, the walkthrough in our
+          <a href="/blog/how-to-get-a-free-30-day-audible-trial"> 30-day free trial guide</a>
+          covers how to sign up and what to expect on day one.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Buying a book with a trial credit</h2>
+
+        <p>
+          The checkout flow is identical whether the credit came from a trial or a paid month:
+          find the title, press "Buy now with 1 Credit," confirm, done. To keep the comparison
+          simple, here is how trial credits line up against ordinary plan credits:
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Aspect</th>
+              <th className='text-left py-2'>Trial credit</th>
+              <th className='text-left py-2'>Regular plan credit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Works on any audiobook</td><td className='py-2'>Yes</td><td className='py-2'>Yes</td></tr>
+            <tr><td className='py-2'>Book stays yours after purchase</td><td className='py-2'>Yes, permanently</td><td className='py-2'>Yes, permanently</td></tr>
+            <tr><td className='py-2'>Rolls over if you keep the membership</td><td className='py-2'>Yes</td><td className='py-2'>Yes</td></tr>
+            <tr><td className='py-2'>Survives cancellation</td><td className='py-2'>No, unspent credits are forfeited</td><td className='py-2'>No, unspent credits are forfeited</td></tr>
+            <tr><td className='py-2'>Typical quantity</td><td className='py-2'>1, sometimes 2 on promotion</td><td className='py-2'>1 per month (more on annual plans)</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          One practical tip: spend a trial credit on an expensive book. A credit is worth the same
+          everywhere, but the savings are biggest on titles that cost well above the monthly fee.
+          Our
+          <a href="/blog/how-much-is-audible-credit-worth-2026"> credit worth breakdown</a> puts
+          the average value near $14.95, so a $25 audiobook is where a trial credit earns its
+          keep.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What happens when the trial ends</h2>
+
+        <p>
+          Two endings, two outcomes. If you do nothing and the trial converts to a paid
+          membership, your unused credits simply continue; they sit in the same balance and roll
+          over month to month like any other credit. If you cancel instead, Audible treats trial
+          credits like membership credits: unspent ones are forfeited when the membership ends.
+          Books you already redeemed stay in your library either way, which is the part that
+          matters most. The cancellation mechanics, including how to keep your library intact, are
+          covered step by step in
+          <a href="/blog/how-to-cancel-audible-and-keep-your-books"> our cancel-and-keep guide</a>.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Common ways people lose trial credits</h2>
+
+        <p>
+          Most trial-credit losses come from timing, not from rules people did not know. The
+          usual patterns:
+        </p>
+
+        <ul className='list-disc pl-6 space-y-2'>
+          <li>Signing up, forgetting about the trial, and letting the last days pass with the credit still unspent, then canceling in the same session.</li>
+          <li>Waiting for the perfect book instead of spending the credit on a wish list title that was already worth it.</li>
+          <li>Assuming trial credits are fake or restricted and paying cash for a book the credit could have covered.</li>
+          <li>Closing the account before checking the balance, then contacting support after the credits were already gone.</li>
+        </ul>
+
+        <p>
+          The fix is an order of operations: pick a book, spend the credit, then decide whether
+          the membership itself is worth continuing. Decide in that order and there is nothing to
+          lose.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+
+        <p>
+          We test audiobooks so you never waste a credit, trial or otherwise. Compare plans on
+          our <a href="/compare"> service comparison page</a>, estimate what any title is worth on
+          the <a href="/calculator"> credit value calculator</a>, and browse
+          <a href="/blog"> the blog</a> for more credit guides. A credit spent on a book you
+          actually finish is the one purchase Audible never lets you regret.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>Audible 免费试听的 credit 能用来买有声书吗？（2026 答案）</h3>
+
+        <p>
+          可以。免费试听期间，账户里的 audible free trial credit 和正式会员的 credit 在结算时完全一样：打开任意有声书，选「用 1 个 credit 购买」，书就永久进入你的图书馆，试听结束后也依然是你的。真正容易出错的是试听结束时那段：credit 没花掉，去留取决于你是否继续付费会员。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>试听 credit 和正式 credit 的区别</h3>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>对比项</th>
+              <th className='text-left py-2'>试听 credit</th>
+              <th className='text-left py-2'>正式会员 credit</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>任何有声书都能用</td><td className='py-2'>是</td><td className='py-2'>是</td></tr>
+            <tr><td className='py-2'>买下的书永久保留</td><td className='py-2'>是</td><td className='py-2'>是</td></tr>
+            <tr><td className='py-2'>转正后是否滚存</td><td className='py-2'>是</td><td className='py-2'>是</td></tr>
+            <tr><td className='py-2'>取消会员后是否保留</td><td className='py-2'>否，未用额度没收</td><td className='py-2'>否，未用额度没收</td></tr>
+          </tbody>
+        </table>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>试听结束时的两种结局</h3>
+
+        <p>
+          什么都不做，试听自动转为付费会员：没用完的 credit 原样保留，逐月滚存。在试听期内取消：未花掉的试听 credit 随会员一起作废，已兑换的书不受影响。所以正确顺序是先挑一本想听的书把 credit 花掉，再决定要不要续费。想退订的细节可以看站内的取消保留指南，想算一笔 credit 到底值多少钱，用首页的 credit 价值计算器最直接。
+        </p>
+      </>
+    ),
+  },
+
+  'keep-audible-books-after-canceling': {
+    slug: 'keep-audible-books-after-canceling',
+    title: 'Do You Keep Audible Books After Canceling? What Happens to Your Library in 2026',
+    description: 'Do you keep audible books after canceling your membership? What stays in your library, what disappears, what happens to unused credits and Plus catalog titles, and the five-minute audit to run before you cancel.',
+    keywords: ['keep audible books after cancel', 'do you keep audible books after canceling', 'audible books after membership ends', 'what happens to my audible books if i cancel', 'audible cancel keep books', 'do i lose my audible library if i cancel', 'audible credits after cancellation', 'audible plus catalog after canceling'],
+    date: '2026-11-11',
+    readTime: '7 min read',
+    category: 'Guide',
+    faq: [
+      {
+        question: 'Do you keep books bought with credits after canceling Audible?',
+        answer: 'Yes. Any title you redeemed with a credit or purchased with cash stays in your library permanently, whether you pause, cancel, or never come back. You can stream or download them again anytime with a free Audible account.',
+      },
+      {
+        question: 'Do you keep Audible Plus catalog books after canceling?',
+        answer: 'No. Plus catalog titles are borrowed, not owned. When the membership ends, access to the catalog stops and those titles leave your library. Only books you redeemed or purchased outright survive cancellation.',
+      },
+      {
+        question: 'What happens to unused credits when you cancel Audible?',
+        answer: 'Unspent membership credits are forfeited when the membership ends, including trial credits. Spend them down before canceling, or pause or downgrade the plan instead, which keeps the existing balance alive.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          Do you keep audible books after cancel? This is the question that stops half of the
+          cancellations we hear about, and the answer is friendlier than most people expect:
+          books you redeemed with a credit or bought with cash are yours forever, membership or
+          not. What does not survive is a different set of things entirely, namely unspent
+          credits and the Plus catalog. Knowing exactly which is which turns a scary cancellation
+          into a routine one, so here is the full picture for 2026.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What you keep and what you lose</h2>
+
+        <p>
+          The rules split cleanly into owned content and borrowed content. Audible itself
+          confirms that titles you purchase are yours to keep regardless of membership status:
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Content type</th>
+              <th className='text-left py-2'>After canceling</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Books bought with credits</td><td className='py-2'>Keep, forever</td></tr>
+            <tr><td className='py-2'>Books bought with cash</td><td className='py-2'>Keep, forever</td></tr>
+            <tr><td className='py-2'>Free or promotional titles you redeemed</td><td className='py-2'>Keep, forever</td></tr>
+            <tr><td className='py-2'>Podcasts and Audible Originals you added</td><td className='py-2'>Usually keep, varies by title</td></tr>
+            <tr><td className='py-2'>Audible Plus catalog titles</td><td className='py-2'>Lost, access ends with membership</td></tr>
+            <tr><td className='py-2'>Unspent credits</td><td className='py-2'>Lost, forfeited at cancellation</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          The one nuance worth knowing: audible books after membership ends remain playable in
+          the app even without a paid plan, because Audible keeps your library attached to your
+          free account. You sign in, your purchases are there, you press play. No repurchase, no
+          re-download panic required.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Why purchased books stay yours</h2>
+
+        <p>
+          When you spend a credit or pay cash, you are buying a perpetual license to that
+          audiobook, not renting it. The purchase record sits on your account, not on your
+          subscription, so ending the subscription does not touch it. This holds even if you
+          cancel on day one of a billing cycle or let a plan lapse for years. The
+          <a href="/blog/how-to-cancel-audible-and-keep-your-books"> cancel-and-keep walkthrough</a>
+          covers the actual clicks if you want the short version, and if a purchase ever goes
+          wrong before you cancel, the
+          <a href="/blog/audible-return-refund-policy"> return and refund policy guide</a>
+          explains what can still be exchanged.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>The two things that do not survive cancellation</h2>
+
+        <p>
+          First, unused credits. Every unspent membership credit, including the ones from a free
+          trial, is forfeited when the plan ends. Our
+          <a href="/blog/audible-credits-expiring"> credits expiring guide</a> walks through the
+          exact mechanics and the spend-down order that saves the most money. Second, the Plus
+          catalog. Titles you were listening to through the all-you-can-listen catalog are
+          borrowed, and borrowed means the door closes when the membership does. If a Plus
+          favorite matters to you, buy it with a credit before you cancel and it becomes a
+          permanent resident of your library. The trade-offs between the two models are compared
+          in
+          <a href="/blog/audible-plus-catalog-vs-credits"> Plus catalog versus credits</a>.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>A five-minute library audit before you cancel</h2>
+
+        <p>
+          Run this checklist in order and nothing gets left behind:
+        </p>
+
+        <ul className='list-disc pl-6 space-y-2'>
+          <li>Open your library and filter by purchased titles; confirm the books you care about are all there.</li>
+          <li>Check your credit balance and spend down on the priciest wish list titles first.</li>
+          <li>Browse the Plus catalog section and buy any borrowed favorite you would miss.</li>
+          <li>Download offline copies of anything you plan to listen to in the next month, so playback never depends on connectivity.</li>
+          <li>Note the billing date, then cancel after the spend-down, not before.</li>
+        </ul>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+
+        <p>
+          We test audiobooks so you never waste a credit. If the reason for canceling is value
+          rather than listening habit, compare the plans side by side on our
+          <a href="/compare"> comparison page</a> or run the numbers on the
+          <a href="/calculator"> credit value calculator</a> first. Half the time the cheaper fix
+          is a plan change, not a cancellation, and your credits stay alive.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>取消 Audible 会员后，买过的书还在吗？（2026）</h3>
+
+        <p>
+          在。用 credit 兑换或现金购买的有声书是永久买断，会员取消后依然留在图书馆里，登录免费账户就能继续收听或重新下载。这是 Audible 官方确认过的规则：购买记录挂在账户上，不挂在订阅上。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>哪些东西会跟着会员一起消失</h3>
+
+        <p>
+          两样：没用完的 credit，和 Plus 目录里的书。未花费的会员 credit（包括试听 credit）在会员结束时一并作废，所以取消前先把余额花在最贵的想听书上；Plus 目录是「借阅制」，会员一停，目录书就退出图书馆，特别喜欢的就先用 credit 买断再退订。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>取消前五分钟检查清单</h3>
+
+        <p>
+          按顺序做：① 确认已购书都在图书馆里；② 查 credit 余额，先花在价格最高的书；③ 把 Plus 目录里舍不得的书买断；④ 给近一个月要听的内容下载离线副本；⑤ 花完再退订。退订流程细节看站内的取消保留指南，退订前若觉得会员只是太贵，先去对比页看看换个套餐是不是更划算。
+        </p>
+      </>
+    ),
+  },
+
+  'how-many-audible-credits-do-i-have': {
+    slug: 'how-many-audible-credits-do-i-have',
+    title: 'How to See How Many Audible Credits You Have (2026)',
+    description: 'How many audible credits do i have? Where the balance shows on the Audible website and mobile app, what the number includes and leaves out, and why to check it before you renew, pause or cancel.',
+    keywords: ['how many audible credits do i have', 'check audible credits', 'audible credits balance', 'how to check audible credit balance', 'where to see audible credits', 'audible credit count app', 'audible credits not showing', 'audible remaining credits'],
+    date: '2026-11-11',
+    readTime: '5 min read',
+    category: 'Guide',
+    faq: [
+      {
+        question: 'Where do I see how many Audible credits I have left?',
+        answer: 'On the website, sign in and look at the top of the page next to your account name, or open Account Details. In the mobile app, the credit count sits at the top of the Home screen. Both places show the same live balance.',
+      },
+      {
+        question: 'Why does my Audible credit count look wrong?',
+        answer: 'Usually one of three things: a credit was just spent and the app has not refreshed yet, an annual plan credit has not landed yet, or part of the balance is an expiring promotional credit. Pull to refresh, check Account Details, and compare with your purchase history.',
+      },
+      {
+        question: 'Do unused credits show an expiry date anywhere?',
+        answer: 'Membership credits do not expire while the plan is active, so no date is shown for them. Purchased credit bundles and promotional credits do carry windows, and the fine print for those appears in your account details under membership and purchases.',
+      },
+    ],
+    content: (
+      <>
+        <p>
+          How many audible credits do i have? It takes about ten seconds to answer once you know
+          where Audible hides the number, and checking it is worth building into a monthly
+          habit: the balance drives when to spend, when to pause, and when a cancel would cost
+          you money. This guide shows every place the credit count appears on the website and in
+          the app in 2026, what the number actually includes, and the quick checks that explain
+          a count that looks off.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Check your balance on the Audible website</h2>
+
+        <p>
+          The fastest route on desktop:
+        </p>
+
+        <ol className='list-decimal pl-6 space-y-2'>
+          <li>Sign in at audible.com and look at the top right of the page; the credit count sits next to your account name.</li>
+          <li>For detail, open the account menu and choose Account Details.</li>
+          <li>On the membership page, the current balance appears with your plan information, and tapping the credit line shows where each credit came from.</li>
+        </ol>
+
+        <p>
+          That last step matters more than most people realize, because plan credits, purchased
+          bundles, and promotional credits follow different rules. Our
+          <a href="/blog/audible-credits-expiring"> credits expiring guide</a> breaks down which
+          buckets survive a cancellation and which do not.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Check your credits in the mobile app</h2>
+
+        <p>
+          In the iOS or Android app, open the Home tab and the remaining credit count appears at
+          the top of the screen, above your library recommendations. Tapping it opens the same
+          membership detail page as the website. If the number looks stale, pull down to refresh
+          or force close and reopen the app; the app occasionally shows an old count right after
+          a purchase, while the website always reflects the live balance. That makes the website
+          the tiebreaker whenever the two disagree.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>What the credit number includes</h2>
+
+        <p>
+          The headline count lumps everything together, but the parts behave differently:
+        </p>
+
+        <table className='w-full text-sm'>
+          <thead>
+            <tr>
+              <th className='text-left py-2'>Credit source</th>
+              <th className='text-left py-2'>Counted in balance</th>
+              <th className='text-left py-2'>Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td className='py-2'>Monthly / annual plan credits</td><td className='py-2'>Yes</td><td className='py-2'>No expiry while the plan is active</td></tr>
+            <tr><td className='py-2'>Purchased credit bundles</td><td className='py-2'>Yes</td><td className='py-2'>Own expiry window, check the bundle fine print</td></tr>
+            <tr><td className='py-2'>Promotional credits</td><td className='py-2'>Yes</td><td className='py-2'>Usually a deadline attached</td></tr>
+            <tr><td className='py-2'>Pending refund credits</td><td className='py-2'>Sometimes delayed</td><td className='py-2'>Can take a moment to post to the balance</td></tr>
+            <tr><td className='py-2'>Credits from a paused plan</td><td className='py-2'>Usually frozen</td><td className='py-2'>Unspent credits pause with the membership</td></tr>
+          </tbody>
+        </table>
+
+        <p>
+          If you are on a 24-credit annual plan, the whole year lands at renewal, which is why
+          the balance can jump by double digits in one day. The
+          <a href="/blog/premium-plus-2-plan-review"> Premium Plus plan review</a> explains how
+          the annual credit drop compares with the monthly drip.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>Check before you renew, pause or cancel</h2>
+
+        <p>
+          The number is only useful if you act on it, and three moments reward a ten-second
+          check. Before renewal: a big balance means next month should be a heavy spending month,
+          not a new credit month. Before pausing: confirm what the pause does to the balance so
+          nothing lapses mid-pause. Before canceling: every unspent credit is forfeited, so the
+          balance tells you exactly how much money a cancellation burns. Our
+          <a href="/blog/how-to-use-audible-credits-wisely"> spend credits wisely guide</a> turns
+          that balance into a simple monthly routine.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>About getcreditworth.com</h2>
+
+        <p>
+          We test audiobooks so you never waste a credit. Once you know your balance, put it to
+          work: run the <a href="/calculator"> credit value calculator</a> to see what each
+          credit buys on your wish list, and browse <a href="/blog"> the blog</a> for more
+          credit guides. A checked balance is a spent balance, and a spent credit on a book you
+          finish is the best deal in audiobooks.
+        </p>
+
+        <h2 className='text-xl font-semibold text-text-primary mt-6 mb-3'>中文版</h2>
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>怎么看自己还有多少个 Audible credit（2026）</h3>
+
+        <p>
+          两个入口，十秒钟搞定。网页端：登录 audible.com，credit 余额直接显示在右上角账户名旁边；想看明细就进 Account Details 的会员页，点开 credit 那一行还能看到每个 credit 的来源。App 端：首页顶部就有剩余 credit 数，点进去是同一个会员详情页。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>数字看着不对怎么办</h3>
+
+        <p>
+          多数是三种情况：刚花的 credit 还没刷新（下拉刷新或重开 App，以网页端为准）；年付计划的 credit 还没到账；余额里混着带有效期的促销 credit。对照购买记录核对一遍基本都能对上。
+        </p>
+
+        <h3 className='text-lg font-semibold text-text-primary mt-4 mb-2'>什么时候必须查一次余额</h3>
+
+        <p>
+          三个节点：续费前（余额大就该多花少囤）、暂停前（确认暂停期间额度怎么处理）、取消前（没用完的 credit 会被没收，余额就是退订会烧掉的钱）。想把这个余额变成每月固定动作，参考站内的 credit 花法指南；想知道每个 credit 在你的书单上值多少钱，用首页的 credit 价值计算器算一下最直观。
+        </p>
+      </>
+    ),
+  },
+
 };
 
 export function getBlogPost(slug: string): BlogPostData | undefined {
