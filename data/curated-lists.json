@@ -109,7 +109,7 @@
       "B0DD4KMN16",
       "B08J8G7QF6"
     ],
-    "updatedAt": "2026-11-19"
+    "updatedAt": "2026-11-20"
   },
   {
     "slug": "best-history-audiobooks",
@@ -208,7 +208,7 @@
       "B082VK6Q8G",
       "B0CZPYM8Q4"
     ],
-    "updatedAt": "2026-11-19"
+    "updatedAt": "2026-11-20"
   },
   {
     "slug": "best-romance-audiobooks",
@@ -287,6 +287,7 @@
       "B0H278NV5Y",
       "B0FH79GB48",
       "B079YYJK47",
+      "B0HNZQN7F3",
       "B0G3XVBBQM",
       "B0H279ZNR9",
       "B09ZMK3T7G",
@@ -294,10 +295,9 @@
       "B0HK57CS9N",
       "B0DC8M7HL8",
       "B09312MBGR",
-      "B08RZDVD7R",
-      "B0F495ZX7T"
+      "B08RZDVD7R"
     ],
-    "updatedAt": "2026-11-19"
+    "updatedAt": "2026-11-20"
   },
   {
     "slug": "best-science-fiction-for-credits",
@@ -329,14 +329,14 @@
       "B0H278NV5Y",
       "B0FH79GB48",
       "B079YYJK47",
+      "B0HNZQN7F3",
       "B0H279ZNR9",
       "B09ZMK3T7G",
       "B0HG1FTMVR",
       "B07JCB9PM6",
-      "B0HK57CS9N",
-      "B0DC8M7HL8"
+      "B0HK57CS9N"
     ],
-    "updatedAt": "2026-11-19"
+    "updatedAt": "2026-11-20"
   },
   {
     "slug": "best-mystery-for-credits",
@@ -367,15 +367,15 @@
       "B09NQLZ741",
       "B0D9Y3YQHB",
       "B0BGJKP34L",
+      "B0HQFHK7CV",
+      "B0HPDX17DP",
       "B0C1KLQ3QS",
       "B0D75BN3W2",
       "B0D5TP5DPQ",
       "B0H5RK6P8J",
-      "B0H7G135SQ",
-      "B0C5YLDVBD",
-      "B0H49HDM9B"
+      "B0H7G135SQ"
     ],
-    "updatedAt": "2026-11-19"
+    "updatedAt": "2026-11-20"
   },
   {
     "slug": "best-romance-for-credits",
@@ -389,7 +389,9 @@
       "B0GQWFLNMG",
       "B0G3XVBBQM",
       "B0GDGJ7WVV",
+      "B0CY791W7Y",
       "B0DC8M7HL8",
+      "B08VW77QKZ",
       "B0F49DHHKK",
       "B09M4WM4DS",
       "B0061R8IP0",
@@ -404,17 +406,15 @@
       "B0GML6X11C",
       "B0H4MHDK69",
       "B0BXBJYZW5",
+      "B0HRGKX8BH",
       "B0H763S6CQ",
       "B0CS48YLC7",
+      "B0F8W8P5P8",
       "B0HJHPWD7W",
       "B0DWTPKQNK",
-      "B0F6DC48H6",
-      "B0HLG3W4BQ",
-      "B0FXDPGQH1",
-      "B0FTFDL6ZN",
-      "B002V08BS0"
+      "B0F6DC48H6"
     ],
-    "updatedAt": "2026-11-19"
+    "updatedAt": "2026-11-20"
   },
   {
     "slug": "best-history-for-credits",
@@ -453,7 +453,7 @@
       "B07LGFGPMJ",
       "B0HDRV67TJ"
     ],
-    "updatedAt": "2026-11-19"
+    "updatedAt": "2026-11-20"
   },
   {
     "slug": "best-biography-for-credits",
@@ -492,7 +492,7 @@
       "1474619754",
       "B08358R3T1"
     ],
-    "updatedAt": "2026-11-19"
+    "updatedAt": "2026-11-20"
   },
   {
     "slug": "best-business-for-credits",
@@ -531,7 +531,7 @@
       "B005V0QI82",
       "B075TDNBYW"
     ],
-    "updatedAt": "2026-11-19"
+    "updatedAt": "2026-11-20"
   },
   {
     "slug": "best-thriller-for-credits",
@@ -560,17 +560,17 @@
       "B09NQLZ741",
       "B0D9Y3YQHB",
       "B0BGJKP34L",
+      "B0HQFHK7CV",
+      "B0HPDX17DP",
       "B0C1KLQ3QS",
       "B0D75BN3W2",
       "B0D5TP5DPQ",
       "B0H5RK6P8J",
       "B0H7G135SQ",
       "B0C5YLDVBD",
-      "B005PMU12U",
-      "B0H49HDM9B",
-      "B0FCSRY7CN"
+      "B005PMU12U"
     ],
-    "updatedAt": "2026-11-19"
+    "updatedAt": "2026-11-20"
   },
   {
     "slug": "best-classic-for-credits",
@@ -609,6 +609,6 @@
       "B0FW6NVNQK",
       "B0FH5L9DZT"
     ],
-    "updatedAt": "2026-11-19"
+    "updatedAt": "2026-11-20"
   }
 ]
